@@ -1,0 +1,33 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "appliedenergistics2:crafting_monitor"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "appliedenergistics2:storage_monitor"
+    },
+    {
+      "item": "botania:terrasteel_ingot"
+    },
+    {
+      "item": "mekanism:alloy_reinforced"
+    },
+    {
+      "item": "appliedenergistics2:annihilation_core"
+    },
+    {
+      "item": "appliedenergistics2:crafting_unit"
+    },
+    {
+      "item": "appliedenergistics2:formation_core"
+    },
+    {
+      "item": "mekanism:advanced_control_circuit"
+    },
+    {
+      "item": "astralsorcery:starmetal_ingot"
+    }
+  ]
+}

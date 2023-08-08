@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "mekanism:solar_neutron_activator"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "mekanism:steel_casing"
+    },
+    {
+      "item": "mekanism:alloy_atomic"
+    },
+    {
+      "item": "mekanism:hdpe_sheet"
+    },
+    {
+      "item": "tconstruct:tinkers_bronze_ingot"
+    },
+    {
+      "item": "mekanism:alloy_reinforced"
+    },
+    {
+      "item": "tconstruct:tinkers_bronze_ingot"
+    },
+    {
+      "item": "mekanism:alloy_reinforced"
+    },
+    {
+      "item": "mekanism:hdpe_sheet"
+    },
+    {
+      "item": "mekanism:alloy_atomic"
+    },
+    {
+      "item": "mysticalagriculture:supremium_essence"
+    }
+  ]
+}

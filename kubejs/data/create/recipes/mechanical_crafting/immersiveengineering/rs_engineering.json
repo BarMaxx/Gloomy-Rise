@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " ACA ",
+    "AAPAA",
+    "CPSPC",
+    "AAPAA",
+    " ACA "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "create:electron_tube"
+    },
+    "A": {
+      "item": "immersiveengineering:sheetmetal_iron"
+    },
+    "C": {
+      "tag": "forge:ingots/copper"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:rs_engineering",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

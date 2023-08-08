@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "draconicevolution:chaotic_energy_core"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "draconicevolution:awakened_core"
+    },
+    {
+      "item": "draconicevolution:large_chaos_frag"
+    },
+    {
+      "item": "draconicevolution:draconic_energy_core"
+    },
+    {
+      "item": "draconicevolution:large_chaos_frag"
+    },
+    {
+      "item": "draconicevolution:draconic_energy_core"
+    },
+    {
+      "item": "appliedenergistics2:singularity"
+    },
+    {
+      "item": "draconicevolution:draconic_energy_core"
+    },
+    {
+      "item": "draconicevolution:large_chaos_frag"
+    },
+    {
+      "item": "draconicevolution:draconic_energy_core"
+    },
+    {
+      "item": "draconicevolution:large_chaos_frag"
+    }
+  ]
+}

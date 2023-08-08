@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "draconicevolution:grinder"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "draconicevolution:draconium_core"
+    },
+    {
+      "item": "immersiveengineering:sheetmetal_steel"
+    },
+    {
+      "item": "immersiveengineering:sheetmetal_steel"
+    },
+    {
+      "item": "mysticalagriculture:supremium_sword"
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    {
+      "item": "mysticalagriculture:supremium_furnace"
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    {
+      "item": "mysticalagriculture:supremium_sword"
+    },
+    {
+      "item": "immersiveengineering:sheetmetal_steel"
+    },
+    {
+      "item": "immersiveengineering:sheetmetal_steel"
+    }
+  ]
+}

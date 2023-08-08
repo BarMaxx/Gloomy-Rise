@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "draconicevolution:reactor_prt_focus_ring"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "draconicevolution:wyvern_core"
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "immersiveengineering:ingot_electrum"
+    },
+    {
+      "item": "draconicevolution:wyvern_core"
+    },
+    {
+      "item": "mekanism:teleportation_core"
+    },
+    {
+      "item": "appliedenergistics2:singularity"
+    },
+    {
+      "item": "mekanism:teleportation_core"
+    },
+    {
+      "item": "draconicevolution:wyvern_core"
+    },
+    {
+      "item": "immersiveengineering:ingot_electrum"
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    }
+  ]
+}

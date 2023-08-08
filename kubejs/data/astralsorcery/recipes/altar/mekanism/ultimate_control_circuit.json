@@ -1,0 +1,50 @@
+{
+  "type": "astralsorcery:altar",
+  "altar_type": 2,
+  "duration": 400,
+  "starlight": 3200,
+  "pattern": [
+    "AB_BA",
+    "CADAC",
+    "_QEQ_",
+    "CADAC",
+    "AB_BA"
+  ],
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "botania:life_essence"
+    },
+    "C": {
+      "item": "bloodmagic:reagentsight"
+    },
+    "D": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "Q": {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    "E": {
+      "item": "mekanism:elite_control_circuit"
+    }
+  },
+  "recipe_class": "astralsorcery:trait_upgrade",
+  "output": [
+    {
+      "item": "mekanism:ultimate_control_circuit",
+      "count": 1
+    }
+  ],
+  "effects": [
+    "astralsorcery:built_in_effect_constellation_finish",
+    "astralsorcery:pillar_sparkle",
+    "astralsorcery:luminescence_flare",
+    "astralsorcery:built_in_effect_discovery_central_beam",
+    "astralsorcery:upgrade_altar",
+    "astralsorcery:altar_default_sparkle",
+    "astralsorcery:built_in_effect_constellation_lines",
+    "astralsorcery:built_in_effect_attunement_sparkle"
+  ]
+}

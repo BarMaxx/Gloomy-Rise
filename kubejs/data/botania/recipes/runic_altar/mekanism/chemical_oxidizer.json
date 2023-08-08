@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "mekanism:chemical_oxidizer"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "mekanism:personal_chest"
+    },
+    {
+      "item": "mekanism:ingot_osmium"
+    },
+    {
+      "item": "mekanism:basic_chemical_tank"
+    },
+    {
+      "item": "mekanism:basic_control_circuit"
+    },
+    {
+      "item": "mekanism:alloy_infused"
+    },
+    {
+      "item": "mekanism:dynamic_tank"
+    },
+    {
+      "item": "mekanism:alloy_infused"
+    },
+    {
+      "item": "mekanism:basic_control_circuit"
+    },
+    {
+      "item": "mekanism:ingot_osmium"
+    },
+    {
+      "item": "mekanism:basic_chemical_tank"
+    }
+  ]
+}

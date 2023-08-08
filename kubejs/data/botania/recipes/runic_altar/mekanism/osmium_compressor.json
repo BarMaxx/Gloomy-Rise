@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "mekanism:osmium_compressor"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "industrialforegoing:machine_frame_simple"
+    },
+    {
+      "item": "mekanism:ingot_osmium"
+    },
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "mekanism:advanced_control_circuit"
+    },
+    {
+      "item": "mekanism:alloy_infused"
+    },
+    {
+      "item": "mekanism:steel_casing"
+    },
+    {
+      "item": "mekanism:alloy_infused"
+    },
+    {
+      "item": "mekanism:advanced_control_circuit"
+    },
+    {
+      "item": "mekanism:ingot_osmium"
+    },
+    {
+      "item": "minecraft:bucket"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+	id: "7A2A4A51349DA7FE"
+	group: "6E7449445FFC34C5"
+	order_index: 1
+	filename: "danks"
+	title: "&3Dank Storage"
+	icon: "dankstorage:dank_1"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Настало время для склада!"
+			description: ["Очень большое хранилище!"]
+			dependencies: ["114FD26AF2B063E3"]
+			hide: true
+			id: "05A862D8A5E850E7"
+			tasks: [{
+				id: "6590DA6F5213D922"
+				type: "item"
+				item: "dankstorage:dank_1"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			description: ["Очень большое хранилище!"]
+			dependencies: ["05A862D8A5E850E7"]
+			id: "3967978ED15B933D"
+			tasks: [{
+				id: "5A4CC746CA13A3D8"
+				type: "item"
+				item: "dankstorage:dank_2"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			description: ["Очень большое хранилище!"]
+			dependencies: ["3967978ED15B933D"]
+			id: "37BBC80534CFD889"
+			tasks: [{
+				id: "5FCB9BA76547F583"
+				type: "item"
+				item: "dankstorage:dank_3"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			description: ["Очень большое хранилище!"]
+			dependencies: ["37BBC80534CFD889"]
+			id: "21A0E855E6877256"
+			tasks: [{
+				id: "7986D2E7C0D2EE59"
+				type: "item"
+				item: "dankstorage:dank_4"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			description: ["Очень большое хранилище!"]
+			dependencies: ["21A0E855E6877256"]
+			id: "16A28626204D179A"
+			tasks: [{
+				id: "24D66338DD4519C8"
+				type: "item"
+				item: "dankstorage:dank_5"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			description: ["Очень большое хранилище!"]
+			dependencies: ["16A28626204D179A"]
+			id: "1C852A13A6F6E437"
+			tasks: [{
+				id: "53C096009A4EB602"
+				type: "item"
+				item: "dankstorage:dank_6"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			description: ["Очень большое хранилище!"]
+			dependencies: ["1C852A13A6F6E437"]
+			id: "03CBB34EE8FFE82F"
+			tasks: [{
+				id: "1DA1AD4D02A14AB1"
+				type: "item"
+				item: "dankstorage:dank_7"
+			}]
+		}
+	]
+}

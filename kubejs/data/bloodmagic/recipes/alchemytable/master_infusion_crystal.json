@@ -1,0 +1,26 @@
+{
+  "type": "bloodmagic:alchemytable",
+  "input": [
+    {
+      "item": "evilcraft:dark_power_gem"
+    },
+    {
+      "item": "extrabotany:orichalcos"
+    },
+    {
+      "item": "mysticalagriculture:supremium_gemstone"
+    },
+    {
+      "item": "mysticalagriculture:supremium_essence"
+    },
+	{
+      "item": "mysticalagriculture:prosperity_shard"
+    }
+  ],
+  "output": {
+    "item": "mysticalagriculture:master_infusion_crystal"
+  },
+  "syphon": 2000,
+  "ticks": 400,
+  "upgradeLevel": 3
+}

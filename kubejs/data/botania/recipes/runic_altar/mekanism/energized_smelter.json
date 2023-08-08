@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "mekanism:energized_smelter"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "industrialforegoing:machine_frame_simple"
+    },
+    {
+      "item": "mekanism:ingot_osmium"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "mekanism:basic_control_circuit"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "mekanism:steel_casing"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "mekanism:basic_control_circuit"
+    },
+    {
+      "item": "mekanism:ingot_osmium"
+    },
+    {
+      "item": "minecraft:glass"
+    }
+  ]
+}

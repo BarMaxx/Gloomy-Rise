@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "appliedenergistics2:dense_energy_cell"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "appliedenergistics2:energy_cell"
+    },
+    {
+      "item": "botania:terrasteel_ingot"
+    },
+    {
+      "item": "appliedenergistics2:energy_cell"
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    {
+      "item": "appliedenergistics2:energy_cell"
+    },
+    {
+      "item": "mekanism:energy_tablet"
+    },
+    {
+      "item": "appliedenergistics2:energy_cell"
+    },
+    {
+      "item": "industrialforegoing:plastic"
+    },
+    {
+      "item": "appliedenergistics2:energy_cell"
+    },
+    {
+      "item": "mekanism:alloy_atomic"
+    }
+  ]
+}

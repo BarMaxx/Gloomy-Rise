@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "mekanism:robit"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "mekanism:steel_casing"
+    },
+    {
+      "item": "mysticalagriculture:supremium_essence"
+    },
+    {
+      "item": "mekanism:elite_control_circuit"
+    },
+    {
+      "item": "mekanism:alloy_atomic"
+    },
+    {
+      "item": "mekanism:energy_tablet"
+    },
+    {
+      "item": "mekanism:personal_chest"
+    },
+    {
+      "item": "mekanism:energy_tablet"
+    },
+    {
+      "item": "mekanism:alloy_atomic"
+    },
+    {
+      "item": "mekanism:ingot_refined_obsidian"
+    },
+    {
+      "item": "mekanism:basic_control_circuit"
+    }
+  ]
+}

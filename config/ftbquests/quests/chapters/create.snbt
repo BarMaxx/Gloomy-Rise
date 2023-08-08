@@ -1,0 +1,960 @@
+{
+	id: "61946F19581D904A"
+	group: "724CB10F5936E1B7"
+	order_index: 1
+	filename: "create"
+	title: "Create"
+	icon: "create:andesite_alloy"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "The Create!"
+			description: ["&7Андезитовый сплав&f - это главный компонент в моде &6Create&f. Он пригодится Вам в большом количестве, но хорошо, что создаётся он достаточно просто, хоть и долго."]
+			dependencies: ["114FD26AF2B063E3"]
+			hide: true
+			size: 1.3d
+			id: "05313F486CEB3B7C"
+			tasks: [{
+				id: "3BE949FEBCC450E2"
+				type: "item"
+				title: "Андезитовый сплав"
+				item: "create:andesite_alloy"
+				count: 8L
+			}]
+			rewards: [{
+				id: "15F4D54CD24B56C5"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 4
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			description: ["Вал используется для передачи кинетической энергии к различным механизмам. А также для некоторых крафтов."]
+			dependencies: ["05313F486CEB3B7C"]
+			id: "20BF1BB77B0376F5"
+			tasks: [{
+				id: "3ED63F087FFD4461"
+				type: "item"
+				title: "Вал"
+				item: "create:shaft"
+				count: 4L
+			}]
+			rewards: [{
+				id: "26D1DFAADFED4BB8"
+				type: "item"
+				item: "create:shaft"
+				count: 3
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			description: ["Шестерня, также как и вал, используется для передачи кинетической энергии, но более точно. А также для некоторых крафтов."]
+			dependencies: ["05313F486CEB3B7C"]
+			id: "403D59C3A04C4E08"
+			tasks: [{
+				id: "39C01EF6E53F8035"
+				type: "item"
+				title: "Шестерня"
+				item: "create:cogwheel"
+				count: 4L
+			}]
+			rewards: [{
+				id: "23C06ACE7E84A4EF"
+				type: "item"
+				item: "create:cogwheel"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			description: ["Большая шестерня также используется для передачи кинетической энергии, а также используется в некоторых крафтах."]
+			dependencies: ["05313F486CEB3B7C"]
+			id: "6AAD73EE565C0104"
+			tasks: [{
+				id: "05396AEB330BC2F9"
+				type: "item"
+				title: "Большая шестерня"
+				item: "create:large_cogwheel"
+				count: 2L
+			}]
+			rewards: [{
+				id: "59A1CD64D999728F"
+				type: "item"
+				item: "create:large_cogwheel"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: ["Водяное колесо вырабатывает кинетическую энергию с помощью потоков воды."]
+			dependencies: ["6AAD73EE565C0104"]
+			id: "76EE8220DFC29064"
+			tasks: [{
+				id: "1D0C21BEC77C8CA8"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			shape: "rsquare"
+			description: ["Механический пресс может спрессовывать предметы под собой."]
+			dependencies: ["403D59C3A04C4E08"]
+			size: 1.1d
+			id: "3196FFCC14766A93"
+			tasks: [{
+				id: "6B5B9F2C4AFB8AF1"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			description: ["Латунный лист можно создать, кинув латунный слиток под работающий механический пресс. Латунные листы нужны для многих вещей, а также для других модов."]
+			dependencies: ["3196FFCC14766A93"]
+			id: "50CD8229B7FCF8E4"
+			tasks: [{
+				id: "110E2FB05174D9BF"
+				type: "item"
+				title: "Латунный лист"
+				item: "create:brass_sheet"
+				count: 4L
+			}]
+			rewards: [{
+				id: "2D5CFD984AE839C4"
+				type: "item"
+				item: "create:brass_sheet"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			description: ["Золотой лист можно создать, кинув золотой слиток под работающий механический пресс. Золотые листы нужны для многих вещей, а также для других модов."]
+			dependencies: ["3196FFCC14766A93"]
+			id: "74670921294D0512"
+			tasks: [{
+				id: "2DB3511A23FDEB02"
+				type: "item"
+				title: "Золотой лист"
+				item: "create:golden_sheet"
+				count: 4L
+			}]
+			rewards: [{
+				id: "417BE72F1EE5FB87"
+				type: "item"
+				item: "create:golden_sheet"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			description: ["Железный лист можно создать, кинув железный слиток под работающий механический пресс. Железные листы нужны для многих вещей, а также для других модов."]
+			dependencies: ["3196FFCC14766A93"]
+			id: "16E0B4C72AB93B50"
+			tasks: [{
+				id: "77D77759EDF4F0B6"
+				type: "item"
+				title: "Железный лист"
+				item: "create:iron_sheet"
+				count: 4L
+			}]
+			rewards: [{
+				id: "747842F3310E0DB7"
+				type: "item"
+				item: "create:iron_sheet"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			description: ["Медный лист можно создать, кинув медный слиток под работающий механический пресс. Медные листы нужны для многих вещей, а также для других модов."]
+			dependencies: ["3196FFCC14766A93"]
+			id: "4F99B546EEDC53CA"
+			tasks: [{
+				id: "2D9DDA8B559C678F"
+				type: "item"
+				title: "Медный лист"
+				item: "create:copper_sheet"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0D4DA22D2B0FF160"
+				type: "item"
+				item: "create:copper_sheet"
+				count: 2
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			shape: "gear"
+			description: ["&6Инженерные очки&f улучшают ваше зрение с помощью полезной кинетической информации."]
+			dependencies: ["74670921294D0512"]
+			size: 1.1d
+			id: "6988BCF930287760"
+			tasks: [{
+				id: "7EB5126DC82684F3"
+				type: "item"
+				item: "create:goggles"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			description: ["Гаечный ключ - это полезный инструмент для работы с кинетическими штуковинами. Может использоваться для поворота, демонтажа и настройки компонентов."]
+			dependencies: ["74670921294D0512"]
+			id: "4464CF902A17C82A"
+			tasks: [{
+				id: "38473BEDDA583139"
+				type: "item"
+				item: "create:wrench"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			description: ["Латунный или андезитовый корпус можно использовать для декорации валов. А также они используются во многих крафтах."]
+			dependencies: ["50CD8229B7FCF8E4"]
+			id: "71F7F7CD94E92BEC"
+			tasks: [{
+				id: "7E61A70236B47C95"
+				type: "item"
+				title: "Латунный корпус"
+				item: "create:brass_casing"
+				count: 4L
+			}]
+			rewards: [{
+				id: "284972FD80288F05"
+				type: "item"
+				item: "create:brass_casing"
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			description: ["Рукоятка вырабатывает небольшое количество кинетической энергии, которого хватает для использования механизмов. Но для этого нужно поработать руками."]
+			dependencies: ["20BF1BB77B0376F5"]
+			id: "7630752D57DBE794"
+			tasks: [{
+				id: "59EC2A6EE7300802"
+				type: "item"
+				item: "create:hand_crank"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			shape: "gear"
+			description: ["Массив из механических крафтеров можно использовать для автоматизации создания любого рецепта."]
+			dependencies: ["71F7F7CD94E92BEC"]
+			size: 1.2d
+			id: "65730E58BE0EB86B"
+			tasks: [{
+				id: "5510E6B4BC68A25B"
+				type: "item"
+				title: "Механический крафтер"
+				item: "create:mechanical_crafter"
+				count: 9L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			description: ["Пропеллер нужен для создания вентилятора в корпусе."]
+			dependencies: ["16E0B4C72AB93B50"]
+			id: "7F0D76C9618113CE"
+			tasks: [{
+				id: "76C6D169E82CB4E3"
+				type: "item"
+				item: "create:propeller"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			description: ["Венчик нужен для создания механического смешивателя."]
+			dependencies: ["16E0B4C72AB93B50"]
+			id: "5BAD099FF393376B"
+			tasks: [{
+				id: "7BDBBB34645B76CE"
+				type: "item"
+				item: "create:whisk"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			description: ["Механический смешиватель, как ни странно, смешивает бесформенные рецепты, а также имеет несколько своих рецептов. Но для использования механического смешивателя нужна &eчаша&f."]
+			dependencies: ["5BAD099FF393376B"]
+			id: "20213C889BD05B08"
+			tasks: [{
+				id: "3D837026613FA225"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			description: ["Вентиляторы в корпусе используют силу вращения для создания воздушного потока. Сила и направление потока зависят от подаваемого вращения."]
+			dependencies: ["7F0D76C9618113CE"]
+			id: "1C7126AA23C8B8D0"
+			tasks: [{
+				id: "38CC09EFDF63C8A8"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			description: ["Латунный или андезитовый корпус можно использовать для декорации валов. А также они используются во многих крафтах."]
+			dependencies: ["05313F486CEB3B7C"]
+			size: 1.1d
+			id: "7FDBA4EB3B419E86"
+			tasks: [{
+				id: "0D2A335B24B28D97"
+				type: "item"
+				title: "Андезитовый корпус"
+				item: "create:andesite_casing"
+				count: 4L
+			}]
+			rewards: [{
+				id: "40A1BF6FF0E2EE3F"
+				type: "item"
+				item: "create:andesite_casing"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			description: ["Коробка передач - это более компактный эквивалент передачи силы вращения."]
+			dependencies: ["7FDBA4EB3B419E86"]
+			id: "01D1211C07A00FAE"
+			tasks: [{
+				id: "78E4CB304BA56226"
+				type: "item"
+				item: "create:gearbox"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			description: ["Такая же коробка передач, только вертикальная."]
+			dependencies: ["01D1211C07A00FAE"]
+			id: "7A1B90695D59872B"
+			tasks: [{
+				id: "57D5EE58AD1120D0"
+				type: "item"
+				item: "create:vertical_gearbox"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			description: ["Механические вращатели прикрепляют блоки перед собой. При получении силы вращения, они соберутся во вращающуюся штуковину."]
+			dependencies: ["7FDBA4EB3B419E86"]
+			id: "1F2AEC9FF56D3248"
+			tasks: [{
+				id: "461493EFC6EF30D6"
+				type: "item"
+				item: "create:mechanical_bearing"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			description: ["При подачи силы вращения, механическая дрель будет ломать блоки перед собой."]
+			dependencies: ["7FDBA4EB3B419E86"]
+			id: "525BD354E3DE821B"
+			tasks: [{
+				id: "7EC00530B5A1D9BE"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			description: ["Медный корпус можно использовать для декорации медных труб. А также они используются во многих крафтах."]
+			dependencies: ["4F99B546EEDC53CA"]
+			size: 1.1d
+			id: "721D01254847ED85"
+			tasks: [{
+				id: "7D9BDC66A1BDDE28"
+				type: "item"
+				title: "Медный корпус"
+				item: "create:copper_casing"
+				count: 4L
+			}]
+			rewards: [{
+				id: "01D62058ECBBE16C"
+				type: "item"
+				item: "create:copper_casing"
+				count: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			description: ["Жидкостные трубы могут соединять два или более источников и потребителей жидкости. А также приводимые в действие механическими помпами, трубы могут транспортировать жидкости."]
+			dependencies: ["4F99B546EEDC53CA"]
+			id: "6C9A5735359E838A"
+			tasks: [{
+				id: "73C3872F414564D1"
+				type: "item"
+				title: "Жидкостная труба"
+				item: "create:fluid_pipe"
+				count: 6L
+			}]
+			rewards: [{
+				id: "3ED893DB5A1AEA6C"
+				type: "item"
+				item: "create:fluid_pipe"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			description: ["Жидкостные баки можно использовать для хранения больших объёмов жидкости."]
+			dependencies: ["721D01254847ED85"]
+			id: "2B9D0C1362B77302"
+			tasks: [{
+				id: "64212FDDD4B119B1"
+				type: "item"
+				title: "Жидкостный бак"
+				item: "create:fluid_tank"
+				count: 2L
+			}]
+			rewards: [{
+				id: "1AD7166F225BB259"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			description: ["Шкив со шлангом можно использовать для заполения или осушения больших объёмов жидкости."]
+			dependencies: [
+				"721D01254847ED85"
+				"6C9A5735359E838A"
+			]
+			id: "326C3FBC5BDB79FC"
+			tasks: [{
+				id: "2AFA9D019AFC37DB"
+				type: "item"
+				item: "create:hose_pulley"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			description: ["Предметные осушители могут извлекать жидкость из предмета."]
+			dependencies: ["721D01254847ED85"]
+			id: "6603D52769B6584E"
+			tasks: [{
+				id: "1B9F1B808109533E"
+				type: "item"
+				item: "create:item_drain"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			shape: "rsquare"
+			description: ["Дозатором можно заполнять подходящие предметы, расположенные под ним."]
+			dependencies: ["2B9D0C1362B77302"]
+			size: 1.1d
+			id: "12F6C6B81F83D457"
+			tasks: [{
+				id: "21932F1DD9004C11"
+				type: "item"
+				item: "create:spout"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			description: ["Вкусное угощение для вашей трудяги - горелки Всполоха."]
+			dependencies: ["12F6C6B81F83D457"]
+			id: "08ED2FC9DB9F1BCD"
+			tasks: [{
+				id: "0C2CBF32E974A0BB"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+			rewards: [{
+				id: "6B1732A2AB22831D"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			subtitle: "Ням ням"
+			description: ["Очень вкусно!"]
+			dependencies: ["12F6C6B81F83D457"]
+			id: "29ECE714BE20811C"
+			tasks: [{
+				id: "4378587195CDAB9C"
+				type: "item"
+				item: "create:honeyed_apple"
+			}]
+			rewards: [{
+				id: "052E39227FFBFC2D"
+				type: "item"
+				item: "create:honeyed_apple"
+				count: 3
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			subtitle: "Ням ням"
+			description: ["Очень вкусно!"]
+			dependencies: ["12F6C6B81F83D457"]
+			id: "376421D05F38ECF1"
+			tasks: [{
+				id: "761D933AFE088E45"
+				type: "item"
+				item: "create:sweet_roll"
+			}]
+			rewards: [{
+				id: "1462F2384A728486"
+				type: "item"
+				item: "create:sweet_roll"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			subtitle: "Ням ням"
+			description: ["Очень вкусно!"]
+			dependencies: ["12F6C6B81F83D457"]
+			id: "6ECD10B53EDE72AE"
+			tasks: [{
+				id: "175F3DA12FA85531"
+				type: "item"
+				item: "create:chocolate_glazed_berries"
+			}]
+			rewards: [{
+				id: "6A59697F492EC3EF"
+				type: "item"
+				item: "create:chocolate_glazed_berries"
+				count: 4
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			subtitle: "За ваше прохождение!"
+			description: ["Идеальный напиток для начала дня, ведь он мотивирует и насыщает."]
+			dependencies: ["12F6C6B81F83D457"]
+			id: "457BB7A165125A99"
+			tasks: [{
+				id: "1BE5E70F96C35404"
+				type: "item"
+				item: "create:builders_tea"
+			}]
+			rewards: [{
+				id: "5BF0614130E2DFC3"
+				type: "item"
+				item: "create:builders_tea"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			description: ["На механической пиле можно обрабатывать различные предметы."]
+			dependencies: ["7FDBA4EB3B419E86"]
+			id: "00C8AD154E92482A"
+			tasks: [{
+				id: "4777FB25E60BD502"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			subtitle: "Много рук не бывает"
+			description: ["Ещё одна рука не будет лишней!"]
+			dependencies: ["50CD8229B7FCF8E4"]
+			id: "0308FAC464475A68"
+			tasks: [{
+				id: "1598143B2653AAE3"
+				type: "item"
+				item: "create:brass_hand"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			description: ["Депо может служить как стационарный элемент конвейера."]
+			dependencies: ["7FDBA4EB3B419E86"]
+			id: "2311A9001C84DBC0"
+			tasks: [{
+				id: "6DA19B110A2948FD"
+				type: "item"
+				item: "create:depot"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			shape: "rsquare"
+			description: ["Пара колёс дробления может молоть предметы очень эффективно. Но сила вращения должна вращать их друг в друга."]
+			dependencies: ["65730E58BE0EB86B"]
+			id: "483B597173AF5FA3"
+			tasks: [{
+				id: "17BCDD1A33293FAE"
+				type: "item"
+				title: "Колесо дробления"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.5d
+			description: ["Порошкообразный обсидиан можно получить, перемолов &8обсидиан&f в паре колёс дробления."]
+			dependencies: ["483B597173AF5FA3"]
+			id: "43F2D54ED0797704"
+			tasks: [{
+				id: "2B01E33A3D22AFBA"
+				type: "item"
+				title: "Порошкообразный обсидиан"
+				item: "create:powdered_obsidian"
+				count: 8L
+			}]
+			rewards: [{
+				id: "14773FE2A7954351"
+				type: "item"
+				item: "create:powdered_obsidian"
+				count: 4
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.5d
+			shape: "rsquare"
+			description: ["Хроматический компаунд создаётся в механическом смешивателе, но не забудьте приготовить торт Всполоха."]
+			dependencies: ["43F2D54ED0797704"]
+			id: "3C984B57AE3F2AC6"
+			tasks: [{
+				id: "45186AB433906CCE"
+				type: "item"
+				title: "Хроматический компаунд"
+				item: {
+					id: "create:chromatic_compound"
+					Count: 1b
+					tag: { }
+				}
+				count: 4L
+			}]
+			rewards: [{
+				id: "67E5E6C0D4F7BE72"
+				type: "item"
+				item: {
+					id: "create:chromatic_compound"
+					Count: 1b
+					tag: { }
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: -0.5d
+			description: ["Хроматический материал, добытый в пустоте. Придётся сломать бедрок, или отправиться в &5Край&f, ведь эту сталь можно создать только в &8пустоте&f."]
+			dependencies: ["3C984B57AE3F2AC6"]
+			id: "3AC4255121E88303"
+			tasks: [{
+				id: "4D656593C299777C"
+				type: "item"
+				title: "Призрачная сталь"
+				item: "create:shadow_steel"
+				count: 4L
+			}]
+			rewards: [{
+				id: "14B4CC0BC0B4A5C4"
+				type: "item"
+				item: "create:shadow_steel"
+				count: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.5d
+			description: ["Хроматический материал, добытый из поглащённого света. Чтобы создать это сияние, необходимо кинуть хроматический компаунд около лавы."]
+			dependencies: ["3C984B57AE3F2AC6"]
+			id: "5E8C0829A3731715"
+			tasks: [{
+				id: "7ECE7323364F020F"
+				type: "item"
+				title: "Изысканное сияние"
+				item: "create:refined_radiance"
+				count: 4L
+			}]
+			rewards: [{
+				id: "487226C67B5888B3"
+				type: "item"
+				item: "create:refined_radiance"
+				count: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: 2.5d
+			shape: "octagon"
+			description: ["Жезл симметрии идеально отражает размещаемые блоки по настроенным плоскостям. Очень удобная вещь, при строительстве чего-то масштабного."]
+			dependencies: ["5E8C0829A3731715"]
+			id: "1EECDD1DF092B59D"
+			tasks: [{
+				id: "74F46DCC6F9213C8"
+				type: "item"
+				item: "create:wand_of_symmetry"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			description: ["Просто прикольный блок, можно использовать в качестве декорации."]
+			dependencies: ["3AC4255121E88303"]
+			id: "3AB16F1D85975B59"
+			tasks: [{
+				id: "33302A689CB70C81"
+				type: "item"
+				title: "Теневой корпус"
+				item: "create:shadow_steel_casing"
+				count: 8L
+			}]
+			rewards: [{
+				id: "1B7BCCE4035C7767"
+				type: "item"
+				item: "create:shadow_steel_casing"
+				count: 2
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.5d
+			description: ["Просто прикольный блок, можно использовать в качестве декорации."]
+			dependencies: ["5E8C0829A3731715"]
+			id: "5812B3E9ECCE10E9"
+			tasks: [{
+				id: "0F0FF84D6A462092"
+				type: "item"
+				title: "Сияющий корпус"
+				item: "create:refined_radiance_casing"
+				count: 8L
+			}]
+			rewards: [{
+				id: "2220731365FF94FB"
+				type: "item"
+				item: "create:refined_radiance_casing"
+				count: 2
+			}]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			description: ["Незераковую пыль можно получить, перемолов &cнезерак&f в паре колёса дробления."]
+			dependencies: ["483B597173AF5FA3"]
+			id: "5167522B9F793231"
+			tasks: [{
+				id: "74F6CD71A5A021E4"
+				type: "item"
+				title: "Незераковая пыль"
+				item: "create:cinder_flour"
+				count: 4L
+			}]
+			rewards: [{
+				id: "32C843C46931C958"
+				type: "item"
+				item: "create:cinder_flour"
+				count: 2
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.5d
+			description: ["Основа торта Всполоха нужна для создания торта Всполоха."]
+			dependencies: ["5167522B9F793231"]
+			id: "732E0FDB1E1F9AF4"
+			tasks: [{
+				id: "54A5280EC639A162"
+				type: "item"
+				item: "create:blaze_cake_base"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			subtitle: "РА-ТА-ТА-ТА"
+			description: ["Запускайте выращенные вами овощи в своих врагов. Может питаться от давления медого баллона, не тратя прочность."]
+			dependencies: ["33A950FD114A34D9"]
+			id: "02BCA049F60D8BF1"
+			tasks: [{
+				id: "7626C966B445D5D5"
+				type: "item"
+				item: {
+					id: "create:potato_cannon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.5d
+			subtitle: "И не надо будет просить стакан воды в старости :)"
+			description: ["Значительно увеличивает досягаемость владельца."]
+			dependencies: ["33A950FD114A34D9"]
+			id: "490B1ACAA1FDDAFF"
+			tasks: [{
+				id: "5AEFBD1E94F84BE9"
+				type: "item"
+				item: {
+					id: "create:extendo_grip"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			description: ["При наличии силы вращения автономный активатор может имитировать действия игрока."]
+			dependencies: ["65730E58BE0EB86B"]
+			id: "3E7E4B74012B1B0D"
+			tasks: [{
+				id: "33C8133E411A5B48"
+				type: "item"
+				item: "create:deployer"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			description: ["Механизм точно создаётся очень интересным способом. Нужно выстроить линейку автономных активаторов со специальными предметами. После этого нужно кинуть 1 активатору золотой лист."]
+			dependencies: ["3E7E4B74012B1B0D"]
+			size: 1.1d
+			id: "33A950FD114A34D9"
+			tasks: [{
+				id: "19656EBE844BA301"
+				type: "item"
+				title: "Механизм точности"
+				item: "create:precision_mechanism"
+				count: 2L
+			}]
+			rewards: [{
+				id: "3FFCE74383675D95"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.5d
+			description: ["Механические руки, перед тем, чтобы поставить нужно правильно настроить, а после уже устанавливать."]
+			dependencies: ["33A950FD114A34D9"]
+			id: "33DB735677B876ED"
+			tasks: [{
+				id: "3AE7422CC11E37CB"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.5d
+			description: ["Регулятор скорости вращения, как ни странно, регулирует скорость вращения."]
+			dependencies: ["33A950FD114A34D9"]
+			id: "10E33A5D0F84609B"
+			tasks: [{
+				id: "5B62A3518D89C71A"
+				type: "item"
+				item: "create:rotation_speed_controller"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -0.5d
+			description: ["Печные двигатели создают силу вращения, пока присоединённые к ним печи работают."]
+			dependencies: ["65730E58BE0EB86B"]
+			id: "2B16A7D3040A0870"
+			tasks: [{
+				id: "6FD6213DFDBA1BB7"
+				type: "item"
+				item: "create:furnace_engine"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			description: ["Маховики необходимы для генерации силы вращения при помощи печных двигателей."]
+			dependencies: ["65730E58BE0EB86B"]
+			id: "0D865BE481BEB72B"
+			tasks: [{
+				id: "6F3B47D93CF5F35E"
+				type: "item"
+				item: "create:flywheel"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.5d
+			shape: "heart"
+			subtitle: "Пора отдохнуть :)"
+			description: ["Вы уже прошли большой путь, поэтому нужно сделать перерыв. Но не засиживайтесь, ведь впереди ожидает ещё много неизвестного!"]
+			dependencies: [
+				"3AB16F1D85975B59"
+				"5812B3E9ECCE10E9"
+			]
+			id: "0108EE5B0B40CEB1"
+			tasks: [{
+				id: "19565E64B0610E59"
+				type: "item"
+				item: "create:red_seat"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			shape: "pentagon"
+			description: ["Для того, чтобы колёса вращались друг в друга, следует создать &cреверсивный механизм&f и использовать &6рычаг&f."]
+			dependencies: ["483B597173AF5FA3"]
+			id: "774387498A9106B5"
+			tasks: [{
+				id: "0A8F106E5471F461"
+				type: "item"
+				item: "create:gearshift"
+			}]
+		}
+	]
+}

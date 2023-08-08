@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "mekanism:chemical_injection_chamber"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "industrialforegoing:machine_frame_simple"
+    },
+    {
+      "item": "mekanism:ingot_osmium"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "mekanism:elite_control_circuit"
+    },
+    {
+      "item": "mekanism:alloy_reinforced"
+    },
+    {
+      "item": "mekanism:purification_chamber"
+    },
+    {
+      "item": "mekanism:alloy_reinforced"
+    },
+    {
+      "item": "mekanism:elite_control_circuit"
+    },
+    {
+      "item": "mekanism:ingot_osmium"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ]
+}

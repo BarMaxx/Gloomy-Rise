@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "bloodmagic:soulforge"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "bloodmagic:blankslate"
+    },
+    {
+      "item": "immersiveengineering:sheetmetal_steel"
+    },
+    {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    {
+      "item": "botania:gaia_ingot"
+    },
+    {
+      "item": "botania:dragonstone"
+    },
+    {
+      "item": "mekanism:alloy_atomic"
+    },
+    {
+      "item": "botania:dragonstone"
+    },
+    {
+      "item": "botania:gaia_ingot"
+    },
+    {
+      "item": "immersiveengineering:sheetmetal_steel"
+    },
+    {
+      "item": "mysticalagriculture:supremium_essence"
+    }
+  ]
+}

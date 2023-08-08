@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "mekanism:advanced_control_circuit"
+  },
+  "mana": 50000,
+  "ingredients": [
+    {
+      "item": "mekanism:basic_control_circuit"
+    },
+    {
+      "item": "botania:mana_powder"
+    },
+    {
+      "item": "industrialforegoing:plastic"
+    },
+    {
+      "item": "bloodmagic:reagentbinding"
+    },
+    {
+      "item": "mekanism:alloy_infused"
+    },
+    {
+      "item": "appliedenergistics2:engineering_processor"
+    },
+    {
+      "item": "mekanism:alloy_infused"
+    },
+    {
+      "item": "astralsorcery:nocturnal_powder"
+    },
+    {
+      "item": "industrialforegoing:plastic"
+    },
+    {
+      "item": "mysticalagriculture:tertium_essence"
+    }
+  ]
+}

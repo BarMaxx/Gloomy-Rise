@@ -1,0 +1,27 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "appliedenergistics2:formation_core"
+  },
+  "mana": 75000,
+  "ingredients": [
+    {
+      "item": "appliedenergistics2:logic_processor"
+    },
+    {
+      "item": "botania:manasteel_ingot"
+    },
+    {
+      "item": "appliedenergistics2:charged_certus_quartz_crystal"
+    },
+    {
+      "item": "mysticalagriculture:imperium_essence"
+    },
+    {
+      "item": "appliedenergistics2:fluix_dust"
+    },
+    {
+      "item": "industrialforegoing:plastic"
+    }
+  ]
+}

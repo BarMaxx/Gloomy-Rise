@@ -1,0 +1,8 @@
+{
+	"type": "mana-and-artifice:arcane-furnace",
+	"tier": 1,
+	"input": "minecraft:bone",
+	"output": "mana-and-artifice:bone_ash",
+	"outputQuantity": 1,
+	"burnTime": 200
+}

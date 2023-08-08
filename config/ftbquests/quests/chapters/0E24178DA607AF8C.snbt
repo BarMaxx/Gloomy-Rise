@@ -1,0 +1,252 @@
+{
+	id: "0E24178DA607AF8C"
+	group: ""
+	order_index: 0
+	filename: "0E24178DA607AF8C"
+	title: "&aВступление"
+	default_quest_shape: "gear"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.5d
+			y: -1.0d
+			subtitle: "Новое начало!"
+			description: [
+				"Добро пожаловать в сборку &4Gloomy Rise&f! Данная сборка создана командой &6LGame Studio&f, а главным разработчиком является &6BarMaxx &f(Максим)."
+				"Gloomy Rise - это &3техно-магическая &fсборка с элементами &eРПГ&f, &cХардкора &fи &2Реализма&f. В данной сборке Вы сможете постепенно изучить множество модов. Они включают в себя: исследование мира, сражение с боссами, изучение различных видов &5Магии &fи &8Технологий&f, создание множества ферм ресурсов и авто-крафтов, исследование различных измерений и не только!"
+				"Все виды деятельности связаны между собой множеством изменённых крафтов и квестами, которые помогут получить уникальный игровой опыт, который Вы больше нигде не встретите."
+			]
+			size: 1.2d
+			id: "114FD26AF2B063E3"
+			tasks: [{
+				id: "7DCEC3187D308DDA"
+				type: "checkmark"
+				title: "Знакомство..."
+			}]
+			rewards: [
+				{
+					id: "13C0E0901B548A1C"
+					type: "item"
+					item: "minecraft:cake"
+				}
+				{
+					id: "22EADA95E0964C7B"
+					type: "command"
+					title: "VK группа LGame Studio -  по вопросам сборки, писать сюда."
+					auto: "invisible"
+					command: "/say https://vk.com/liberator_games - VK группа LGame Studio -  по вопросам сборки, писать сюда. @p"
+					player_command: false
+				}
+				{
+					id: "1F60BFCDFF8DD2D2"
+					type: "command"
+					title: "Discord сервер LGame Studio - по вопросам сборки, писать сюда."
+					auto: "invisible"
+					command: "/say https://discord.gg/DdWkSNJfjF - Discord сервер LGame Studio - по вопросам сборки, писать сюда. @p!"
+					player_command: false
+				}
+				{
+					id: "5E7E551F5F66D86A"
+					type: "command"
+					title: "VK главного разработчика сборки - по вопросам сборки, писать сюда."
+					auto: "invisible"
+					command: "/say https://vk.com/barahtanovm - VK главного разработчика сборки - по вопросам сборки, писать сюда. @p!"
+					player_command: false
+				}
+				{
+					id: "53E21CAFE5E5C740"
+					type: "command"
+					title: "Telegram канал главного разработчика сборки"
+					auto: "invisible"
+					command: "/say Telegram канал главного (и единственного) разработчика сборки. Ссылка - https://t.me/BMProjects"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			subtitle: "Экология!"
+			description: ["В данной сборке установлен мод, который добавляет &8выбросы&f от работы различных механизмов. Эти выбросы очень опасны, потому что при скоплении небольшого их количества в маленьком пространстве произойдет достаточно мощный взрыв! Так что будьте аккуратны и устанавливайте специальные &2фильтры&f. В будущих квестах об этом будет сказано немного больше."]
+			hide_dependency_lines: true
+			dependencies: ["114FD26AF2B063E3"]
+			id: "5A4441307BEAAE37"
+			tasks: [{
+				id: "5275EDF3247EB1AB"
+				type: "checkmark"
+				title: "Загрязнение"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			subtitle: "Книги в Книге!"
+			description: [
+				"В сборке довольно много различных &6гайд-книг&f, которые помогают при изучении модов. Из-за того, что этих книг много - был добавлен специальный предмет &4Том Акаши&f, в который можно положить все книги и они будут занимать всего 1 слот."
+				"Для того, чтобы положить в Том Акаши гайд-книгу - нужно их просто соединить в сетке крафта. А после просто выбрать нужную книгу и она откроется."
+				"Для сброса Тома нужно просто нажать &eЛКМ&f по воздуху."
+			]
+			hide_dependency_lines: true
+			dependencies: ["114FD26AF2B063E3"]
+			id: "237ACEC26F281450"
+			tasks: [{
+				id: "77BD4FEE6470775E"
+				type: "checkmark"
+				title: "Том Акаши"
+			}]
+			rewards: [{
+				id: "71CE4BC7404325F9"
+				type: "item"
+				item: {
+					id: "akashictome:tome"
+					Count: 1b
+					tag: {
+						"akashictome:is_morphing": 1b
+						"akashictome:data": {
+							industrialforegoing: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"patchouli:book": "industrialforegoing:industrial_foregoing"
+								}
+							}
+							evilcraft: {
+								id: "evilcraft:origins_of_darkness"
+								Count: 1b
+							}
+							tconstruct: {
+								id: "tconstruct:encyclopedia"
+								Count: 1b
+								tag: {
+									mantle: {
+										book: {
+											current_page: "small_tools.axe"
+										}
+									}
+									"akashictome:displayName": {
+										text: "Литейная энциклопедия"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Литейная энциклопедия\"}]}"
+									}
+								}
+							}
+							storagenetwork: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"akashictome:displayName": {
+										text: "Network Guide Book"
+									}
+									"patchouli:book": "storagenetwork:network_book"
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Network Guide Book\"}]}"
+									}
+								}
+							}
+							resourcefulbees: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+								}
+							}
+							astralsorcery: {
+								id: "astralsorcery:tome"
+								Count: 1b
+							}
+							immersiveengineering: {
+								id: "immersiveengineering:manual"
+								Count: 1b
+							}
+							mana-and-artifice: {
+								id: "mana-and-artifice:guide_book"
+								Count: 1b
+							}
+							theabyss: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"akashictome:displayName": {
+										text: "The Abyss: Chapter II"
+									}
+									"patchouli:book": "theabyss:abyssbookitem"
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"The Abyss: Chapter II\"}]}"
+									}
+								}
+							}
+							solcarrot: {
+								id: "solcarrot:food_book"
+								Count: 1b
+							}
+							extendedcrafting: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"patchouli:book": "extendedcrafting:guide"
+								}
+							}
+							botania: {
+								id: "botania:lexicon"
+								Count: 1b
+							}
+							bloodmagic: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"patchouli:book": "bloodmagic:guide"
+								}
+							}
+							mysticalagriculture: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"akashictome:displayName": {
+										text: "Mystical Agriculture"
+									}
+									"patchouli:book": "mysticalagriculture:guide"
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Mystical Agriculture\"}]}"
+									}
+								}
+							}
+							cyclic: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"akashictome:displayName": {
+										text: "Руководство по Cyclic"
+									}
+									"patchouli:book": "cyclic:cyclic_guide_book"
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Руководство по Cyclic\"}]}"
+									}
+								}
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			subtitle: "Удобства!"
+			description: ["В сборке установлен мод &3StepUp&f, который добавляет авто-прыжок. Для того, чтобы выключить его или переключить режим - нужно нажать на кнопку &2H&f. Также, эту кнопку можно поменять на другую в настройках управления."]
+			hide_dependency_lines: true
+			dependencies: ["114FD26AF2B063E3"]
+			id: "4235B38EED9CFE8D"
+			tasks: [{
+				id: "49323EF9AE90BAC2"
+				type: "checkmark"
+				title: "Авто-прыжок"
+			}]
+		}
+	]
+}

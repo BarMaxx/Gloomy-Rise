@@ -1,0 +1,16 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "appliedenergistics2:fluix_crystal"
+    },
+    {
+      "item": "appliedenergistics2:fluix_crystal"
+    }
+  ],
+  "output": [
+    {
+      "item": "appliedenergistics2:fluix_dust"
+    }
+  ]
+}

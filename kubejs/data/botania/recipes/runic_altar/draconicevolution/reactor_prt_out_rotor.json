@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "draconicevolution:reactor_prt_out_rotor"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "draconicevolution:draconium_core"
+    },
+    {
+      "item": "draconicevolution:draconium_ingot"
+    },
+    {
+      "item": "botania:mana_diamond"
+    },
+    {
+      "item": "draconicevolution:draconium_ingot"
+    },
+    {
+      "item": "botania:mana_diamond"
+    },
+    {
+      "item": "mekanism:alloy_reinforced"
+    },
+    {
+      "item": "mekanism:enriched_diamond"
+    },
+    {
+      "item": "draconicevolution:draconium_ingot"
+    },
+    {
+      "item": "mekanism:enriched_diamond"
+    },
+    {
+      "item": "botania:mana_diamond"
+    }
+  ]
+}

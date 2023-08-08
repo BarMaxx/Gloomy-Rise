@@ -1,0 +1,20 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " A ",
+    "AGA",
+    " A "
+  ],
+  "key": {
+    "G": {
+      "item": "mana-and-artifice:superheated_vinteum_ingot"
+    },
+    "A": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "result": {
+    "item": "mana-and-artifice:rune_clay_plate"
+  },
+  "acceptMirrored": true
+}

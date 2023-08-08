@@ -1,0 +1,61 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "result": {
+    "item": "draconicevolution:chaotic_crafting_injector"
+  },
+  "catalyst": {
+    "item": "draconicevolution:awakened_crafting_injector"
+  },
+  "total_energy": 80000000,
+  "tier": "DRACONIC",
+  "ingredients": [
+    {
+      "item": "mekanism:pellet_polonium"
+    },
+    {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    {
+      "item": "draconicevolution:large_chaos_frag"
+    },
+    {
+      "item": "draconicevolution:large_chaos_frag"
+    },
+    {
+      "item": "draconicevolution:large_chaos_frag"
+    },
+    {
+      "item": "draconicevolution:large_chaos_frag"
+    },
+    {
+      "item": "minecraft:dragon_egg"
+    },
+    {
+      "item": "mekanism:pellet_polonium"
+    },
+    {
+      "item": "mekanism:pellet_polonium"
+    },
+    {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    {
+      "item": "draconicevolution:large_chaos_frag"
+    },
+    {
+      "item": "draconicevolution:large_chaos_frag"
+    },
+    {
+      "item": "draconicevolution:large_chaos_frag"
+    },
+    {
+      "item": "draconicevolution:large_chaos_frag"
+    },
+    {
+      "item": "minecraft:dragon_egg"
+    },
+    {
+      "item": "mekanism:pellet_polonium"
+    }
+  ]
+}

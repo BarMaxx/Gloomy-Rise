@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "mekanism:pressurized_reaction_chamber"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "mekanism:dynamic_tank"
+    },
+    {
+      "item": "mekanism:basic_chemical_tank"
+    },
+    {
+      "item": "mekanism:ingot_steel"
+    },
+    {
+      "item": "mekanism:basic_control_circuit"
+    },
+    {
+      "item": "mekanism:alloy_infused"
+    },
+    {
+      "item": "mekanism:enrichment_chamber"
+    },
+    {
+      "item": "mekanism:alloy_infused"
+    },
+    {
+      "item": "mekanism:basic_control_circuit"
+    },
+    {
+      "item": "mekanism:basic_chemical_tank"
+    },
+    {
+      "item": "mekanism:ingot_steel"
+    }
+  ]
+}

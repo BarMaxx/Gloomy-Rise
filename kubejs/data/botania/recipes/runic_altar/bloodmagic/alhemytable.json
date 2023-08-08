@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "bloodmagic:alchemytable"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "bloodmagic:blankslate"
+    },
+    {
+      "item": "mekanism:ingot_refined_glowstone"
+    },
+    {
+      "item": "immersiveengineering:storage_steel"
+    },
+    {
+      "item": "botania:gaia_ingot"
+    },
+    {
+      "item": "botania:dragonstone"
+    },
+    {
+      "item": "mekanism:alloy_atomic"
+    },
+    {
+      "item": "botania:dragonstone"
+    },
+    {
+      "item": "immersiveengineering:storage_steel"
+    },
+    {
+      "item": "mekanism:ingot_refined_glowstone"
+    },
+    {
+      "item": "mysticalagriculture:supremium_essence"
+    }
+  ]
+}

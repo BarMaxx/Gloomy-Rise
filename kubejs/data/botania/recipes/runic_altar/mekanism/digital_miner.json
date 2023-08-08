@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "mekanism:digital_miner"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "mekanism:steel_casing"
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "mekanism:teleportation_core"
+    },
+    {
+      "item": "mekanism:alloy_atomic"
+    },
+    {
+      "item": "mekanism:logistical_sorter"
+    },
+    {
+      "item": "mekanism:robit"
+    },
+    {
+      "item": "mekanism:logistical_sorter"
+    },
+    {
+      "item": "mekanism:teleportation_core"
+    },
+    {
+      "item": "mekanism:ingot_refined_obsidian"
+    },
+    {
+      "item": "mekanism:basic_control_circuit"
+    }
+  ]
+}

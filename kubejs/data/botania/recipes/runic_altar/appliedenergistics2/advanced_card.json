@@ -1,0 +1,30 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "appliedenergistics2:advanced_card"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "appliedenergistics2:calculation_processor"
+    },
+    {
+      "item": "mekanism:enriched_diamond"
+    },
+    {
+      "item": "mekanism:enriched_carbon"
+    },
+    {
+      "item": "mekanism:advanced_control_circuit"
+    },
+    {
+      "item": "mekanism:enriched_carbon"
+    },
+   {
+      "item": "mekanism:enriched_diamond"
+    },
+    {
+      "item": "botania:elementium_ingot"
+    }
+  ]
+}

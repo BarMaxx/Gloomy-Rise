@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "mekanism:chemical_crystallizer"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "industrialforegoing:machine_frame_simple"
+    },
+    {
+      "item": "mekanism:ingot_osmium"
+    },
+    {
+      "item": "mekanism:fluorite_gem"
+    },
+    {
+      "item": "mysticalagradditions:insanium_ingot"
+    },
+    {
+      "item": "mekanism:ingot_refined_obsidian"
+    },
+    {
+      "item": "mekanism:steel_casing"
+    },
+    {
+      "item": "mekanism:ingot_refined_obsidian"
+    },
+    {
+      "item": "mysticalagradditions:insanium_ingot"
+    },
+    {
+      "item": "mekanism:ingot_osmium"
+    },
+    {
+      "item": "mekanism:fluorite_gem"
+    }
+  ]
+}

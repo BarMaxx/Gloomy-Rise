@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "mana-and-artifice:vinteum_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "mana-and-artifice:vinteum_dust"
+    }
+  ],
+  "processingTime": 300
+}

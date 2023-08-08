@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "extendedcrafting:compressor"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "extendedcrafting:frame"
+    },
+    {
+      "item": "extendedcrafting:elite_catalyst"
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    {
+      "item": "extendedcrafting:elite_component"
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "extendedcrafting:black_iron_slate"
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "extendedcrafting:elite_component"
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    {
+      "item": "extendedcrafting:elite_catalyst"
+    }
+  ]
+}

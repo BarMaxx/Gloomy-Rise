@@ -1,0 +1,1527 @@
+{
+	id: "292E330251D5748D"
+	group: "724CB10F5936E1B7"
+	order_index: 2
+	filename: "immersiveengineering"
+	title: "&eImmersiveEngineering"
+	icon: {
+		id: "immersiveengineering:hammer"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			description: ["Молот инженера - это главный инструмент настоящего инженера, ведь с помощью него Вы будете собирать все свои мультиблочные механизмы."]
+			dependencies: ["114FD26AF2B063E3"]
+			hide: true
+			size: 1.2d
+			id: "1F866E833721D395"
+			tasks: [{
+				id: "6B21507A9D8D10EC"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Коксовая печь"
+			x: 1.6500000000000001d
+			y: 0.0d
+			shape: "rsquare"
+			description: ["Чтобы построить коксовую печь, необходимо поставить кирпичи коксовой печи &93х3х3&f, а после нажать молотом инженера &eПКМ&f по любой стороне. В коксовой печи можно получить &7коксовый уголь&f и &6креозот&f."]
+			dependencies: ["1F866E833721D395"]
+			id: "16BCEE8E7DE5EAA4"
+			tasks: [{
+				id: "4B0058809AFF2577"
+				type: "item"
+				title: "Кирпич коксовой печи"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			description: ["Коксовый уголь можно получить в коксовой печи из обычного угля."]
+			dependencies: ["16BCEE8E7DE5EAA4"]
+			id: "3EABF883490920A9"
+			tasks: [{
+				id: "3D6A6722FF817265"
+				type: "item"
+				title: "Коксовый уголь"
+				item: "immersiveengineering:coal_coke"
+				count: 4L
+			}]
+			rewards: [{
+				id: "459868134B794720"
+				type: "item"
+				item: "immersiveengineering:coal_coke"
+				count: 2
+				random_bonus: 1
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			description: ["&6Креозот&f можно получить в коксовой печи, он создаётся при получении &7коксового угля&f. Креозот нужен для создания &eдосок из обработанной древесины&f."]
+			dependencies: ["16BCEE8E7DE5EAA4"]
+			id: "7E9B735108C06472"
+			tasks: [{
+				id: "00E8EB4779889254"
+				type: "item"
+				item: "immersiveengineering:creosote_bucket"
+			}]
+			rewards: [{
+				id: "6E276C3334F41CEE"
+				type: "item"
+				item: "immersiveengineering:creosote_bucket"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			description: ["Доски из обработанной древесины создаются из ведра креозота и любых досок. Эти доски очень понадобятся вам в дальнейшем."]
+			dependencies: ["7E9B735108C06472"]
+			id: "1EDB5F4D82DE3F36"
+			tasks: [{
+				id: "360BCDDB72FE7851"
+				type: "item"
+				title: "Доски из обработанной древесины"
+				item: "immersiveengineering:treated_wood_horizontal"
+				count: 16L
+			}]
+			rewards: [{
+				id: "360665C17FD73CF4"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+				count: 4
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			description: ["Деревянные бочки - это простые ёмкости, в которых можно хранить до 12 вёдер жидкости."]
+			dependencies: ["1EDB5F4D82DE3F36"]
+			id: "428CC6F6CDBC419A"
+			tasks: [{
+				id: "54A7A0F8FF5F5E83"
+				type: "item"
+				item: "immersiveengineering:wooden_barrel"
+			}]
+			rewards: [{
+				id: "6CE831DB1C42EBFA"
+				type: "item"
+				item: "immersiveengineering:wooden_barrel"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			description: ["Обработанные палки создаются также, как и обычные палки, только из обработанных досок. С помощью этих палок можно создать, например, часть водяного колеса."]
+			dependencies: ["1EDB5F4D82DE3F36"]
+			size: 1.1d
+			id: "737CCC2110922A14"
+			tasks: [{
+				id: "60DA7170E8F68484"
+				type: "item"
+				title: "Обработанная палка"
+				item: "immersiveengineering:stick_treated"
+				count: 8L
+			}]
+			rewards: [{
+				id: "62F9EB2BECDD159D"
+				type: "item"
+				item: "immersiveengineering:stick_treated"
+				count: 4
+			}]
+		}
+		{
+			x: 5.5d
+			y: -0.5d
+			description: ["Части водяного колеса понадобятся для создания полноценного водяного колеса. "]
+			dependencies: ["737CCC2110922A14"]
+			id: "7328F85F88B1D9ED"
+			tasks: [{
+				id: "03E7AC34E6EEBA13"
+				type: "item"
+				title: "Часть водяного колеса"
+				item: "immersiveengineering:waterwheel_segment"
+				count: 4L
+			}]
+		}
+		{
+			title: "Доменная печь"
+			x: 0.5d
+			y: -1.0d
+			shape: "rsquare"
+			description: ["Чтобы создать доменную печь, необходимо поставить кирпичи доменной печи &93х3х3&f, а потом нажать молотом инженера &eПКМ&f по любой стороне. В доменной печи можно создавать &7сталь&f!"]
+			dependencies: ["1F866E833721D395"]
+			id: "0AB6DC8DAF26D8C1"
+			tasks: [{
+				id: "288CC04E0B9EAAA0"
+				type: "item"
+				title: "Кирпич доменной печи"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			shape: "rsquare"
+			description: ["Стальной слиток создаётся в доменной печи. Обратите внимание, что доменная печь использует &7коксовый уголь&f, вместо обычного. Стальные слитки очень пригодятся вам в дальнейшем, например, чтобы создать верстак 5х5."]
+			dependencies: ["0AB6DC8DAF26D8C1"]
+			id: "3AFF1B058489D15B"
+			tasks: [{
+				id: "6B5BB8DBB8AC4DA2"
+				type: "item"
+				title: "Стальной слиток"
+				icon: "immersiveengineering:ingot_steel"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				count: 4L
+			}]
+			rewards: [{
+				id: "26348DF975187F4D"
+				type: "item"
+				item: "immersiveengineering:ingot_steel"
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			description: ["Плита из чёрного железа нужна для создания компонентов, катализаторов и конечно же новых верстаков!"]
+			dependencies: ["3AFF1B058489D15B"]
+			id: "688762FB765A8B40"
+			tasks: [{
+				id: "214D46DA02D8E33F"
+				type: "item"
+				title: "Плита из чёрного железа"
+				item: "extendedcrafting:black_iron_slate"
+				count: 4L
+			}]
+			rewards: [{
+				id: "48E7EA4A2CB6087F"
+				type: "item"
+				item: "extendedcrafting:black_iron_slate"
+				count: 2
+				random_bonus: 1
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			description: ["Базовый верстак это тоже самое, что и обычный верстак. Но из базового верстака можно создать продвинутый верстак!"]
+			dependencies: ["688762FB765A8B40"]
+			id: "76F4386A2B8AA15E"
+			tasks: [{
+				id: "16048A3D21AAA3A2"
+				type: "item"
+				item: "extendedcrafting:basic_table"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			shape: "gear"
+			description: ["На продвинутом верстаке сетка крафта &e5х5&f, что позволяет создавать более интересные крафты. Также, продвинутый верстак разблокирует 2 главу квестов!"]
+			dependencies: ["76F4386A2B8AA15E"]
+			size: 1.3d
+			id: "4CC33F150E5DA0A0"
+			tasks: [{
+				id: "6C247329C06C1E31"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			description: ["Лопасти ветряной мельницы нужны, чтобы собрать полноценную ветряную мельницу."]
+			dependencies: ["737CCC2110922A14"]
+			id: "58E39033A0EF6360"
+			tasks: [{
+				id: "74A4A26B0BFB6F66"
+				type: "item"
+				title: "Лопасть ветряной мельницы"
+				item: "immersiveengineering:windmill_blade"
+				count: 8L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			shape: "hexagon"
+			description: ["Ветряная мельница - это бесплатный и простой способ получения &cэнергии&f, хотя и не очень эффеективный."]
+			dependencies: ["58E39033A0EF6360"]
+			id: "313373728D5BBC98"
+			tasks: [{
+				id: "2DFAC7FD465F8DCD"
+				type: "item"
+				item: "immersiveengineering:windmill"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			shape: "hexagon"
+			description: ["Водяное колесо - довольно простой способ привести в действие &2Кинетический генератор&f. Скорость вращения колеса зависит от воды, обтекающей его, поэтому для получения оптимальных результатов вам нужно направить воду полукругом сверху вниз вдоль одной стороны. А также можно поставить друг с другом до 3 водяных колёс."]
+			dependencies: ["7328F85F88B1D9ED"]
+			id: "1C76A2DE98AD3C37"
+			tasks: [{
+				id: "3F24B09A0BE6C9E1"
+				type: "item"
+				item: "immersiveengineering:watermill"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			subtitle: "Кусь"
+			description: ["С помощью кусачек инженера можно создавать различные провода и не только."]
+			dependencies: ["3AFF1B058489D15B"]
+			id: "15ECA35E0F767620"
+			tasks: [{
+				id: "5D79B63C76E0AA45"
+				type: "item"
+				item: {
+					id: "immersiveengineering:wirecutter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			description: ["Медные провода можно объединить в моток низковольтного провода и не только."]
+			dependencies: ["15ECA35E0F767620"]
+			id: "643F3AE958462439"
+			tasks: [{
+				id: "28FCBEB60D2761BD"
+				type: "item"
+				title: "Медный провод"
+				item: "immersiveengineering:wire_copper"
+				count: 8L
+			}]
+			rewards: [{
+				id: "30448BB11F346590"
+				type: "item"
+				item: "immersiveengineering:wire_copper"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			description: ["Моток низковольтного провода можно использовать как провод, как ни странно, но не касайтесь его, если он под напряжением."]
+			dependencies: ["643F3AE958462439"]
+			id: "384FD483F981421D"
+			tasks: [{
+				id: "21173ABB4BF69C2F"
+				type: "item"
+				title: "Моток низковольтного провода"
+				item: "immersiveengineering:wirecoil_copper"
+				count: 4L
+			}]
+			rewards: [{
+				id: "5E12B4A9273CD28E"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			description: ["Катушка медного провода используется во многих рецептах, но главное - это &2кинетический генератор&f."]
+			dependencies: ["384FD483F981421D"]
+			id: "34462E761EB7CA9F"
+			tasks: [{
+				id: "60A967478B02FFEE"
+				type: "item"
+				title: "Катушка медного провода"
+				item: "immersiveengineering:coil_lv"
+				count: 2L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			shape: "gear"
+			description: ["Кинетический генератор вырабатывает энергию из кинетической силы водяных колёс и ветряных мельницы. Для этого нужно подключить кинетический генератор к водяным колёсам или ветряным мельницам."]
+			dependencies: ["34462E761EB7CA9F"]
+			size: 1.1d
+			id: "1CEBF1B132A2D865"
+			tasks: [{
+				id: "26DE77556EC080A2"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			shape: "hexagon"
+			description: ["Термоэлектрический генератор - это ещё один вариант выработки &6электроэнергии&f, он работает без использования каких-либо механических частей, вместо этого он использует температурный градиент между двумя источниками &cтепла&f и &9холода&f."]
+			dependencies: ["34462E761EB7CA9F"]
+			id: "6EA8A2545DF02637"
+			tasks: [{
+				id: "165B825E4F81FE33"
+				type: "item"
+				item: "immersiveengineering:thermoelectric_generator"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			shape: "rsquare"
+			description: ["Чтобы построить плавильную печь, необходимо поставить кирпичи плавильной печи &92х2х2&f а после нажать молотом инженера &eПКМ&f. В плавильной печи можно создавать &6различные сплавы&f."]
+			dependencies: ["1F866E833721D395"]
+			id: "5286715BD326C7B7"
+			tasks: [{
+				id: "566B63467B73B458"
+				type: "item"
+				title: "Кирпич плавильной печи"
+				item: "immersiveengineering:alloybrick"
+				count: 4L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			description: ["Констант - это сплав &6меди&f и &7никеля&f."]
+			dependencies: ["5286715BD326C7B7"]
+			id: "1297CE33EC6FB1B8"
+			tasks: [{
+				id: "48847497462842A0"
+				type: "item"
+				title: "Константановый слиток"
+				item: "immersiveengineering:ingot_constantan"
+				count: 6L
+			}]
+			rewards: [{
+				id: "41386A914D235042"
+				type: "item"
+				item: "immersiveengineering:ingot_constantan"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			description: ["Электрум - это сплав &7серебра&f с &6золотом&f. "]
+			dependencies: ["5286715BD326C7B7"]
+			id: "2D5A8653D55EEA26"
+			tasks: [{
+				id: "45CB151679496AE7"
+				type: "item"
+				title: "Электрумовый слиток"
+				item: "immersiveengineering:ingot_electrum"
+				count: 6L
+			}]
+			rewards: [{
+				id: "7C320C055BF88849"
+				type: "item"
+				item: "immersiveengineering:ingot_electrum"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			description: ["Рабочий стол инженера - это простое улучшение верстака. Рабочий стол инженера может удерживать предметы в рецепте, а также он имеет свой внутрений инвентарь."]
+			dependencies: ["737CCC2110922A14"]
+			id: "7ED48462B0C277A6"
+			tasks: [{
+				id: "3B468923D9CBE0E7"
+				type: "item"
+				item: "immersiveengineering:craftingtable"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			shape: "rsquare"
+			description: ["Верстак инженера - это профессиональный рабочий стол образованного инженера. Он широко используется для создания предметов по &9чертежам&f."]
+			dependencies: ["7ED48462B0C277A6"]
+			size: 1.1d
+			id: "0DF9C7B4CF9060A6"
+			tasks: [{
+				id: "1DC7F19A4C2800EB"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.5d
+			description: ["Экипирует щит нажатием кнопки."]
+			dependencies: ["34462E761EB7CA9F"]
+			id: "453CA6CCA55589C2"
+			tasks: [{
+				id: "7AF0A90198E2BF01"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_shield_magnet"
+			}]
+		}
+		{
+			title: "Чертёж инженера: Металлическая пресс-форма"
+			x: 7.5d
+			y: -0.5d
+			description: ["С помощью этого чертежа можно создать специальные металлические пресс-формы на верстаке инженера."]
+			dependencies: ["0DF9C7B4CF9060A6"]
+			id: "3CA0FCD230F3B9B0"
+			tasks: [{
+				id: "19C5742BC352901D"
+				type: "item"
+				item: {
+					id: "immersiveengineering:blueprint"
+					Count: 1b
+					tag: {
+						blueprint: "molds"
+					}
+				}
+			}]
+		}
+		{
+			title: "Чертёж инженера: Компоненты для крафта"
+			x: 7.5d
+			y: 1.5d
+			description: ["С помощью этого чертежа можно создать специальные компоненты для крафта на верстаке инженера."]
+			dependencies: ["0DF9C7B4CF9060A6"]
+			id: "5A26E77DA2BF655F"
+			tasks: [{
+				id: "4B9E2F377D121D5D"
+				type: "item"
+				item: {
+					id: "immersiveengineering:blueprint"
+					Count: 1b
+					tag: {
+						blueprint: "components"
+					}
+				}
+			}]
+		}
+		{
+			title: "Металлический пресс"
+			icon: "minecraft:piston"
+			x: -3.0d
+			y: -3.0d
+			description: ["Металлический пресс - это автоматизированный способ формирования металла."]
+			dependencies: ["4CC33F150E5DA0A0"]
+			id: "3268DDFD2B310EDF"
+			tasks: [
+				{
+					id: "37B3626F92131842"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "4498A9186D1E0EE5"
+					type: "item"
+					title: "Стальные леса"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 2L
+				}
+				{
+					id: "39CF41C6709C2B17"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "65970823ABDB04E7"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+				}
+				{
+					id: "316E1C74C68111E3"
+					type: "item"
+					title: "Конвейерная лента"
+					item: "immersiveengineering:conveyor_basic"
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "Дробитель"
+			icon: "immersiveengineering:steel_scaffolding_standard"
+			x: -2.5d
+			y: -4.0d
+			description: ["Дробление руды - это эффективный способ увеличить её выход, поскольку каждая руда образует две пыли, которые затем можно переплавить. Этот промышленный дробитель - быстрый способ сделать это."]
+			dependencies: ["3268DDFD2B310EDF"]
+			id: "62B0294DCA991AD8"
+			tasks: [
+				{
+					id: "06684D6F48A891A1"
+					type: "item"
+					title: "Стальные леса"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 10L
+				}
+				{
+					id: "722A0750C9B3BA61"
+					type: "item"
+					title: "Лёгкий инженерный блок"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "38C19D018F7EE5ED"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "4F40754880B66493"
+					type: "item"
+					title: "Стальной забор"
+					item: "immersiveengineering:steel_fence"
+					count: 8L
+				}
+				{
+					id: "3574D8F4E7370086"
+					type: "item"
+					title: "Воронка"
+					item: "minecraft:hopper"
+					count: 9L
+				}
+			]
+			rewards: [{
+				id: "71F924B5F280232B"
+				type: "item"
+				item: "immersiveengineering:ingot_steel"
+				random_bonus: 8
+			}]
+		}
+		{
+			title: "Лесопилка"
+			icon: "immersiveengineering:steel_scaffolding_standard"
+			x: -4.0d
+			y: -3.0d
+			description: ["Лесопилка - это станок, который распиливает деревянные брёвна на аккуратно уложенные доски. Машина работает в два этапа: сначала срезается кора с бревна, а затем с помощью пильного диска режется на части."]
+			dependencies: ["3268DDFD2B310EDF"]
+			id: "3D8CFD30C623508F"
+			tasks: [
+				{
+					id: "2547D9A0CF49B8EF"
+					type: "item"
+					title: "Стальные леса"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 8L
+				}
+				{
+					id: "75424D9355AE0A84"
+					type: "item"
+					title: "Лёгкий инженерный блок"
+					item: "immersiveengineering:light_engineering"
+					count: 6L
+				}
+				{
+					id: "70B48F28F240A47D"
+					type: "item"
+					title: "Железный листовой металл"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 4L
+				}
+				{
+					id: "5EBE139B9C50FCFE"
+					type: "item"
+					title: "Тяжёлый инженерный блок"
+					item: "immersiveengineering:heavy_engineering"
+					count: 2L
+				}
+				{
+					id: "57CF1CFED9656A33"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "4C7F043BFC7C3298"
+					type: "item"
+					title: "Конвейерная лента"
+					item: "immersiveengineering:conveyor_basic"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "553E5D2BEBA53FFB"
+				type: "item"
+				item: "immersiveengineering:ingot_steel"
+				random_bonus: 8
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			shape: "rsquare"
+			description: ["Во время обоих этапов создаются Опилки, которые собираются и извлекаются через порт на передней панели машины."]
+			dependencies: ["3D8CFD30C623508F"]
+			id: "22E4B1795DEAABEA"
+			tasks: [{
+				id: "516DD3D2DACC004E"
+				type: "item"
+				title: "Опилки"
+				item: "immersiveengineering:dust_wood"
+				count: 8L
+			}]
+			rewards: [{
+				id: "44015991302842FD"
+				type: "item"
+				item: "immersiveengineering:dust_wood"
+				count: 4
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.0d
+			description: ["Опилки можно переработать в бумагу."]
+			dependencies: ["22E4B1795DEAABEA"]
+			id: "0215A5732E55643E"
+			tasks: [{
+				id: "55C943CCECFBECA0"
+				type: "item"
+				title: "Бумага"
+				item: "minecraft:paper"
+				count: 6L
+			}]
+			rewards: [{
+				id: "13DA127FC65952E0"
+				type: "item"
+				item: "minecraft:paper"
+				count: 3
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.5d
+			subtitle: "А вдруг упадёте"
+			description: ["Прикольно и бесполезно."]
+			dependencies: ["22E4B1795DEAABEA"]
+			id: "53BC1D576D47F1CF"
+			tasks: [{
+				id: "53C42A5C56A1DC5B"
+				type: "item"
+				item: "immersiveengineering:sawdust"
+			}]
+			rewards: [{
+				id: "4129D81551C5AB1D"
+				type: "item"
+				item: "immersiveengineering:sawdust"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			description: ["С помощью каменноугольного песка можно создать жидкостные трубы."]
+			dependencies: ["62B0294DCA991AD8"]
+			size: 1.1d
+			id: "54CDC6924D4FD0B2"
+			tasks: [{
+				id: "72D01B29C8BAA8E0"
+				type: "item"
+				title: "Каменноугольный песок"
+				item: "bloodmagic:coalsand"
+				count: 4L
+			}]
+			rewards: [{
+				id: "115C461DCDA5F2A5"
+				type: "item"
+				item: "bloodmagic:coalsand"
+				count: 2
+			}]
+		}
+		{
+			title: "Бродильный аппарат"
+			icon: "immersiveengineering:steel_scaffolding_grate_top"
+			x: -1.5d
+			y: -5.5d
+			description: ["Бродильный аппарат - это многоблочная структура, которая извлекает этанол из определённых фруктов, зёрен и овощей в процессе брожения."]
+			dependencies: ["54CDC6924D4FD0B2"]
+			id: "46932CFFC5993F2B"
+			tasks: [
+				{
+					id: "474CF638EFBAA37A"
+					type: "item"
+					title: "Стальные леса"
+					item: "immersiveengineering:steel_scaffolding_grate_top"
+					count: 6L
+				}
+				{
+					id: "5D69C40B688CBBDE"
+					type: "item"
+					title: "Лёгкий инженерный блок"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "0C345E1930466F11"
+					type: "item"
+					title: "Котёл"
+					item: "minecraft:cauldron"
+					count: 4L
+				}
+				{
+					id: "699AE7E081B1AFA0"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "1F91F620DFEB56C9"
+					type: "item"
+					title: "Железный листовой металл"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 4L
+				}
+				{
+					id: "464A1876CD0190E1"
+					type: "item"
+					title: "Жидкостная труба"
+					item: "immersiveengineering:fluid_pipe"
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "Очиститель"
+			icon: "immersiveengineering:steel_scaffolding_standard"
+			x: -0.5d
+			y: -5.0d
+			description: ["Очиститель - это сложный мультиблок, который может перерабатывать одну или две жидкости в другую."]
+			dependencies: ["54CDC6924D4FD0B2"]
+			id: "3D168244919413A1"
+			tasks: [
+				{
+					id: "61FB40B2C4160140"
+					type: "item"
+					title: "Стальные леса"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 8L
+				}
+				{
+					id: "0BA94B37B0C6C650"
+					type: "item"
+					title: "Лёгкий инженерный блок"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "6B1C3C35EBC97AE5"
+					type: "item"
+					title: "Тяжёлый инженерный блок"
+					item: "immersiveengineering:heavy_engineering"
+					count: 2L
+				}
+				{
+					id: "2A639CF0CAEEF3D5"
+					type: "item"
+					title: "Железный листовой металл"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 16L
+				}
+				{
+					id: "5460D4A132F92454"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "6DEF8C59DC0B4F65"
+					type: "item"
+					title: "Жидкостная труба"
+					item: "immersiveengineering:fluid_pipe"
+					count: 5L
+				}
+			]
+		}
+		{
+			title: "Соковыжималка"
+			icon: "minecraft:piston"
+			x: -0.5d
+			y: -4.0d
+			description: ["Соковыжималка - это многоблочная структура, которая выжимает сок или масло из органических материалов с помощью большого поршня."]
+			dependencies: ["54CDC6924D4FD0B2"]
+			id: "2E3F792AADAF68D4"
+			tasks: [
+				{
+					id: "20F2D427B79EB6B6"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "3CC857D07C2A96EC"
+					type: "item"
+					title: "Стальные леса"
+					item: "immersiveengineering:steel_scaffolding_grate_top"
+					count: 6L
+				}
+				{
+					id: "36DA65FB7601F796"
+					type: "item"
+					title: "Лёгкий инженерный блок"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "6EE872ADD2468D7D"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "5D7080E23CA3577C"
+					type: "item"
+					title: "Стальной забор"
+					item: "immersiveengineering:steel_fence"
+					count: 3L
+				}
+				{
+					id: "4A7E7B735A6763F7"
+					type: "item"
+					title: "Жидкостная труба"
+					item: "immersiveengineering:fluid_pipe"
+					count: 2L
+				}
+				{
+					id: "62AA5E926890DFF4"
+					type: "item"
+					title: "Деревянная бочка"
+					item: "immersiveengineering:wooden_barrel"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -6.5d
+			description: ["Просто этанол, пригодится для создания биодизеля."]
+			dependencies: ["46932CFFC5993F2B"]
+			id: "6A241310C42A3EA2"
+			tasks: [{
+				id: "2C6F0E548FA47CEA"
+				type: "item"
+				item: "immersiveengineering:ethanol_bucket"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.5d
+			description: ["Просто масло, пригодится для создания биодизеля."]
+			dependencies: ["2E3F792AADAF68D4"]
+			id: "56539FB7DEC84AB1"
+			tasks: [{
+				id: "08C81FC69968561C"
+				type: "item"
+				item: "immersiveengineering:plantoil_bucket"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			shape: "rsquare"
+			description: ["Отлично подойдёт для дизельного генератора."]
+			dependencies: ["3D168244919413A1"]
+			size: 1.1d
+			id: "505873836071F3E2"
+			tasks: [{
+				id: "4CD77A8ED1512130"
+				type: "item"
+				item: "immersiveengineering:biodiesel_bucket"
+			}]
+		}
+		{
+			title: "Смеситель"
+			icon: "immersiveengineering:steel_scaffolding_standard"
+			x: -2.5d
+			y: -5.0d
+			description: ["Смеситель - это многоблочная структура, которая растворяет твёрдые вещества в жидкие, смешивая их вместе."]
+			dependencies: ["54CDC6924D4FD0B2"]
+			id: "5EBD27D607093719"
+			tasks: [
+				{
+					id: "05812E7CD435B0A8"
+					type: "item"
+					title: "Стальные леса"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 5L
+				}
+				{
+					id: "3A6305C17B78DE12"
+					type: "item"
+					title: "Лёгкий инженерный блок"
+					item: "immersiveengineering:light_engineering"
+					count: 4L
+				}
+				{
+					id: "5069F79D62D72478"
+					type: "item"
+					title: "Железный листовой металл"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 4L
+				}
+				{
+					id: "3024E9F32F6323D3"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "143AE16A6F2BBD18"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+				}
+				{
+					id: "0597BC808F63F9BA"
+					type: "item"
+					title: "Жидкостная труба"
+					item: "immersiveengineering:fluid_pipe"
+					count: 3L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -4.5d
+			description: ["С помощью ведра бетона можно создать бетон, вот это да!"]
+			dependencies: ["5EBD27D607093719"]
+			id: "2AAB3E14C3B43D7A"
+			tasks: [{
+				id: "77BD9CAA2B6A9664"
+				type: "item"
+				item: "immersiveengineering:concrete_bucket"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.0d
+			description: ["Гербицид, неизвестно зачем нужен..."]
+			dependencies: ["5EBD27D607093719"]
+			id: "284EEF7E5B04BF5D"
+			tasks: [{
+				id: "78ACD36038D10D42"
+				type: "item"
+				item: "immersiveengineering:herbicide_bucket"
+			}]
+		}
+		{
+			title: "Дизельный генератор"
+			icon: "immersiveengineering:radiator"
+			x: 1.0d
+			y: -6.0d
+			shape: "hexagon"
+			description: ["Дизельный генератор является мощным источником электроэнергии, который работает на биодизеле или на другом горючем топливе."]
+			dependencies: ["505873836071F3E2"]
+			id: "6343ADA99173309A"
+			tasks: [
+				{
+					id: "5FBEDCCE11F2DD2C"
+					type: "item"
+					title: "Блок радиатора"
+					item: "immersiveengineering:radiator"
+					count: 9L
+				}
+				{
+					id: "18ED78A0D3BE6A3E"
+					type: "item"
+					title: "Стальные леса"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "7E0A54A6335103FC"
+					type: "item"
+					title: "Блок генератора"
+					item: "immersiveengineering:generator"
+					count: 4L
+				}
+				{
+					id: "3C100A0395E667E7"
+					type: "item"
+					title: "Тяжёлый инженерный блок"
+					item: "immersiveengineering:heavy_engineering"
+					count: 13L
+				}
+				{
+					id: "7494AF7CF22A4C06"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "36BCE5F117841BF6"
+					type: "item"
+					title: "Жидкостная труба"
+					item: "immersiveengineering:fluid_pipe"
+					count: 5L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -5.5d
+			description: ["Прикольный блок, можно использовать в качестве декорации."]
+			dependencies: ["2AAB3E14C3B43D7A"]
+			id: "5640D34B5C62D803"
+			tasks: [{
+				id: "32916D3FBB5A72ED"
+				type: "item"
+				title: "Бетон"
+				item: "immersiveengineering:concrete"
+				count: 16L
+			}]
+			rewards: [{
+				id: "443DC7EEF772C4A4"
+				type: "item"
+				item: "immersiveengineering:concrete"
+				count: 32
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			description: ["Забор из обработанной древесины можно использовать как обычный забор. Но я всё же советую вам создать бункер и жидкостный резервуар."]
+			dependencies: ["1EDB5F4D82DE3F36"]
+			id: "18F23E1DE14A9108"
+			tasks: [{
+				id: "459CBB9F6798EC5D"
+				type: "item"
+				title: "Забор из обработанной древесины"
+				item: "immersiveengineering:treated_fence"
+				count: 4L
+			}]
+			rewards: [{
+				id: "2FEC8CCCADF2C44E"
+				type: "item"
+				item: "immersiveengineering:treated_fence"
+				count: 2
+			}]
+		}
+		{
+			title: "Бункер"
+			icon: "immersiveengineering:sheetmetal_iron"
+			x: 4.0d
+			y: 2.5d
+			subtitle: "Склад мусора"
+			description: ["В бункере можно хранить до 41 472 однотипных предметов, что делает его идеальным хранилищем для мусорных предметов, например, булыжник, земля, семена и т.п."]
+			dependencies: ["18F23E1DE14A9108"]
+			id: "068567673E668B70"
+			tasks: [
+				{
+					id: "58F08437129A4342"
+					type: "item"
+					title: "Железный листовой металл"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 50L
+				}
+				{
+					id: "0B6BD501F99D54A5"
+					type: "item"
+					title: "Забор из обработанной древесины"
+					item: "immersiveengineering:treated_fence"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Жидкостный резервуар"
+			icon: "immersiveengineering:sheetmetal_iron"
+			x: 2.5d
+			y: 2.0d
+			description: ["Жидкостный резервуар - это мультиблок, который может хранить до 512 вёдер жидкости."]
+			dependencies: ["18F23E1DE14A9108"]
+			id: "31A21E6BE5A19999"
+			tasks: [
+				{
+					id: "38F31F3ECA7CCDD9"
+					type: "item"
+					title: "Железный листовой металл"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 34L
+				}
+				{
+					id: "07C156033EA31DF6"
+					type: "item"
+					title: "Забор из обработанной древесины"
+					item: "immersiveengineering:treated_fence"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Продвинутая доменная печь"
+			icon: "immersiveengineering:blastbrick_reinforced"
+			x: -0.5d
+			y: -1.0d
+			shape: "rsquare"
+			description: ["Продвинутая доменная печь - это гораздо более профессиональный способ создания &7стали&f. Она не только позволяет автоматизировать входы и выходы, но и может быть оснащена воздухонагревателями для ускорения процесса очистки за счёт добавления горячего воздуха."]
+			dependencies: ["0AB6DC8DAF26D8C1"]
+			id: "7386B63289BF8642"
+			tasks: [
+				{
+					id: "55CF288E6DF371DD"
+					type: "item"
+					title: "Кирпич продвинутой доменной печи"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+				{
+					id: "6EC8AB39D392DCD0"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+			]
+		}
+		{
+			title: "Дуговая печь"
+			icon: "immersiveengineering:sheetmetal_steel"
+			x: -1.5d
+			y: -0.5d
+			description: ["Дуговая печь - массивная структура, используемая для быстрой плавки металлов. Она состоит из стального ковша, покрытого электродами, которые нагревают металл."]
+			dependencies: ["7386B63289BF8642"]
+			id: "646EF3639DA45574"
+			tasks: [
+				{
+					id: "4749E81EB48D9901"
+					type: "item"
+					title: "Стальной листовой металл"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 8L
+				}
+				{
+					id: "1305FDCA052A1EAB"
+					type: "item"
+					title: "Стальной блок"
+					item: "immersiveengineering:storage_steel"
+					count: 6L
+				}
+				{
+					id: "7147DB3ED1B855C0"
+					type: "item"
+					title: "Стальная плита из листового металла"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					count: 14L
+				}
+				{
+					id: "27152A77D103B63C"
+					type: "item"
+					title: "Стальные леса"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 5L
+				}
+				{
+					id: "1F2FA5EBEF39928B"
+					type: "item"
+					title: "Тяжёлый инженерный блок"
+					item: "immersiveengineering:heavy_engineering"
+					count: 5L
+				}
+				{
+					id: "7AE91D568F567138"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+				{
+					id: "064745FDF87D8AD6"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "689FDE0FD28B5AD5"
+					type: "item"
+					title: "Лёгкий инженерный блок"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "77E6D12188B4F4D1"
+					type: "item"
+					title: "Кирпич продвинутой доменной печи"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+			]
+			rewards: [{
+				id: "3806418927488990"
+				type: "item"
+				item: "immersiveengineering:ingot_steel"
+				random_bonus: 8
+			}]
+		}
+		{
+			title: "Экскаватор: Двигатель"
+			icon: "immersiveengineering:steel_scaffolding_standard"
+			x: 0.5d
+			y: -7.0d
+			description: ["Экскаватор - это одна из вершин современного машиностроения. Он способен выкапывать минералы из жил, недоступных для обычной добычи."]
+			dependencies: ["505873836071F3E2"]
+			id: "236DF9F4E41D665D"
+			tasks: [
+				{
+					id: "144989062E92D090"
+					type: "item"
+					title: "Стальные леса"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "3C2561347A8BE013"
+					type: "item"
+					title: "Стальной листовой металл"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 16L
+				}
+				{
+					id: "2453F9A9ABDF6FDD"
+					type: "item"
+					title: "Блок радиатора"
+					item: "immersiveengineering:radiator"
+					count: 3L
+				}
+				{
+					id: "57BD5F4761E679C6"
+					type: "item"
+					title: "Лёгкий инженерный блок"
+					item: "immersiveengineering:light_engineering"
+					count: 9L
+				}
+				{
+					id: "1804C646A15179CE"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "7ADFCDBD0902980C"
+					type: "item"
+					title: "Тяжёлый инженерный блок"
+					item: "immersiveengineering:heavy_engineering"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Экскаватор: Роторный ковш"
+			icon: "immersiveengineering:steel_scaffolding_standard"
+			x: -0.5d
+			y: -7.0d
+			description: ["Экскаватор состоит из двух частей: Двигатель и Роторный ковш."]
+			dependencies: ["505873836071F3E2"]
+			id: "773BA23069FCE710"
+			tasks: [
+				{
+					id: "7EE2E6E3E194AB9F"
+					type: "item"
+					title: "Стальные леса"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 26L
+				}
+				{
+					id: "5AD7A3C0D0046ACF"
+					type: "item"
+					title: "Стальной листовой металл"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 16L
+				}
+				{
+					id: "6220C901D9138060"
+					type: "item"
+					title: "блок радиатора"
+					item: "immersiveengineering:radiator"
+					count: 3L
+				}
+				{
+					id: "014C2EA363E41DF8"
+					type: "item"
+					title: "Лёгкий инженерный блок"
+					item: "immersiveengineering:light_engineering"
+					count: 9L
+				}
+				{
+					id: "6BAEE449ECAF05A9"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "74F1FDD406711474"
+					type: "item"
+					title: "Тяжёлый инженерный блок"
+					item: "immersiveengineering:heavy_engineering"
+					count: 4L
+				}
+				{
+					id: "575D48687CF538BB"
+					type: "item"
+					title: "Стальной блок"
+					item: "immersiveengineering:storage_steel"
+					count: 9L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			description: ["С помощью Колонкового бура можно узнать, какие минералы содержатся под ним."]
+			dependencies: [
+				"236DF9F4E41D665D"
+				"773BA23069FCE710"
+			]
+			id: "59EE7169BCD28B2D"
+			tasks: [{
+				id: "5C361034C312594F"
+				type: "item"
+				item: "immersiveengineering:sample_drill"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			description: ["С помощью парусов ветряной мельницы можно увеличить количество производимой энергии. Для этого, нужно нажать &eПКМ&f по центру ветряной мельницы."]
+			dependencies: ["313373728D5BBC98"]
+			id: "33B9608141485208"
+			tasks: [{
+				id: "0496F319B12499FC"
+				type: "item"
+				title: "Парус ветряной мельницы"
+				item: "immersiveengineering:windmill_sail"
+				count: 8L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			description: ["Воздухонагреватель доменной печи позволяет ускорить процесс очистики за счёт добавления горячего воздуха. "]
+			dependencies: ["7386B63289BF8642"]
+			id: "1F2FB239A143701C"
+			tasks: [{
+				id: "0C320E2EDBBF81AD"
+				type: "item"
+				title: "Воздухонагреватель доменной печи"
+				item: "immersiveengineering:blastfurnace_preheater"
+				count: 2L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			description: ["Изолированный моток низковольтного провода можно использовать как и обычный моток провода, только этот не будет бить вас током при касании."]
+			dependencies: ["384FD483F981421D"]
+			id: "42A74B6CB3E9C038"
+			tasks: [{
+				id: "0C165310BFB17B5E"
+				type: "item"
+				title: "Изолированный моток низковольтного провода"
+				item: "immersiveengineering:wirecoil_copper_ins"
+				count: 4L
+			}]
+			rewards: [{
+				id: "476CD4E60AA1D15B"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper_ins"
+				count: 2
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.0d
+			description: ["Пильный диск нужен для лесопилки."]
+			dependencies: ["3D8CFD30C623508F"]
+			id: "12375DEC2DCB88C2"
+			tasks: [{
+				id: "36FFA1A85F0513A6"
+				type: "item"
+				item: {
+					id: "immersiveengineering:sawblade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -4.5d
+			description: ["Пильный диск нужен для лесопилки."]
+			dependencies: ["12375DEC2DCB88C2"]
+			id: "24EDE45FCCC7966C"
+			tasks: [{
+				id: "23D27C22005B1B5B"
+				type: "item"
+				item: {
+					id: "immersiveengineering:rockcutter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			description: ["На алтаре наполнения можно создать &2семена&f, с помощью которых можно выращивать ресурсы!"]
+			dependencies: ["1297CE33EC6FB1B8"]
+			id: "2C0029BC5B9CCD00"
+			tasks: [{
+				id: "34F3CF847C76B07B"
+				type: "item"
+				item: "mysticalagriculture:infusion_altar"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			description: ["Пьедестал наполнения нужен для создания различных &2семян&f на &5алтаре наполнения&f."]
+			dependencies: ["1297CE33EC6FB1B8"]
+			id: "6918789AD52F8554"
+			tasks: [{
+				id: "7126183183A6CAC5"
+				type: "item"
+				title: "Пьедестал наполнения"
+				item: "mysticalagriculture:infusion_pedestal"
+				count: 8L
+			}]
+		}
+		{
+			title: "Компасы"
+			icon: {
+				id: "naturescompass:naturescompass"
+				Count: 1b
+				tag: { }
+			}
+			x: -2.5d
+			y: -1.0d
+			shape: "rsquare"
+			subtitle: "Чтоб не потеряться :)"
+			dependencies: ["4CC33F150E5DA0A0"]
+			id: "41C05337A8804898"
+			tasks: [{
+				id: "7A151FCA8FF8288A"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"block.adpother.carbon": "Углерод",
+	"block.adpother.sulfur": "Сера",
+	"block.adpother.dust": "Пыль",
+	
+	"block.adpother.iron_filter_frame": "Железная Фильтровальная Рама",
+	"block.adpother.gold_filter_frame": "Золотая Рамка Фильтра",
+	"block.adpother.diamond_filter_frame": "Рамка алмазного фильтра",
+	"block.adpother.polluted_water": "Загрязненная вода",
+	
+	"container.adpother.filter_frame": "Рамка фильтра",
+	
+	"effect.adpother.respirator": "Респиратор",
+	
+	"fluid.adpother.polluted_water_still": "Загрязненная вода",
+	"fluid.adpother.polluted_water_flowing": "Загрязненная вода",
+	
+	"item.adpother.aerometer": "Аэрометр",
+	"item.adpother.iron_vacuum_bag": "Железный Вакуумный Мешок",
+	"item.adpother.gold_vacuum_bag": "Золотой Вакуумный Пакет",
+	"item.adpother.diamond_vacuum_bag": "Алмазный Вакуумный Мешок",
+	"item.adpother.iron_vacuum_tube": "Железная Вакуумная Трубка",
+	"item.adpother.gold_vacuum_tube": "Золотая Вакуумная Трубка",
+	"item.adpother.diamond_vacuum_tube": "Алмазная Вакуумная трубка",
+	"item.adpother.iron_respirator": "Железный Респиратор",
+	"item.adpother.gold_respirator": "Золотой Респиратор",
+	"item.adpother.diamond_respirator": "Алмазный Респиратор",
+	"item.adpother.polluted_water_bucket": "Ведро с загрязненной водой",
+	
+	"tooltip.adpother.storage_item.contents": "Фильтры:",
+	"tooltip.adpother.storage_item.capacity": "Вместимость"
+}

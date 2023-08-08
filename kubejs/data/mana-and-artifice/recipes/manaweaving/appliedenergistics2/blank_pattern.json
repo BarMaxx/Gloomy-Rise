@@ -1,0 +1,26 @@
+{
+	"type": "mana-and-artifice:manaweaving-recipe",
+	"output": {
+		"item": "appliedenergistics2:blank_pattern"
+	},
+	"tier": 4,
+	"items": [		
+		"appliedenergistics2:quartz_glass",
+		"minecraft:redstone",
+		"appliedenergistics2:quartz_glass",
+		"minecraft:redstone",
+		"appliedenergistics2:charged_certus_quartz_crystal",
+		"minecraft:redstone",
+		"forge:ingots/steel",
+		"forge:ingots/steel",
+		"forge:ingots/steel"		
+	],
+	"patterns": [
+		"mana-and-artifice:circle",
+		"mana-and-artifice:diamond",
+		"mana-and-artifice:square",
+		"mana-and-artifice:diamond",
+		"mana-and-artifice:circle",
+		"mana-and-artifice:square"
+	]
+}

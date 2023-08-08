@@ -1,0 +1,43 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "result": {
+    "item": "draconicevolution:draconium_chest"
+  },
+  "catalyst": {
+    "item": "minecraft:chest"
+  },
+  "total_energy": 20000000,
+  "tier": "DRACONIUM",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:supremium_furnace"
+    },
+    {
+      "item": "draconicevolution:draconium_core"
+    },
+    {
+      "item": "mysticalagriculture:supremium_furnace"
+    },
+    {
+      "item": "draconicevolution:draconium_core"
+    },
+    {
+      "item": "mysticalagriculture:supremium_furnace"
+    },
+    {
+      "item": "extendedcrafting:basic_table"
+    },
+    {
+      "item": "mysticalagriculture:supremium_furnace"
+    },
+    {
+      "item": "expandedstorage:netherite_chest"
+    },
+    {
+      "item": "mysticalagriculture:supremium_furnace"
+    },
+    {
+      "item": "extendedcrafting:basic_table"
+    }
+  ]
+}

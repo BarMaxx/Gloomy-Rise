@@ -1,0 +1,1 @@
+{"type":"mekanism:metallurgic_infusing","itemInput":{"ingredient":{"item":"botania:terrasteel_ingot"}},"infusionInput":{"amount":80,"tag":"mekanism:redstone"},"output":{"item":"mekanism:basic_control_circuit"}}

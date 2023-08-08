@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "draconicevolution:infused_obsidian"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "mekanism:alloy_atomic"
+    },
+    {
+      "item": "compressium:obsidian_6"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "compressium:obsidian_6"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "draconicevolution:draconium_dust"
+    },
+    {
+      "item": "compressium:obsidian_6"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "compressium:obsidian_6"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    }
+  ]
+}

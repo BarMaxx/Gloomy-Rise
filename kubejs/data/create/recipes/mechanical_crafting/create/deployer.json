@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "  A ",
+    "CBGB",
+    "  A "
+  ],
+  "key": {
+    "B": {
+      "item": "create:cogwheel"
+    },
+    "C": {
+      "item": "create:brass_hand"
+    },
+    "G": {
+      "item": "create:andesite_casing"
+    },
+    "A": {
+      "item": "create:electron_tube"
+    }
+  },
+  "result": {
+    "item": "create:deployer"
+  },
+  "acceptMirrored": true
+}

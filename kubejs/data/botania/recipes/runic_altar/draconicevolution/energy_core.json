@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "draconicevolution:energy_core"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "draconicevolution:wyvern_core"
+    },
+    {
+      "item": "draconicevolution:wyvern_energy_core"
+    },
+    {
+      "item": "draconicevolution:draconium_ingot"
+    },
+    {
+      "item": "draconicevolution:wyvern_energy_core"
+    },
+    {
+      "item": "draconicevolution:draconium_ingot"
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    {
+      "item": "draconicevolution:draconium_ingot"
+    },
+    {
+      "item": "draconicevolution:wyvern_energy_core"
+    },
+    {
+      "item": "draconicevolution:draconium_ingot"
+    },
+    {
+      "item": "draconicevolution:wyvern_energy_core"
+    }
+  ]
+}

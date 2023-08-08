@@ -1,0 +1,8 @@
+{
+	"type": "mana-and-artifice:arcane-furnace",
+	"tier": 1,
+	"input": "mana-and-artifice:arcane_compound",
+	"output": "mana-and-artifice:arcane_ash",
+	"outputQuantity": 1,
+	"burnTime": 200
+}

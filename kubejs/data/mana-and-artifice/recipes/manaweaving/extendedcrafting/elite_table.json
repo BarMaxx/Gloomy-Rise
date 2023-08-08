@@ -1,0 +1,26 @@
+{
+	"type": "mana-and-artifice:manaweaving-recipe",
+	"output": {
+		"item": "extendedcrafting:elite_table"
+	},
+	"tier": 4,
+	"items": [		
+		"industrialforegoing:plastic",
+		"extendedcrafting:elite_catalyst",
+		"botania:terrasteel_ingot",
+		"extendedcrafting:elite_component",
+		"extendedcrafting:advanced_table",
+		"extendedcrafting:elite_component",
+		"botania:terrasteel_ingot",
+		"extendedcrafting:elite_catalyst",
+		"industrialforegoing:plastic"		
+	],
+	"patterns": [
+		"mana-and-artifice:circle",
+		"mana-and-artifice:diamond",
+		"mana-and-artifice:square",
+		"mana-and-artifice:diamond",
+		"mana-and-artifice:circle",
+		"mana-and-artifice:square"
+	]
+}

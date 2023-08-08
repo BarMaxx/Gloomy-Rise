@@ -1,0 +1,35 @@
+{
+  "input": [
+    {
+      "item": "appliedenergistics2:fluix_pearl"
+    },
+    {
+      "item": "appliedenergistics2:engineering_processor"
+    },
+    {
+      "item": "appliedenergistics2:fluix_pearl"
+    },
+    {
+      "tag": "forge:ingots/steel"
+    },
+    {
+      "tag": "forge:ingots/steel"
+    },
+    {
+      "item": "appliedenergistics2:fluix_pearl"
+    },
+    {
+      "item": "appliedenergistics2:engineering_processor"
+    },
+    {
+      "item": "appliedenergistics2:fluix_pearl"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:ether_gas\",Amount:150}",
+  "processingTime": 300,
+  "output": {
+    "item": "appliedenergistics2:2_cubed_spatial_cell_component",
+    "count": 1
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+}

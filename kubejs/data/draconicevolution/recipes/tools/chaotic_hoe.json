@@ -1,0 +1,37 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "result": {
+    "item": "draconicevolution:chaotic_hoe"
+  },
+  "catalyst": {
+    "item": "draconicevolution:draconic_hoe"
+  },
+  "total_energy": 1280000000,
+  "tier": "CHAOTIC",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/draconium_awakened"
+    },
+    {
+      "item": "draconicevolution:chaotic_core"
+    },
+    {
+      "item": "mysticalagradditions:insanium_ingot"
+    },
+    {
+      "item": "mysticalagradditions:insanium_ingot"
+    },
+    {
+      "tag": "forge:ingots/draconium_awakened"
+    },
+    {
+      "tag": "forge:ingots/draconium_awakened"
+    },
+    {
+      "item": "draconicevolution:chaotic_energy_core"
+    },
+    {
+      "tag": "forge:ingots/draconium_awakened"
+    }
+  ]
+}

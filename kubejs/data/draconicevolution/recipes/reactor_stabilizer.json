@@ -1,0 +1,61 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "result": {
+    "item": "draconicevolution:reactor_stabilizer"
+  },
+  "catalyst": {
+    "item": "draconicevolution:reactor_prt_stab_frame"
+  },
+  "total_energy": 160000000,
+  "tier": "CHAOTIC",
+  "ingredients": [
+    {
+      "item": "draconicevolution:draconic_energy_core"
+    },
+    {
+      "item": "draconicevolution:reactor_prt_rotor_full"
+    },
+    {
+      "item": "draconicevolution:reactor_prt_focus_ring"
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    {
+      "item": "draconicevolution:chaotic_core"
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "draconicevolution:large_chaos_frag"
+    },
+    {
+      "item": "draconicevolution:draconic_energy_core"
+    },
+    {
+      "item": "draconicevolution:reactor_prt_rotor_full"
+    },
+    {
+      "item": "draconicevolution:reactor_prt_focus_ring"
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    {
+      "item": "draconicevolution:chaotic_core"
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "draconicevolution:large_chaos_frag"
+    }
+  ]
+}

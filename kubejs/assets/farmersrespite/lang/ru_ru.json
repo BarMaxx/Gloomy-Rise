@@ -1,0 +1,47 @@
+{
+"block.farmersrespite.kettle": "Чайник",
+"block.farmersrespite.rose_hip_pie": "Пирог с Шиповником",
+"block.farmersrespite.coffee_cake": "Кофейный Торт",
+"block.farmersrespite.small_tea_bush": "Семена Чая",
+"block.farmersrespite.coffee_bush": "Кофейные Зерна",
+"block.farmersrespite.wild_tea_bush": "Дикий Чайный Куст",
+
+  "item.farmersrespite.green_tea_leaves": "Листья Зеленого Чая",
+"item.farmersrespite.yellow_tea_leaves": "Листья Желтого Чая",
+"item.farmersrespite.black_tea_leaves": "Листья Черного Чая",
+"item.farmersrespite.rose_hips": "Шиповник",
+  "item.farmersrespite.tea_seeds": "Семена Чая",
+"item.farmersrespite.green_tea": "Зеленый Чай",
+"item.farmersrespite.yellow_tea": "Желтый Чай",
+"item.farmersrespite.black_tea": "Черный Чай",
+"item.farmersrespite.rose_hip_tea": "Чай из Шиповника",
+"item.farmersrespite.dandelion_tea": "Чай из Одуванчиков",
+"item.farmersrespite.purulent_tea": "Гнойный Чай",
+"item.farmersrespite.rose_hip_pie_slice": "Кусочек Пирога с Шиповником",
+"item.farmersrespite.green_tea_cookie": "Печенье с Зеленым Чаем",
+"item.farmersrespite.nether_wart_sourdough": "Закваска из Бородавок",
+  "item.farmersrespite.black_cod": "Черная Треска",
+"item.farmersrespite.tea_curry": "Чайное Карри",
+"item.farmersrespite.coffee_berries": "Кофейные Ягоды",
+"item.farmersrespite.coffee": "Кофе",
+"item.farmersrespite.coffee_cake_slice": "Кусочек Кофейного Торта",
+"item.farmersrespite.blazing_chili": "Обжигающий Чили",
+
+  "farmersdelight.tooltip.purulent_tea": "Продлевает 1 эффект",
+"farmersdelight.tooltip.rose_hip_tea": "Исцеляет 1 сердце",
+
+  "farmersrespite.container.kettle": "Чайник",
+"farmersrespite.container.kettle.served_on": "Подается на: %s",
+  "farmersrespite.container.kettle.not_heated": "Требуется нагрев снизу",
+"farmersrespite.container.kettle.с подогревом": "С подогревом",
+
+  "farmersrespite.tooltip.kettle.empty": "Пусто",
+"farmersrespite.tooltip.kettle.single_serving": "Вмещает 1 порцию:",
+"farmersrespite.tooltip.kettle.many_servings": "Вмещает % порций:",
+
+  "effect.farmersrespite.caffeinated": "С кофеином",
+
+  "farmersrespite.jei.brewing": "Пивоварение",
+
+  "ItemGroup.farmersrespite": "Передышка фермера"
+}

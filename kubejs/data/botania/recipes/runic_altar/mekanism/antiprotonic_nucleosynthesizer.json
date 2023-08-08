@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "mekanism:antiprotonic_nucleosynthesizer"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "mekanism:steel_casing"
+    },
+    {
+      "item": "mekanism:alloy_atomic"
+    },
+    {
+      "item": "mythicbotany:alfsteel_armor_upgrade"
+    },
+    {
+      "item": "bloodmagic:reagentbinding"
+    },
+    {
+      "item": "mekanism:elite_control_circuit"
+    },
+    {
+      "item": "mekanism:pellet_antimatter"
+    },
+    {
+      "item": "mekanism:elite_control_circuit"
+    },
+    {
+      "item": "botania:gaia_ingot"
+    },
+    {
+      "item": "mekanism:alloy_atomic"
+    },
+    {
+      "item": "mysticalagriculture:supremium_essence"
+    }
+  ]
+}

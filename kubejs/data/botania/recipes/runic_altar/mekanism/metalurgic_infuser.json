@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "mekanism:metallurgic_infuser"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "industrialforegoing:machine_frame_simple"
+    },
+    {
+      "item": "mekanism:ingot_osmium"
+    },
+    {
+      "item": "industrialforegoing:plastic"
+    },
+    {
+      "item": "botania:manasteel_ingot"
+    },
+    {
+      "item": "appliedenergistics2:silicon"
+    },
+    {
+      "item": "mysticalagriculture:tertium_furnace"
+    },
+    {
+      "item": "appliedenergistics2:silicon"
+    },
+    {
+      "item": "botania:manasteel_ingot"
+    },
+    {
+      "item": "mekanism:ingot_osmium"
+    },
+    {
+      "item": "industrialforegoing:plastic"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "mekanism:atomic_disassembler"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "mekanism:energy_tablet"
+    },
+    {
+      "item": "mekanism:ingot_refined_obsidian"
+    },
+    {
+      "item": "botania:gaia_ingot"
+    },
+    {
+      "item": "mekanism:alloy_atomic"
+    },
+    {
+      "item": "extrabotany:photonium"
+    },
+    {
+      "item": "mekanism:alloy_atomic"
+    },
+    {
+      "item": "mekanism:alloy_infused"
+    },
+    {
+      "item": "bloodmagic:reagentbinding"
+    },
+    {
+      "item": "mekanism:ingot_refined_obsidian"
+    },
+    {
+      "item": "mysticalagriculture:supremium_essence"
+    }
+  ]
+}

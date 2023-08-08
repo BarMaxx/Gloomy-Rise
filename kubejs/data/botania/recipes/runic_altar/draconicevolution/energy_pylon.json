@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "draconicevolution:energy_pylon"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "draconicevolution:draconium_core"
+    },
+    {
+      "item": "botania:mana_diamond"
+    },
+    {
+      "item": "draconicevolution:draconium_ingot"
+    },
+    {
+      "item": "botanicalmachinery:mana_emerald"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "botanicalmachinery:mana_emerald"
+    },
+    {
+      "item": "draconicevolution:draconium_ingot"
+    },
+    {
+      "item": "botania:mana_diamond"
+    }
+  ]
+}

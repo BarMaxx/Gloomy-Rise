@@ -1,0 +1,26 @@
+{
+	"type": "mana-and-artifice:manaweaving-recipe",
+	"output": {
+		"item": "appliedenergistics2:semi_dark_monitor"
+	},
+	"tier": 4,
+	"items": [		
+		"appliedenergistics2:quartz_glass",
+		"minecraft:redstone",
+		"appliedenergistics2:quartz_glass",
+		"minecraft:redstone",
+		"minecraft:glowstone_dust",
+		"minecraft:redstone",
+		"mekanism:enriched_carbon",
+		"mekanism:enriched_carbon",
+		"mekanism:enriched_carbon"		
+	],
+	"patterns": [
+		"mana-and-artifice:circle",
+		"mana-and-artifice:diamond",
+		"mana-and-artifice:square",
+		"mana-and-artifice:diamond",
+		"mana-and-artifice:circle",
+		"mana-and-artifice:square"
+	]
+}

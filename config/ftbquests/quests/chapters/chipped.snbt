@@ -1,0 +1,105 @@
+{
+	id: "5098B1745C215C0F"
+	group: "6E7449445FFC34C5"
+	order_index: 0
+	filename: "chipped"
+	title: "&2Chipped"
+	icon: "chipped:glassblower"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: -0.5d
+			subtitle: "Не забываем!"
+			description: ["Красота должна быть везде."]
+			dependencies: ["114FD26AF2B063E3"]
+			hide: true
+			id: "2C432BFF146578AD"
+			tasks: [{
+				id: "4B46466272CEE763"
+				type: "item"
+				item: "chipped:mason_table"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			subtitle: "Не забыли?"
+			description: ["Красота должна быть везде."]
+			dependencies: ["114FD26AF2B063E3"]
+			hide: true
+			id: "4C8995B22FB8D909"
+			tasks: [{
+				id: "2EDF949E9086D85B"
+				type: "item"
+				item: "chipped:glassblower"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			description: ["Красота должна быть везде."]
+			dependencies: ["114FD26AF2B063E3"]
+			hide: true
+			id: "2C5D275094BD1595"
+			tasks: [{
+				id: "150051988BECD4BF"
+				type: "item"
+				item: "chipped:carpenters_table"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			description: ["Красота должна быть везде."]
+			dependencies: ["114FD26AF2B063E3"]
+			hide: true
+			id: "202BE7B352D48B0A"
+			tasks: [{
+				id: "16662A535B8FACF6"
+				type: "item"
+				item: "chipped:botanist_workbench"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			description: ["Красота должна быть везде."]
+			dependencies: ["114FD26AF2B063E3"]
+			hide: true
+			id: "612665DD7521CB28"
+			tasks: [{
+				id: "7B7E862D7BCF8074"
+				type: "item"
+				item: "chipped:loom_table"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			description: ["Красота должна быть везде."]
+			dependencies: ["114FD26AF2B063E3"]
+			hide: true
+			id: "275FF44B977C6E40"
+			tasks: [{
+				id: "0558B28FE1B3FFAD"
+				type: "item"
+				item: "chipped:alchemy_bench"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			description: ["Красота должна быть везде."]
+			dependencies: ["114FD26AF2B063E3"]
+			hide: true
+			id: "1B2114CCFDF54C96"
+			tasks: [{
+				id: "287263FF56E4F4C9"
+				type: "item"
+				item: "chipped:mechanist_workbench"
+			}]
+		}
+	]
+}

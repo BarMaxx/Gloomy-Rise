@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "mekanism:electrolytic_core"
+  },
+  "mana": 50000,
+  "ingredients": [
+    {
+      "item": "mekanism:alloy_infused"
+    },
+    {
+      "item": "mekanism:dust_osmium"
+    },
+    {
+      "item": "mekanism:alloy_infused"
+    },
+    {
+      "item": "mekanism:dust_gold"
+    },
+    {
+      "item": "mekanism:alloy_infused"
+    },
+    {
+      "item": "mekanism:dust_iron"
+    },
+    {
+      "item": "mekanism:alloy_infused"
+    },
+    {
+      "item": "mekanism:dust_gold"
+    },
+    {
+      "item": "mekanism:alloy_infused"
+    },
+    {
+      "item": "mekanism:dust_osmium"
+    }
+  ]
+}

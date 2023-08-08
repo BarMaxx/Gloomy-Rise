@@ -1,0 +1,25 @@
+{
+    "itemGroup.gardentools": "Garden Tools",
+	"item.gardentools.cultivator":"Культиватор",
+	"item.gardentools.cultivator.tooltip":"Мотыга с поддержкой дальности и высоты.",
+	"item.gardentools.planter":"Сеялка-шпатель",
+	"item.gardentools.planter.tooltip":"Находит семена в вашем инвентаре и высаживает на пашню",
+	"block.gardentools.irrigation_core":"Оросительное ядро",
+	"block.gardentools.irrigation_core.tooltip":"Увлажняет близлежащую пашню",
+	
+	"item.gardentools.watering":"Лейка",
+	"item.gardentools.watering.tooltip":"Медленно выращивает близлежащие культуры",
+	
+	"item.gardentools.fertilizer":"Удобрение",
+	"item.gardentools.fertilizer.tooltip":"Концентрированная костная мука",
+	
+	"block.gardentools.feeder":"Кормушка для скота",
+	"block.gardentools.feeder.tooltip":"Кормушка использует предметы, лежащие на земле",
+	
+	"block.gardentools.rancher":"Животноводческое хозяйство",
+	"block.gardentools.rancher.tooltip":"Стрижет овец; использует ведра, лежащие на земле",
+	
+	"block.gardentools.magnet":"Постоянный магнит",
+	"block.gardentools.magnet.tooltip":"Размещение на контейнере означает, что вытянутые элементы будут отфильтрованы."
+	
+}          

@@ -1,0 +1,488 @@
+{
+	id: "76E4D7509A53EE90"
+	group: "37FCF4EC720E030D"
+	order_index: 0
+	filename: "nether"
+	title: "&4Nether"
+	icon: "minecraft:nether_star"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Портал в &4Незер&f!"
+			icon: "minecraft:obsidian"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			description: ["Чтобы попасть в &4Незер&f нужно построить рамку портала из обсидиана и поджечь её &6огнивом&f."]
+			dependencies: ["114FD26AF2B063E3"]
+			hide: true
+			size: 1.3d
+			id: "491E4B5BD7069266"
+			tasks: [
+				{
+					id: "73115826D1F79035"
+					type: "item"
+					title: "Обсидиан"
+					item: "minecraft:obsidian"
+					count: 10L
+				}
+				{
+					id: "409A396617D20255"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: ["Незерский кирпич можно получить, переплавив незерак в печи. Из этих кирпичей можно создать кирпичи доменной печи."]
+			dependencies: ["491E4B5BD7069266"]
+			id: "08D277C60EA4E24A"
+			tasks: [{
+				id: "4E1A16D97C19D86D"
+				type: "item"
+				title: "Незерский кирпич"
+				item: "minecraft:nether_brick"
+				count: 16L
+			}]
+			rewards: [{
+				id: "7FCD83C0892DDE78"
+				type: "item"
+				item: "minecraft:nether_brick"
+				count: 4
+				random_bonus: 2
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			description: ["Магму можно создать из сгустка магмы либо же накопать в Незере. Магма нужна для создания кирпичей доменной печи."]
+			dependencies: ["491E4B5BD7069266"]
+			id: "1ED82206C1B8331E"
+			tasks: [{
+				id: "018F5E14F1A02A10"
+				type: "item"
+				title: "Магма"
+				item: "minecraft:magma_block"
+				count: 8L
+			}]
+			rewards: [{
+				id: "591BC61120F335A5"
+				type: "item"
+				item: "minecraft:magma_block"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			description: ["Незер-кварц можно найти в Незере. И найти его достаточно легко, т.к. кварц появляется довольно часто."]
+			dependencies: ["491E4B5BD7069266"]
+			id: "2CB6E2F317E842CA"
+			tasks: [{
+				id: "2CACBED3F58D8B35"
+				type: "item"
+				title: "Незер-кварц"
+				item: "minecraft:quartz"
+				count: 16L
+			}]
+			rewards: [{
+				id: "0F587B126C574F6D"
+				type: "item"
+				item: "minecraft:quartz"
+				count: 4
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			description: ["&dРозовый кварц&f понадобится для многих крафтов в ветке квестов с модом &6Create!&f"]
+			dependencies: ["2CB6E2F317E842CA"]
+			id: "3CEDE60AD25690CF"
+			tasks: [{
+				id: "43C9C1494FF3C488"
+				type: "item"
+				item: "create:rose_quartz"
+			}]
+			rewards: [{
+				id: "250949DAAFEE000F"
+				type: "item"
+				item: "create:rose_quartz"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			description: ["Позволяет легче строить масштабные постройки."]
+			dependencies: ["3CEDE60AD25690CF"]
+			id: "58C9C1DAC20F99DE"
+			tasks: [{
+				id: "1E62445C861E73AC"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			description: ["Пока находится в вашем инвентаре - накапливает время, а потом это время можно использовать для ускорения различных процессов."]
+			dependencies: ["3CEDE60AD25690CF"]
+			id: "24DDF0425E4D682C"
+			tasks: [{
+				id: "446C9C7FB09358A7"
+				type: "item"
+				title: "Время в бутылке"
+				item: {
+					id: "tiab:timeinabottle"
+					Count: 1b
+					tag: {
+						timeData: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["Собирает предметы недалеко от вас."]
+			dependencies: ["3CEDE60AD25690CF"]
+			id: "13458DF94390D17D"
+			tasks: [{
+				id: "654F37947C284D84"
+				type: "item"
+				item: {
+					id: "simplemagnets:basicmagnet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			description: ["Улучшенный магнит. Увеличивает дистанцию сбора предметов."]
+			dependencies: ["13458DF94390D17D"]
+			id: "0EB9F82384980D93"
+			tasks: [{
+				id: "2375BD1B8BB0CADD"
+				type: "item"
+				item: {
+					id: "simplemagnets:advancedmagnet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			description: ["Древние обломки появляются в Незере на высоте 7-22. Но он очень редкий, поэтому наберитесь терпения."]
+			dependencies: ["491E4B5BD7069266"]
+			id: "2FDCBFDEBDA4BFBA"
+			tasks: [{
+				id: "7B23F9DEB8D6B58F"
+				type: "item"
+				title: "Древние обломки"
+				item: "minecraft:ancient_debris"
+				count: 4L
+			}]
+			rewards: [{
+				id: "502B722FEEEA5D60"
+				type: "item"
+				item: "minecraft:ancient_debris"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			description: ["Чтобы получить незеритовый лом, необходимо переплавить древние обломки. Этот лом нужен для создания незеритового слитка."]
+			dependencies: ["2FDCBFDEBDA4BFBA"]
+			id: "7DCC0FA4C160D8F4"
+			tasks: [{
+				id: "65F80DBFB139089B"
+				type: "item"
+				title: "Незеритовый лом"
+				item: "minecraft:netherite_scrap"
+				count: 8L
+			}]
+			rewards: [{
+				id: "62FD777108CAEBEA"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			description: ["С помощью незеритового слитка можно улучшать некоторые вещи, например, броню, инструменты, сундуки и т.п."]
+			dependencies: ["7DCC0FA4C160D8F4"]
+			id: "1F24FA2023174B08"
+			tasks: [{
+				id: "4521A14D94E869BB"
+				type: "item"
+				title: "Незеритовый слиток"
+				item: "minecraft:netherite_ingot"
+				count: 3L
+			}]
+			rewards: [{
+				id: "34552D85D2E3874C"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+		}
+		{
+			title: "Незеритовые хранилища"
+			icon: "expandedstorage:netherite_chest"
+			x: 3.0d
+			y: -2.5d
+			description: ["Улучшенные версии алмазных хранилищ. Позволяют хранить больше предметов."]
+			dependencies: ["1F24FA2023174B08"]
+			id: "294FD6792EA8FE0D"
+			tasks: [
+				{
+					id: "7A133BB029717EA5"
+					type: "item"
+					item: "expandedstorage:netherite_chest"
+				}
+				{
+					id: "52FDC0A31A876459"
+					type: "item"
+					item: "expandedstorage:netherite_barrel"
+				}
+			]
+		}
+		{
+			title: "Незеритовые инструменты"
+			icon: {
+				id: "minecraft:netherite_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.0d
+			y: -2.5d
+			description: ["Хорошие и эффективные инструменты и оружие."]
+			dependencies: ["1F24FA2023174B08"]
+			id: "7CD800F7D537713F"
+			tasks: [
+				{
+					id: "354F3A1F451D93F9"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "358BA89CC442BDB9"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0FC37D46FC17E4CF"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2BC50AE5E80E8F66"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6E5F4300F585DD41"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+		}
+		{
+			title: "Незеритовая броня"
+			icon: {
+				id: "minecraft:netherite_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.0d
+			y: -0.5d
+			description: ["Неплохая броня с хорошей защитой."]
+			dependencies: ["1F24FA2023174B08"]
+			id: "6270C376F841A2FB"
+			tasks: [
+				{
+					id: "2A998E9C666D2837"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7CC30242CE0D5341"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2593A63B6A9A98CB"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "660A8CC363F5D47D"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "670CD4CBB4F368A2"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			description: ["Улучшенная версия алмазного рюкзака. Позволяет хранить больше предметов и улучшений."]
+			dependencies: ["1F24FA2023174B08"]
+			id: "269199E0BBE0015A"
+			tasks: [{
+				id: "46DD872666018293"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+		}
+		{
+			icon: "appliedenergistics2:grindstone"
+			x: 2.0d
+			y: 1.5d
+			description: ["Кварцевый дробитель позволяет вам перемалывать руду в пыль. Для того, чтобы дробить руду необходимо на дробитель поставить &eрукоятку&f, а после крутите её."]
+			dependencies: ["2CB6E2F317E842CA"]
+			id: "6BDEDFD2C6E2E62F"
+			tasks: [
+				{
+					id: "7258932F0907108A"
+					type: "item"
+					item: "appliedenergistics2:grindstone"
+				}
+				{
+					id: "1881F288F9B72E27"
+					type: "item"
+					item: "appliedenergistics2:crank"
+				}
+			]
+		}
+		{
+			title: "Визер"
+			icon: "minecraft:wither_skeleton_skull"
+			x: -1.5d
+			y: -0.5d
+			subtitle: "Ваш первый босс!"
+			description: ["Чтобы заспавнить Визера, необходимо поставить 4 блока песка душ и 3 черепа визер-скелета как на картинке. Убив этого босса вы получите &dзвезду Незера!&f"]
+			dependencies: ["491E4B5BD7069266"]
+			id: "245CE482D6E6A2D7"
+			tasks: [
+				{
+					id: "6C32CAD61BE8758B"
+					type: "item"
+					title: "Череп визер-скелета"
+					item: "minecraft:wither_skeleton_skull"
+					count: 3L
+				}
+				{
+					id: "48873F0DD7FD4E3C"
+					type: "item"
+					title: "Песок душ"
+					item: "minecraft:soul_sand"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "2511D123D4D0630F"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+				count: 2
+				random_bonus: 1
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			description: ["&dЗвезда Незера&f выпадает с Визера. Это очень ценный предмет, который в будущем Вам понадобится в большом количестве."]
+			dependencies: ["245CE482D6E6A2D7"]
+			id: "33C1F735EFF06519"
+			tasks: [{
+				id: "51F673FEE10B1D6F"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+		}
+	]
+}

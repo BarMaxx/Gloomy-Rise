@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "mekanism:enrichment_chamber"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "industrialforegoing:machine_frame_simple"
+    },
+    {
+      "item": "mekanism:ingot_osmium"
+    },
+    {
+      "item": "industrialforegoing:plastic"
+    },
+    {
+      "item": "mekanism:basic_control_circuit"
+    },
+    {
+      "item": "appliedenergistics2:silicon"
+    },
+    {
+      "item": "mekanism:steel_casing"
+    },
+    {
+      "item": "appliedenergistics2:silicon"
+    },
+    {
+      "item": "mekanism:basic_control_circuit"
+    },
+    {
+      "item": "mekanism:ingot_osmium"
+    },
+    {
+      "item": "industrialforegoing:plastic"
+    }
+  ]
+}

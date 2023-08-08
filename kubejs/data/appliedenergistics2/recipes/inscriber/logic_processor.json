@@ -1,0 +1,18 @@
+{
+  "type": "appliedenergistics2:inscriber",
+  "mode": "press",
+  "result": {
+    "item": "appliedenergistics2:logic_processor"
+  },
+  "ingredients": {
+    "top": {
+      "item": "appliedenergistics2:printed_logic_processor"
+    },
+    "middle": {
+      "item": "mekanism:enriched_redstone"
+    },
+    "bottom": {
+      "item": "appliedenergistics2:printed_silicon"
+    }
+  }
+}

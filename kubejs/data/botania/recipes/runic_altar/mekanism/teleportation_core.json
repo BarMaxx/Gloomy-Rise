@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "mekanism:teleportation_core"
+  },
+  "mana": 50000,
+  "ingredients": [
+    {
+      "item": "mekanism:alloy_atomic"
+    },
+    {
+      "item": "appliedenergistics2:fluix_pearl"
+    },
+    {
+      "item": "botania:mana_diamond"
+    },
+    {
+      "item": "bloodmagic:reagentbinding"
+    },
+    {
+      "item": "extrabotany:photonium"
+    },
+    {
+      "item": "mekanism:alloy_atomic"
+    },
+    {
+      "item": "extrabotany:shadowium"
+    },
+    {
+      "item": "bloodmagic:reagentbinding"
+    },
+    {
+      "item": "botania:mana_diamond"
+    },
+    {
+      "item": "mysticalagriculture:supremium_essence"
+    }
+  ]
+}

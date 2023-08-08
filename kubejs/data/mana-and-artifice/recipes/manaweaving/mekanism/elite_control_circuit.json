@@ -1,0 +1,26 @@
+{
+	"type": "mana-and-artifice:manaweaving-recipe",
+	"output": {
+		"item": "mekanism:elite_control_circuit"
+	},
+	"tier": 5,
+	"items": [		
+		"botania:pixie_dust",
+		"mysticalagriculture:imperium_essence",
+		"bloodmagic:reagentmagnetism",
+		"mekanism:alloy_reinforced",
+		"mekanism:advanced_control_circuit",
+		"mekanism:alloy_reinforced",
+		"bloodmagic:reagentmagnetism",
+		"mysticalagriculture:imperium_essence",
+		"botania:pixie_dust"		
+	],
+	"patterns": [
+		"mana-and-artifice:circle",
+		"mana-and-artifice:diamond",
+		"mana-and-artifice:square",
+		"mana-and-artifice:diamond",
+		"mana-and-artifice:circle",
+		"mana-and-artifice:square"
+	]
+}

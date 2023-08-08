@@ -1,0 +1,61 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "result": {
+    "item": "draconicevolution:draconic_capacitor"
+  },
+  "catalyst": {
+    "item": "draconicevolution:awakened_core"
+  },
+  "total_energy": 320000000,
+  "tier": "DRACONIC",
+  "ingredients": [
+    {
+      "item": "draconicevolution:awakened_draconium_ingot"
+    },
+    {
+      "item": "draconicevolution:awakened_draconium_ingot"
+    },
+    {
+      "item": "draconicevolution:wyvern_capacitor"
+    },
+    {
+      "item": "draconicevolution:draconic_energy_core"
+    },
+    {
+      "item": "draconicevolution:draconic_energy_core"
+    },
+    {
+      "item": "botania:dragonstone"
+    },
+    {
+      "item": "draconicevolution:awakened_draconium_ingot"
+    },
+    {
+      "item": "draconicevolution:awakened_draconium_ingot"
+    },
+    {
+      "item": "draconicevolution:awakened_draconium_ingot"
+    },
+    {
+      "item": "draconicevolution:awakened_draconium_ingot"
+    },
+    {
+      "item": "draconicevolution:wyvern_capacitor"
+    },
+    {
+      "item": "draconicevolution:draconic_energy_core"
+    },
+    {
+      "item": "draconicevolution:draconic_energy_core"
+    },
+    {
+      "item": "botania:dragonstone"
+    },
+    {
+      "item": "draconicevolution:awakened_draconium_ingot"
+    },
+    {
+      "item": "draconicevolution:awakened_draconium_ingot"
+    }
+  ]
+}

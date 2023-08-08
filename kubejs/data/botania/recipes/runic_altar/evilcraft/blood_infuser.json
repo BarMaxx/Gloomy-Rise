@@ -1,0 +1,39 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "evilcraft:blood_infuser"
+  },
+  "mana": 100000,
+  "ingredients": [
+    {
+      "item": "compressium:cobblestone_8"
+    },
+    {
+      "item": "evilcraft:dark_gem"
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    {
+      "item": "compressium:cobblestone_8"
+    },
+    {
+      "item": "extrabotany:aerialite"
+    },
+    {
+      "item": "mythicbotany:asgard_rune"
+    },
+    {
+      "item": "compressium:cobblestone_8"
+    },
+    {
+      "item": "botania:terrasteel_ingot"
+    },
+    {
+      "item": "evilcraft:dark_gem"
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence"
+    }
+  ]
+}

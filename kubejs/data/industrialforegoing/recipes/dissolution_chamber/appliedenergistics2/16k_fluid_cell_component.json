@@ -1,0 +1,35 @@
+{
+  "input": [
+    {
+      "item": "appliedenergistics2:4k_fluid_cell_component"
+    },
+    {
+      "item": "appliedenergistics2:calculation_processor"
+    },
+    {
+      "item": "appliedenergistics2:4k_fluid_cell_component"
+    },
+    {
+      "tag": "forge:plastic"
+    },
+    {
+      "tag": "forge:plastic"
+    },
+    {
+      "item": "appliedenergistics2:4k_fluid_cell_component"
+    },
+    {
+      "item": "appliedenergistics2:calculation_processor"
+    },
+    {
+      "item": "appliedenergistics2:4k_fluid_cell_component"
+    }
+  ],
+  "inputFluid": "{FluidName:\"industrialforegoing:ether_gas\",Amount:150}",
+  "processingTime": 300,
+  "output": {
+    "item": "appliedenergistics2:16k_fluid_cell_component",
+    "count": 1
+  },
+  "type": "industrialforegoing:dissolution_chamber"
+}
