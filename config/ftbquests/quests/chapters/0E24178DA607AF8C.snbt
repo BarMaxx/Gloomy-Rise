@@ -95,13 +95,12 @@
 				title: "Том Акаши"
 			}]
 			rewards: [{
-				id: "71CE4BC7404325F9"
+				id: "21BFFB821D55EB0A"
 				type: "item"
 				item: {
 					id: "akashictome:tome"
 					Count: 1b
 					tag: {
-						"akashictome:is_morphing": 1b
 						"akashictome:data": {
 							industrialforegoing: {
 								id: "patchouli:guide_book"
@@ -117,34 +116,6 @@
 							tconstruct: {
 								id: "tconstruct:encyclopedia"
 								Count: 1b
-								tag: {
-									mantle: {
-										book: {
-											current_page: "small_tools.axe"
-										}
-									}
-									"akashictome:displayName": {
-										text: "Литейная энциклопедия"
-									}
-									"akashictome:is_morphing": 1b
-									display: {
-										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Литейная энциклопедия\"}]}"
-									}
-								}
-							}
-							storagenetwork: {
-								id: "patchouli:guide_book"
-								Count: 1b
-								tag: {
-									"akashictome:displayName": {
-										text: "Network Guide Book"
-									}
-									"patchouli:book": "storagenetwork:network_book"
-									"akashictome:is_morphing": 1b
-									display: {
-										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Network Guide Book\"}]}"
-									}
-								}
 							}
 							resourcefulbees: {
 								id: "patchouli:guide_book"
@@ -163,24 +134,6 @@
 							}
 							mana-and-artifice: {
 								id: "mana-and-artifice:guide_book"
-								Count: 1b
-							}
-							theabyss: {
-								id: "patchouli:guide_book"
-								Count: 1b
-								tag: {
-									"akashictome:displayName": {
-										text: "The Abyss: Chapter II"
-									}
-									"patchouli:book": "theabyss:abyssbookitem"
-									"akashictome:is_morphing": 1b
-									display: {
-										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"The Abyss: Chapter II\"}]}"
-									}
-								}
-							}
-							solcarrot: {
-								id: "solcarrot:food_book"
 								Count: 1b
 							}
 							extendedcrafting: {
@@ -205,28 +158,14 @@
 								id: "patchouli:guide_book"
 								Count: 1b
 								tag: {
-									"akashictome:displayName": {
-										text: "Mystical Agriculture"
-									}
 									"patchouli:book": "mysticalagriculture:guide"
-									"akashictome:is_morphing": 1b
-									display: {
-										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Mystical Agriculture\"}]}"
-									}
 								}
 							}
 							cyclic: {
 								id: "patchouli:guide_book"
 								Count: 1b
 								tag: {
-									"akashictome:displayName": {
-										text: "Руководство по Cyclic"
-									}
 									"patchouli:book": "cyclic:cyclic_guide_book"
-									"akashictome:is_morphing": 1b
-									display: {
-										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Руководство по Cyclic\"}]}"
-									}
 								}
 							}
 						}

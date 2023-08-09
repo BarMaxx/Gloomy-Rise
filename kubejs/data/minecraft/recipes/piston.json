@@ -1,0 +1,28 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "WWWWW",
+    "CSSSC",
+    "CSSSC",
+    "CRRRC",
+	"CRRRC"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "mekanism:ingot_steel"
+    },
+    "W": {
+      "item": "immersiveengineering:treated_wood_horizontal"
+    },
+    "C": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "minecraft:piston",
+    "count": 1
+  }
+}

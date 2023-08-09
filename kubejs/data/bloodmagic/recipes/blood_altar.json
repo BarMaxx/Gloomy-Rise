@@ -1,0 +1,46 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "D   D",
+    "S R S",
+    "SEWTS",
+    "SIGIS",
+	"SAFAS"
+  ],
+  "key": {
+    "S": {
+      "item": "mekanism:block_steel"
+    },
+    "D": {
+      "item": "evilcraft:dark_power_gem"
+    },
+    "F": {
+      "item": "mysticalagriculture:supremium_furnace"
+    },
+    "A": {
+      "item": "mythicbotany:alfsteel_armor_upgrade"
+    },
+    "I": {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+	"G": {
+      "item": "botania:gaia_ingot"
+    },
+	"W": {
+      "item": "botania:dreamwood"
+    },
+	"R": {
+      "item": "mythicbotany:asgard_rune" 
+    },
+	"E": {
+      "item": "botania:rune_greed"
+    },
+	"T": {
+      "item": "botania:rune_wrath"
+    }
+  },
+  "result": {
+    "item": "bloodmagic:altar",
+    "count": 1
+  }
+}
