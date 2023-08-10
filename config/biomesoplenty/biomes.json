@@ -105,22 +105,22 @@
   },
   "technical_biome_toggles": {
     "biomesoplenty:alps_foothills": {
-      "enabled": true
+      "enabled": false
     },
     "biomesoplenty:gravel_beach": {
-      "enabled": true
+      "enabled": false
     },
     "biomesoplenty:orchard": {
-      "enabled": true
+      "enabled": false
     },
     "biomesoplenty:redwood_forest_edge": {
-      "enabled": true
+      "enabled": false
     },
     "biomesoplenty:tropic_beach": {
-      "enabled": true
+      "enabled": false
     },
     "biomesoplenty:volcanic_plains": {
-      "enabled": true
+      "enabled": false
     }
   },
   "sub_biome_weights": {
@@ -271,16 +271,16 @@
   },
   "island_biome_toggles": {
     "biomesoplenty:origin_valley": {
-      "enabled": true
+      "enabled": false
     },
     "biomesoplenty:rainbow_hills": {
-      "enabled": true
+      "enabled": false
     },
     "biomesoplenty:tropics": {
-      "enabled": true
+      "enabled": false
     },
     "biomesoplenty:volcano": {
-      "enabled": true
+      "enabled": false
     }
   },
   "vanilla_biome_weights": {

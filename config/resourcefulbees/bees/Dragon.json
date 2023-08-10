@@ -38,7 +38,7 @@
   },
   "SpawnData": {},
   "BreedData": {
-    "isBreedable": true,
+    "isBreedable": false,
     "parent1": "Wither",
     "parent2": "Ender",
     "feedItem": "minecraft:end_stone",

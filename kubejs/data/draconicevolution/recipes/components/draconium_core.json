@@ -1,0 +1,31 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "IDDDI",
+    "DPSPD",
+    "DSASD",
+    "DPSPD",
+	"IDDDI"
+  ],
+  "key": {
+    "A": {
+      "item": "mythicbotany:asgard_rune"
+    },
+    "I": {
+      "item": "mysticalagriculture:imperium_essence"
+    },
+    "D": {
+      "item": "draconicevolution:draconium_ingot"
+    },
+    "S": {
+      "item": "botania:dragonstone"
+    },
+    "P": {
+      "item": "industrialforegoing:pink_slime_ingot"
+    }
+  },
+  "result": {
+    "item": "draconicevolution:draconium_core",
+    "count": 1
+  }
+}

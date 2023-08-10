@@ -1,0 +1,28 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "BBBBB",
+    "BEBEB",
+    "WWCWW",
+    "BEBEB",
+	"BBBBB"
+  ],
+  "key": {
+    "B": {
+      "item": "create:brass_casing"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "W": {
+      "item": "create:cogwheel"
+    },
+    "C": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "result": {
+    "item": "create:mechanical_crafter",
+    "count": 1
+  }
+}
