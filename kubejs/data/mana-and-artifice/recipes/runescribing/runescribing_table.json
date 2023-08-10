@@ -1,0 +1,37 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "BDDVC",
+    "SSSSS",
+    "WPPPW",
+    "W   W",
+	"W   W"
+  ],
+  "key": {
+    "C": {
+      "item": "mana-and-artifice:wizard_chalk"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "W": {
+      "item": "immersiveengineering:treated_wood_horizontal"
+    },
+    "B": {
+      "item": "minecraft:bowl"
+    },
+    "P": {
+      "item": "immersiveengineering:plate_steel"
+    },
+    "V": {
+      "item": "mana-and-artifice:vellum"
+    },
+    "D": {
+      "item": "mana-and-artifice:purified_vinteum_dust"
+    }
+  },
+  "result": {
+    "item": "mana-and-artifice:runescribing_table",
+    "count": 1
+  }
+}

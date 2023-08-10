@@ -1,0 +1,46 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "QLLULLQ",
+    "LSIDISL",
+    "LACCCAL",
+    "UDCBCDU",
+	"LACCCAL",
+	"LSIDISL",
+	"QLLULLQ"
+	
+  ],
+  "key": {
+    "Q": {
+      "item": "appliedenergistics2:quantum_entangled_singularity"
+    },
+    "L": {
+      "item": "compressium:lapis_5"
+    },
+    "U": {
+      "item": "extendedcrafting:luminessence_block"
+    },
+    "S": {
+      "item": "extendedcrafting:ultimate_singularity"
+    },
+    "I": {
+      "item": "botania:elementium_ingot"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "A": {
+      "item": "mekanism:pellet_antimatter"
+    },
+    "C": {
+      "item": "draconicevolution:draconium_core"
+    },
+    "B": {
+      "item": "extendedcrafting:nether_star_block"
+    }
+  },
+  "result": {
+    "item": "draconicevolution:crafting_core",
+    "count": 1
+  }
+}

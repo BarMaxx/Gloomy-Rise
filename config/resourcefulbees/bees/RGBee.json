@@ -17,7 +17,7 @@
     "bottleOutputWeight": 0.02
   },
   "SpawnData": {
-    "canSpawnInWorld": true,
+    "canSpawnInWorld": false,
     "biomeWhitelist": "TAG:OVerWorld",
     "biomeBlacklist": "tag:ocean"
   },

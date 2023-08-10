@@ -1,0 +1,22 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "     ",
+    " S S ",
+    " S S ",
+    " SCS ",
+	"  S  "
+  ],
+  "key": {
+    "C": {
+      "item": "expandedstorage:iron_chest"
+    },
+    "S": {
+      "item": "immersiveengineering:plate_steel"
+    }
+  },
+  "result": {
+    "item": "minecraft:hopper",
+    "count": 1
+  }
+}
