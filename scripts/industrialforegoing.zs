@@ -104,7 +104,7 @@ craftingTable.removeRecipe(<item:industrialforegoing:plant_sower>);
 mods.extendedcrafting.TableCrafting.addShaped("ct_industrialforegoing_12", <item:industrialforegoing:plant_sower>, [
 	[<tag:items:forge:plates/iron>, <item:minecraft:iron_ingot>, <tag:items:forge:plastic>, <item:minecraft:iron_ingot>, <tag:items:forge:plates/iron>], 
 	[<item:minecraft:iron_ingot>, <tag:items:forge:gears/iron>, <item:minecraft:flower_pot>, <tag:items:forge:gears/iron>, <item:minecraft:iron_ingot>], 
-	[<tag:items:forge:plastic>, <tag:items:forge:pistons>, <item:industrialforegoing:machine_frame_pity>, <tag:items:forge:pistons>, <tag:items:forge:plastic>], 
+	[<tag:items:forge:plastic>, <item:minecraft:piston>, <item:industrialforegoing:machine_frame_pity>, <item:minecraft:piston>, <tag:items:forge:plastic>], 
 	[<item:minecraft:iron_ingot>, <tag:items:forge:gears/iron>, <item:minecraft:redstone>, <tag:items:forge:gears/iron>, <item:minecraft:iron_ingot>], 
 	[<tag:items:forge:plates/iron>, <item:minecraft:iron_ingot>, <tag:items:forge:plastic>, <item:minecraft:iron_ingot>, <tag:items:forge:plates/iron>]
 ]);
@@ -157,9 +157,9 @@ mods.extendedcrafting.TableCrafting.addShaped("ct_industrialforegoing_17", <item
 craftingTable.removeRecipe(<item:industrialforegoing:sewage_composter>);
 mods.extendedcrafting.TableCrafting.addShaped("ct_industrialforegoing_18", <item:industrialforegoing:sewage_composter>, [
 	[<tag:items:forge:plates/iron>, <item:minecraft:iron_ingot>, <tag:items:forge:ingots/constantan>, <item:minecraft:iron_ingot>, <tag:items:forge:plates/iron>], 
-	[<item:minecraft:iron_ingot>, <tag:items:forge:gears/iron>, <tag:items:forge:pistons>, <tag:items:forge:gears/iron>, <item:minecraft:iron_ingot>], 
+	[<item:minecraft:iron_ingot>, <tag:items:forge:gears/iron>, <item:minecraft:piston>, <tag:items:forge:gears/iron>, <item:minecraft:iron_ingot>], 
 	[<tag:items:forge:plastic>, <item:minecraft:brick>, <item:industrialforegoing:machine_frame_pity>, <item:minecraft:brick>, <tag:items:forge:plastic>], 
-	[<item:minecraft:iron_ingot>, <tag:items:forge:gears/iron>, <tag:items:forge:pistons>, <tag:items:forge:gears/iron>, <item:minecraft:iron_ingot>], 
+	[<item:minecraft:iron_ingot>, <tag:items:forge:gears/iron>, <item:minecraft:piston>, <tag:items:forge:gears/iron>, <item:minecraft:iron_ingot>], 
 	[<tag:items:forge:plates/iron>, <item:minecraft:iron_ingot>, <item:mysticalagriculture:tertium_furnace>, <item:minecraft:iron_ingot>, <tag:items:forge:plates/iron>]
 ]);
 
@@ -293,7 +293,7 @@ craftingTable.removeRecipe(<item:industrialforegoing:water_condensator>);
 mods.extendedcrafting.TableCrafting.addShaped("ct_industrialforegoing_33", <item:industrialforegoing:water_condensator>, [
 	[<tag:items:forge:plates/iron>, <item:minecraft:iron_ingot>, <item:mekanism:alloy_infused>, <item:minecraft:iron_ingot>, <tag:items:forge:plates/iron>], 
 	[<item:minecraft:iron_ingot>, <tag:items:forge:gears/iron>, <item:minecraft:water_bucket>, <tag:items:forge:gears/iron>, <item:minecraft:iron_ingot>], 
-	[<tag:items:forge:plastic>, <tag:items:forge:pistons>, <item:industrialforegoing:machine_frame_pity>, <tag:items:forge:pistons>, <tag:items:forge:plastic>], 
+	[<tag:items:forge:plastic>, <item:minecraft:piston>, <item:industrialforegoing:machine_frame_pity>, <item:minecraft:piston>, <tag:items:forge:plastic>], 
 	[<item:minecraft:iron_ingot>, <tag:items:forge:gears/iron>, <item:minecraft:water_bucket>, <tag:items:forge:gears/iron>, <item:minecraft:iron_ingot>], 
 	[<tag:items:forge:plates/iron>, <item:minecraft:iron_ingot>, <item:mekanism:alloy_infused>, <item:minecraft:iron_ingot>, <tag:items:forge:plates/iron>]
 ]);
@@ -310,9 +310,9 @@ mods.extendedcrafting.TableCrafting.addShaped("ct_industrialforegoing_34", <item
 craftingTable.removeRecipe(<item:industrialforegoing:laser_drill>);
 mods.extendedcrafting.TableCrafting.addShaped("ct_industrialforegoing_35", <item:industrialforegoing:laser_drill>, [
 	[<tag:items:forge:plates/iron>, <item:minecraft:iron_ingot>, <item:mekanism:alloy_atomic>, <item:minecraft:iron_ingot>, <tag:items:forge:plates/iron>], 
-	[<item:minecraft:iron_ingot>, <tag:items:forge:gears/gold>, <tag:items:forge:pistons>, <tag:items:forge:gears/gold>, <item:minecraft:iron_ingot>], 
+	[<item:minecraft:iron_ingot>, <tag:items:forge:gears/gold>, <item:minecraft:piston>, <tag:items:forge:gears/gold>, <item:minecraft:iron_ingot>], 
 	[<tag:items:forge:plastic>, <tag:items:forge:gears/diamond>, <item:industrialforegoing:machine_frame_simple>, <tag:items:forge:gears/diamond>, <tag:items:forge:plastic>], 
-	[<item:minecraft:iron_ingot>, <tag:items:forge:gears/gold>, <tag:items:forge:pistons>, <tag:items:forge:gears/gold>, <item:minecraft:iron_ingot>], 
+	[<item:minecraft:iron_ingot>, <tag:items:forge:gears/gold>, <item:minecraft:piston>, <tag:items:forge:gears/gold>, <item:minecraft:iron_ingot>], 
 	[<tag:items:forge:plates/iron>, <item:minecraft:iron_ingot>, <item:mekanism:alloy_atomic>, <item:minecraft:iron_ingot>, <tag:items:forge:plates/iron>]
 ]);
 
@@ -328,9 +328,9 @@ mods.extendedcrafting.TableCrafting.addShaped("ct_industrialforegoing_36", <item
 craftingTable.removeRecipe(<item:industrialforegoing:biofuel_generator>);
 mods.extendedcrafting.TableCrafting.addShaped("ct_industrialforegoing_37", <item:industrialforegoing:biofuel_generator>, [
 	[<tag:items:forge:plates/iron>, <item:minecraft:iron_ingot>, <item:immersiveengineering:biodiesel_bucket>, <item:minecraft:iron_ingot>, <tag:items:forge:plates/iron>], 
-	[<item:minecraft:iron_ingot>, <tag:items:forge:gears/gold>, <tag:items:forge:pistons>, <tag:items:forge:gears/gold>, <item:minecraft:iron_ingot>], 
-	[<tag:items:forge:plastic>, <tag:items:forge:pistons>, <item:industrialforegoing:machine_frame_pity>, <tag:items:forge:pistons>, <tag:items:forge:plastic>], 
-	[<item:minecraft:iron_ingot>, <tag:items:forge:gears/gold>, <tag:items:forge:pistons>, <tag:items:forge:gears/gold>, <item:minecraft:iron_ingot>], 
+	[<item:minecraft:iron_ingot>, <tag:items:forge:gears/gold>, <item:minecraft:piston>, <tag:items:forge:gears/gold>, <item:minecraft:iron_ingot>], 
+	[<tag:items:forge:plastic>, <item:minecraft:piston>, <item:industrialforegoing:machine_frame_pity>, <item:minecraft:piston>, <tag:items:forge:plastic>], 
+	[<item:minecraft:iron_ingot>, <tag:items:forge:gears/gold>, <item:minecraft:piston>, <tag:items:forge:gears/gold>, <item:minecraft:iron_ingot>], 
 	[<tag:items:forge:plates/iron>, <item:minecraft:iron_ingot>, <item:minecraft:furnace>, <item:minecraft:iron_ingot>, <tag:items:forge:plates/iron>]
 ]);
 
@@ -626,7 +626,7 @@ craftingTable.removeRecipe(<item:industrialforegoing:stasis_chamber>);
 mods.extendedcrafting.TableCrafting.addShaped("ct_industrialforegoing_70", <item:industrialforegoing:stasis_chamber>, [
 	[<tag:items:forge:plates/iron>, <item:minecraft:iron_ingot>, <item:minecraft:ghast_tear>, <item:minecraft:iron_ingot>, <tag:items:forge:plates/iron>], 
 	[<item:minecraft:iron_ingot>, <tag:items:forge:gears/gold>, <item:minecraft:soul_sand>, <tag:items:forge:gears/gold>, <item:minecraft:iron_ingot>], 
-	[<tag:items:forge:plastic>, <tag:items:forge:pistons>, <item:industrialforegoing:machine_frame_advanced>, <tag:items:forge:pistons>, <tag:items:forge:plastic>], 
+	[<tag:items:forge:plastic>, <item:minecraft:piston>, <item:industrialforegoing:machine_frame_advanced>, <item:minecraft:piston>, <tag:items:forge:plastic>], 
 	[<item:minecraft:iron_ingot>, <tag:items:forge:gears/gold>, <item:minecraft:soul_sand>, <tag:items:forge:gears/gold>, <item:minecraft:iron_ingot>], 
 	[<tag:items:forge:plates/iron>, <item:minecraft:iron_ingot>, <tag:items:forge:plastic>, <item:minecraft:iron_ingot>, <tag:items:forge:plates/iron>]
 ]);

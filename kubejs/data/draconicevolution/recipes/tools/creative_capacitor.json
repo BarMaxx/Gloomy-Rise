@@ -63,6 +63,9 @@
     },
     "D": {
       "item": "compressium:gold_9"
+    },
+    "U": {
+      "item": "mekanism:pellet_plutonium"
     }
   },
   "result": {

@@ -1,0 +1,51 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "IIIGQSIII",
+    "INNNVNNNI",
+    "INTTCTTNI",
+    "GNTVAVTNS",
+	"QVCAEACVQ",
+	"SNTVAVTNG",
+	"INTTCTTNI",
+	"INNNVNNNI",
+	"IIISQGIII"
+	
+  ],
+  "key": {
+    "S": {
+      "item": "extendedcrafting:ultimate_singularity"
+    },
+    "I": {
+      "item": "extendedcrafting:the_ultimate_block"
+    },
+    "G": {
+      "item": "botania:gaia_ingot"
+    },
+    "Q": {
+      "item": "appliedenergistics2:singularity"
+    },
+    "C": {
+      "item": "draconicevolution:chaotic_core"
+    },
+    "N": {
+      "item": "compressium:netherite_9"
+    },
+    "T": {
+      "item": "create:shadow_steel"
+    },
+    "A": {
+      "item": "create:fluid_tank"
+    },
+    "E": {
+      "item": "create:precision_mechanism"
+    },
+    "V": {
+      "item": "mysticalagradditions:creative_essence"
+    }
+  },
+  "result": {
+    "item": "create:creative_fluid_tank",
+    "count": 1
+  }
+}

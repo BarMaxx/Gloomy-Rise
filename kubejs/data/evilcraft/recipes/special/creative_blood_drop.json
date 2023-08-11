@@ -1,0 +1,51 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "VQDGPGDQV",
+    "QCVCVCVCQ",
+    "DVSBIBSVD",
+    "MCBSBSBCM",
+	"PVIBIBIVP",
+	"MCBSBSBCM",
+	"DVSBIBSVD",
+	"QCVCVCVCQ",
+	"VQDGPGDQV"
+	
+  ],
+  "key": {
+    "S": {
+      "item": "extendedcrafting:ultimate_singularity"
+    },
+    "I": {
+      "item": "extendedcrafting:the_ultimate_ingot"
+    },
+    "G": {
+      "item": "botania:gaia_ingot"
+    },
+    "Q": {
+      "item": "appliedenergistics2:singularity"
+    },
+    "C": {
+      "item": "draconicevolution:chaotic_core"
+    },
+    "D": {
+      "item": "evilcraft:dark_power_gem"
+    },
+    "P": {
+      "item": "evilcraft:inverted_potentia_empowered"
+    },
+    "M": {
+      "item": "astralsorcery:starmetal_ingot"
+    },
+    "B": {
+      "item": "evilcraft:blood_orb_filled"
+    },
+    "V": {
+      "item": "mysticalagradditions:creative_essence"
+    }
+  },
+  "result": {
+    "item": "evilcraft:creative_blood_drop",
+    "count": 1
+  }
+}

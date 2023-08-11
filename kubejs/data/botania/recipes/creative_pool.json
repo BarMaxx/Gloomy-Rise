@@ -1,0 +1,54 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "QQQQNQQQQ",
+    "QVOSSIIVQ",
+    "QVSSIICVQ",
+    "QGCSFICAQ",
+	"NVCFHFCVN",
+	"QACIFSCGQ",
+	"QVCIISSVQ",
+	"QVIISSOVQ",
+	"QQQQNQQQQ"
+	
+  ],
+  "key": {
+    "S": {
+      "item": "extendedcrafting:ultimate_singularity"
+    },
+    "I": {
+      "item": "extendedcrafting:the_ultimate_ingot"
+    },
+    "G": {
+      "item": "botania:gaia_ingot"
+    },
+    "Q": {
+      "item": "compressium:quartz_9"
+    },
+    "C": {
+      "item": "draconicevolution:chaotic_core"
+    },
+    "N": {
+      "item": "compressium:netherite_5"
+    },
+    "A": {
+      "item": "mana-and-artifice:greater_mote_arcane"
+    },
+    "O": {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    "H": {
+      "item": "cyclic:heart"
+    },
+    "V": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "F": {
+      "item": "botania:fabulous_pool"
+    }
+  },
+  "result": {
+    "item": "botania:creative_pool",
+    "count": 1
+  }
+}
