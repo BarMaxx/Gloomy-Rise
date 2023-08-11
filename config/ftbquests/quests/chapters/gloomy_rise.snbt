@@ -1,0 +1,30 @@
+{
+	id: "58375EDE212A9B1F"
+	group: "69A2E8FFA0275984"
+	order_index: 1
+	filename: "gloomy_rise"
+	title: "&4&lGloomy Rise"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		dependencies: [
+			"36E51C51CFB4E05D"
+			"43D05AEE1326DDEC"
+			"75DF409C8CB52797"
+			"561711BEA48C255A"
+			"77F6967547F73D28"
+			"15EDDF5405FC90F6"
+			"267F21D885F14037"
+			"4BF121E7A72055B8"
+		]
+		hide: true
+		id: "4C11565D776A8269"
+		tasks: [{
+			id: "1830BE1EF6DE5916"
+			type: "item"
+			item: "kubejs:gloomy_rise"
+		}]
+	}]
+}

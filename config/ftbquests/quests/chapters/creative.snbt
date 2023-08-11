@@ -1,0 +1,172 @@
+{
+	id: "68C7FCDB91DC6A44"
+	group: "69A2E8FFA0275984"
+	order_index: 0
+	filename: "creative"
+	title: "&5Creative"
+	icon: "mysticalagradditions:creative_essence"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			dependencies: ["114FD26AF2B063E3"]
+			id: "4BF121E7A72055B8"
+			tasks: [{
+				id: "6E05AB499FC12CE6"
+				type: "item"
+				item: "mysticalagradditions:creative_essence"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: ["4BF121E7A72055B8"]
+			id: "15EDDF5405FC90F6"
+			tasks: [{
+				id: "0A53C693C077B969"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:creative_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: ["4BF121E7A72055B8"]
+			id: "75DF409C8CB52797"
+			tasks: [{
+				id: "51229691355689E8"
+				type: "item"
+				item: {
+					id: "draconicevolution:creative_capacitor"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1791561243
+									97993869
+									-1769926802
+									977870458
+								]
+								modules: [ ]
+								properties: {
+									charge_main: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_armor: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: ["4BF121E7A72055B8"]
+			id: "267F21D885F14037"
+			tasks: [{
+				id: "6BCD6DCEC505F570"
+				type: "item"
+				item: {
+					id: "evilcraft:creative_blood_drop"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			shape: "pentagon"
+			hide_dependency_lines: true
+			dependencies: ["4BF121E7A72055B8"]
+			id: "19D7D363D35A3313"
+			tasks: [{
+				id: "196998EB10C91642"
+				type: "item"
+				item: "botania:creative_pool"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["4BF121E7A72055B8"]
+			id: "36E51C51CFB4E05D"
+			tasks: [{
+				id: "3A97A1B2FB06BEE6"
+				type: "item"
+				item: "create:creative_crate"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["4BF121E7A72055B8"]
+			id: "561711BEA48C255A"
+			tasks: [{
+				id: "512CA515D375909D"
+				type: "item"
+				item: "create:creative_fluid_tank"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["4BF121E7A72055B8"]
+			id: "43D05AEE1326DDEC"
+			tasks: [{
+				id: "11EEBA6E938DC876"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: ["4BF121E7A72055B8"]
+			id: "77F6967547F73D28"
+			tasks: [{
+				id: "7640E4D284AA9571"
+				type: "item"
+				item: "createaddition:creative_energy"
+			}]
+		}
+	]
+}

@@ -1,0 +1,84 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "CEOPIPOEC",
+    "EARNVNRAE",
+    "MYVQTQVYM",
+    "PGHSDSHGP",
+	"IVUKBFUVI",
+	"PGHSDSHGP",
+	"MYVQTQVYM",
+	"EARNVNRAE",
+	"CEOPIPOEC"
+	
+  ],
+  "key": {
+    "S": {
+      "item": "extendedcrafting:ultimate_singularity"
+    },
+    "I": {
+      "item": "extendedcrafting:the_ultimate_ingot"
+    },
+    "E": {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    "G": {
+      "item": "botania:gaia_ingot"
+    },
+    "O": {
+      "item": "extrabotany:orichalcos"
+    },
+    "C": {
+      "item": "draconicevolution:chaotic_core"
+    },
+    "M": {
+      "item": "extrabotany:aerialite"
+    },
+    "A": {
+      "item": "draconicevolution:creative_capacitor"
+    },
+    "P": {
+      "item": "astralsorcery:perk_seal"
+    },
+    "R": {
+      "item": "create:refined_radiance"
+    },
+    "Y": {
+      "item": "createaddition:overcharged_alloy"
+    },
+    "N": {
+      "item": "mekanism:pellet_polonium"
+    },
+    "V": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "T": {
+      "item": "tiab:timeinabottle"
+    },
+    "Q": {
+      "item": "extendedcrafting:crystaltine_ingot"
+    },
+    "B": {
+      "item": "appliedenergistics2:blank_pattern"
+    },
+    "D": {
+      "item": "appliedenergistics2:128_cubed_spatial_storage_cell"
+    },
+    "F": {
+      "item": "appliedenergistics2:64k_fluid_storage_cell"
+    },
+    "K": {
+      "item": "appliedenergistics2:64k_storage_cell"
+    },
+    "U": {
+      "item": "mekanism:pellet_plutonium"
+    },
+    "H": {
+      "item": "mekanism:hdpe_sheet"
+    }
+  },
+  "result": {
+    "item": "appliedenergistics2:creative_storage_cell",
+    "count": 1
+  }
+}

@@ -5,7 +5,7 @@
 	filename: "danks"
 	title: "&3Dank Storage"
 	icon: "dankstorage:dank_1"
-	default_quest_shape: ""
+	default_quest_shape: "square"
 	default_hide_dependency_lines: false
 	quests: [
 		{
@@ -21,6 +21,22 @@
 				type: "item"
 				item: "dankstorage:dank_1"
 			}]
+			rewards: [
+				{
+					id: "761FFCF558454429"
+					type: "item"
+					item: "minecraft:netherite_scrap"
+					count: 2
+					random_bonus: 1
+				}
+				{
+					id: "403E910D2B9DD35D"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 4
+					random_bonus: 2
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -33,6 +49,19 @@
 				type: "item"
 				item: "dankstorage:dank_2"
 			}]
+			rewards: [
+				{
+					id: "79A7B72FCE96F81E"
+					type: "item"
+					item: "tconstruct:manyullyn_ingot"
+					count: 4
+				}
+				{
+					id: "14C2C8204969A606"
+					type: "item"
+					item: "cyclic:heart"
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -45,6 +74,19 @@
 				type: "item"
 				item: "dankstorage:dank_3"
 			}]
+			rewards: [
+				{
+					id: "2A83E2FE3F229528"
+					type: "item"
+					item: "tconstruct:hepatizon_ingot"
+					count: 4
+				}
+				{
+					id: "7C5703A9A8CEC7CA"
+					type: "item"
+					item: "cyclic:heart"
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -57,6 +99,19 @@
 				type: "item"
 				item: "dankstorage:dank_4"
 			}]
+			rewards: [
+				{
+					id: "41D8572F6B993831"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+					count: 4
+				}
+				{
+					id: "014960F34040CFDA"
+					type: "item"
+					item: "cyclic:heart"
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -69,6 +124,19 @@
 				type: "item"
 				item: "dankstorage:dank_5"
 			}]
+			rewards: [
+				{
+					id: "6B37C2165542DCEF"
+					type: "item"
+					item: "cataclysm:ignitium_ingot"
+					count: 4
+				}
+				{
+					id: "12E9E2C2C3C6684F"
+					type: "item"
+					item: "cyclic:heart"
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -81,10 +149,24 @@
 				type: "item"
 				item: "dankstorage:dank_6"
 			}]
+			rewards: [
+				{
+					id: "32E0B540F518C41A"
+					type: "item"
+					item: "mysticalagradditions:insanium_ingot"
+					count: 4
+				}
+				{
+					id: "1AFBC4DC48B62FD4"
+					type: "item"
+					item: "cyclic:heart"
+				}
+			]
 		}
 		{
 			x: 0.5d
 			y: 2.5d
+			subtitle: "Удивительно!"
 			description: ["Очень большое хранилище!"]
 			dependencies: ["1C852A13A6F6E437"]
 			id: "03CBB34EE8FFE82F"
@@ -93,6 +175,45 @@
 				type: "item"
 				item: "dankstorage:dank_7"
 			}]
+			rewards: [
+				{
+					id: "31D1C5AD7C1F3E06"
+					type: "item"
+					item: "extendedcrafting:crystaltine_ingot"
+					count: 2
+				}
+				{
+					id: "25526FA358AD9E3F"
+					type: "item"
+					item: "cyclic:heart"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			subtitle: "Сделайте из своего Данка Сундук!"
+			description: ["Док можно поставить и засунуть туда Данк. После этого ваш данк станет полноценым хранилищем, а не \"рюкзаком\"!"]
+			dependencies: ["114FD26AF2B063E3"]
+			id: "573B47C83FA62B30"
+			tasks: [{
+				id: "64A2F3A0F774B3C2"
+				type: "item"
+				item: "dankstorage:dock"
+			}]
+			rewards: [
+				{
+					id: "474FE2838F40287B"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "5E3B0EA5632892F9"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 4
+				}
+			]
 		}
 	]
 }

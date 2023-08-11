@@ -3,7 +3,7 @@
 	group: "724CB10F5936E1B7"
 	order_index: 0
 	filename: "5E53A9BC0EDA6E5D"
-	title: "&bVanillaAndMore"
+	title: "&bOrigins"
 	icon: "minecraft:crafting_table"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,6 +11,7 @@
 		{
 			x: -0.5d
 			y: 0.0d
+			shape: "square"
 			description: ["Первое, что Вам понадобится в этом мире - &eДерево!&f Советую собрать его как можно больше, ведь дальше его понадобится много."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -358,6 +359,7 @@
 		{
 			x: 8.8d
 			y: 0.0d
+			shape: "square"
 			subtitle: "Куй железо, пока горячо"
 			description: ["Железный слиток нужен для многих вещей, но сейчас Вы можете создать &eжелезную кирку&f."]
 			dependencies: ["050CD68574E6F1E6"]
@@ -398,6 +400,7 @@
 		{
 			x: 11.55d
 			y: 1.1d
+			shape: "square"
 			subtitle: "Осыпь меня алмазами!"
 			description: ["&3Алмазы&f можно добыть &7железной киркой&f в шахте на высоте 1-16. Алмазы очень ценные и нужны для многих вещей и механизмов, но сейчас Вы можете создать алмазную кирку."]
 			dependencies: ["39C60726C5C4150F"]
@@ -537,6 +540,7 @@
 		{
 			x: 12.1d
 			y: -2.2d
+			shape: "square"
 			description: ["Золотой слиток пригодится вам для многих вещей, например для сундука, рюкзака и т.п."]
 			dependencies: ["6BA446FB38C2AED4"]
 			size: 1.1d

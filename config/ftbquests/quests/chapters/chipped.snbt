@@ -5,13 +5,12 @@
 	filename: "chipped"
 	title: "&2Chipped"
 	icon: "chipped:glassblower"
-	default_quest_shape: ""
+	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: 0.5d
 			y: -0.5d
-			subtitle: "Не забываем!"
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -21,11 +20,16 @@
 				type: "item"
 				item: "chipped:mason_table"
 			}]
+			rewards: [{
+				id: "66FE123D56B053AA"
+				type: "item"
+				item: "tconstruct:slimesteel_ingot"
+				count: 2
+			}]
 		}
 		{
 			x: -2.0d
 			y: 1.0d
-			subtitle: "Не забыли?"
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -34,6 +38,12 @@
 				id: "2EDF949E9086D85B"
 				type: "item"
 				item: "chipped:glassblower"
+			}]
+			rewards: [{
+				id: "20882665706EDCD5"
+				type: "item"
+				item: "tconstruct:tinkers_bronze_ingot"
+				count: 2
 			}]
 		}
 		{
@@ -48,6 +58,12 @@
 				type: "item"
 				item: "chipped:carpenters_table"
 			}]
+			rewards: [{
+				id: "6F43BEC4C0C714D1"
+				type: "item"
+				item: "tconstruct:slimesteel_ingot"
+				count: 2
+			}]
 		}
 		{
 			x: -0.5d
@@ -60,6 +76,12 @@
 				id: "16662A535B8FACF6"
 				type: "item"
 				item: "chipped:botanist_workbench"
+			}]
+			rewards: [{
+				id: "6EE457C08FAEED46"
+				type: "item"
+				item: "tconstruct:tinkers_bronze_ingot"
+				count: 2
 			}]
 		}
 		{
@@ -74,6 +96,12 @@
 				type: "item"
 				item: "chipped:loom_table"
 			}]
+			rewards: [{
+				id: "502A121B6A8EFB32"
+				type: "item"
+				item: "tconstruct:rose_gold_ingot"
+				count: 2
+			}]
 		}
 		{
 			x: 0.5d
@@ -87,6 +115,12 @@
 				type: "item"
 				item: "chipped:alchemy_bench"
 			}]
+			rewards: [{
+				id: "27303A329EEEFDF6"
+				type: "item"
+				item: "tconstruct:rose_gold_ingot"
+				count: 2
+			}]
 		}
 		{
 			x: 1.0d
@@ -99,6 +133,12 @@
 				id: "287263FF56E4F4C9"
 				type: "item"
 				item: "chipped:mechanist_workbench"
+			}]
+			rewards: [{
+				id: "1FD6C772035C1190"
+				type: "item"
+				item: "tconstruct:tinkers_bronze_ingot"
+				count: 2
 			}]
 		}
 	]

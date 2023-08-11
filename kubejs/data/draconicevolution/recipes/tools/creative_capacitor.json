@@ -1,0 +1,72 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "TNNMGMNNT",
+    "BVIVSVIVE",
+    "BAVSQSVAE",
+    "HFJCCCJFH",
+	"DMUCOCUMD",
+	"HFJCCCJFH",
+	"EAVSQSVAB",
+	"EVIVSVIVB",
+	"TNNMGMNNT"
+	
+  ],
+  "key": {
+    "S": {
+      "item": "extendedcrafting:ultimate_singularity"
+    },
+    "I": {
+      "item": "extendedcrafting:the_ultimate_ingot"
+    },
+    "E": {
+      "item": "mysticalagradditions:insanium_ingot_block"
+    },
+    "G": {
+      "item": "botania:gaia_ingot"
+    },
+    "O": {
+      "item": "draconicevolution:chaotic_capacitor"
+    },
+    "C": {
+      "item": "draconicevolution:chaotic_core"
+    },
+    "Q": {
+      "item": "appliedenergistics2:singularity"
+    },
+    "M": {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    "N": {
+      "item": "compressium:netherite_5"
+    },
+    "B": {
+      "item": "compressium:obsidian_9"
+    },
+    "A": {
+      "item": "mekanism:pellet_antimatter"
+    },
+    "J": {
+      "item": "mekanism:pellet_polonium"
+    },
+    "V": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "T": {
+      "item": "tiab:timeinabottle"
+    },
+    "F": {
+      "item": "mythicbotany:alfsteel_armor_upgrade"
+    },
+    "H": {
+      "item": "compressium:honey_9"
+    },
+    "D": {
+      "item": "compressium:gold_9"
+    }
+  },
+  "result": {
+    "item": "draconicevolution:creative_capacitor",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "botania:pure_daisy",
+  "input": {
+    "type": "tag",
+    "tag": "minecraft:crimson_stems"
+  },
+  "output": {
+    "name": "botania:livingwood"
+  }
+}

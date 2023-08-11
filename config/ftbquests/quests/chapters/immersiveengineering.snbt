@@ -3,7 +3,7 @@
 	group: "724CB10F5936E1B7"
 	order_index: 2
 	filename: "immersiveengineering"
-	title: "&eImmersiveEngineering"
+	title: "&eEngineering"
 	icon: {
 		id: "immersiveengineering:hammer"
 		Count: 1b
@@ -1012,18 +1012,6 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -6.0d
-			description: ["Гербицид, неизвестно зачем нужен..."]
-			dependencies: ["5EBD27D607093719"]
-			id: "284EEF7E5B04BF5D"
-			tasks: [{
-				id: "78ACD36038D10D42"
-				type: "item"
-				item: "immersiveengineering:herbicide_bucket"
-			}]
-		}
-		{
 			title: "Дизельный генератор"
 			icon: "immersiveengineering:radiator"
 			x: 1.0d
@@ -1501,7 +1489,6 @@
 			}]
 		}
 		{
-			title: "Компасы"
 			icon: {
 				id: "naturescompass:naturescompass"
 				Count: 1b

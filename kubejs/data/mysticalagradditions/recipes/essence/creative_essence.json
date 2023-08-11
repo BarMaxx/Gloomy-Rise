@@ -1,0 +1,69 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "BBBGTGBBB",
+    "BAWFNFWAB",
+    "BWOMCMOWB",
+    "GRYLSLYRG",
+	"TNCSISCNT",
+	"GRYLSLYRG",
+	"BEOMCMOEB",
+	"BAEFNFEAB",
+	"BBBGTGBBB"
+	
+  ],
+  "key": {
+    "S": {
+      "item": "extendedcrafting:ultimate_singularity"
+    },
+    "I": {
+      "item": "extendedcrafting:the_ultimate_ingot"
+    },
+    "B": {
+      "item": "mysticalagradditions:insanium_ingot_block"
+    },
+    "G": {
+      "item": "botania:gaia_ingot"
+    },
+    "L": {
+      "item": "botania:life_essence"
+    },
+    "C": {
+      "item": "draconicevolution:chaotic_core"
+    },
+    "A": {
+      "item": "mana-and-artifice:greater_mote_air"
+    },
+    "E": {
+      "item": "mana-and-artifice:greater_mote_earth"
+    },
+    "W": {
+      "item": "mana-and-artifice:greater_mote_water"
+    },
+    "F": {
+      "item": "mana-and-artifice:greater_mote_fire"
+    },
+    "R": {
+      "item": "mana-and-artifice:greater_mote_arcane"
+    },
+    "N": {
+      "item": "mana-and-artifice:greater_mote_ender"
+    },
+    "T": {
+      "item": "compressium:netherite_5"
+    },
+    "O": {
+      "item": "tiab:timeinabottle"
+    },
+    "Y": {
+      "item": "appliedenergistics2:singularity"
+    },
+    "M": {
+      "item": "mekanism:pellet_antimatter"
+    }
+  },
+  "result": {
+    "item": "mysticalagradditions:creative_essence",
+    "count": 1
+  }
+}

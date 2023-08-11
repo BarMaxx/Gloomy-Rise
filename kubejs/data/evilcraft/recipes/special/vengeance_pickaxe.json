@@ -1,0 +1,19 @@
+{
+  "type": "evilcraft:crafting_shaped_custom_output_vengeance_pickaxe",
+  "pattern": [
+    "SES",
+    "ETE",
+    " T "
+  ],
+  "key": {
+    "S": {
+      "item": "evilcraft:hardened_blood_shard"
+    },
+    "E": {
+      "item": "botania:elementium_ingot"
+    },
+    "T": {
+      "item": "evilcraft:dark_stick"
+    }
+  }
+}

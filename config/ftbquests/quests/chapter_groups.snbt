@@ -2,6 +2,7 @@
 	chapter_groups: [
 		{ id: "724CB10F5936E1B7", title: "&6Progress&f: &2Main" }
 		{ id: "24923118FBE15B71", title: "&6Progress&f: &3Growing Up" }
+		{ id: "69A2E8FFA0275984", title: "&6Progress&f: &4EndGame" }
 		{ id: "37FCF4EC720E030D", title: "&6Journey" }
 		{ id: "6E7449445FFC34C5", title: "&6Other" }
 	]
