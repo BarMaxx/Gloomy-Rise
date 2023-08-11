@@ -36,7 +36,7 @@
     ]
   },
   "SpawnData": {
-    "canSpawnInWorld": true,
+    "canSpawnInWorld": false,
     "biomeWhitelist": "tag:overworld",
     "biomeBlacklist": "tag:nether",
     "spawnWeight": 8,

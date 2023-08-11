@@ -1,0 +1,37 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "  H  ",
+    " PVP ",
+    "SRCRS",
+    "WPRPW",
+	"W   W"
+  ],
+  "key": {
+    "H": {
+      "item": "mana-and-artifice:chimerite_gem"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "W": {
+      "item": "minecraft:oak_log"
+    },
+    "R": {
+      "item": "mana-and-artifice:stone_rune_blank"
+    },
+    "P": {
+      "item": "immersiveengineering:plate_steel"
+    },
+    "V": {
+      "item": "mana-and-artifice:superheated_purified_vinteum_ingot"
+    },
+    "C": {
+      "item": "immersiveengineering:craftingtable"
+    }
+  },
+  "result": {
+    "item": "mana-and-artifice:construct_workbench",
+    "count": 1
+  }
+}

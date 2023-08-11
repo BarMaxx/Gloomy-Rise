@@ -1,7 +1,7 @@
 
 ["Structure Generation"]
 	#Enable Large Birch Tree Structure:
-	large_birch_tree = true
+	large_birch_tree = false
 	#Large Birch Tree Separation:
 	large_birch_tree_separation = 12
 	#Large Birch Tree Spacing:
@@ -17,7 +17,7 @@
 	#Medium Graveyard Salt:
 	medium_walled_graveyard_salt = 379123039
 	#Enable Large Graveyard Structure:
-	large_walled_graveyard = true
+	large_walled_graveyard = false
 	#Large Graveyard Separation:
 	large_walled_graveyard_separation = 9
 	#Large Graveyard Spacing:
@@ -25,7 +25,7 @@
 	#Large Graveyard Salt:
 	large_walled_graveyard_salt = 739017628
 	#Enable Small Graveyard Structure:
-	small_walled_graveyard = true
+	small_walled_graveyard = false
 	#Small Graveyard Separation:
 	small_walled_graveyard_separation = 18
 	#Small Graveyard Spacing:
@@ -33,7 +33,7 @@
 	#Small Graveyard Salt:
 	small_walled_graveyard_salt = 1690192399
 	#Enable Small Graveyard Desert Structure:
-	small_walled_graveyard_desert = true
+	small_walled_graveyard_desert = false
 	#Small Graveyard Desert Separation:
 	small_walled_graveyard_desert_separation = 28
 	#Small Graveyard Desert Spacing:
@@ -41,7 +41,7 @@
 	#Small Graveyard Desert Salt:
 	small_walled_graveyard_desert_salt = 661903018
 	#Enable Small Graveyard Savanna Structure:
-	small_walled_graveyard_savanna = true
+	small_walled_graveyard_savanna = false
 	#Small Graveyard Savanna Separation:
 	small_walled_graveyard_savanna_separation = 12
 	#Small Graveyard Savanna Spacing:
@@ -49,7 +49,7 @@
 	#Small Graveyard Savanna Salt:
 	small_walled_graveyard_savanna_salt = 451235912
 	#Enable Small Grave Structure:
-	small_grave = true
+	small_grave = false
 	#Small Grave Separation:
 	small_grave_separation = 8
 	#Small Grave Spacing:
@@ -65,7 +65,7 @@
 	#Small Desert Grave Salt:
 	small_desert_grave_salt = 240451934
 	#Enable Small Savanna Grave Structure:
-	small_savanna_grave = true
+	small_savanna_grave = false
 	#Small Savanna Grave Separation:
 	small_savanna_grave_separation = 20
 	#Small Savanna Grave Spacing:
@@ -73,7 +73,7 @@
 	#Small Savanna Grave Salt:
 	small_savanna_grave_salt = 240451934
 	#Enable Small Mountain Grave Structure:
-	small_mountain_grave = true
+	small_mountain_grave = false
 	#Small Mountain Grave Separation:
 	small_mountain_grave_separation = 8
 	#Small Mountain Grave Spacing:
@@ -81,7 +81,7 @@
 	#Small Mountain Grave Salt:
 	small_mountain_grave_salt = 240451934
 	#Enable Mushroom Grave Structure:
-	mushroom_grave = true
+	mushroom_grave = false
 	#Mushroom Grave Separation:
 	mushroom_grave_separation = 18
 	#Mushroom Grave Spacing:
@@ -89,7 +89,7 @@
 	#Mushroom Grave Salt:
 	mushroom_grave_salt = 598017285
 	#Enable Haunted House Structure:
-	haunted_house = true
+	haunted_house = false
 	#Haunted House Separation:
 	haunted_house_separation = 20
 	#Haunted House Spacing:
