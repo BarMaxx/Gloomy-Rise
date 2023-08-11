@@ -1,0 +1,57 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "S       S",
+    " IIIIIIN ",
+    " IIIIICN ",
+    " IIPTANN ",
+	" IIQSRNN ",
+	" IIEMBNN ",
+	" ICNNNNN ",
+	" NNNNNNN ",
+	"S       S"
+	
+  ],
+  "key": {
+    "S": {
+      "item": "extendedcrafting:ultimate_singularity"
+    },
+    "I": {
+      "item": "extendedcrafting:the_ultimate_block"
+    },
+    "M": {
+      "item": "create:creative_motor"
+    },
+    "E": {
+      "item": "appliedenergistics2:creative_storage_cell"
+    },
+    "C": {
+      "item": "draconicevolution:chaotic_core"
+    },
+    "N": {
+      "item": "compressium:netherite_9"
+    },
+    "B": {
+      "item": "evilcraft:creative_blood_drop"
+    },
+    "R": {
+      "item": "createaddition:creative_energy"
+    },
+    "A": {
+      "item": "draconicevolution:creative_capacitor"
+    },
+    "T": {
+      "item": "create:creative_fluid_tank"
+    },
+    "P": {
+      "item": "botania:creative_pool"
+    },
+    "Q": {
+      "item": "create:creative_crate"
+    }
+  },
+  "result": {
+    "item": "kubejs:gloomy_rise",
+    "count": 1
+  }
+}

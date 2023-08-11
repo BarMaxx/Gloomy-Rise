@@ -9,6 +9,7 @@
 	quests: [{
 		x: 0.0d
 		y: 0.0d
+		shape: "hexagon"
 		dependencies: [
 			"36E51C51CFB4E05D"
 			"43D05AEE1326DDEC"

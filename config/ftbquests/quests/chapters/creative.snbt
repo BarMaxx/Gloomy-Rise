@@ -39,7 +39,7 @@
 		}
 		{
 			x: 1.5d
-			y: -1.5d
+			y: -1.0d
 			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["4BF121E7A72055B8"]
@@ -105,7 +105,7 @@
 		}
 		{
 			x: -1.5d
-			y: 1.5d
+			y: 1.0d
 			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["4BF121E7A72055B8"]
