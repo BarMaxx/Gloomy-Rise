@@ -12,7 +12,7 @@
       "item": "minecraft:redstone"
     },
     "S": {
-      "item": "mekanism:ingot_steel"
+      "tag": "forge:ingots/steel"
     },
     "W": {
       "item": "immersiveengineering:treated_wood_horizontal"
