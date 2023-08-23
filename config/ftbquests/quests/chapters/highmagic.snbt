@@ -406,7 +406,6 @@
 			y: 1.5d
 			description: ["Пустая руна нужна для создания рун или улучшения кровавого алтаря."]
 			dependencies: ["604BE4CC22A5DF43"]
-			hide: true
 			size: 1.1d
 			id: "2C0AA4F9A398B84E"
 			tasks: [{
@@ -428,7 +427,6 @@
 			y: 1.5d
 			description: ["Чистый шифер создаётся на алтаре 1 уровня."]
 			dependencies: ["310211F11C8A68E9"]
-			hide: true
 			id: "604BE4CC22A5DF43"
 			tasks: [{
 				id: "7EE0F656CBE11074"
