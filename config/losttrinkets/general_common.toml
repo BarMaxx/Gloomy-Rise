@@ -2,7 +2,7 @@
 unlockEnabled = true
 #Cooldown (ticks) between unlocks
 #Range: 0 ~ 1728000
-unlockCooldown = 580256
+unlockCooldown = 156000
 #List of banned trinkets eg: ["losttrinkets:piggy", "losttrinkets:magical_feathers"]
 #The trinkets listed in here will also be removed from players that already unlocked them.
 blackList = []
@@ -19,10 +19,10 @@ nonRandom = []
 	maxSlots = 5
 	#Levels of xp needed to unlock a trinket slot.
 	#Range: 0 ~ 1000
-	slotCost = 500
+	slotCost = 100
 	#Amount of Xp levels added to the next unlocking cost.
 	#Range: 0 ~ 1000
-	slotUpFactor = 150
+	slotUpFactor = 50
 
 [Killing_Unlocks]
 	#Set to false to disable unlocking trinkets from killing non-Boss entities.

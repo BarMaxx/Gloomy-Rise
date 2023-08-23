@@ -24,11 +24,11 @@ craftingTable.addShaped("ct_botania_04", <item:botania:runic_altar>, [
 
 craftingTable.removeRecipe(<item:botania:terra_plate>);
 mods.extendedcrafting.TableCrafting.addShaped("ct_botania_05", <item:botania:terra_plate>, [
-	[<item:mysticalagriculture:supremium_essence>, <item:compressium:lapis_5>, <item:compressium:lapis_5>, <item:compressium:lapis_5>, <item:mysticalagriculture:supremium_essence>], 
-	[<item:compressium:lapis_5>, <item:botania:mana_diamond>, <item:botania:mana_pearl>, <item:botania:mana_diamond>, <item:compressium:lapis_5>], 
-	[<item:compressium:lapis_5>, <tag:items:botania:runes/fire>, <item:botania:manasteel_block>, <tag:items:botania:runes/water>, <item:compressium:lapis_5>], 
-	[<item:compressium:lapis_5>, <tag:items:botania:runes/earth>, <tag:items:botania:runes/mana>, <tag:items:botania:runes/air>, <item:compressium:lapis_5>], 
-	[<item:mysticalagriculture:supremium_essence>, <item:compressium:lapis_5>, <item:compressium:lapis_5>, <item:compressium:lapis_5>, <item:mysticalagriculture:supremium_essence>]
+	[<item:mysticalagriculture:supremium_essence>, <item:compressium:lapis_2>, <item:compressium:lapis_2>, <item:compressium:lapis_2>, <item:mysticalagriculture:supremium_essence>], 
+	[<item:compressium:lapis_2>, <item:botania:mana_diamond>, <item:botania:mana_pearl>, <item:botania:mana_diamond>, <item:compressium:lapis_2>], 
+	[<item:compressium:lapis_2>, <tag:items:botania:runes/fire>, <item:botania:manasteel_block>, <tag:items:botania:runes/water>, <item:compressium:lapis_2>], 
+	[<item:compressium:lapis_2>, <tag:items:botania:runes/earth>, <tag:items:botania:runes/mana>, <tag:items:botania:runes/air>, <item:compressium:lapis_2>], 
+	[<item:mysticalagriculture:supremium_essence>, <item:compressium:lapis_2>, <item:compressium:lapis_2>, <item:compressium:lapis_2>, <item:mysticalagriculture:supremium_essence>]
 ]);
 
 craftingTable.removeRecipe(<item:botania:gaia_pylon>);
