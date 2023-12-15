@@ -1,7 +1,6 @@
 # Gloomy-Rise
-Modpack for 1.16.5 Forge
 
-# TechnoMagic and RPG
+# TechnoMagic and RPG Modpack for 1.16.5 Forge
 
 # 💥 Features:
 
