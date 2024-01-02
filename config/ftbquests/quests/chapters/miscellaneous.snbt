@@ -1,0 +1,31 @@
+{
+	id: "583546969EC1F2D6"
+	group: "6E7449445FFC34C5"
+	order_index: 2
+	filename: "miscellaneous"
+	title: "Miscellaneous"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		icon: {
+			id: "naturescompass:naturescompass"
+			Count: 1b
+			tag: { }
+		}
+		x: 0.0d
+		y: 0.0d
+		shape: "rsquare"
+		subtitle: "Чтоб не потеряться :)"
+		dependencies: ["114FD26AF2B063E3"]
+		id: "41C05337A8804898"
+		tasks: [{
+			id: "7A151FCA8FF8288A"
+			type: "item"
+			item: {
+				id: "naturescompass:naturescompass"
+				Count: 1b
+				tag: { }
+			}
+		}]
+	}]
+}

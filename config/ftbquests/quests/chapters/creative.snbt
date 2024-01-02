@@ -14,6 +14,7 @@
 			shape: "square"
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
+			size: 1.5d
 			id: "4BF121E7A72055B8"
 			tasks: [{
 				id: "6E05AB499FC12CE6"

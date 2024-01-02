@@ -243,7 +243,7 @@
 			x: -2.5d
 			y: -2.0d
 			shape: "gear"
-			description: ["На продвинутом верстаке сетка крафта &e5х5&f, что позволяет создавать более интересные крафты. Также, продвинутый верстак разблокирует 2 главу квестов!"]
+			description: ["На продвинутом верстаке сетка крафта &e5х5&f, что позволяет создавать более интересные крафты."]
 			dependencies: ["76F4386A2B8AA15E"]
 			size: 1.3d
 			id: "4CC33F150E5DA0A0"
@@ -529,7 +529,6 @@
 		}
 		{
 			title: "Металлический пресс"
-			icon: "minecraft:piston"
 			x: -3.0d
 			y: -3.0d
 			description: ["Металлический пресс - это автоматизированный способ формирования металла."]
@@ -569,7 +568,6 @@
 		}
 		{
 			title: "Дробитель"
-			icon: "immersiveengineering:steel_scaffolding_standard"
 			x: -2.5d
 			y: -4.0d
 			description: ["Дробление руды - это эффективный способ увеличить её выход, поскольку каждая руда образует две пыли, которые затем можно переплавить. Этот промышленный дробитель - быстрый способ сделать это."]
@@ -619,7 +617,6 @@
 		}
 		{
 			title: "Лесопилка"
-			icon: "immersiveengineering:steel_scaffolding_standard"
 			x: -4.0d
 			y: -3.0d
 			description: ["Лесопилка - это станок, который распиливает деревянные брёвна на аккуратно уложенные доски. Машина работает в два этапа: сначала срезается кора с бревна, а затем с помощью пильного диска режется на части."]
@@ -756,20 +753,12 @@
 		}
 		{
 			title: "Бродильный аппарат"
-			icon: "immersiveengineering:steel_scaffolding_grate_top"
 			x: -1.5d
 			y: -5.5d
 			description: ["Бродильный аппарат - это многоблочная структура, которая извлекает этанол из определённых фруктов, зёрен и овощей в процессе брожения."]
 			dependencies: ["54CDC6924D4FD0B2"]
 			id: "46932CFFC5993F2B"
 			tasks: [
-				{
-					id: "474CF638EFBAA37A"
-					type: "item"
-					title: "Стальные леса"
-					item: "immersiveengineering:steel_scaffolding_grate_top"
-					count: 6L
-				}
 				{
 					id: "5D69C40B688CBBDE"
 					type: "item"
@@ -803,11 +792,16 @@
 					item: "immersiveengineering:fluid_pipe"
 					count: 2L
 				}
+				{
+					id: "0FFCF55E867E401E"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
 			]
 		}
 		{
 			title: "Очиститель"
-			icon: "immersiveengineering:steel_scaffolding_standard"
 			x: -0.5d
 			y: -5.0d
 			description: ["Очиститель - это сложный мультиблок, который может перерабатывать одну или две жидкости в другую."]
@@ -858,7 +852,6 @@
 		}
 		{
 			title: "Соковыжималка"
-			icon: "minecraft:piston"
 			x: -0.5d
 			y: -4.0d
 			description: ["Соковыжималка - это многоблочная структура, которая выжимает сок или масло из органических материалов с помощью большого поршня."]
@@ -869,13 +862,6 @@
 					id: "20F2D427B79EB6B6"
 					type: "item"
 					item: "minecraft:piston"
-				}
-				{
-					id: "3CC857D07C2A96EC"
-					type: "item"
-					title: "Стальные леса"
-					item: "immersiveengineering:steel_scaffolding_grate_top"
-					count: 6L
 				}
 				{
 					id: "36DA65FB7601F796"
@@ -909,6 +895,12 @@
 					title: "Деревянная бочка"
 					item: "immersiveengineering:wooden_barrel"
 					count: 4L
+				}
+				{
+					id: "7F52562C613B6A35"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
 				}
 			]
 		}
@@ -952,7 +944,6 @@
 		}
 		{
 			title: "Смеситель"
-			icon: "immersiveengineering:steel_scaffolding_standard"
 			x: -2.5d
 			y: -5.0d
 			description: ["Смеситель - это многоблочная структура, которая растворяет твёрдые вещества в жидкие, смешивая их вместе."]
@@ -1013,7 +1004,6 @@
 		}
 		{
 			title: "Дизельный генератор"
-			icon: "immersiveengineering:radiator"
 			x: 1.0d
 			y: -6.0d
 			shape: "hexagon"
@@ -1105,7 +1095,6 @@
 		}
 		{
 			title: "Бункер"
-			icon: "immersiveengineering:sheetmetal_iron"
 			x: 4.0d
 			y: 2.5d
 			subtitle: "Склад мусора"
@@ -1131,7 +1120,6 @@
 		}
 		{
 			title: "Жидкостный резервуар"
-			icon: "immersiveengineering:sheetmetal_iron"
 			x: 2.5d
 			y: 2.0d
 			description: ["Жидкостный резервуар - это мультиблок, который может хранить до 512 вёдер жидкости."]
@@ -1156,7 +1144,6 @@
 		}
 		{
 			title: "Продвинутая доменная печь"
-			icon: "immersiveengineering:blastbrick_reinforced"
 			x: -0.5d
 			y: -1.0d
 			shape: "rsquare"
@@ -1180,7 +1167,6 @@
 		}
 		{
 			title: "Дуговая печь"
-			icon: "immersiveengineering:sheetmetal_steel"
 			x: -1.5d
 			y: -0.5d
 			description: ["Дуговая печь - массивная структура, используемая для быстрой плавки металлов. Она состоит из стального ковша, покрытого электродами, которые нагревают металл."]
@@ -1256,7 +1242,6 @@
 		}
 		{
 			title: "Экскаватор: Двигатель"
-			icon: "immersiveengineering:steel_scaffolding_standard"
 			x: 0.5d
 			y: -7.0d
 			description: ["Экскаватор - это одна из вершин современного машиностроения. Он способен выкапывать минералы из жил, недоступных для обычной добычи."]
@@ -1307,7 +1292,6 @@
 		}
 		{
 			title: "Экскаватор: Роторный ковш"
-			icon: "immersiveengineering:steel_scaffolding_standard"
 			x: -0.5d
 			y: -7.0d
 			description: ["Экскаватор состоит из двух частей: Двигатель и Роторный ковш."]
@@ -1486,28 +1470,6 @@
 				title: "Пьедестал наполнения"
 				item: "mysticalagriculture:infusion_pedestal"
 				count: 8L
-			}]
-		}
-		{
-			icon: {
-				id: "naturescompass:naturescompass"
-				Count: 1b
-				tag: { }
-			}
-			x: -2.5d
-			y: -1.0d
-			shape: "rsquare"
-			subtitle: "Чтоб не потеряться :)"
-			dependencies: ["4CC33F150E5DA0A0"]
-			id: "41C05337A8804898"
-			tasks: [{
-				id: "7A151FCA8FF8288A"
-				type: "item"
-				item: {
-					id: "naturescompass:naturescompass"
-					Count: 1b
-					tag: { }
-				}
 			}]
 		}
 	]
