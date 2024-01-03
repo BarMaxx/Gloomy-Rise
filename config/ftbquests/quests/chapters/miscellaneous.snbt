@@ -4,28 +4,46 @@
 	order_index: 2
 	filename: "miscellaneous"
 	title: "Miscellaneous"
+	icon: {
+		id: "naturescompass:naturescompass"
+		Count: 1b
+		tag: { }
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		icon: {
-			id: "naturescompass:naturescompass"
-			Count: 1b
-			tag: { }
-		}
-		x: 0.0d
-		y: 0.0d
-		shape: "rsquare"
-		subtitle: "Чтоб не потеряться :)"
-		dependencies: ["114FD26AF2B063E3"]
-		id: "41C05337A8804898"
-		tasks: [{
-			id: "7A151FCA8FF8288A"
-			type: "item"
-			item: {
+	quests: [
+		{
+			icon: {
 				id: "naturescompass:naturescompass"
 				Count: 1b
 				tag: { }
 			}
-		}]
-	}]
+			x: 0.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "Чтоб не потеряться :)"
+			dependencies: ["114FD26AF2B063E3"]
+			id: "41C05337A8804898"
+			tasks: [{
+				id: "7A151FCA8FF8288A"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["114FD26AF2B063E3"]
+			id: "258BACA1DD2DD9D3"
+			tasks: [{
+				id: "446133A8CC8B2300"
+				type: "item"
+				item: "chickenchunks:chunk_loader"
+			}]
+		}
+	]
 }
