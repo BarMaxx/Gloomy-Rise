@@ -89,7 +89,7 @@ onEvent('recipes', event => {
   
   
   event.remove({output: 'minecraft:paper'})	
-  event.shaped('minecraft:paper', [
+  event.shaped('4x minecraft:paper', [
     'SSS',
     'SW ',
     '   '
