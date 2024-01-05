@@ -52,8 +52,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -0.5d
+			x: -0.5d
+			y: -1.5d
 			description: ["Неплохое украшение."]
 			dependencies: ["3CE6ECDB2520ED5F"]
 			id: "67BF7985D1B040E5"
@@ -101,7 +101,7 @@
 		}
 		{
 			x: -1.5d
-			y: 0.5d
+			y: 0.0d
 			dependencies: ["3CE6ECDB2520ED5F"]
 			id: "7CBE0B9BDBE2F3C6"
 			tasks: [{
@@ -118,8 +118,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 0.0d
+			x: -2.0d
+			y: -1.0d
 			description: ["Вкусно!"]
 			dependencies: ["7CBE0B9BDBE2F3C6"]
 			id: "5AD3E3A0BA008575"
@@ -136,8 +136,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 1.5d
+			x: -2.0d
+			y: 1.0d
 			description: ["Вкусно!"]
 			dependencies: ["7CBE0B9BDBE2F3C6"]
 			id: "278FD3C38BF302AC"
@@ -155,7 +155,7 @@
 		}
 		{
 			x: -2.5d
-			y: 1.5d
+			y: 0.0d
 			description: ["Вкусно!"]
 			dependencies: ["7CBE0B9BDBE2F3C6"]
 			id: "3CC581F4989EE56D"
@@ -172,7 +172,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: 0.5d
 			y: -1.5d
 			description: ["Цветочек."]
 			dependencies: ["3CE6ECDB2520ED5F"]
@@ -181,6 +181,52 @@
 				id: "052D79B8D61ECF5E"
 				type: "item"
 				item: "minecraft:chorus_flower"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			dependencies: ["3CE6ECDB2520ED5F"]
+			id: "2EB43D826C6E5D38"
+			tasks: [{
+				id: "74DD56DCB8E87203"
+				type: "kill"
+				entity: "cataclysm:ender_guardian"
+				value: 1L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["2EB43D826C6E5D38"]
+			id: "52D7EC3C43B2DA29"
+			tasks: [{
+				id: "7DD2AA93839539B5"
+				type: "item"
+				item: "cataclysm:gauntlet_of_guard"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			dependencies: ["3CE6ECDB2520ED5F"]
+			id: "7AD968C8B09997B6"
+			tasks: [{
+				id: "4F9B0C7E9F418CFC"
+				type: "kill"
+				entity: "cataclysm:ender_golem"
+				value: 1L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			dependencies: ["7AD968C8B09997B6"]
+			id: "1F0383FC832F0104"
+			tasks: [{
+				id: "33A3CECE0DBB9165"
+				type: "item"
+				item: "cataclysm:void_core"
 			}]
 		}
 	]

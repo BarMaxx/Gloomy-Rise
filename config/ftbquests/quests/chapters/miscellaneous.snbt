@@ -45,5 +45,16 @@
 				item: "chickenchunks:chunk_loader"
 			}]
 		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["114FD26AF2B063E3"]
+			id: "6FD345624FE0A567"
+			tasks: [{
+				id: "3FE5D75486C9E860"
+				type: "item"
+				item: "botanypots:botany_pot"
+			}]
+		}
 	]
 }

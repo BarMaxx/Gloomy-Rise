@@ -42,7 +42,7 @@
 		}
 		{
 			x: 0.0d
-			y: -1.5d
+			y: 1.0d
 			description: ["Незерский кирпич можно получить, переплавив незерак в печи. Из этих кирпичей можно создать кирпичи доменной печи."]
 			dependencies: ["491E4B5BD7069266"]
 			id: "08D277C60EA4E24A"
@@ -105,7 +105,7 @@
 		}
 		{
 			x: 1.0d
-			y: 1.5d
+			y: 2.0d
 			description: ["&dРозовый кварц&f понадобится для многих крафтов в ветке квестов с модом &6Create!&f"]
 			dependencies: ["2CB6E2F317E842CA"]
 			id: "3CEDE60AD25690CF"
@@ -122,7 +122,7 @@
 		}
 		{
 			x: 0.5d
-			y: 2.5d
+			y: 3.0d
 			description: ["Позволяет легче строить масштабные постройки."]
 			dependencies: ["3CEDE60AD25690CF"]
 			id: "58C9C1DAC20F99DE"
@@ -146,7 +146,7 @@
 		}
 		{
 			x: 1.5d
-			y: 2.5d
+			y: 3.0d
 			description: ["Пока находится в вашем инвентаре - накапливает время, а потом это время можно использовать для ускорения различных процессов."]
 			dependencies: ["3CEDE60AD25690CF"]
 			id: "24DDF0425E4D682C"
@@ -165,7 +165,7 @@
 		}
 		{
 			x: 0.0d
-			y: 1.5d
+			y: 2.0d
 			description: ["Собирает предметы недалеко от вас."]
 			dependencies: ["3CEDE60AD25690CF"]
 			id: "13458DF94390D17D"
@@ -181,7 +181,7 @@
 		}
 		{
 			x: -1.0d
-			y: 2.0d
+			y: 2.5d
 			description: ["Улучшенный магнит. Увеличивает дистанцию сбора предметов."]
 			dependencies: ["13458DF94390D17D"]
 			id: "0EB9F82384980D93"
@@ -482,6 +482,178 @@
 				id: "51F673FEE10B1D6F"
 				type: "item"
 				item: "minecraft:nether_star"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			dependencies: ["491E4B5BD7069266"]
+			id: "2E4817DD0F5619C1"
+			tasks: [{
+				id: "50EA7D13D5D00F10"
+				type: "kill"
+				entity: "cataclysm:ignis"
+				value: 1L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			dependencies: ["2E4817DD0F5619C1"]
+			id: "4F581AE4182DBCEB"
+			tasks: [{
+				id: "1A99604C64424D73"
+				type: "item"
+				item: "cataclysm:ignitium_ingot"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["491E4B5BD7069266"]
+			id: "70182B6C7B749771"
+			tasks: [{
+				id: "4C1D7A63CEC9B028"
+				type: "kill"
+				entity: "cataclysm:netherite_monstrosity"
+				value: 1L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["70182B6C7B749771"]
+			id: "4AB6AA09B9BD649A"
+			tasks: [{
+				id: "4B683C44FD4A241F"
+				type: "item"
+				item: "cataclysm:monstrous_horn"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			dependencies: ["4AB6AA09B9BD649A"]
+			id: "47B7123C55AC5AF8"
+			tasks: [{
+				id: "33703F0131804234"
+				type: "item"
+				item: {
+					id: "cataclysm:monstrous_helm"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			dependencies: ["70182B6C7B749771"]
+			id: "10F682303DD7DE76"
+			tasks: [{
+				id: "31B4386E48144A8F"
+				type: "item"
+				item: {
+					id: "cataclysm:infernal_forge"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Огненная броня"
+			x: 2.0d
+			y: -3.5d
+			dependencies: ["4F581AE4182DBCEB"]
+			id: "4DC485503F7522D8"
+			tasks: [
+				{
+					id: "3D8F7DCBF016ED24"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "23290F26DBF157FF"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "50D342A575200E00"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "34D63786CD5DB6C2"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			dependencies: ["4F581AE4182DBCEB"]
+			id: "2A026EF47DDF8D5C"
+			tasks: [{
+				id: "2ADA78C462FE881A"
+				type: "item"
+				item: "cataclysm:the_incinerator"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			dependencies: ["4F581AE4182DBCEB"]
+			id: "745D54901B2F12CD"
+			tasks: [{
+				id: "4B1F04A1309310FD"
+				type: "item"
+				item: "cataclysm:bulwark_of_the_flame"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			dependencies: ["4DC485503F7522D8"]
+			id: "69A6964A4B0F8C14"
+			tasks: [{
+				id: "08BD7896259F1AB5"
+				type: "item"
+				item: {
+					id: "cataclysm:ignitium_elytra_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]
