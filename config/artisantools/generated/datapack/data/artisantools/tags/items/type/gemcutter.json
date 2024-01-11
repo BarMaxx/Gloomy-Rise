@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:gemcutter_wood",
+    "artisantools:gemcutter_stone",
+    "artisantools:gemcutter_iron",
+    "artisantools:gemcutter_gold",
+    "artisantools:gemcutter_diamond",
+    "artisantools:gemcutter_netherite",
+    "artisantools:gemcutter_flint",
+    "artisantools:gemcutter_bone",
+    "artisantools:gemcutter_bronze",
+    "artisantools:gemcutter_constantan",
+    "artisantools:gemcutter_copper",
+    "artisantools:gemcutter_electrum",
+    "artisantools:gemcutter_invar",
+    "artisantools:gemcutter_lead",
+    "artisantools:gemcutter_nickel",
+    "artisantools:gemcutter_silver",
+    "artisantools:gemcutter_tin"
+  ]
+}

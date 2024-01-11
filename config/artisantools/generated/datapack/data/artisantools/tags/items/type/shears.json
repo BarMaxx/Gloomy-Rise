@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:shears_wood",
+    "artisantools:shears_stone",
+    "artisantools:shears_iron",
+    "artisantools:shears_gold",
+    "artisantools:shears_diamond",
+    "artisantools:shears_netherite",
+    "artisantools:shears_flint",
+    "artisantools:shears_bone",
+    "artisantools:shears_bronze",
+    "artisantools:shears_constantan",
+    "artisantools:shears_copper",
+    "artisantools:shears_electrum",
+    "artisantools:shears_invar",
+    "artisantools:shears_lead",
+    "artisantools:shears_nickel",
+    "artisantools:shears_silver",
+    "artisantools:shears_tin"
+  ]
+}

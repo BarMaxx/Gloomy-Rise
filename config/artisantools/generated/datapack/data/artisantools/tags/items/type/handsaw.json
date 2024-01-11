@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:handsaw_wood",
+    "artisantools:handsaw_stone",
+    "artisantools:handsaw_iron",
+    "artisantools:handsaw_gold",
+    "artisantools:handsaw_diamond",
+    "artisantools:handsaw_netherite",
+    "artisantools:handsaw_flint",
+    "artisantools:handsaw_bone",
+    "artisantools:handsaw_bronze",
+    "artisantools:handsaw_constantan",
+    "artisantools:handsaw_copper",
+    "artisantools:handsaw_electrum",
+    "artisantools:handsaw_invar",
+    "artisantools:handsaw_lead",
+    "artisantools:handsaw_nickel",
+    "artisantools:handsaw_silver",
+    "artisantools:handsaw_tin"
+  ]
+}

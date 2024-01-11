@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:carver_wood",
+    "artisantools:carver_stone",
+    "artisantools:carver_iron",
+    "artisantools:carver_gold",
+    "artisantools:carver_diamond",
+    "artisantools:carver_netherite",
+    "artisantools:carver_flint",
+    "artisantools:carver_bone",
+    "artisantools:carver_bronze",
+    "artisantools:carver_constantan",
+    "artisantools:carver_copper",
+    "artisantools:carver_electrum",
+    "artisantools:carver_invar",
+    "artisantools:carver_lead",
+    "artisantools:carver_nickel",
+    "artisantools:carver_silver",
+    "artisantools:carver_tin"
+  ]
+}

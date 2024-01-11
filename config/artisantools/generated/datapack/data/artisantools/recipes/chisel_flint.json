@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  .",
+    " . ",
+    "/  "
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    ".": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "item": "artisantools:chisel_flint"
+  }
+}

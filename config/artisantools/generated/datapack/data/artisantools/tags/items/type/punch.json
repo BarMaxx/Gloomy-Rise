@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:punch_wood",
+    "artisantools:punch_stone",
+    "artisantools:punch_iron",
+    "artisantools:punch_gold",
+    "artisantools:punch_diamond",
+    "artisantools:punch_netherite",
+    "artisantools:punch_flint",
+    "artisantools:punch_bone",
+    "artisantools:punch_bronze",
+    "artisantools:punch_constantan",
+    "artisantools:punch_copper",
+    "artisantools:punch_electrum",
+    "artisantools:punch_invar",
+    "artisantools:punch_lead",
+    "artisantools:punch_nickel",
+    "artisantools:punch_silver",
+    "artisantools:punch_tin"
+  ]
+}

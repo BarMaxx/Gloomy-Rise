@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  /",
+    " . ",
+    ".bb"
+  ],
+  "key": {
+    "b": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    ".": {
+      "tag": "forge:stone"
+    }
+  },
+  "result": {
+    "item": "artisantools:cutting_board_stone"
+  }
+}

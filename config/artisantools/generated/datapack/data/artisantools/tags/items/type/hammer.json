@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:hammer_wood",
+    "artisantools:hammer_stone",
+    "artisantools:hammer_iron",
+    "artisantools:hammer_gold",
+    "artisantools:hammer_diamond",
+    "artisantools:hammer_netherite",
+    "artisantools:hammer_flint",
+    "artisantools:hammer_bone",
+    "artisantools:hammer_bronze",
+    "artisantools:hammer_constantan",
+    "artisantools:hammer_copper",
+    "artisantools:hammer_electrum",
+    "artisantools:hammer_invar",
+    "artisantools:hammer_lead",
+    "artisantools:hammer_nickel",
+    "artisantools:hammer_silver",
+    "artisantools:hammer_tin"
+  ]
+}

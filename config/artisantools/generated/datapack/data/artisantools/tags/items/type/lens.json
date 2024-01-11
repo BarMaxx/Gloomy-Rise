@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:lens_wood",
+    "artisantools:lens_stone",
+    "artisantools:lens_iron",
+    "artisantools:lens_gold",
+    "artisantools:lens_diamond",
+    "artisantools:lens_netherite",
+    "artisantools:lens_flint",
+    "artisantools:lens_bone",
+    "artisantools:lens_bronze",
+    "artisantools:lens_constantan",
+    "artisantools:lens_copper",
+    "artisantools:lens_electrum",
+    "artisantools:lens_invar",
+    "artisantools:lens_lead",
+    "artisantools:lens_nickel",
+    "artisantools:lens_silver",
+    "artisantools:lens_tin"
+  ]
+}

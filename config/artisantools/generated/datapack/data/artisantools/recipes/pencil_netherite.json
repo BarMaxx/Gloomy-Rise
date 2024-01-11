@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  c",
+    "./.",
+    "/  "
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "c": {
+      "item": "minecraft:coal"
+    },
+    ".": {
+      "tag": "forge:ingots/netherite"
+    }
+  },
+  "result": {
+    "item": "artisantools:pencil_netherite"
+  }
+}

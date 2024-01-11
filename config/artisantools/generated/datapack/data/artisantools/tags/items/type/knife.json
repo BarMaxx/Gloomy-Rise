@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:knife_wood",
+    "artisantools:knife_stone",
+    "artisantools:knife_iron",
+    "artisantools:knife_gold",
+    "artisantools:knife_diamond",
+    "artisantools:knife_netherite",
+    "artisantools:knife_flint",
+    "artisantools:knife_bone",
+    "artisantools:knife_bronze",
+    "artisantools:knife_constantan",
+    "artisantools:knife_copper",
+    "artisantools:knife_electrum",
+    "artisantools:knife_invar",
+    "artisantools:knife_lead",
+    "artisantools:knife_nickel",
+    "artisantools:knife_silver",
+    "artisantools:knife_tin"
+  ]
+}

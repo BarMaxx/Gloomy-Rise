@@ -1,0 +1,212 @@
+{
+  "__comments": [
+    "WARNING: All changes should be made to the file with the name `custom`",
+    "in the title. Changes made to the `generated` file will be overwritten."
+  ],
+  "list": [
+    {
+      "name": "wood",
+      "harvestLevel": 0,
+      "maxUses": 59,
+      "efficiency": 2.0,
+      "damage": 0.0,
+      "enchantability": 15,
+      "color": "73523E",
+      "shiny": false,
+      "ingredient": "tag#minecraft:planks",
+      "langKey": "material.artisantools.wood"
+    },
+    {
+      "name": "stone",
+      "harvestLevel": 1,
+      "maxUses": 131,
+      "efficiency": 4.0,
+      "damage": 1.0,
+      "enchantability": 5,
+      "color": "969696",
+      "shiny": false,
+      "ingredient": "tag#forge:stone",
+      "langKey": "material.artisantools.stone"
+    },
+    {
+      "name": "iron",
+      "harvestLevel": 2,
+      "maxUses": 250,
+      "efficiency": 6.0,
+      "damage": 2.0,
+      "enchantability": 14,
+      "color": "D4D4D4",
+      "shiny": true,
+      "ingredient": "tag#forge:ingots/iron",
+      "langKey": "material.artisantools.iron"
+    },
+    {
+      "name": "gold",
+      "harvestLevel": 0,
+      "maxUses": 32,
+      "efficiency": 12.0,
+      "damage": 0.0,
+      "enchantability": 22,
+      "color": "FAF25E",
+      "shiny": false,
+      "ingredient": "tag#forge:ingots/gold",
+      "langKey": "material.artisantools.gold"
+    },
+    {
+      "name": "diamond",
+      "harvestLevel": 3,
+      "maxUses": 1561,
+      "efficiency": 8.0,
+      "damage": 3.0,
+      "enchantability": 10,
+      "color": "33EBCB",
+      "shiny": false,
+      "ingredient": "tag#forge:gems/diamond",
+      "langKey": "material.artisantools.diamond"
+    },
+    {
+      "name": "netherite",
+      "harvestLevel": 4,
+      "maxUses": 2031,
+      "efficiency": 9.0,
+      "damage": 4.0,
+      "enchantability": 15,
+      "color": "756975",
+      "shiny": false,
+      "ingredient": "tag#forge:ingots/netherite",
+      "langKey": "material.artisantools.netherite"
+    },
+    {
+      "name": "flint",
+      "harvestLevel": 1,
+      "maxUses": 150,
+      "efficiency": 3.8,
+      "damage": 1.0,
+      "enchantability": 5,
+      "color": "5F5F5F",
+      "shiny": true,
+      "ingredient": "item#minecraft:flint",
+      "langKey": "material.artisantools.flint"
+    },
+    {
+      "name": "bone",
+      "harvestLevel": 1,
+      "maxUses": 150,
+      "efficiency": 3.8,
+      "damage": 1.0,
+      "enchantability": 5,
+      "color": "FFF6C8",
+      "shiny": false,
+      "ingredient": "tag#forge:bones",
+      "langKey": "material.artisantools.bone"
+    },
+    {
+      "name": "bronze",
+      "harvestLevel": 2,
+      "maxUses": 500,
+      "efficiency": 6.0,
+      "damage": 2.0,
+      "enchantability": 15,
+      "color": "E8983F",
+      "shiny": true,
+      "ingredient": "tag#forge:ingots/bronze",
+      "langKey": "material.artisantools.bronze"
+    },
+    {
+      "name": "constantan",
+      "harvestLevel": 2,
+      "maxUses": 275,
+      "efficiency": 6.0,
+      "damage": 1.5,
+      "enchantability": 20,
+      "color": "BD8D46",
+      "shiny": true,
+      "ingredient": "tag#forge:ingots/constantan",
+      "langKey": "material.artisantools.constantan"
+    },
+    {
+      "name": "copper",
+      "harvestLevel": 1,
+      "maxUses": 175,
+      "efficiency": 4.0,
+      "damage": 0.75,
+      "enchantability": 6,
+      "color": "FFA131",
+      "shiny": true,
+      "ingredient": "tag#forge:ingots/copper",
+      "langKey": "material.artisantools.copper"
+    },
+    {
+      "name": "electrum",
+      "harvestLevel": 0,
+      "maxUses": 100,
+      "efficiency": 14.0,
+      "damage": 0.5,
+      "enchantability": 30,
+      "color": "FFE947",
+      "shiny": true,
+      "ingredient": "tag#forge:ingots/electrum",
+      "langKey": "material.artisantools.electrum"
+    },
+    {
+      "name": "invar",
+      "harvestLevel": 2,
+      "maxUses": 450,
+      "efficiency": 7.0,
+      "damage": 3.0,
+      "enchantability": 16,
+      "color": "8E9A95",
+      "shiny": true,
+      "ingredient": "tag#forge:ingots/invar",
+      "langKey": "material.artisantools.invar"
+    },
+    {
+      "name": "lead",
+      "harvestLevel": 1,
+      "maxUses": 150,
+      "efficiency": 5.0,
+      "damage": 1.0,
+      "enchantability": 9,
+      "color": "8A93B1",
+      "shiny": true,
+      "ingredient": "tag#forge:ingots/lead",
+      "langKey": "material.artisantools.lead"
+    },
+    {
+      "name": "nickel",
+      "harvestLevel": 2,
+      "maxUses": 300,
+      "efficiency": 6.5,
+      "damage": 2.5,
+      "enchantability": 18,
+      "color": "A2975D",
+      "shiny": true,
+      "ingredient": "tag#forge:ingots/nickel",
+      "langKey": "material.artisantools.nickel"
+    },
+    {
+      "name": "silver",
+      "harvestLevel": 2,
+      "maxUses": 200,
+      "efficiency": 6.0,
+      "damage": 1.5,
+      "enchantability": 20,
+      "color": "7B9DA4",
+      "shiny": true,
+      "ingredient": "tag#forge:ingots/silver",
+      "langKey": "material.artisantools.silver"
+    },
+    {
+      "name": "tin",
+      "harvestLevel": 1,
+      "maxUses": 200,
+      "efficiency": 4.5,
+      "damage": 1.0,
+      "enchantability": 7,
+      "color": "7C9AB2",
+      "shiny": true,
+      "ingredient": "tag#forge:ingots/tin",
+      "langKey": "material.artisantools.tin"
+    }
+  ]
+}

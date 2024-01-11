@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:quill_wood",
+    "artisantools:quill_stone",
+    "artisantools:quill_iron",
+    "artisantools:quill_gold",
+    "artisantools:quill_diamond",
+    "artisantools:quill_netherite",
+    "artisantools:quill_flint",
+    "artisantools:quill_bone",
+    "artisantools:quill_bronze",
+    "artisantools:quill_constantan",
+    "artisantools:quill_copper",
+    "artisantools:quill_electrum",
+    "artisantools:quill_invar",
+    "artisantools:quill_lead",
+    "artisantools:quill_nickel",
+    "artisantools:quill_silver",
+    "artisantools:quill_tin"
+  ]
+}

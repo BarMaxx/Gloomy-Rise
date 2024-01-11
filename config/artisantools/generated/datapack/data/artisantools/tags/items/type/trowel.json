@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:trowel_wood",
+    "artisantools:trowel_stone",
+    "artisantools:trowel_iron",
+    "artisantools:trowel_gold",
+    "artisantools:trowel_diamond",
+    "artisantools:trowel_netherite",
+    "artisantools:trowel_flint",
+    "artisantools:trowel_bone",
+    "artisantools:trowel_bronze",
+    "artisantools:trowel_constantan",
+    "artisantools:trowel_copper",
+    "artisantools:trowel_electrum",
+    "artisantools:trowel_invar",
+    "artisantools:trowel_lead",
+    "artisantools:trowel_nickel",
+    "artisantools:trowel_silver",
+    "artisantools:trowel_tin"
+  ]
+}

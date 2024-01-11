@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:compass_wood",
+    "artisantools:compass_stone",
+    "artisantools:compass_iron",
+    "artisantools:compass_gold",
+    "artisantools:compass_diamond",
+    "artisantools:compass_netherite",
+    "artisantools:compass_flint",
+    "artisantools:compass_bone",
+    "artisantools:compass_bronze",
+    "artisantools:compass_constantan",
+    "artisantools:compass_copper",
+    "artisantools:compass_electrum",
+    "artisantools:compass_invar",
+    "artisantools:compass_lead",
+    "artisantools:compass_nickel",
+    "artisantools:compass_silver",
+    "artisantools:compass_tin"
+  ]
+}
