@@ -3,7 +3,7 @@
 	group: "24923118FBE15B71"
 	order_index: 0
 	filename: "hightech"
-	title: "HighTech"
+	title: "{quests.gloomy_rise.progress_2.hightech.chapter_title}"
 	icon: "industrialforegoing:plastic"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

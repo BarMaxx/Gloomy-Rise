@@ -3,7 +3,7 @@
 	group: "6E7449445FFC34C5"
 	order_index: 2
 	filename: "miscellaneous"
-	title: "&eMiscellaneous"
+	title: "{quests.gloomy_rise.other.miscellaneous.chapter_title}"
 	icon: {
 		id: "naturescompass:naturescompass"
 		Count: 1b

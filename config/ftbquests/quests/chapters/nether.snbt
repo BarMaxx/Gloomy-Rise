@@ -3,7 +3,7 @@
 	group: "37FCF4EC720E030D"
 	order_index: 0
 	filename: "nether"
-	title: "&4Nether"
+	title: "{quests.gloomy_rise.journey.nether.chapter_title}"
 	icon: "minecraft:nether_star"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

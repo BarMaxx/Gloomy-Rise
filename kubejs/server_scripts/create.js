@@ -74,16 +74,6 @@ onEvent('recipes', event => {
   })
   
   
-  event.remove({output: 'create:shaft'})	
-  event.shaped('create:shaft', [
-    ' A ',
-    ' A ',
-    ' A '
-  ], {
-    A: 'create:andesite_alloy'
-  })
-  
-  
   event.remove({output: 'create:propeller'})	
   event.shaped('create:propeller', [
     ' I ',
@@ -104,17 +94,6 @@ onEvent('recipes', event => {
     S: 'immersiveengineering:component_steel',
 	I: '#forge:plates/iron',
 	A: 'create:andesite_alloy'
-  })
-  
-  
-  event.remove({output: 'create:cogwheel'})	
-  event.shaped('create:cogwheel', [
-    'BBB',
-    'BSB',
-    'BBB'
-  ], {
-    S: 'create:shaft',
-	B: '#minecraft:wooden_buttons'
   })
   
   

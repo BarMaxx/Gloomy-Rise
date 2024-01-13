@@ -3,7 +3,7 @@
 	group: "6E7449445FFC34C5"
 	order_index: 0
 	filename: "chipped"
-	title: "&2Chipped"
+	title: "{quests.gloomy_rise.other.chipped.chapter_title}"
 	icon: "chipped:glassblower"
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false

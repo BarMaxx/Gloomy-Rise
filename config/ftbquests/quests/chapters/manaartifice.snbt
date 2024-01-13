@@ -3,7 +3,7 @@
 	group: "724CB10F5936E1B7"
 	order_index: 3
 	filename: "manaartifice"
-	title: "&dMana-and-Artifice"
+	title: "{quests.gloomy_rise.progress_1.mana_and_artifice.chapter_title}"
 	icon: "mana-and-artifice:runeforge"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

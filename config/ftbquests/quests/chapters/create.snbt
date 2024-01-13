@@ -3,7 +3,7 @@
 	group: "724CB10F5936E1B7"
 	order_index: 1
 	filename: "create"
-	title: "Create"
+	title: "{quests.gloomy_rise.progress_1.create.chapter_title}"
 	icon: "create:andesite_alloy"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

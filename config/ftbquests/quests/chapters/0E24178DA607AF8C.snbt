@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 0
 	filename: "0E24178DA607AF8C"
-	title: "&aВступление"
+	title: "{quests.gloomy_rise.introduction.chapter_title}"
 	default_quest_shape: "gear"
 	default_hide_dependency_lines: false
 	quests: [

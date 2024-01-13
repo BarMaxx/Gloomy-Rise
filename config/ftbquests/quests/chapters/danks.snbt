@@ -3,7 +3,7 @@
 	group: "6E7449445FFC34C5"
 	order_index: 1
 	filename: "danks"
-	title: "&3Dank Storage"
+	title: "{quests.gloomy_rise.other.dank_storage.chapter_title}"
 	icon: "dankstorage:dank_1"
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false

@@ -3,7 +3,7 @@
 	group: "37FCF4EC720E030D"
 	order_index: 1
 	filename: "end"
-	title: "&5End"
+	title: "{quests.gloomy_rise.journey.end.chapter_title}"
 	icon: "minecraft:dragon_head"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

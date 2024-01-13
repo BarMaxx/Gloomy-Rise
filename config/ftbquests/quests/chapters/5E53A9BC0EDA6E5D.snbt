@@ -3,7 +3,7 @@
 	group: "724CB10F5936E1B7"
 	order_index: 0
 	filename: "5E53A9BC0EDA6E5D"
-	title: "&bOrigins"
+	title: "{quests.gloomy_rise.progress_1.origins.chapter_title}"
 	icon: "minecraft:crafting_table"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

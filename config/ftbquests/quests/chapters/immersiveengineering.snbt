@@ -3,7 +3,7 @@
 	group: "724CB10F5936E1B7"
 	order_index: 2
 	filename: "immersiveengineering"
-	title: "&eEngineering"
+	title: "{quests.gloomy_rise.progress_1.engineering.chapter_title}"
 	icon: {
 		id: "immersiveengineering:hammer"
 		Count: 1b
