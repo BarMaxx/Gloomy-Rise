@@ -21,14 +21,23 @@
 			id: "491E4B5BD7069266"
 			tasks: [
 				{
-					id: "73115826D1F79035"
-					type: "item"
-					title: "Обсидиан"
-					item: "minecraft:obsidian"
-					count: 10L
+					id: "600212642245F256"
+					type: "questsadditions:structure"
+					title: "Портал в Незер"
+					name: "nether_portal"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
 				}
 				{
-					id: "409A396617D20255"
+					id: "3AB117B47F33DD8B"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 14L
+				}
+				{
+					id: "4138E42A7A07500F"
 					type: "item"
 					item: {
 						id: "minecraft:flint_and_steel"
@@ -104,7 +113,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 1.5d
 			y: 2.0d
 			description: ["&dРозовый кварц&f понадобится для многих крафтов в ветке квестов с модом &6Create!&f"]
 			dependencies: ["2CB6E2F317E842CA"]
@@ -118,81 +127,6 @@
 				id: "250949DAAFEE000F"
 				type: "item"
 				item: "create:rose_quartz"
-			}]
-		}
-		{
-			x: 0.5d
-			y: 3.0d
-			description: ["Позволяет легче строить масштабные постройки."]
-			dependencies: ["3CEDE60AD25690CF"]
-			id: "58C9C1DAC20F99DE"
-			tasks: [{
-				id: "1E62445C861E73AC"
-				type: "item"
-				item: {
-					id: "buildinggadgets:gadget_building"
-					Count: 1b
-					tag: {
-						state: {
-							serializer: "buildinggadgets:dummy_serializer"
-							state: {
-								Name: "minecraft:air"
-							}
-							data: { }
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: 1.5d
-			y: 3.0d
-			description: ["Пока находится в вашем инвентаре - накапливает время, а потом это время можно использовать для ускорения различных процессов."]
-			dependencies: ["3CEDE60AD25690CF"]
-			id: "24DDF0425E4D682C"
-			tasks: [{
-				id: "446C9C7FB09358A7"
-				type: "item"
-				title: "Время в бутылке"
-				item: {
-					id: "tiab:timeinabottle"
-					Count: 1b
-					tag: {
-						timeData: { }
-					}
-				}
-			}]
-		}
-		{
-			x: 0.0d
-			y: 2.0d
-			description: ["Собирает предметы недалеко от вас."]
-			dependencies: ["3CEDE60AD25690CF"]
-			id: "13458DF94390D17D"
-			tasks: [{
-				id: "654F37947C284D84"
-				type: "item"
-				item: {
-					id: "simplemagnets:basicmagnet"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: -1.0d
-			y: 2.5d
-			description: ["Улучшенный магнит. Увеличивает дистанцию сбора предметов."]
-			dependencies: ["13458DF94390D17D"]
-			id: "0EB9F82384980D93"
-			tasks: [{
-				id: "2375BD1B8BB0CADD"
-				type: "item"
-				item: {
-					id: "simplemagnets:advancedmagnet"
-					Count: 1b
-					tag: { }
-				}
 			}]
 		}
 		{
@@ -418,26 +352,6 @@
 				type: "item"
 				item: "sophisticatedbackpacks:netherite_backpack"
 			}]
-		}
-		{
-			icon: "appliedenergistics2:grindstone"
-			x: 2.0d
-			y: 1.5d
-			description: ["Кварцевый дробитель позволяет вам перемалывать руду в пыль. Для того, чтобы дробить руду необходимо на дробитель поставить &eрукоятку&f, а после крутите её."]
-			dependencies: ["2CB6E2F317E842CA"]
-			id: "6BDEDFD2C6E2E62F"
-			tasks: [
-				{
-					id: "7258932F0907108A"
-					type: "item"
-					item: "appliedenergistics2:grindstone"
-				}
-				{
-					id: "1881F288F9B72E27"
-					type: "item"
-					item: "appliedenergistics2:crank"
-				}
-			]
 		}
 		{
 			title: "Визер"
