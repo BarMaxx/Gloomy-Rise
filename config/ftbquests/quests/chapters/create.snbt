@@ -25,12 +25,19 @@
 				item: "create:andesite_alloy"
 				count: 8L
 			}]
-			rewards: [{
-				id: "15F4D54CD24B56C5"
-				type: "item"
-				item: "create:andesite_alloy"
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "15F4D54CD24B56C5"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 4
+				}
+				{
+					id: "795195B1D07FF9F6"
+					type: "item"
+					item: "buddycards:pack.5"
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -116,6 +123,11 @@
 				id: "6B5B9F2C4AFB8AF1"
 				type: "item"
 				item: "create:mechanical_press"
+			}]
+			rewards: [{
+				id: "0586AFC48A89DA46"
+				type: "item"
+				item: "buddycards:pack.5"
 			}]
 		}
 		{
@@ -271,6 +283,11 @@
 				item: "create:mechanical_crafter"
 				count: 9L
 			}]
+			rewards: [{
+				id: "24C754CC6135A4B8"
+				type: "item"
+				item: "buddycards:pack.5"
+			}]
 		}
 		{
 			x: 1.0d
@@ -301,6 +318,7 @@
 			y: -2.5d
 			description: ["Механический смешиватель, как ни странно, смешивает бесформенные рецепты, а также имеет несколько своих рецептов. Но для использования механического смешивателя нужна &eчаша&f."]
 			dependencies: ["5BAD099FF393376B"]
+			size: 1.2d
 			id: "20213C889BD05B08"
 			tasks: [{
 				id: "3D837026613FA225"
@@ -488,6 +506,11 @@
 				id: "21932F1DD9004C11"
 				type: "item"
 				item: "create:spout"
+			}]
+			rewards: [{
+				id: "356D3CECE0234D75"
+				type: "item"
+				item: "buddycards:pack.5"
 			}]
 		}
 		{
@@ -872,11 +895,18 @@
 				item: "create:precision_mechanism"
 				count: 2L
 			}]
-			rewards: [{
-				id: "3FFCE74383675D95"
-				type: "item"
-				item: "create:precision_mechanism"
-			}]
+			rewards: [
+				{
+					id: "3FFCE74383675D95"
+					type: "item"
+					item: "create:precision_mechanism"
+				}
+				{
+					id: "4BC204A6E1FBF102"
+					type: "item"
+					item: "buddycards:pack.5"
+				}
+			]
 		}
 		{
 			x: 5.5d
