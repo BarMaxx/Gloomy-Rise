@@ -752,6 +752,11 @@
 				type: "item"
 				item: "farmersdelight:stove"
 			}]
+			rewards: [{
+				id: "5DB2134DDA118EF1"
+				type: "item"
+				item: "buddycards:pack.7"
+			}]
 		}
 		{
 			x: 8.0d
