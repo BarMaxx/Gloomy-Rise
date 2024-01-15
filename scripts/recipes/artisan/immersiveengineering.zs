@@ -10,7 +10,5 @@ Recipe.type(Type.BLACKSMITH)
     [<item:minecraft:clay_ball>, <item:minecraft:brick>, <item:minecraft:clay_ball>]])
   .fluid(<fluid:minecraft:water> * 250)
   .output(<item:immersiveengineering:cokebrick>)
-  .tool(<tag:items:artisantools:type/hammer>, 20)
   .tool(<tag:items:artisantools:type/trowel>, 15)
-  .tool(<tag:items:artisantools:type/mortar>, 10)
   .register();

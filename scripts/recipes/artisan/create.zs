@@ -24,3 +24,25 @@ Recipe.type(Type.ENGINEER)
   .output(<item:create:shaft>)
   .tool(<tag:items:artisantools:type/hammer>, 5)
   .register();
+  
+  
+craftingTable.removeRecipe(<item:create:large_cogwheel>);
+Recipe.type(Type.ENGINEER)
+  .shaped([
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <item:create:shaft>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]])
+  .output(<item:create:large_cogwheel>)
+  .tool(<tag:items:artisantools:type/handsaw>, 5)
+  .register();
+  
+  
+craftingTable.removeRecipe(<item:create:andesite_casing>);
+Recipe.type(Type.ENGINEER)
+  .shaped([
+    [<item:create:andesite_alloy>, <tag:items:minecraft:planks>, <item:create:andesite_alloy>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:logs>, <tag:items:minecraft:planks>],
+    [<item:create:andesite_alloy>, <tag:items:minecraft:planks>, <item:create:andesite_alloy>]])
+  .output(<item:create:andesite_casing>)
+  .tool(<tag:items:artisantools:type/handsaw>, 15)
+  .register();

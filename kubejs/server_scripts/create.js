@@ -2,18 +2,6 @@ onEvent('recipes', event => {
 	
   
   
-  event.remove({output: 'create:andesite_casing'})	
-  event.shaped('create:andesite_casing', [
-    'APA',
-    'PLP',
-    'APA'
-  ], {
-    A: 'create:andesite_alloy',
-	P: '#minecraft:planks',
-	L: '#minecraft:logs'
-  })
-  
-  
   event.remove({output: 'create:copper_casing'})	
   event.shaped('create:copper_casing', [
     'CPC',
@@ -94,17 +82,6 @@ onEvent('recipes', event => {
     S: 'immersiveengineering:component_steel',
 	I: '#forge:plates/iron',
 	A: 'create:andesite_alloy'
-  })
-  
-  
-  event.remove({output: 'create:large_cogwheel'})	
-  event.shaped('create:large_cogwheel', [
-    'PPP',
-    'PSP',
-    'PPP'
-  ], {
-    S: 'create:shaft',
-	P: '#minecraft:planks'
   })
   
   

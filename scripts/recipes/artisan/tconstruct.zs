@@ -11,6 +11,4 @@ Recipe.type(Type.POTTER)
   .fluid(<fluid:minecraft:water> * 250)
   .output(<item:tconstruct:grout>)
   .tool(<tag:items:artisantools:type/sifter>, 20)
-  .tool(<tag:items:artisantools:type/trowel>, 15)
-  .tool(<tag:items:artisantools:type/mortar>, 10)
   .register();
