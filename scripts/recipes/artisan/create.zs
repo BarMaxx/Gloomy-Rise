@@ -46,3 +46,59 @@ Recipe.type(Type.ENGINEER)
   .output(<item:create:andesite_casing>)
   .tool(<tag:items:artisantools:type/handsaw>, 15)
   .register();
+  
+  
+craftingTable.removeRecipe(<item:create:brass_casing>);
+Recipe.type(Type.ENGINEER)
+  .shaped([
+    [<tag:items:forge:plates/brass>, <tag:items:minecraft:planks>, <tag:items:forge:plates/brass>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:logs>, <tag:items:minecraft:planks>],
+    [<tag:items:forge:plates/brass>, <tag:items:minecraft:planks>, <tag:items:forge:plates/brass>]])
+  .output(<item:create:brass_casing>)
+  .tool(<tag:items:artisantools:type/handsaw>, 15)
+  .register();
+  
+  
+craftingTable.removeRecipe(<item:create:copper_casing>);
+Recipe.type(Type.ENGINEER)
+  .shaped([
+    [<tag:items:forge:plates/copper>, <tag:items:minecraft:planks>, <tag:items:forge:plates/copper>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:logs>, <tag:items:minecraft:planks>],
+    [<tag:items:forge:plates/copper>, <tag:items:minecraft:planks>, <tag:items:forge:plates/copper>]])
+  .output(<item:create:copper_casing>)
+  .tool(<tag:items:artisantools:type/handsaw>, 15)
+  .register();
+  
+  
+craftingTable.removeRecipe(<item:create:shadow_steel_casing>);
+Recipe.type(Type.ENGINEER)
+  .shaped([
+    [<item:create:shadow_steel>, <tag:items:minecraft:planks>, <item:create:shadow_steel>],
+    [<tag:items:minecraft:planks>, <tag:items:forge:obsidian>, <tag:items:minecraft:planks>],
+    [<item:create:shadow_steel>, <tag:items:minecraft:planks>, <item:create:shadow_steel>]])
+  .output(<item:create:shadow_steel_casing>)
+  .tool(<tag:items:artisantools:type/gemcutter>, 20)
+  .register();
+  
+  
+craftingTable.removeRecipe(<item:create:refined_radiance_casing>);
+Recipe.type(Type.ENGINEER)
+  .shaped([
+    [<item:create:refined_radiance>, <tag:items:minecraft:planks>, <item:create:refined_radiance>],
+    [<tag:items:minecraft:planks>, <tag:items:forge:glass>, <tag:items:minecraft:planks>],
+    [<item:create:refined_radiance>, <tag:items:minecraft:planks>, <item:create:refined_radiance>]])
+  .output(<item:create:refined_radiance_casing>)
+  .tool(<tag:items:artisantools:type/gemcutter>, 20)
+  .register();
+  
+  
+craftingTable.removeRecipe(<item:createaddition:overcharged_casing>);
+Recipe.type(Type.ENGINEER)
+  .shaped([
+    [<item:createaddition:overcharged_alloy>, <tag:items:minecraft:planks>, <item:createaddition:overcharged_alloy>],
+    [<tag:items:minecraft:planks>, <item:minecraft:packed_ice>, <tag:items:minecraft:planks>],
+    [<item:createaddition:overcharged_alloy>, <tag:items:minecraft:planks>, <item:createaddition:overcharged_alloy>]])
+  .output(<item:createaddition:overcharged_casing>)
+  .tool(<tag:items:artisantools:type/gemcutter>, 20)
+  .tool(<tag:items:artisantools:type/pliers>, 20)
+  .register();

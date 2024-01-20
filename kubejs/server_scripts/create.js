@@ -1,65 +1,6 @@
 onEvent('recipes', event => {
 	
-  
-  
-  event.remove({output: 'create:copper_casing'})	
-  event.shaped('create:copper_casing', [
-    'CPC',
-    'PLP',
-    'CPC'
-  ], {
-    C: '#forge:plates/copper',
-	P: '#minecraft:planks',
-	L: '#minecraft:logs'
-  })
-  
-  
-  event.remove({output: 'create:brass_casing'})	
-  event.shaped('create:brass_casing', [
-    'BPB',
-    'PLP',
-    'BPB'
-  ], {
-    B: '#forge:plates/brass',
-	P: '#minecraft:planks',
-	L: '#minecraft:logs'
-  })
-  
-  
-  event.remove({output: 'create:refined_radiance_casing'})	
-  event.shaped('create:refined_radiance_casing', [
-    'RPR',
-    'PGP',
-    'RPR'
-  ], {
-    R: 'create:refined_radiance',
-	P: '#minecraft:planks',
-	G: '#forge:glass'
-  })
-  
-  
-  event.remove({output: 'create:shadow_steel_casing'})	
-  event.shaped('create:shadow_steel_casing', [
-    'SPS',
-    'POP',
-    'SPS'
-  ], {
-    S: 'create:shadow_steel',
-	P: '#minecraft:planks',
-	O: '#forge:obsidian'
-  })
-  
-  
-  event.remove({output: 'createaddition:overcharged_casing'})	
-  event.shaped('createaddition:overcharged_casing', [
-    'OPO',
-    'PIP',
-    'OPO'
-  ], {
-    O: 'createaddition:overcharged_alloy',
-	P: '#minecraft:planks',
-	I: 'minecraft:packed_ice'
-  })
+
   
   
   event.remove({output: 'create:propeller'})	
