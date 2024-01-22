@@ -1,0 +1,185 @@
+{
+	id: "7C1482627E22E794"
+	group: "24923118FBE15B71"
+	order_index: 5
+	filename: "applied_energistics_2"
+	title: "Applied Energistics 2"
+	icon: "appliedenergistics2:64k_cell_component"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["С помощью высекателя можно создавать различные компоненты для МЭ сети."]
+			dependencies: ["38E6F5763D5DA74D"]
+			id: "302A14893184E904"
+			tasks: [{
+				id: "49D08ECD68BC0A87"
+				type: "item"
+				item: "appliedenergistics2:inscriber"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			description: ["Метеоритовый компас Вам понадобится для поиска метеорита, в котором находятся пресса для высекателя."]
+			dependencies: ["09AEF5AB3957D385"]
+			id: "6D88A11B6EEBFD4E"
+			tasks: [{
+				id: "6A8839FE3598C716"
+				type: "item"
+				item: "appliedenergistics2:sky_compass"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			description: ["В МЭ накопителе хранятся ячейки хранения."]
+			dependencies: ["302A14893184E904"]
+			id: "219738D8C40A44E7"
+			tasks: [{
+				id: "268BE0F4E3756235"
+				type: "item"
+				item: "appliedenergistics2:drive"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			description: ["МЭ терминал нужен, чтобы взаимодействовать с предметами в МЭ сети."]
+			dependencies: ["302A14893184E904"]
+			id: "038C1DB891E5F731"
+			tasks: [{
+				id: "280FC5F817D942B1"
+				type: "item"
+				item: "appliedenergistics2:terminal"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			subtitle: "Мозг МЭ системы"
+			description: ["МЭ контроллер - главный блок МЭ сети."]
+			dependencies: ["302A14893184E904"]
+			id: "6F8C1F213EB5273D"
+			tasks: [{
+				id: "214708FA40B830F4"
+				type: "item"
+				item: "appliedenergistics2:controller"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			description: ["Нужен для создания ячейки хранения и не только."]
+			dependencies: ["302A14893184E904"]
+			id: "5916045CBA46BA39"
+			tasks: [{
+				id: "65C8943786BB09CF"
+				type: "item"
+				item: "appliedenergistics2:1k_cell_component"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			description: ["Нужен для создания ячейки хранения и не только."]
+			dependencies: ["5916045CBA46BA39"]
+			id: "33B28E222354F361"
+			tasks: [{
+				id: "41E58DC791153B46"
+				type: "item"
+				item: "appliedenergistics2:4k_cell_component"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			description: ["Нужен для создания ячейки хранения и не только."]
+			dependencies: ["33B28E222354F361"]
+			id: "70638D98D093BC9F"
+			tasks: [{
+				id: "7E17D4B919CBD26A"
+				type: "item"
+				item: "appliedenergistics2:16k_cell_component"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			description: ["Нужен для создания ячейки хранения и не только."]
+			dependencies: ["70638D98D093BC9F"]
+			id: "0E8EF9B1B64084C5"
+			tasks: [{
+				id: "2CDD2857DEA7AD57"
+				type: "item"
+				item: "appliedenergistics2:64k_cell_component"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			description: ["Нужна для хранения предметов в МЭ сети."]
+			dependencies: ["5916045CBA46BA39"]
+			id: "7BFB8B4CE0B07B75"
+			tasks: [{
+				id: "112DD1930B8EC8DF"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:1k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			description: ["Нужна для хранения предметов в МЭ сети. Хранит больше места, чем предыдущая ячейка."]
+			dependencies: ["33B28E222354F361"]
+			id: "49941C35085F4C0B"
+			tasks: [{
+				id: "1A0E332D637AB026"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:4k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			description: ["Нужна для хранения предметов в МЭ сети. Хранит больше места, чем предыдущая ячейка."]
+			dependencies: ["70638D98D093BC9F"]
+			id: "13E3871CB9CF14D1"
+			tasks: [{
+				id: "60222A1C7F4DCCF6"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:16k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			description: ["Нужна для хранения предметов в МЭ сети. Хранит больше места, чем предыдущая ячейка."]
+			dependencies: ["0E8EF9B1B64084C5"]
+			id: "640BC9B93F25E34C"
+			tasks: [{
+				id: "429565960DAF92D4"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:64k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+	]
+}

@@ -1,0 +1,349 @@
+{
+	id: "4668B56C2DF115E0"
+	group: "24923118FBE15B71"
+	order_index: 1
+	filename: "industrial_foregoing"
+	title: "Industrial Foregoing"
+	icon: "industrialforegoing:plastic"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: 0.0d
+			subtitle: "Не настолько уж и ужасный"
+			dependencies: ["114FD26AF2B063E3"]
+			hide: true
+			id: "694281DA3A22F08D"
+			tasks: [{
+				id: "29612BAF3C429CAF"
+				type: "item"
+				item: "industrialforegoing:pitiful_generator"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["С помощью жидкостного экстрактора можно вырабатывать &eлатекс&f. Для этого необходимо поставить бревно в рабочую зону механизма."]
+			dependencies: ["114FD26AF2B063E3"]
+			hide: true
+			id: "115B9FD4723D5951"
+			tasks: [{
+				id: "5A8E645188BCF123"
+				type: "item"
+				item: "industrialforegoing:fluid_extractor"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			description: ["Ведро латекса понадобится для создания юнита по производству латекса."]
+			dependencies: ["115B9FD4723D5951"]
+			id: "26EFC6835A48466A"
+			tasks: [{
+				id: "19E48C794616C17A"
+				type: "item"
+				item: "industrialforegoing:latex_bucket"
+			}]
+			rewards: [{
+				id: "320C947E1C054490"
+				type: "item"
+				item: "industrialforegoing:latex_bucket"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			description: ["В юните по производству латекса можно вырабатывать сухой кусочек резины с помощью &9воды&f и &eлатекса&f."]
+			dependencies: ["26EFC6835A48466A"]
+			id: "33D6D0B7AAE2127D"
+			tasks: [{
+				id: "193F1EB94A51B7E1"
+				type: "item"
+				item: "industrialforegoing:latex_processing_unit"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			description: ["Сухой кусочек резины нужен для создания &8сухой резины&f."]
+			dependencies: ["33D6D0B7AAE2127D"]
+			id: "1EE04FF854497BE4"
+			tasks: [{
+				id: "08CB42B93B21B157"
+				type: "item"
+				title: "Сухой кусочек резины"
+				item: "industrialforegoing:tinydryrubber"
+				count: 5L
+			}]
+			rewards: [{
+				id: "19DD2081B4A4F045"
+				type: "item"
+				item: "industrialforegoing:tinydryrubber"
+				count: 2
+				random_bonus: 1
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			description: ["Сухая резина нужна для создания &7пластика&f."]
+			dependencies: ["1EE04FF854497BE4"]
+			id: "352BFCCA7AC39428"
+			tasks: [{
+				id: "0C8F03FBBC9CB4F1"
+				type: "item"
+				title: "Сухая резина"
+				item: "industrialforegoing:dryrubber"
+				count: 4L
+			}]
+			rewards: [{
+				id: "77565617BD19D300"
+				type: "item"
+				item: "industrialforegoing:dryrubber"
+				count: 2
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			description: ["Пластик - это очень важный элемент в высоких технологиях! Его здесь потребуется достаточно много."]
+			dependencies: ["352BFCCA7AC39428"]
+			id: "6AF0C43A5DBB4655"
+			tasks: [{
+				id: "6B68AD10E0C5F1F2"
+				type: "item"
+				title: "Пластик"
+				item: "industrialforegoing:plastic"
+				count: 8L
+			}]
+			rewards: [{
+				id: "6A88025682D27767"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.5d
+			description: ["С помощью завод-резня мобов можно получить жидкое мясо и розовую слизь."]
+			dependencies: ["6AF0C43A5DBB4655"]
+			id: "6CF87CA08FF8433F"
+			tasks: [{
+				id: "007E61F5EA5A2E11"
+				type: "item"
+				item: "industrialforegoing:mob_slaughter_factory"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			description: ["С помощью розовой слизи можно создать много различных предметов в камере растворения."]
+			dependencies: ["6CF87CA08FF8433F"]
+			id: "53AEFDF1C60B2E4D"
+			tasks: [{
+				id: "6FAAD311ECABE48E"
+				type: "item"
+				item: "industrialforegoing:pink_slime_bucket"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			description: ["В камере растворения можно создавать много различных предметов."]
+			dependencies: ["6AF0C43A5DBB4655"]
+			id: "7D505AD12A920AD4"
+			tasks: [{
+				id: "34091B5C200123B4"
+				type: "item"
+				item: "industrialforegoing:dissolution_chamber"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			description: ["Обычная рамка механизма нужна для создания различных механизмов и не только."]
+			dependencies: ["7D505AD12A920AD4"]
+			id: "10E28C6568587542"
+			tasks: [{
+				id: "0C910124F87A809B"
+				type: "item"
+				title: "Обычная рамка механизма"
+				item: "industrialforegoing:machine_frame_simple"
+				count: 4L
+			}]
+			rewards: [{
+				id: "2D4339CFCD892D89"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+				count: 2
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			description: ["Продвинутая рамка механизма нужна для создания различных механизмов и не только."]
+			dependencies: [
+				"10E28C6568587542"
+				"53AEFDF1C60B2E4D"
+			]
+			id: "5A62FA4EFF26C661"
+			tasks: [{
+				id: "5C7470FECA6F5ECB"
+				type: "item"
+				title: "Продвинутая рамка механизма"
+				item: "industrialforegoing:machine_frame_advanced"
+				count: 4L
+			}]
+			rewards: [{
+				id: "1F279B9DE0C85215"
+				type: "item"
+				title: "Продвинутая рамка механизма"
+				item: "industrialforegoing:machine_frame_advanced"
+				count: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.5d
+			description: ["Ультимейтная рамка механизма нужна для создания различных механизмов и не только."]
+			dependencies: ["5A62FA4EFF26C661"]
+			id: "38E6F5763D5DA74D"
+			tasks: [{
+				id: "233038C36452F73B"
+				type: "item"
+				title: "Ультимейтная рамка механизма"
+				item: "industrialforegoing:machine_frame_supreme"
+				count: 4L
+			}]
+			rewards: [{
+				id: "62CD7DF65F050E77"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+				count: 2
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.5d
+			subtitle: "Да-да, не удивляйтесь"
+			description: ["Постройщик визеров строит визеров..."]
+			dependencies: ["38E6F5763D5DA74D"]
+			hide: true
+			id: "48307D4DB02D93CA"
+			tasks: [{
+				id: "7441F14E0295856E"
+				type: "item"
+				item: "industrialforegoing:wither_builder"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 4.5d
+			description: ["Слиток розовой слизи понадобится для создания &1Ядра дракона&f, а так метеоритового компаса...да здравствует AE2 ^_^"]
+			dependencies: ["53AEFDF1C60B2E4D"]
+			id: "09AEF5AB3957D385"
+			tasks: [{
+				id: "441ABE315BC8A4C9"
+				type: "item"
+				title: "Слиток розовой слизи"
+				item: "industrialforegoing:pink_slime_ingot"
+				count: 5L
+			}]
+			rewards: [{
+				id: "1865E1FCAD748A6E"
+				type: "item"
+				item: "industrialforegoing:pink_slime_ingot"
+				count: 2
+			}]
+		}
+		{
+			x: 8.0d
+			y: 5.5d
+			description: ["В станции промывки из руд можно получить их сырую мясную версию."]
+			dependencies: ["09AEF5AB3957D385"]
+			id: "6CD49B526AA25BF6"
+			tasks: [{
+				id: "54EEB6CBB20B8266"
+				type: "item"
+				item: "industrialforegoing:washing_factory"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			subtitle: "Теперь я Элита"
+			description: ["Элитный компонент понадобится для создания &3Элитного катализатора&f. А также понадобится для создания &1Элитного верстака&f."]
+			dependencies: ["6AF0C43A5DBB4655"]
+			id: "2747859212DEE511"
+			tasks: [{
+				id: "1B438E33869660B9"
+				type: "item"
+				item: "extendedcrafting:elite_component"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			description: ["Элитный катализатор понадобится создания &1Элитного верстака&f."]
+			dependencies: ["2747859212DEE511"]
+			id: "390F0C9D42401EEF"
+			tasks: [{
+				id: "67575021689E01A3"
+				type: "item"
+				item: "extendedcrafting:elite_catalyst"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			subtitle: "Вот теперь точно Элита"
+			description: ["Элитный верстак позволяет создавать крафты 7х7, например крафт &7брони&f, &3механизмов&f, и т.п."]
+			dependencies: ["390F0C9D42401EEF"]
+			id: "2589ABE217B60E2B"
+			tasks: [{
+				id: "6E6B53304DEE0CC8"
+				type: "item"
+				item: "extendedcrafting:elite_table"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			description: ["С помощью созданного Вами Элитного верстака можно создать Кристалтиновый слиток, который понадобится во многих крафтах."]
+			dependencies: ["2589ABE217B60E2B"]
+			id: "3587F44770F0793C"
+			tasks: [{
+				id: "1DC16D62BE8D5CFF"
+				type: "item"
+				item: "extendedcrafting:crystaltine_ingot"
+			}]
+			rewards: [{
+				id: "7FA15F3D10204D91"
+				type: "item"
+				item: "extendedcrafting:crystaltine_ingot"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: 12.5d
+			y: 1.5d
+			description: ["Это очень дорогой блок."]
+			dependencies: ["48307D4DB02D93CA"]
+			hide: true
+			id: "56415AC8B6C4F1DB"
+			tasks: [{
+				id: "45696B195EFF5DEA"
+				type: "item"
+				item: "extendedcrafting:nether_star_block"
+			}]
+			rewards: [{
+				id: "03FF3FAB3505B73E"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+		}
+	]
+}

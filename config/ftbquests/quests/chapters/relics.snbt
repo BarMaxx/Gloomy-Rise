@@ -1,0 +1,10 @@
+{
+	id: "6D38212DFED6C129"
+	group: "37FCF4EC720E030D"
+	order_index: 2
+	filename: "relics"
+	title: "Relics"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

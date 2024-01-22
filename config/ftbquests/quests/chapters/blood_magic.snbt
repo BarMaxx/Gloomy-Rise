@@ -1,0 +1,314 @@
+{
+	id: "189ED85D95018F36"
+	group: "24923118FBE15B71"
+	order_index: 6
+	filename: "blood_magic"
+	title: "Blood Magic"
+	icon: {
+		id: "bloodmagic:basemonstersoul"
+		Count: 1b
+		tag: {
+			souls: 5.0d
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			description: ["Кровавый алтарь - главый предмет в моде &4Blood Magic&f! Основа Вашего развития в этом моде!"]
+			dependencies: ["09B7710675B81B75"]
+			id: "310211F11C8A68E9"
+			tasks: [{
+				id: "0CEE9E22AAA5D081"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: ["Слабый кровавый шар создаётся на алтаре 1 уровня."]
+			dependencies: ["310211F11C8A68E9"]
+			id: "7F5EF07CC23322DA"
+			tasks: [{
+				id: "69602CC66ECD4457"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			description: ["Чистый шифер создаётся на алтаре 1 уровня."]
+			dependencies: ["310211F11C8A68E9"]
+			id: "604BE4CC22A5DF43"
+			tasks: [{
+				id: "7EE0F656CBE11074"
+				type: "item"
+				title: "Чистый шифер"
+				item: "bloodmagic:blankslate"
+				count: 5L
+			}]
+			rewards: [{
+				id: "4A61383616681793"
+				type: "item"
+				item: "bloodmagic:blankslate"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			description: ["Пустая руна нужна для создания рун или улучшения кровавого алтаря."]
+			dependencies: ["604BE4CC22A5DF43"]
+			id: "2C0AA4F9A398B84E"
+			tasks: [{
+				id: "4E1A06F40278F7AD"
+				type: "item"
+				title: "Пустая руна"
+				item: "bloodmagic:blankrune"
+				count: 9L
+			}]
+			rewards: [{
+				id: "18C0AAE3A5499C80"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			subtitle: "Резня!"
+			description: ["Кинжал для жертвоприношений :)"]
+			dependencies: ["2C0AA4F9A398B84E"]
+			id: "098A444D9F847848"
+			tasks: [{
+				id: "45941F37DBB28203"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			description: ["С помощью данной кузницы можно создать много различных предметов."]
+			dependencies: ["604BE4CC22A5DF43"]
+			id: "2931277B0B65BEE2"
+			tasks: [{
+				id: "3D2888C67663DC49"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			description: ["С помощью алхимического стола можно создать много различных предметов."]
+			dependencies: ["604BE4CC22A5DF43"]
+			id: "3BFAF3EEF0FA4E9B"
+			tasks: [{
+				id: "47B67900335680B2"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			description: ["Волшебный пепел можно создать на алхимическом столе либо же с помощью волшебного пепла."]
+			dependencies: ["3BFAF3EEF0FA4E9B"]
+			id: "046F2CC77792239E"
+			tasks: [{
+				id: "371CCDE1EAF7B51B"
+				type: "item"
+				item: {
+					id: "bloodmagic:arcaneashes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			description: ["Неплохая броня, которую можно прокачать."]
+			hide_dependency_lines: true
+			dependencies: ["046F2CC77792239E"]
+			id: "55BA03323CB14A1A"
+			tasks: [{
+				id: "0C2343AC5E5F2139"
+				type: "item"
+				item: {
+					id: "bloodmagic:livinghelmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			description: ["Неплохая броня, которую можно прокачать."]
+			hide_dependency_lines: true
+			dependencies: ["046F2CC77792239E"]
+			id: "04831483EA7056F5"
+			tasks: [{
+				id: "568688168D41D452"
+				type: "item"
+				item: {
+					id: "bloodmagic:livingplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+						livingStats: {
+							maxPoints: 100
+							upgrades: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			description: ["Неплохая броня, которую можно прокачать."]
+			hide_dependency_lines: true
+			dependencies: ["046F2CC77792239E"]
+			id: "408563BC3BE20B2D"
+			tasks: [{
+				id: "486C4DF71721C46C"
+				type: "item"
+				item: {
+					id: "bloodmagic:livingleggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			description: ["Неплохая броня, которую можно прокачать."]
+			hide_dependency_lines: true
+			dependencies: ["046F2CC77792239E"]
+			id: "10A5426E7D746B4E"
+			tasks: [{
+				id: "608C4A6B702087C0"
+				type: "item"
+				item: {
+					id: "bloodmagic:livingboots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			description: ["Кровавый шар ученика создаётся на алтаре 2 уровня."]
+			dependencies: ["2C0AA4F9A398B84E"]
+			id: "3B7AE77552E7DAD8"
+			tasks: [{
+				id: "6606994CC32DFECA"
+				type: "item"
+				item: "bloodmagic:apprenticebloodorb"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			description: ["Укреплённый шифер создаётся на алтаре 2 уровня."]
+			dependencies: ["2C0AA4F9A398B84E"]
+			id: "444990844E568EA9"
+			tasks: [{
+				id: "6A4FBE778C5F799C"
+				type: "item"
+				title: "Укреплённый шифер"
+				item: "bloodmagic:reinforcedslate"
+				count: 5L
+			}]
+			rewards: [{
+				id: "7504DFDC5FC81927"
+				type: "item"
+				item: "bloodmagic:reinforcedslate"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			description: ["Прочный шифер создаётся на алтаре 3 уровня."]
+			dependencies: ["444990844E568EA9"]
+			id: "5EC0FBD46A7681D7"
+			tasks: [{
+				id: "1F5674E024E5454F"
+				type: "item"
+				title: "Прочный шифер"
+				item: "bloodmagic:infusedslate"
+				count: 5L
+			}]
+			rewards: [{
+				id: "22EE748D96CF5C66"
+				type: "item"
+				item: "bloodmagic:infusedslate"
+				count: 2
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			description: ["Демонический шифер создаётся на алтаре 4 уровня."]
+			dependencies: ["5EC0FBD46A7681D7"]
+			id: "10CA6E763836B7B6"
+			tasks: [{
+				id: "1C744DDA96E743ED"
+				type: "item"
+				title: "Демонический шифер"
+				item: "bloodmagic:demonslate"
+				count: 5L
+			}]
+			rewards: [{
+				id: "214136926AD18AFB"
+				type: "item"
+				item: "bloodmagic:demonslate"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			description: ["Кровавый шар мага создаётся на алтаре 3 уровня."]
+			dependencies: ["3B7AE77552E7DAD8"]
+			id: "029FBFB1E2C4EDED"
+			tasks: [{
+				id: "1CBE9183E39AFEFF"
+				type: "item"
+				item: "bloodmagic:magicianbloodorb"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			description: ["Кровавый шар мастера создаётся на алтаре 4 уровня."]
+			dependencies: ["029FBFB1E2C4EDED"]
+			id: "57C81B4BECC4F775"
+			tasks: [{
+				id: "547A69DB07B8290F"
+				type: "item"
+				item: "bloodmagic:masterbloodorb"
+			}]
+		}
+	]
+}

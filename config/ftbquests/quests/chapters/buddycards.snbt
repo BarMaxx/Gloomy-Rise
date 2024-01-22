@@ -1,0 +1,10 @@
+{
+	id: "5372FD48726000D3"
+	group: "6E7449445FFC34C5"
+	order_index: 1
+	filename: "buddycards"
+	title: "BuddyCards"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

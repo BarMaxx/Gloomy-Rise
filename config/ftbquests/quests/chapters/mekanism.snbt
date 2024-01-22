@@ -1,0 +1,556 @@
+{
+	id: "7C46CDC4452B3E57"
+	group: "24923118FBE15B71"
+	order_index: 3
+	filename: "mekanism"
+	title: "Mekanism"
+	icon: "kubejs:raw_circuit"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["Металлургический наполнитель наполняет предметы различными элементами."]
+			dependencies: ["10E28C6568587542"]
+			id: "6180ACBB10C75460"
+			tasks: [{
+				id: "237DF06152585C2F"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			description: ["Базовая схема управления нужна для создания различных предметов, например, энергетический ранец."]
+			dependencies: ["4FB448915495DD86"]
+			id: "1723DF54C9D0ABD2"
+			tasks: [{
+				id: "7169853627B2CB1F"
+				type: "item"
+				title: "Базовая схема управления"
+				item: "mekanism:basic_control_circuit"
+				count: 4L
+			}]
+			rewards: [{
+				id: "77F31795F1E0984F"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			description: ["Наполненный сплав нужен для создания различных предметов, например, энергетический планшет или укреплённый сплав."]
+			dependencies: ["3E4E01EAE248DD83"]
+			id: "18F8BADF3A3A940A"
+			tasks: [{
+				id: "615A2F78ADF8AB3B"
+				type: "item"
+				title: "Наполненный сплав"
+				item: "mekanism:alloy_infused"
+				count: 4L
+			}]
+			rewards: [{
+				id: "46D5F6BD256FDEE6"
+				type: "item"
+				item: "mekanism:alloy_infused"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			description: ["Укреплённый сплав нужен для создания различных предметов, например, атомный сплав."]
+			dependencies: ["18F8BADF3A3A940A"]
+			id: "7B8698296BD33830"
+			tasks: [{
+				id: "66E181F2E08502E0"
+				type: "item"
+				title: "Укреплённый сплав"
+				item: "mekanism:alloy_reinforced"
+				count: 4L
+			}]
+			rewards: [{
+				id: "1130E6DACECC7FAE"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+				count: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			description: ["Атомный сплав нужен для создания различных предметов, например, атомный разборщик или робит."]
+			dependencies: ["7B8698296BD33830"]
+			id: "11050ADBB656B7A9"
+			tasks: [{
+				id: "165D337065300296"
+				type: "item"
+				title: "Атомный сплав"
+				item: "mekanism:alloy_atomic"
+				count: 4L
+			}]
+			rewards: [{
+				id: "5FB0B407FB8E5E72"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+				count: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			dependencies: ["6180ACBB10C75460"]
+			id: "4FB448915495DD86"
+			tasks: [{
+				id: "3D4774D016EE292B"
+				type: "item"
+				item: "kubejs:raw_circuit"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			dependencies: ["6180ACBB10C75460"]
+			id: "3E4E01EAE248DD83"
+			tasks: [{
+				id: "61A584342B4CE069"
+				type: "checkmark"
+				title: "Сырой сплав"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			description: ["Атомный разборщик - это достаточно быстрый и эффективный способ добычи породы."]
+			dependencies: ["11050ADBB656B7A9"]
+			id: "57E1DC0354EC699E"
+			tasks: [{
+				id: "6B4644AFE203FA8C"
+				type: "item"
+				item: {
+					id: "mekanism:atomic_disassembler"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			subtitle: "Какой он милый :3"
+			description: ["Робит нужен для создания цифрового шахтёра."]
+			dependencies: ["11050ADBB656B7A9"]
+			id: "42C5A63D73A8582E"
+			tasks: [{
+				id: "14731F3A93378EB1"
+				type: "item"
+				item: "mekanism:robit"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.5d
+			description: ["С помощью цифрового шахтёра можно добывать огромное количество предметов."]
+			dependencies: ["42C5A63D73A8582E"]
+			id: "60EE8E02C7FF07FA"
+			tasks: [{
+				id: "4C2E2F95A3CF585F"
+				type: "item"
+				item: "mekanism:digital_miner"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			description: ["Обычный дробитель, но с его помощью можно создать биотопливо."]
+			dependencies: ["1723DF54C9D0ABD2"]
+			id: "3996D88998A59692"
+			tasks: [{
+				id: "1C9DF171AFA6F104"
+				type: "item"
+				item: "mekanism:crusher"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			description: ["С помощью биотоплива можно создать субстрат или биогенератор."]
+			dependencies: ["3996D88998A59692"]
+			id: "0B955855C4C3CBD0"
+			tasks: [{
+				id: "4860F0CE17077701"
+				type: "item"
+				title: "Биотопливо"
+				item: "mekanism:bio_fuel"
+				count: 8L
+			}]
+			rewards: [{
+				id: "037FF87CFBC3A251"
+				type: "item"
+				item: "mekanism:bio_fuel"
+				count: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			description: ["С помощью камеры обогащения можно создать герметичную реакционную камеру!"]
+			dependencies: ["1723DF54C9D0ABD2"]
+			id: "1C1D3D5708D4769D"
+			tasks: [{
+				id: "6D13429EF7FAB4C7"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			description: ["С помощью герметичной реакционной камеры можно создавать различные вещи, например, гранула плутония или субстрат."]
+			dependencies: ["1C1D3D5708D4769D"]
+			id: "600160396D9769C4"
+			tasks: [{
+				id: "271F76625EAC0F04"
+				type: "item"
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.0d
+			description: ["С помощью грунулы плутония можно создать SPS корпус или вторичный делящийся фрагмент."]
+			dependencies: ["600160396D9769C4"]
+			id: "4A45B94832C285FC"
+			tasks: [{
+				id: "40A41EB3BD1540BA"
+				type: "item"
+				title: "Гранула плутония"
+				item: "mekanism:pellet_plutonium"
+				count: 4L
+			}]
+			rewards: [{
+				id: "7FBB096776E13113"
+				type: "item"
+				item: "mekanism:pellet_plutonium"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			description: ["С помощью субстрата можно создать полиэтилен или же субстрат."]
+			dependencies: [
+				"600160396D9769C4"
+				"0B955855C4C3CBD0"
+			]
+			id: "75F645B49BCCB0E7"
+			tasks: [{
+				id: "7A2884A99D35A150"
+				type: "item"
+				title: "Субстрат"
+				item: "mekanism:substrate"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0D160254C0B28D74"
+				type: "item"
+				item: "mekanism:substrate"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.0d
+			description: ["С помощью полиэтилена можно создать полиэтиленовый стержень или лист."]
+			dependencies: ["75F645B49BCCB0E7"]
+			id: "2DB3767FCECE4A5D"
+			tasks: [{
+				id: "46882680E19D30BB"
+				type: "item"
+				title: "Полиэтилен"
+				item: "mekanism:hdpe_pellet"
+				count: 8L
+			}]
+			rewards: [{
+				id: "12684749F9B9D68A"
+				type: "item"
+				item: "mekanism:hdpe_pellet"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: -6.0d
+			description: ["С помощью полиэтиленового листа можно создать много различных вещей. Например, солнечный нейтронный активатор."]
+			dependencies: ["2DB3767FCECE4A5D"]
+			id: "620D3DFFFAE8EA9D"
+			tasks: [{
+				id: "60A778A36A8B7849"
+				type: "item"
+				title: "Полиэтиленовый лист"
+				item: "mekanism:hdpe_sheet"
+				count: 4L
+			}]
+			rewards: [{
+				id: "026C962CE493EAD5"
+				type: "item"
+				item: "mekanism:hdpe_sheet"
+				count: 2
+			}]
+		}
+		{
+			x: -5.0d
+			y: -6.0d
+			description: ["С помощью солнечного нейтронного активатора можно создать полоний или тритий."]
+			dependencies: ["620D3DFFFAE8EA9D"]
+			id: "404CF433B71A64AF"
+			tasks: [{
+				id: "3ECC247BEF89A4FB"
+				type: "item"
+				item: "mekanism:solar_neutron_activator"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -4.5d
+			description: ["С помощью гранулы антиматерии можно создать много различных вещей."]
+			dependencies: ["404CF433B71A64AF"]
+			id: "4A9A1FB727ADDA00"
+			tasks: [{
+				id: "3F39B495E6C5C4C2"
+				type: "item"
+				title: "Гранула антиматерии"
+				item: "mekanism:pellet_antimatter"
+				count: 4L
+			}]
+			rewards: [{
+				id: "247CFD1EB4EC82CC"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+				count: 2
+			}]
+		}
+		{
+			x: -5.5d
+			y: -7.5d
+			description: ["С помощью гранулы полония можно создать нечно подобное МЭ системы!"]
+			dependencies: ["404CF433B71A64AF"]
+			id: "1FB8A258A95FA1AE"
+			tasks: [{
+				id: "418869F36C2624BF"
+				type: "item"
+				title: "Гранула полония"
+				item: "mekanism:pellet_polonium"
+				count: 4L
+			}]
+			rewards: [{
+				id: "0C88DD5BA776288D"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			description: ["Очень много места."]
+			dependencies: ["4A9A1FB727ADDA00"]
+			id: "0C41B007CB600D81"
+			tasks: [{
+				id: "4C9E1511167DA326"
+				type: "item"
+				item: "mekanism:qio_drive_supermassive"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.5d
+			description: ["С помощью антипротонного нуклеосинтезатора можно создавать различные вещи, например яйцо Дракона!"]
+			dependencies: ["4A9A1FB727ADDA00"]
+			id: "3F60A8C2DB8360A3"
+			tasks: [{
+				id: "373659F0AC0D2138"
+				type: "item"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -8.5d
+			description: ["Очень много места :)"]
+			dependencies: ["1FB8A258A95FA1AE"]
+			id: "6644DC8A816E7809"
+			tasks: [{
+				id: "3C57F561C8D87804"
+				type: "item"
+				item: "mekanism:qio_drive_base"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -8.5d
+			description: ["С помощью модификационной станции можно оснащать Meka броню различными модулями."]
+			dependencies: ["1FB8A258A95FA1AE"]
+			id: "30DB8C5ED7EE8E92"
+			tasks: [{
+				id: "352D12868240C86E"
+				type: "item"
+				item: "mekanism:modification_station"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -7.5d
+			description: ["Почти то же самое, что и МЭ терминал."]
+			dependencies: ["1FB8A258A95FA1AE"]
+			id: "2242D7378E66A199"
+			tasks: [{
+				id: "249DBF2A4D13CD73"
+				type: "item"
+				item: "mekanism:qio_dashboard"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -7.5d
+			description: ["Почти то же самое, что и МЭ накопитель."]
+			dependencies: ["1FB8A258A95FA1AE"]
+			id: "74180384BC69C0F6"
+			tasks: [{
+				id: "34E677BA1C95749D"
+				type: "item"
+				item: "mekanism:qio_drive_array"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -6.5d
+			description: ["Карманая \"МЭ сеть\"."]
+			dependencies: ["2242D7378E66A199"]
+			id: "28924DD6F62D29F9"
+			tasks: [{
+				id: "2C51B2B3D4E514C1"
+				type: "item"
+				item: "mekanism:portable_qio_dashboard"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -7.0d
+			description: ["Просто укреплённые элитры."]
+			dependencies: ["620D3DFFFAE8EA9D"]
+			id: "73744CE605416C9A"
+			tasks: [{
+				id: "0A4780E25A69C5F7"
+				type: "item"
+				item: {
+					id: "mekanism:hdpe_elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.0d
+			description: ["С помощью модульной базы можно создать много различных модулей для Meka брони."]
+			dependencies: ["620D3DFFFAE8EA9D"]
+			id: "245BD231A573443B"
+			tasks: [{
+				id: "705DA6A3437EFDB4"
+				type: "item"
+				title: "Модульная база"
+				item: "mekanism:module_base"
+				count: 4L
+			}]
+			rewards: [{
+				id: "5BD3C5FB2E544257"
+				type: "item"
+				item: "mekanism:module_base"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.5d
+			description: ["Очень хорошая броня :)"]
+			hide_dependency_lines: true
+			dependencies: ["2589ABE217B60E2B"]
+			id: "324BADC72E76DD44"
+			tasks: [{
+				id: "291838D4C98DB0F9"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_helmet"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -7.5d
+			description: ["Очень хорошая броня :)"]
+			hide_dependency_lines: true
+			dependencies: ["2589ABE217B60E2B"]
+			id: "5A779DD2AA2C8416"
+			tasks: [{
+				id: "388E37A3A21910B9"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_bodyarmor"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.5d
+			description: ["Очень хорошая броня :)"]
+			hide_dependency_lines: true
+			dependencies: ["2589ABE217B60E2B"]
+			id: "05E9AF0E35B075C3"
+			tasks: [{
+				id: "2F05C6A46CD9DF1B"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_pants"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			description: ["Очень хорошая броня :)"]
+			hide_dependency_lines: true
+			dependencies: ["2589ABE217B60E2B"]
+			id: "1FDDC63FDDB4A756"
+			tasks: [{
+				id: "4CFF6EE99F5936C8"
+				type: "item"
+				item: {
+					id: "mekanism:mekasuit_boots"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+	]
+}

@@ -1,7 +1,7 @@
 {
 	id: "7A2A4A51349DA7FE"
 	group: "6E7449445FFC34C5"
-	order_index: 1
+	order_index: 0
 	filename: "danks"
 	title: "{quests.gloomy_rise.other.dank_storage.chapter_title}"
 	icon: "dankstorage:dank_1"

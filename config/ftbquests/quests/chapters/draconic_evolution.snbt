@@ -1,0 +1,477 @@
+{
+	id: "03D916019ECCF350"
+	group: "24923118FBE15B71"
+	order_index: 7
+	filename: "draconic_evolution"
+	title: "Draconic Evolution"
+	icon: "draconicevolution:awakened_core"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["Один из основных компонетов в моде. Понадобится во многих крафтах, в том числе в крафтах &5Инструментов Виверны&f."]
+			dependencies: ["09AEF5AB3957D385"]
+			id: "370EFA552B43333C"
+			tasks: [{
+				id: "461383390A30DF5A"
+				type: "item"
+				title: "Ядро Дракона"
+				item: "draconicevolution:draconium_core"
+				count: 4L
+			}]
+			rewards: [{
+				id: "128D7F1347266250"
+				type: "item"
+				item: "draconicevolution:draconium_core"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			description: ["В ядре слияния можно создать много различных предметов."]
+			dependencies: ["370EFA552B43333C"]
+			id: "73DB03CB10F94474"
+			tasks: [{
+				id: "5FD29D3F6BAACDF2"
+				type: "item"
+				item: "draconicevolution:crafting_core"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: ["Необходим для проведения \"ритуала\" &5Уровня Виверны&f по слиянию предметов."]
+			dependencies: [
+				"73DB03CB10F94474"
+				"2D4CE16AEF758FF0"
+			]
+			id: "09B3280996AB1183"
+			tasks: [{
+				id: "18718C57B67FF70A"
+				type: "item"
+				title: "Инжектор слияние Виверны"
+				item: "draconicevolution:wyvern_crafting_injector"
+				count: 5L
+			}]
+			rewards: [{
+				id: "387791B23FE155C4"
+				type: "item"
+				item: "draconicevolution:wyvern_crafting_injector"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			description: ["Необходим для проведения \"ритуала\" &6Уровня Дракона&f по слиянию предметов."]
+			dependencies: ["09B3280996AB1183"]
+			id: "6A9D29E49AFC1B64"
+			tasks: [{
+				id: "276367A60FEBA7A5"
+				type: "item"
+				title: "Инжектор слияния Дракона"
+				item: "draconicevolution:awakened_crafting_injector"
+				count: 5L
+			}]
+			rewards: [{
+				id: "6797E3E0C5978679"
+				type: "item"
+				item: "draconicevolution:awakened_crafting_injector"
+				count: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			description: ["Нужен для проведения \"ритуала\" &8Уровня Хаоса&f по слиянию предметов."]
+			dependencies: ["6A9D29E49AFC1B64"]
+			id: "4B64826470BD44D7"
+			tasks: [{
+				id: "5B32677920B3F406"
+				type: "item"
+				title: "Инжектор слияния Хаоса"
+				item: "draconicevolution:chaotic_crafting_injector"
+				count: 5L
+			}]
+			rewards: [{
+				id: "4109E1F5560E9FB1"
+				type: "item"
+				item: "draconicevolution:chaotic_crafting_injector"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			description: ["Необходим для проведения \"ритуала\" &1Базового уровня&f по слиянию предметов."]
+			dependencies: ["370EFA552B43333C"]
+			id: "2D4CE16AEF758FF0"
+			tasks: [{
+				id: "13EEF1A3CB88F4CA"
+				type: "item"
+				title: "Базовый инжектор слияния"
+				item: "draconicevolution:basic_crafting_injector"
+				count: 5L
+			}]
+			rewards: [{
+				id: "43C5DE2FC04BCCB8"
+				type: "item"
+				item: "draconicevolution:basic_crafting_injector"
+				count: 2
+			}]
+		}
+		{
+			x: 6.3d
+			y: 0.0d
+			shape: "gear"
+			description: ["Очень опасная, но мощная штуковина. Может хранить в себе огромное количество энергии."]
+			dependencies: ["4B64826470BD44D7"]
+			size: 1.4d
+			id: "514681D2ECCFFDAD"
+			tasks: [{
+				id: "74723108E135C66A"
+				type: "item"
+				item: "draconicevolution:reactor_core"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			description: ["Один из основных компонетов в моде. С его помощью Вам будет доступен крафт &6Инструментов Дракона&f."]
+			dependencies: ["370EFA552B43333C"]
+			id: "2997208A5AC1C2FA"
+			tasks: [{
+				id: "681FEA619488D157"
+				type: "item"
+				title: "Ядро Виверны"
+				item: "draconicevolution:wyvern_core"
+				count: 4L
+			}]
+			rewards: [{
+				id: "5CE13F718124EE13"
+				type: "item"
+				item: "draconicevolution:wyvern_core"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			description: ["Один из основных компонетов в моде. Используется во многих крафтах, в том числе используется для создания &8Ядра Хаоса&f."]
+			dependencies: ["2997208A5AC1C2FA"]
+			id: "452EC9F116716CAF"
+			tasks: [{
+				id: "40F5FEF21F5D0700"
+				type: "item"
+				title: "Пробуждённое ядро"
+				item: "draconicevolution:awakened_core"
+				count: 4L
+			}]
+			rewards: [{
+				id: "6D8DF62937546F33"
+				type: "item"
+				item: "draconicevolution:awakened_core"
+				count: 2
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			description: ["Один из основных компонетов в моде. Используется во многих сложных крафтах, таких как &5Ядро дракониевого реактора&f и &8Посох силы Хаоса&f."]
+			dependencies: ["452EC9F116716CAF"]
+			id: "1CB284EFCE071269"
+			tasks: [{
+				id: "316AF7C9A8DD648D"
+				type: "item"
+				title: "Ядро Хаоса"
+				item: "draconicevolution:chaotic_core"
+				count: 4L
+			}]
+			rewards: [{
+				id: "3BB0B58E23BB1263"
+				type: "item"
+				item: "draconicevolution:chaotic_core"
+				count: 2
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			description: ["Может хранить большое количество энергии."]
+			dependencies: ["1CB284EFCE071269"]
+			id: "0BE8D1916B327D53"
+			tasks: [{
+				id: "11F009DAC1E4B965"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_capacitor"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-117524483
+									998786915
+									-2112893145
+									1752479871
+								]
+								modules: [ ]
+								properties: {
+									charge_main: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_armor: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			subtitle: "Стабильность - наше всё"
+			description: ["Стабилизатор... А зачем?.."]
+			dependencies: ["1CB284EFCE071269"]
+			id: "5798AD701625E6BD"
+			tasks: [{
+				id: "571818779FDCDAD4"
+				type: "item"
+				item: "draconicevolution:reactor_stabilizer"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			description: ["Многофункциональный сундучок."]
+			dependencies: ["73DB03CB10F94474"]
+			id: "27B13C42A42B0845"
+			tasks: [{
+				id: "0E4F774D8182BF41"
+				type: "item"
+				item: "draconicevolution:draconium_chest"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			subtitle: "Получай, крапива!"
+			description: ["Неплохое оружие."]
+			dependencies: ["09B3280996AB1183"]
+			id: "27A16957ECE8A443"
+			tasks: [{
+				id: "16A5436AD9F56F46"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_sword"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									1780377145
+									170807132
+									-1127141442
+									183043311
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			description: ["Неплохая броня."]
+			dependencies: ["09B3280996AB1183"]
+			id: "554785DD519E1CE1"
+			tasks: [{
+				id: "5E80E3DF93B408F7"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_chestpiece"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									396066644
+									-2100804863
+									-1362966020
+									742196859
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			description: ["Неплохой универсальный инструмент."]
+			dependencies: ["6A9D29E49AFC1B64"]
+			id: "6D088E573DBF4C61"
+			tasks: [{
+				id: "7F9F7178F574D1A1"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_staff"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-936814204
+									1015369129
+									-1277118654
+									1711160996
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			description: ["Хорошая броня."]
+			dependencies: ["6A9D29E49AFC1B64"]
+			id: "70CA307D410134CB"
+			tasks: [{
+				id: "285F351583D9637F"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_chestpiece"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									102199558
+									-679785123
+									-1589641509
+									1303717257
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			description: ["Отличная броня."]
+			dependencies: ["4B64826470BD44D7"]
+			id: "2B2F1586CB6A482E"
+			tasks: [{
+				id: "25E828FC3398BE1E"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_chestpiece"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									2115220873
+									518341463
+									-1165090190
+									-1769273131
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			description: ["Отличный универсальный инструмент."]
+			dependencies: ["4B64826470BD44D7"]
+			id: "2D0EF0F6C4ACA698"
+			tasks: [{
+				id: "064BCB00F78F86B2"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_staff"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									1282450788
+									-1664072812
+									-1163045789
+									-654478909
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+	]
+}

@@ -1,0 +1,564 @@
+{
+	id: "1BB4A85132C416B7"
+	group: "24923118FBE15B71"
+	order_index: 0
+	filename: "astral_sorcery"
+	title: "Astral Sorcery"
+	icon: "astralsorcery:perk_seal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["Светящийся верстак позволяет создавать много различных предметов, например, сияющий колодец."]
+			dependencies: ["47A7B653FA5C3C02"]
+			id: "52A34042CB0F6108"
+			tasks: [{
+				id: "08BEC53803E1B097"
+				type: "item"
+				item: "astralsorcery:altar_discovery"
+			}]
+		}
+		{
+			x: -0.6d
+			y: -1.2d
+			shape: "gear"
+			description: ["Одним из первых инструментов, который должен получить каждый - жезл. Он позволяет контролировать выделении энергии звёздного света из чувствительных к звёздному свету устройств и ремесленных инструментов, щёлкая по ним пкм."]
+			dependencies: ["114FD26AF2B063E3"]
+			hide: true
+			size: 1.2d
+			id: "47A7B653FA5C3C02"
+			tasks: [{
+				id: "33A6B10AB26A1C5C"
+				type: "item"
+				item: "astralsorcery:wand"
+			}]
+		}
+		{
+			title: "Кристальные инструменты"
+			icon: {
+				id: "astralsorcery:crystal_axe"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:tool.durability"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:tool.efficiency"
+									pLevel: 3
+									discovered: 1b
+								}
+							]
+						}
+					}
+					Damage: 0
+				}
+			}
+			x: -1.0d
+			y: 1.0d
+			description: ["На первый взгляд обычные инструменты. Но их можно улучшить и они станут достаточно эффективными."]
+			dependencies: ["52A34042CB0F6108"]
+			id: "124365A97ED1404A"
+			tasks: [
+				{
+					id: "2E26A9639155059C"
+					type: "item"
+					item: {
+						id: "astralsorcery:crystal_sword"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3E2E31F1816FD753"
+					type: "item"
+					item: {
+						id: "astralsorcery:crystal_axe"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2F051D33BC57DA77"
+					type: "item"
+					item: {
+						id: "astralsorcery:crystal_pickaxe"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "24743BF68E223524"
+					type: "item"
+					item: {
+						id: "astralsorcery:crystal_shovel"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			description: ["С помощью сияющего колодца можно создать ведро звёздного света."]
+			dependencies: ["52A34042CB0F6108"]
+			id: "7655922C78060D97"
+			tasks: [{
+				id: "595E728620833DD4"
+				type: "item"
+				item: "astralsorcery:well"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			shape: "rsquare"
+			description: ["С помощью ведра звёздного света можно создать много различных предметов, например, звёздный алтарь или лепестковый аптекарь."]
+			dependencies: ["7655922C78060D97"]
+			id: "5582C7AC71FC8616"
+			tasks: [{
+				id: "253713C5CA123674"
+				type: "item"
+				item: "astralsorcery:liquid_starlight_bucket"
+			}]
+			rewards: [{
+				id: "070974D3DD1FC1DA"
+				type: "item"
+				item: "astralsorcery:liquid_starlight_bucket"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			description: ["На звёздном алтаре можно создавать много различных предметов, например, небесный алтарь."]
+			dependencies: ["5582C7AC71FC8616"]
+			id: "20F8C21AE117B9CD"
+			tasks: [{
+				id: "68AA1B35A9ED6D54"
+				type: "item"
+				item: "astralsorcery:altar_attunement"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			description: ["На небесном алтаре можно создавать много различных предметов, например, радужный алтарь."]
+			dependencies: ["20F8C21AE117B9CD"]
+			id: "6A0331BED30F89FB"
+			tasks: [{
+				id: "6FD149DB4358C666"
+				type: "item"
+				item: "astralsorcery:altar_constellation"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			description: ["На радужном алтаре можно создавать много различных предметов, например, чаша сдерживания."]
+			dependencies: ["6A0331BED30F89FB"]
+			id: "19E49E546B1B558B"
+			tasks: [{
+				id: "153217862C5B20DC"
+				type: "item"
+				item: "astralsorcery:altar_radiance"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			description: ["Используется для улучшения инструментов, получения из одной руды большое количество слитков и т.п."]
+			dependencies: ["6A0331BED30F89FB"]
+			id: "50948AE8E255D97F"
+			tasks: [{
+				id: "1461CC068B263356"
+				type: "item"
+				item: "astralsorcery:infuser"
+			}]
+		}
+		{
+			title: "Насыщенные кристальные инструменты"
+			icon: {
+				id: "astralsorcery:infused_crystal_axe"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:tool.durability"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:tool.efficiency"
+									pLevel: 3
+									discovered: 1b
+								}
+							]
+						}
+					}
+					Damage: 0
+				}
+			}
+			x: 6.5d
+			y: 3.0d
+			description: ["Улучшенные кристальные инструменты намного лучше, чем просто кристальные инструменты."]
+			dependencies: ["50948AE8E255D97F"]
+			id: "1608064D08A1B4EB"
+			tasks: [
+				{
+					id: "4950EC1CA82F166A"
+					type: "item"
+					item: {
+						id: "astralsorcery:infused_crystal_sword"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "733AB3BA2B23CFE2"
+					type: "item"
+					item: {
+						id: "astralsorcery:infused_crystal_axe"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "05F699D887E26F0B"
+					type: "item"
+					item: {
+						id: "astralsorcery:infused_crystal_pickaxe"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "095D36C364587315"
+					type: "item"
+					item: {
+						id: "astralsorcery:infused_crystal_shovel"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 1.0d
+			description: ["С помощью чаши сдерживания можно создать максимальный верстак."]
+			dependencies: ["19E49E546B1B558B"]
+			id: "39D6FC9A8F839AEC"
+			tasks: [{
+				id: "7E13DD3A62C89D57"
+				type: "item"
+				item: "astralsorcery:chalice"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.0d
+			shape: "gear"
+			description: ["На максимально верстаке можно создать максимальную сингулярность и не только."]
+			dependencies: ["39D6FC9A8F839AEC"]
+			id: "7A7BF8AFFC7501B3"
+			tasks: [{
+				id: "289DF785F2045735"
+				type: "item"
+				item: "extendedcrafting:ultimate_table"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			shape: "heart"
+			description: ["Наверное, один из самых сложных предметов, но жаль, что с помощью этого слитка можно создать что-то еще..."]
+			dependencies: ["7A7BF8AFFC7501B3"]
+			size: 1.1d
+			id: "32FBD658D88BE93D"
+			tasks: [{
+				id: "129F77C7BCF755AA"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 2.2d
+			shape: "heart"
+			description: ["Один из самых дорогих предметов в сборке."]
+			dependencies: ["7A7BF8AFFC7501B3"]
+			size: 1.1d
+			id: "4686059FB0DE29EC"
+			tasks: [{
+				id: "622AD7E28A146306"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			description: ["Очень важный предмет :)"]
+			dependencies: ["50948AE8E255D97F"]
+			id: "250D025724E2C61D"
+			tasks: [{
+				id: "35286F8C16F787B3"
+				type: "item"
+				item: "astralsorcery:resonating_gem"
+			}]
+		}
+	]
+}

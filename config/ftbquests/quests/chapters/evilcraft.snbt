@@ -1,0 +1,71 @@
+{
+	id: "3B68F8F36B20A844"
+	group: "24923118FBE15B71"
+	order_index: 2
+	filename: "evilcraft"
+	title: "EvilCraft"
+	icon: {
+		id: "evilcraft:creative_blood_drop"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["С помощью этих шипов можно создавать различные, очень интересные, предметы. Например, экстрактор крови или шипастую плиту."]
+			dependencies: ["5BD9A7CE380B6670"]
+			id: "5B511F842048451F"
+			tasks: [{
+				id: "35ECD1E64A1C8CC3"
+				type: "item"
+				title: "Шипы"
+				item: "evilcraft:dark_spike"
+				count: 4L
+			}]
+			rewards: [{
+				id: "4E1C9C0460794747"
+				type: "item"
+				item: "evilcraft:dark_spike"
+				count: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			shape: "rsquare"
+			description: ["С помощью Кровавого Экстрактора можно собирать кровь для дальнейшего использования."]
+			dependencies: ["5B511F842048451F"]
+			id: "323719E35F33EE93"
+			tasks: [{
+				id: "6FF215C23EB6DE35"
+				type: "item"
+				title: "Кровавый Экстрактор"
+				item: {
+					id: "evilcraft:blood_extractor"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			shape: "gear"
+			description: ["С помощью этого устройства можно вливать кровь в различные предметы. "]
+			dependencies: ["0B0E98095CEB2847"]
+			id: "0A0252C6CF3BDDDC"
+			tasks: [{
+				id: "041F962C3E2190C2"
+				type: "item"
+				item: {
+					id: "evilcraft:blood_infuser"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+	]
+}
