@@ -1,0 +1,11 @@
+{
+	id: "069318F6C19E261D"
+	group: "37FCF4EC720E030D"
+	order_index: 4
+	filename: "voidscape"
+	title: "Voidscape"
+	icon: "voidscape:voidic_crystal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

@@ -1,0 +1,11 @@
+{
+	id: "6FF8A0732B2A9828"
+	group: "37FCF4EC720E030D"
+	order_index: 2
+	filename: "aquamirae"
+	title: "Aquamirae"
+	icon: "aquamirae:rune_of_the_storm"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

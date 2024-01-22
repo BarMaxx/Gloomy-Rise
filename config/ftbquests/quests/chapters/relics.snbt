@@ -1,9 +1,16 @@
 {
 	id: "6D38212DFED6C129"
 	group: "37FCF4EC720E030D"
-	order_index: 2
+	order_index: 5
 	filename: "relics"
 	title: "Relics"
+	icon: {
+		id: "relics:bastion_ring"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [ ]

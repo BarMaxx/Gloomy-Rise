@@ -4,7 +4,35 @@
 	order_index: 0
 	filename: "mysticalagriculture"
 	title: "Mystical Agriculture"
+	icon: "mysticalagriculture:master_infusion_crystal"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["На алтаре наполнения можно создать &2семена&f, с помощью которых можно выращивать ресурсы!"]
+			dependencies: ["1297CE33EC6FB1B8"]
+			id: "2C0029BC5B9CCD00"
+			tasks: [{
+				id: "34F3CF847C76B07B"
+				type: "item"
+				item: "mysticalagriculture:infusion_altar"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			description: ["Пьедестал наполнения нужен для создания различных &2семян&f на &5алтаре наполнения&f."]
+			dependencies: ["1297CE33EC6FB1B8"]
+			id: "6918789AD52F8554"
+			tasks: [{
+				id: "7126183183A6CAC5"
+				type: "item"
+				title: "Пьедестал наполнения"
+				item: "mysticalagriculture:infusion_pedestal"
+				count: 8L
+			}]
+		}
+	]
 }

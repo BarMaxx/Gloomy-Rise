@@ -1,0 +1,11 @@
+{
+	id: "0079FB15BD4D606D"
+	group: "37FCF4EC720E030D"
+	order_index: 0
+	filename: "tropicraft"
+	title: "Tropicraft"
+	icon: "tropicraft:azurite_gem"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}
