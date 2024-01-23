@@ -700,5 +700,16 @@
 				}
 			}]
 		}
+		{
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["40FA20B89ED9FF16"]
+			id: "4E8B6337C321C3AC"
+			tasks: [{
+				id: "018750A1A8AF9FBF"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+			}]
+		}
 	]
 }
