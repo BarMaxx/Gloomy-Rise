@@ -1,8 +1,6 @@
 onEvent('recipes', event => {
 	
 
-  
-  
   event.remove({output: 'create:propeller'})	
   event.shaped('create:propeller', [
     ' I ',

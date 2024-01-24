@@ -3,7 +3,6 @@ import mods.artisanworktables.Type;
 import mods.artisanworktables.Tier;
 
 
-
 craftingTable.removeRecipe(<item:create:cogwheel>);
 Recipe.type(Type.ENGINEER)
   .shaped([

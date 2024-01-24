@@ -359,11 +359,9 @@
 		{
 			x: 8.8d
 			y: 0.0d
-			shape: "square"
 			subtitle: "Куй железо, пока горячо!"
 			description: ["Железный слиток нужен для многих вещей, но сейчас Вы можете создать &eжелезную кирку&f."]
 			dependencies: ["050CD68574E6F1E6"]
-			size: 1.1d
 			id: "73D8A15D7A0E9FA2"
 			tasks: [{
 				id: "5BFA7A17D79ECCB6"
@@ -438,7 +436,7 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 7.5d
 			y: -1.0d
 			subtitle: "Защити себя"
 			description: ["С помощью щита можно защищаться от монстров. Особенно от стрел и взрывов."]
@@ -505,7 +503,7 @@
 		{
 			title: "Железные хранилища"
 			icon: "expandedstorage:iron_chest"
-			x: 9.5d
+			x: 10.0d
 			y: -1.0d
 			description: ["Улучшенные версии деревянных хранилищ. Позволяют хранить больше предметов."]
 			dependencies: ["73D8A15D7A0E9FA2"]
@@ -670,8 +668,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 1.0d
+			x: 8.5d
+			y: -1.0d
 			description: ["В кухонном котле можно готовить различную еду."]
 			dependencies: ["73D8A15D7A0E9FA2"]
 			id: "62D309255509C159"
@@ -709,6 +707,87 @@
 				id: "018750A1A8AF9FBF"
 				type: "item"
 				item: "storagedrawers:oak_full_drawers_1"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			dependencies: ["73D8A15D7A0E9FA2"]
+			id: "621F24F918EDA32C"
+			tasks: [{
+				id: "0F1110412CFFAA3F"
+				type: "item"
+				item: "artisanworktables:worktable_basic"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.5d
+			dependencies: ["717BF6EE7925AD56"]
+			id: "5730587DF321D717"
+			tasks: [{
+				id: "7E86D41489170BC7"
+				type: "item"
+				item: "tconstruct:rose_gold_ingot"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 5.5d
+			dependencies: ["5730587DF321D717"]
+			id: "7708CD3F3B4F6E2E"
+			tasks: [{
+				id: "585F7FB5BB761BC4"
+				type: "item"
+				item: "tconstruct:rose_gold_block"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			dependencies: ["717BF6EE7925AD56"]
+			id: "4A60D153AD21256C"
+			tasks: [{
+				id: "1858F33C15CCBDA1"
+				type: "item"
+				item: "tconstruct:tinkers_bronze_ingot"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 5.5d
+			dependencies: ["4A60D153AD21256C"]
+			id: "0CEF26C65DFB6C95"
+			tasks: [{
+				id: "269F2D5AD09157E2"
+				type: "item"
+				item: "tconstruct:tinkers_bronze_block"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.0d
+			dependencies: ["717BF6EE7925AD56"]
+			id: "4EBB6341CB8F0B1E"
+			tasks: [{
+				id: "45FFF98FEB8AB048"
+				type: "item"
+				item: "tconstruct:slimesteel_ingot"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.5d
+			dependencies: [
+				"0CEF26C65DFB6C95"
+				"7708CD3F3B4F6E2E"
+				"4EBB6341CB8F0B1E"
+			]
+			id: "3C35436F10701C27"
+			tasks: [{
+				id: "0B0829FB7B8E8BD6"
+				type: "item"
+				item: "artisanworktables:worktable_engineer"
 			}]
 		}
 	]

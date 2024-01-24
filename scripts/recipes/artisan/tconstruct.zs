@@ -2,6 +2,7 @@ import mods.artisanworktables.Recipe;
 import mods.artisanworktables.Type;
 import mods.artisanworktables.Tier;
 
+
 craftingTable.removeRecipe(<item:tconstruct:grout>);
 Recipe.type(Type.POTTER)
   .shaped([
