@@ -14,7 +14,7 @@
   "forge:ingots/steel": "mekanism:ingot_steel",
   "forge:ingots/platinum": "null",
   "forge:ingots/lead": "mekanism:ingot_lead",
-  "forge:ingots/graphite": "null",
+  "forge:ingots/graphite": "bigreactors:graphite_ingot",
   "forge:ingots/uranium": "mekanism:ingot_uranium",
   "forge:ingots/aluminum": "immersiveengineering:ingot_aluminum",
   "forge:ingots/mithril": "null",
