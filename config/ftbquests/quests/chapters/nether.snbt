@@ -1,7 +1,7 @@
 {
 	id: "76E4D7509A53EE90"
 	group: "37FCF4EC720E030D"
-	order_index: 1
+	order_index: 0
 	filename: "nether"
 	title: "{quests.gloomy_rise.journey.nether.chapter_title}"
 	icon: "minecraft:nether_star"
