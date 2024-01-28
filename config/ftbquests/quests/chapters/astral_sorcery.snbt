@@ -293,8 +293,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 3.5d
+			x: 6.0d
+			y: 3.0d
 			description: ["Используется для улучшения инструментов, получения из одной руды большое количество слитков и т.п."]
 			dependencies: ["6A0331BED30F89FB"]
 			id: "50948AE8E255D97F"
@@ -340,7 +340,7 @@
 				}
 			}
 			x: 6.5d
-			y: 4.0d
+			y: 2.0d
 			description: ["Улучшенные кристальные инструменты намного лучше, чем просто кристальные инструменты."]
 			dependencies: ["50948AE8E255D97F"]
 			id: "1608064D08A1B4EB"
@@ -547,7 +547,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 6.5d
 			y: 4.0d
 			description: ["Очень важный предмет :)"]
 			dependencies: ["50948AE8E255D97F"]
@@ -603,8 +603,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -0.5d
+			x: 0.0d
+			y: 2.0d
 			dependencies: ["52A34042CB0F6108"]
 			id: "418FBA3E06DB216B"
 			tasks: [{
@@ -614,8 +614,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -1.5d
+			x: -1.0d
+			y: 2.5d
 			dependencies: ["418FBA3E06DB216B"]
 			id: "048C06593B84CDA6"
 			tasks: [{
@@ -623,6 +623,119 @@
 				type: "item"
 				item: "astralsorcery:hand_telescope"
 			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			dependencies: ["28E4C9961683508D"]
+			id: "02A8232AC3F7FCB7"
+			tasks: [{
+				id: "02068C3864F10529"
+				type: "item"
+				item: {
+					id: "astralsorcery:resonator"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							upgrades: [0]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			dependencies: ["20F8C21AE117B9CD"]
+			id: "7413F5E8E57E22E1"
+			tasks: [
+				{
+					id: "3BAC7F3082F87459"
+					type: "questsadditions:structure"
+					title: "Структура: Звёздный алтарь"
+					name: "altar_attunement"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "6AE0AE8633016268"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 8L
+				}
+				{
+					id: "7F64AF0241B4E124"
+					type: "item"
+					item: "astralsorcery:marble_arch"
+					count: 28L
+				}
+				{
+					id: "13FDCEE22619866D"
+					type: "item"
+					item: "astralsorcery:marble_bricks"
+					count: 24L
+				}
+				{
+					id: "69E3B140A84FA4F9"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+					count: 21L
+				}
+				{
+					id: "5510DDDF18426BA9"
+					type: "item"
+					item: "astralsorcery:marble_pillar"
+					count: 8L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			dependencies: ["418FBA3E06DB216B"]
+			id: "063C571251F3CD4E"
+			tasks: [{
+				id: "5A871163A005DBF3"
+				type: "item"
+				item: "astralsorcery:spectral_relay"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			dependencies: ["063C571251F3CD4E"]
+			id: "2E6B336D81C8DFDA"
+			tasks: [
+				{
+					id: "37F1CA34190790A6"
+					type: "questsadditions:structure"
+					title: "Структура: Реле настройки"
+					name: "spectral_relay"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "1D028D0496A5DE06"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 4L
+				}
+				{
+					id: "0C90B10DE3D7239D"
+					type: "item"
+					item: "astralsorcery:marble_arch"
+					count: 4L
+				}
+				{
+					id: "338A3F835CB4F19B"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+				}
+			]
 		}
 	]
 }
