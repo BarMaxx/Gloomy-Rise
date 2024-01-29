@@ -510,7 +510,7 @@
 			}]
 		}
 		{
-			x: 9.5d
+			x: 10.0d
 			y: -2.0d
 			shape: "gear"
 			description: ["На максимально верстаке можно создать максимальную сингулярность и не только."]
@@ -523,8 +523,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -1.0d
+			x: 11.0d
+			y: -2.0d
 			shape: "heart"
 			description: ["Наверное, один из самых сложных предметов, но жаль, что с помощью этого слитка можно создать что-то еще..."]
 			dependencies: ["7A7BF8AFFC7501B3"]
@@ -536,8 +536,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -3.0d
+			x: 9.0d
+			y: -2.5d
 			shape: "heart"
 			description: ["Один из самых дорогих предметов в сборке."]
 			dependencies: ["7A7BF8AFFC7501B3"]
@@ -833,8 +833,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -1.0d
+			x: 5.5d
+			y: -2.0d
 			dependencies: ["6026D8B98DCE710D"]
 			id: "5C7CFD0489E5E1D2"
 			tasks: [{
@@ -845,7 +845,7 @@
 		}
 		{
 			x: 6.0d
-			y: -1.0d
+			y: -3.0d
 			dependencies: ["5C7CFD0489E5E1D2"]
 			id: "66CABA714CE3E6B5"
 			tasks: [{
@@ -855,9 +855,9 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 0.5d
-			dependencies: ["66CABA714CE3E6B5"]
+			x: 8.0d
+			y: -4.5d
+			dependencies: ["374A5D4A366D7632"]
 			id: "1C4C6118D0F25D5B"
 			tasks: [{
 				id: "76CC735ECEBF9CCB"
@@ -866,8 +866,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -2.5d
+			x: 5.5d
+			y: -4.5d
 			dependencies: ["66CABA714CE3E6B5"]
 			id: "41AD1CA70EC5AFC2"
 			tasks: [{
@@ -877,8 +877,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 0.5d
+			x: 7.0d
+			y: 1.0d
 			dependencies: ["250D025724E2C61D"]
 			id: "7C88965AC0CD4E2B"
 			tasks: [{
@@ -889,7 +889,7 @@
 		}
 		{
 			x: 9.0d
-			y: 1.5d
+			y: 1.0d
 			dependencies: ["250D025724E2C61D"]
 			id: "0A547A4C9C7F259A"
 			tasks: [{
@@ -921,7 +921,7 @@
 		}
 		{
 			x: 8.0d
-			y: 2.0d
+			y: 3.0d
 			dependencies: ["50948AE8E255D97F"]
 			id: "5A2ABC4F905C1940"
 			tasks: [{
@@ -974,6 +974,287 @@
 					}
 				}
 			}]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			dependencies: ["41AD1CA70EC5AFC2"]
+			id: "0DF5446228C8B608"
+			tasks: [{
+				id: "2720A6201FF11EE5"
+				type: "item"
+				item: "astralsorcery:ritual_pedestal"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			dependencies: ["66CABA714CE3E6B5"]
+			id: "374A5D4A366D7632"
+			tasks: [{
+				id: "62690A11414174A5"
+				type: "item"
+				item: {
+					id: "astralsorcery:chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -5.0d
+			dependencies: ["1C4C6118D0F25D5B"]
+			id: "3B94386003DA20C5"
+			tasks: [{
+				id: "3A5D0B652114CB6D"
+				type: "item"
+				item: {
+					id: "astralsorcery:celestial_gateway"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -5.0d
+			dependencies: ["1C4C6118D0F25D5B"]
+			id: "671DDF30011DD350"
+			tasks: [{
+				id: "6E6D758ECD3B110E"
+				type: "item"
+				item: "astralsorcery:perk_seal"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			dependencies: ["6A0331BED30F89FB"]
+			id: "465531C75A89DA80"
+			tasks: [{
+				id: "01EDEF576C987D9D"
+				type: "item"
+				item: {
+					id: "astralsorcery:infused_glass"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.5d
+			dependencies: ["19E49E546B1B558B"]
+			id: "7F386E350E526AD0"
+			tasks: [{
+				id: "5BE081A5AA977374"
+				type: "item"
+				item: "astralsorcery:observatory"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			dependencies: ["19E49E546B1B558B"]
+			id: "621C10D45A6EC7FF"
+			tasks: [{
+				id: "1CA6F2A4D3C891BA"
+				type: "item"
+				item: {
+					id: "astralsorcery:mantle"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -0.5d
+			dependencies: ["19E49E546B1B558B"]
+			id: "41075866F12C9723"
+			tasks: [{
+				id: "16BA3FC6E9CF9EB1"
+				type: "item"
+				item: "astralsorcery:fountain"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.0d
+			dependencies: ["41075866F12C9723"]
+			id: "274454470A28E43E"
+			tasks: [{
+				id: "793486FB62632BF7"
+				type: "item"
+				item: "astralsorcery:fountain_prime_liquid"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			dependencies: ["41075866F12C9723"]
+			id: "20828AE506592251"
+			tasks: [{
+				id: "29DE1F8C229C83A3"
+				type: "item"
+				item: "astralsorcery:fountain_prime_vortex"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.0d
+			dependencies: ["5A2ABC4F905C1940"]
+			id: "521CE5E590D252EB"
+			tasks: [{
+				id: "527DBE8AAE7E3ECE"
+				type: "item"
+				item: "astralsorcery:colored_lens_spectral"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 3.0d
+			dependencies: ["521CE5E590D252EB"]
+			id: "5459F145A21EEA6C"
+			tasks: [{
+				id: "63E2364726AE7A9B"
+				type: "checkmark"
+				title: "Цветные линзы"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 4.0d
+			dependencies: ["5459F145A21EEA6C"]
+			id: "6460F6F8D29042E9"
+			tasks: [{
+				id: "2530344E95B566A0"
+				type: "item"
+				item: "astralsorcery:colored_lens_fire"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 4.5d
+			dependencies: ["5459F145A21EEA6C"]
+			id: "75394A5BDB398C3A"
+			tasks: [{
+				id: "4B45B809713A6B9A"
+				type: "item"
+				item: "astralsorcery:colored_lens_break"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 4.0d
+			dependencies: ["5459F145A21EEA6C"]
+			id: "1AC0133127925F33"
+			tasks: [{
+				id: "640FEF6BF2B30847"
+				type: "item"
+				item: "astralsorcery:colored_lens_growth"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.0d
+			dependencies: ["5459F145A21EEA6C"]
+			id: "495D64CC48996AE2"
+			tasks: [{
+				id: "268CB37E85D42E19"
+				type: "item"
+				item: "astralsorcery:colored_lens_damage"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.5d
+			dependencies: ["5459F145A21EEA6C"]
+			id: "3CC65D3854E99964"
+			tasks: [{
+				id: "31EEEF2E2520107B"
+				type: "item"
+				item: "astralsorcery:colored_lens_regeneration"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.0d
+			dependencies: ["5459F145A21EEA6C"]
+			id: "3DD25046D6BC06B7"
+			tasks: [{
+				id: "3D7777D3D50C6D6D"
+				type: "item"
+				item: "astralsorcery:colored_lens_push"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			dependencies: ["20F8C21AE117B9CD"]
+			id: "2FBA1B0999E3EC2B"
+			tasks: [{
+				id: "43009AD387876679"
+				type: "item"
+				item: "astralsorcery:linking_tool"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["20F8C21AE117B9CD"]
+			id: "29B675C567922AF1"
+			tasks: [
+				{
+					id: "566CCBDA96DAAD0D"
+					type: "item"
+					item: {
+						id: "astralsorcery:architect_wand"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+				{
+					id: "2EC4AD62802EF22B"
+					type: "item"
+					item: {
+						id: "astralsorcery:exchange_wand"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+				{
+					id: "694B67B884B4222D"
+					type: "item"
+					item: "astralsorcery:grapple_wand"
+				}
+				{
+					id: "6A40507C6CFE4E53"
+					type: "item"
+					item: {
+						id: "astralsorcery:blink_wand"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+			]
 		}
 	]
 }
