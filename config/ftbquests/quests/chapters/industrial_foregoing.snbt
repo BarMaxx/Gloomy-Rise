@@ -9,11 +9,10 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -1.5d
+			x: -3.0d
 			y: 0.0d
 			subtitle: "Не настолько уж и ужасный"
-			dependencies: ["114FD26AF2B063E3"]
-			hide: true
+			dependencies: ["667EF198335C80D2"]
 			id: "694281DA3A22F08D"
 			tasks: [{
 				id: "29612BAF3C429CAF"
@@ -25,8 +24,7 @@
 			x: 0.0d
 			y: 0.0d
 			description: ["С помощью жидкостного экстрактора можно вырабатывать &eлатекс&f. Для этого необходимо поставить бревно в рабочую зону механизма."]
-			dependencies: ["114FD26AF2B063E3"]
-			hide: true
+			dependencies: ["667EF198335C80D2"]
 			id: "115B9FD4723D5951"
 			tasks: [{
 				id: "5A8E645188BCF123"
@@ -343,6 +341,50 @@
 				id: "03FF3FAB3505B73E"
 				type: "item"
 				item: "minecraft:nether_star"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.5d
+			dependencies: ["09AEF5AB3957D385"]
+			id: "384F4679F3D9A6D2"
+			tasks: [{
+				id: "13E6B06FCA2C4061"
+				type: "item"
+				item: "industrialforegoing:fluid_collector"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			dependencies: ["114FD26AF2B063E3"]
+			id: "667EF198335C80D2"
+			tasks: [{
+				id: "578C131FAD43D165"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			dependencies: ["5A62FA4EFF26C661"]
+			id: "007A2D0B2009FB35"
+			tasks: [{
+				id: "1ED269C86CB91C2B"
+				type: "item"
+				item: "industrialforegoing:mob_duplicator"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.0d
+			dependencies: ["5A62FA4EFF26C661"]
+			id: "63F6DDA2535316E7"
+			tasks: [{
+				id: "300B2AEAF4578640"
+				type: "item"
+				item: "industrialforegoing:enchantment_factory"
 			}]
 		}
 	]
