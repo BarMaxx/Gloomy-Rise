@@ -342,7 +342,7 @@
 				}
 			}
 			x: 6.0d
-			y: 3.5d
+			y: 1.0d
 			description: ["Улучшенные кристальные инструменты намного лучше, чем просто кристальные инструменты."]
 			dependencies: ["50948AE8E255D97F"]
 			id: "1608064D08A1B4EB"
@@ -1253,6 +1253,154 @@
 							astralsorcery: { }
 						}
 					}
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -6.0d
+			dependencies: ["41AD1CA70EC5AFC2"]
+			id: "203092009905E750"
+			tasks: [
+				{
+					id: "2A4BC8DBC1FEBFCE"
+					type: "questsadditions:structure"
+					title: "Структура: Алтарь настройки"
+					name: "attunement_altar"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "4F606F0581A9A8C8"
+					type: "item"
+					item: "astralsorcery:marble_runed"
+					count: 4L
+				}
+				{
+					id: "45D1FE26A7E10E87"
+					type: "item"
+					item: "astralsorcery:marble_arch"
+					count: 80L
+				}
+				{
+					id: "539503F2632A061B"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+					count: 225L
+				}
+				{
+					id: "3E21E5F32369F78B"
+					type: "item"
+					item: "astralsorcery:marble_pillar"
+					count: 12L
+				}
+				{
+					id: "74F2701BDD2B122D"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 3.5d
+			dependencies: ["50948AE8E255D97F"]
+			id: "53F8C3236EA80A52"
+			tasks: [
+				{
+					id: "0D269C0C077CE6D1"
+					type: "questsadditions:structure"
+					title: "Структура: Разливщик звёздного света"
+					name: "infuser"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "4D6DCA0B396CC7F9"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+					count: 16L
+				}
+				{
+					id: "13591C0353B1A474"
+					type: "item"
+					item: "astralsorcery:marble_pillar"
+					count: 4L
+				}
+				{
+					id: "0020A025CC713FC5"
+					type: "item"
+					item: "astralsorcery:marble_runed"
+					count: 20L
+				}
+				{
+					id: "2F7E5B4792358642"
+					type: "item"
+					item: "minecraft:lapis_block"
+				}
+				{
+					id: "2BB116E84D9243B4"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 8L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			dependencies: ["6A0331BED30F89FB"]
+			id: "0BFF979A514D0161"
+			tasks: [
+				{
+					id: "63FA4421C80D7593"
+					type: "questsadditions:structure"
+					title: "Структура: Небесный алтарь"
+					name: "altar_constellation"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "51AFB0731193BB9D"
+					type: "item"
+					item: "astralsorcery:marble_runed"
+					count: 4L
+				}
+				{
+					id: "2189B54E27E08DB0"
+					type: "item"
+					item: "astralsorcery:marble_bricks"
+					count: 40L
+				}
+				{
+					id: "41C57E953612A586"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+					count: 49L
+				}
+				{
+					id: "3ACB10ABCFEFE556"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+					count: 12L
+				}
+				{
+					id: "75C787C2C09C2BFB"
+					type: "item"
+					item: "astralsorcery:marble_pillar"
+					count: 8L
+				}
+				{
+					id: "3BF888B34693EC76"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+					count: 4L
 				}
 			]
 		}
