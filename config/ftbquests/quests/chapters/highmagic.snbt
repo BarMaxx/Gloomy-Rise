@@ -168,8 +168,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 0.5d
+			x: 7.5d
+			y: -0.5d
 			shape: "rsquare"
 			dependencies: ["326F1C58C473C6F8"]
 			id: "09B7710675B81B75"
@@ -188,8 +188,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 1.5d
+			x: 8.5d
+			y: 0.5d
 			description: ["Распространитель маны гайи нужен, чтобы направить ману в нужную сторону."]
 			dependencies: ["09B7710675B81B75"]
 			id: "4D0FC6688E9FC9AA"
@@ -200,8 +200,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -0.5d
+			x: 6.5d
+			y: -1.0d
 			description: ["Интересно, для чего он нужен? :) Редактор: да я сам не знаю"]
 			dependencies: ["09B7710675B81B75"]
 			id: "5FF4161FAF6C3EE3"
@@ -244,8 +244,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 5.5d
+			x: 3.0d
+			y: 6.0d
 			description: ["Очень нужный слиток, но создаётся он сложновато. "]
 			dependencies: ["36C1F3A9D018B5F8"]
 			id: "6CBF4953ACB7D3C4"
@@ -316,7 +316,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 5.5d
 			y: 0.0d
 			description: ["Зеркало маны, интересная вещь."]
 			dependencies: ["448791B71EDB69C2"]
@@ -332,7 +332,7 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 3.5d
 			y: 0.0d
 			description: ["Землекрушитель - это необычная кирка, потому что её можно напитать огромным количеством маны и она будет копать огромную территорию."]
 			dependencies: ["448791B71EDB69C2"]
@@ -351,7 +351,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 3.0d
 			y: -1.0d
 			description: ["Универсальный инструмент из террастали. Очень удобная вещь."]
 			dependencies: ["50E86A61FAC34F95"]
@@ -383,10 +383,10 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 3.5d
+			x: 10.0d
+			y: 2.5d
 			description: ["Слиткок элементия можно получить при торговле с Эльфами. Этот слиток вам пригодится для создания многих вещей."]
-			dependencies: ["4A3137D093B0564D"]
+			dependencies: ["68040BDE850953C9"]
 			id: "0E1B37DA245F53F8"
 			tasks: [{
 				id: "36300C2D8C3F0D2D"
@@ -403,8 +403,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 3.5d
+			x: 12.0d
+			y: 2.5d
 			description: ["На мана-инфузере можно создавать много различных вещей. Например, слиток альфстали."]
 			dependencies: ["0E1B37DA245F53F8"]
 			id: "0E663FA329237DB2"
@@ -415,8 +415,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 3.5d
+			x: 13.0d
+			y: 1.0d
 			description: ["Из слитка альфстали можно создавать много различных вещей. "]
 			dependencies: ["0E663FA329237DB2"]
 			id: "1D9C8BDCF3A44B7A"
@@ -435,8 +435,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 3.5d
+			x: 13.0d
+			y: -0.5d
 			description: ["С помощью этого слитка можно создать неплохую броню."]
 			dependencies: ["1D9C8BDCF3A44B7A"]
 			id: "2F3B15149094466A"
@@ -455,8 +455,8 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: 4.5d
+			x: 12.0d
+			y: 1.0d
 			description: ["Неплохая бижутерия."]
 			dependencies: ["1D9C8BDCF3A44B7A"]
 			id: "0F6E30216D048970"
@@ -471,8 +471,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 2.5d
+			x: 14.0d
+			y: 1.5d
 			description: ["Неплохая бижутерия."]
 			dependencies: ["1D9C8BDCF3A44B7A"]
 			id: "613183F7FE44F1D4"
@@ -487,8 +487,8 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: 2.5d
+			x: 14.0d
+			y: 0.5d
 			description: ["С помощью этого пилона можно создать пилон Гайи."]
 			dependencies: ["1D9C8BDCF3A44B7A"]
 			id: "017E0C0FA375C7BD"
@@ -499,8 +499,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 4.5d
+			x: 13.0d
+			y: 2.0d
 			subtitle: "Ещё один AIOT, чтоб вы не скучали)"
 			description: ["Универсальный инструмент из альфстали. Очень удобная вещь."]
 			dependencies: ["1D9C8BDCF3A44B7A"]
@@ -528,8 +528,8 @@
 					Damage: 0
 				}
 			}
-			x: 14.0d
-			y: 3.5d
+			x: 13.0d
+			y: -2.0d
 			description: ["Неплохая броня."]
 			dependencies: ["2F3B15149094466A"]
 			id: "54736594FBFFB76B"
@@ -581,10 +581,10 @@
 			]
 		}
 		{
-			x: 7.0d
-			y: 2.5d
+			x: 10.0d
+			y: 4.5d
 			description: ["Камень дракона можно получить при торговле с Эльфами. Этот камень вам пригодится для создания многих вещей."]
-			dependencies: ["4A3137D093B0564D"]
+			dependencies: ["68040BDE850953C9"]
 			id: "559B6D76D55C28BE"
 			tasks: [{
 				id: "0581F3F38623B713"
@@ -601,10 +601,10 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 4.5d
+			x: 9.0d
+			y: 5.0d
 			description: ["Пыльцу феи можно получить при торговле с Эльфами. Эта пыльца вам пригодится для создания многих вещей."]
-			dependencies: ["4A3137D093B0564D"]
+			dependencies: ["68040BDE850953C9"]
 			id: "74D98C6A05DEDB79"
 			tasks: [{
 				id: "13EED291DCF138AD"
@@ -621,8 +621,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 5.0d
+			x: 9.0d
+			y: 6.0d
 			description: ["С помощью этого жезла можно создать руну Асгарда и бивёрстовый блок."]
 			dependencies: ["74D98C6A05DEDB79"]
 			id: "53A2CF06078A4F58"
@@ -633,8 +633,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 6.0d
+			x: 9.5d
+			y: 7.0d
 			description: ["С помощью этого блока можно создать сказочный бассейн маны."]
 			dependencies: ["53A2CF06078A4F58"]
 			id: "4100CBD80D74EF09"
@@ -653,8 +653,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 7.0d
+			x: 10.0d
+			y: 8.0d
 			description: ["Тот же бассейн маны, но немного эффективнее."]
 			dependencies: ["4100CBD80D74EF09"]
 			id: "1C0BA678CFF4EED8"
@@ -665,7 +665,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 4.5d
 			y: 6.0d
 			description: ["&6Большое кольцо ауры  &bнеобходимо &fВам для автоматизации множества процессов в &6Botania&f."]
 			dependencies: ["6CBF4953ACB7D3C4"]
@@ -686,8 +686,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 8.0d
+			x: 11.0d
+			y: 8.5d
 			description: ["С помощью механического бассейна маны можно автоматизировать создание в бассейне маны."]
 			dependencies: ["1C0BA678CFF4EED8"]
 			id: "4467FBCA1A3A44CD"
@@ -698,7 +698,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 5.5d
 			y: 6.5d
 			description: ["С помощью завода промышленной агломерации можно автоматизировать создание на агломерационной плите."]
 			dependencies: ["07F85A353752BDED"]
@@ -710,8 +710,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 5.5d
+			x: 6.0d
+			y: 4.5d
 			description: ["С помощью механической варочной стойки можно автоматизировать зельеварение."]
 			dependencies: ["3F38DFF0F3035F6F"]
 			id: "4F66DEF26E8FFD6B"
@@ -722,8 +722,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 6.5d
+			x: 4.0d
+			y: 7.0d
 			description: ["С помощью механического рунического алтаря можно автоматизировать создание на руническом алтаре."]
 			dependencies: ["07F85A353752BDED"]
 			id: "73BC005752B2178F"
@@ -732,6 +732,642 @@
 				type: "item"
 				item: "botanicalmachinery:mechanical_runic_altar"
 			}]
+		}
+		{
+			x: 8.5d
+			y: 3.5d
+			dependencies: ["4A3137D093B0564D"]
+			id: "68040BDE850953C9"
+			tasks: [{
+				id: "14D03DC961B14617"
+				type: "checkmark"
+				title: "Портал в Эльфхейм"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 5.0d
+			dependencies: ["68040BDE850953C9"]
+			id: "160A6C0968E774B0"
+			tasks: [{
+				id: "56D3A7D70B2407C6"
+				type: "item"
+				item: "botania:dreamwood"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.5d
+			dependencies: ["160A6C0968E774B0"]
+			id: "62197A04AA525CFE"
+			tasks: [{
+				id: "78E8A6A59B47B2BC"
+				type: "item"
+				item: "botania:dreamwood_twig"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			dependencies: ["09B7710675B81B75"]
+			id: "49D92E8447E67665"
+			tasks: [{
+				id: "42A054CA6E21BCD4"
+				type: "item"
+				item: "botania:missile_rod"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			dependencies: ["09B7710675B81B75"]
+			id: "4DB473036CEFBAAD"
+			tasks: [{
+				id: "735FAFADB9970DC8"
+				type: "item"
+				item: "botania:gaia_ingot"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.0d
+			dependencies: ["4DB473036CEFBAAD"]
+			id: "291EB37C7A62072D"
+			tasks: [{
+				id: "7EABA601BEDF6D53"
+				type: "item"
+				item: "extrabotany:theend"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.5d
+			dependencies: ["291EB37C7A62072D"]
+			id: "099CF8BEB8137082"
+			tasks: [{
+				id: "26947F38E9A5BA38"
+				type: "item"
+				item: "extrabotany:theuniverse"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -4.5d
+			dependencies: ["099CF8BEB8137082"]
+			id: "5F03EA4F9D189B66"
+			tasks: [{
+				id: "4C39A2B9E9C5CD12"
+				type: "item"
+				item: {
+					id: "extrabotany:firstfractal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.5d
+			dependencies: [
+				"4DB473036CEFBAAD"
+				"7997342B09227AD3"
+			]
+			id: "416D00E8BFFE2E8E"
+			tasks: [
+				{
+					id: "5A4DD2F3D9F5E269"
+					type: "item"
+					item: {
+						id: "extrabotany:maid_helm"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "26D2E5D602D74628"
+					type: "item"
+					item: {
+						id: "extrabotany:maid_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "381478D0564F7A60"
+					type: "item"
+					item: {
+						id: "extrabotany:maid_legs"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "54BFD86B59A635ED"
+					type: "item"
+					item: {
+						id: "extrabotany:maid_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -4.0d
+			dependencies: ["4DB473036CEFBAAD"]
+			id: "308E03AEF14E432E"
+			tasks: [{
+				id: "1A12E02E05B0D650"
+				type: "item"
+				item: "botanicalmachinery:mana_battery"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.0d
+			dependencies: ["4DB473036CEFBAAD"]
+			id: "2923EAA48C133277"
+			tasks: [{
+				id: "014B4707297286DF"
+				type: "item"
+				item: "mythicbotany:mana_collector"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.0d
+			dependencies: ["4DB473036CEFBAAD"]
+			id: "5FE535D10ADEA846"
+			tasks: [{
+				id: "29A6A40130AC27BD"
+				type: "item"
+				item: "extrabotany:manabuffer"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.5d
+			dependencies: ["09B7710675B81B75"]
+			id: "7997342B09227AD3"
+			tasks: [{
+				id: "39E2950BFA61BBA2"
+				type: "item"
+				item: "extrabotany:goldcloth"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			dependencies: ["09B7710675B81B75"]
+			id: "058240900F1302C9"
+			tasks: [{
+				id: "7000281064EF8A63"
+				type: "item"
+				item: {
+					id: "botania:flight_tiara"
+					Count: 1b
+					tag: {
+						variant: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -0.5d
+			dependencies: ["09B7710675B81B75"]
+			id: "5898A9A41730E2C0"
+			tasks: [
+				{
+					id: "1C6E4ADD16C03B5C"
+					type: "item"
+					item: {
+						id: "botania:holy_cloak"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "30C223AD89B71759"
+					type: "item"
+					item: {
+						id: "botania:unholy_cloak"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "1BFB772F0EFB58C5"
+					type: "item"
+					item: {
+						id: "botania:balance_cloak"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 5.5d
+			dependencies: ["62197A04AA525CFE"]
+			id: "3E8AD8ED44F70B30"
+			tasks: [{
+				id: "3A54F6D99D418DB7"
+				type: "item"
+				item: {
+					id: "extrabotany:excaliber"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 6.5d
+			dependencies: ["62197A04AA525CFE"]
+			id: "17D8DCADFDA35FB6"
+			tasks: [{
+				id: "15D4F4C3DA0BE5DE"
+				type: "item"
+				item: "botania:gravity_rod"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 6.0d
+			dependencies: ["160A6C0968E774B0"]
+			id: "57E45D827C58C28E"
+			tasks: [{
+				id: "2F681A1060FF3B13"
+				type: "item"
+				item: "botania:elven_spreader"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.5d
+			dependencies: ["0E1B37DA245F53F8"]
+			id: "110EA71FC3AD41CD"
+			tasks: [
+				{
+					id: "4860BCBA79085382"
+					type: "item"
+					item: {
+						id: "botania:elementium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5E553BE91A6E2194"
+					type: "item"
+					item: {
+						id: "botania:elementium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6CF5A44062EB6E54"
+					type: "item"
+					item: {
+						id: "botania:elementium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "35DF8A5E93BA4791"
+					type: "item"
+					item: {
+						id: "botania:elementium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			dependencies: ["5BD9A7CE380B6670"]
+			id: "22E0C443172588A2"
+			tasks: [
+				{
+					id: "592578029E19BEDA"
+					type: "item"
+					item: {
+						id: "botania:manasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2751F62740137A76"
+					type: "item"
+					item: {
+						id: "botania:manasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0F9272CC114DAA51"
+					type: "item"
+					item: {
+						id: "botania:manasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6ABBC993290E2E9B"
+					type: "item"
+					item: {
+						id: "botania:manasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 7.0d
+			dependencies: ["6CBF4953ACB7D3C4"]
+			id: "27108AD2FF440E6D"
+			tasks: [
+				{
+					id: "159D6B4F5F427FC1"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "07847D3E48CF360D"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0FC161E05C780D60"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6526DFD86C41C648"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 1.5d
+			dependencies: ["0E1B37DA245F53F8"]
+			id: "6E47C11DCC6BFCBA"
+			tasks: [
+				{
+					id: "1535E91726B045DC"
+					type: "item"
+					item: {
+						id: "botania:elementium_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "742985A3C5ED1353"
+					type: "item"
+					item: {
+						id: "botania:elementium_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "339405A9DACBE386"
+					type: "item"
+					item: {
+						id: "botania:elementium_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "04F8F25E7F76C054"
+					type: "item"
+					item: {
+						id: "botania:elementium_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "55263C2B417AECE7"
+					type: "item"
+					item: {
+						id: "botania:elementium_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: 0.0d
+			dependencies: ["6B4F14EF8CE3FA06"]
+			id: "6BAA8619B9B2562B"
+			tasks: [{
+				id: "3E3CDAA2BCDC71B2"
+				type: "item"
+				item: {
+					id: "extrabotany:starwrath"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.0d
+			dependencies: ["6E47C11DCC6BFCBA"]
+			id: "6B4F14EF8CE3FA06"
+			tasks: [{
+				id: "7C2FF88D79DE2A0E"
+				type: "item"
+				item: {
+					id: "botania:star_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.5d
+			dependencies: ["68040BDE850953C9"]
+			id: "7C3BC700A3A02300"
+			tasks: [{
+				id: "21172A46B64CE351"
+				type: "item"
+				item: "extrabotany:spiritfuel"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 3.5d
+			dependencies: ["7C3BC700A3A02300"]
+			id: "652F12346B45ED30"
+			tasks: [{
+				id: "438B124EE00EDFAA"
+				type: "item"
+				item: "extrabotany:spirit"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 5.5d
+			dependencies: ["559B6D76D55C28BE"]
+			id: "3BA61AB004D1B9B5"
+			tasks: [{
+				id: "4A9FDD40982B5608"
+				type: "item"
+				item: "botania:light_relay"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 3.0d
+			dependencies: ["652F12346B45ED30"]
+			id: "7D2506E12CDB8140"
+			tasks: [{
+				id: "024D831EF79D2322"
+				type: "item"
+				item: "extrabotany:theorigin"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 4.0d
+			dependencies: ["652F12346B45ED30"]
+			id: "7A310F0C37C5AA96"
+			tasks: [{
+				id: "0632AA8D11F5BB52"
+				type: "item"
+				item: "extrabotany:thechaos"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 4.5d
+			dependencies: ["559B6D76D55C28BE"]
+			id: "56753D76248259F3"
+			tasks: [{
+				id: "73865BDDAADDD70C"
+				type: "item"
+				item: "botania:corporea_index"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 5.5d
+			dependencies: ["559B6D76D55C28BE"]
+			id: "4D6276F9D7547F76"
+			tasks: [{
+				id: "31408C7FB17CB521"
+				type: "item"
+				item: {
+					id: "extrabotany:natureorb"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 2.5d
+			dependencies: ["0E1B37DA245F53F8"]
+			id: "662C9812303FD52F"
+			tasks: [
+				{
+					id: "78B67F6356592020"
+					type: "item"
+					item: "extrabotany:shadowium"
+				}
+				{
+					id: "0E036C15EF1CD689"
+					type: "item"
+					item: "extrabotany:photonium"
+				}
+			]
 		}
 	]
 }
