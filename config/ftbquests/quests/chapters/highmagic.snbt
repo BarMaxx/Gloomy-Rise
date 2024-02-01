@@ -212,7 +212,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 2.5d
 			y: 3.5d
 			description: ["С помощью слитка манастали можно создать много различных предметов."]
 			dependencies: ["60D2BA24431AC0FD"]
@@ -245,7 +245,7 @@
 		}
 		{
 			x: 3.0d
-			y: 6.0d
+			y: 5.5d
 			description: ["Очень нужный слиток, но создаётся он сложновато. "]
 			dependencies: ["36C1F3A9D018B5F8"]
 			id: "6CBF4953ACB7D3C4"
@@ -455,7 +455,7 @@
 			}]
 		}
 		{
-			x: 12.0d
+			x: 11.5d
 			y: 1.0d
 			description: ["Неплохая бижутерия."]
 			dependencies: ["1D9C8BDCF3A44B7A"]
@@ -665,8 +665,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 6.0d
+			x: 4.0d
+			y: 6.5d
 			description: ["&6Большое кольцо ауры  &bнеобходимо &fВам для автоматизации множества процессов в &6Botania&f."]
 			dependencies: ["6CBF4953ACB7D3C4"]
 			id: "07F85A353752BDED"
@@ -698,8 +698,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 6.5d
+			x: 5.0d
+			y: 7.0d
 			description: ["С помощью завода промышленной агломерации можно автоматизировать создание на агломерационной плите."]
 			dependencies: ["07F85A353752BDED"]
 			id: "2E5B4994A2C2AA92"
@@ -710,8 +710,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 4.5d
+			x: 5.0d
+			y: 5.5d
 			description: ["С помощью механической варочной стойки можно автоматизировать зельеварение."]
 			dependencies: ["3F38DFF0F3035F6F"]
 			id: "4F66DEF26E8FFD6B"
@@ -722,8 +722,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 7.0d
+			x: 3.0d
+			y: 7.5d
 			description: ["С помощью механического рунического алтаря можно автоматизировать создание на руническом алтаре."]
 			dependencies: ["07F85A353752BDED"]
 			id: "73BC005752B2178F"
@@ -1018,7 +1018,7 @@
 			}]
 		}
 		{
-			x: 9.0d
+			x: 9.5d
 			y: 1.5d
 			dependencies: ["0E1B37DA245F53F8"]
 			id: "110EA71FC3AD41CD"
@@ -1070,8 +1070,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: 4.5d
+			x: 2.0d
+			y: 2.5d
 			dependencies: ["5BD9A7CE380B6670"]
 			id: "22E0C443172588A2"
 			tasks: [
@@ -1123,7 +1123,7 @@
 		}
 		{
 			x: 3.0d
-			y: 7.0d
+			y: 6.5d
 			dependencies: ["6CBF4953ACB7D3C4"]
 			id: "27108AD2FF440E6D"
 			tasks: [
@@ -1174,7 +1174,7 @@
 			]
 		}
 		{
-			x: 10.0d
+			x: 10.5d
 			y: 1.5d
 			dependencies: ["0E1B37DA245F53F8"]
 			id: "6E47C11DCC6BFCBA"
@@ -1212,33 +1212,11 @@
 						}
 					}
 				}
-				{
-					id: "04F8F25E7F76C054"
-					type: "item"
-					item: {
-						id: "botania:elementium_shovel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "55263C2B417AECE7"
-					type: "item"
-					item: {
-						id: "botania:elementium_hoe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
 			]
 		}
 		{
-			x: 11.5d
-			y: 0.0d
+			x: 11.0d
+			y: -0.5d
 			dependencies: ["6B4F14EF8CE3FA06"]
 			id: "6BAA8619B9B2562B"
 			tasks: [{
@@ -1254,8 +1232,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 1.0d
+			x: 10.5d
+			y: 0.5d
 			dependencies: ["6E47C11DCC6BFCBA"]
 			id: "6B4F14EF8CE3FA06"
 			tasks: [{
@@ -1305,7 +1283,7 @@
 		}
 		{
 			x: 13.0d
-			y: 3.0d
+			y: 4.5d
 			dependencies: ["652F12346B45ED30"]
 			id: "7D2506E12CDB8140"
 			tasks: [{
@@ -1316,7 +1294,7 @@
 		}
 		{
 			x: 13.0d
-			y: 4.0d
+			y: 3.0d
 			dependencies: ["652F12346B45ED30"]
 			id: "7A310F0C37C5AA96"
 			tasks: [{
@@ -1352,7 +1330,7 @@
 			}]
 		}
 		{
-			x: 8.5d
+			x: 9.0d
 			y: 2.5d
 			dependencies: ["0E1B37DA245F53F8"]
 			id: "662C9812303FD52F"
@@ -1368,6 +1346,210 @@
 					item: "extrabotany:photonium"
 				}
 			]
+		}
+		{
+			x: 12.0d
+			y: 4.5d
+			dependencies: ["7D2506E12CDB8140"]
+			id: "4BC1E0DDC99CB669"
+			tasks: [{
+				id: "0012320D0EF7AAD8"
+				type: "item"
+				item: {
+					id: "extrabotany:trueterrablade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 6.0d
+			dependencies: ["7D2506E12CDB8140"]
+			id: "1F29360CF839D367"
+			tasks: [{
+				id: "22CDB7E0F5619061"
+				type: "item"
+				item: {
+					id: "extrabotany:influxwaver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: 6.0d
+			dependencies: ["7D2506E12CDB8140"]
+			id: "6D0EEAF9E1881ED2"
+			tasks: [{
+				id: "625877B28A8F4778"
+				type: "item"
+				item: {
+					id: "extrabotany:trueshadowkatana"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 4.5d
+			dependencies: ["7D2506E12CDB8140"]
+			id: "3F60A4331B71EF8E"
+			tasks: [{
+				id: "7A8E3B27702774EF"
+				type: "item"
+				item: "extrabotany:cosmiccarkey"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 3.0d
+			dependencies: ["7A310F0C37C5AA96"]
+			id: "362B28464C84C8EF"
+			tasks: [{
+				id: "75F96E36C005AE87"
+				type: "item"
+				item: {
+					id: "extrabotany:silverbullet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -5.0d
+			dependencies: ["291EB37C7A62072D"]
+			id: "1614F4C0D0F4C4A6"
+			tasks: [{
+				id: "70765AE1E4A7B24F"
+				type: "item"
+				item: {
+					id: "extrabotany:sunring"
+					Count: 1b
+					tag: {
+						baubleUUIDMost: 6521599304550466662L
+						baubleUUIDLeast: -7308550406275666820L
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 8.0d
+			dependencies: ["4100CBD80D74EF09"]
+			id: "6444EE5497AF6663"
+			tasks: [{
+				id: "5C5AF8FC723D4F10"
+				type: "item"
+				item: "botania:shimmerrock"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			dependencies: ["5BD9A7CE380B6670"]
+			id: "2CC402D16B8235B0"
+			tasks: [
+				{
+					id: "5CAB4A14B2303E5C"
+					type: "item"
+					item: {
+						id: "botania:manasteel_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "08DEE38814B3CA22"
+					type: "item"
+					item: {
+						id: "botania:manasteel_pick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C7F67AF8C630A77"
+					type: "item"
+					item: {
+						id: "botania:manasteel_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			dependencies: ["6CBF4953ACB7D3C4"]
+			id: "565B2283E039DE2C"
+			tasks: [{
+				id: "7F98524257C786BD"
+				type: "item"
+				item: {
+					id: "botania:terra_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			dependencies: ["6CBF4953ACB7D3C4"]
+			id: "505BE8C428F0E766"
+			tasks: [{
+				id: "158804341EE0D261"
+				type: "item"
+				item: {
+					id: "botania:terra_pick"
+					Count: 1b
+					tag: {
+						mana: 9999
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			dependencies: ["5BD9A7CE380B6670"]
+			id: "7E7706C256E3F95B"
+			tasks: [{
+				id: "4C472A8052ABF873"
+				type: "item"
+				item: "botania:crafting_halo"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["7E7706C256E3F95B"]
+			id: "4D2EB3EB0840D7E0"
+			tasks: [{
+				id: "466461A9DB766084"
+				type: "item"
+				item: "botania:auto_crafting_halo"
+			}]
 		}
 	]
 }
