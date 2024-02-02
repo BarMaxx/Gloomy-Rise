@@ -1,0 +1,692 @@
+{
+	id: "500797A4E9F74FB8"
+	group: "08DD5F90F97E9DD6"
+	order_index: 1
+	filename: "resourcefulbees"
+	title: "{chapter.gloomy_rise.resourceful_bees}"
+	icon: "minecraft:bee_nest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{quest.gloomy_rise.beehives}"
+			icon: "minecraft:bee_nest"
+			x: 0.0d
+			y: 0.0d
+			description: ["{quest.disc.gloomy_rise.beehives}"]
+			id: "2A343152266646A5"
+			tasks: [{
+				id: "460F0165BCA77529"
+				type: "item"
+				title: "{quest.name_item.gloomy_rise.beehives}"
+				icon: "minecraft:bee_nest"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:beehives"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2689D686335B3FA1"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+					}
+				}
+			}]
+		}
+		{
+			title: "{quest.gloomy_rise.honeycomb}"
+			icon: "minecraft:honeycomb"
+			x: 1.0d
+			y: 0.0d
+			description: [
+				"{quest.disc.gloomy_rise.honeycomb}"
+				"{quest.disc_2.gloomy_rise.honeycomb}"
+			]
+			dependencies: ["2A343152266646A5"]
+			id: "4CC1ADFC4A5FBC46"
+			tasks: [{
+				id: "1594D3158709C795"
+				type: "item"
+				title: "{quest.name_item.gloomy_rise_honeycomb}"
+				icon: "minecraft:honeycomb"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "resourcefulbees:resourceful_honeycomb"
+					}
+				}
+				count: 4L
+			}]
+			rewards: [{
+				id: "6864658644BFEA7B"
+				type: "random"
+				icon: "minecraft:honeycomb"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			dependencies: ["73D8A15D7A0E9FA2"]
+			id: "0142DFF2C46560EA"
+			tasks: [{
+				id: "2F68551712ABAB09"
+				type: "item"
+				item: "resourcefulbees:scraper"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["73D8A15D7A0E9FA2"]
+			id: "5B355BB482D828F6"
+			tasks: [{
+				id: "5359558E355CD517"
+				type: "item"
+				item: "resourcefulbees:mechanical_centrifuge"
+			}]
+		}
+		{
+			title: "{quest.gloomy_rise.beeswax}"
+			x: 1.0d
+			y: 1.0d
+			description: [
+				"{quest.disc.gloomy_rise.beeswax}"
+				"{quest.disc_2.gloomy_rise.beeswax}"
+				"{quest.disc_3.gloomy_rise.beeswax}"
+				"{quest.disc_4.gloomy_rise.beeswax}"
+			]
+			dependencies: [
+				"4CC1ADFC4A5FBC46"
+				"5B355BB482D828F6"
+			]
+			id: "2E643A824A69EC99"
+			tasks: [{
+				id: "26B7D7BDFDF04B4D"
+				type: "item"
+				title: "{quest.name_item.gloomy_rise.beeswax}"
+				item: "resourcefulbees:wax"
+				count: 4L
+			}]
+			rewards: [{
+				id: "1DCC4BF2EF0611D0"
+				type: "item"
+				item: "resourcefulbees:wax"
+				count: 4
+				random_bonus: 2
+			}]
+		}
+		{
+			title: "{quest.gloomy_rise.waxed_planks}"
+			x: 2.0d
+			y: 1.0d
+			description: ["{quest.disc.gloomy_rise.waxed_planks}"]
+			dependencies: ["2E643A824A69EC99"]
+			id: "4EEB122F54F669D8"
+			tasks: [{
+				id: "571633C63D9C168B"
+				type: "item"
+				title: "{quest.name_item.gloomy_rise.waxed_planks}"
+				item: "resourcefulbees:waxed_planks"
+				count: 8L
+			}]
+			rewards: [{
+				id: "296B3D1646B14F95"
+				type: "item"
+				item: "resourcefulbees:waxed_planks"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			title: "{quest.gloomy_rise.trimmed_waxed_planks}"
+			x: 2.0d
+			y: 2.0d
+			description: ["{quest.disc.gloomy_rise.trimmed_waxed_planks}"]
+			dependencies: ["4EEB122F54F669D8"]
+			id: "3B987DD21F6CBD78"
+			tasks: [{
+				id: "73D447F9D8177124"
+				type: "item"
+				title: "{quest.name_item.gloomy_rise.trimmed_waxed_planks}"
+				icon: "resourcefulbees:trimmed_waxed_planks"
+				item: "resourcefulbees:trimmed_waxed_planks"
+				count: 8L
+			}]
+			rewards: [{
+				id: "4C00B8B501312912"
+				type: "item"
+				item: "resourcefulbees:trimmed_waxed_planks"
+				count: 2
+			}]
+		}
+		{
+			title: "{quest.gloomy_rise.bee_box}"
+			x: 2.0d
+			y: 0.0d
+			description: ["{quest.disc.gloomy_rise.bee_box}"]
+			dependencies: ["4EEB122F54F669D8"]
+			id: "0A3C314079517ABF"
+			tasks: [{
+				id: "1B24F282627E5DFA"
+				type: "item"
+				title: "{quest.name_item.gloomy_rise.bee_box}"
+				item: "resourcefulbees:bee_box"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["4CC1ADFC4A5FBC46"]
+			id: "4FA5E14FA7F8F5B7"
+			tasks: [{
+				id: "619C21F349AFFDEA"
+				type: "item"
+				title: "Медовый блок"
+				icon: "resourcefulbees:gold_honeycomb_block"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "resourcefulbees:resourceful_honeycomb_block"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			dependencies: ["4FA5E14FA7F8F5B7"]
+			id: "0637D29D923CA21B"
+			tasks: [{
+				id: "7EEE8537A2B1A9F1"
+				type: "item"
+				item: "resourcefulbees:apiary_storage"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			dependencies: ["0637D29D923CA21B"]
+			id: "48F6D60E9033D508"
+			tasks: [{
+				id: "21EE1517411F1720"
+				type: "item"
+				item: "resourcefulbees:iron_storage_upgrade"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["48F6D60E9033D508"]
+			id: "2A5039A0F9FF590D"
+			tasks: [{
+				id: "0D68E8436FB827A7"
+				type: "item"
+				item: "resourcefulbees:gold_storage_upgrade"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			dependencies: ["2A5039A0F9FF590D"]
+			id: "46D2E50FE5C3ED45"
+			tasks: [{
+				id: "5DCA22EE8E342311"
+				type: "item"
+				item: "resourcefulbees:diamond_storage_upgrade"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.5d
+			dependencies: ["46D2E50FE5C3ED45"]
+			id: "3AB4847E863430A0"
+			tasks: [{
+				id: "4FC42809D83EA59A"
+				type: "item"
+				item: "resourcefulbees:emerald_storage_upgrade"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			dependencies: ["2A343152266646A5"]
+			id: "3F3ABEAAB3CBFB43"
+			tasks: [{
+				id: "696CEDC5234AC90A"
+				type: "item"
+				item: "minecraft:honey_bottle"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["3F3ABEAAB3CBFB43"]
+			id: "56DF786302332F10"
+			tasks: [{
+				id: "208F8A5AEEB8984A"
+				type: "item"
+				item: "resourcefulbees:beepedia"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["5B355BB482D828F6"]
+			id: "44A0CF02814F91DB"
+			tasks: [{
+				id: "4C15412D391D2BD1"
+				type: "item"
+				item: "resourcefulbees:centrifuge"
+			}]
+		}
+		{
+			title: "{quest.gloomy_rise.bee_jar}"
+			x: 2.5d
+			y: -1.0d
+			description: ["{quest.disc.gloomy_rise.bee_jar}"]
+			hide_dependency_lines: true
+			dependencies: ["0A3C314079517ABF"]
+			id: "660B63498C1F45C4"
+			tasks: [{
+				id: "0A00E61CDED458ED"
+				type: "item"
+				title: "{quest.name_item.gloomy_rise.bee_jar}"
+				item: "resourcefulbees:bee_jar"
+			}]
+		}
+		{
+			title: "{quest.gloomy_rise.waxed_machine_block}"
+			x: 2.5d
+			y: 3.0d
+			description: ["{quest.disc.gloomy_rise.waxed_machine_block}"]
+			dependencies: ["3B987DD21F6CBD78"]
+			id: "3618177FD83078B9"
+			tasks: [{
+				id: "2E5CF8E7247E3455"
+				type: "item"
+				title: "{quest.name_item.gloomy_rise.waxed_machine_block}"
+				item: "resourcefulbees:waxed_machine_block"
+			}]
+			rewards: [{
+				id: "0FEDDEFC5E218A68"
+				type: "item"
+				item: "resourcefulbees:waxed_machine_block"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			dependencies: ["3618177FD83078B9"]
+			id: "3D9F65233DC2122E"
+			tasks: [{
+				id: "55F13AD75009B753"
+				type: "item"
+				item: "resourcefulbees:honey_generator"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			dependencies: ["3618177FD83078B9"]
+			id: "559D382AB4F4A197"
+			tasks: [{
+				id: "0C9FE82FECD5D6D4"
+				type: "item"
+				item: "resourcefulbees:centrifuge_casing"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			dependencies: ["559D382AB4F4A197"]
+			id: "6E6CA155A3AC655D"
+			tasks: [{
+				id: "1CDB76EE13843F9D"
+				type: "item"
+				item: "resourcefulbees:centrifuge_controller"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			dependencies: ["559D382AB4F4A197"]
+			id: "44BC89CCECD9C2D1"
+			tasks: [{
+				id: "094609ED1B022C8F"
+				type: "item"
+				item: "resourcefulbees:elite_centrifuge_casing"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.5d
+			dependencies: ["44BC89CCECD9C2D1"]
+			id: "25877860A8FA18CA"
+			tasks: [{
+				id: "66EFD61808CE45C8"
+				type: "item"
+				item: "resourcefulbees:elite_centrifuge_controller"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			dependencies: ["05EB7D069C18CA1E"]
+			id: "32AD1ECA1436A95D"
+			tasks: [{
+				id: "3650985A7497594B"
+				type: "item"
+				item: "resourcefulbees:bellow"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			dependencies: ["73D8A15D7A0E9FA2"]
+			id: "44520AB11AE92116"
+			tasks: [{
+				id: "05B8D406E5BD2259"
+				type: "item"
+				item: "resourcefulbees:smoker_can"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			dependencies: [
+				"44520AB11AE92116"
+				"32AD1ECA1436A95D"
+			]
+			id: "17A4DADA614CEE7B"
+			tasks: [{
+				id: "271F28CF448A8E7E"
+				type: "item"
+				item: {
+					id: "resourcefulbees:smoker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["4EEB122F54F669D8"]
+			id: "575A347885D58D1E"
+			tasks: [{
+				id: "70CA12200D6A79B3"
+				type: "item"
+				item: "resourcefulbees:t1_beehive"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			dependencies: ["575A347885D58D1E"]
+			id: "6535DEA336B25C50"
+			tasks: [{
+				id: "0F89AA25B0ABC0A5"
+				type: "item"
+				item: "resourcefulbees:t2_beehive"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			dependencies: ["6535DEA336B25C50"]
+			id: "1930565B6C859EF9"
+			tasks: [{
+				id: "3B47859A44099B66"
+				type: "item"
+				item: "resourcefulbees:t3_beehive"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			dependencies: ["1930565B6C859EF9"]
+			id: "06FECD43738C1DF0"
+			tasks: [{
+				id: "782BC2E48101A1DB"
+				type: "item"
+				item: "resourcefulbees:t4_beehive"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			dependencies: ["0637D29D923CA21B"]
+			id: "071F193196B3CFBA"
+			tasks: [{
+				id: "4E01DFEF900E2E75"
+				type: "item"
+				item: "resourcefulbees:apiary_breeder"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			dependencies: ["06FECD43738C1DF0"]
+			id: "4C00D476E1A1977F"
+			tasks: [{
+				id: "51E8143E5C5A2673"
+				type: "item"
+				item: "resourcefulbees:t1_apiary"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["4C00D476E1A1977F"]
+			id: "34A680D78E297A31"
+			tasks: [{
+				id: "2851287359D67C54"
+				type: "item"
+				item: "resourcefulbees:t2_apiary"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			dependencies: ["34A680D78E297A31"]
+			id: "46E3D4A1066FF298"
+			tasks: [{
+				id: "03E406F22A267CE5"
+				type: "item"
+				item: "resourcefulbees:t3_apiary"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			dependencies: ["46E3D4A1066FF298"]
+			id: "56F1C88D52D1A4ED"
+			tasks: [{
+				id: "3F88B841D9E85F66"
+				type: "item"
+				item: "resourcefulbees:t4_apiary"
+			}]
+		}
+		{
+			title: "{quest.gloomy_rise.wooden_honey_tank}"
+			x: 1.5d
+			y: 3.0d
+			description: ["{quest.disc.gloomy_rise.wooden_honey_tank}"]
+			dependencies: ["3B987DD21F6CBD78"]
+			id: "141A67A080ACB2FB"
+			tasks: [{
+				id: "31C65FB3D915EDCA"
+				type: "item"
+				title: "{quest.name_item.gloomy_rise.wooden_honey_tank}"
+				item: "resourcefulbees:wooden_honey_tank"
+			}]
+		}
+		{
+			title: "{quest.gloomy_rise.nether_honey_tank}"
+			x: 1.0d
+			y: 4.0d
+			description: ["{quest.disc.gloomy_rise.nether_honey_tank}"]
+			dependencies: ["141A67A080ACB2FB"]
+			id: "3660B1FDAF6A6281"
+			tasks: [{
+				id: "421E2BC3E64E5817"
+				type: "item"
+				title: "{quest.name_item.gloomy_rise.nether_honey_tank}"
+				item: "resourcefulbees:nether_honey_tank"
+			}]
+		}
+		{
+			title: "{quest.gloomy_rise.purpur_honey_tank}"
+			x: 1.0d
+			y: 5.0d
+			description: ["{quest.disc.gloomy_rise.purpur_honey_tank}"]
+			dependencies: ["3660B1FDAF6A6281"]
+			id: "4ED388AAB489CE84"
+			tasks: [{
+				id: "682844A749DEDEF2"
+				type: "item"
+				title: "{quest.name_item.gloomy_rise.purpur_honey_tank}"
+				item: "resourcefulbees:purpur_honey_tank"
+			}]
+		}
+		{
+			title: "{quest.gloomy_rise.ender_beecon}"
+			x: 1.5d
+			y: 6.0d
+			description: ["{quest.disc.gloomy_rise.ender_beecon}"]
+			dependencies: ["4ED388AAB489CE84"]
+			id: "1DFA60219A0D5002"
+			tasks: [{
+				id: "30229229720E84C3"
+				type: "item"
+				title: "{quest.name_item.gloomy_rise.ender_beecon}"
+				item: "resourcefulbees:ender_beecon"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			dependencies: ["2E643A824A69EC99"]
+			id: "11EE92E396FDEEC1"
+			tasks: [{
+				id: "3DAFEF5BBB0F346F"
+				type: "item"
+				item: "resourcefulbees:honey_congealer"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			dependencies: ["4CC1ADFC4A5FBC46"]
+			id: "5C19AA9811080C9C"
+			tasks: [{
+				id: "473F1590F844847C"
+				type: "item"
+				item: "resourcefulbees:honey_dipper"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["3F3ABEAAB3CBFB43"]
+			id: "36F00B0AF9DE5B89"
+			tasks: [{
+				id: "1FFEFA5B17172201"
+				type: "item"
+				item: "minecraft:honey_block"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			dependencies: ["36F00B0AF9DE5B89"]
+			id: "560F91469E587D03"
+			tasks: [{
+				id: "68CCB50AD4775FF9"
+				type: "item"
+				item: "resourcefulbees:honey_glass"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			dependencies: ["2A5039A0F9FF590D"]
+			id: "7E769D8AB2899A1B"
+			tasks: [{
+				id: "235384985AD776AC"
+				type: "item"
+				item: "resourcefulbees:apiary_breeder_upgrade"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			dependencies: ["2A5039A0F9FF590D"]
+			id: "237A7BD20C19C9F4"
+			tasks: [{
+				id: "0E5F15FFEE893DF1"
+				type: "item"
+				item: "resourcefulbees:apiary_breed_time_upgrade"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["575A347885D58D1E"]
+			id: "5F9D8828FA3B69A9"
+			tasks: [{
+				id: "43FF0F8821E1A754"
+				type: "item"
+				item: "resourcefulbees:t1_hive_upgrade"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["6535DEA336B25C50"]
+			id: "178311140663F0BC"
+			tasks: [{
+				id: "3584B63838060BF1"
+				type: "item"
+				item: "resourcefulbees:t2_hive_upgrade"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["1930565B6C859EF9"]
+			id: "66E207F20758B175"
+			tasks: [{
+				id: "5986FB068B3BDE11"
+				type: "item"
+				item: "resourcefulbees:t3_hive_upgrade"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["06FECD43738C1DF0"]
+			id: "771662A70F2548B1"
+			tasks: [{
+				id: "3BE180D82B38BEE9"
+				type: "item"
+				item: "resourcefulbees:t4_hive_upgrade"
+			}]
+		}
+	]
+}

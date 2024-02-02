@@ -1,0 +1,820 @@
+{
+	id: "4D781C9407BF0932"
+	group: "724CB10F5936E1B7"
+	order_index: 6
+	filename: "cyclic_items"
+	title: "Cyclic: Items"
+	icon: {
+		id: "patchouli:guide_book"
+		Count: 1b
+		tag: {
+			"patchouli:book": "cyclic:cyclic_guide_book"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["080EBE142932F2C2"]
+			id: "2FAD213C35AE37CD"
+			tasks: [{
+				id: "2104F5E24CB845A7"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "cyclic:cyclic_guide_book"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["2BE4EE71E33BAAD3"]
+			id: "19F6DCFA0E59F3DC"
+			tasks: [{
+				id: "5BCB6E8CF35EBC14"
+				type: "item"
+				item: "cyclic:gem_amber"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			dependencies: ["19F6DCFA0E59F3DC"]
+			id: "21052795A3692286"
+			tasks: [{
+				id: "2D1EDAA0242D27DC"
+				type: "item"
+				item: "cyclic:gem_obsidian"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			dependencies: ["19F6DCFA0E59F3DC"]
+			id: "0A2C3E26BDBE41C0"
+			tasks: [{
+				id: "17B1CBBC0974594F"
+				type: "item"
+				item: {
+					id: "cyclic:charm_speed"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			dependencies: ["19F6DCFA0E59F3DC"]
+			id: "79413873E1036A78"
+			tasks: [{
+				id: "35422EC9A4D9BEBC"
+				type: "item"
+				item: {
+					id: "cyclic:charm_fire"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			dependencies: ["19F6DCFA0E59F3DC"]
+			id: "299AA5DCCA2E5691"
+			tasks: [{
+				id: "28DC37C77054BC14"
+				type: "item"
+				item: {
+					id: "cyclic:glowing_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: [
+				"19F6DCFA0E59F3DC"
+				"2D6EEA171DB1C5A1"
+			]
+			id: "75B2ECF35136F6AD"
+			tasks: [{
+				id: "2B7A75E06507EC2F"
+				type: "item"
+				item: {
+					id: "cyclic:charm_creeper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			dependencies: ["36F00B0AF9DE5B89"]
+			id: "3C6A7B86A18F45C3"
+			tasks: [{
+				id: "7D2CFFE3AE68A2A2"
+				type: "item"
+				item: "cyclic:apple_honey"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["3C6A7B86A18F45C3"]
+			id: "2D6EEA171DB1C5A1"
+			tasks: [{
+				id: "4B077F46D5851A90"
+				type: "item"
+				item: "cyclic:apple_ender"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			dependencies: ["2D6EEA171DB1C5A1"]
+			id: "7FCC457C94DB2C05"
+			tasks: [{
+				id: "360941682BAA9307"
+				type: "item"
+				item: "cyclic:chorus_flight"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			dependencies: ["2D6EEA171DB1C5A1"]
+			id: "737BE8D38FAB0ED7"
+			tasks: [{
+				id: "3B7712C9CFA3ECD9"
+				type: "item"
+				item: {
+					id: "cyclic:charm_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			dependencies: ["3C6A7B86A18F45C3"]
+			id: "074557DCDDFF614A"
+			tasks: [{
+				id: "164CD84869DA7236"
+				type: "item"
+				item: "cyclic:apple_chocolate"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			dependencies: ["3C6A7B86A18F45C3"]
+			id: "6FE6A2590FCD560C"
+			tasks: [{
+				id: "593CC0EBA750DB86"
+				type: "item"
+				item: "cyclic:apple_lapis"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			dependencies: ["6FE6A2590FCD560C"]
+			id: "543FC60F1C5DDEDB"
+			tasks: [{
+				id: "771AC5806F9B0E1C"
+				type: "item"
+				item: "cyclic:apple_iron"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			dependencies: ["3C6A7B86A18F45C3"]
+			id: "4DEC5CDCB5AF51AD"
+			tasks: [{
+				id: "646FDF0B947527A6"
+				type: "item"
+				item: "cyclic:apple_prismarine"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			dependencies: ["3C6A7B86A18F45C3"]
+			id: "2BC9A08F2E0EEF0A"
+			tasks: [{
+				id: "27404BC0ED1B9235"
+				type: "item"
+				item: "cyclic:apple_bone"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["6FE6A2590FCD560C"]
+			id: "1C9C44F8BEA83920"
+			tasks: [{
+				id: "0EA2C9BC1375CF83"
+				type: "item"
+				item: {
+					id: "cyclic:charm_boostpotion"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["543FC60F1C5DDEDB"]
+			id: "18D40D5923A10C2C"
+			tasks: [{
+				id: "768FD0AFF18EB2BF"
+				type: "item"
+				item: "cyclic:chorus_spectral"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			dependencies: ["2BC9A08F2E0EEF0A"]
+			id: "7252E7DD81E6A637"
+			tasks: [{
+				id: "0E50DAF5AD1D6A84"
+				type: "item"
+				item: {
+					id: "cyclic:charm_venom"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			dependencies: ["4DEC5CDCB5AF51AD"]
+			id: "5E9A2735BF96AFB4"
+			tasks: [{
+				id: "75950BDCE6CBF6AC"
+				type: "item"
+				item: {
+					id: "cyclic:charm_water"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			dependencies: ["543FC60F1C5DDEDB"]
+			id: "1E25E60B970132AD"
+			tasks: [{
+				id: "3A306EAEFD098FC0"
+				type: "item"
+				item: "cyclic:apple_sprout_diamond"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -0.5d
+			dependencies: ["543FC60F1C5DDEDB"]
+			id: "05E3612DC289AEC1"
+			tasks: [{
+				id: "34AA8B3798AB670D"
+				type: "item"
+				item: "cyclic:apple_sprout_emerald"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			dependencies: ["1E25E60B970132AD"]
+			id: "77F9FBBF15946F48"
+			tasks: [{
+				id: "3D497AE22B23FB8F"
+				type: "item"
+				item: "cyclic:apple_diamond"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.5d
+			dependencies: ["05E3612DC289AEC1"]
+			id: "3837DCE4A11D3CA2"
+			tasks: [{
+				id: "1765661375EB0775"
+				type: "item"
+				item: "cyclic:apple_emerald"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			dependencies: ["074557DCDDFF614A"]
+			id: "10EB03B990CF8302"
+			tasks: [{
+				id: "72E9FAD32F26EE20"
+				type: "item"
+				item: {
+					id: "cyclic:charm_starvation"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			dependencies: ["074557DCDDFF614A"]
+			id: "7FB565C57CE81E14"
+			tasks: [{
+				id: "2C837E26BFACE00A"
+				type: "item"
+				item: "cyclic:apple_chorus"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			dependencies: ["21052795A3692286"]
+			id: "23352FC6ED0B795C"
+			tasks: [{
+				id: "452CE8108A337C04"
+				type: "item"
+				item: "cyclic:heart"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			dependencies: ["21052795A3692286"]
+			id: "6DD536E63643063E"
+			tasks: [{
+				id: "3616527AB9561A31"
+				type: "item"
+				item: {
+					id: "cyclic:charm_ultimate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Броня из кристаллизированного обсидиана"
+			icon: {
+				id: "cyclic:crystal_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["21052795A3692286"]
+			id: "6CE57A23BE58885F"
+			tasks: [
+				{
+					id: "2EC9E3CFB03FB833"
+					type: "item"
+					item: {
+						id: "cyclic:crystal_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "416DAAE93262AFBE"
+					type: "item"
+					item: {
+						id: "cyclic:crystal_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "744C84A126B58D0A"
+					type: "item"
+					item: {
+						id: "cyclic:crystal_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3D8B22FD6BA05FBC"
+					type: "item"
+					item: {
+						id: "cyclic:crystal_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Кристалльные инструменты"
+			icon: {
+				id: "cyclic:crystal_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.0d
+			y: 2.0d
+			dependencies: ["21052795A3692286"]
+			id: "776F6548CDE9E177"
+			tasks: [
+				{
+					id: "0B66A678EBB5662C"
+					type: "item"
+					item: {
+						id: "cyclic:crystal_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6A8D5D1A3B9986C6"
+					type: "item"
+					item: {
+						id: "cyclic:crystal_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0253A0FFA74B75E6"
+					type: "item"
+					item: {
+						id: "cyclic:crystal_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "63242CC359102345"
+					type: "item"
+					item: {
+						id: "cyclic:crystal_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			dependencies: ["776F6548CDE9E177"]
+			id: "3013853FA43341F6"
+			tasks: [{
+				id: "266F10FF6B35B390"
+				type: "item"
+				item: {
+					id: "cyclic:mattock"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			id: "0A323ED82C02D5EB"
+			tasks: [{
+				id: "7E806F6BD6B44629"
+				type: "item"
+				item: "cyclic:biomass"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			dependencies: ["0A323ED82C02D5EB"]
+			id: "048E609A1503E95B"
+			tasks: [{
+				id: "0071C948154BE072"
+				type: "item"
+				item: "cyclic:peat_unbaked"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["048E609A1503E95B"]
+			id: "77371D58B776F8F4"
+			tasks: [{
+				id: "7695F02E021D41C2"
+				type: "item"
+				item: "cyclic:terra_preta"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			dependencies: ["048E609A1503E95B"]
+			id: "6EB979F256FD586A"
+			tasks: [{
+				id: "7DCD1B85A443F18D"
+				type: "item"
+				item: "cyclic:peat_baked"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			dependencies: ["6EB979F256FD586A"]
+			id: "54197D8FFFBFD766"
+			tasks: [{
+				id: "4AEF666A51FD09B8"
+				type: "item"
+				item: "cyclic:peat_fuel"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.5d
+			dependencies: ["54197D8FFFBFD766"]
+			id: "74F7A22A532641BD"
+			tasks: [{
+				id: "4537C902DEE58AC8"
+				type: "item"
+				item: "cyclic:peat_fuel_enriched"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			dependencies: ["0A323ED82C02D5EB"]
+			id: "5A81B6AF9275D11B"
+			tasks: [{
+				id: "3D829A0C5F815F5A"
+				type: "item"
+				item: "cyclic:soil"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			id: "5E4565B2710ED109"
+			tasks: [{
+				id: "16E8778BB0565300"
+				type: "item"
+				item: "cyclic:spawner_seeker"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			id: "55CC578EE23DADE0"
+			tasks: [{
+				id: "2EE63EC2F87BE617"
+				type: "item"
+				item: {
+					id: "cyclic:spawn_inspector"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			id: "554EC6E7881EBD18"
+			tasks: [{
+				id: "56B6162C5BD07A9D"
+				type: "item"
+				item: {
+					id: "cyclic:spelunker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			id: "4ECF07F7D9B05196"
+			tasks: [{
+				id: "3F2BFE0317DA5DE0"
+				type: "item"
+				item: {
+					id: "cyclic:prospector"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["19F6DCFA0E59F3DC"]
+			id: "0928429679D38D19"
+			tasks: [{
+				id: "0542AFE15D34C57D"
+				type: "item"
+				item: {
+					id: "cyclic:charm_torch"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			dependencies: ["0928429679D38D19"]
+			id: "798638FEB2C95F1C"
+			tasks: [{
+				id: "7CC4E7892BBD0B31"
+				type: "item"
+				item: {
+					id: "cyclic:charm_torch_cave"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			dependencies: ["23352FC6ED0B795C"]
+			id: "561EEF69D864BC71"
+			tasks: [{
+				id: "40151E078032DA4A"
+				type: "item"
+				item: {
+					id: "cyclic:charm_magicdefense"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			id: "60859FAD0AF03D24"
+			tasks: [{
+				id: "2091E0E80B2282FB"
+				type: "item"
+				item: "minecraft:golden_carrot"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["60859FAD0AF03D24"]
+			id: "73331D44F8185847"
+			tasks: [{
+				id: "3F3135D74701F2C7"
+				type: "item"
+				item: "cyclic:carrot_ender"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["60859FAD0AF03D24"]
+			id: "29A4C2205E5182B6"
+			tasks: [{
+				id: "483BFD8B6FC129BF"
+				type: "item"
+				item: "cyclic:toxic_carrot"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["60859FAD0AF03D24"]
+			id: "350E30D77C3412C5"
+			tasks: [{
+				id: "72C0ADD68ACF855D"
+				type: "item"
+				item: "cyclic:diamond_carrot_health"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["60859FAD0AF03D24"]
+			id: "2E82D16E2E798ECD"
+			tasks: [{
+				id: "5AB502EACEF20EAF"
+				type: "item"
+				item: "cyclic:emerald_carrot_jump"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["60859FAD0AF03D24"]
+			id: "49EBE6AD2B6A7BED"
+			tasks: [{
+				id: "2A7999A3F1D881BE"
+				type: "item"
+				item: "cyclic:redstone_carrot_speed"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["60859FAD0AF03D24"]
+			id: "2919F8B168B3E370"
+			tasks: [{
+				id: "19A021735A64189B"
+				type: "item"
+				item: "cyclic:lapis_carrot_variant"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			id: "7BBD2E82B7D4BBCB"
+			tasks: [{
+				id: "06049CC7AD32E8E1"
+				type: "item"
+				item: "cyclic:inventory_cake"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			id: "7A90DA0EC5FD1BFB"
+			tasks: [{
+				id: "1678F5D95BB28BF8"
+				type: "item"
+				item: "cyclic:ender_bag"
+			}]
+		}
+	]
+}

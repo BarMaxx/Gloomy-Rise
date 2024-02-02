@@ -1,0 +1,868 @@
+{
+	id: "3C94221C93730D71"
+	group: "724CB10F5936E1B7"
+	order_index: 1
+	filename: "tconstruct"
+	title: "{quests.gloomy_rise.progress.casting.chapter_title}"
+	icon: "tconstruct:smeltery_controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{quests.gloomy_rise.progress.casting.tinker_station.quest_title}"
+			icon: {
+				id: "tconstruct:tinker_station"
+				Count: 1b
+				tag: {
+					texture: "minecraft:oak_planks"
+				}
+			}
+			x: -3.0d
+			y: 1.0d
+			shape: "hexagon"
+			subtitle: "{quests.gloomy_rise.progress.casting.tinker_station.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress.casting.tinker_station.description_1}"
+				""
+				"{quests.gloomy_rise.progress.casting.tinker_station.description_2}"
+				""
+				"{quests.gloomy_rise.progress.casting.tinker_station.description_3}"
+			]
+			dependencies: ["15B8F7E0B34D0723"]
+			id: "7E272DEB7D75FE79"
+			tasks: [{
+				id: "6FE39B3D3BE5E9A9"
+				type: "item"
+				title: "{quests.gloomy_rise.progress.casting.tinker_station.task_title}"
+				item: {
+					id: "tconstruct:tinker_station"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "37F09C91A2420E43"
+				type: "item"
+				title: "{quests.gloomy_rise.progress.casting.tinker_station.reward_title}"
+				item: "tconstruct:pattern"
+				count: 4
+				random_bonus: 2
+			}]
+		}
+		{
+			title: "{quests.gloomy_rise.progress.casting.part_chest.quest_title}"
+			x: -2.0d
+			y: -1.0d
+			subtitle: "{quests.gloomy_rise.progress.casting.part_chest.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress.casting.part_chest.description_1}"
+				""
+				"{quests.gloomy_rise.progress.casting.part_chest.description_2}"
+			]
+			dependencies: ["32BEE8851F8E3B96"]
+			id: "0CAB7D05282FDB38"
+			tasks: [{
+				id: "5898927653209A1C"
+				type: "item"
+				title: "{quests.gloomy_rise.progress.casting.part_chest.task_title}"
+				item: "tconstruct:part_chest"
+			}]
+			rewards: [{
+				id: "55608D5B74FC0174"
+				type: "item"
+				title: "{quests.gloomy_rise.progress.casting.part_chest.reward_title}"
+				item: "minecraft:barrel"
+				count: 2
+				random_bonus: 1
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			shape: "hexagon"
+			description: ["Обожжённые кирпичи можно выплавить в печке из цемента. Эти кирпичи понадобятся для создания различных частей &8плавильни&f."]
+			dependencies: ["3051A7249D8F1499"]
+			size: 1.1d
+			id: "2351D3844B34F991"
+			tasks: [{
+				id: "2EC6195E22411D31"
+				type: "item"
+				title: "Обожжённый кирпич"
+				item: "tconstruct:seared_brick"
+				count: 16L
+			}]
+			rewards: [{
+				id: "1A786E2266E2717F"
+				type: "item"
+				item: "tconstruct:seared_brick"
+				count: 8
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "{quests.gloomy_rise.progress.casting.part_builder.quest_title}"
+			x: -3.0d
+			y: -1.0d
+			shape: "hexagon"
+			subtitle: "{quests.gloomy_rise.progress.casting.part_builder.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress.casting.part_builder.description_1}"
+				""
+				"{quests.gloomy_rise.progress.casting.part_builder.description_2}"
+			]
+			dependencies: ["15B8F7E0B34D0723"]
+			id: "32BEE8851F8E3B96"
+			tasks: [{
+				id: "6B5AB5BD0761B3D9"
+				type: "item"
+				title: "{quests.gloomy_rise.progress.casting.part_builder.task_title}"
+				item: {
+					id: "tconstruct:part_builder"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "022B0AA08FD5D49F"
+				type: "item"
+				title: "{quests.gloomy_rise.progress.casting.part_builder.reward_title}"
+				item: "tconstruct:pattern"
+				count: 4
+				random_bonus: 2
+			}]
+		}
+		{
+			title: "{quests.gloomy_rise.progress.casting.crafting_station.quest_title}"
+			x: -3.5d
+			y: 0.0d
+			subtitle: "{quests.gloomy_rise.progress.casting.crafting_station.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress.casting.crafting_station.description_1}"
+				""
+				"{quests.gloomy_rise.progress.casting.crafting_station.description_2}"
+			]
+			dependencies: ["05EB7D069C18CA1E"]
+			id: "15B8F7E0B34D0723"
+			tasks: [{
+				id: "2DEE49A4F910EC3B"
+				type: "item"
+				title: "{quests.gloomy_rise.progress.casting.crafting_station.task_title}"
+				item: "tconstruct:crafting_station"
+			}]
+			rewards: [{
+				id: "445A1C5A5A8F897C"
+				type: "random"
+				title: "{quests.gloomy_rise.progress.casting.crafting_station.reward_title}"
+			}]
+		}
+		{
+			title: "{quests.gloomy_rise.progress.casting.tinkers_chest.quest_title}"
+			x: -1.5d
+			y: 0.0d
+			subtitle: "{quests.gloomy_rise.progress.casting.tinkers_chest.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress.casting.tinkers_chest.description_1}"
+				""
+				"{quests.gloomy_rise.progress.casting.tinkers_chest.description_2}"
+			]
+			dependencies: ["2056D573224030CB"]
+			id: "256F4A2C1652CCA9"
+			tasks: [{
+				id: "031BB1764D1D4C12"
+				type: "item"
+				title: "{quests.gloomy_rise.progress.casting.tinkers_chest.task_title}"
+				item: "tconstruct:tinkers_chest"
+			}]
+			rewards: [{
+				id: "60DAED3CC4449448"
+				type: "random"
+				title: "{quests.gloomy_rise.progress.casting.tinkers_chest.reward_title}"
+			}]
+		}
+		{
+			title: "{quests.gloomy_rise.progress.casting.grout.quest_title}"
+			x: 0.0d
+			y: 0.0d
+			shape: "pentagon"
+			subtitle: "{quests.gloomy_rise.progress.casting.grout.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress.casting.grout.description_1}"
+				""
+				"{quests.gloomy_rise.progress.casting.grout.description_2}"
+			]
+			dependencies: ["05EB7D069C18CA1E"]
+			size: 1.1d
+			id: "7189F8D6816DD2CA"
+			tasks: [
+				{
+					id: "7EAFFF5B2A6DF359"
+					type: "item"
+					title: "{quests.gloomy_rise.progress.casting.grout.task_title_1}"
+					item: "minecraft:clay"
+					count: 4L
+				}
+				{
+					id: "65E4CD991FC4B893"
+					type: "item"
+					title: "{quests.gloomy_rise.progress.casting.grout.task_title_3}"
+					item: "minecraft:gravel"
+					count: 16L
+				}
+				{
+					id: "4719A0CC46215960"
+					type: "item"
+					title: "{quests.gloomy_rise.progress.casting.grout.task_title_4}"
+					item: "tconstruct:grout"
+					count: 36L
+				}
+			]
+			rewards: [{
+				id: "3784014CED07B0D3"
+				type: "item"
+				title: "{quests.gloomy_rise.progress.casting.grout.reward_title}"
+				item: "tconstruct:grout"
+				count: 24
+				random_bonus: 16
+			}]
+		}
+		{
+			title: "{quests.gloomy_rise.progress.casting.cast_chest.quest_title}"
+			x: -2.0d
+			y: 1.0d
+			subtitle: "{quests.gloomy_rise.progress.casting.cast_chest.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress.casting.cast_chest.description_1}"
+				""
+				"{quests.gloomy_rise.progress.casting.cast_chest.description_2}"
+			]
+			dependencies: ["256F4A2C1652CCA9"]
+			id: "0A791EA71B148D44"
+			tasks: [{
+				id: "752E4A6062A40F97"
+				type: "item"
+				title: "{quests.gloomy_rise.progress.casting.cast_chest.task_title}"
+				item: "tconstruct:cast_chest"
+			}]
+			rewards: [
+				{
+					id: "726C56E51987E128"
+					type: "item"
+					title: "{quests.gloomy_rise.progress.casting.cast_chest.reward_title_1}"
+					item: "expandedstorage:iron_chest"
+				}
+				{
+					id: "5E9031C3F9D02047"
+					type: "item"
+					title: "{quests.gloomy_rise.progress.casting.cast_chest.reward_title_2}"
+					item: "expandedstorage:iron_barrel"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["4702BCF6E921AEE5"]
+			id: "2B82C41442D79872"
+			tasks: [{
+				id: "5598C135FD76E218"
+				type: "item"
+				item: "tconstruct:seared_fuel_gauge"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			shape: "pentagon"
+			dependencies: ["2B82C41442D79872"]
+			id: "38B2F92A2A93F00A"
+			tasks: [{
+				id: "3BD2CEF3CD48D04F"
+				type: "item"
+				item: "tconstruct:seared_melter"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["4702BCF6E921AEE5"]
+			id: "486010978F709F3B"
+			tasks: [{
+				id: "3A5984BAFADCD9F5"
+				type: "item"
+				item: "tconstruct:seared_basin"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["7DF597AE179194C4"]
+			id: "491EA29960A5595F"
+			tasks: [{
+				id: "109C1C292815AE3A"
+				type: "item"
+				item: "tconstruct:seared_faucet"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.5d
+			shape: "rsquare"
+			dependencies: ["089896D5D998D573"]
+			size: 1.2d
+			id: "2397B40592331E40"
+			tasks: [{
+				id: "59D8DBD5923B2B61"
+				type: "item"
+				item: "tconstruct:smeltery_controller"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			shape: "square"
+			dependencies: ["7DF597AE179194C4"]
+			id: "4702BCF6E921AEE5"
+			tasks: [{
+				id: "416725A3F45CB8AF"
+				type: "item"
+				item: "tconstruct:seared_bricks"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			dependencies: ["38B2F92A2A93F00A"]
+			id: "089896D5D998D573"
+			tasks: [{
+				id: "106312689F18EE6C"
+				type: "item"
+				item: "tconstruct:seared_heater"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["4702BCF6E921AEE5"]
+			id: "6A0CAC1211EC6CBC"
+			tasks: [{
+				id: "5B82C7C88EB2B3C3"
+				type: "item"
+				item: "tconstruct:seared_table"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["4702BCF6E921AEE5"]
+			id: "5F6FC3328D9E989C"
+			tasks: [{
+				id: "2892F69A53C286BE"
+				type: "item"
+				item: "tconstruct:seared_drain"
+			}]
+		}
+		{
+			x: 17.0d
+			y: -3.0d
+			dependencies: ["7AAB7F71833C4727"]
+			id: "2AF2CB909066F7BD"
+			tasks: [{
+				id: "4721679B5C371611"
+				type: "item"
+				item: "tconstruct:queens_slime_ingot"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			shape: "pentagon"
+			dependencies: ["58CDF172088BCD26"]
+			size: 1.1d
+			id: "7ECBF661814923E0"
+			tasks: [{
+				id: "1DF54C46205787AB"
+				type: "item"
+				item: "tconstruct:nether_grout"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["0690757BD542537D"]
+			size: 1.1d
+			id: "7F9CE37C1558F769"
+			tasks: [{
+				id: "39F62DFDFB6C49D6"
+				type: "item"
+				item: "tconstruct:scorched_brick"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 1.5d
+			dependencies: ["25CA22E3200EFBD2"]
+			id: "7252B5CC801D0C90"
+			tasks: [{
+				id: "14E256910691D28B"
+				type: "item"
+				item: "tconstruct:scorched_table"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -1.5d
+			dependencies: ["25CA22E3200EFBD2"]
+			id: "04A452802E210999"
+			tasks: [{
+				id: "23F72A557F94F7D0"
+				type: "item"
+				item: "tconstruct:scorched_drain"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -0.5d
+			dependencies: ["2397B40592331E40"]
+			id: "58CDF172088BCD26"
+			tasks: [{
+				id: "1FD4095A99531761"
+				type: "item"
+				item: "tconstruct:obsidian_pane"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -0.5d
+			dependencies: ["5B3FA68AC699BF6B"]
+			id: "6A6BA52A9629BD6E"
+			tasks: [{
+				id: "420BB9B844719661"
+				type: "item"
+				item: "tconstruct:scorched_alloyer"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 1.5d
+			dependencies: ["25CA22E3200EFBD2"]
+			id: "0A29CD13A1DF8163"
+			tasks: [{
+				id: "0C61AF3E00D87037"
+				type: "item"
+				item: "tconstruct:scorched_fuel_tank"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 0.0d
+			shape: "square"
+			dependencies: ["7F9CE37C1558F769"]
+			id: "25CA22E3200EFBD2"
+			tasks: [{
+				id: "5D82F68F4A9905F2"
+				type: "item"
+				item: "tconstruct:scorched_bricks"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -1.0d
+			dependencies: ["7F9CE37C1558F769"]
+			id: "4D55396EB6736E77"
+			tasks: [{
+				id: "1C62F9736B91D8FC"
+				type: "item"
+				item: "tconstruct:scorched_faucet"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -1.5d
+			dependencies: ["25CA22E3200EFBD2"]
+			id: "2A6E9F96BAE9BF20"
+			tasks: [{
+				id: "51FF49DAF0BEB4B2"
+				type: "item"
+				item: "tconstruct:scorched_basin"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.0d
+			shape: "pentagon"
+			dependencies: ["2397B40592331E40"]
+			size: 1.1d
+			id: "53918F14A6386DFF"
+			tasks: [{
+				id: "519E90ED05967372"
+				type: "item"
+				item: "tconstruct:ingot_cast"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -3.5d
+			dependencies: ["7AAB7F71833C4727"]
+			id: "24A67BD71C3F768E"
+			tasks: [{
+				id: "424D551AF4EBC1AD"
+				type: "item"
+				item: "tconstruct:manyullyn_ingot"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -4.5d
+			dependencies: ["7AAB7F71833C4727"]
+			id: "07F77F1EB6C1855D"
+			tasks: [{
+				id: "255E18EB3F2CD060"
+				type: "item"
+				item: "tconstruct:hepatizon_ingot"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -1.5d
+			shape: "rsquare"
+			dependencies: ["6A6BA52A9629BD6E"]
+			size: 1.2d
+			id: "7D2A688CC0B902F9"
+			tasks: [{
+				id: "1439B45A76D6F1F7"
+				type: "item"
+				item: "tconstruct:foundry_controller"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 0.0d
+			shape: "pentagon"
+			dependencies: ["25CA22E3200EFBD2"]
+			id: "5B3FA68AC699BF6B"
+			tasks: [{
+				id: "1F99B5BD09B3918D"
+				type: "item"
+				item: "tconstruct:scorched_fuel_gauge"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			shape: "square"
+			dependencies: ["2397B40592331E40"]
+			id: "14F4C62B8767C420"
+			tasks: [{
+				id: "610C51931D8B38A0"
+				type: "item"
+				item: "tconstruct:rod_cast"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.5d
+			shape: "square"
+			dependencies: ["2397B40592331E40"]
+			id: "6B438093B81CA809"
+			tasks: [{
+				id: "2537D3D730029512"
+				type: "item"
+				item: "tconstruct:wire_cast"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			shape: "square"
+			dependencies: ["14F4C62B8767C420"]
+			id: "3AA29E3ECAB1C602"
+			tasks: [
+				{
+					id: "54ABCD2F89F20E95"
+					type: "item"
+					item: "createaddition:copper_rod"
+				}
+				{
+					id: "7167DE91412454D4"
+					type: "item"
+					item: "createaddition:iron_rod"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -2.5d
+			shape: "square"
+			dependencies: ["6B438093B81CA809"]
+			id: "599E6BAF2259009C"
+			tasks: [
+				{
+					id: "11A5F263CCE980C3"
+					type: "item"
+					item: "createaddition:copper_wire"
+				}
+				{
+					id: "2A17B18CD4FDA768"
+					type: "item"
+					item: "createaddition:iron_wire"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -2.5d
+			dependencies: ["53918F14A6386DFF"]
+			id: "0059ECD940817D8E"
+			tasks: [{
+				id: "4971AA65225FC751"
+				type: "item"
+				item: "tconstruct:slimesteel_ingot"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -3.0d
+			shape: "pentagon"
+			dependencies: ["7D2A688CC0B902F9"]
+			size: 1.1d
+			id: "7AAB7F71833C4727"
+			tasks: [{
+				id: "460EB22F732C07EE"
+				type: "item"
+				item: "tconstruct:blazing_blood_bucket"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.5d
+			dependencies: ["53918F14A6386DFF"]
+			id: "4ACD844840B38D48"
+			tasks: [{
+				id: "3EC0DB7E996C7314"
+				type: "item"
+				item: "tconstruct:rose_gold_ingot"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.0d
+			dependencies: ["53918F14A6386DFF"]
+			id: "4C9DA58BABF062D2"
+			tasks: [{
+				id: "38062AEC6EF67D69"
+				type: "item"
+				item: "tconstruct:tinkers_bronze_ingot"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			dependencies: ["7189F8D6816DD2CA"]
+			id: "1842702850303E5E"
+			tasks: [{
+				id: "678AB3F55F277CF1"
+				type: "checkmark"
+				title: "Цементные Кирпичи"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["1842702850303E5E"]
+			id: "3051A7249D8F1499"
+			tasks: [{
+				id: "7748DF6F1A029900"
+				type: "checkmark"
+				title: "Цементные Кирпичики"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.0d
+			dependencies: ["7ECBF661814923E0"]
+			id: "4B3DC74041EDB4CD"
+			tasks: [{
+				id: "5E650C3F988A2021"
+				type: "checkmark"
+				title: "Незерские Цементные Кирпичи"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.0d
+			dependencies: ["4B3DC74041EDB4CD"]
+			id: "0690757BD542537D"
+			tasks: [{
+				id: "4DAC8398B47487C9"
+				type: "checkmark"
+				title: "Незерские Цементные Кирпичики"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["4702BCF6E921AEE5"]
+			id: "3D90FA49CDE9D6DE"
+			tasks: [{
+				id: "5AFA3D41800C4BD1"
+				type: "item"
+				item: "tconstruct:seared_fuel_tank"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -5.5d
+			dependencies: ["4ACD844840B38D48"]
+			id: "0C5110D8DC8787DD"
+			tasks: [{
+				id: "594868F759978C77"
+				type: "item"
+				item: "tconstruct:silky_cloth"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -5.5d
+			dependencies: ["4ACD844840B38D48"]
+			id: "07B02B469CAB40FB"
+			tasks: [{
+				id: "4E5B1E42637F0B7B"
+				type: "item"
+				item: {
+					id: "minecraft:flint_and_steel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.5d
+			dependencies: ["53918F14A6386DFF"]
+			id: "600BB701D057EC94"
+			tasks: [{
+				id: "3CABCF5DD68CAFB1"
+				type: "item"
+				item: "tconstruct:pig_iron_ingot"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -4.5d
+			shape: "octagon"
+			dependencies: ["600BB701D057EC94"]
+			id: "2FCE231DD14CF289"
+			tasks: [{
+				id: "1E7994EF33041CB9"
+				type: "item"
+				item: "tconstruct:piggy_backpack"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -4.0d
+			dependencies: ["4C9DA58BABF062D2"]
+			id: "7D60CA19169058C4"
+			tasks: [{
+				id: "2AC4DB77F5DC8D05"
+				type: "item"
+				item: {
+					id: "tconstruct:flint_and_bronze"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 100.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [
+							{
+								name: "tconstruct:fiery"
+								level: 1s
+							}
+							{
+								name: "tconstruct:firestarter_hidden"
+								level: 1s
+							}
+						]
+						Damage: 0
+						tic_persistent_data: {
+							upgrades: 1
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: -2.5d
+			dependencies: ["7AAB7F71833C4727"]
+			id: "3B655BCE753DEC45"
+			tasks: [{
+				id: "7DF5BADC4A5E1C57"
+				type: "item"
+				item: "tconstruct:blazing_bone"
+			}]
+		}
+		{
+			title: "{quests.gloomy_rise.progress.casting.additional_information_for_tinker_station.quest_title}"
+			x: -3.0d
+			y: 2.0d
+			shape: "gear"
+			subtitle: "{quests.gloomy_rise.progress.casting.additional_information_for_tinker_station.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress.casting.additional_information_for_tinker_station.description_1}"
+				""
+				"{quests.gloomy_rise.progress.casting.additional_information_for_tinker_station.description_2}"
+				""
+				"{quests.gloomy_rise.progress.casting.additional_information_for_tinker_station.description_3}"
+			]
+			dependencies: ["3F9C1972FF445BA5"]
+			id: "7129957F7A6CF54A"
+			tasks: [{
+				id: "0787CF0A5E7AA57D"
+				type: "checkmark"
+				title: "{quests.gloomy_rise.progress.casting.additional_information_for_tinker_station.task_title}"
+			}]
+			rewards: [{
+				id: "35B5C1DD458A6D25"
+				type: "random"
+				title: "{quests.gloomy_rise.progress.casting.additional_information_for_tinker_station.reward_title}"
+			}]
+		}
+		{
+			title: "{quests.gloomy_rise.progress.casting.additional_information_for_part_builder.quest_title}"
+			x: -3.0d
+			y: -2.0d
+			shape: "gear"
+			subtitle: "{quests.gloomy_rise.progress.casting.additional_information_for_part_builder.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress.casting.additional_information_for_part_builder.description_1}"
+				""
+				"{quests.gloomy_rise.progress.casting.additional_information_for_part_builder.description_2}"
+				""
+				"{quests.gloomy_rise.progress.casting.additional_information_for_part_builder.description_3}"
+			]
+			dependencies: ["32BEE8851F8E3B96"]
+			id: "77945548E1DEDDFF"
+			tasks: [{
+				id: "20F5888F30596A67"
+				type: "checkmark"
+				title: "{quests.gloomy_rise.progress.casting.additional_information_for_part_builder.task_title}"
+			}]
+			rewards: [{
+				id: "752F260C6A371B0C"
+				type: "random"
+				title: "{quests.gloomy_rise.progress.casting.additional_information_for_part_builder.reward_title}"
+			}]
+		}
+	]
+}

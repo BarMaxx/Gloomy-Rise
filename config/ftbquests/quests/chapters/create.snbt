@@ -1,7 +1,7 @@
 {
 	id: "61946F19581D904A"
 	group: "724CB10F5936E1B7"
-	order_index: 1
+	order_index: 2
 	filename: "create"
 	title: "{quests.gloomy_rise.progress_1.create.chapter_title}"
 	icon: "create:andesite_alloy"

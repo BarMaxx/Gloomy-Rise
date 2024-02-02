@@ -1,7 +1,7 @@
 {
 	id: "640F7CDA261A8C85"
 	group: "724CB10F5936E1B7"
-	order_index: 3
+	order_index: 4
 	filename: "manaartifice"
 	title: "{quests.gloomy_rise.progress_1.mana_and_artifice.chapter_title}"
 	icon: "mana-and-artifice:runeforge"

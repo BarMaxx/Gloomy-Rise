@@ -287,15 +287,5 @@
 				item: "appliedenergistics2:quartz_vibrant_glass"
 			}]
 		}
-		{
-			x: -1.5d
-			y: -3.0d
-			id: "3D34B35135EE0F38"
-			tasks: [{
-				id: "4309AB1B3B76719A"
-				type: "structure"
-				structure: "minecraft:mineshaft"
-			}]
-		}
 	]
 }
