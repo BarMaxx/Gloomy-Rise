@@ -22,7 +22,7 @@
 		}
 		{
 			x: -1.5d
-			y: 0.0d
+			y: -1.5d
 			description: ["Метеоритовый компас Вам понадобится для поиска метеорита, в котором находятся пресса для высекателя."]
 			dependencies: ["09AEF5AB3957D385"]
 			id: "6D88A11B6EEBFD4E"
@@ -33,10 +33,10 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -1.0d
+			x: 1.0d
+			y: -3.0d
 			description: ["В МЭ накопителе хранятся ячейки хранения."]
-			dependencies: ["302A14893184E904"]
+			dependencies: ["023F6BB4BC0AC91A"]
 			id: "219738D8C40A44E7"
 			tasks: [{
 				id: "268BE0F4E3756235"
@@ -45,10 +45,10 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -1.0d
+			x: -1.0d
+			y: 4.0d
 			description: ["МЭ терминал нужен, чтобы взаимодействовать с предметами в МЭ сети."]
-			dependencies: ["302A14893184E904"]
+			dependencies: ["6C1EE16D4AA03A71"]
 			id: "038C1DB891E5F731"
 			tasks: [{
 				id: "280FC5F817D942B1"
@@ -57,11 +57,11 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 0.0d
+			x: 2.0d
+			y: -1.5d
 			subtitle: "Мозг МЭ системы"
 			description: ["МЭ контроллер - главный блок МЭ сети."]
-			dependencies: ["302A14893184E904"]
+			dependencies: ["023F6BB4BC0AC91A"]
 			id: "6F8C1F213EB5273D"
 			tasks: [{
 				id: "214708FA40B830F4"
@@ -70,10 +70,10 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 1.0d
+			x: 1.0d
+			y: 3.0d
 			description: ["Нужен для создания ячейки хранения и не только."]
-			dependencies: ["302A14893184E904"]
+			dependencies: ["28B3F16585CCAA8C"]
 			id: "5916045CBA46BA39"
 			tasks: [{
 				id: "65C8943786BB09CF"
@@ -82,8 +82,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 1.5d
+			x: 2.0d
+			y: 4.0d
 			description: ["Нужен для создания ячейки хранения и не только."]
 			dependencies: ["5916045CBA46BA39"]
 			id: "33B28E222354F361"
@@ -94,8 +94,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 1.5d
+			x: 3.5d
+			y: 4.0d
 			description: ["Нужен для создания ячейки хранения и не только."]
 			dependencies: ["33B28E222354F361"]
 			id: "70638D98D093BC9F"
@@ -106,8 +106,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 1.0d
+			x: 4.5d
+			y: 3.0d
 			description: ["Нужен для создания ячейки хранения и не только."]
 			dependencies: ["70638D98D093BC9F"]
 			id: "0E8EF9B1B64084C5"
@@ -118,8 +118,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 2.0d
+			x: 1.0d
+			y: 4.5d
 			description: ["Нужна для хранения предметов в МЭ сети."]
 			dependencies: ["5916045CBA46BA39"]
 			id: "7BFB8B4CE0B07B75"
@@ -134,7 +134,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 2.0d
 			y: 2.5d
 			description: ["Нужна для хранения предметов в МЭ сети. Хранит больше места, чем предыдущая ячейка."]
 			dependencies: ["33B28E222354F361"]
@@ -150,8 +150,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 2.5d
+			x: 3.5d
+			y: 5.5d
 			description: ["Нужна для хранения предметов в МЭ сети. Хранит больше места, чем предыдущая ячейка."]
 			dependencies: ["70638D98D093BC9F"]
 			id: "13E3871CB9CF14D1"
@@ -166,8 +166,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 2.0d
+			x: 4.5d
+			y: 1.5d
 			description: ["Нужна для хранения предметов в МЭ сети. Хранит больше места, чем предыдущая ячейка."]
 			dependencies: ["0E8EF9B1B64084C5"]
 			id: "640BC9B93F25E34C"
@@ -179,6 +179,122 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			dependencies: ["219738D8C40A44E7"]
+			id: "000378B5F298642F"
+			tasks: [{
+				id: "3009F9CB720A89C1"
+				type: "item"
+				item: "appliedenergistics2:io_port"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			dependencies: ["302A14893184E904"]
+			id: "023F6BB4BC0AC91A"
+			tasks: [{
+				id: "3A26D7F526F69BB2"
+				type: "item"
+				item: "appliedenergistics2:engineering_processor"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			dependencies: ["302A14893184E904"]
+			id: "28B3F16585CCAA8C"
+			tasks: [{
+				id: "33F0B8424DA63684"
+				type: "item"
+				item: "appliedenergistics2:logic_processor"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["28B3F16585CCAA8C"]
+			id: "6C1EE16D4AA03A71"
+			tasks: [
+				{
+					id: "0ACE36CE8A5F59BC"
+					type: "item"
+					item: "appliedenergistics2:annihilation_core"
+				}
+				{
+					id: "2FF370C01C474627"
+					type: "item"
+					item: "appliedenergistics2:formation_core"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["302A14893184E904"]
+			id: "449CCE5E1674680A"
+			tasks: [{
+				id: "4408D42540722A22"
+				type: "item"
+				item: "appliedenergistics2:calculation_processor"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["449CCE5E1674680A"]
+			id: "3DD164A7CCF1879B"
+			tasks: [{
+				id: "7B1D00E831C48A8F"
+				type: "item"
+				item: "appliedenergistics2:crafting_terminal"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["2DAA6AE3711E9E81"]
+			id: "184396D0A3D68C55"
+			tasks: [{
+				id: "5E4A9B8E187FC53A"
+				type: "item"
+				item: "appliedenergistics2:quartz_glass"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["302A14893184E904"]
+			id: "2DAA6AE3711E9E81"
+			tasks: [{
+				id: "2D116771AF0F17A0"
+				type: "checkmark"
+				title: "Кварцевая пыль"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			dependencies: ["184396D0A3D68C55"]
+			id: "332C0E15929555BE"
+			tasks: [{
+				id: "38273E38C86A1140"
+				type: "item"
+				item: "appliedenergistics2:quartz_vibrant_glass"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			id: "3D34B35135EE0F38"
+			tasks: [{
+				id: "4309AB1B3B76719A"
+				type: "structure"
+				structure: "minecraft:mineshaft"
 			}]
 		}
 	]

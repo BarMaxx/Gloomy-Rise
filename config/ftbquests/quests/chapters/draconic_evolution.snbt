@@ -138,8 +138,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 0.0d
+			x: -1.0d
+			y: -1.5d
 			description: ["Один из основных компонетов в моде. С его помощью Вам будет доступен крафт &6Инструментов Дракона&f."]
 			dependencies: ["370EFA552B43333C"]
 			id: "2997208A5AC1C2FA"
@@ -158,8 +158,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 0.0d
+			x: -1.5d
+			y: -3.0d
 			description: ["Один из основных компонетов в моде. Используется во многих крафтах, в том числе используется для создания &8Ядра Хаоса&f."]
 			dependencies: ["2997208A5AC1C2FA"]
 			id: "452EC9F116716CAF"
@@ -178,8 +178,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 0.0d
+			x: -1.5d
+			y: -4.5d
 			description: ["Один из основных компонетов в моде. Используется во многих сложных крафтах, таких как &5Ядро дракониевого реактора&f и &8Посох силы Хаоса&f."]
 			dependencies: ["452EC9F116716CAF"]
 			id: "1CB284EFCE071269"
@@ -198,8 +198,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 1.5d
+			x: -2.5d
+			y: -5.0d
 			description: ["Может хранить большое количество энергии."]
 			dependencies: ["1CB284EFCE071269"]
 			id: "0BE8D1916B327D53"
@@ -246,8 +246,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -1.5d
+			x: -0.5d
+			y: -5.0d
 			subtitle: "Стабильность - наше всё"
 			description: ["Стабилизатор... А зачем?.."]
 			dependencies: ["1CB284EFCE071269"]
@@ -259,8 +259,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -2.5d
+			x: 1.5d
+			y: -2.0d
 			description: ["Многофункциональный сундучок."]
 			dependencies: ["73DB03CB10F94474"]
 			id: "27B13C42A42B0845"
@@ -472,6 +472,176 @@
 					}
 				}
 			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["370EFA552B43333C"]
+			id: "69C158F66D3192A9"
+			tasks: [{
+				id: "42FB1FB1BFCBA5C7"
+				type: "item"
+				item: "draconicevolution:grinder"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			dependencies: ["2997208A5AC1C2FA"]
+			id: "108368020E96A99E"
+			tasks: [{
+				id: "02372155447A5940"
+				type: "item"
+				item: "draconicevolution:reactor_prt_stab_frame"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			dependencies: ["108368020E96A99E"]
+			id: "196691B0B365CB53"
+			tasks: [{
+				id: "1333F3BE9381A8E4"
+				type: "item"
+				item: "draconicevolution:reactor_stabilizer"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			dependencies: ["452EC9F116716CAF"]
+			id: "657F4FD182A67254"
+			tasks: [{
+				id: "398744B51B86AB01"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_capacitor"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1926940438
+									-646428517
+									-1611230550
+									1052247646
+								]
+								modules: [ ]
+								properties: {
+									charge_main: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_armor: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["2997208A5AC1C2FA"]
+			id: "0EA249A69E645A05"
+			tasks: [{
+				id: "568A263DDCFBE5CF"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_capacitor"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-45210691
+									2007647531
+									-1362897378
+									-327941428
+								]
+								modules: [ ]
+								properties: {
+									charge_main: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_armor: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			dependencies: ["2997208A5AC1C2FA"]
+			id: "06AE7589D6DED0AE"
+			tasks: [{
+				id: "2D5A8A8D44C34EAA"
+				type: "item"
+				item: "draconicevolution:reactor_prt_focus_ring"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: [
+				"2997208A5AC1C2FA"
+				"4597E5DE9B201D92"
+			]
+			id: "050F9A2BE43F0E37"
+			tasks: [{
+				id: "2A6F14C69D68158F"
+				type: "item"
+				item: "draconicevolution:reactor_prt_rotor_full"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			dependencies: ["370EFA552B43333C"]
+			id: "4597E5DE9B201D92"
+			tasks: [
+				{
+					id: "0DC9C47A8A2C0D29"
+					type: "item"
+					item: "draconicevolution:reactor_prt_out_rotor"
+				}
+				{
+					id: "596AB7321C9941A5"
+					type: "item"
+					item: "draconicevolution:reactor_prt_in_rotor"
+				}
+			]
 		}
 	]
 }
