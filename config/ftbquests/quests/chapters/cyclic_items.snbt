@@ -15,8 +15,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -0.5d
-			y: -0.5d
+			x: -2.5d
+			y: 0.0d
 			dependencies: ["080EBE142932F2C2"]
 			id: "2FAD213C35AE37CD"
 			tasks: [{
@@ -32,7 +32,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 0.0d
 			y: 0.0d
 			dependencies: ["2BE4EE71E33BAAD3"]
 			id: "19F6DCFA0E59F3DC"
@@ -43,8 +43,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 1.0d
+			x: 0.0d
+			y: 1.5d
 			dependencies: ["19F6DCFA0E59F3DC"]
 			id: "21052795A3692286"
 			tasks: [{
@@ -54,8 +54,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -1.0d
+			x: -0.5d
+			y: -1.5d
 			dependencies: ["19F6DCFA0E59F3DC"]
 			id: "0A2C3E26BDBE41C0"
 			tasks: [{
@@ -71,8 +71,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -1.0d
+			x: 0.5d
+			y: -1.5d
 			dependencies: ["19F6DCFA0E59F3DC"]
 			id: "79413873E1036A78"
 			tasks: [{
@@ -88,7 +88,7 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: -1.0d
 			y: 0.0d
 			dependencies: ["19F6DCFA0E59F3DC"]
 			id: "299AA5DCCA2E5691"
@@ -105,7 +105,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 1.5d
 			y: 0.0d
 			dependencies: [
 				"19F6DCFA0E59F3DC"
@@ -125,8 +125,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -1.0d
+			x: 5.0d
+			y: 0.0d
 			dependencies: ["36F00B0AF9DE5B89"]
 			id: "3C6A7B86A18F45C3"
 			tasks: [{
@@ -136,7 +136,7 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 3.0d
 			y: 0.0d
 			dependencies: ["3C6A7B86A18F45C3"]
 			id: "2D6EEA171DB1C5A1"
@@ -147,8 +147,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 1.0d
+			x: 2.5d
+			y: 1.5d
 			dependencies: ["2D6EEA171DB1C5A1"]
 			id: "7FCC457C94DB2C05"
 			tasks: [{
@@ -158,8 +158,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 1.0d
+			x: 3.5d
+			y: 1.5d
 			dependencies: ["2D6EEA171DB1C5A1"]
 			id: "737BE8D38FAB0ED7"
 			tasks: [{
@@ -175,8 +175,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -2.0d
+			x: 5.0d
+			y: -1.5d
 			dependencies: ["3C6A7B86A18F45C3"]
 			id: "074557DCDDFF614A"
 			tasks: [{
@@ -186,8 +186,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -1.0d
+			x: 7.0d
+			y: 0.0d
 			dependencies: ["3C6A7B86A18F45C3"]
 			id: "6FE6A2590FCD560C"
 			tasks: [{
@@ -197,8 +197,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -1.0d
+			x: 8.5d
+			y: 0.0d
 			dependencies: ["6FE6A2590FCD560C"]
 			id: "543FC60F1C5DDEDB"
 			tasks: [{
@@ -208,8 +208,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -2.0d
+			x: 6.0d
+			y: -1.0d
 			dependencies: ["3C6A7B86A18F45C3"]
 			id: "4DEC5CDCB5AF51AD"
 			tasks: [{
@@ -219,7 +219,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 4.0d
 			y: -1.0d
 			dependencies: ["3C6A7B86A18F45C3"]
 			id: "2BC9A08F2E0EEF0A"
@@ -230,8 +230,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 0.0d
+			x: 7.0d
+			y: 1.0d
 			dependencies: ["6FE6A2590FCD560C"]
 			id: "1C9C44F8BEA83920"
 			tasks: [{
@@ -247,7 +247,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 9.5d
 			y: 0.0d
 			dependencies: ["543FC60F1C5DDEDB"]
 			id: "18D40D5923A10C2C"
@@ -258,8 +258,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -2.0d
+			x: 3.0d
+			y: -1.5d
 			dependencies: ["2BC9A08F2E0EEF0A"]
 			id: "7252E7DD81E6A637"
 			tasks: [{
@@ -275,8 +275,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -3.0d
+			x: 7.0d
+			y: -1.5d
 			dependencies: ["4DEC5CDCB5AF51AD"]
 			id: "5E9A2735BF96AFB4"
 			tasks: [{
@@ -292,7 +292,7 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 9.0d
 			y: -1.5d
 			dependencies: ["543FC60F1C5DDEDB"]
 			id: "1E25E60B970132AD"
@@ -303,8 +303,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -0.5d
+			x: 9.0d
+			y: 1.5d
 			dependencies: ["543FC60F1C5DDEDB"]
 			id: "05E3612DC289AEC1"
 			tasks: [{
@@ -314,8 +314,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -2.5d
+			x: 10.0d
+			y: -2.0d
 			dependencies: ["1E25E60B970132AD"]
 			id: "77F9FBBF15946F48"
 			tasks: [{
@@ -325,8 +325,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 0.5d
+			x: 10.0d
+			y: 2.0d
 			dependencies: ["05E3612DC289AEC1"]
 			id: "3837DCE4A11D3CA2"
 			tasks: [{
@@ -337,7 +337,7 @@
 		}
 		{
 			x: 4.5d
-			y: -3.0d
+			y: -2.5d
 			dependencies: ["074557DCDDFF614A"]
 			id: "10EB03B990CF8302"
 			tasks: [{
@@ -364,8 +364,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 1.0d
+			x: -0.5d
+			y: 3.0d
 			dependencies: ["21052795A3692286"]
 			id: "23352FC6ED0B795C"
 			tasks: [{
@@ -375,8 +375,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 1.0d
+			x: 1.5d
+			y: 1.5d
 			dependencies: ["21052795A3692286"]
 			id: "6DD536E63643063E"
 			tasks: [{
@@ -400,8 +400,8 @@
 					Damage: 0
 				}
 			}
-			x: 2.0d
-			y: 2.0d
+			x: -1.0d
+			y: 1.5d
 			dependencies: ["21052795A3692286"]
 			id: "6CE57A23BE58885F"
 			tasks: [
@@ -460,8 +460,8 @@
 					Damage: 0
 				}
 			}
-			x: 1.0d
-			y: 2.0d
+			x: 0.5d
+			y: 3.0d
 			dependencies: ["21052795A3692286"]
 			id: "776F6548CDE9E177"
 			tasks: [
@@ -512,8 +512,8 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: 3.0d
+			x: 1.5d
+			y: 3.5d
 			dependencies: ["776F6548CDE9E177"]
 			id: "3013853FA43341F6"
 			tasks: [{
@@ -529,8 +529,9 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -4.0d
 			y: 0.0d
+			dependencies: ["114FD26AF2B063E3"]
 			id: "0A323ED82C02D5EB"
 			tasks: [{
 				id: "7E806F6BD6B44629"
@@ -539,7 +540,7 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -4.5d
 			y: 1.0d
 			dependencies: ["0A323ED82C02D5EB"]
 			id: "048E609A1503E95B"
@@ -550,7 +551,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -3.5d
 			y: 1.5d
 			dependencies: ["048E609A1503E95B"]
 			id: "77371D58B776F8F4"
@@ -561,7 +562,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -5.5d
 			y: 1.5d
 			dependencies: ["048E609A1503E95B"]
 			id: "6EB979F256FD586A"
@@ -572,7 +573,7 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: -6.0d
 			y: 2.5d
 			dependencies: ["6EB979F256FD586A"]
 			id: "54197D8FFFBFD766"
@@ -583,7 +584,7 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: -5.5d
 			y: 3.5d
 			dependencies: ["54197D8FFFBFD766"]
 			id: "74F7A22A532641BD"
@@ -594,7 +595,7 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -4.5d
 			y: -1.0d
 			dependencies: ["0A323ED82C02D5EB"]
 			id: "5A81B6AF9275D11B"
@@ -605,8 +606,9 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 2.0d
+			x: 5.25d
+			y: 2.5d
+			dependencies: ["114FD26AF2B063E3"]
 			id: "5E4565B2710ED109"
 			tasks: [{
 				id: "16E8778BB0565300"
@@ -616,7 +618,8 @@
 		}
 		{
 			x: 4.5d
-			y: 2.0d
+			y: 1.5d
+			dependencies: ["114FD26AF2B063E3"]
 			id: "55CC578EE23DADE0"
 			tasks: [{
 				id: "2EE63EC2F87BE617"
@@ -631,8 +634,9 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 3.0d
+			x: 3.25d
+			y: 4.25d
+			dependencies: ["114FD26AF2B063E3"]
 			id: "554EC6E7881EBD18"
 			tasks: [{
 				id: "56B6162C5BD07A9D"
@@ -647,8 +651,9 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 3.0d
+			x: 4.5d
+			y: 3.5d
+			dependencies: ["114FD26AF2B063E3"]
 			id: "4ECF07F7D9B05196"
 			tasks: [{
 				id: "3F2BFE0317DA5DE0"
@@ -664,7 +669,7 @@
 		}
 		{
 			x: 2.5d
-			y: 4.0d
+			y: 5.0d
 			hide_dependency_lines: true
 			dependencies: ["19F6DCFA0E59F3DC"]
 			id: "0928429679D38D19"
@@ -681,8 +686,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 4.0d
+			x: 4.0d
+			y: 5.0d
 			dependencies: ["0928429679D38D19"]
 			id: "798638FEB2C95F1C"
 			tasks: [{
@@ -698,8 +703,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 1.5d
+			x: -1.5d
+			y: 3.5d
 			dependencies: ["23352FC6ED0B795C"]
 			id: "561EEF69D864BC71"
 			tasks: [{
@@ -715,8 +720,9 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -1.0d
+			x: 8.5d
+			y: 4.5d
+			dependencies: ["114FD26AF2B063E3"]
 			id: "60859FAD0AF03D24"
 			tasks: [{
 				id: "2091E0E80B2282FB"
@@ -725,8 +731,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 0.0d
+			x: 9.0d
+			y: 5.5d
 			hide_dependency_lines: true
 			dependencies: ["60859FAD0AF03D24"]
 			id: "73331D44F8185847"
@@ -737,8 +743,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 0.0d
+			x: 8.0d
+			y: 5.5d
 			hide_dependency_lines: true
 			dependencies: ["60859FAD0AF03D24"]
 			id: "29A4C2205E5182B6"
@@ -749,8 +755,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -1.0d
+			x: 9.5d
+			y: 4.5d
 			hide_dependency_lines: true
 			dependencies: ["60859FAD0AF03D24"]
 			id: "350E30D77C3412C5"
@@ -761,8 +767,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -1.0d
+			x: 7.5d
+			y: 4.5d
 			hide_dependency_lines: true
 			dependencies: ["60859FAD0AF03D24"]
 			id: "2E82D16E2E798ECD"
@@ -773,8 +779,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -2.0d
+			x: 9.0d
+			y: 3.5d
 			hide_dependency_lines: true
 			dependencies: ["60859FAD0AF03D24"]
 			id: "49EBE6AD2B6A7BED"
@@ -785,8 +791,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -2.0d
+			x: 8.0d
+			y: 3.5d
 			hide_dependency_lines: true
 			dependencies: ["60859FAD0AF03D24"]
 			id: "2919F8B168B3E370"
@@ -797,8 +803,9 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 1.0d
+			x: 6.0d
+			y: 3.5d
+			dependencies: ["114FD26AF2B063E3"]
 			id: "7BBD2E82B7D4BBCB"
 			tasks: [{
 				id: "06049CC7AD32E8E1"
@@ -807,8 +814,9 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 1.0d
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["114FD26AF2B063E3"]
 			id: "7A90DA0EC5FD1BFB"
 			tasks: [{
 				id: "1678F5D95BB28BF8"

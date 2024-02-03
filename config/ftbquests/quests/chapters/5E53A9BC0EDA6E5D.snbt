@@ -238,7 +238,7 @@
 		}
 		{
 			x: 6.5d
-			y: 1.0d
+			y: -1.5d
 			description: ["В плавильной печи можно переплавлять руды в несколько раз быстрее, чем в печке. А также из плавильной печи можно создать обожжённую плавильную печь."]
 			dependencies: ["7CA023B662360C6A"]
 			id: "459270456C29E625"
@@ -247,100 +247,6 @@
 				type: "item"
 				item: "minecraft:blast_furnace"
 			}]
-		}
-		{
-			icon: "tconstruct:seared_melter"
-			x: 6.0d
-			y: 2.0d
-			subtitle: "Мини-версия Плавильни!"
-			description: ["Обожжённая плавильная печь нужна для выплавки контроллера плавильни. Для этого нужно поставить обожжённую плавильную печь над обожжённым резервуаром и залить туда лаву. Далее нужно выплавить медь и, с помощью крана, вылить её в литейный резервувар с обожжённым нагревателем."]
-			dependencies: [
-				"459270456C29E625"
-				"7DF597AE179194C4"
-			]
-			id: "40464E10E7F97A6A"
-			tasks: [
-				{
-					id: "4FD16FF4629E0591"
-					type: "item"
-					item: "tconstruct:seared_melter"
-				}
-				{
-					id: "545C817DC1D43A87"
-					type: "item"
-					item: "tconstruct:seared_fuel_tank"
-				}
-				{
-					id: "6326E885238142C8"
-					type: "item"
-					item: "tconstruct:seared_basin"
-				}
-				{
-					id: "49B1A0A34A1CDBA4"
-					type: "item"
-					item: "tconstruct:seared_faucet"
-				}
-			]
-			rewards: [{
-				id: "2E51739D6B599F0D"
-				type: "item"
-				item: "tconstruct:seared_heater"
-			}]
-		}
-		{
-			x: 5.5d
-			y: 1.0d
-			description: ["Обожжённые кирпичи можно выплавить в печке из цемента. Эти кирпичи понадобятся для создания различных частей &8плавильни&f."]
-			dependencies: ["7CA023B662360C6A"]
-			id: "7DF597AE179194C4"
-			tasks: [{
-				id: "0C7A87AC97EDDC59"
-				type: "item"
-				title: "Обожжённый кирпич"
-				item: "tconstruct:seared_brick"
-				count: 16L
-			}]
-			rewards: [{
-				id: "1ACD772752852593"
-				type: "item"
-				item: "tconstruct:seared_brick"
-				count: 8
-				random_bonus: 4
-			}]
-		}
-		{
-			title: "Плавильня"
-			icon: "tconstruct:smeltery_controller"
-			x: 6.0d
-			y: 3.5d
-			shape: "rsquare"
-			description: ["Чтобы построить плавильню нужно поставить контроллер плавильни и обожжённые кирпичи, например 3х3, 5х5 и т.п. Далее необходимо добавлять сливы плавильни, краны, литейные столы и резервуары. Плавильня нужна для более выгодной переплавки ресурсов, создания сплавов и выплавки инструментов."]
-			dependencies: ["40464E10E7F97A6A"]
-			id: "717BF6EE7925AD56"
-			tasks: [
-				{
-					id: "59D37D7FBA55E80D"
-					type: "item"
-					item: "tconstruct:smeltery_controller"
-				}
-				{
-					id: "6936EB72969A5096"
-					type: "item"
-					item: "tconstruct:seared_table"
-				}
-				{
-					id: "7AC54BF9A1259184"
-					type: "item"
-					item: "tconstruct:seared_drain"
-				}
-				{
-					id: "02F65812D02C4271"
-					type: "item"
-					title: "Обожжённые кирпичи"
-					item: "tconstruct:seared_bricks"
-					count: 8L
-				}
-			]
 		}
 		{
 			x: 7.5d
@@ -702,73 +608,50 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 4.5d
-			dependencies: ["717BF6EE7925AD56"]
-			id: "5730587DF321D717"
+			x: 5.5d
+			y: -1.5d
+			dependencies: ["7CA023B662360C6A"]
+			id: "4F6DDAD39A65752A"
 			tasks: [{
-				id: "7E86D41489170BC7"
+				id: "76EC4ADDD9642006"
 				type: "item"
-				item: "tconstruct:rose_gold_ingot"
+				item: "minecraft:smoker"
 			}]
 		}
 		{
-			x: 7.5d
-			y: 5.5d
-			dependencies: ["5730587DF321D717"]
-			id: "7708CD3F3B4F6E2E"
+			x: 6.5d
+			y: 1.5d
+			dependencies: ["7CA023B662360C6A"]
+			id: "2C2ECA715409F02A"
 			tasks: [{
-				id: "585F7FB5BB761BC4"
+				id: "505CB972828BE628"
 				type: "item"
-				item: "tconstruct:rose_gold_block"
+				item: "minecraft:terracotta"
 			}]
 		}
 		{
-			x: 5.0d
-			y: 4.5d
-			dependencies: ["717BF6EE7925AD56"]
-			id: "4A60D153AD21256C"
+			x: 5.5d
+			y: 1.5d
+			dependencies: ["7CA023B662360C6A"]
+			id: "7E26F7808D45315B"
 			tasks: [{
-				id: "1858F33C15CCBDA1"
+				id: "789682BB56795EDD"
 				type: "item"
-				item: "tconstruct:tinkers_bronze_ingot"
-			}]
-		}
-		{
-			x: 4.5d
-			y: 5.5d
-			dependencies: ["4A60D153AD21256C"]
-			id: "0CEF26C65DFB6C95"
-			tasks: [{
-				id: "269F2D5AD09157E2"
-				type: "item"
-				item: "tconstruct:tinkers_bronze_block"
+				item: "minecraft:smooth_stone"
 			}]
 		}
 		{
 			x: 6.0d
-			y: 5.0d
-			dependencies: ["717BF6EE7925AD56"]
-			id: "4EBB6341CB8F0B1E"
-			tasks: [{
-				id: "45FFF98FEB8AB048"
-				type: "item"
-				item: "tconstruct:slimesteel_ingot"
-			}]
-		}
-		{
-			x: 6.0d
-			y: 6.5d
+			y: 3.0d
 			dependencies: [
-				"0CEF26C65DFB6C95"
-				"7708CD3F3B4F6E2E"
-				"4EBB6341CB8F0B1E"
+				"2C2ECA715409F02A"
+				"7E26F7808D45315B"
 			]
-			id: "3C35436F10701C27"
+			id: "01FEED9BD3F35C94"
 			tasks: [{
-				id: "0B0829FB7B8E8BD6"
+				id: "75D3678692FBDB5F"
 				type: "item"
-				item: "artisanworktables:worktable_engineer"
+				item: "artisanworktables:worktable_potter"
 			}]
 		}
 	]

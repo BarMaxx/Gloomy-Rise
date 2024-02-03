@@ -1404,5 +1404,88 @@
 				}
 			]
 		}
+		{
+			x: 3.0d
+			y: -5.0d
+			dependencies: ["0DF5446228C8B608"]
+			id: "6FAA0E1C481516D5"
+			tasks: [
+				{
+					id: "72B2F654FC98B708"
+					type: "questsadditions:structure"
+					title: "[Структура]: Ритуальный пьедестал"
+					name: "ritual_pedestal"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "47E452296AA03DAC"
+					type: "item"
+					item: "astralsorcery:marble_arch"
+					count: 20L
+				}
+				{
+					id: "40D34C6FE3380E68"
+					type: "item"
+					item: "astralsorcery:marble_bricks"
+					count: 24L
+				}
+				{
+					id: "2E134E12725FD916"
+					type: "item"
+					item: "astralsorcery:marble_chiseled"
+				}
+				{
+					id: "2FE18C8F190D08EA"
+					type: "item"
+					item: "astralsorcery:marble_raw"
+					count: 12L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -5.0d
+			dependencies: ["3B94386003DA20C5"]
+			id: "14C6F04A06D2B7C2"
+			tasks: [
+				{
+					id: "3EDE546D217665A3"
+					type: "questsadditions:structure"
+					title: "[Структура]: Небесные врата"
+					name: "celestial_gateway"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "0F0F29DA71723D94"
+					type: "item"
+					item: "astralsorcery:marble_arch"
+					count: 20L
+				}
+				{
+					id: "6A2FC09106326B78"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+					count: 25L
+				}
+				{
+					id: "75F7442E99B136A1"
+					type: "item"
+					item: "astralsorcery:marble_runed"
+					count: 4L
+				}
+				{
+					id: "746A324D90EDC519"
+					type: "item"
+					item: "astralsorcery:marble_engraved"
+					count: 4L
+				}
+			]
+		}
 	]
 }

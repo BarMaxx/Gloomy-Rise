@@ -5,7 +5,7 @@
 	filename: "tconstruct"
 	title: "{quests.gloomy_rise.progress.casting.chapter_title}"
 	icon: "tconstruct:smeltery_controller"
-	default_quest_shape: ""
+	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
 	quests: [
 		{
@@ -169,7 +169,7 @@
 				""
 				"{quests.gloomy_rise.progress.casting.tinkers_chest.description_2}"
 			]
-			dependencies: ["2056D573224030CB"]
+			dependencies: ["0CAB7D05282FDB38"]
 			id: "256F4A2C1652CCA9"
 			tasks: [{
 				id: "031BB1764D1D4C12"
@@ -274,18 +274,6 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 0.0d
-			shape: "pentagon"
-			dependencies: ["2B82C41442D79872"]
-			id: "38B2F92A2A93F00A"
-			tasks: [{
-				id: "3BD2CEF3CD48D04F"
-				type: "item"
-				item: "tconstruct:seared_melter"
-			}]
-		}
-		{
 			x: 4.0d
 			y: -1.5d
 			dependencies: ["4702BCF6E921AEE5"]
@@ -299,7 +287,7 @@
 		{
 			x: 2.0d
 			y: 1.0d
-			dependencies: ["7DF597AE179194C4"]
+			dependencies: ["2351D3844B34F991"]
 			id: "491EA29960A5595F"
 			tasks: [{
 				id: "109C1C292815AE3A"
@@ -308,23 +296,10 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -1.5d
-			shape: "rsquare"
-			dependencies: ["089896D5D998D573"]
-			size: 1.2d
-			id: "2397B40592331E40"
-			tasks: [{
-				id: "59D8DBD5923B2B61"
-				type: "item"
-				item: "tconstruct:smeltery_controller"
-			}]
-		}
-		{
 			x: 3.5d
 			y: 0.0d
 			shape: "square"
-			dependencies: ["7DF597AE179194C4"]
+			dependencies: ["2351D3844B34F991"]
 			id: "4702BCF6E921AEE5"
 			tasks: [{
 				id: "416725A3F45CB8AF"
@@ -335,7 +310,7 @@
 		{
 			x: 7.5d
 			y: -0.5d
-			dependencies: ["38B2F92A2A93F00A"]
+			dependencies: ["40464E10E7F97A6A"]
 			id: "089896D5D998D573"
 			tasks: [{
 				id: "106312689F18EE6C"
@@ -427,7 +402,7 @@
 		{
 			x: 8.5d
 			y: -0.5d
-			dependencies: ["2397B40592331E40"]
+			dependencies: ["717BF6EE7925AD56"]
 			id: "58CDF172088BCD26"
 			tasks: [{
 				id: "1FD4095A99531761"
@@ -495,7 +470,7 @@
 			x: 8.0d
 			y: -3.0d
 			shape: "pentagon"
-			dependencies: ["2397B40592331E40"]
+			dependencies: ["717BF6EE7925AD56"]
 			size: 1.1d
 			id: "53918F14A6386DFF"
 			tasks: [{
@@ -555,7 +530,7 @@
 			x: 6.5d
 			y: -1.5d
 			shape: "square"
-			dependencies: ["2397B40592331E40"]
+			dependencies: ["717BF6EE7925AD56"]
 			id: "14F4C62B8767C420"
 			tasks: [{
 				id: "610C51931D8B38A0"
@@ -567,7 +542,7 @@
 			x: 9.5d
 			y: -1.5d
 			shape: "square"
-			dependencies: ["2397B40592331E40"]
+			dependencies: ["717BF6EE7925AD56"]
 			id: "6B438093B81CA809"
 			tasks: [{
 				id: "2537D3D730029512"
@@ -825,7 +800,7 @@
 				""
 				"{quests.gloomy_rise.progress.casting.additional_information_for_tinker_station.description_3}"
 			]
-			dependencies: ["3F9C1972FF445BA5"]
+			dependencies: ["7E272DEB7D75FE79"]
 			id: "7129957F7A6CF54A"
 			tasks: [{
 				id: "0787CF0A5E7AA57D"
@@ -862,6 +837,84 @@
 				id: "752F260C6A371B0C"
 				type: "random"
 				title: "{quests.gloomy_rise.progress.casting.additional_information_for_part_builder.reward_title}"
+			}]
+		}
+		{
+			title: "Плавильня"
+			icon: "tconstruct:smeltery_controller"
+			x: 8.0d
+			y: -1.5d
+			shape: "rsquare"
+			description: ["Чтобы построить плавильню нужно поставить контроллер плавильни и обожжённые кирпичи, например 3х3, 5х5 и т.п. Далее необходимо добавлять сливы плавильни, краны, литейные столы и резервуары. Плавильня нужна для более выгодной переплавки ресурсов, создания сплавов и выплавки инструментов."]
+			dependencies: ["089896D5D998D573"]
+			id: "717BF6EE7925AD56"
+			tasks: [
+				{
+					id: "59D37D7FBA55E80D"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "6936EB72969A5096"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "7AC54BF9A1259184"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "02F65812D02C4271"
+					type: "item"
+					title: "Обожжённые кирпичи"
+					item: "tconstruct:seared_bricks"
+					count: 8L
+				}
+			]
+		}
+		{
+			icon: "tconstruct:seared_melter"
+			x: 6.5d
+			y: 0.0d
+			shape: "pentagon"
+			subtitle: "Мини-версия Плавильни!"
+			description: ["Обожжённая плавильная печь нужна для выплавки контроллера плавильни. Для этого нужно поставить обожжённую плавильную печь над обожжённым резервуаром и залить туда лаву. Далее нужно выплавить медь и, с помощью крана, вылить её в литейный резервувар с обожжённым нагревателем."]
+			dependencies: ["2B82C41442D79872"]
+			id: "40464E10E7F97A6A"
+			tasks: [
+				{
+					id: "4FD16FF4629E0591"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "545C817DC1D43A87"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "6326E885238142C8"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "49B1A0A34A1CDBA4"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			dependencies: ["717BF6EE7925AD56"]
+			size: 1.5d
+			id: "3C35436F10701C27"
+			tasks: [{
+				id: "0B0829FB7B8E8BD6"
+				type: "item"
+				item: "artisanworktables:worktable_engineer"
 			}]
 		}
 	]

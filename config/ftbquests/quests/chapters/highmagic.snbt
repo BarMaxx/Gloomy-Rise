@@ -5,7 +5,7 @@
 	filename: "highmagic"
 	title: "Botania"
 	icon: "botania:life_essence"
-	default_quest_shape: ""
+	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
 	quests: [
 		{

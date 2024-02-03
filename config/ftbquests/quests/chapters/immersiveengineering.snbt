@@ -11,7 +11,7 @@
 			Damage: 0
 		}
 	}
-	default_quest_shape: ""
+	default_quest_shape: "square"
 	default_hide_dependency_lines: false
 	quests: [
 		{

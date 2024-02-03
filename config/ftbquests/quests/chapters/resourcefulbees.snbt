@@ -5,7 +5,7 @@
 	filename: "resourcefulbees"
 	title: "{chapter.gloomy_rise.resourceful_bees}"
 	icon: "minecraft:bee_nest"
-	default_quest_shape: ""
+	default_quest_shape: "pentagon"
 	default_hide_dependency_lines: false
 	quests: [
 		{
@@ -14,6 +14,7 @@
 			x: 0.0d
 			y: 0.0d
 			description: ["{quest.disc.gloomy_rise.beehives}"]
+			dependencies: ["114FD26AF2B063E3"]
 			id: "2A343152266646A5"
 			tasks: [{
 				id: "460F0165BCA77529"
@@ -43,7 +44,7 @@
 		{
 			title: "{quest.gloomy_rise.honeycomb}"
 			icon: "minecraft:honeycomb"
-			x: 1.0d
+			x: 1.5d
 			y: 0.0d
 			description: [
 				"{quest.disc.gloomy_rise.honeycomb}"
@@ -73,7 +74,7 @@
 		}
 		{
 			x: -0.5d
-			y: -2.0d
+			y: -1.5d
 			dependencies: ["73D8A15D7A0E9FA2"]
 			id: "0142DFF2C46560EA"
 			tasks: [{
@@ -83,8 +84,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 1.0d
+			x: 0.5d
+			y: 2.0d
 			dependencies: ["73D8A15D7A0E9FA2"]
 			id: "5B355BB482D828F6"
 			tasks: [{
@@ -95,8 +96,8 @@
 		}
 		{
 			title: "{quest.gloomy_rise.beeswax}"
-			x: 1.0d
-			y: 1.0d
+			x: 1.5d
+			y: 1.5d
 			description: [
 				"{quest.disc.gloomy_rise.beeswax}"
 				"{quest.disc_2.gloomy_rise.beeswax}"
@@ -125,8 +126,8 @@
 		}
 		{
 			title: "{quest.gloomy_rise.waxed_planks}"
-			x: 2.0d
-			y: 1.0d
+			x: 3.0d
+			y: 1.5d
 			description: ["{quest.disc.gloomy_rise.waxed_planks}"]
 			dependencies: ["2E643A824A69EC99"]
 			id: "4EEB122F54F669D8"
@@ -147,8 +148,8 @@
 		}
 		{
 			title: "{quest.gloomy_rise.trimmed_waxed_planks}"
-			x: 2.0d
-			y: 2.0d
+			x: 3.0d
+			y: 3.0d
 			description: ["{quest.disc.gloomy_rise.trimmed_waxed_planks}"]
 			dependencies: ["4EEB122F54F669D8"]
 			id: "3B987DD21F6CBD78"
@@ -169,7 +170,7 @@
 		}
 		{
 			title: "{quest.gloomy_rise.bee_box}"
-			x: 2.0d
+			x: 3.5d
 			y: 0.0d
 			description: ["{quest.disc.gloomy_rise.bee_box}"]
 			dependencies: ["4EEB122F54F669D8"]
@@ -182,8 +183,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -1.0d
+			x: 2.0d
+			y: -1.5d
 			dependencies: ["4CC1ADFC4A5FBC46"]
 			id: "4FA5E14FA7F8F5B7"
 			tasks: [{
@@ -201,8 +202,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -2.0d
+			x: 2.0d
+			y: -3.0d
 			dependencies: ["4FA5E14FA7F8F5B7"]
 			id: "0637D29D923CA21B"
 			tasks: [{
@@ -212,8 +213,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -2.5d
+			x: 1.0d
+			y: -3.5d
 			dependencies: ["0637D29D923CA21B"]
 			id: "48F6D60E9033D508"
 			tasks: [{
@@ -223,8 +224,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -3.5d
+			x: 0.5d
+			y: -4.5d
 			dependencies: ["48F6D60E9033D508"]
 			id: "2A5039A0F9FF590D"
 			tasks: [{
@@ -234,8 +235,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -4.5d
+			x: 0.5d
+			y: -6.0d
 			dependencies: ["2A5039A0F9FF590D"]
 			id: "46D2E50FE5C3ED45"
 			tasks: [{
@@ -245,8 +246,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -5.5d
+			x: 1.0d
+			y: -7.0d
 			dependencies: ["46D2E50FE5C3ED45"]
 			id: "3AB4847E863430A0"
 			tasks: [{
@@ -256,7 +257,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: -1.5d
 			y: 0.0d
 			dependencies: ["2A343152266646A5"]
 			id: "3F3ABEAAB3CBFB43"
@@ -267,7 +268,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -2.5d
 			y: 0.0d
 			dependencies: ["3F3ABEAAB3CBFB43"]
 			id: "56DF786302332F10"
@@ -279,7 +280,7 @@
 		}
 		{
 			x: 0.0d
-			y: 2.0d
+			y: 3.0d
 			dependencies: ["5B355BB482D828F6"]
 			id: "44A0CF02814F91DB"
 			tasks: [{
@@ -291,7 +292,7 @@
 		{
 			title: "{quest.gloomy_rise.bee_jar}"
 			x: 2.5d
-			y: -1.0d
+			y: 0.0d
 			description: ["{quest.disc.gloomy_rise.bee_jar}"]
 			hide_dependency_lines: true
 			dependencies: ["0A3C314079517ABF"]
@@ -305,8 +306,8 @@
 		}
 		{
 			title: "{quest.gloomy_rise.waxed_machine_block}"
-			x: 2.5d
-			y: 3.0d
+			x: 4.0d
+			y: 3.5d
 			description: ["{quest.disc.gloomy_rise.waxed_machine_block}"]
 			dependencies: ["3B987DD21F6CBD78"]
 			id: "3618177FD83078B9"
@@ -323,8 +324,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 4.0d
+			x: 3.5d
+			y: 4.5d
 			dependencies: ["3618177FD83078B9"]
 			id: "3D9F65233DC2122E"
 			tasks: [{
@@ -334,8 +335,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 4.0d
+			x: 4.5d
+			y: 4.5d
 			dependencies: ["3618177FD83078B9"]
 			id: "559D382AB4F4A197"
 			tasks: [{
@@ -345,8 +346,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 3.5d
+			x: 5.5d
+			y: 4.0d
 			dependencies: ["559D382AB4F4A197"]
 			id: "6E6CA155A3AC655D"
 			tasks: [{
@@ -356,8 +357,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 5.0d
+			x: 4.5d
+			y: 6.0d
 			dependencies: ["559D382AB4F4A197"]
 			id: "44BC89CCECD9C2D1"
 			tasks: [{
@@ -367,8 +368,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 5.5d
+			x: 5.5d
+			y: 6.5d
 			dependencies: ["44BC89CCECD9C2D1"]
 			id: "25877860A8FA18CA"
 			tasks: [{
@@ -378,8 +379,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -1.0d
+			x: -3.0d
+			y: -2.5d
 			dependencies: ["05EB7D069C18CA1E"]
 			id: "32AD1ECA1436A95D"
 			tasks: [{
@@ -390,7 +391,7 @@
 		}
 		{
 			x: -1.0d
-			y: -1.0d
+			y: -2.5d
 			dependencies: ["73D8A15D7A0E9FA2"]
 			id: "44520AB11AE92116"
 			tasks: [{
@@ -400,8 +401,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -2.0d
+			x: -2.0d
+			y: -1.5d
 			dependencies: [
 				"44520AB11AE92116"
 				"32AD1ECA1436A95D"
@@ -420,8 +421,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 1.0d
+			x: 4.5d
+			y: 1.5d
 			dependencies: ["4EEB122F54F669D8"]
 			id: "575A347885D58D1E"
 			tasks: [{
@@ -431,8 +432,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 0.5d
+			x: 5.5d
+			y: 1.0d
 			dependencies: ["575A347885D58D1E"]
 			id: "6535DEA336B25C50"
 			tasks: [{
@@ -442,8 +443,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 0.5d
+			x: 6.5d
+			y: 1.0d
 			dependencies: ["6535DEA336B25C50"]
 			id: "1930565B6C859EF9"
 			tasks: [{
@@ -453,8 +454,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 1.0d
+			x: 7.5d
+			y: 1.5d
 			dependencies: ["1930565B6C859EF9"]
 			id: "06FECD43738C1DF0"
 			tasks: [{
@@ -464,7 +465,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 3.0d
 			y: -2.5d
 			dependencies: ["0637D29D923CA21B"]
 			id: "071F193196B3CFBA"
@@ -475,8 +476,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 2.0d
+			x: 7.5d
+			y: 2.5d
 			dependencies: ["06FECD43738C1DF0"]
 			id: "4C00D476E1A1977F"
 			tasks: [{
@@ -486,8 +487,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 2.5d
+			x: 6.5d
+			y: 3.0d
 			dependencies: ["4C00D476E1A1977F"]
 			id: "34A680D78E297A31"
 			tasks: [{
@@ -497,8 +498,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 2.5d
+			x: 5.5d
+			y: 3.0d
 			dependencies: ["34A680D78E297A31"]
 			id: "46E3D4A1066FF298"
 			tasks: [{
@@ -508,8 +509,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 2.0d
+			x: 4.5d
+			y: 2.5d
 			dependencies: ["46E3D4A1066FF298"]
 			id: "56F1C88D52D1A4ED"
 			tasks: [{
@@ -520,8 +521,8 @@
 		}
 		{
 			title: "{quest.gloomy_rise.wooden_honey_tank}"
-			x: 1.5d
-			y: 3.0d
+			x: 2.0d
+			y: 3.5d
 			description: ["{quest.disc.gloomy_rise.wooden_honey_tank}"]
 			dependencies: ["3B987DD21F6CBD78"]
 			id: "141A67A080ACB2FB"
@@ -534,8 +535,8 @@
 		}
 		{
 			title: "{quest.gloomy_rise.nether_honey_tank}"
-			x: 1.0d
-			y: 4.0d
+			x: 1.5d
+			y: 4.5d
 			description: ["{quest.disc.gloomy_rise.nether_honey_tank}"]
 			dependencies: ["141A67A080ACB2FB"]
 			id: "3660B1FDAF6A6281"
@@ -548,8 +549,8 @@
 		}
 		{
 			title: "{quest.gloomy_rise.purpur_honey_tank}"
-			x: 1.0d
-			y: 5.0d
+			x: 1.5d
+			y: 5.5d
 			description: ["{quest.disc.gloomy_rise.purpur_honey_tank}"]
 			dependencies: ["3660B1FDAF6A6281"]
 			id: "4ED388AAB489CE84"
@@ -562,8 +563,8 @@
 		}
 		{
 			title: "{quest.gloomy_rise.ender_beecon}"
-			x: 1.5d
-			y: 6.0d
+			x: 2.0d
+			y: 6.5d
 			description: ["{quest.disc.gloomy_rise.ender_beecon}"]
 			dependencies: ["4ED388AAB489CE84"]
 			id: "1DFA60219A0D5002"
@@ -575,8 +576,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 2.0d
+			x: 1.5d
+			y: 2.5d
 			dependencies: ["2E643A824A69EC99"]
 			id: "11EE92E396FDEEC1"
 			tasks: [{
@@ -586,8 +587,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -1.0d
+			x: 1.0d
+			y: -1.5d
 			dependencies: ["4CC1ADFC4A5FBC46"]
 			id: "5C19AA9811080C9C"
 			tasks: [{
@@ -597,8 +598,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 1.0d
+			x: -1.5d
+			y: 1.5d
 			dependencies: ["3F3ABEAAB3CBFB43"]
 			id: "36F00B0AF9DE5B89"
 			tasks: [{
@@ -609,7 +610,7 @@
 		}
 		{
 			x: -2.0d
-			y: 1.0d
+			y: 2.5d
 			dependencies: ["36F00B0AF9DE5B89"]
 			id: "560F91469E587D03"
 			tasks: [{
@@ -619,8 +620,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -3.5d
+			x: 2.0d
+			y: -4.5d
 			dependencies: ["2A5039A0F9FF590D"]
 			id: "7E769D8AB2899A1B"
 			tasks: [{
@@ -631,7 +632,7 @@
 		}
 		{
 			x: -1.0d
-			y: -3.5d
+			y: -4.5d
 			dependencies: ["2A5039A0F9FF590D"]
 			id: "237A7BD20C19C9F4"
 			tasks: [{
@@ -641,7 +642,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 4.5d
 			y: 0.0d
 			hide_dependency_lines: true
 			dependencies: ["575A347885D58D1E"]
@@ -653,7 +654,7 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 5.5d
 			y: -0.5d
 			hide_dependency_lines: true
 			dependencies: ["6535DEA336B25C50"]
@@ -665,7 +666,7 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 6.5d
 			y: -0.5d
 			hide_dependency_lines: true
 			dependencies: ["1930565B6C859EF9"]
@@ -677,7 +678,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 7.5d
 			y: 0.0d
 			hide_dependency_lines: true
 			dependencies: ["06FECD43738C1DF0"]
