@@ -13,5 +13,7 @@ onEvent('item.registry', event => {
 	 
 	 event.create('raw_circuit').displayName('Сырая схема')
 	 
+	 event.create('raw_alloy').displayName('Сырой сплав')
+	 
 
 })
