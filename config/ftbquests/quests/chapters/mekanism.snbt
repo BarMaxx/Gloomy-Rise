@@ -117,9 +117,9 @@
 			dependencies: ["6180ACBB10C75460"]
 			id: "3E4E01EAE248DD83"
 			tasks: [{
-				id: "61A584342B4CE069"
-				type: "checkmark"
-				title: "Сырой сплав"
+				id: "33BA57E12C7B0FAF"
+				type: "item"
+				item: "kubejs:raw_alloy"
 			}]
 		}
 		{
@@ -550,6 +550,116 @@
 						HideFlags: 2
 					}
 				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			dependencies: ["1723DF54C9D0ABD2"]
+			id: "69D4F73296DABA04"
+			tasks: [{
+				id: "7FA2B5B155782B1F"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			dependencies: ["69D4F73296DABA04"]
+			id: "06849B39197B1D66"
+			tasks: [{
+				id: "5F9D4D79C7AE0F9E"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.5d
+			dependencies: ["06849B39197B1D66"]
+			id: "12BE3309A1C1C2A6"
+			tasks: [{
+				id: "17BD4955C35B0D06"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["18F8BADF3A3A940A"]
+			id: "36A1437381847FC0"
+			tasks: [{
+				id: "4F934AB01E3AE13E"
+				type: "item"
+				item: "kubejs:photocell"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			dependencies: ["36A1437381847FC0"]
+			id: "61C8682C4F98281E"
+			tasks: [{
+				id: "519FBC61BC067CF5"
+				type: "item"
+				item: "mekanismgenerators:solar_panel"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["4A45B94832C285FC"]
+			id: "5C17A21503F3E409"
+			tasks: [{
+				id: "439619948F6172DE"
+				type: "item"
+				item: "mekanism:reprocessed_fissile_fragment"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			dependencies: ["18F8BADF3A3A940A"]
+			id: "72E2CA93E1BD9265"
+			tasks: [{
+				id: "1E27CCB42FEC377B"
+				type: "item"
+				item: "mekanism:energy_tablet"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["61C8682C4F98281E"]
+			id: "135C9C687A55C680"
+			tasks: [{
+				id: "6FA618C029F01EE7"
+				type: "item"
+				item: "mekanismgenerators:solar_generator"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			dependencies: ["135C9C687A55C680"]
+			id: "38770A1C23D7B0C7"
+			tasks: [{
+				id: "2034E063E5F7FB65"
+				type: "item"
+				item: "mekanismgenerators:advanced_solar_generator"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			dependencies: ["72E2CA93E1BD9265"]
+			id: "47D6EAD9CB172256"
+			tasks: [{
+				id: "4E116EA7A5B0144F"
+				type: "item"
+				item: "mekanism:configurator"
 			}]
 		}
 	]

@@ -169,9 +169,9 @@
 		}
 		{
 			x: 7.5d
-			y: -0.5d
+			y: -2.5d
 			shape: "rsquare"
-			dependencies: ["326F1C58C473C6F8"]
+			dependencies: ["0FECBE85EEA809E7"]
 			id: "09B7710675B81B75"
 			tasks: [{
 				id: "3DB3AED7D496F3BA"
@@ -189,7 +189,7 @@
 		}
 		{
 			x: 8.5d
-			y: 0.5d
+			y: -1.5d
 			description: ["Распространитель маны гайи нужен, чтобы направить ману в нужную сторону."]
 			dependencies: ["09B7710675B81B75"]
 			id: "4D0FC6688E9FC9AA"
@@ -201,7 +201,7 @@
 		}
 		{
 			x: 6.5d
-			y: -1.0d
+			y: -3.5d
 			description: ["Интересно, для чего он нужен? :) Редактор: да я сам не знаю"]
 			dependencies: ["09B7710675B81B75"]
 			id: "5FF4161FAF6C3EE3"
@@ -383,8 +383,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 2.5d
+			x: 9.5d
+			y: 2.0d
 			description: ["Слиткок элементия можно получить при торговле с Эльфами. Этот слиток вам пригодится для создания многих вещей."]
 			dependencies: ["68040BDE850953C9"]
 			id: "0E1B37DA245F53F8"
@@ -403,8 +403,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: 2.5d
+			x: 11.5d
+			y: 2.0d
 			description: ["На мана-инфузере можно создавать много различных вещей. Например, слиток альфстали."]
 			dependencies: ["0E1B37DA245F53F8"]
 			id: "0E663FA329237DB2"
@@ -415,7 +415,7 @@
 			}]
 		}
 		{
-			x: 13.0d
+			x: 12.5d
 			y: 1.0d
 			description: ["Из слитка альфстали можно создавать много различных вещей. "]
 			dependencies: ["0E663FA329237DB2"]
@@ -435,7 +435,7 @@
 			}]
 		}
 		{
-			x: 13.0d
+			x: 12.5d
 			y: -0.5d
 			description: ["С помощью этого слитка можно создать неплохую броню."]
 			dependencies: ["1D9C8BDCF3A44B7A"]
@@ -455,7 +455,7 @@
 			}]
 		}
 		{
-			x: 11.5d
+			x: 11.0d
 			y: 1.0d
 			description: ["Неплохая бижутерия."]
 			dependencies: ["1D9C8BDCF3A44B7A"]
@@ -499,8 +499,8 @@
 			}]
 		}
 		{
-			x: 13.0d
-			y: 2.0d
+			x: 12.5d
+			y: 2.5d
 			subtitle: "Ещё один AIOT, чтоб вы не скучали)"
 			description: ["Универсальный инструмент из альфстали. Очень удобная вещь."]
 			dependencies: ["1D9C8BDCF3A44B7A"]
@@ -528,7 +528,7 @@
 					Damage: 0
 				}
 			}
-			x: 13.0d
+			x: 12.5d
 			y: -2.0d
 			description: ["Неплохая броня."]
 			dependencies: ["2F3B15149094466A"]
@@ -622,7 +622,7 @@
 		}
 		{
 			x: 9.0d
-			y: 6.0d
+			y: 6.5d
 			description: ["С помощью этого жезла можно создать руну Асгарда и бивёрстовый блок."]
 			dependencies: ["74D98C6A05DEDB79"]
 			id: "53A2CF06078A4F58"
@@ -634,7 +634,7 @@
 		}
 		{
 			x: 9.5d
-			y: 7.0d
+			y: 7.5d
 			description: ["С помощью этого блока можно создать сказочный бассейн маны."]
 			dependencies: ["53A2CF06078A4F58"]
 			id: "4100CBD80D74EF09"
@@ -654,7 +654,7 @@
 		}
 		{
 			x: 10.0d
-			y: 8.0d
+			y: 9.0d
 			description: ["Тот же бассейн маны, но немного эффективнее."]
 			dependencies: ["4100CBD80D74EF09"]
 			id: "1C0BA678CFF4EED8"
@@ -687,7 +687,7 @@
 		}
 		{
 			x: 11.0d
-			y: 8.5d
+			y: 9.5d
 			description: ["С помощью механического бассейна маны можно автоматизировать создание в бассейне маны."]
 			dependencies: ["1C0BA678CFF4EED8"]
 			id: "4467FBCA1A3A44CD"
@@ -711,7 +711,7 @@
 		}
 		{
 			x: 5.0d
-			y: 5.5d
+			y: 6.0d
 			description: ["С помощью механической варочной стойки можно автоматизировать зельеварение."]
 			dependencies: ["3F38DFF0F3035F6F"]
 			id: "4F66DEF26E8FFD6B"
@@ -767,8 +767,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 1.5d
+			x: 6.5d
+			y: -1.5d
 			dependencies: ["09B7710675B81B75"]
 			id: "49D92E8447E67665"
 			tasks: [{
@@ -779,7 +779,7 @@
 		}
 		{
 			x: 7.5d
-			y: -2.5d
+			y: -4.5d
 			dependencies: ["09B7710675B81B75"]
 			id: "4DB473036CEFBAAD"
 			tasks: [{
@@ -789,8 +789,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -4.0d
+			x: 8.5d
+			y: -5.5d
 			dependencies: ["4DB473036CEFBAAD"]
 			id: "291EB37C7A62072D"
 			tasks: [{
@@ -800,8 +800,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -4.5d
+			x: 9.5d
+			y: -6.0d
 			dependencies: ["291EB37C7A62072D"]
 			id: "099CF8BEB8137082"
 			tasks: [{
@@ -811,8 +811,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: -4.5d
+			x: 11.0d
+			y: -6.0d
 			dependencies: ["099CF8BEB8137082"]
 			id: "5F03EA4F9D189B66"
 			tasks: [{
@@ -829,7 +829,7 @@
 		}
 		{
 			x: 8.5d
-			y: -2.5d
+			y: -4.5d
 			dependencies: [
 				"4DB473036CEFBAAD"
 				"7997342B09227AD3"
@@ -883,8 +883,8 @@
 			]
 		}
 		{
-			x: 7.0d
-			y: -4.0d
+			x: 7.5d
+			y: -6.0d
 			dependencies: ["4DB473036CEFBAAD"]
 			id: "308E03AEF14E432E"
 			tasks: [{
@@ -894,8 +894,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -2.0d
+			x: 6.0d
+			y: -4.5d
 			dependencies: ["4DB473036CEFBAAD"]
 			id: "2923EAA48C133277"
 			tasks: [{
@@ -906,7 +906,7 @@
 		}
 		{
 			x: 6.5d
-			y: -3.0d
+			y: -5.5d
 			dependencies: ["4DB473036CEFBAAD"]
 			id: "5FE535D10ADEA846"
 			tasks: [{
@@ -917,7 +917,7 @@
 		}
 		{
 			x: 8.5d
-			y: -1.5d
+			y: -3.5d
 			dependencies: ["09B7710675B81B75"]
 			id: "7997342B09227AD3"
 			tasks: [{
@@ -927,8 +927,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 1.5d
+			x: 6.0d
+			y: -2.5d
 			dependencies: ["09B7710675B81B75"]
 			id: "058240900F1302C9"
 			tasks: [{
@@ -945,7 +945,7 @@
 		}
 		{
 			x: 9.0d
-			y: -0.5d
+			y: -2.5d
 			dependencies: ["09B7710675B81B75"]
 			id: "5898A9A41730E2C0"
 			tasks: [
@@ -980,7 +980,7 @@
 		}
 		{
 			x: 6.0d
-			y: 5.5d
+			y: 4.5d
 			dependencies: ["62197A04AA525CFE"]
 			id: "3E8AD8ED44F70B30"
 			tasks: [{
@@ -997,7 +997,7 @@
 		}
 		{
 			x: 7.0d
-			y: 6.5d
+			y: 7.0d
 			dependencies: ["62197A04AA525CFE"]
 			id: "17D8DCADFDA35FB6"
 			tasks: [{
@@ -1008,7 +1008,7 @@
 		}
 		{
 			x: 8.0d
-			y: 6.0d
+			y: 6.5d
 			dependencies: ["160A6C0968E774B0"]
 			id: "57E45D827C58C28E"
 			tasks: [{
@@ -1018,8 +1018,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 1.5d
+			x: 9.0d
+			y: 0.5d
 			dependencies: ["0E1B37DA245F53F8"]
 			id: "110EA71FC3AD41CD"
 			tasks: [
@@ -1174,8 +1174,8 @@
 			]
 		}
 		{
-			x: 10.5d
-			y: 1.5d
+			x: 10.0d
+			y: 0.5d
 			dependencies: ["0E1B37DA245F53F8"]
 			id: "6E47C11DCC6BFCBA"
 			tasks: [
@@ -1215,8 +1215,8 @@
 			]
 		}
 		{
-			x: 11.0d
-			y: -0.5d
+			x: 11.5d
+			y: -1.0d
 			dependencies: ["6B4F14EF8CE3FA06"]
 			id: "6BAA8619B9B2562B"
 			tasks: [{
@@ -1232,8 +1232,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 0.5d
+			x: 11.0d
+			y: 0.0d
 			dependencies: ["6E47C11DCC6BFCBA"]
 			id: "6B4F14EF8CE3FA06"
 			tasks: [{
@@ -1272,7 +1272,7 @@
 		}
 		{
 			x: 10.0d
-			y: 5.5d
+			y: 6.0d
 			dependencies: ["559B6D76D55C28BE"]
 			id: "3BA61AB004D1B9B5"
 			tasks: [{
@@ -1282,7 +1282,7 @@
 			}]
 		}
 		{
-			x: 13.0d
+			x: 13.5d
 			y: 4.5d
 			dependencies: ["652F12346B45ED30"]
 			id: "7D2506E12CDB8140"
@@ -1293,7 +1293,7 @@
 			}]
 		}
 		{
-			x: 13.0d
+			x: 13.5d
 			y: 3.0d
 			dependencies: ["652F12346B45ED30"]
 			id: "7A310F0C37C5AA96"
@@ -1304,7 +1304,7 @@
 			}]
 		}
 		{
-			x: 11.0d
+			x: 11.5d
 			y: 4.5d
 			dependencies: ["559B6D76D55C28BE"]
 			id: "56753D76248259F3"
@@ -1330,8 +1330,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 2.5d
+			x: 8.0d
+			y: 2.0d
 			dependencies: ["0E1B37DA245F53F8"]
 			id: "662C9812303FD52F"
 			tasks: [
@@ -1348,8 +1348,8 @@
 			]
 		}
 		{
-			x: 12.0d
-			y: 4.5d
+			x: 13.5d
+			y: 6.0d
 			dependencies: ["7D2506E12CDB8140"]
 			id: "4BC1E0DDC99CB669"
 			tasks: [{
@@ -1365,8 +1365,8 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: 6.0d
+			x: 14.5d
+			y: 5.5d
 			dependencies: ["7D2506E12CDB8140"]
 			id: "1F29360CF839D367"
 			tasks: [{
@@ -1383,7 +1383,7 @@
 		}
 		{
 			x: 12.5d
-			y: 6.0d
+			y: 5.5d
 			dependencies: ["7D2506E12CDB8140"]
 			id: "6D0EEAF9E1881ED2"
 			tasks: [{
@@ -1399,7 +1399,7 @@
 			}]
 		}
 		{
-			x: 14.0d
+			x: 15.0d
 			y: 4.5d
 			dependencies: ["7D2506E12CDB8140"]
 			id: "3F60A4331B71EF8E"
@@ -1410,7 +1410,7 @@
 			}]
 		}
 		{
-			x: 14.0d
+			x: 15.0d
 			y: 3.0d
 			dependencies: ["7A310F0C37C5AA96"]
 			id: "362B28464C84C8EF"
@@ -1425,8 +1425,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -5.0d
+			x: 8.5d
+			y: -7.0d
 			dependencies: ["291EB37C7A62072D"]
 			id: "1614F4C0D0F4C4A6"
 			tasks: [{
@@ -1444,7 +1444,7 @@
 		}
 		{
 			x: 9.0d
-			y: 8.0d
+			y: 9.0d
 			dependencies: ["4100CBD80D74EF09"]
 			id: "6444EE5497AF6663"
 			tasks: [{
@@ -1495,7 +1495,7 @@
 			]
 		}
 		{
-			x: 2.0d
+			x: 1.5d
 			y: 5.0d
 			dependencies: ["6CBF4953ACB7D3C4"]
 			id: "565B2283E039DE2C"
@@ -1512,7 +1512,7 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 1.5d
 			y: 6.0d
 			dependencies: ["6CBF4953ACB7D3C4"]
 			id: "505BE8C428F0E766"
@@ -1530,7 +1530,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 1.0d
 			y: 4.0d
 			dependencies: ["5BD9A7CE380B6670"]
 			id: "7E7706C256E3F95B"
@@ -1541,7 +1541,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: -0.5d
 			y: 4.0d
 			dependencies: ["7E7706C256E3F95B"]
 			id: "4D2EB3EB0840D7E0"
@@ -1549,6 +1549,17 @@
 				id: "466461A9DB766084"
 				type: "item"
 				item: "botania:auto_crafting_halo"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			dependencies: ["326F1C58C473C6F8"]
+			id: "0FECBE85EEA809E7"
+			tasks: [{
+				id: "30B0FCA7F4EA38B5"
+				type: "checkmark"
+				title: "Призыв Гайи"
 			}]
 		}
 	]
