@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -2.5d
+			x: -3.0d
 			y: 0.0d
 			subtitle: "Не настолько уж и ужасный"
 			dependencies: ["667EF198335C80D2"]
@@ -21,7 +21,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: 0.0d
 			y: 0.0d
 			description: ["С помощью жидкостного экстрактора можно вырабатывать &eлатекс&f. Для этого необходимо поставить бревно в рабочую зону механизма."]
 			dependencies: ["667EF198335C80D2"]
@@ -33,7 +33,7 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: 1.0d
 			y: 0.5d
 			description: ["Ведро латекса понадобится для создания юнита по производству латекса."]
 			dependencies: ["115B9FD4723D5951"]
@@ -50,7 +50,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 1.5d
 			y: 1.5d
 			description: ["В юните по производству латекса можно вырабатывать сухой кусочек резины с помощью &9воды&f и &eлатекса&f."]
 			dependencies: ["26EFC6835A48466A"]
@@ -62,7 +62,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 3.0d
 			y: 1.5d
 			description: ["Сухой кусочек резины нужен для создания &8сухой резины&f."]
 			dependencies: ["33D6D0B7AAE2127D"]
@@ -83,7 +83,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 4.0d
 			y: 1.5d
 			description: ["Сухая резина нужна для создания &7пластика&f."]
 			dependencies: ["1EE04FF854497BE4"]
@@ -103,7 +103,7 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 5.5d
 			y: 1.5d
 			description: ["Пластик - это очень важный элемент в высоких технологиях! Его здесь потребуется достаточно много."]
 			dependencies: ["352BFCCA7AC39428"]
@@ -124,7 +124,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 6.5d
 			y: 2.5d
 			description: ["С помощью завод-резня мобов можно получить жидкое мясо и розовую слизь."]
 			dependencies: ["6AF0C43A5DBB4655"]
@@ -136,7 +136,7 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 7.5d
 			y: 3.0d
 			description: ["С помощью розовой слизи можно создать много различных предметов в камере растворения."]
 			dependencies: ["6CF87CA08FF8433F"]
@@ -148,7 +148,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 6.5d
 			y: 0.5d
 			description: ["В камере растворения можно создавать много различных предметов."]
 			dependencies: ["6AF0C43A5DBB4655"]
@@ -160,7 +160,7 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 7.5d
 			y: 0.0d
 			description: ["Обычная рамка механизма нужна для создания различных механизмов и не только."]
 			dependencies: ["7D505AD12A920AD4"]
@@ -180,7 +180,7 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 8.5d
 			y: 1.5d
 			description: ["Продвинутая рамка механизма нужна для создания различных механизмов и не только."]
 			dependencies: [
@@ -204,7 +204,7 @@
 			}]
 		}
 		{
-			x: 9.0d
+			x: 11.0d
 			y: 1.5d
 			description: ["Ультимейтная рамка механизма нужна для создания различных механизмов и не только."]
 			dependencies: ["5A62FA4EFF26C661"]
@@ -224,7 +224,7 @@
 			}]
 		}
 		{
-			x: 10.5d
+			x: 12.5d
 			y: 1.5d
 			subtitle: "Да-да, не удивляйтесь"
 			description: ["Постройщик визеров строит визеров..."]
@@ -238,7 +238,7 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 7.5d
 			y: 4.5d
 			description: ["Слиток розовой слизи понадобится для создания &1Ядра дракона&f, а так метеоритового компаса...да здравствует AE2 ^_^"]
 			dependencies: ["53AEFDF1C60B2E4D"]
@@ -258,7 +258,7 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 8.5d
 			y: 5.5d
 			description: ["В станции промывки из руд можно получить их сырую мясную версию."]
 			dependencies: ["09AEF5AB3957D385"]
@@ -270,7 +270,7 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 4.5d
 			y: 0.5d
 			subtitle: "Теперь я Элита"
 			description: ["Элитный компонент понадобится для создания &3Элитного катализатора&f. А также понадобится для создания &1Элитного верстака&f."]
@@ -283,7 +283,7 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 4.5d
 			y: -0.5d
 			description: ["Элитный катализатор понадобится создания &1Элитного верстака&f."]
 			dependencies: ["2747859212DEE511"]
@@ -295,7 +295,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 5.0d
 			y: -1.5d
 			subtitle: "Вот теперь точно Элита"
 			description: ["Элитный верстак позволяет создавать крафты 7х7, например крафт &7брони&f, &3механизмов&f, и т.п."]
@@ -308,7 +308,7 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 6.0d
 			y: -2.0d
 			description: ["С помощью созданного Вами Элитного верстака можно создать Кристалтиновый слиток, который понадобится во многих крафтах."]
 			dependencies: ["2589ABE217B60E2B"]
@@ -326,7 +326,7 @@
 			}]
 		}
 		{
-			x: 12.0d
+			x: 14.0d
 			y: 1.5d
 			description: ["Это очень дорогой блок."]
 			dependencies: ["48307D4DB02D93CA"]
@@ -366,7 +366,7 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 9.5d
 			y: 0.0d
 			dependencies: ["5A62FA4EFF26C661"]
 			id: "007A2D0B2009FB35"
@@ -377,7 +377,7 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 9.5d
 			y: 3.0d
 			dependencies: ["5A62FA4EFF26C661"]
 			id: "63F6DDA2535316E7"
@@ -385,6 +385,492 @@
 				id: "300B2AEAF4578640"
 				type: "item"
 				item: "industrialforegoing:enchantment_factory"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			dependencies: ["667EF198335C80D2"]
+			id: "158745A788F271E9"
+			tasks: [{
+				id: "78733E103A5320FA"
+				type: "item"
+				item: "industrialforegoing:animal_rancher"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			dependencies: ["667EF198335C80D2"]
+			id: "5F28056C3F7B998E"
+			tasks: [{
+				id: "57CCE741E7448051"
+				type: "item"
+				item: "industrialforegoing:fluid_extractor"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["667EF198335C80D2"]
+			id: "79C6109835D4BAF8"
+			tasks: [{
+				id: "6C1DE26551C48F04"
+				type: "item"
+				item: "industrialforegoing:animal_feeder"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			dependencies: ["667EF198335C80D2"]
+			id: "10224AFA3AF5248E"
+			tasks: [{
+				id: "6DC607372EE02F00"
+				type: "item"
+				item: "industrialforegoing:plant_sower"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["667EF198335C80D2"]
+			id: "053429A43F810D9B"
+			tasks: [{
+				id: "118849044033080C"
+				type: "item"
+				item: "industrialforegoing:sewage_composter"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			dependencies: ["667EF198335C80D2"]
+			id: "5FE13F61B8E1B4CF"
+			tasks: [{
+				id: "61051F9BDBA53A1A"
+				type: "item"
+				item: "industrialforegoing:animal_baby_separator"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			dependencies: ["667EF198335C80D2"]
+			id: "720CC764DE083EFE"
+			tasks: [{
+				id: "043DBD17B270AD6D"
+				type: "item"
+				item: "industrialforegoing:sewer"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			dependencies: ["667EF198335C80D2"]
+			id: "76B7F464985D670D"
+			tasks: [{
+				id: "3B0AC538C3F6CAFE"
+				type: "item"
+				item: "industrialforegoing:plant_gatherer"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			dependencies: ["6AF0C43A5DBB4655"]
+			id: "1CA6369E8E1E0C60"
+			tasks: [{
+				id: "68D66F5686F09D7E"
+				type: "item"
+				item: "industrialforegoing:mob_crusher"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.0d
+			dependencies: ["6AF0C43A5DBB4655"]
+			id: "4DA42CA4C54154FC"
+			tasks: [{
+				id: "167D0111B8F23419"
+				type: "item"
+				item: "industrialforegoing:block_breaker"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			dependencies: ["6AF0C43A5DBB4655"]
+			id: "36DA6AE4C6CDDE22"
+			tasks: [{
+				id: "4085B9FBFDA61AAF"
+				type: "item"
+				item: "industrialforegoing:enchantment_extractor"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.0d
+			dependencies: ["5A62FA4EFF26C661"]
+			id: "76DDF2F95B5E7F3D"
+			tasks: [{
+				id: "6CAB50DE3385E359"
+				type: "item"
+				item: "industrialforegoing:enchantment_applicator"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			dependencies: ["5A62FA4EFF26C661"]
+			id: "605266B751EE709A"
+			tasks: [{
+				id: "2FF755303E21BE5C"
+				type: "item"
+				item: "industrialforegoing:enchantment_sorter"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			dependencies: ["38E6F5763D5DA74D"]
+			id: "32449914B05BE9BD"
+			tasks: [{
+				id: "2B366AD270FEC048"
+				type: "item"
+				item: "industrialforegoing:black_hole_controller"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 2.5d
+			dependencies: ["38E6F5763D5DA74D"]
+			id: "56C6F09DFCF6385D"
+			tasks: [{
+				id: "34B8BEB0051712B9"
+				type: "item"
+				item: "industrialforegoing:mycelial_halitosis"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 2.5d
+			dependencies: ["38E6F5763D5DA74D"]
+			id: "48A80005AF631B4A"
+			tasks: [{
+				id: "3C0122B88FBE7B7F"
+				type: "item"
+				item: "industrialforegoing:mycelial_netherstar"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.0d
+			dependencies: ["32449914B05BE9BD"]
+			id: "59E86B0F6455BC3E"
+			tasks: [{
+				id: "5F91BF79DC80CFA0"
+				type: "item"
+				item: "industrialforegoing:common_black_hole_tank"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.0d
+			dependencies: ["59E86B0F6455BC3E"]
+			id: "2DA28453FA63AEE9"
+			tasks: [{
+				id: "3C75A2D7C7E92ACF"
+				type: "item"
+				item: "industrialforegoing:pity_black_hole_tank"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.0d
+			dependencies: ["2DA28453FA63AEE9"]
+			id: "10158B091A28B45C"
+			tasks: [{
+				id: "657C562C5051FB2A"
+				type: "item"
+				item: "industrialforegoing:simple_black_hole_tank"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -5.0d
+			dependencies: ["30D07F8CD836E814"]
+			id: "3B11AFB5D1C28303"
+			tasks: [{
+				id: "4ED5840A2D112A1B"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_tank"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.0d
+			dependencies: ["32449914B05BE9BD"]
+			id: "271893ED29F79A7F"
+			tasks: [{
+				id: "65D5565B7507840F"
+				type: "item"
+				item: "industrialforegoing:common_black_hole_unit"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -2.0d
+			dependencies: ["271893ED29F79A7F"]
+			id: "67F6845C84DB0BB0"
+			tasks: [{
+				id: "59A8058D923C2B54"
+				type: "item"
+				item: "industrialforegoing:pity_black_hole_unit"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -4.0d
+			dependencies: ["306C087A356638F7"]
+			id: "3626F85C162FB989"
+			tasks: [{
+				id: "135D5A0A74667617"
+				type: "item"
+				item: "industrialforegoing:advanced_black_hole_unit"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -3.0d
+			dependencies: ["67F6845C84DB0BB0"]
+			id: "306C087A356638F7"
+			tasks: [{
+				id: "1EB56FAC7C5A74E4"
+				type: "item"
+				item: "industrialforegoing:simple_black_hole_unit"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -5.0d
+			dependencies: ["3626F85C162FB989"]
+			id: "1F40445467C35D67"
+			tasks: [{
+				id: "2887E41C8D806BAD"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_unit"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -4.0d
+			dependencies: ["10158B091A28B45C"]
+			id: "30D07F8CD836E814"
+			tasks: [{
+				id: "1A90469C53C589DB"
+				type: "item"
+				item: "industrialforegoing:advanced_black_hole_tank"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["6AF0C43A5DBB4655"]
+			id: "06F3F28E6CBA6010"
+			tasks: [{
+				id: "4A02609A8943C66D"
+				type: "item"
+				item: "industrialforegoing:mob_imprisonment_tool"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["7D505AD12A920AD4"]
+			id: "42E3D502E62620ED"
+			tasks: [{
+				id: "52B44555EC260FAE"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_trident"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Riptide: 0
+						Channeling: 0b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Loyalty: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["7D505AD12A920AD4"]
+			id: "50D207FE39D95F06"
+			tasks: [{
+				id: "149B70FCEADCB03D"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_drill"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["7D505AD12A920AD4"]
+			id: "31ECBE2B9605D44F"
+			tasks: [{
+				id: "668DE3C8ED4D2BD6"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_saw"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["7D505AD12A920AD4"]
+			id: "14039F54F6EA20DA"
+			tasks: [{
+				id: "40E3CBCE9D5625C8"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_backpack"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["7D505AD12A920AD4"]
+			id: "3794DE0747EB5414"
+			tasks: [{
+				id: "252A6CEC98E031C3"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_hammer"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Beheading: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["7D505AD12A920AD4"]
+			id: "74E69B7F2964D559"
+			tasks: [{
+				id: "67E1ADE8A2AF6181"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_launcher"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Plunger: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["7D505AD12A920AD4"]
+			id: "5CD6283F5B56E55C"
+			tasks: [{
+				id: "4AABF59BB195B55A"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_nuke"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["6AF0C43A5DBB4655"]
+			id: "15DE002A03AC8594"
+			tasks: [{
+				id: "4075A427D25090FC"
+				type: "item"
+				item: "industrialforegoing:meat_feeder"
 			}]
 		}
 	]
