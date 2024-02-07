@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -1.0d
-			y: 0.0d
+			x: -4.0d
+			y: -1.0d
 			description: ["На алтаре наполнения можно создать &2семена&f, с помощью которых можно выращивать ресурсы!"]
 			dependencies: ["1297CE33EC6FB1B8"]
 			id: "2C0029BC5B9CCD00"
@@ -21,8 +21,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 0.0d
+			x: -2.0d
+			y: -1.0d
 			description: ["Пьедестал наполнения нужен для создания различных &2семян&f на &5алтаре наполнения&f."]
 			dependencies: ["1297CE33EC6FB1B8"]
 			id: "6918789AD52F8554"
@@ -32,6 +32,121 @@
 				title: "Пьедестал наполнения"
 				item: "mysticalagriculture:infusion_pedestal"
 				count: 8L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["6FCCF7E5B8DF5792"]
+			id: "671ECF6192B5ABC1"
+			tasks: [{
+				id: "742F4993FBA3B7A6"
+				type: "item"
+				item: "mysticalagriculture:inferium_seeds"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["114FD26AF2B063E3"]
+			id: "6FCCF7E5B8DF5792"
+			tasks: [{
+				id: "083B0D8191994DDE"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["6FCCF7E5B8DF5792"]
+			id: "6F8A627EBFCB9999"
+			tasks: [{
+				id: "4B86A426ED67E660"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:infusion_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["114FD26AF2B063E3"]
+			id: "2BB73B28FA3FFA9B"
+			tasks: [{
+				id: "2485C62AD38848DC"
+				type: "item"
+				item: "mysticalagriculture:prosperity_shard"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["6F8A627EBFCB9999"]
+			id: "0DA64DE559AC200D"
+			tasks: [{
+				id: "704D8F58FAE3A230"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["0DA64DE559AC200D"]
+			id: "1EABBFFF51A830F2"
+			tasks: [{
+				id: "467D77A7C65A63A7"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["1EABBFFF51A830F2"]
+			id: "1EBF3349EE3F7D6A"
+			tasks: [{
+				id: "4DD875371FE0F8E6"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["1EBF3349EE3F7D6A"]
+			id: "48F67E1B9031B9AA"
+			tasks: [{
+				id: "11BAC1A07DF829D3"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			dependencies: ["48F67E1B9031B9AA"]
+			id: "0724A60A727DE2E7"
+			tasks: [{
+				id: "703C721D734E6C83"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			id: "5FC665744C5022DC"
+			tasks: [{
+				id: "2662DA5E3B5FEAA6"
+				type: "item"
+				item: "mysticalagriculture:prosperity_seed_base"
 			}]
 		}
 	]
