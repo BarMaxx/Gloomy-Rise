@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -4.0d
-			y: -1.0d
+			x: -5.5d
+			y: 1.0d
 			description: ["На алтаре наполнения можно создать &2семена&f, с помощью которых можно выращивать ресурсы!"]
 			dependencies: ["1297CE33EC6FB1B8"]
 			id: "2C0029BC5B9CCD00"
@@ -21,7 +21,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -5.5d
 			y: -1.0d
 			description: ["Пьедестал наполнения нужен для создания различных &2семян&f на &5алтаре наполнения&f."]
 			dependencies: ["1297CE33EC6FB1B8"]
@@ -142,6 +142,7 @@
 		{
 			x: -4.5d
 			y: 0.0d
+			dependencies: ["2BB73B28FA3FFA9B"]
 			id: "5FC665744C5022DC"
 			tasks: [{
 				id: "2662DA5E3B5FEAA6"
