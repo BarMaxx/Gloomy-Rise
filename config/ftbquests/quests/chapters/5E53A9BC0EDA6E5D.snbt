@@ -16,20 +16,37 @@
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
 			id: "3A3C317A703FF83D"
-			tasks: [{
-				id: "4C233F54C39AC37A"
-				type: "item"
-				title: "Дерево"
-				icon: "minecraft:oak_log"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "minecraft:logs"
+			tasks: [
+				{
+					id: "4C233F54C39AC37A"
+					type: "item"
+					title: "Дерево"
+					icon: "minecraft:oak_log"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:logs"
+						}
 					}
+					count: 8L
 				}
-				count: 8L
-			}]
+				{
+					id: "7DA639260EAAB974"
+					type: "item"
+					item: "minecraft:oak_planks"
+				}
+				{
+					id: "3FAA19A82003BA46"
+					type: "item"
+					item: "minecraft:stick"
+				}
+				{
+					id: "133D471F174570BA"
+					type: "item"
+					item: "minecraft:flint"
+				}
+			]
 			rewards: [{
 				id: "61B136A87BAC24DB"
 				type: "item"
@@ -39,12 +56,15 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 3.5d
 			y: 0.0d
 			shape: "rsquare"
 			subtitle: "Ваше рабочее место!"
 			description: ["Из досок, которые можно получить из бревен, можно создать &6верстак&f, с помощью которого можно создать много интересных вещей! Например, деревянные инструменты, сундук и т.п."]
-			dependencies: ["3A3C317A703FF83D"]
+			dependencies: [
+				"1DB2D7EB07555AFC"
+				"3690947B17DB94E2"
+			]
 			id: "05EB7D069C18CA1E"
 			tasks: [{
 				id: "5CE947F135239979"
@@ -60,8 +80,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 0.0d
+			x: 6.0d
+			y: -0.5d
 			description: ["Булыжник можно добыть любой киркой и с помощью него можно создать печь и не только!"]
 			dependencies: ["6C7F234B75D1E84F"]
 			id: "15351ED9820C1C90"
@@ -80,10 +100,10 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -1.5d
+			x: 2.5d
+			y: -1.0d
 			description: ["Шаблон нужен для создания специальных станций и частей инструментов."]
-			dependencies: ["3A3C317A703FF83D"]
+			dependencies: ["098DCCF9FF874624"]
 			id: "1DB2D7EB07555AFC"
 			tasks: [{
 				id: "56527A2CE81828E4"
@@ -101,10 +121,10 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -1.0d
+			x: 2.0d
+			y: 3.0d
 			description: ["На костре можно жарить еду до 4 штук одновременно, что намного эффективнее печи."]
-			dependencies: ["3A3C317A703FF83D"]
+			dependencies: ["6131892749100E8F"]
 			id: "601145AC00E6C07B"
 			tasks: [{
 				id: "5121A4341108605B"
@@ -120,50 +140,7 @@
 			}]
 		}
 		{
-			title: "Новые инструменты"
-			icon: {
-				id: "tconstruct:tinker_station"
-				Count: 1b
-				tag: {
-					texture: "minecraft:oak_planks"
-				}
-			}
-			x: 1.0d
-			y: -1.5d
-			shape: "hexagon"
-			description: ["С помощью этих станций можно создать собственные &2инструменты!&f Инструменты создаются по частям и эти части можно создать из разных материалов, чтобы собрать наилучший инструмент."]
-			dependencies: [
-				"1DB2D7EB07555AFC"
-				"05EB7D069C18CA1E"
-			]
-			id: "3F9C1972FF445BA5"
-			tasks: [
-				{
-					id: "3456B89B47C7F0A1"
-					type: "item"
-					item: {
-						id: "tconstruct:tinker_station"
-						Count: 1b
-						tag: {
-							texture: "minecraft:oak_planks"
-						}
-					}
-				}
-				{
-					id: "71D99FCDA40BCB3A"
-					type: "item"
-					item: {
-						id: "tconstruct:part_builder"
-						Count: 1b
-						tag: {
-							texture: "minecraft:oak_planks"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 2.0d
+			x: 3.5d
 			y: -1.5d
 			subtitle: "Ваше первое хранилище."
 			description: ["В сундуке можно хранить вещи, и всё..."]
@@ -189,7 +166,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 3.0d
 			y: -2.5d
 			description: ["В ящике для частей можно хранить части инструментов, как ни странно, и не захламлять сундуки и бочки."]
 			dependencies: ["3BC47498DF613B04"]
@@ -201,8 +178,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 1.0d
+			x: 3.5d
+			y: 1.5d
 			description: ["В бочке можно хранить предметы, также как и в сундуке, но бочки можно ставить везде, а сундукам нужно пространство сверху."]
 			dependencies: ["05EB7D069C18CA1E"]
 			id: "40FA20B89ED9FF16"
@@ -218,11 +195,14 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 7.5d
 			y: 0.0d
 			shape: "rsquare"
 			description: ["С помощью &7печи&f можно переплавлять различные материалы."]
-			dependencies: ["15351ED9820C1C90"]
+			dependencies: [
+				"15351ED9820C1C90"
+				"6213F31DFBC98890"
+			]
 			id: "7CA023B662360C6A"
 			tasks: [{
 				id: "348453F9297D05FB"
@@ -237,7 +217,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 8.0d
 			y: -1.5d
 			description: ["В плавильной печи можно переплавлять руды в несколько раз быстрее, чем в печке. А также из плавильной печи можно создать обожжённую плавильную печь."]
 			dependencies: ["7CA023B662360C6A"]
@@ -249,10 +229,10 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 11.5d
 			y: 0.0d
 			description: ["Железную руду можно добыть в шахте на высоте 2-61. Переплавив железную руду можно получить железный слиток."]
-			dependencies: ["7CA023B662360C6A"]
+			dependencies: ["7A3F3E23A0387DE6"]
 			id: "050CD68574E6F1E6"
 			tasks: [{
 				id: "42580A1F6B436B85"
@@ -263,7 +243,7 @@
 			}]
 		}
 		{
-			x: 8.8d
+			x: 12.5d
 			y: 0.0d
 			subtitle: "Куй железо, пока горячо!"
 			description: ["Железный слиток нужен для многих вещей, но сейчас Вы можете создать &eжелезную кирку&f."]
@@ -284,7 +264,7 @@
 			}]
 		}
 		{
-			x: 10.5d
+			x: 14.0d
 			y: 0.0d
 			description: ["С помощью железной кирки можно добывать более твёрдые породы и руды, например, алмаз."]
 			dependencies: ["73D8A15D7A0E9FA2"]
@@ -302,13 +282,11 @@
 			}]
 		}
 		{
-			x: 11.55d
-			y: 1.1d
-			shape: "square"
+			x: 15.0d
+			y: 1.0d
 			subtitle: "Осыпь меня алмазами!"
 			description: ["&3Алмазы&f можно добыть &7железной киркой&f в шахте на высоте 1-16. Алмазы очень ценные и нужны для многих вещей и механизмов, но сейчас Вы можете создать алмазную кирку."]
 			dependencies: ["39C60726C5C4150F"]
-			size: 1.1d
 			id: "16B75CEDF776927E"
 			tasks: [{
 				id: "577BC5577F0F2498"
@@ -324,8 +302,8 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: 2.5d
+			x: 16.5d
+			y: 0.5d
 			description: ["С помощью алмазной кирки можно получить &8обсидиан&f, а также алмазная кирка эффективнее предыдущих."]
 			dependencies: ["16B75CEDF776927E"]
 			id: "6741CCCE0EF6A545"
@@ -342,8 +320,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -1.0d
+			x: 6.0d
+			y: -2.0d
 			description: ["Верстак, который сохраняет свой инвентарь. Очень удобно."]
 			dependencies: ["15351ED9820C1C90"]
 			id: "3113441898064869"
@@ -354,8 +332,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -2.5d
+			x: 2.0d
+			y: -2.0d
 			subtitle: "Портативный верстак"
 			description: ["Палка с верстаком позволяет открыть верстак в любом месте. Но этот верстак не сохраняет свой инвентарь."]
 			dependencies: ["1DB2D7EB07555AFC"]
@@ -367,30 +345,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -3.5d
-			description: ["Продвинутая палка с верстаком также позволяет открыть верстак в любом месте, но этот верстак сохраняет свой инвентарь. Можно использовать как рюкзак :)"]
-			dependencies: ["528887B4FA7AA2AA"]
-			id: "5E7D98365C7A4D87"
-			tasks: [{
-				id: "2FFD3315E80C2765"
-				type: "item"
-				item: {
-					id: "cyclic:crafting_bag"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							Size: 9
-							Items: [ ]
-						}
-					}
-				}
-			}]
-		}
-		{
 			title: "Железные хранилища"
 			icon: "expandedstorage:iron_chest"
-			x: 9.5d
+			x: 13.0d
 			y: -1.0d
 			description: ["Улучшенные версии деревянных хранилищ. Позволяют хранить больше предметов."]
 			dependencies: ["73D8A15D7A0E9FA2"]
@@ -409,7 +366,7 @@
 			]
 		}
 		{
-			x: 11.5d
+			x: 15.0d
 			y: -1.0d
 			description: ["&eЗолотую руду&f можно добыть &7железной киркой&f в шахте на высоте 5-28. Золотую руду можно переплавить и получить золотой слиток."]
 			dependencies: ["39C60726C5C4150F"]
@@ -423,12 +380,10 @@
 			}]
 		}
 		{
-			x: 12.1d
-			y: -2.2d
-			shape: "square"
+			x: 16.5d
+			y: -0.5d
 			description: ["Золотой слиток пригодится вам для многих вещей, например для сундука, рюкзака и т.п."]
 			dependencies: ["6BA446FB38C2AED4"]
-			size: 1.1d
 			id: "0131D6E4A04B280F"
 			tasks: [{
 				id: "72525BCBC5E30BA0"
@@ -447,8 +402,8 @@
 		{
 			title: "Золотые хранилища"
 			icon: "expandedstorage:gold_chest"
-			x: 13.0d
-			y: -3.0d
+			x: 17.0d
+			y: -1.5d
 			description: ["Улучшенные версии железных хранилищ. Позволяют хранить больше предметов."]
 			dependencies: ["0131D6E4A04B280F"]
 			id: "3874808585C5B255"
@@ -468,8 +423,8 @@
 		{
 			title: "Алмазные хранилища"
 			icon: "expandedstorage:diamond_chest"
-			x: 12.5d
-			y: 1.5d
+			x: 15.5d
+			y: 2.0d
 			description: ["Улучшенные версии золотых хранилищ. Позволяют хранить больше предметов."]
 			dependencies: ["16B75CEDF776927E"]
 			id: "389BB670B0106BE6"
@@ -487,8 +442,8 @@
 			]
 		}
 		{
-			x: 12.5d
-			y: 0.5d
+			x: 14.5d
+			y: 2.0d
 			description: ["Улучшенная версия золотого рюкзака. Позволяет хранить больше предметов и улучшений."]
 			hide_dependency_lines: false
 			dependencies: ["16B75CEDF776927E"]
@@ -500,7 +455,7 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 12.0d
 			y: -1.0d
 			description: ["Улучшенная версия обычного рюкзака. Позволяет хранить больше предметов и улучшений."]
 			dependencies: ["73D8A15D7A0E9FA2"]
@@ -512,8 +467,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: -3.0d
+			x: 16.0d
+			y: -1.5d
 			description: ["Улучшенная версия железного рюкзака. Позволяет хранить больше предметов и улучшений."]
 			dependencies: ["0131D6E4A04B280F"]
 			id: "67E8EEA1F2BB22D4"
@@ -524,8 +479,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -2.0d
+			x: 4.0d
+			y: -2.5d
 			subtitle: "Вперёд в поход!"
 			description: ["В рюкзаке можно переносить вещи на большое расстояние. Очень удобно в путешествиях."]
 			dependencies: ["3BC47498DF613B04"]
@@ -537,8 +492,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -1.5d
+			x: 2.5d
+			y: 4.0d
 			subtitle: "Юный повар"
 			description: ["Позволяет удобнее готовить еду."]
 			dependencies: ["601145AC00E6C07B"]
@@ -555,7 +510,7 @@
 			}]
 		}
 		{
-			x: 9.5d
+			x: 13.0d
 			y: 1.0d
 			description: ["В кухонном котле можно готовить различную еду."]
 			dependencies: ["73D8A15D7A0E9FA2"]
@@ -567,8 +522,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 0.0d
+			x: 5.0d
+			y: -1.0d
 			subtitle: "Первый инструмент!"
 			description: ["Ваша первая кирка. С её помощью вы сможете добыть булыжник."]
 			dependencies: ["05EB7D069C18CA1E"]
@@ -586,7 +541,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 3.5d
 			y: 2.5d
 			dependencies: ["40FA20B89ED9FF16"]
 			id: "4E8B6337C321C3AC"
@@ -597,7 +552,7 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 12.0d
 			y: 1.0d
 			dependencies: ["73D8A15D7A0E9FA2"]
 			id: "621F24F918EDA32C"
@@ -608,7 +563,7 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 7.0d
 			y: -1.5d
 			dependencies: ["7CA023B662360C6A"]
 			id: "4F6DDAD39A65752A"
@@ -619,7 +574,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 8.0d
 			y: 1.5d
 			dependencies: ["7CA023B662360C6A"]
 			id: "2C2ECA715409F02A"
@@ -630,7 +585,7 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 7.0d
 			y: 1.5d
 			dependencies: ["7CA023B662360C6A"]
 			id: "7E26F7808D45315B"
@@ -641,7 +596,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 7.5d
 			y: 3.0d
 			dependencies: [
 				"2C2ECA715409F02A"
@@ -652,6 +607,116 @@
 				id: "75D3678692FBDB5F"
 				type: "item"
 				item: "artisanworktables:worktable_potter"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["3A3C317A703FF83D"]
+			id: "065526949395D78B"
+			tasks: [{
+				id: "1E051705A3D2BB52"
+				type: "item"
+				item: {
+					id: "farmersdelight:flint_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["065526949395D78B"]
+			id: "098DCCF9FF874624"
+			tasks: [
+				{
+					id: "097FD1E34F0B1B0D"
+					type: "item"
+					item: "farmersdelight:straw"
+				}
+				{
+					id: "623F29D7E3B323A4"
+					type: "item"
+					item: "farmersdelight:canvas"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			dependencies: ["098DCCF9FF874624"]
+			id: "3690947B17DB94E2"
+			tasks: [{
+				id: "716BE8D52626266A"
+				type: "item"
+				item: "farmersdelight:rope"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["3690947B17DB94E2"]
+			id: "6131892749100E8F"
+			tasks: [{
+				id: "1345407E4E40AD39"
+				type: "checkmark"
+				title: "Трут"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			dependencies: ["7CA023B662360C6A"]
+			id: "59A6896A8B3C6B62"
+			tasks: [{
+				id: "65C10C19CE21E827"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			dependencies: ["05EB7D069C18CA1E"]
+			id: "63235F71A57DA6A0"
+			tasks: [{
+				id: "361116617C064127"
+				type: "item"
+				item: "farmersdelight:cutting_board"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			dependencies: [
+				"63235F71A57DA6A0"
+				"15351ED9820C1C90"
+			]
+			id: "6213F31DFBC98890"
+			tasks: [{
+				id: "06261D642CAD3FEF"
+				type: "checkmark"
+				title: "Булыжниковые кирпичи"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			dependencies: ["59A6896A8B3C6B62"]
+			id: "7A3F3E23A0387DE6"
+			tasks: [{
+				id: "18B428008BE10777"
+				type: "item"
+				item: {
+					id: "minecraft:stone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]

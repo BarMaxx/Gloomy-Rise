@@ -3,7 +3,7 @@
 	group: "24923118FBE15B71"
 	order_index: 0
 	filename: "astral_sorcery"
-	title: "Astral Sorcery"
+	title: "{quests.gloomy_rise.progress_3.astral_sorcery.chapter_title}"
 	icon: "astralsorcery:perk_seal"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

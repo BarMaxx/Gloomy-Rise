@@ -3,7 +3,7 @@
 	group: "24923118FBE15B71"
 	order_index: 7
 	filename: "draconic_evolution"
-	title: "Draconic Evolution"
+	title: "{quests.gloomy_rise.progress_3.draconic_evolution.chapter_title}"
 	icon: "draconicevolution:awakened_core"
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false

@@ -3,7 +3,7 @@
 	group: "24923118FBE15B71"
 	order_index: 5
 	filename: "applied_energistics_2"
-	title: "Applied Energistics 2"
+	title: "{quests.gloomy_rise.progress_3.applied_energistics_2.chapter_title}"
 	icon: "appliedenergistics2:64k_cell_component"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

@@ -3,7 +3,7 @@
 	group: "24923118FBE15B71"
 	order_index: 3
 	filename: "mekanism"
-	title: "Mekanism"
+	title: "{quests.gloomy_rise.progress_3.mekanism.chapter_title}"
 	icon: "kubejs:raw_circuit"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

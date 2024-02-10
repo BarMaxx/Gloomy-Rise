@@ -3,7 +3,7 @@
 	group: "24923118FBE15B71"
 	order_index: 2
 	filename: "evilcraft"
-	title: "EvilCraft"
+	title: "{quests.gloomy_rise.progress_3.evilcraft.chapter_title}"
 	icon: {
 		id: "evilcraft:creative_blood_drop"
 		Count: 1b

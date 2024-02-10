@@ -3,7 +3,7 @@
 	group: "24923118FBE15B71"
 	order_index: 4
 	filename: "highmagic"
-	title: "Botania"
+	title: "{quests.gloomy_rise.progress_3.botania.chapter_title}"
 	icon: "botania:life_essence"
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false

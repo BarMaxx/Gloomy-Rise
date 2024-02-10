@@ -3,7 +3,7 @@
 	group: "08DD5F90F97E9DD6"
 	order_index: 1
 	filename: "resourcefulbees"
-	title: "{chapter.gloomy_rise.resourceful_bees}"
+	title: "{quests.gloomy_rise.progress_2.resourceful_bees.chapter_title}"
 	icon: "minecraft:bee_nest"
 	default_quest_shape: "pentagon"
 	default_hide_dependency_lines: false

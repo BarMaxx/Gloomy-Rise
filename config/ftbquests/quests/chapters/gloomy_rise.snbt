@@ -3,7 +3,7 @@
 	group: "69A2E8FFA0275984"
 	order_index: 1
 	filename: "gloomy_rise"
-	title: "{quests.gloomy_rise.progress_3.gloomy_rise.chapter_title}"
+	title: "{quests.gloomy_rise.progress_4.gloomy_rise.chapter_title}"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{

@@ -3,7 +3,7 @@
 	group: "24923118FBE15B71"
 	order_index: 1
 	filename: "industrial_foregoing"
-	title: "Industrial Foregoing"
+	title: "{quests.gloomy_rise.progress_3.industrial_foregoing.chapter_title}"
 	icon: "industrialforegoing:plastic"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

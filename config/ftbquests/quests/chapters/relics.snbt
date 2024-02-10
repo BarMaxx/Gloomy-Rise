@@ -3,7 +3,7 @@
 	group: "37FCF4EC720E030D"
 	order_index: 2
 	filename: "relics"
-	title: "Relics"
+	title: "{quests.gloomy_rise.journey.relics.chapter_title}"
 	icon: {
 		id: "relics:bastion_ring"
 		Count: 1b
@@ -194,8 +194,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -2.0d
+			x: -2.5d
+			y: -1.5d
 			hide_dependency_lines: true
 			dependencies: ["03E0677ACD581474"]
 			id: "3AD6CA2E30103CD3"
@@ -206,8 +206,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 1.0d
+			x: -2.5d
+			y: 0.5d
 			hide_dependency_lines: true
 			dependencies: ["03E0677ACD581474"]
 			id: "595E1E9923193465"
@@ -218,8 +218,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -1.5d
+			x: -1.5d
+			y: 1.0d
 			hide_dependency_lines: true
 			dependencies: ["03E0677ACD581474"]
 			id: "34216E9A42DC7D63"
@@ -242,8 +242,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 0.5d
+			x: -1.5d
+			y: -2.0d
 			hide_dependency_lines: true
 			dependencies: ["03E0677ACD581474"]
 			id: "7F770F593BF298C7"

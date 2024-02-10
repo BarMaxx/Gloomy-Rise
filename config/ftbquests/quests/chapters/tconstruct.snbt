@@ -3,7 +3,7 @@
 	group: "724CB10F5936E1B7"
 	order_index: 1
 	filename: "tconstruct"
-	title: "{quests.gloomy_rise.progress.casting.chapter_title}"
+	title: "{quests.gloomy_rise.progress_1.casting.chapter_title}"
 	icon: "tconstruct:smeltery_controller"
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
@@ -918,6 +918,27 @@
 				id: "0B0829FB7B8E8BD6"
 				type: "item"
 				item: "artisanworktables:worktable_engineer"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -6.0d
+			description: ["Продвинутая палка с верстаком также позволяет открыть верстак в любом месте, но этот верстак сохраняет свой инвентарь. Можно использовать как рюкзак :)"]
+			dependencies: ["07F77F1EB6C1855D"]
+			id: "5E7D98365C7A4D87"
+			tasks: [{
+				id: "2FFD3315E80C2765"
+				type: "item"
+				item: {
+					id: "cyclic:crafting_bag"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 9
+							Items: [ ]
+						}
+					}
+				}
 			}]
 		}
 	]

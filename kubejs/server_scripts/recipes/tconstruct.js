@@ -22,5 +22,8 @@ onEvent('recipes', event => {
 	I: 'tconstruct:seared_ingot_gauge'
   })
   
+  event.remove({output: 'tconstruct:pattern'})
+  event.shapeless('2x tconstruct:pattern', ['farmersdelight:canvas', 'farmersdelight:canvas', '#forge:rods/wooden', '#forge:rods/wooden'])
+  
   
 })

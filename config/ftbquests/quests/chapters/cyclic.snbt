@@ -3,7 +3,7 @@
 	group: "724CB10F5936E1B7"
 	order_index: 5
 	filename: "cyclic"
-	title: "Cyclic: Blocks"
+	title: "{quests.gloomy_rise.progress_1.cyclic_blocks.chapter_title}"
 	icon: "cyclic:mason_cobble"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

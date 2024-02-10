@@ -3,7 +3,7 @@
 	group: "24923118FBE15B71"
 	order_index: 6
 	filename: "blood_magic"
-	title: "Blood Magic"
+	title: "{quests.gloomy_rise.progress_3.blood_magic.chapter_title}"
 	icon: {
 		id: "bloodmagic:basemonstersoul"
 		Count: 1b

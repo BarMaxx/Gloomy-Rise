@@ -4,50 +4,81 @@
 	
 	"quests.gloomy_rise.introduction.chapter_title": "&aВступление",
 	
-	"quests.gloomy_rise.introduction.knowledge.quest_title": "",
-	"quests.gloomy_rise.introduction.knowledge.task_title": "",
-	"quests.gloomy_rise.introduction.knowledge.reward_title": "",
-	"quests.gloomy_rise.introduction.knowledge.subtitle": "",
-	"quests.gloomy_rise.introduction.knowledge.description_1": "",
+	"quests.gloomy_rise.introduction.knowledge.quest_title": "Знакомство",
+	"quests.gloomy_rise.introduction.knowledge.task_title": "Нажми на меня!",
+	"quests.gloomy_rise.introduction.knowledge.reward_title": "Торт",
+	"quests.gloomy_rise.introduction.knowledge.subtitle": "Новое Начало!",
+	"quests.gloomy_rise.introduction.knowledge.description_1": "Добро пожаловать в сборку &4Gloomy Rise&f! Данная сборка создана командой &6LGame Studio&f, а главным разработчиком является &6BarMaxx &f(Максим).",
+	"quests.gloomy_rise.introduction.knowledge.description_2": "Gloomy Rise - это &3техно-магическая &fсборка с элементами &eРПГ&f, &cХардкора &fи &2Реализма&f. В данной сборке Вы сможете постепенно изучить множество модов. Они включают в себя: исследование мира, сражение с боссами, изучение различных видов &5Магии &fи &8Технологий&f, создание множества ферм ресурсов и авто-крафтов, исследование различных измерений и не только!",
+	"quests.gloomy_rise.introduction.knowledge.description_3": "Все виды деятельности связаны между собой множеством изменённых крафтов и квестами, которые помогут получить уникальный игровой опыт, который Вы больше нигде не встретите.",
 	
 	
-	"quests.gloomy_rise.progress_1.chapter_group_title": "&6Progress&f: &2Main",
+	"quests.gloomy_rise.progress_1.chapter_group_title": "&6Развитие&f: &2Начало",
 	
-	"quests.gloomy_rise.progress_1.origins.chapter_title": "&bOrigins",
+	"quests.gloomy_rise.progress_1.origins.chapter_title": "&bИстоки",
 	
-	"quests.gloomy_rise.progress_1.create.chapter_title": "Create",
+	"quests.gloomy_rise.progress_1.casting.chapter_title": "Литьё",
 	
-	"quests.gloomy_rise.progress_1.engineering.chapter_title": "&eEngineering",
+	"quests.gloomy_rise.progress_1.create.chapter_title": "Механика",
 	
-	"quests.gloomy_rise.progress_1.mana_and_artifice.chapter_title": "&dMana-and-Artifice",
+	"quests.gloomy_rise.progress_1.engineering.chapter_title": "&eИнженерия",
 	
+	"quests.gloomy_rise.progress_1.mana_and_artifice.chapter_title": "&dМагические будни",
 	
-	"quests.gloomy_rise.progress_2.chapter_group_title": "&6Progress&f: &3Growing Up",
+	"quests.gloomy_rise.progress_1.cyclic_blocks.chapter_title": "Полезные механизмы",
 	
-	"quests.gloomy_rise.progress_2.hightech.chapter_title": "HighTech",
-	
-	"quests.gloomy_rise.progress_2.highmagic.chapter_title": "&5HighMagic",
-	
-	
-	"quests.gloomy_rise.progress_3.chapter_group_title": "&6Progress&f: &4EndGame",
-	
-	"quests.gloomy_rise.progress_3.creative.chapter_title": "&5Creative",
-	
-	"quests.gloomy_rise.progress_3.gloomy_rise.chapter_title": "&4&lGloomy Rise",
+	"quests.gloomy_rise.progress_1.cyclic_items.chapter_title": "Полезные предметы",
 	
 	
-	"quests.gloomy_rise.journey.chapter_group_title": "&6Journey",
+	"quests.gloomy_rise.progress_2.chapter_group_title": "&6Развитие&f: &eРесурсы",
 	
-	"quests.gloomy_rise.journey.nether.chapter_title": "&4Nether",
+	"quests.gloomy_rise.progress_2.mystical_agriculture.chapter_title": "Садоводство",
 	
-	"quests.gloomy_rise.journey.end.chapter_title": "&5End",
+	"quests.gloomy_rise.progress_2.resourceful_bees.chapter_title": "Пчеловодство",
 	
 	
-	"quests.gloomy_rise.other.chapter_group_title": "&6Other",
+	"quests.gloomy_rise.progress_3.chapter_group_title": "&6Развитие&f: &3Улучшения",
 	
-	"quests.gloomy_rise.other.chipped.chapter_title": "&2Chipped",
+	"quests.gloomy_rise.progress_3.astral_sorcery.chapter_title": "Магия звёзд",
 	
-	"quests.gloomy_rise.other.dank_storage.chapter_title": "&3Dank Storage",
+	"quests.gloomy_rise.progress_3.industrial_foregoing.chapter_title": "Индустриализация",
 	
-	"quests.gloomy_rise.other.miscellaneous.chapter_title": "&eMiscellaneous"
+	"quests.gloomy_rise.progress_3.evilcraft.chapter_title": "Магия крови",
+	
+	"quests.gloomy_rise.progress_3.mekanism.chapter_title": "Продвинутые технологии",
+	
+	"quests.gloomy_rise.progress_3.botania.chapter_title": "Магия природы",
+	
+	"quests.gloomy_rise.progress_3.applied_energistics_2.chapter_title": "Автоматизация",
+	
+	"quests.gloomy_rise.progress_3.blood_magic.chapter_title": "Магия подношения",
+	
+	"quests.gloomy_rise.progress_3.draconic_evolution.chapter_title": "Недоступные технологии",
+	
+	
+	"quests.gloomy_rise.progress_4.chapter_group_title": "&6Развитие&f: &4Финал",
+	
+	"quests.gloomy_rise.progress_4.creative.chapter_title": "&5Креатив",
+	
+	"quests.gloomy_rise.progress_4.gloomy_rise.chapter_title": "&4&lМрачное Восхождение",
+	
+	
+	"quests.gloomy_rise.journey.chapter_group_title": "&6Путешествия",
+	
+	"quests.gloomy_rise.journey.nether.chapter_title": "&4Незер",
+	
+	"quests.gloomy_rise.journey.end.chapter_title": "&5Край",
+	
+	"quests.gloomy_rise.journey.relics.chapter_title": "Реликвии",
+	
+	
+	"quests.gloomy_rise.other.chapter_group_title": "&6Другое",
+	
+	"quests.gloomy_rise.other.dank_storage.chapter_title": "&3Бездонные хранилища",
+	
+	"quests.gloomy_rise.other.buddycards.chapter_title": "Коллекции",
+	
+	"quests.gloomy_rise.other.chipped.chapter_title": "&2Декор",
+	
+	"quests.gloomy_rise.other.miscellaneous.chapter_title": "&eРазное"
 }

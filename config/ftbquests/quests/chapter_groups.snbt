@@ -1,9 +1,9 @@
 {
 	chapter_groups: [
 		{ id: "724CB10F5936E1B7", title: "{quests.gloomy_rise.progress_1.chapter_group_title}" }
-		{ id: "08DD5F90F97E9DD6", title: "Progress: Resources" }
-		{ id: "24923118FBE15B71", title: "{quests.gloomy_rise.progress_2.chapter_group_title}" }
-		{ id: "69A2E8FFA0275984", title: "{quests.gloomy_rise.progress_3.chapter_group_title}" }
+		{ id: "08DD5F90F97E9DD6", title: "{quests.gloomy_rise.progress_2.chapter_group_title}" }
+		{ id: "24923118FBE15B71", title: "{quests.gloomy_rise.progress_3.chapter_group_title}" }
+		{ id: "69A2E8FFA0275984", title: "{quests.gloomy_rise.progress_4.chapter_group_title}" }
 		{ id: "37FCF4EC720E030D", title: "{quests.gloomy_rise.journey.chapter_group_title}" }
 		{ id: "6E7449445FFC34C5", title: "{quests.gloomy_rise.other.chapter_group_title}" }
 	]
