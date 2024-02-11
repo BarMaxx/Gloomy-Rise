@@ -1,0 +1,11 @@
+{
+	id: "3280F394228164D6"
+	order_index: 0
+	title: "Начальная еда"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:apple", count: 4, weight: 2 }
+		{ item: "minecraft:bread", count: 4 }
+		{ item: "minecraft:baked_potato", count: 4 }
+	]
+}

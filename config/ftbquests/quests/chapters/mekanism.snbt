@@ -1154,6 +1154,8 @@
 			x: -0.25d
 			y: -0.75d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["6180ACBB10C75460"]
 			size: 0.5d
 			id: "563340C6D674010A"
@@ -1167,6 +1169,8 @@
 			x: -0.25d
 			y: -1.25d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["563340C6D674010A"]
 			size: 0.5d
 			id: "4406215F6D063279"
@@ -1180,6 +1184,8 @@
 			x: 0.25d
 			y: -1.25d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["4406215F6D063279"]
 			size: 0.5d
 			id: "022E1486EFF3C9DF"
@@ -1193,6 +1199,8 @@
 			x: 0.25d
 			y: -0.75d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["022E1486EFF3C9DF"]
 			size: 0.5d
 			id: "4EC1046BD46CE49A"
@@ -1206,6 +1214,8 @@
 			x: -0.25d
 			y: -2.75d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["1C1D3D5708D4769D"]
 			size: 0.5d
 			id: "462E0ED8EC92293B"
@@ -1219,6 +1229,8 @@
 			x: 0.25d
 			y: -2.75d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["462E0ED8EC92293B"]
 			size: 0.5d
 			id: "6A9F009EEBDF1B32"
@@ -1232,6 +1244,8 @@
 			x: 0.25d
 			y: -2.25d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["6A9F009EEBDF1B32"]
 			size: 0.5d
 			id: "2D2A2EA381F81800"
@@ -1245,6 +1259,8 @@
 			x: -0.25d
 			y: -2.25d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["2D2A2EA381F81800"]
 			size: 0.5d
 			id: "3439D0D5244D9128"
@@ -1258,6 +1274,8 @@
 			x: -3.75d
 			y: -2.75d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["3996D88998A59692"]
 			size: 0.5d
 			id: "6D354269D9998122"
@@ -1271,6 +1289,8 @@
 			x: -4.25d
 			y: -2.75d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["6D354269D9998122"]
 			size: 0.5d
 			id: "50B87D922E75446A"
@@ -1284,6 +1304,8 @@
 			x: -4.25d
 			y: -2.25d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["50B87D922E75446A"]
 			size: 0.5d
 			id: "591147820127733A"
@@ -1297,6 +1319,8 @@
 			x: -3.75d
 			y: -2.25d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["591147820127733A"]
 			size: 0.5d
 			id: "55873E301153A3B5"
@@ -1310,6 +1334,8 @@
 			x: -1.75d
 			y: 0.75d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["4BAB8552A9E3790E"]
 			size: 0.5d
 			id: "274D0A76ECF64703"
@@ -1323,6 +1349,8 @@
 			x: -1.75d
 			y: 1.25d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["274D0A76ECF64703"]
 			size: 0.5d
 			id: "3F2436E3B51CE449"
@@ -1336,6 +1364,8 @@
 			x: -2.25d
 			y: 0.75d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["6CAF0E69617959B8"]
 			size: 0.5d
 			id: "5F5261AF78C7AA67"
@@ -1349,6 +1379,8 @@
 			x: -2.25d
 			y: 1.25d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["3F2436E3B51CE449"]
 			size: 0.5d
 			id: "6CAF0E69617959B8"
@@ -1362,6 +1394,8 @@
 			x: -3.25d
 			y: 0.75d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["500A24F35E1EDD95"]
 			size: 0.5d
 			id: "6C34F14BA4D47339"
@@ -1375,6 +1409,8 @@
 			x: -3.25d
 			y: 1.25d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["6C34F14BA4D47339"]
 			size: 0.5d
 			id: "7A7C48C569EAB04E"
@@ -1388,6 +1424,8 @@
 			x: -3.75d
 			y: 1.25d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["7A7C48C569EAB04E"]
 			size: 0.5d
 			id: "5505326120CB7E6A"
@@ -1401,6 +1439,8 @@
 			x: -3.75d
 			y: 0.75d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["5505326120CB7E6A"]
 			size: 0.5d
 			id: "753911D81D16B722"
@@ -1414,6 +1454,8 @@
 			x: -4.25d
 			y: 1.75d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["4C3BCF35B9802BF0"]
 			size: 0.5d
 			id: "5B62510A9A2D6717"
@@ -1427,6 +1469,8 @@
 			x: -4.25d
 			y: 2.25d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["5B62510A9A2D6717"]
 			size: 0.5d
 			id: "469630EE1386E25F"
@@ -1440,6 +1484,8 @@
 			x: -4.75d
 			y: 2.25d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["469630EE1386E25F"]
 			size: 0.5d
 			id: "5B410FA6FBBDF723"
@@ -1453,6 +1499,8 @@
 			x: -4.75d
 			y: 1.75d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["5B410FA6FBBDF723"]
 			size: 0.5d
 			id: "2E1C6DA50E82010F"
@@ -1466,6 +1514,8 @@
 			x: -5.25d
 			y: -0.25d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["4584B5019E90652C"]
 			size: 0.5d
 			id: "3EB8868E1BE96301"
@@ -1479,6 +1529,8 @@
 			x: -5.75d
 			y: -0.25d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["3EB8868E1BE96301"]
 			size: 0.5d
 			id: "731EF69E5FEBF398"
@@ -1492,6 +1544,8 @@
 			x: -5.75d
 			y: 0.25d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["731EF69E5FEBF398"]
 			size: 0.5d
 			id: "66285A7AC10EF98D"
@@ -1505,6 +1559,8 @@
 			x: -5.25d
 			y: 0.25d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["66285A7AC10EF98D"]
 			size: 0.5d
 			id: "34F37945F89BECA7"
@@ -1518,6 +1574,8 @@
 			x: -6.75d
 			y: -2.75d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["137D285605596D38"]
 			size: 0.5d
 			id: "752AFA4125CFD463"
@@ -1531,6 +1589,8 @@
 			x: -7.25d
 			y: -2.75d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["752AFA4125CFD463"]
 			size: 0.5d
 			id: "2CF1A1AE345DCE98"
@@ -1544,6 +1604,8 @@
 			x: -7.25d
 			y: -2.25d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["2CF1A1AE345DCE98"]
 			size: 0.5d
 			id: "3EF0565D0EF814B0"
@@ -1557,6 +1619,8 @@
 			x: -6.75d
 			y: -2.25d
 			shape: "diamond"
+			subtitle: "Обновка!"
+			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["3EF0565D0EF814B0"]
 			size: 0.5d
 			id: "109801B219FAA914"

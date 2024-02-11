@@ -9,18 +9,25 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "{quests.gloomy_rise.progress_1.origins.initial_resources.quest_title}"
 			x: -0.5d
 			y: 0.0d
 			shape: "square"
-			description: ["Первое, что Вам понадобится в этом мире - &eДерево!&f Советую собрать его как можно больше, ведь дальше его понадобится много."]
+			subtitle: "{quests.gloomy_rise.progress_1.origins.initial_resources.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress_1.origins.initial_resources.description_1}"
+				""
+				"{quests.gloomy_rise.progress_1.origins.initial_resources.description_2}"
+				""
+				"{quests.gloomy_rise.progress_1.origins.initial_resources.description_3}"
+			]
 			dependencies: ["114FD26AF2B063E3"]
-			hide: true
 			id: "3A3C317A703FF83D"
 			tasks: [
 				{
 					id: "4C233F54C39AC37A"
 					type: "item"
-					title: "Дерево"
+					title: "{quests.gloomy_rise.progress_1.origins.initial_resources.task_title_1}"
 					icon: "minecraft:oak_log"
 					item: {
 						id: "itemfilters:tag"
@@ -29,30 +36,34 @@
 							value: "minecraft:logs"
 						}
 					}
-					count: 8L
+					count: 4L
 				}
 				{
 					id: "7DA639260EAAB974"
 					type: "item"
+					title: "{quests.gloomy_rise.progress_1.origins.initial_resources.task_title_2}"
 					item: "minecraft:oak_planks"
+					count: 8L
 				}
 				{
 					id: "3FAA19A82003BA46"
 					type: "item"
+					title: "{quests.gloomy_rise.progress_1.origins.initial_resources.task_title_3}"
 					item: "minecraft:stick"
+					count: 4L
 				}
 				{
 					id: "133D471F174570BA"
 					type: "item"
+					title: "{quests.gloomy_rise.progress_1.origins.initial_resources.task_title_4}"
 					item: "minecraft:flint"
 				}
 			]
 			rewards: [{
-				id: "61B136A87BAC24DB"
-				type: "item"
-				item: "minecraft:oak_log"
-				count: 4
-				random_bonus: 2
+				id: "20F4C9C6997B275D"
+				type: "random"
+				title: "{quests.gloomy_rise.progress_1.origins.initial_resources.reward_title_1}"
+				table_id: 3639176316474975446L
 			}]
 		}
 		{
