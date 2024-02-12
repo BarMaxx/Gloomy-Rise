@@ -621,13 +621,21 @@
 			}]
 		}
 		{
+			title: "{quests.gloomy_rise.progress_1.origins.flint_knife.quest_title}"
 			x: 1.0d
 			y: 0.0d
+			subtitle: "{quests.gloomy_rise.progress_1.origins.flint_knife.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress_1.origins.flint_knife.description_1}"
+				""
+				"{quests.gloomy_rise.progress_1.origins.flint_knife.description_2}"
+			]
 			dependencies: ["3A3C317A703FF83D"]
 			id: "065526949395D78B"
 			tasks: [{
 				id: "1E051705A3D2BB52"
 				type: "item"
+				title: "{quests.gloomy_rise.progress_1.origins.flint_knife.task_title}"
 				item: {
 					id: "farmersdelight:flint_knife"
 					Count: 1b
@@ -635,6 +643,13 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "22184BD788415F75"
+				type: "item"
+				title: "{quests.gloomy_rise.progress_1.origins.flint_knife.reward_title}"
+				item: "farmersdelight:milk_bottle"
+				count: 2
 			}]
 		}
 		{
