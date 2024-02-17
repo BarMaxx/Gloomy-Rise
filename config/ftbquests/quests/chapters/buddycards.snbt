@@ -7,15 +7,28 @@
 	icon: "buddycards:pack.1"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 0.0d
-		y: 0.0d
-		dependencies: ["114FD26AF2B063E3"]
-		id: "5C4E2A0AE3A88D64"
-		tasks: [{
-			id: "29FF2A27119CC898"
-			type: "item"
-			item: "buddycards:buddysteel_blend"
-		}]
-	}]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["114FD26AF2B063E3"]
+			id: "5C4E2A0AE3A88D64"
+			tasks: [{
+				id: "29FF2A27119CC898"
+				type: "item"
+				item: "buddycards:buddysteel_blend"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["5C4E2A0AE3A88D64"]
+			id: "7B294DA01C39F311"
+			tasks: [{
+				id: "1F0DA04D3BA689B2"
+				type: "item"
+				item: "buddycards:buddysteel_ingot"
+			}]
+		}
+	]
 }
