@@ -1,0 +1,17 @@
+{
+	id: "10EC641CD6EFE29C"
+	order_index: 3
+	title: "Уголь"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:coal" }
+		{ item: "minecraft:charcoal" }
+		{ item: "mysticalagradditions:inferium_coal" }
+		{ item: "mysticalagradditions:prudentium_coal" }
+		{ item: "mysticalagradditions:tertium_coal" }
+		{ item: "mysticalagradditions:imperium_coal" }
+		{ item: "mysticalagradditions:supremium_coal" }
+		{ item: "mysticalagradditions:insanium_coal" }
+		{ item: "immersiveengineering:coal_coke" }
+	]
+}

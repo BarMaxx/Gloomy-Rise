@@ -110,5 +110,9 @@ onEvent('recipes', event => {
 	R: 'minecraft:red_dye'
   })
   
+
+  event.remove({output: 'minecraft:crafting_table'})
+  event.shapeless('minecraft:crafting_table', ['tconstruct:pattern', 'farmersdelight:rope', 'minecraft:flint', '#minecraft:planks'])
+  
   
 })
