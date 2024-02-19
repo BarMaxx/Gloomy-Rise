@@ -30,5 +30,16 @@
 				item: "buddycards:buddysteel_ingot"
 			}]
 		}
+		{
+			x: 2.0d
+			y: -1.5d
+			dependencies: ["7B294DA01C39F311"]
+			id: "575A38A8078217A0"
+			tasks: [{
+				id: "562EE0FAD9B55507"
+				type: "item"
+				item: "buddycards:buddysteel_vault.1"
+			}]
+		}
 	]
 }
