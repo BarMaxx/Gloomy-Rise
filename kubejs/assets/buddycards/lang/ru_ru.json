@@ -222,83 +222,85 @@
   "item.buddycards.card.1.27.tooltip": "Некоторых людей вот-вот поджарят.",
   
   "item.buddycards.card.2.1": "Brik",
-  "item.buddycards.card.2.1.tooltip": "They're fun!",
+  "item.buddycards.card.2.1.tooltip": "Они забавные!",
   
   "item.buddycards.card.2.2": "Obby",
-  "item.buddycards.card.2.2.tooltip": "Knows a bit of dark magic.",
+  "item.buddycards.card.2.2.tooltip": "Немного разбирается в темной магии.",
   
   "item.buddycards.card.2.3": "Brite",
-  "item.buddycards.card.2.3.tooltip": "Known for her radiant glow.",
+  "item.buddycards.card.2.3.tooltip": "Известна своим лучезарным сиянием.",
   
   "item.buddycards.card.2.4": "Slinky",
-  "item.buddycards.card.2.4.tooltip": "Loves bouncing around.",
+  "item.buddycards.card.2.4.tooltip": "Любит подпрыгивать на месте.",
+  
   "item.buddycards.card.2.5": "Big Pig",
-  "item.buddycards.card.2.5.tooltip": "He's a real unit! An absolute chonker!",
+  "item.buddycards.card.2.5.tooltip": "Он настоящий боец! Абсолютный шокер!",
   
   "item.buddycards.card.2.6": "Sol",
-  "item.buddycards.card.2.6.tooltip": "Nobody really knows what they're made of.",
+  "item.buddycards.card.2.6.tooltip": "Никто на самом деле не знает, из чего они сделаны.",
   
   "item.buddycards.card.2.7": "Baisal",
-  "item.buddycards.card.2.7.tooltip": "As dramatic as he is magmatic.",
+  "item.buddycards.card.2.7.tooltip": "Столь же драматичен, сколь и магматичен.",
   
   "item.buddycards.card.2.8": "Vinnie",
-  "item.buddycards.card.2.8.tooltip": "She's all tangled up.",
+  "item.buddycards.card.2.8.tooltip": "Она вся запуталась.",
+  
   "item.buddycards.card.2.9": "Shroom",
-  "item.buddycards.card.2.9.tooltip": "One day he'll grow up to be, a bigger shroom!",
+  "item.buddycards.card.2.9.tooltip": "Однажды он вырастет и станет большим грибом!",
   
   "item.buddycards.card.2.10": "Warp Nye",
-  "item.buddycards.card.2.10.tooltip": "WARP! WARP! WARP!",
+  "item.buddycards.card.2.10.tooltip": "ДЕФОРМАЦИЯ! ДЕФОРМАЦИЯ! ДЕФОРМАЦИЯ!",
   
   "item.buddycards.card.2.11": "Fya",
-  "item.buddycards.card.2.11.tooltip": "Hot.",
+  "item.buddycards.card.2.11.tooltip": "Горячий.",
   
   "item.buddycards.card.2.12": "Magma",
-  "item.buddycards.card.2.12.tooltip": "Dig straight down, she'll catch you!",
+  "item.buddycards.card.2.12.tooltip": "Копай прямо вниз, она тебя поймает!",
   
   "item.buddycards.card.2.13": "Skully",
-  "item.buddycards.card.2.13.tooltip": "He's very proud of his swordsmanship.",
+  "item.buddycards.card.2.13.tooltip": "Он очень гордится своим мастерством владения мечом.",
   
   "item.buddycards.card.2.14": "Blazt",
-  "item.buddycards.card.2.14.tooltip": "A bit of a loose canon.",
+  "item.buddycards.card.2.14.tooltip": "Немного не в себе.",
   
   "item.buddycards.card.2.15": "Quazi",
-  "item.buddycards.card.2.15.tooltip": "An engineers new best friend.",
+  "item.buddycards.card.2.15.tooltip": "Новый лучший друг инженера.",
   
   "item.buddycards.card.2.16": "Hot Pot",
-  "item.buddycards.card.2.16.tooltip": "Will always help in a pinch!",
+  "item.buddycards.card.2.16.tooltip": "Всегда поможет в трудную минуту!",
   
   "item.buddycards.card.2.17": "Crybaby",
-  "item.buddycards.card.2.17.tooltip": "It's just allergies!",
+  "item.buddycards.card.2.17.tooltip": "Это просто аллергия!",
   
   "item.buddycards.card.2.18": "Fyo",
-  "item.buddycards.card.2.18.tooltip": "Hotter.",
+  "item.buddycards.card.2.18.tooltip": "Горячее.",
   
   "item.buddycards.card.2.19": "Lamp",
-  "item.buddycards.card.2.19.tooltip": "Don't leave him hanging!",
+  "item.buddycards.card.2.19.tooltip": "Не оставляйте его в подвешенном состоянии!",
   
   "item.buddycards.card.2.20": "Ghost",
-  "item.buddycards.card.2.20.tooltip": "She's been spitting fire for years.",
+  "item.buddycards.card.2.20.tooltip": "Она уже много лет изрыгает огонь.",
   
   "item.buddycards.card.2.21": "Stride",
-  "item.buddycards.card.2.21.tooltip": "He has cold feet.",
+  "item.buddycards.card.2.21.tooltip": "У него холодные ноги.",
   
   "item.buddycards.card.2.22": "Bartender",
-  "item.buddycards.card.2.22.tooltip": "They've got some trouble brewing.",
+  "item.buddycards.card.2.22.tooltip": "У них назревают какие-то неприятности.",
   
   "item.buddycards.card.2.23": "Port",
-  "item.buddycards.card.2.23.tooltip": "Now you're thinking with dimensions!",
+  "item.buddycards.card.2.23.tooltip": "Теперь вы мыслите масштабами!",
   
   "item.buddycards.card.2.24": "Triple",
-  "item.buddycards.card.2.24.tooltip": "Mad not all three faces fit on the card.",
+  "item.buddycards.card.2.24.tooltip": "Возможно, не все три лица поместились на карточке.",
   
   "item.buddycards.card.2.25": "Anker",
-  "item.buddycards.card.2.25.tooltip": "Known for his necromancy skills.",
+  "item.buddycards.card.2.25.tooltip": "Известен своими навыками некромантии.",
   
   "item.buddycards.card.2.26": "Beaker",
-  "item.buddycards.card.2.26.tooltip": "Legends say their beam reaches deep space.",
+  "item.buddycards.card.2.26.tooltip": "Легенды гласят, что их луч достигает глубокого космоса.",
   
   "item.buddycards.card.2.27": "N-Rite",
-  "item.buddycards.card.2.27.tooltip": "Legends say they're the strongest buddy.",
+  "item.buddycards.card.2.27.tooltip": "Легенды гласят, что они самые сильные друзья.",
   
   "item.buddycards.card.3.1": "Enrok",
   "item.buddycards.card.3.1.tooltip": "Some think she's made of cheese.",
