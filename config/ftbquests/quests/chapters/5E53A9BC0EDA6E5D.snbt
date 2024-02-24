@@ -344,14 +344,21 @@
 			}]
 		}
 		{
+			title: "{quests.gloomy_rise.progress_1.origins.iron_pickaxe.quest_title}"
 			x: 14.0d
 			y: 0.0d
-			description: ["С помощью железной кирки можно добывать более твёрдые породы и руды, например, алмаз."]
+			subtitle: "{quests.gloomy_rise.progress_1.origins.iron_pickaxe.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress_1.origins.iron_pickaxe.description_1}"
+				""
+				"{quests.gloomy_rise.progress_1.origins.iron_pickaxe.description_2}"
+			]
 			dependencies: ["73D8A15D7A0E9FA2"]
 			id: "39C60726C5C4150F"
 			tasks: [{
 				id: "185BB79D41DAAEE3"
 				type: "item"
+				title: "{quests.gloomy_rise.progress_1.origins.iron_pickaxe.task_title}"
 				item: {
 					id: "minecraft:iron_pickaxe"
 					Count: 1b
@@ -360,36 +367,55 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "303141C243781D48"
+				type: "item"
+				title: "{quests.gloomy_rise.progress_1.origins.iron_pickaxe.reward_title}"
+				item: "minecraft:iron_ingot"
+			}]
 		}
 		{
+			title: "{quests.gloomy_rise.progress_1.origins.diamond.quest_title}"
 			x: 15.0d
 			y: 1.0d
-			subtitle: "Осыпь меня алмазами!"
-			description: ["&3Алмазы&f можно добыть &7железной киркой&f в шахте на высоте 1-16. Алмазы очень ценные и нужны для многих вещей и механизмов, но сейчас Вы можете создать алмазную кирку."]
+			subtitle: "{quests.gloomy_rise.progress_1.origins.diamond.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress_1.origins.diamond.description_1}"
+				""
+				"{quests.gloomy_rise.progress_1.origins.diamond.description_2}"
+			]
 			dependencies: ["39C60726C5C4150F"]
 			id: "16B75CEDF776927E"
 			tasks: [{
 				id: "577BC5577F0F2498"
 				type: "item"
-				title: "Алмаз"
+				title: "{quests.gloomy_rise.progress_1.origins.diamond.task_title}"
 				item: "minecraft:diamond"
 				count: 3L
 			}]
 			rewards: [{
 				id: "17A303D2EAE7ADD8"
 				type: "item"
+				title: "{quests.gloomy_rise.progress_1.origins.diamond.reward_title}"
 				item: "minecraft:diamond"
 			}]
 		}
 		{
+			title: "{quests.gloomy_rise.progress_1.origins.diamond_pickaxe.quest_title}"
 			x: 16.5d
 			y: 0.5d
-			description: ["С помощью алмазной кирки можно получить &8обсидиан&f, а также алмазная кирка эффективнее предыдущих."]
+			subtitle: "{quests.gloomy_rise.progress_1.origins.diamond_pickaxe.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress_1.origins.diamond_pickaxe.description_1}"
+				""
+				"{quests.gloomy_rise.progress_1.origins.diamond_pickaxe.description_2}"
+			]
 			dependencies: ["16B75CEDF776927E"]
 			id: "6741CCCE0EF6A545"
 			tasks: [{
 				id: "766A9A03267F9409"
 				type: "item"
+				title: "{quests.gloomy_rise.progress_1.origins.diamond_pickaxe.task_title}"
 				item: {
 					id: "minecraft:diamond_pickaxe"
 					Count: 1b
@@ -397,6 +423,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "5195D7AE287E8303"
+				type: "item"
+				title: "{quests.gloomy_rise.progress_1.origins.diamond_pickaxe.reward_title}"
+				item: "minecraft:diamond"
 			}]
 		}
 		{
@@ -446,35 +478,54 @@
 			]
 		}
 		{
+			title: "{quests.gloomy_rise.progress_1.origins.gold_ore.quest_title}"
 			x: 15.0d
 			y: -1.0d
-			description: ["&eЗолотую руду&f можно добыть &7железной киркой&f в шахте на высоте 5-28. Золотую руду можно переплавить и получить золотой слиток."]
+			subtitle: "{quests.gloomy_rise.progress_1.origins.gold_ore.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress_1.origins.gold_ore.description_1}"
+				""
+				"{quests.gloomy_rise.progress_1.origins.gold_ore.description_2}"
+			]
 			dependencies: ["39C60726C5C4150F"]
 			id: "6BA446FB38C2AED4"
 			tasks: [{
 				id: "259F09DEEA08E97A"
 				type: "item"
-				title: "Золотая руда"
+				title: "{quests.gloomy_rise.progress_1.origins.gold_ore.task_title}"
 				item: "minecraft:gold_ore"
 				count: 6L
 			}]
+			rewards: [{
+				id: "349BC83282F0BB5F"
+				type: "item"
+				title: "{quests.gloomy_rise.progress_1.origins.gold_ore.reward_title}"
+				item: "minecraft:gold_ore"
+			}]
 		}
 		{
+			title: "{quests.gloomy_rise.progress_1.origins.gold_ingot.quest_title}"
 			x: 16.5d
 			y: -0.5d
-			description: ["Золотой слиток пригодится вам для многих вещей, например для сундука, рюкзака и т.п."]
+			subtitle: "{quests.gloomy_rise.progress_1.origins.gold_ingot.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress_1.origins.gold_ingot.description_1}"
+				""
+				"{quests.gloomy_rise.progress_1.origins.gold_ingot.description_2}"
+			]
 			dependencies: ["6BA446FB38C2AED4"]
 			id: "0131D6E4A04B280F"
 			tasks: [{
 				id: "72525BCBC5E30BA0"
 				type: "item"
-				title: "Золотой слиток"
+				title: "{quests.gloomy_rise.progress_1.origins.gold_ingot.task_title}"
 				item: "minecraft:gold_ingot"
 				count: 8L
 			}]
 			rewards: [{
 				id: "17D27EF3374E1080"
 				type: "item"
+				title: "{quests.gloomy_rise.progress_1.origins.gold_ingot.reward_title}"
 				item: "minecraft:gold_ingot"
 				count: 4
 			}]

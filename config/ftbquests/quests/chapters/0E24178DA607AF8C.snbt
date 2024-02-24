@@ -20,24 +20,28 @@
 	}]
 	quests: [
 		{
+			title: "{quests.gloomy_rise.introduction.knowledge.quest_title}"
 			x: 0.0d
 			y: 0.0d
-			subtitle: "Новое начало!"
+			subtitle: "{quests.gloomy_rise.introduction.knowledge.subtitle}"
 			description: [
-				"Добро пожаловать в сборку &4Gloomy Rise&f! Данная сборка создана командой &6LGame Studio&f, а главным разработчиком является &6BarMaxx &f(Максим)."
-				"Gloomy Rise - это &3техно-магическая &fсборка с элементами &eРПГ&f, &cХардкора &fи &2Реализма&f. В данной сборке Вы сможете постепенно изучить множество модов. Они включают в себя: исследование мира, сражение с боссами, изучение различных видов &5Магии &fи &8Технологий&f, создание множества ферм ресурсов и авто-крафтов, исследование различных измерений и не только!"
-				"Все виды деятельности связаны между собой множеством изменённых крафтов и квестами, которые помогут получить уникальный игровой опыт, который Вы больше нигде не встретите."
+				"{quests.gloomy_rise.introduction.knowledge.description_1}"
+				""
+				"{quests.gloomy_rise.introduction.knowledge.description_2}"
+				""
+				"{quests.gloomy_rise.introduction.knowledge.description_3}"
 			]
 			id: "114FD26AF2B063E3"
 			tasks: [{
 				id: "7DCEC3187D308DDA"
 				type: "checkmark"
-				title: "Знакомство..."
+				title: "{quests.gloomy_rise.introduction.knowledge.task_title}"
 			}]
 			rewards: [
 				{
 					id: "13C0E0901B548A1C"
 					type: "item"
+					title: "{quests.gloomy_rise.introduction.knowledge.reward_title}"
 					item: "minecraft:cake"
 				}
 				{
@@ -67,13 +71,16 @@
 			]
 		}
 		{
+			title: "{quests.gloomy_rise.itroduction.akashic_tome.quest_title}"
 			x: 1.5d
 			y: 0.0d
-			subtitle: "Книги в Книге!"
+			subtitle: "{quests.gloomy_rise.itroduction.akashic_tome.subtitle}"
 			description: [
-				"В сборке довольно много различных &6гайд-книг&f, которые помогают при изучении модов. Из-за того, что этих книг много - был добавлен специальный предмет &4Том Акаши&f, в который можно положить все книги и они будут занимать всего 1 слот."
-				"Для того, чтобы положить в Том Акаши гайд-книгу - нужно их просто соединить в сетке крафта. А после просто выбрать нужную книгу и она откроется."
-				"Для сброса Тома нужно просто нажать &eЛКМ&f по воздуху."
+				"{quests.gloomy_rise.itroduction.akashic_tome.description_1}"
+				""
+				"{quests.gloomy_rise.itroduction.akashic_tome.description_2}"
+				""
+				"{quests.gloomy_rise.itroduction.akashic_tome.description_3}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["114FD26AF2B063E3"]
@@ -81,11 +88,12 @@
 			tasks: [{
 				id: "77BD4FEE6470775E"
 				type: "checkmark"
-				title: "Том Акаши"
+				title: "{quests.gloomy_rise.itroduction.akashic_tome.task_title}"
 			}]
 			rewards: [{
 				id: "21BFFB821D55EB0A"
 				type: "item"
+				title: "{quests.gloomy_rise.itroduction.akashic_tome.reward_title}"
 				item: {
 					id: "akashictome:tome"
 					Count: 1b
@@ -163,17 +171,18 @@
 			}]
 		}
 		{
+			title: "{quests.gloomy_rise.itroduction.step_up.quest_title}"
 			x: -1.5d
 			y: 0.0d
-			subtitle: "Удобства!"
-			description: ["В сборке установлен мод &3StepUp&f, который добавляет авто-прыжок. Для того, чтобы выключить его или переключить режим - нужно нажать на кнопку &2H&f. Также, эту кнопку можно поменять на другую в настройках управления."]
+			subtitle: "{quests.gloomy_rise.itroduction.step_up.subtitle}"
+			description: ["{quests.gloomy_rise.itroduction.step_up.description}"]
 			hide_dependency_lines: true
 			dependencies: ["114FD26AF2B063E3"]
 			id: "4235B38EED9CFE8D"
 			tasks: [{
 				id: "49323EF9AE90BAC2"
 				type: "checkmark"
-				title: "Авто-прыжок"
+				title: "{quests.gloomy_rise.itroduction.step_up.task_title}"
 			}]
 		}
 	]
