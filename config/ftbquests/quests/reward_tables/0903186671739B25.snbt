@@ -1,7 +1,7 @@
 {
 	id: "0903186671739B25"
 	order_index: 4
-	title: "Мясо"
+	title: "{reward_tables.gloomy_rise.simple_meat_food.reward_table_title}"
 	loot_size: 1
 	rewards: [
 		{ item: "minecraft:cooked_porkchop" }

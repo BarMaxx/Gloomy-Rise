@@ -1,7 +1,7 @@
 {
 	id: "1A8100FF743B9A3E"
 	order_index: 6
-	title: "Сундуки"
+	title: "{reward_tables.gloomy_rise.chests.reward_table_title}"
 	loot_size: 1
 	rewards: [
 		{ item: "minecraft:chest" }

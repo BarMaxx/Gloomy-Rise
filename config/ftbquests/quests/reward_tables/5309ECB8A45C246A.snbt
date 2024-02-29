@@ -1,7 +1,7 @@
 {
 	id: "5309ECB8A45C246A"
 	order_index: 5
-	title: "Руда"
+	title: "{reward_tables.gloomy_rise.simple_ores.reward_table_title}"
 	loot_size: 1
 	rewards: [
 		{ item: "minecraft:iron_ore" }

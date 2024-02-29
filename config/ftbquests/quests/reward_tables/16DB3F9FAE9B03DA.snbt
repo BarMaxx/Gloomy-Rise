@@ -1,7 +1,7 @@
 {
 	id: "16DB3F9FAE9B03DA"
 	order_index: 8
-	title: "Бочки"
+	title: "{reward_tables.gloomy_rise.barrels.reward_table_title}"
 	loot_size: 1
 	rewards: [
 		{ item: "minecraft:barrel" }

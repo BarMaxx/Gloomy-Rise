@@ -1,7 +1,7 @@
 {
 	id: "615A7E1A239E2611"
 	order_index: 7
-	title: "Улучшения для рюкзака"
+	title: "{reward_tables.gloomy_rise.simple_upgrades_for_backpacks.reward_table_title}"
 	loot_size: 1
 	rewards: [
 		{ item: "sophisticatedbackpacks:pickup_upgrade" }

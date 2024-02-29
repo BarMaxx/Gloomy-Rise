@@ -344,4 +344,15 @@
 	"quests.gloomy_rise.other.chipped.chapter_title": "&2Декор",
 	
 	"quests.gloomy_rise.other.miscellaneous.chapter_title": "&eРазное"
+	
+	
+	"reward_tables.gloomy_rise.logs.reward_table_title": "Брёвна",
+	"reward_tables.gloomy_rise.chests.reward_table_title": "Сундуки",
+	"reward_tables.gloomy_rise.barrels.reward_table_title": "Бочки"
+	"reward_tables.gloomy_rise.simple_upgrades_for_backpacks.reward_table_title": "Простые улучшения для рюкзака",
+	"reward_tables.gloomy_rise.simple_food.reward_table_title": "Начальная еда",
+	"reward_tables.gloomy_rise.simple_meat_food.reward_table_title": "Начальное мясо",
+	"reward_tables.gloomy_rise.great_food.reward_table_title": "Вкусности"
+	"reward_tables.gloomy_rise.coals.reward_table_title": "Уголь",
+	"reward_tables.gloomy_rise.simple_ores.reward_table_title": "Начальная руда",
 }
