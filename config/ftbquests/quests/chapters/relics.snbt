@@ -19,7 +19,7 @@
 		width: 50.0d
 		height: 30.0d
 		rotation: 0.0d
-		image: "gloomyrise:textures/image-16.png"
+		image: "gloomyrise:textures/background_for_questbook.png"
 		hover: [ ]
 		click: ""
 		dev: false
@@ -197,6 +197,7 @@
 		{
 			x: -7.0d
 			y: -0.5d
+			shape: "crumpled_circle"
 			dependencies: ["4DE82C9EF8BBAE09"]
 			id: "03E0677ACD581474"
 			tasks: [{

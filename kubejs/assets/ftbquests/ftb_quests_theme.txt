@@ -1,9 +1,9 @@
 [*]
 background:          ftblibrary:textures/gui/background_squares.png; color=#65000b; tile_size=64
-extra_quest_shapes:  diamond, pentagon, hexagon, octagon, heart, gear
+extra_quest_shapes:  diamond, pentagon, hexagon, octagon, heart, gear, default_circle, default_square, default_rsquare, default_diamond, default_pentagon, default_hexagon, default_octagon, default_heart, default_gear, crumpled_circle, crumpled_square, crumpled_rsquare, crumpled_diamond, crumpled_pentagon, crumpled_hexagon, crumpled_octagon, crumpled_heart, crumpled_gear, ragged_circle, ragged_square, ragged_rsquare, ragged_diamond, ragged_pentagon, ragged_hexagon, ragged_octagon, ragged_heart, ragged_gear, torn_circle, torn_square, torn_rsquare, torn_diamond, torn_pentagon, torn_hexagon, torn_octagon, torn_heart, torn_gear
 
-text_color:          #FFFFFF
-hover_text_color:    #FFFFA0
+text_color:          #AAAAAA
+hover_text_color:    #AAAAAA
 disabled_text_color: #999999
 
 widget_border:     #1B1D1E
@@ -46,8 +46,8 @@ move_up_icon:         ftblibrary:icons/up
 move_down_icon:       ftblibrary:icons/down
 
 full_screen_quest:                  0
-tasks_text_color:                   #5555FF
-rewards_text_color:                 #FFAA00
+tasks_text_color:                   #AAAAAA
+rewards_text_color:                 #AAAAAA
 quest_view_background:              {{context_menu}}
 quest_view_border:                  {{widget_border}}
 quest_view_title:                   #AAAAAA
