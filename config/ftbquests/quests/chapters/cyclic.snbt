@@ -5,12 +5,24 @@
 	filename: "cyclic"
 	title: "{quests.gloomy_rise.progress_1.cyclic_blocks.chapter_title}"
 	icon: "cyclic:mason_cobble"
-	default_quest_shape: ""
+	default_quest_shape: "default_circle"
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 50.0d
+		height: 30.0d
+		rotation: 0.0d
+		image: "gloomyrise:textures/background_for_questbook.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
+			x: -6.0d
+			y: -4.0d
 			dependencies: ["114FD26AF2B063E3"]
 			id: "080EBE142932F2C2"
 			tasks: [{
@@ -20,8 +32,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 0.0d
+			x: -4.5d
+			y: -4.0d
 			dependencies: ["080EBE142932F2C2"]
 			id: "7F0DFC5DBE82F79C"
 			tasks: [{
@@ -31,8 +43,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 0.0d
+			x: -7.5d
+			y: -4.0d
 			dependencies: ["080EBE142932F2C2"]
 			id: "0AA85A56210FEE56"
 			tasks: [{
@@ -42,8 +54,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 1.5d
+			x: -7.0d
+			y: -2.5d
 			dependencies: ["0AA85A56210FEE56"]
 			id: "199B10D82CFFDBD5"
 			tasks: [{
@@ -53,8 +65,8 @@
 			}]
 		}
 		{
-			x: -0.75d
-			y: -0.75d
+			x: -7.0d
+			y: -5.0d
 			dependencies: [
 				"080EBE142932F2C2"
 				"0AA85A56210FEE56"
@@ -67,8 +79,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -1.5d
+			x: -6.0d
+			y: -5.0d
 			dependencies: ["080EBE142932F2C2"]
 			id: "46D9FCEF9F3190D0"
 			tasks: [{
@@ -78,8 +90,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -1.0d
+			x: -5.0d
+			y: -5.0d
 			dependencies: ["080EBE142932F2C2"]
 			id: "4B6838514787B8F7"
 			tasks: [{
@@ -89,8 +101,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -1.0d
+			x: -9.0d
+			y: -3.5d
 			dependencies: ["0AA85A56210FEE56"]
 			id: "78FC1E9D59F46C5F"
 			tasks: [{
@@ -100,8 +112,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -1.5d
+			x: -8.0d
+			y: -5.0d
 			dependencies: ["0AA85A56210FEE56"]
 			id: "12E5C57B989333FE"
 			tasks: [{
@@ -111,8 +123,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 0.0d
+			x: -9.0d
+			y: -4.5d
 			dependencies: ["0AA85A56210FEE56"]
 			id: "619DEDDF4FCE7009"
 			tasks: [{
@@ -122,8 +134,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 1.5d
+			x: -8.0d
+			y: -3.0d
 			dependencies: ["0AA85A56210FEE56"]
 			id: "1CF477BDC0823F11"
 			tasks: [{
@@ -133,8 +145,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 1.5d
+			x: -5.0d
+			y: -2.5d
 			dependencies: [
 				"199B10D82CFFDBD5"
 				"7F0DFC5DBE82F79C"
@@ -147,8 +159,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 0.0d
+			x: -3.5d
+			y: -4.0d
 			dependencies: ["7F0DFC5DBE82F79C"]
 			id: "0556DDE92E61F372"
 			tasks: [{
@@ -158,8 +170,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 3.0d
+			x: -6.5d
+			y: -1.0d
 			dependencies: ["199B10D82CFFDBD5"]
 			id: "19337224F5FBAF4B"
 			tasks: [{
@@ -169,8 +181,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 3.0d
+			x: -5.5d
+			y: -1.0d
 			dependencies: ["5D1946CB2B327478"]
 			id: "3E4C83B27C399B94"
 			tasks: [{
@@ -180,8 +192,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 3.0d
+			x: -4.5d
+			y: -1.0d
 			dependencies: ["5D1946CB2B327478"]
 			id: "7D9E89B70352AEF5"
 			tasks: [{
@@ -191,8 +203,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -1.0d
+			x: -6.5d
+			y: 0.5d
 			dependencies: ["7CA023B662360C6A"]
 			id: "2BE4EE71E33BAAD3"
 			tasks: [{
@@ -202,8 +214,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 1.0d
+			x: -4.5d
+			y: 0.5d
 			dependencies: ["7CA023B662360C6A"]
 			id: "06F7B17E7AD7FF8B"
 			tasks: [{
@@ -213,8 +225,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 0.0d
+			x: -3.0d
+			y: 0.5d
 			dependencies: ["19F6DCFA0E59F3DC"]
 			id: "4CFDD1CA1A25C010"
 			tasks: [{
@@ -224,8 +236,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -1.0d
+			x: -2.5d
+			y: -3.5d
 			dependencies: ["0556DDE92E61F372"]
 			id: "7B37C3BF96953D8A"
 			tasks: [{
@@ -235,8 +247,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -3.0d
+			x: -6.5d
+			y: 2.5d
 			dependencies: ["54197D8FFFBFD766"]
 			id: "4D2B39271602D4A4"
 			tasks: [{
@@ -246,8 +258,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 4.0d
+			x: 4.0d
+			y: 2.5d
 			dependencies: ["73D8A15D7A0E9FA2"]
 			id: "6CC62C7EAE33DC11"
 			tasks: [{
@@ -257,8 +269,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 2.5d
+			x: 4.5d
+			y: 1.0d
 			dependencies: ["6CC62C7EAE33DC11"]
 			id: "094AA8B6A0407D15"
 			tasks: [{
@@ -268,8 +280,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 5.5d
+			x: 5.5d
+			y: 2.5d
 			dependencies: ["6CC62C7EAE33DC11"]
 			id: "74F907701E374838"
 			tasks: [{
@@ -279,8 +291,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 3.0d
+			x: 2.0d
+			y: -3.0d
 			dependencies: ["3BC47498DF613B04"]
 			id: "7F35968BCA0DA572"
 			tasks: [{
@@ -290,8 +302,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 2.0d
+			x: 3.5d
+			y: -2.5d
 			dependencies: ["7F35968BCA0DA572"]
 			id: "46D1D3FD7680A07B"
 			tasks: [{
@@ -301,8 +313,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 4.0d
+			x: 0.5d
+			y: -2.5d
 			dependencies: ["7F35968BCA0DA572"]
 			id: "70B4568F454C15B1"
 			tasks: [{
@@ -312,8 +324,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 5.0d
+			x: 0.0d
+			y: -1.0d
 			dependencies: ["70B4568F454C15B1"]
 			id: "5005EF56B4C75BEB"
 			tasks: [{
@@ -323,8 +335,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -3.0d
+			x: 2.0d
+			y: -4.5d
 			dependencies: ["114FD26AF2B063E3"]
 			id: "4A12190452A0C103"
 			tasks: [{
@@ -334,8 +346,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 1.0d
+			x: 0.5d
+			y: 3.5d
 			dependencies: ["3BC47498DF613B04"]
 			id: "021B52A8CEB9970B"
 			tasks: [{
@@ -345,8 +357,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -1.0d
+			x: 0.5d
+			y: 1.5d
 			dependencies: ["3A3C317A703FF83D"]
 			id: "0E42C332E6B87772"
 			tasks: [{
@@ -356,8 +368,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 0.5d
+			x: 1.5d
+			y: 3.0d
 			dependencies: ["40FA20B89ED9FF16"]
 			id: "2694E266F32FC6D8"
 			tasks: [{
@@ -367,8 +379,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -0.5d
+			x: 1.5d
+			y: 2.0d
 			dependencies: ["2694E266F32FC6D8"]
 			id: "1B9ADF370FCE8527"
 			tasks: [{
@@ -378,8 +390,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -0.5d
+			x: -0.5d
+			y: 2.0d
 			dependencies: ["6741CCCE0EF6A545"]
 			id: "705969CB5B1901DB"
 			tasks: [{
@@ -389,8 +401,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 0.5d
+			x: -0.5d
+			y: 3.0d
 			dependencies: ["705969CB5B1901DB"]
 			id: "57CE7329B1F45898"
 			tasks: [{
@@ -400,8 +412,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 3.0d
+			x: 3.0d
+			y: 2.5d
 			dependencies: ["19F6DCFA0E59F3DC"]
 			id: "489BF1A45ADB3977"
 			tasks: [{
@@ -411,8 +423,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 2.0d
+			x: 2.5d
+			y: 1.0d
 			dependencies: ["19F6DCFA0E59F3DC"]
 			id: "44F636D450944D3B"
 			tasks: [{
@@ -422,7 +434,7 @@
 			}]
 		}
 		{
-			x: -6.0d
+			x: 2.5d
 			y: 4.0d
 			dependencies: ["19F6DCFA0E59F3DC"]
 			id: "1BF653690B6FDFE5"
@@ -433,8 +445,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -3.5d
+			x: 1.0d
+			y: -5.0d
 			dependencies: ["4A12190452A0C103"]
 			id: "1D37F815CE8E11C4"
 			tasks: [{
@@ -444,8 +456,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -3.5d
+			x: 3.0d
+			y: -5.0d
 			dependencies: [
 				"4A12190452A0C103"
 				"0223353E9B8A38E1"
@@ -458,8 +470,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -3.0d
+			x: 4.0d
+			y: -4.5d
 			dependencies: ["114FD26AF2B063E3"]
 			id: "0223353E9B8A38E1"
 			tasks: [{
@@ -469,8 +481,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 1.5d
+			x: -8.5d
+			y: 0.5d
 			dependencies: ["39C60726C5C4150F"]
 			id: "441F91A4CDDECB24"
 			tasks: [{
@@ -480,7 +492,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: 4.5d
 			y: 4.0d
 			dependencies: ["6CC62C7EAE33DC11"]
 			id: "3508F5C14A5695C8"
@@ -491,8 +503,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -1.5d
+			x: -8.5d
+			y: 2.5d
 			dependencies: ["4D2B39271602D4A4"]
 			id: "2B3B7CCB0479A62A"
 			tasks: [{
@@ -502,8 +514,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 1.0d
+			x: -3.5d
+			y: -3.0d
 			dependencies: ["5D1946CB2B327478"]
 			id: "4AC38B1EF9A87D45"
 			tasks: [{
@@ -513,8 +525,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 2.0d
+			x: -3.5d
+			y: -2.0d
 			dependencies: ["5D1946CB2B327478"]
 			id: "003AE8CA2A453916"
 			tasks: [{
@@ -524,8 +536,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 3.0d
+			x: -7.5d
+			y: -1.0d
 			dependencies: ["199B10D82CFFDBD5"]
 			id: "6CB95E8E341B7810"
 			tasks: [{
