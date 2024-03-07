@@ -5,8 +5,20 @@
 	filename: "tconstruct"
 	title: "{quests.gloomy_rise.progress_1.casting.chapter_title}"
 	icon: "tconstruct:smeltery_controller"
-	default_quest_shape: "rsquare"
+	default_quest_shape: "default_circle"
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 50.0d
+		height: 30.0d
+		rotation: 0.0d
+		image: "gloomyrise:textures/background_for_questbook.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			title: "{quests.gloomy_rise.progress_1.casting.tinker_station.quest_title}"
@@ -17,9 +29,8 @@
 					texture: "minecraft:oak_planks"
 				}
 			}
-			x: -3.0d
-			y: 1.0d
-			shape: "hexagon"
+			x: -8.0d
+			y: -2.5d
 			subtitle: "{quests.gloomy_rise.progress_1.casting.tinker_station.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.casting.tinker_station.description_1}"
@@ -53,8 +64,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.casting.part_chest.quest_title}"
-			x: -2.0d
-			y: -1.0d
+			x: -6.5d
+			y: -4.5d
 			subtitle: "{quests.gloomy_rise.progress_1.casting.part_chest.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.casting.part_chest.description_1}"
@@ -77,12 +88,10 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 0.0d
-			shape: "hexagon"
+			x: -4.0d
+			y: -2.5d
 			description: ["Обожжённые кирпичи можно выплавить в печке из цемента. Эти кирпичи понадобятся для создания различных частей &8плавильни&f."]
 			dependencies: ["3051A7249D8F1499"]
-			size: 1.1d
 			id: "2351D3844B34F991"
 			tasks: [{
 				id: "2EC6195E22411D31"
@@ -101,9 +110,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.casting.part_builder.quest_title}"
-			x: -3.0d
-			y: -1.0d
-			shape: "hexagon"
+			x: -8.0d
+			y: -4.5d
 			subtitle: "{quests.gloomy_rise.progress_1.casting.part_builder.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.casting.part_builder.description_1}"
@@ -135,8 +143,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.casting.crafting_station.quest_title}"
-			x: -3.5d
-			y: 0.0d
+			x: -8.5d
+			y: -3.5d
 			subtitle: "{quests.gloomy_rise.progress_1.casting.crafting_station.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.casting.crafting_station.description_1}"
@@ -160,8 +168,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.casting.tinkers_chest.quest_title}"
-			x: -1.5d
-			y: 0.0d
+			x: -6.0d
+			y: -3.5d
 			subtitle: "{quests.gloomy_rise.progress_1.casting.tinkers_chest.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.casting.tinkers_chest.description_1}"
@@ -185,9 +193,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.casting.grout.quest_title}"
-			x: 0.0d
-			y: 0.0d
-			shape: "pentagon"
+			x: -4.0d
+			y: -4.5d
 			subtitle: "{quests.gloomy_rise.progress_1.casting.grout.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.casting.grout.description_1}"
@@ -195,7 +202,6 @@
 				"{quests.gloomy_rise.progress_1.casting.grout.description_2}"
 			]
 			dependencies: ["05EB7D069C18CA1E"]
-			size: 1.1d
 			id: "7189F8D6816DD2CA"
 			tasks: [
 				{
@@ -234,8 +240,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.casting.cast_chest.quest_title}"
-			x: -2.0d
-			y: 1.0d
+			x: -6.5d
+			y: -2.5d
 			subtitle: "{quests.gloomy_rise.progress_1.casting.cast_chest.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.casting.cast_chest.description_1}"
@@ -266,8 +272,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: 0.0d
+			x: -4.0d
+			y: 0.5d
 			dependencies: ["4702BCF6E921AEE5"]
 			id: "2B82C41442D79872"
 			tasks: [{
@@ -277,8 +283,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -1.5d
+			x: -2.5d
+			y: -0.5d
 			dependencies: ["4702BCF6E921AEE5"]
 			id: "486010978F709F3B"
 			tasks: [{
@@ -288,8 +294,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 1.0d
+			x: -5.0d
+			y: -2.5d
 			dependencies: ["2351D3844B34F991"]
 			id: "491EA29960A5595F"
 			tasks: [{
@@ -299,11 +305,9 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 0.0d
-			shape: "square"
+			x: -4.0d
+			y: -1.0d
 			dependencies: ["2351D3844B34F991"]
-			size: 1.1d
 			id: "4702BCF6E921AEE5"
 			tasks: [{
 				id: "416725A3F45CB8AF"
@@ -312,8 +316,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -0.5d
+			x: -4.5d
+			y: 3.0d
 			dependencies: ["40464E10E7F97A6A"]
 			id: "089896D5D998D573"
 			tasks: [{
@@ -323,8 +327,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 1.5d
+			x: -5.5d
+			y: -0.5d
 			dependencies: ["4702BCF6E921AEE5"]
 			id: "6A0CAC1211EC6CBC"
 			tasks: [{
@@ -334,7 +338,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: -2.5d
 			y: -1.5d
 			dependencies: ["4702BCF6E921AEE5"]
 			id: "5F6FC3328D9E989C"
@@ -345,8 +349,8 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: -3.0d
+			x: 3.5d
+			y: 2.0d
 			dependencies: ["7AAB7F71833C4727"]
 			id: "2AF2CB909066F7BD"
 			tasks: [{
@@ -356,11 +360,9 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 0.0d
-			shape: "pentagon"
+			x: 1.0d
+			y: -3.5d
 			dependencies: ["58CDF172088BCD26"]
-			size: 1.1d
 			id: "7ECBF661814923E0"
 			tasks: [{
 				id: "1DF54C46205787AB"
@@ -369,11 +371,9 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: 0.0d
-			shape: "hexagon"
+			x: 1.0d
+			y: -1.5d
 			dependencies: ["0690757BD542537D"]
-			size: 1.1d
 			id: "7F9CE37C1558F769"
 			tasks: [{
 				id: "39F62DFDFB6C49D6"
@@ -382,8 +382,8 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: 1.5d
+			x: -0.5d
+			y: -0.5d
 			dependencies: ["25CA22E3200EFBD2"]
 			id: "7252B5CC801D0C90"
 			tasks: [{
@@ -393,8 +393,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: -1.5d
+			x: 2.5d
+			y: -0.5d
 			dependencies: ["25CA22E3200EFBD2"]
 			id: "04A452802E210999"
 			tasks: [{
@@ -404,8 +404,9 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -0.5d
+			x: 1.0d
+			y: -5.0d
+			hide_dependency_lines: true
 			dependencies: ["717BF6EE7925AD56"]
 			id: "58CDF172088BCD26"
 			tasks: [{
@@ -415,8 +416,8 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: -0.5d
+			x: 1.0d
+			y: 3.0d
 			dependencies: ["5B3FA68AC699BF6B"]
 			id: "6A6BA52A9629BD6E"
 			tasks: [{
@@ -426,8 +427,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 1.5d
+			x: -0.5d
+			y: 0.5d
 			dependencies: ["25CA22E3200EFBD2"]
 			id: "0A29CD13A1DF8163"
 			tasks: [{
@@ -437,11 +438,9 @@
 			}]
 		}
 		{
-			x: 13.0d
+			x: 1.0d
 			y: 0.0d
-			shape: "square"
 			dependencies: ["7F9CE37C1558F769"]
-			size: 1.1d
 			id: "25CA22E3200EFBD2"
 			tasks: [{
 				id: "5D82F68F4A9905F2"
@@ -450,8 +449,8 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: -1.0d
+			x: 2.0d
+			y: -1.5d
 			dependencies: ["7F9CE37C1558F769"]
 			id: "4D55396EB6736E77"
 			tasks: [{
@@ -461,8 +460,8 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: -1.5d
+			x: 2.5d
+			y: 0.5d
 			dependencies: ["25CA22E3200EFBD2"]
 			id: "2A6E9F96BAE9BF20"
 			tasks: [{
@@ -472,11 +471,9 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -3.0d
-			shape: "pentagon"
+			x: -7.0d
+			y: 3.0d
 			dependencies: ["717BF6EE7925AD56"]
-			size: 1.1d
 			id: "53918F14A6386DFF"
 			tasks: [{
 				id: "519E90ED05967372"
@@ -485,8 +482,8 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: -3.5d
+			x: 4.5d
+			y: 4.0d
 			dependencies: ["7AAB7F71833C4727"]
 			id: "24A67BD71C3F768E"
 			tasks: [{
@@ -496,8 +493,8 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: -4.5d
+			x: 4.5d
+			y: 3.0d
 			dependencies: ["7AAB7F71833C4727"]
 			id: "07F77F1EB6C1855D"
 			tasks: [{
@@ -507,11 +504,9 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: -1.5d
-			shape: "rsquare"
+			x: 2.0d
+			y: 3.5d
 			dependencies: ["6A6BA52A9629BD6E"]
-			size: 1.2d
 			id: "7D2A688CC0B902F9"
 			tasks: [{
 				id: "1439B45A76D6F1F7"
@@ -520,9 +515,8 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 0.0d
-			shape: "pentagon"
+			x: 1.0d
+			y: 1.5d
 			dependencies: ["25CA22E3200EFBD2"]
 			id: "5B3FA68AC699BF6B"
 			tasks: [{
@@ -532,9 +526,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -1.5d
-			shape: "square"
+			x: -5.5d
+			y: 1.5d
 			dependencies: ["717BF6EE7925AD56"]
 			id: "14F4C62B8767C420"
 			tasks: [{
@@ -544,9 +537,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -1.5d
-			shape: "square"
+			x: -5.5d
+			y: 4.5d
 			dependencies: ["717BF6EE7925AD56"]
 			id: "6B438093B81CA809"
 			tasks: [{
@@ -556,9 +548,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -2.5d
-			shape: "square"
+			x: -5.5d
+			y: 0.5d
 			dependencies: ["14F4C62B8767C420"]
 			id: "3AA29E3ECAB1C602"
 			tasks: [
@@ -575,9 +566,8 @@
 			]
 		}
 		{
-			x: 10.0d
-			y: -2.5d
-			shape: "square"
+			x: -4.5d
+			y: 4.5d
 			dependencies: ["6B438093B81CA809"]
 			id: "599E6BAF2259009C"
 			tasks: [
@@ -594,8 +584,8 @@
 			]
 		}
 		{
-			x: 7.0d
-			y: -2.5d
+			x: -7.0d
+			y: 4.5d
 			dependencies: ["53918F14A6386DFF"]
 			id: "0059ECD940817D8E"
 			tasks: [{
@@ -605,11 +595,9 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: -3.0d
-			shape: "pentagon"
+			x: 3.5d
+			y: 3.5d
 			dependencies: ["7D2A688CC0B902F9"]
-			size: 1.1d
 			id: "7AAB7F71833C4727"
 			tasks: [{
 				id: "460EB22F732C07EE"
@@ -618,8 +606,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -4.5d
+			x: -8.5d
+			y: 3.0d
 			dependencies: ["53918F14A6386DFF"]
 			id: "4ACD844840B38D48"
 			tasks: [{
@@ -629,8 +617,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -3.0d
+			x: -7.5d
+			y: 2.0d
 			dependencies: ["53918F14A6386DFF"]
 			id: "4C9DA58BABF062D2"
 			tasks: [{
@@ -640,8 +628,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -1.0d
+			x: -3.0d
+			y: -4.0d
 			dependencies: ["7189F8D6816DD2CA"]
 			id: "1842702850303E5E"
 			tasks: [{
@@ -651,8 +639,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -1.0d
+			x: -3.0d
+			y: -3.0d
 			dependencies: ["1842702850303E5E"]
 			id: "3051A7249D8F1499"
 			tasks: [{
@@ -662,8 +650,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 1.0d
+			x: 0.0d
+			y: -3.0d
 			dependencies: ["7ECBF661814923E0"]
 			id: "4B3DC74041EDB4CD"
 			tasks: [{
@@ -673,8 +661,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 1.0d
+			x: 0.0d
+			y: -2.0d
 			dependencies: ["4B3DC74041EDB4CD"]
 			id: "0690757BD542537D"
 			tasks: [{
@@ -684,8 +672,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 1.5d
+			x: -5.5d
+			y: -1.5d
 			dependencies: ["4702BCF6E921AEE5"]
 			id: "3D90FA49CDE9D6DE"
 			tasks: [{
@@ -695,8 +683,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -5.5d
+			x: -9.0d
+			y: 4.0d
 			dependencies: ["4ACD844840B38D48"]
 			id: "0C5110D8DC8787DD"
 			tasks: [{
@@ -706,8 +694,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -5.5d
+			x: -9.0d
+			y: 2.0d
 			dependencies: ["4ACD844840B38D48"]
 			id: "07B02B469CAB40FB"
 			tasks: [{
@@ -723,8 +711,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -3.5d
+			x: -6.5d
+			y: 2.0d
 			dependencies: ["53918F14A6386DFF"]
 			id: "600BB701D057EC94"
 			tasks: [{
@@ -734,9 +722,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -4.5d
-			shape: "octagon"
+			x: -6.5d
+			y: 1.0d
 			dependencies: ["600BB701D057EC94"]
 			id: "2FCE231DD14CF289"
 			tasks: [{
@@ -746,8 +733,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -4.0d
+			x: -7.5d
+			y: 1.0d
 			dependencies: ["4C9DA58BABF062D2"]
 			id: "7D60CA19169058C4"
 			tasks: [{
@@ -782,8 +769,8 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: -2.5d
+			x: 3.5d
+			y: 4.5d
 			dependencies: ["7AAB7F71833C4727"]
 			id: "3B655BCE753DEC45"
 			tasks: [{
@@ -794,9 +781,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.casting.additional_information_for_tinker_station.quest_title}"
-			x: -3.0d
-			y: 2.0d
-			shape: "gear"
+			x: -9.0d
+			y: -2.0d
 			subtitle: "{quests.gloomy_rise.progress_1.casting.additional_information_for_tinker_station.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.casting.additional_information_for_tinker_station.description_1}"
@@ -821,9 +807,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.casting.additional_information_for_part_builder.quest_title}"
-			x: -3.0d
-			y: -2.0d
-			shape: "gear"
+			x: -9.0d
+			y: -5.0d
 			subtitle: "{quests.gloomy_rise.progress_1.casting.additional_information_for_part_builder.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.casting.additional_information_for_part_builder.description_1}"
@@ -849,12 +834,10 @@
 		{
 			title: "Плавильня"
 			icon: "tconstruct:smeltery_controller"
-			x: 8.0d
-			y: -1.5d
-			shape: "rsquare"
+			x: -5.5d
+			y: 3.0d
 			description: ["Чтобы построить плавильню нужно поставить контроллер плавильни и обожжённые кирпичи, например 3х3, 5х5 и т.п. Далее необходимо добавлять сливы плавильни, краны, литейные столы и резервуары. Плавильня нужна для более выгодной переплавки ресурсов, создания сплавов и выплавки инструментов."]
 			dependencies: ["089896D5D998D573"]
-			size: 1.2d
 			id: "717BF6EE7925AD56"
 			tasks: [
 				{
@@ -883,9 +866,8 @@
 		}
 		{
 			icon: "tconstruct:seared_melter"
-			x: 6.5d
-			y: 0.0d
-			shape: "pentagon"
+			x: -4.0d
+			y: 2.0d
 			subtitle: "Мини-версия Плавильни!"
 			description: ["Обожжённая плавильная печь нужна для выплавки контроллера плавильни. Для этого нужно поставить обожжённую плавильную печь над обожжённым резервуаром и залить туда лаву. Далее нужно выплавить медь и, с помощью крана, вылить её в литейный резервувар с обожжённым нагревателем."]
 			dependencies: ["2B82C41442D79872"]
@@ -914,10 +896,11 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: 1.0d
+			x: 13.0d
+			y: -1.5d
+			hide_dependency_lines: true
 			dependencies: ["717BF6EE7925AD56"]
-			size: 1.5d
+			size: 7.0d
 			id: "3C35436F10701C27"
 			tasks: [{
 				id: "0B0829FB7B8E8BD6"
@@ -926,8 +909,8 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: -6.0d
+			x: 4.5d
+			y: 1.5d
 			description: ["Продвинутая палка с верстаком также позволяет открыть верстак в любом месте, но этот верстак сохраняет свой инвентарь. Можно использовать как рюкзак :)"]
 			dependencies: ["07F77F1EB6C1855D"]
 			id: "5E7D98365C7A4D87"

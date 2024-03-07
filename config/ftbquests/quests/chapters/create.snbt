@@ -5,7 +5,6 @@
 	filename: "create"
 	title: "{quests.gloomy_rise.progress_1.create.chapter_title}"
 	icon: "create:andesite_alloy"
-	subtitle: ["1111"]
 	default_quest_shape: "default_circle"
 	default_hide_dependency_lines: false
 	images: [{
