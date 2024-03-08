@@ -613,94 +613,94 @@
   "advancements.buddycards.main.complete_set4": "Byg сет",
   "advancements.buddycards.main.complete_set4.desc": "Получите все карты из сета byg",
 
-  "item.buddycards.shredded_buddycard": "Shredded Buddycard",
-  "item.buddycards.pack.5": "Buddycard Pack",
-  "item.buddycards.binder.5": "Buddycard Binder",
-  "item.buddycards.medal.5": "Create Set Buddy Medal",
-  "item.buddycards.set.5": "Create Set",
-  "item.buddycards.recycled_buddycard": "Recycled Buddycard",
-  "item.buddycards.unfinished_pack": "Incomplete Buddycard Pack",
+  "item.buddycards.shredded_buddycard": "Измельчённый Buddycard",
+  "item.buddycards.pack.5": "Buddycard пак",
+  "item.buddycards.binder.5": "Buddycard переплёт",
+  "item.buddycards.medal.5": "Create сет Buddy медаль",
+  "item.buddycards.set.5": "Create сет",
+  "item.buddycards.recycled_buddycard": "Переработанный Buddycard",
+  "item.buddycards.unfinished_pack": "Незавершенный Buddycard пак",
   
   "item.buddycards.card.5.1": "Adnestine",
-  "item.buddycards.card.5.1.tooltip": "Slightly tougher than stone.",
+  "item.buddycards.card.5.1.tooltip": "Немного тверже камня.",
   
   "item.buddycards.card.5.2": "Cog Jr",
-  "item.buddycards.card.5.2.tooltip": "What comes around goes around.",
+  "item.buddycards.card.5.2.tooltip": "Что приходит, то и уходит.",
   
   "item.buddycards.card.5.3": "Cog Sr",
-  "item.buddycards.card.5.3.tooltip": "What goes around comes around.",
+  "item.buddycards.card.5.3.tooltip": "Что посеешь, то и пожнешь.",
   
   "item.buddycards.card.5.4": "Encase",
-  "item.buddycards.card.5.4.tooltip": "Slightly tougher than stone and wood.",
+  "item.buddycards.card.5.4.tooltip": "Немного прочнее камня и дерева.",
   
   "item.buddycards.card.5.5": "Gale",
-  "item.buddycards.card.5.5.tooltip": "It's wimdy outside!",
+  "item.buddycards.card.5.5.tooltip": "На улице ветрено!",
   
   "item.buddycards.card.5.6": "Coppor",
-  "item.buddycards.card.5.6.tooltip": "You'll never take em alive!",
+  "item.buddycards.card.5.6.tooltip": "Тебе никогда не взять их живыми!",
   
   "item.buddycards.card.5.7": "Zink",
-  "item.buddycards.card.5.7.tooltip": "Fancy little thing.",
+  "item.buddycards.card.5.7.tooltip": "Необычная штучка.",
   
   "item.buddycards.card.5.8": "Krush",
-  "item.buddycards.card.5.8.tooltip": "Makes the bones go snap crackle pop.",
+  "item.buddycards.card.5.8.tooltip": "Заставляет кости хрустеть.",
   
   "item.buddycards.card.5.9": "Bluprint",
-  "item.buddycards.card.5.9.tooltip": "It's just like legos I'm telling you!",
+  "item.buddycards.card.5.9.tooltip": "Говорю вам, это прямо как лего!",
   
   "item.buddycards.card.5.10": "Gloo",
-  "item.buddycards.card.5.10.tooltip": "It's hard to make her let things go.",
+  "item.buddycards.card.5.10.tooltip": "Трудно заставить ее оставить все как есть.",
   
   "item.buddycards.card.5.11": "Conveyer",
-  "item.buddycards.card.5.11.tooltip": "A hard worker, carries lots of items.",
+  "item.buddycards.card.5.11.tooltip": "Трудолюбивый работник, таскает с собой много вещей.",
   
   "item.buddycards.card.5.12": "Tunel",
-  "item.buddycards.card.5.12.tooltip": "Secret tunnel! Secret tunnel!",
+  "item.buddycards.card.5.12.tooltip": "Секретный туннель! Секретный туннель!",
   
   "item.buddycards.card.5.13": "Brash",
-  "item.buddycards.card.5.13.tooltip": "Looks kinda like gold.",
+  "item.buddycards.card.5.13.tooltip": "Выглядит как золото.",
   
   "item.buddycards.card.5.14": "Case",
-  "item.buddycards.card.5.14.tooltip": "Slightly tougher than brass and wood.",
+  "item.buddycards.card.5.14.tooltip": "Немного прочнее, чем латунь и дерево.",
   
   "item.buddycards.card.5.15": "Piper",
-  "item.buddycards.card.5.15.tooltip": "It even works underwater, Maybe?",
+  "item.buddycards.card.5.15.tooltip": "Может быть, это работает даже под водой?",
   
   "item.buddycards.card.5.16": "Rose",
-  "item.buddycards.card.5.16.tooltip": "She's such a gem!",
+  "item.buddycards.card.5.16.tooltip": "Она такая прелесть!",
   
   "item.buddycards.card.5.17": "Sticky Finger",
-  "item.buddycards.card.5.17.tooltip": "Can do anything a real hand can do!",
+  "item.buddycards.card.5.17.tooltip": "Может делать все, что под силу настоящей руке!",
   
   "item.buddycards.card.5.18": "Cirkit",
-  "item.buddycards.card.5.18.tooltip": "It's not an i9 but it'll do.",
+  "item.buddycards.card.5.18.tooltip": "Это не i9, но сойдет.",
   
   "item.buddycards.card.5.19": "Blaz Treat",
-  "item.buddycards.card.5.19.tooltip": "Not safe for human consumption.",
+  "item.buddycards.card.5.19.tooltip": "Небезопасен для употребления в пищу человеком.",
   
   "item.buddycards.card.5.20": "Tee",
-  "item.buddycards.card.5.20.tooltip": "Consider it spilled.",
+  "item.buddycards.card.5.20.tooltip": "Считай, что оно пролилось.",
   
   "item.buddycards.card.5.21": "Choko",
-  "item.buddycards.card.5.21.tooltip": "Technically poison.",
+  "item.buddycards.card.5.21.tooltip": "Технически это яд.",
   
   "item.buddycards.card.5.22": "Chrome",
-  "item.buddycards.card.5.22.tooltip": "Can be easily influenced.",
+  "item.buddycards.card.5.22.tooltip": "На него легко повлиять.",
   
   "item.buddycards.card.5.23": "Armm",
-  "item.buddycards.card.5.23.tooltip": "Really comes in handy.",
+  "item.buddycards.card.5.23.tooltip": "Действительно пригодится.",
   
   "item.buddycards.card.5.24": "Glasses",
-  "item.buddycards.card.5.24.tooltip": "He can see the gears turn.",
+  "item.buddycards.card.5.24.tooltip": "Он видит, как вращаются шестеренки.",
   
   "item.buddycards.card.5.25": "Speedo",
-  "item.buddycards.card.5.25.tooltip": "You know how fast you were spinning sir?",
+  "item.buddycards.card.5.25.tooltip": "Вы знаете, с какой скоростью вы вращались, сэр?",
   
   "item.buddycards.card.5.26": "Lumi",
-  "item.buddycards.card.5.26.tooltip": "Brighter than the sun.",
+  "item.buddycards.card.5.26.tooltip": "Ярче солнца.",
   
   "item.buddycards.card.5.27": "Nite",
-  "item.buddycards.card.5.27.tooltip": "Darker than the void.",
+  "item.buddycards.card.5.27.tooltip": "Темнее, чем пустота.",
   
   "item.buddycards.contains.5": "Contains 4 Buddycards",
   "advancements.buddycards.main.create_pack": "Recycling!",
