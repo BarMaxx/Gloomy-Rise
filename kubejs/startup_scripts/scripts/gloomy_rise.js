@@ -15,5 +15,9 @@ onEvent('item.registry', event => {
 	 
 	 event.create('raw_alloy').displayName('Сырой сплав')
 	 
+	 event.create('gloomy_pickaxe').displayName('Мрачная кирка')
+	 
+	 event.create('gloomy_sword').displayName('Мрачный меч')
+	 
 
 })
