@@ -5,12 +5,24 @@
 	filename: "draconic_evolution"
 	title: "{quests.gloomy_rise.progress_3.draconic_evolution.chapter_title}"
 	icon: "draconicevolution:awakened_core"
-	default_quest_shape: "square"
+	default_quest_shape: "default_circle"
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 50.0d
+		height: 30.0d
+		rotation: 0.0d
+		image: "gloomyrise:textures/background_for_questbook.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
+			x: -6.0d
+			y: -1.5d
 			description: ["Один из основных компонетов в моде. Понадобится во многих крафтах, в том числе в крафтах &5Инструментов Виверны&f."]
 			dependencies: ["5465B9A51F9B2C3B"]
 			id: "370EFA552B43333C"
@@ -29,9 +41,10 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -1.0d
+			x: 1.5d
+			y: -5.0d
 			description: ["В ядре слияния можно создать много различных предметов."]
+			hide_dependency_lines: true
 			dependencies: ["370EFA552B43333C"]
 			id: "73DB03CB10F94474"
 			tasks: [{
@@ -42,7 +55,7 @@
 		}
 		{
 			x: 2.5d
-			y: 0.0d
+			y: -3.5d
 			description: ["Необходим для проведения \"ритуала\" &5Уровня Виверны&f по слиянию предметов."]
 			dependencies: [
 				"73DB03CB10F94474"
@@ -64,8 +77,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 0.0d
+			x: 2.5d
+			y: -1.5d
 			description: ["Необходим для проведения \"ритуала\" &6Уровня Дракона&f по слиянию предметов."]
 			dependencies: ["09B3280996AB1183"]
 			id: "6A9D29E49AFC1B64"
@@ -84,8 +97,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 0.0d
+			x: 2.5d
+			y: 0.5d
 			description: ["Нужен для проведения \"ритуала\" &8Уровня Хаоса&f по слиянию предметов."]
 			dependencies: ["6A9D29E49AFC1B64"]
 			id: "4B64826470BD44D7"
@@ -104,9 +117,10 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 1.0d
+			x: 3.5d
+			y: -5.0d
 			description: ["Необходим для проведения \"ритуала\" &1Базового уровня&f по слиянию предметов."]
+			hide_dependency_lines: true
 			dependencies: ["370EFA552B43333C"]
 			id: "2D4CE16AEF758FF0"
 			tasks: [{
@@ -124,12 +138,10 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -1.0d
-			shape: "octagon"
+			x: 3.5d
+			y: 2.0d
 			description: ["Очень опасная, но мощная штуковина. Может хранить в себе огромное количество энергии."]
 			dependencies: ["4B64826470BD44D7"]
-			size: 1.5d
 			id: "514681D2ECCFFDAD"
 			tasks: [{
 				id: "74723108E135C66A"
@@ -138,8 +150,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -1.5d
+			x: -6.0d
+			y: 0.0d
 			description: ["Один из основных компонетов в моде. С его помощью Вам будет доступен крафт &6Инструментов Дракона&f."]
 			dependencies: ["370EFA552B43333C"]
 			id: "2997208A5AC1C2FA"
@@ -158,8 +170,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -3.0d
+			x: -6.0d
+			y: 1.5d
 			description: ["Один из основных компонетов в моде. Используется во многих крафтах, в том числе используется для создания &8Ядра Хаоса&f."]
 			dependencies: ["2997208A5AC1C2FA"]
 			id: "452EC9F116716CAF"
@@ -178,8 +190,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -4.5d
+			x: -6.0d
+			y: 3.0d
 			description: ["Один из основных компонетов в моде. Используется во многих сложных крафтах, таких как &5Ядро дракониевого реактора&f и &8Посох силы Хаоса&f."]
 			dependencies: ["452EC9F116716CAF"]
 			id: "1CB284EFCE071269"
@@ -198,8 +210,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -5.0d
+			x: -4.5d
+			y: 3.0d
 			description: ["Может хранить большое количество энергии."]
 			dependencies: ["1CB284EFCE071269"]
 			id: "0BE8D1916B327D53"
@@ -246,8 +258,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -5.0d
+			x: -6.0d
+			y: 4.5d
 			subtitle: "Стабильность - наше всё"
 			description: ["Стабилизатор... А зачем?.."]
 			dependencies: ["1CB284EFCE071269"]
@@ -259,8 +271,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -2.5d
+			x: 0.0d
+			y: -4.5d
 			description: ["Многофункциональный сундучок."]
 			dependencies: ["73DB03CB10F94474"]
 			id: "27B13C42A42B0845"
@@ -271,8 +283,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 1.5d
+			x: 1.0d
+			y: -4.0d
 			subtitle: "Получай, крапива!"
 			description: ["Неплохое оружие."]
 			dependencies: ["09B3280996AB1183"]
@@ -304,8 +316,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 1.5d
+			x: 1.0d
+			y: -3.0d
 			description: ["Неплохая броня."]
 			dependencies: ["09B3280996AB1183"]
 			id: "554785DD519E1CE1"
@@ -336,8 +348,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -3.0d
+			x: 5.0d
+			y: -1.5d
 			description: ["Неплохой универсальный инструмент."]
 			dependencies: [
 				"50C743BB9057BE81"
@@ -376,8 +388,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 1.5d
+			x: 1.0d
+			y: -1.0d
 			description: ["Хорошая броня."]
 			dependencies: ["6A9D29E49AFC1B64"]
 			id: "70CA307D410134CB"
@@ -408,8 +420,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 1.5d
+			x: 1.0d
+			y: 1.0d
 			description: ["Отличная броня."]
 			dependencies: ["4B64826470BD44D7"]
 			id: "2B2F1586CB6A482E"
@@ -440,8 +452,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -3.0d
+			x: 5.0d
+			y: 0.5d
 			description: ["Отличный универсальный инструмент."]
 			dependencies: [
 				"3523F7F16ACA685A"
@@ -480,7 +492,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: -7.0d
 			y: -1.5d
 			dependencies: ["370EFA552B43333C"]
 			id: "69C158F66D3192A9"
@@ -491,8 +503,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -2.0d
+			x: -7.5d
+			y: 0.5d
 			dependencies: ["2997208A5AC1C2FA"]
 			id: "108368020E96A99E"
 			tasks: [{
@@ -502,8 +514,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -3.0d
+			x: -7.5d
+			y: 2.0d
 			dependencies: ["108368020E96A99E"]
 			id: "196691B0B365CB53"
 			tasks: [{
@@ -513,8 +525,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -4.0d
+			x: -4.5d
+			y: 1.5d
 			dependencies: ["452EC9F116716CAF"]
 			id: "657F4FD182A67254"
 			tasks: [{
@@ -560,8 +572,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -2.5d
+			x: -4.5d
+			y: 0.5d
 			dependencies: ["2997208A5AC1C2FA"]
 			id: "0EA249A69E645A05"
 			tasks: [{
@@ -607,8 +619,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -1.0d
+			x: -7.5d
+			y: -0.5d
 			dependencies: ["2997208A5AC1C2FA"]
 			id: "06AE7589D6DED0AE"
 			tasks: [{
@@ -618,8 +630,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 0.0d
+			x: -4.5d
+			y: -0.5d
 			dependencies: [
 				"2997208A5AC1C2FA"
 				"4597E5DE9B201D92"
@@ -632,8 +644,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 0.5d
+			x: -4.5d
+			y: -1.5d
 			dependencies: ["370EFA552B43333C"]
 			id: "4597E5DE9B201D92"
 			tasks: [
@@ -650,8 +662,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: -1.5d
+			x: 4.0d
+			y: -3.0d
 			dependencies: ["09B3280996AB1183"]
 			id: "0FC88ACA5B9C561B"
 			tasks: [{
@@ -686,8 +698,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -1.5d
+			x: 4.0d
+			y: -4.0d
 			dependencies: ["09B3280996AB1183"]
 			id: "7962D2D6892BFEAE"
 			tasks: [{
@@ -722,8 +734,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 1.5d
+			x: 1.0d
+			y: -2.0d
 			dependencies: ["6A9D29E49AFC1B64"]
 			id: "7A794DE48438966F"
 			tasks: [{
@@ -753,8 +765,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -1.5d
+			x: 4.0d
+			y: -1.0d
 			dependencies: ["6A9D29E49AFC1B64"]
 			id: "2AC146B52D1ECC91"
 			tasks: [{
@@ -790,7 +802,7 @@
 		}
 		{
 			x: 4.0d
-			y: -1.5d
+			y: -2.0d
 			dependencies: ["6A9D29E49AFC1B64"]
 			id: "50C743BB9057BE81"
 			tasks: [{
@@ -825,8 +837,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 1.5d
+			x: 1.0d
+			y: 0.0d
 			dependencies: ["4B64826470BD44D7"]
 			id: "3164E4332F72D0C1"
 			tasks: [{
@@ -856,8 +868,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -1.5d
+			x: 4.0d
+			y: 1.0d
 			dependencies: ["4B64826470BD44D7"]
 			id: "3523F7F16ACA685A"
 			tasks: [{
@@ -892,8 +904,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -1.5d
+			x: 4.0d
+			y: 0.0d
 			dependencies: ["4B64826470BD44D7"]
 			id: "208259BF6E0D6F79"
 			tasks: [{
@@ -928,11 +940,9 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 1.0d
-			shape: "octagon"
+			x: 1.5d
+			y: 2.0d
 			dependencies: ["4B64826470BD44D7"]
-			size: 1.5d
 			id: "46054FAA92507B31"
 			tasks: [{
 				id: "7C2D0FF54AB2D54A"
@@ -941,8 +951,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 0.0d
+			x: 2.5d
+			y: 3.5d
 			dependencies: [
 				"514681D2ECCFFDAD"
 				"46054FAA92507B31"
@@ -955,8 +965,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 2.0d
+			x: -6.0d
+			y: -3.0d
 			dependencies: ["32AD699C12C5A83A"]
 			id: "5465B9A51F9B2C3B"
 			tasks: [{
@@ -966,8 +976,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 4.0d
+			x: -6.0d
+			y: -4.5d
 			dependencies: ["114FD26AF2B063E3"]
 			id: "32AD699C12C5A83A"
 			tasks: [{
@@ -977,8 +987,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 2.5d
+			x: -7.5d
+			y: -2.5d
 			dependencies: ["5465B9A51F9B2C3B"]
 			id: "76830D9866168531"
 			tasks: [{
@@ -988,8 +998,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 3.5d
+			x: -8.5d
+			y: -1.5d
 			dependencies: ["76830D9866168531"]
 			id: "67E97E854958FE14"
 			tasks: [{
@@ -999,8 +1009,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 4.0d
+			x: -9.0d
+			y: 0.0d
 			dependencies: [
 				"67E97E854958FE14"
 				"0409C95ABD281963"
@@ -1013,8 +1023,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 3.5d
+			x: -9.0d
+			y: 1.5d
 			dependencies: ["114FD26AF2B063E3"]
 			id: "0409C95ABD281963"
 			tasks: [{
@@ -1024,8 +1034,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 5.0d
+			x: -5.0d
+			y: -5.0d
 			dependencies: ["32AD699C12C5A83A"]
 			id: "70EEAD1A0016C4F5"
 			tasks: [{
@@ -1041,8 +1051,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 5.0d
+			x: -4.0d
+			y: -4.5d
 			dependencies: ["70EEAD1A0016C4F5"]
 			id: "4B0A53C4A764D197"
 			tasks: [{
@@ -1052,8 +1062,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 5.0d
+			x: -7.5d
+			y: -4.5d
 			dependencies: ["32AD699C12C5A83A"]
 			id: "5FF85B1BBCA218FC"
 			tasks: [{
@@ -1063,8 +1073,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 6.0d
+			x: -8.5d
+			y: -4.5d
 			dependencies: ["5FF85B1BBCA218FC"]
 			id: "68E998A9D5197E00"
 			tasks: [{
@@ -1074,8 +1084,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 4.0d
+			x: -3.5d
+			y: -3.5d
 			dependencies: ["4B0A53C4A764D197"]
 			id: "00C095531B7E6FE0"
 			tasks: [{
@@ -1085,8 +1095,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 2.5d
+			x: -4.5d
+			y: -2.5d
 			dependencies: ["5465B9A51F9B2C3B"]
 			id: "508A619B4058C1A4"
 			tasks: [{

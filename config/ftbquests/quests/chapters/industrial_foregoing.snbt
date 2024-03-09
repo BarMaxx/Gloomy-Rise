@@ -5,12 +5,24 @@
 	filename: "industrial_foregoing"
 	title: "{quests.gloomy_rise.progress_3.industrial_foregoing.chapter_title}"
 	icon: "industrialforegoing:plastic"
-	default_quest_shape: ""
+	default_quest_shape: "default_circle"
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 50.0d
+		height: 30.0d
+		rotation: 0.0d
+		image: "gloomyrise:textures/background_for_questbook.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
-			x: -3.0d
-			y: 0.0d
+			x: -8.0d
+			y: -1.5d
 			subtitle: "Не настолько уж и ужасный"
 			dependencies: ["667EF198335C80D2"]
 			id: "694281DA3A22F08D"
@@ -21,8 +33,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 0.0d
+			x: -5.0d
+			y: -1.5d
 			description: ["С помощью жидкостного экстрактора можно вырабатывать &eлатекс&f. Для этого необходимо поставить бревно в рабочую зону механизма."]
 			dependencies: ["667EF198335C80D2"]
 			id: "115B9FD4723D5951"
@@ -33,8 +45,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 0.5d
+			x: -4.0d
+			y: -1.0d
 			description: ["Ведро латекса понадобится для создания юнита по производству латекса."]
 			dependencies: ["115B9FD4723D5951"]
 			id: "26EFC6835A48466A"
@@ -50,8 +62,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 1.5d
+			x: -4.0d
+			y: 0.5d
 			description: ["В юните по производству латекса можно вырабатывать сухой кусочек резины с помощью &9воды&f и &eлатекса&f."]
 			dependencies: ["26EFC6835A48466A"]
 			id: "33D6D0B7AAE2127D"
@@ -62,8 +74,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 1.5d
+			x: -4.0d
+			y: 2.0d
 			description: ["Сухой кусочек резины нужен для создания &8сухой резины&f."]
 			dependencies: ["33D6D0B7AAE2127D"]
 			id: "1EE04FF854497BE4"
@@ -83,8 +95,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 1.5d
+			x: -4.0d
+			y: 3.5d
 			description: ["Сухая резина нужна для создания &7пластика&f."]
 			dependencies: ["1EE04FF854497BE4"]
 			id: "352BFCCA7AC39428"
@@ -103,9 +115,10 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 1.5d
+			x: 2.5d
+			y: -3.5d
 			description: ["Пластик - это очень важный элемент в высоких технологиях! Его здесь потребуется достаточно много."]
+			hide_dependency_lines: true
 			dependencies: ["352BFCCA7AC39428"]
 			id: "6AF0C43A5DBB4655"
 			tasks: [{
@@ -124,8 +137,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 2.5d
+			x: 1.0d
+			y: -3.0d
 			description: ["С помощью завод-резня мобов можно получить жидкое мясо и розовую слизь."]
 			dependencies: ["6AF0C43A5DBB4655"]
 			id: "6CF87CA08FF8433F"
@@ -136,8 +149,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 3.0d
+			x: 1.0d
+			y: -2.0d
 			description: ["С помощью розовой слизи можно создать много различных предметов в камере растворения."]
 			dependencies: ["6CF87CA08FF8433F"]
 			id: "53AEFDF1C60B2E4D"
@@ -148,8 +161,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 0.5d
+			x: 4.0d
+			y: -3.0d
 			description: ["В камере растворения можно создавать много различных предметов."]
 			dependencies: ["6AF0C43A5DBB4655"]
 			id: "7D505AD12A920AD4"
@@ -160,8 +173,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 0.0d
+			x: 4.0d
+			y: -2.0d
 			description: ["Обычная рамка механизма нужна для создания различных механизмов и не только."]
 			dependencies: ["7D505AD12A920AD4"]
 			id: "10E28C6568587542"
@@ -180,8 +193,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 1.5d
+			x: 2.5d
+			y: -1.5d
 			description: ["Продвинутая рамка механизма нужна для создания различных механизмов и не только."]
 			dependencies: [
 				"10E28C6568587542"
@@ -204,8 +217,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 1.5d
+			x: 2.5d
+			y: 0.0d
 			description: ["Ультимейтная рамка механизма нужна для создания различных механизмов и не только."]
 			dependencies: ["5A62FA4EFF26C661"]
 			id: "38E6F5763D5DA74D"
@@ -224,8 +237,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 1.5d
+			x: 3.5d
+			y: 1.0d
 			subtitle: "Да-да, не удивляйтесь"
 			description: ["Постройщик визеров строит визеров..."]
 			dependencies: ["38E6F5763D5DA74D"]
@@ -238,8 +251,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 4.5d
+			x: 0.0d
+			y: -2.0d
 			description: ["Слиток розовой слизи понадобится для создания &1Ядра дракона&f, а так метеоритового компаса...да здравствует AE2 ^_^"]
 			dependencies: ["53AEFDF1C60B2E4D"]
 			id: "09AEF5AB3957D385"
@@ -258,8 +271,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 5.5d
+			x: -0.5d
+			y: -1.0d
 			description: ["В станции промывки из руд можно получить их сырую мясную версию."]
 			dependencies: ["09AEF5AB3957D385"]
 			id: "6CD49B526AA25BF6"
@@ -270,8 +283,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 0.5d
+			x: 3.0d
+			y: -5.0d
 			subtitle: "Теперь я Элита"
 			description: ["Элитный компонент понадобится для создания &3Элитного катализатора&f. А также понадобится для создания &1Элитного верстака&f."]
 			dependencies: ["6AF0C43A5DBB4655"]
@@ -283,8 +296,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -0.5d
+			x: 4.0d
+			y: -5.0d
 			description: ["Элитный катализатор понадобится создания &1Элитного верстака&f."]
 			dependencies: ["2747859212DEE511"]
 			id: "390F0C9D42401EEF"
@@ -296,7 +309,7 @@
 		}
 		{
 			x: 5.0d
-			y: -1.5d
+			y: -4.5d
 			subtitle: "Вот теперь точно Элита"
 			description: ["Элитный верстак позволяет создавать крафты 7х7, например крафт &7брони&f, &3механизмов&f, и т.п."]
 			dependencies: ["390F0C9D42401EEF"]
@@ -308,8 +321,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -2.0d
+			x: 5.5d
+			y: -3.0d
 			description: ["С помощью созданного Вами Элитного верстака можно создать Кристалтиновый слиток, который понадобится во многих крафтах."]
 			dependencies: ["2589ABE217B60E2B"]
 			id: "3587F44770F0793C"
@@ -326,7 +339,7 @@
 			}]
 		}
 		{
-			x: 14.0d
+			x: 4.5d
 			y: 1.5d
 			description: ["Это очень дорогой блок."]
 			dependencies: ["48307D4DB02D93CA"]
@@ -344,8 +357,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 5.5d
+			x: -0.5d
+			y: -3.0d
 			dependencies: ["09AEF5AB3957D385"]
 			id: "384F4679F3D9A6D2"
 			tasks: [{
@@ -355,8 +368,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -1.0d
+			x: -6.5d
+			y: -2.5d
 			dependencies: ["114FD26AF2B063E3"]
 			id: "667EF198335C80D2"
 			tasks: [{
@@ -366,8 +379,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 0.0d
+			x: 2.0d
+			y: -2.5d
 			dependencies: ["5A62FA4EFF26C661"]
 			id: "007A2D0B2009FB35"
 			tasks: [{
@@ -377,8 +390,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 3.0d
+			x: 3.0d
+			y: -2.5d
 			dependencies: ["5A62FA4EFF26C661"]
 			id: "63F6DDA2535316E7"
 			tasks: [{
@@ -388,8 +401,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -2.5d
+			x: -6.0d
+			y: -4.0d
 			dependencies: ["667EF198335C80D2"]
 			id: "158745A788F271E9"
 			tasks: [{
@@ -399,8 +412,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -2.5d
+			x: -7.0d
+			y: -4.0d
 			dependencies: ["667EF198335C80D2"]
 			id: "5F28056C3F7B998E"
 			tasks: [{
@@ -410,8 +423,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -2.0d
+			x: -5.0d
+			y: -3.5d
 			dependencies: ["667EF198335C80D2"]
 			id: "79C6109835D4BAF8"
 			tasks: [{
@@ -421,8 +434,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -2.0d
+			x: -8.0d
+			y: -3.5d
 			dependencies: ["667EF198335C80D2"]
 			id: "10224AFA3AF5248E"
 			tasks: [{
@@ -432,8 +445,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -1.0d
+			x: -5.0d
+			y: -2.5d
 			dependencies: ["667EF198335C80D2"]
 			id: "053429A43F810D9B"
 			tasks: [{
@@ -443,8 +456,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -1.0d
+			x: -8.0d
+			y: -2.5d
 			dependencies: ["667EF198335C80D2"]
 			id: "5FE13F61B8E1B4CF"
 			tasks: [{
@@ -454,8 +467,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 0.5d
+			x: -6.0d
+			y: -1.0d
 			dependencies: ["667EF198335C80D2"]
 			id: "720CC764DE083EFE"
 			tasks: [{
@@ -465,8 +478,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 0.5d
+			x: -7.0d
+			y: -1.0d
 			dependencies: ["667EF198335C80D2"]
 			id: "76B7F464985D670D"
 			tasks: [{
@@ -476,8 +489,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 2.5d
+			x: 3.5d
+			y: -4.0d
 			dependencies: ["6AF0C43A5DBB4655"]
 			id: "1CA6369E8E1E0C60"
 			tasks: [{
@@ -487,8 +500,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 3.0d
+			x: 2.0d
+			y: -5.0d
 			dependencies: ["6AF0C43A5DBB4655"]
 			id: "4DA42CA4C54154FC"
 			tasks: [{
@@ -498,8 +511,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 0.0d
+			x: 1.5d
+			y: -4.0d
 			dependencies: ["6AF0C43A5DBB4655"]
 			id: "36DA6AE4C6CDDE22"
 			tasks: [{
@@ -509,8 +522,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 3.0d
+			x: 1.0d
+			y: -1.0d
 			dependencies: ["5A62FA4EFF26C661"]
 			id: "76DDF2F95B5E7F3D"
 			tasks: [{
@@ -520,8 +533,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 0.0d
+			x: 4.0d
+			y: -1.0d
 			dependencies: ["5A62FA4EFF26C661"]
 			id: "605266B751EE709A"
 			tasks: [{
@@ -531,8 +544,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 0.0d
+			x: 1.5d
+			y: 1.0d
 			dependencies: ["38E6F5763D5DA74D"]
 			id: "32449914B05BE9BD"
 			tasks: [{
@@ -542,8 +555,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 2.5d
+			x: 1.0d
+			y: 0.0d
 			dependencies: ["38E6F5763D5DA74D"]
 			id: "56C6F09DFCF6385D"
 			tasks: [{
@@ -553,8 +566,8 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: 2.5d
+			x: 4.0d
+			y: 0.0d
 			dependencies: ["38E6F5763D5DA74D"]
 			id: "48A80005AF631B4A"
 			tasks: [{
@@ -564,8 +577,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -1.0d
+			x: 2.5d
+			y: 1.5d
 			dependencies: ["32449914B05BE9BD"]
 			id: "59E86B0F6455BC3E"
 			tasks: [{
@@ -575,8 +588,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -2.0d
+			x: 3.0d
+			y: 2.5d
 			dependencies: ["59E86B0F6455BC3E"]
 			id: "2DA28453FA63AEE9"
 			tasks: [{
@@ -586,8 +599,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -3.0d
+			x: 3.0d
+			y: 3.5d
 			dependencies: ["2DA28453FA63AEE9"]
 			id: "10158B091A28B45C"
 			tasks: [{
@@ -597,8 +610,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -5.0d
+			x: 2.0d
+			y: 4.0d
 			dependencies: ["30D07F8CD836E814"]
 			id: "3B11AFB5D1C28303"
 			tasks: [{
@@ -608,8 +621,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: -1.0d
+			x: 0.5d
+			y: 1.5d
 			dependencies: ["32449914B05BE9BD"]
 			id: "271893ED29F79A7F"
 			tasks: [{
@@ -619,8 +632,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: -2.0d
+			x: 0.0d
+			y: 2.5d
 			dependencies: ["271893ED29F79A7F"]
 			id: "67F6845C84DB0BB0"
 			tasks: [{
@@ -630,8 +643,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: -4.0d
+			x: 0.0d
+			y: 4.5d
 			dependencies: ["306C087A356638F7"]
 			id: "3626F85C162FB989"
 			tasks: [{
@@ -641,8 +654,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: -3.0d
+			x: 0.0d
+			y: 3.5d
 			dependencies: ["67F6845C84DB0BB0"]
 			id: "306C087A356638F7"
 			tasks: [{
@@ -652,8 +665,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: -5.0d
+			x: 1.0d
+			y: 4.0d
 			dependencies: ["3626F85C162FB989"]
 			id: "1F40445467C35D67"
 			tasks: [{
@@ -663,8 +676,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -4.0d
+			x: 3.0d
+			y: 4.5d
 			dependencies: ["10158B091A28B45C"]
 			id: "30D07F8CD836E814"
 			tasks: [{
@@ -674,8 +687,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 4.0d
+			x: -9.0d
+			y: 2.5d
 			hide_dependency_lines: true
 			dependencies: ["6AF0C43A5DBB4655"]
 			id: "06F3F28E6CBA6010"
@@ -686,8 +699,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 3.0d
+			x: -8.5d
+			y: 1.5d
 			hide_dependency_lines: true
 			dependencies: ["7D505AD12A920AD4"]
 			id: "42E3D502E62620ED"
@@ -714,8 +727,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 2.5d
+			x: -7.5d
+			y: 1.0d
 			hide_dependency_lines: true
 			dependencies: ["7D505AD12A920AD4"]
 			id: "50D207FE39D95F06"
@@ -739,8 +752,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 3.0d
+			x: -6.5d
+			y: 1.5d
 			hide_dependency_lines: true
 			dependencies: ["7D505AD12A920AD4"]
 			id: "31ECBE2B9605D44F"
@@ -764,8 +777,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 4.0d
+			x: -6.0d
+			y: 2.5d
 			hide_dependency_lines: true
 			dependencies: ["7D505AD12A920AD4"]
 			id: "14039F54F6EA20DA"
@@ -785,8 +798,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 5.0d
+			x: -6.5d
+			y: 3.5d
 			hide_dependency_lines: true
 			dependencies: ["7D505AD12A920AD4"]
 			id: "3794DE0747EB5414"
@@ -811,8 +824,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 5.5d
+			x: -7.5d
+			y: 4.0d
 			hide_dependency_lines: true
 			dependencies: ["7D505AD12A920AD4"]
 			id: "74E69B7F2964D559"
@@ -837,8 +850,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 5.0d
+			x: -8.5d
+			y: 3.5d
 			hide_dependency_lines: true
 			dependencies: ["7D505AD12A920AD4"]
 			id: "5CD6283F5B56E55C"
@@ -862,8 +875,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 4.0d
+			x: -7.5d
+			y: 2.5d
 			hide_dependency_lines: true
 			dependencies: ["6AF0C43A5DBB4655"]
 			id: "15DE002A03AC8594"

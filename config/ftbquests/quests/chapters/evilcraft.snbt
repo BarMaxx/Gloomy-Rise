@@ -9,12 +9,24 @@
 		Count: 1b
 		tag: { }
 	}
-	default_quest_shape: ""
+	default_quest_shape: "default_circle"
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 50.0d
+		height: 30.0d
+		rotation: 0.0d
+		image: "gloomyrise:textures/background_for_questbook.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
-			x: 0.5d
-			y: 1.5d
+			x: -5.0d
+			y: -4.0d
 			description: ["С помощью этих шипов можно создавать различные, очень интересные, предметы. Например, экстрактор крови или шипастую плиту."]
 			dependencies: ["06120EBBDEBDDCAA"]
 			id: "5B511F842048451F"
@@ -32,9 +44,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 2.5d
-			shape: "rsquare"
+			x: -5.5d
+			y: -5.0d
 			description: ["С помощью Кровавого Экстрактора можно собирать кровь для дальнейшего использования."]
 			dependencies: ["5B511F842048451F"]
 			id: "323719E35F33EE93"
@@ -49,7 +60,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: -6.0d
 			y: -1.5d
 			description: ["С помощью этого устройства можно вливать кровь в различные предметы. "]
 			dependencies: ["06120EBBDEBDDCAA"]
@@ -65,8 +76,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 0.0d
+			x: -6.0d
+			y: -3.5d
 			dependencies: ["114FD26AF2B063E3"]
 			id: "06120EBBDEBDDCAA"
 			tasks: [{
@@ -76,8 +87,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -2.0d
+			x: -7.5d
+			y: -1.0d
 			dependencies: ["0A0252C6CF3BDDDC"]
 			id: "47B7D97FFA15C8E8"
 			tasks: [{
@@ -87,8 +98,9 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -3.0d
+			x: 0.5d
+			y: -4.5d
+			hide_dependency_lines: true
 			dependencies: ["47B7D97FFA15C8E8"]
 			id: "147C991D769FBB8C"
 			tasks: [{
@@ -98,8 +110,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -3.5d
+			x: 0.5d
+			y: -3.0d
 			dependencies: ["147C991D769FBB8C"]
 			id: "42493D508EAC7A1E"
 			tasks: [{
@@ -109,8 +121,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -4.5d
+			x: 0.5d
+			y: -1.5d
 			dependencies: ["42493D508EAC7A1E"]
 			id: "401A5F04B7388AD9"
 			tasks: [{
@@ -120,8 +132,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -6.0d
+			x: 1.5d
+			y: -1.0d
 			dependencies: ["401A5F04B7388AD9"]
 			id: "75BD8D22960D3E56"
 			tasks: [{
@@ -147,8 +159,9 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -2.0d
+			x: 4.0d
+			y: -4.5d
+			hide_dependency_lines: true
 			dependencies: ["0A0252C6CF3BDDDC"]
 			id: "3CCB44A36EFABB11"
 			tasks: [{
@@ -158,8 +171,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -3.5d
+			x: 3.0d
+			y: -4.5d
 			dependencies: ["3CCB44A36EFABB11"]
 			id: "48F3E92415083E1B"
 			tasks: [{
@@ -169,8 +182,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -2.0d
+			x: 5.0d
+			y: -3.0d
 			dependencies: ["3CCB44A36EFABB11"]
 			id: "13B90D18C2D8E0EC"
 			tasks: [{
@@ -180,8 +193,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -1.0d
+			x: 5.5d
+			y: -1.5d
 			dependencies: ["13B90D18C2D8E0EC"]
 			id: "02FF16E76B014F47"
 			tasks: [{
@@ -191,7 +204,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 5.5d
 			y: 0.0d
 			dependencies: ["02FF16E76B014F47"]
 			id: "058D7799FE2265B1"
@@ -202,7 +215,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: -4.5d
 			y: -1.0d
 			dependencies: ["0A0252C6CF3BDDDC"]
 			id: "750B1C2F3A1E7EF6"
@@ -213,12 +226,9 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: -4.0d
 			y: 0.0d
-			dependencies: [
-				"058D7799FE2265B1"
-				"750B1C2F3A1E7EF6"
-			]
+			dependencies: ["750B1C2F3A1E7EF6"]
 			id: "6426DE1943BA4A71"
 			tasks: [
 				{
@@ -239,8 +249,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: -1.0d
+			x: -5.5d
+			y: 0.0d
 			dependencies: ["6426DE1943BA4A71"]
 			id: "7ECE5411906D3FC3"
 			tasks: [{
@@ -250,8 +260,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 1.5d
+			x: -3.5d
+			y: 1.0d
 			dependencies: ["6426DE1943BA4A71"]
 			id: "1745117B43EEA892"
 			tasks: [{
@@ -261,7 +271,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: -3.5d
 			y: 2.0d
 			dependencies: ["1745117B43EEA892"]
 			id: "0A90934DC98835EA"
@@ -272,8 +282,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 2.0d
+			x: -3.5d
+			y: 3.5d
 			dependencies: ["0A90934DC98835EA"]
 			id: "3E012808986A4BCB"
 			tasks: [{
@@ -283,8 +293,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 2.0d
+			x: -4.5d
+			y: 3.5d
 			dependencies: ["3E012808986A4BCB"]
 			id: "728E732A24AAED7B"
 			tasks: [{
@@ -294,8 +304,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -3.5d
+			x: 3.0d
+			y: -3.0d
 			dependencies: ["3CCB44A36EFABB11"]
 			id: "47E7E321370ADFA3"
 			tasks: [{
@@ -305,8 +315,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -4.0d
+			x: 2.0d
+			y: -4.5d
 			dependencies: ["48F3E92415083E1B"]
 			id: "0229B0F907B6FB98"
 			tasks: [{
@@ -320,8 +330,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 1.5d
+			x: -6.0d
+			y: 3.5d
 			dependencies: ["728E732A24AAED7B"]
 			id: "1F189518D4364F4A"
 			tasks: [{
@@ -331,8 +341,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 0.0d
+			x: -5.5d
+			y: 2.5d
 			dependencies: ["1F189518D4364F4A"]
 			id: "6C2CC9E49E8AA539"
 			tasks: [{
@@ -342,8 +352,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 0.0d
+			x: -6.5d
+			y: 2.5d
 			dependencies: ["1F189518D4364F4A"]
 			id: "37D3D81CD9231455"
 			tasks: [{
@@ -359,8 +369,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -2.5d
+			x: -1.0d
+			y: -3.0d
 			dependencies: ["42493D508EAC7A1E"]
 			id: "40E0DF955C1CFFF5"
 			tasks: [{
@@ -370,8 +380,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 1.5d
+			x: -7.0d
+			y: -4.0d
 			dependencies: ["06120EBBDEBDDCAA"]
 			id: "32A645E978E54FDD"
 			tasks: [{
@@ -381,8 +391,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 1.5d
+			x: -8.0d
+			y: -3.5d
 			dependencies: ["32A645E978E54FDD"]
 			id: "50B304E141F4E76C"
 			tasks: [{
@@ -398,8 +408,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -4.0d
+			x: 2.5d
+			y: -1.5d
 			dependencies: ["47E7E321370ADFA3"]
 			id: "5243327563DC0807"
 			tasks: [{
@@ -413,8 +423,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 3.0d
+			x: -5.5d
+			y: 4.5d
 			dependencies: ["1F189518D4364F4A"]
 			id: "03ED8E49050D6340"
 			tasks: [{
@@ -430,7 +440,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 4.0d
 			y: -3.0d
 			dependencies: ["47E7E321370ADFA3"]
 			id: "7E0B7DC7E5AEE017"
@@ -445,8 +455,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -4.5d
+			x: 2.0d
+			y: -3.0d
 			dependencies: ["47E7E321370ADFA3"]
 			id: "3FA31E559F063A16"
 			tasks: [{
@@ -460,8 +470,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -5.0d
+			x: 3.5d
+			y: -1.5d
 			dependencies: ["47E7E321370ADFA3"]
 			id: "678C63C610E90154"
 			tasks: [{
@@ -475,8 +485,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -1.5d
+			x: -1.0d
+			y: -4.0d
 			dependencies: ["40E0DF955C1CFFF5"]
 			id: "23DA1B90485E4BCB"
 			tasks: [{
@@ -490,8 +500,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -6.0d
+			x: 1.5d
+			y: -2.0d
 			dependencies: ["401A5F04B7388AD9"]
 			id: "56A687E913C55D53"
 			tasks: [{
@@ -511,8 +521,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 0.0d
+			x: -4.5d
+			y: -3.0d
 			dependencies: ["06120EBBDEBDDCAA"]
 			id: "1618419D96C8053F"
 			tasks: [{
@@ -528,8 +538,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 3.0d
+			x: -6.5d
+			y: 4.5d
 			dependencies: ["1F189518D4364F4A"]
 			id: "12CAC4F79E2AFA91"
 			tasks: [{
@@ -543,8 +553,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -5.5d
+			x: -0.5d
+			y: -1.0d
 			dependencies: ["401A5F04B7388AD9"]
 			id: "61402700BFF0AAFF"
 			tasks: [{
@@ -558,8 +568,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -5.5d
+			x: -0.5d
+			y: -2.0d
 			dependencies: ["401A5F04B7388AD9"]
 			id: "46C6FBD86C0604A6"
 			tasks: [{
@@ -573,8 +583,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -4.5d
+			x: 1.0d
+			y: 0.0d
 			dependencies: ["401A5F04B7388AD9"]
 			id: "2D18C3689B54DD3D"
 			tasks: [{
@@ -588,8 +598,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -4.5d
+			x: 0.0d
+			y: 0.0d
 			dependencies: ["401A5F04B7388AD9"]
 			id: "70FD65ABC93C7374"
 			tasks: [{
@@ -603,8 +613,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 2.5d
+			x: -8.0d
+			y: -4.5d
 			dependencies: ["32A645E978E54FDD"]
 			id: "2563C2E60BE59311"
 			tasks: [{
@@ -614,8 +624,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 3.0d
+			x: -9.0d
+			y: -4.5d
 			dependencies: ["2563C2E60BE59311"]
 			id: "12FF67F4BEE07471"
 			tasks: [{
@@ -625,8 +635,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -2.5d
+			x: 5.0d
+			y: -4.5d
 			dependencies: ["3CCB44A36EFABB11"]
 			id: "1143F3601ADE31EC"
 			tasks: [{

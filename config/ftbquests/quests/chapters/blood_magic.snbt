@@ -11,13 +11,24 @@
 			souls: 5.0d
 		}
 	}
-	default_quest_shape: ""
+	default_quest_shape: "default_circle"
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 50.0d
+		height: 30.0d
+		rotation: 0.0d
+		image: "gloomyrise:textures/background_for_questbook.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
-			shape: "gear"
+			x: -6.0d
+			y: -4.5d
 			description: ["Кровавый алтарь - главый предмет в моде &4Blood Magic&f! Основа Вашего развития в этом моде!"]
 			dependencies: ["09B7710675B81B75"]
 			id: "310211F11C8A68E9"
@@ -28,8 +39,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 1.5d
+			x: -4.5d
+			y: -4.0d
 			description: ["Слабый кровавый шар создаётся на алтаре 1 уровня."]
 			dependencies: ["310211F11C8A68E9"]
 			id: "7F5EF07CC23322DA"
@@ -40,8 +51,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -1.5d
+			x: -7.5d
+			y: -4.0d
 			description: ["Чистый шифер создаётся на алтаре 1 уровня."]
 			dependencies: ["310211F11C8A68E9"]
 			id: "604BE4CC22A5DF43"
@@ -60,8 +71,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -1.5d
+			x: -7.5d
+			y: -2.5d
 			description: ["Пустая руна нужна для создания рун или улучшения кровавого алтаря."]
 			dependencies: ["604BE4CC22A5DF43"]
 			id: "2C0AA4F9A398B84E"
@@ -80,8 +91,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -1.5d
+			x: -9.0d
+			y: -2.5d
 			subtitle: "Резня!"
 			description: ["Кинжал для жертвоприношений :)"]
 			dependencies: ["2C0AA4F9A398B84E"]
@@ -94,8 +105,9 @@
 		}
 		{
 			x: 0.5d
-			y: -3.0d
+			y: -4.5d
 			description: ["С помощью данной кузницы можно создать много различных предметов."]
+			hide_dependency_lines: true
 			dependencies: ["604BE4CC22A5DF43"]
 			id: "2931277B0B65BEE2"
 			tasks: [{
@@ -105,9 +117,10 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -1.5d
+			x: 4.0d
+			y: -4.5d
 			description: ["С помощью алхимического стола можно создать много различных предметов."]
+			hide_dependency_lines: true
 			dependencies: ["604BE4CC22A5DF43"]
 			id: "3BFAF3EEF0FA4E9B"
 			tasks: [{
@@ -117,9 +130,10 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -1.5d
+			x: 4.0d
+			y: 1.5d
 			description: ["Волшебный пепел можно создать на алхимическом столе либо же с помощью волшебного пепла."]
+			hide_dependency_lines: true
 			dependencies: ["3BFAF3EEF0FA4E9B"]
 			id: "046F2CC77792239E"
 			tasks: [{
@@ -135,8 +149,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -3.0d
+			x: 2.5d
+			y: 3.5d
 			description: ["Неплохая броня, которую можно прокачать."]
 			hide_dependency_lines: true
 			dependencies: ["046F2CC77792239E"]
@@ -154,8 +168,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -2.0d
+			x: 3.5d
+			y: 4.0d
 			description: ["Неплохая броня, которую можно прокачать."]
 			hide_dependency_lines: true
 			dependencies: ["046F2CC77792239E"]
@@ -177,8 +191,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -0.5d
+			x: 4.5d
+			y: 4.0d
 			description: ["Неплохая броня, которую можно прокачать."]
 			hide_dependency_lines: true
 			dependencies: ["046F2CC77792239E"]
@@ -196,8 +210,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 0.5d
+			x: 5.5d
+			y: 3.5d
 			description: ["Неплохая броня, которую можно прокачать."]
 			hide_dependency_lines: true
 			dependencies: ["046F2CC77792239E"]
@@ -215,8 +229,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -3.0d
+			x: -6.0d
+			y: -2.5d
 			description: ["Кровавый шар ученика создаётся на алтаре 2 уровня."]
 			dependencies: ["2C0AA4F9A398B84E"]
 			id: "3B7AE77552E7DAD8"
@@ -227,8 +241,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 0.0d
+			x: -7.5d
+			y: -1.0d
 			description: ["Укреплённый шифер создаётся на алтаре 2 уровня."]
 			dependencies: ["2C0AA4F9A398B84E"]
 			id: "444990844E568EA9"
@@ -246,7 +260,7 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: -7.5d
 			y: 0.5d
 			description: ["Прочный шифер создаётся на алтаре 3 уровня."]
 			dependencies: ["444990844E568EA9"]
@@ -265,8 +279,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 0.5d
+			x: -7.5d
+			y: 2.0d
 			description: ["Демонический шифер создаётся на алтаре 4 уровня."]
 			dependencies: ["5EC0FBD46A7681D7"]
 			id: "10CA6E763836B7B6"
@@ -284,8 +298,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -3.5d
+			x: -5.5d
+			y: -1.5d
 			description: ["Кровавый шар мага создаётся на алтаре 3 уровня."]
 			dependencies: ["3B7AE77552E7DAD8"]
 			id: "029FBFB1E2C4EDED"
@@ -296,8 +310,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -3.5d
+			x: -5.5d
+			y: -0.5d
 			description: ["Кровавый шар мастера создаётся на алтаре 4 уровня."]
 			dependencies: ["029FBFB1E2C4EDED"]
 			id: "57C81B4BECC4F775"
@@ -308,8 +322,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 1.5d
+			x: -5.0d
+			y: -3.0d
 			dependencies: ["7F5EF07CC23322DA"]
 			id: "7657038F481C8113"
 			tasks: [{
@@ -319,8 +333,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 2.5d
+			x: -4.0d
+			y: -3.0d
 			dependencies: ["7F5EF07CC23322DA"]
 			id: "1E16C4586A22203E"
 			tasks: [{
@@ -330,8 +344,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 3.5d
+			x: -3.5d
+			y: -2.0d
 			dependencies: ["1E16C4586A22203E"]
 			id: "093EB3E5C26A0DA5"
 			tasks: [{
@@ -341,8 +355,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -3.0d
+			x: -0.5d
+			y: -3.5d
 			hide_dependency_lines: true
 			dependencies: ["310211F11C8A68E9"]
 			id: "17BC8D14890AED63"
@@ -353,8 +367,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -3.0d
+			x: -0.5d
+			y: -2.0d
 			dependencies: ["17BC8D14890AED63"]
 			id: "699C21DAEE0F8F2F"
 			tasks: [{
@@ -370,8 +384,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -3.5d
+			x: 0.5d
+			y: -3.0d
 			dependencies: [
 				"699C21DAEE0F8F2F"
 				"2931277B0B65BEE2"
@@ -390,8 +404,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -4.5d
+			x: 0.5d
+			y: -1.5d
 			dependencies: ["323063002EE62C96"]
 			id: "1E30A39D584354E7"
 			tasks: [{
@@ -407,8 +421,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -5.0d
+			x: 0.5d
+			y: 0.0d
 			dependencies: ["1E30A39D584354E7"]
 			id: "2C509255571B637E"
 			tasks: [{
@@ -424,8 +438,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -6.0d
+			x: 0.5d
+			y: 1.5d
 			dependencies: ["2C509255571B637E"]
 			id: "2C55D255898E9B4F"
 			tasks: [{
@@ -441,8 +455,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -4.5d
+			x: 1.5d
+			y: -2.0d
 			dependencies: ["323063002EE62C96"]
 			id: "5077FDF13C82DB29"
 			tasks: [
@@ -482,8 +496,8 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: -0.5d
+			x: -6.5d
+			y: 0.0d
 			dependencies: ["5EC0FBD46A7681D7"]
 			id: "738FECA03D0635C8"
 			tasks: [{
@@ -493,8 +507,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 2.0d
+			x: -5.5d
+			y: 0.5d
 			dependencies: ["5EC0FBD46A7681D7"]
 			id: "0F4BD0B783DB6051"
 			tasks: [{
@@ -504,8 +518,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 3.5d
+			x: -4.0d
+			y: 0.5d
 			dependencies: ["0F4BD0B783DB6051"]
 			id: "77660B3ABD869770"
 			tasks: [{
@@ -515,8 +529,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 4.5d
+			x: -3.5d
+			y: -0.5d
 			dependencies: ["77660B3ABD869770"]
 			id: "066571BE3DE7CD5A"
 			tasks: [{
@@ -526,8 +540,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 4.5d
+			x: -3.5d
+			y: 1.5d
 			dependencies: ["77660B3ABD869770"]
 			id: "3031C7CD0877F6DB"
 			tasks: [{
@@ -537,8 +551,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -0.5d
+			x: -8.5d
+			y: -1.5d
 			dependencies: ["444990844E568EA9"]
 			id: "5D4E72B722CB9B49"
 			tasks: [{
@@ -548,8 +562,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 0.5d
+			x: -8.5d
+			y: -0.5d
 			dependencies: ["444990844E568EA9"]
 			id: "71CED402CE6CC11F"
 			tasks: [{
@@ -559,8 +573,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 1.0d
+			x: -6.5d
+			y: -1.0d
 			dependencies: ["444990844E568EA9"]
 			id: "2066D93E4ACE7317"
 			tasks: [{
@@ -570,8 +584,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -0.5d
+			x: -6.5d
+			y: 1.0d
 			dependencies: ["5EC0FBD46A7681D7"]
 			id: "13357AF1C183A774"
 			tasks: [{
@@ -581,8 +595,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 1.5d
+			x: -8.5d
+			y: 0.5d
 			dependencies: ["5EC0FBD46A7681D7"]
 			id: "27D599964948BE27"
 			tasks: [{
@@ -592,8 +606,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 0.0d
+			x: -8.0d
+			y: 3.5d
 			dependencies: ["10CA6E763836B7B6"]
 			id: "0F60A38AECE86F94"
 			tasks: [{
@@ -603,8 +617,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 1.0d
+			x: -7.0d
+			y: 3.5d
 			dependencies: ["10CA6E763836B7B6"]
 			id: "5ABA15B6590184DC"
 			tasks: [{
@@ -614,8 +628,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 1.5d
+			x: -8.5d
+			y: 2.0d
 			dependencies: ["10CA6E763836B7B6"]
 			id: "1C107BE61BF232CC"
 			tasks: [{
@@ -625,8 +639,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -0.5d
+			x: -6.5d
+			y: 2.0d
 			dependencies: [
 				"10CA6E763836B7B6"
 				"13357AF1C183A774"
@@ -639,8 +653,9 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -5.0d
+			x: -4.5d
+			y: 2.5d
+			hide_dependency_lines: true
 			dependencies: ["029FBFB1E2C4EDED"]
 			id: "27A5ECDBF9456EB4"
 			tasks: [{
@@ -650,8 +665,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -6.0d
+			x: -5.5d
+			y: 3.5d
 			dependencies: ["27A5ECDBF9456EB4"]
 			id: "501694CC576AD7A7"
 			tasks: [{
@@ -661,8 +676,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -6.0d
+			x: -3.5d
+			y: 3.5d
 			dependencies: ["27A5ECDBF9456EB4"]
 			id: "77B60D80D998386F"
 			tasks: [{
@@ -672,8 +687,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -6.5d
+			x: -4.5d
+			y: 4.0d
 			dependencies: [
 				"501694CC576AD7A7"
 				"77B60D80D998386F"
@@ -686,8 +701,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 0.0d
+			x: 4.0d
+			y: -3.0d
 			dependencies: ["3BFAF3EEF0FA4E9B"]
 			id: "150CD15939BEDDD4"
 			tasks: [{
@@ -697,8 +712,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 1.0d
+			x: 5.0d
+			y: -2.0d
 			dependencies: ["150CD15939BEDDD4"]
 			id: "08BF53EC85CF023B"
 			tasks: [{
@@ -708,8 +723,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 0.5d
+			x: 5.5d
+			y: -0.5d
 			dependencies: ["08BF53EC85CF023B"]
 			id: "5FDBD65945AD50A8"
 			tasks: [{
@@ -719,8 +734,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 2.0d
+			x: 4.5d
+			y: -0.5d
 			dependencies: ["08BF53EC85CF023B"]
 			id: "39D71EDCF092BC28"
 			tasks: [{
@@ -730,8 +745,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 1.0d
+			x: 3.0d
+			y: -2.0d
 			dependencies: ["150CD15939BEDDD4"]
 			id: "78FDAB622573C0A8"
 			tasks: [{
@@ -741,8 +756,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 2.5d
+			x: 2.5d
+			y: -0.5d
 			dependencies: ["78FDAB622573C0A8"]
 			id: "1498456D840BEEC5"
 			tasks: [{
@@ -752,8 +767,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 2.0d
+			x: 3.5d
+			y: -0.5d
 			dependencies: ["78FDAB622573C0A8"]
 			id: "035A50C60A7BBC81"
 			tasks: [{
@@ -763,8 +778,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: -1.5d
+			x: 4.0d
+			y: 3.0d
 			hide_dependency_lines: true
 			dependencies: ["046F2CC77792239E"]
 			id: "65F2FD52C4B73574"
@@ -775,8 +790,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -0.5d
+			x: 3.0d
+			y: 2.5d
 			dependencies: ["046F2CC77792239E"]
 			id: "073C3146646C8192"
 			tasks: [{
@@ -790,8 +805,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -0.5d
+			x: 5.0d
+			y: 2.5d
 			dependencies: ["046F2CC77792239E"]
 			id: "62121C9D36AE983E"
 			tasks: [{

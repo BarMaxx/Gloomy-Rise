@@ -5,12 +5,24 @@
 	filename: "danks"
 	title: "{quests.gloomy_rise.other.dank_storage.chapter_title}"
 	icon: "dankstorage:dank_1"
-	default_quest_shape: "square"
+	default_quest_shape: "default_circle"
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 50.0d
+		height: 30.0d
+		rotation: 0.0d
+		image: "gloomyrise:textures/background_for_questbook.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
+			x: -7.0d
+			y: -2.0d
 			subtitle: "Настало время для склада!"
 			description: ["Очень большое хранилище!"]
 			dependencies: ["114FD26AF2B063E3"]
@@ -39,8 +51,8 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: -1.0d
+			x: -6.5d
+			y: -3.0d
 			description: ["Очень большое хранилище!"]
 			dependencies: ["05A862D8A5E850E7"]
 			id: "3967978ED15B933D"
@@ -64,8 +76,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: -1.0d
+			x: -5.5d
+			y: -3.0d
 			description: ["Очень большое хранилище!"]
 			dependencies: ["3967978ED15B933D"]
 			id: "37BBC80534CFD889"
@@ -89,8 +101,8 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: 0.0d
+			x: -5.0d
+			y: -2.0d
 			description: ["Очень большое хранилище!"]
 			dependencies: ["37BBC80534CFD889"]
 			id: "21A0E855E6877256"
@@ -114,8 +126,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: 1.0d
+			x: -5.5d
+			y: -1.0d
 			description: ["Очень большое хранилище!"]
 			dependencies: ["21A0E855E6877256"]
 			id: "16A28626204D179A"
@@ -139,8 +151,8 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: 1.0d
+			x: -6.5d
+			y: -1.0d
 			description: ["Очень большое хранилище!"]
 			dependencies: ["16A28626204D179A"]
 			id: "1C852A13A6F6E437"
@@ -164,8 +176,8 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: 2.5d
+			x: -6.5d
+			y: 0.0d
 			subtitle: "Удивительно!"
 			description: ["Очень большое хранилище!"]
 			dependencies: ["1C852A13A6F6E437"]
@@ -190,8 +202,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: 0.0d
+			x: -6.0d
+			y: -4.5d
 			subtitle: "Сделайте из своего Данка Сундук!"
 			description: ["Док можно поставить и засунуть туда Данк. После этого ваш данк станет полноценым хранилищем, а не \"рюкзаком\"!"]
 			dependencies: ["114FD26AF2B063E3"]

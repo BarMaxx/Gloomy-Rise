@@ -5,12 +5,24 @@
 	filename: "astral_sorcery"
 	title: "{quests.gloomy_rise.progress_3.astral_sorcery.chapter_title}"
 	icon: "astralsorcery:perk_seal"
-	default_quest_shape: ""
+	default_quest_shape: "default_circle"
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 50.0d
+		height: 30.0d
+		rotation: 0.0d
+		image: "gloomyrise:textures/background_for_questbook.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
+			x: -6.5d
+			y: -3.0d
 			description: ["Светящийся верстак позволяет создавать много различных предметов, например, сияющий колодец."]
 			dependencies: ["47A7B653FA5C3C02"]
 			id: "52A34042CB0F6108"
@@ -21,15 +33,13 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -1.7999999999999998d
-			shape: "gear"
+			x: -6.5d
+			y: -4.5d
 			description: ["Одним из первых инструментов, который должен получить каждый - жезл. Он позволяет контролировать выделении энергии звёздного света из чувствительных к звёздному свету устройств и ремесленных инструментов, щёлкая по ним пкм."]
 			dependencies: [
 				"5790588D585003CC"
 				"5BAD8D3FA25DA90F"
 			]
-			size: 1.2d
 			id: "47A7B653FA5C3C02"
 			tasks: [{
 				id: "33A6B10AB26A1C5C"
@@ -72,8 +82,8 @@
 					Damage: 0
 				}
 			}
-			x: 0.0d
-			y: -4.5d
+			x: -9.0d
+			y: -4.0d
 			description: ["На первый взгляд обычные инструменты. Но их можно улучшить и они станут достаточно эффективными."]
 			dependencies: ["1CB62752E3BEA48E"]
 			id: "124365A97ED1404A"
@@ -229,8 +239,8 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: 1.0d
+			x: -5.5d
+			y: -1.5d
 			description: ["С помощью сияющего колодца можно создать ведро звёздного света."]
 			dependencies: ["52A34042CB0F6108"]
 			id: "7655922C78060D97"
@@ -241,9 +251,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 1.0d
-			shape: "rsquare"
+			x: -6.0d
+			y: 0.0d
 			description: ["С помощью ведра звёздного света можно создать много различных предметов, например, звёздный алтарь или лепестковый аптекарь."]
 			dependencies: ["7655922C78060D97"]
 			id: "5582C7AC71FC8616"
@@ -259,8 +268,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 2.0d
+			x: -6.5d
+			y: 1.5d
 			description: ["На звёздном алтаре можно создавать много различных предметов, например, небесный алтарь."]
 			dependencies: ["5582C7AC71FC8616"]
 			id: "20F8C21AE117B9CD"
@@ -271,9 +280,10 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 2.0d
+			x: 2.5d
+			y: -5.0d
 			description: ["На небесном алтаре можно создавать много различных предметов, например, радужный алтарь."]
+			hide_dependency_lines: true
 			dependencies: ["20F8C21AE117B9CD"]
 			id: "6A0331BED30F89FB"
 			tasks: [{
@@ -283,7 +293,7 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 4.0d
 			y: -0.5d
 			description: ["На радужном алтаре можно создавать много различных предметов, например, чаша сдерживания."]
 			dependencies: ["250D025724E2C61D"]
@@ -295,8 +305,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 2.0d
+			x: 2.5d
+			y: -3.5d
 			description: ["Используется для улучшения инструментов, получения из одной руды большое количество слитков и т.п."]
 			dependencies: ["6A0331BED30F89FB"]
 			id: "50948AE8E255D97F"
@@ -341,8 +351,8 @@
 					Damage: 0
 				}
 			}
-			x: 6.0d
-			y: 1.0d
+			x: 4.0d
+			y: -3.5d
 			description: ["Улучшенные кристальные инструменты намного лучше, чем просто кристальные инструменты."]
 			dependencies: ["50948AE8E255D97F"]
 			id: "1608064D08A1B4EB"
@@ -498,8 +508,8 @@
 			]
 		}
 		{
-			x: 8.5d
-			y: -1.5d
+			x: 4.5d
+			y: 1.0d
 			description: ["С помощью чаши сдерживания можно создать максимальный верстак."]
 			dependencies: ["19E49E546B1B558B"]
 			id: "39D6FC9A8F839AEC"
@@ -510,9 +520,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -2.0d
-			shape: "gear"
+			x: 4.5d
+			y: 2.5d
 			description: ["На максимально верстаке можно создать максимальную сингулярность и не только."]
 			dependencies: ["39D6FC9A8F839AEC"]
 			id: "7A7BF8AFFC7501B3"
@@ -523,9 +532,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: -2.0d
-			shape: "heart"
+			x: 4.0d
+			y: 4.0d
 			description: ["Наверное, один из самых сложных предметов, но жаль, что с помощью этого слитка можно создать что-то еще..."]
 			dependencies: ["7A7BF8AFFC7501B3"]
 			id: "32FBD658D88BE93D"
@@ -536,9 +544,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -2.5d
-			shape: "heart"
+			x: 5.0d
+			y: 4.0d
 			description: ["Один из самых дорогих предметов в сборке."]
 			dependencies: ["7A7BF8AFFC7501B3"]
 			id: "4686059FB0DE29EC"
@@ -549,8 +556,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 1.0d
+			x: 3.0d
+			y: -2.0d
 			description: ["Очень важный предмет :)"]
 			dependencies: ["50948AE8E255D97F"]
 			id: "250D025724E2C61D"
@@ -561,8 +568,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -0.5d
+			x: -5.0d
+			y: 0.0d
 			dependencies: ["5582C7AC71FC8616"]
 			id: "28E4C9961683508D"
 			tasks: [{
@@ -572,8 +579,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 1.0d
+			x: -5.0d
+			y: -3.0d
 			dependencies: ["52A34042CB0F6108"]
 			id: "25E594281A40CBC4"
 			tasks: [{
@@ -583,8 +590,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 1.5d
+			x: -4.0d
+			y: -2.5d
 			dependencies: ["25E594281A40CBC4"]
 			id: "406A9A5C37CD197A"
 			tasks: [{
@@ -594,8 +601,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 0.0d
+			x: -4.0d
+			y: -3.5d
 			dependencies: ["25E594281A40CBC4"]
 			id: "028AE88BF842C56C"
 			tasks: [{
@@ -605,8 +612,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 2.0d
+			x: -7.5d
+			y: -1.5d
 			dependencies: ["52A34042CB0F6108"]
 			id: "418FBA3E06DB216B"
 			tasks: [{
@@ -616,8 +623,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 2.5d
+			x: -8.5d
+			y: -1.0d
 			dependencies: ["418FBA3E06DB216B"]
 			id: "048C06593B84CDA6"
 			tasks: [{
@@ -627,8 +634,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -1.0d
+			x: -4.0d
+			y: -0.5d
 			dependencies: ["28E4C9961683508D"]
 			id: "02A8232AC3F7FCB7"
 			tasks: [{
@@ -646,8 +653,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 3.5d
+			x: -7.0d
+			y: 3.0d
 			dependencies: ["20F8C21AE117B9CD"]
 			id: "7413F5E8E57E22E1"
 			tasks: [
@@ -694,8 +701,8 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: 2.5d
+			x: -7.0d
+			y: -0.5d
 			dependencies: ["418FBA3E06DB216B"]
 			id: "063C571251F3CD4E"
 			tasks: [{
@@ -705,8 +712,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 3.5d
+			x: -7.0d
+			y: 0.5d
 			dependencies: ["063C571251F3CD4E"]
 			id: "2E6B336D81C8DFDA"
 			tasks: [
@@ -740,8 +747,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: 3.5d
+			x: -9.0d
+			y: 0.0d
 			dependencies: ["048C06593B84CDA6"]
 			id: "573BE30141269D94"
 			tasks: [{
@@ -751,8 +758,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -3.5d
+			x: -8.0d
+			y: -4.5d
 			dependencies: ["47A7B653FA5C3C02"]
 			id: "1CB62752E3BEA48E"
 			tasks: [{
@@ -768,8 +775,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -3.0d
+			x: -5.0d
+			y: -5.0d
 			dependencies: ["114FD26AF2B063E3"]
 			id: "5790588D585003CC"
 			tasks: [{
@@ -779,8 +786,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -3.0d
+			x: -5.0d
+			y: -4.0d
 			dependencies: ["114FD26AF2B063E3"]
 			id: "5BAD8D3FA25DA90F"
 			tasks: [{
@@ -790,8 +797,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -1.0d
+			x: -4.5d
+			y: -1.5d
 			dependencies: ["28E4C9961683508D"]
 			id: "75A241C8BF5B572D"
 			tasks: [{
@@ -801,8 +808,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -2.0d
+			x: -3.0d
+			y: -1.5d
 			dependencies: ["75A241C8BF5B572D"]
 			id: "6026D8B98DCE710D"
 			tasks: [{
@@ -833,8 +840,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -2.0d
+			x: -2.5d
+			y: -0.5d
 			dependencies: ["6026D8B98DCE710D"]
 			id: "5C7CFD0489E5E1D2"
 			tasks: [{
@@ -844,8 +851,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -3.0d
+			x: -3.0d
+			y: 0.5d
 			dependencies: ["5C7CFD0489E5E1D2"]
 			id: "66CABA714CE3E6B5"
 			tasks: [{
@@ -855,8 +862,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -4.5d
+			x: -2.5d
+			y: 3.0d
 			dependencies: ["374A5D4A366D7632"]
 			id: "1C4C6118D0F25D5B"
 			tasks: [{
@@ -866,8 +873,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -4.5d
+			x: -3.5d
+			y: 1.5d
 			dependencies: ["66CABA714CE3E6B5"]
 			id: "41AD1CA70EC5AFC2"
 			tasks: [{
@@ -877,8 +884,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 1.0d
+			x: 4.5d
+			y: -2.5d
 			dependencies: ["250D025724E2C61D"]
 			id: "7C88965AC0CD4E2B"
 			tasks: [{
@@ -888,8 +895,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 1.0d
+			x: 4.5d
+			y: -1.5d
 			dependencies: ["250D025724E2C61D"]
 			id: "0A547A4C9C7F259A"
 			tasks: [{
@@ -920,8 +927,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 3.0d
+			x: 2.0d
+			y: -2.0d
 			dependencies: ["50948AE8E255D97F"]
 			id: "5A2ABC4F905C1940"
 			tasks: [{
@@ -931,8 +938,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 5.0d
+			x: -7.0d
+			y: 4.5d
 			dependencies: ["7413F5E8E57E22E1"]
 			id: "2728EC3246A78B91"
 			tasks: [{
@@ -942,8 +949,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 6.0d
+			x: -8.0d
+			y: 4.0d
 			dependencies: ["2728EC3246A78B91"]
 			id: "433D5257650BDDED"
 			tasks: [{
@@ -959,8 +966,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 6.0d
+			x: -6.0d
+			y: 4.0d
 			dependencies: ["2728EC3246A78B91"]
 			id: "5AD146157F520F87"
 			tasks: [{
@@ -976,8 +983,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -5.0d
+			x: -4.5d
+			y: 1.5d
 			dependencies: ["41AD1CA70EC5AFC2"]
 			id: "0DF5446228C8B608"
 			tasks: [{
@@ -987,8 +994,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -3.0d
+			x: -2.5d
+			y: 1.5d
 			dependencies: ["66CABA714CE3E6B5"]
 			id: "374A5D4A366D7632"
 			tasks: [{
@@ -1004,8 +1011,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -5.0d
+			x: -3.0d
+			y: 4.0d
 			dependencies: ["1C4C6118D0F25D5B"]
 			id: "3B94386003DA20C5"
 			tasks: [{
@@ -1021,8 +1028,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -5.0d
+			x: -4.0d
+			y: 3.0d
 			dependencies: ["1C4C6118D0F25D5B"]
 			id: "671DDF30011DD350"
 			tasks: [{
@@ -1032,8 +1039,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 0.5d
+			x: 1.0d
+			y: -5.0d
 			dependencies: ["6A0331BED30F89FB"]
 			id: "465531C75A89DA80"
 			tasks: [{
@@ -1050,8 +1057,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -1.5d
+			x: 5.0d
+			y: -0.5d
 			dependencies: ["19E49E546B1B558B"]
 			id: "7F386E350E526AD0"
 			tasks: [{
@@ -1061,7 +1068,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 3.0d
 			y: -0.5d
 			dependencies: ["19E49E546B1B558B"]
 			id: "621C10D45A6EC7FF"
@@ -1079,8 +1086,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -0.5d
+			x: 3.5d
+			y: 1.0d
 			dependencies: ["19E49E546B1B558B"]
 			id: "41075866F12C9723"
 			tasks: [{
@@ -1090,8 +1097,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: -1.0d
+			x: 2.5d
+			y: 1.0d
 			dependencies: ["41075866F12C9723"]
 			id: "274454470A28E43E"
 			tasks: [{
@@ -1101,8 +1108,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 0.0d
+			x: 3.5d
+			y: 2.5d
 			dependencies: ["41075866F12C9723"]
 			id: "20828AE506592251"
 			tasks: [{
@@ -1112,8 +1119,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 3.0d
+			x: 0.5d
+			y: -1.0d
 			dependencies: ["5A2ABC4F905C1940"]
 			id: "521CE5E590D252EB"
 			tasks: [{
@@ -1123,8 +1130,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 3.0d
+			x: 0.5d
+			y: 1.0d
 			dependencies: ["521CE5E590D252EB"]
 			id: "5459F145A21EEA6C"
 			tasks: [{
@@ -1134,8 +1141,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 4.0d
+			x: 1.0d
+			y: 2.0d
 			dependencies: ["5459F145A21EEA6C"]
 			id: "6460F6F8D29042E9"
 			tasks: [{
@@ -1145,8 +1152,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 4.5d
+			x: 1.5d
+			y: 1.0d
 			dependencies: ["5459F145A21EEA6C"]
 			id: "75394A5BDB398C3A"
 			tasks: [{
@@ -1156,8 +1163,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: 4.0d
+			x: 1.0d
+			y: 0.0d
 			dependencies: ["5459F145A21EEA6C"]
 			id: "1AC0133127925F33"
 			tasks: [{
@@ -1167,8 +1174,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 2.0d
+			x: 0.0d
+			y: 0.0d
 			dependencies: ["5459F145A21EEA6C"]
 			id: "495D64CC48996AE2"
 			tasks: [{
@@ -1178,8 +1185,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 1.5d
+			x: -0.5d
+			y: 1.0d
 			dependencies: ["5459F145A21EEA6C"]
 			id: "3CC65D3854E99964"
 			tasks: [{
@@ -1189,7 +1196,7 @@
 			}]
 		}
 		{
-			x: 12.0d
+			x: 0.0d
 			y: 2.0d
 			dependencies: ["5459F145A21EEA6C"]
 			id: "3DD25046D6BC06B7"
@@ -1200,8 +1207,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 3.0d
+			x: -7.5d
+			y: 1.5d
 			dependencies: ["20F8C21AE117B9CD"]
 			id: "2FBA1B0999E3EC2B"
 			tasks: [{
@@ -1211,8 +1218,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 0.5d
+			x: -5.5d
+			y: 1.5d
 			dependencies: ["20F8C21AE117B9CD"]
 			id: "29B675C567922AF1"
 			tasks: [
@@ -1257,8 +1264,8 @@
 			]
 		}
 		{
-			x: 5.5d
-			y: -6.0d
+			x: -4.0d
+			y: 0.5d
 			dependencies: ["41AD1CA70EC5AFC2"]
 			id: "203092009905E750"
 			tasks: [
@@ -1304,8 +1311,8 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: 3.5d
+			x: 1.0d
+			y: -3.5d
 			dependencies: ["50948AE8E255D97F"]
 			id: "53F8C3236EA80A52"
 			tasks: [
@@ -1351,8 +1358,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: 3.0d
+			x: 4.0d
+			y: -5.0d
 			dependencies: ["6A0331BED30F89FB"]
 			id: "0BFF979A514D0161"
 			tasks: [
@@ -1405,8 +1412,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: -5.0d
+			x: -5.0d
+			y: 2.5d
 			dependencies: ["0DF5446228C8B608"]
 			id: "6FAA0E1C481516D5"
 			tasks: [
@@ -1446,8 +1453,8 @@
 			]
 		}
 		{
-			x: 10.5d
-			y: -5.0d
+			x: -4.0d
+			y: 4.0d
 			dependencies: ["3B94386003DA20C5"]
 			id: "14C6F04A06D2B7C2"
 			tasks: [

@@ -5,14 +5,26 @@
 	filename: "applied_energistics_2"
 	title: "{quests.gloomy_rise.progress_3.applied_energistics_2.chapter_title}"
 	icon: "appliedenergistics2:64k_cell_component"
-	default_quest_shape: ""
+	default_quest_shape: "default_circle"
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 50.0d
+		height: 30.0d
+		rotation: 0.0d
+		image: "gloomyrise:textures/background_for_questbook.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
+			x: -6.0d
+			y: 0.5d
 			description: ["С помощью высекателя можно создавать различные компоненты для МЭ сети."]
-			dependencies: ["5FA328BC34C1B5F6"]
+			dependencies: ["2E7AC62A36F43FFD"]
 			id: "302A14893184E904"
 			tasks: [{
 				id: "49D08ECD68BC0A87"
@@ -21,8 +33,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 0.0d
+			x: -4.5d
+			y: -3.0d
 			description: ["Метеоритовый компас Вам понадобится для поиска метеорита, в котором находятся пресса для высекателя."]
 			dependencies: ["39E899BE6092C592"]
 			id: "6D88A11B6EEBFD4E"
@@ -33,8 +45,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -3.0d
+			x: -3.5d
+			y: 0.0d
 			description: ["В МЭ накопителе хранятся ячейки хранения."]
 			dependencies: ["023F6BB4BC0AC91A"]
 			id: "219738D8C40A44E7"
@@ -45,8 +57,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 4.5d
+			x: 2.0d
+			y: -1.5d
 			description: ["МЭ терминал нужен, чтобы взаимодействовать с предметами в МЭ сети."]
 			dependencies: ["6C1EE16D4AA03A71"]
 			id: "038C1DB891E5F731"
@@ -57,8 +69,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -1.5d
+			x: -3.5d
+			y: 1.0d
 			subtitle: "Мозг МЭ системы"
 			description: ["МЭ контроллер - главный блок МЭ сети."]
 			dependencies: ["023F6BB4BC0AC91A"]
@@ -70,8 +82,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 3.0d
+			x: 3.0d
+			y: -4.0d
 			description: ["Нужен для создания ячейки хранения и не только."]
 			dependencies: ["28B3F16585CCAA8C"]
 			id: "5916045CBA46BA39"
@@ -82,8 +94,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 4.0d
+			x: 3.5d
+			y: -2.5d
 			description: ["Нужен для создания ячейки хранения и не только."]
 			dependencies: ["5916045CBA46BA39"]
 			id: "33B28E222354F361"
@@ -94,8 +106,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 4.0d
+			x: 3.5d
+			y: -1.0d
 			description: ["Нужен для создания ячейки хранения и не только."]
 			dependencies: ["33B28E222354F361"]
 			id: "70638D98D093BC9F"
@@ -106,8 +118,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 3.0d
+			x: 3.0d
+			y: 0.5d
 			description: ["Нужен для создания ячейки хранения и не только."]
 			dependencies: ["70638D98D093BC9F"]
 			id: "0E8EF9B1B64084C5"
@@ -118,8 +130,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 4.0d
+			x: 3.5d
+			y: -5.0d
 			description: ["Нужна для хранения предметов в МЭ сети."]
 			dependencies: ["5916045CBA46BA39"]
 			id: "7BFB8B4CE0B07B75"
@@ -134,8 +146,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 3.0d
+			x: 5.0d
+			y: -3.5d
 			description: ["Нужна для хранения предметов в МЭ сети. Хранит больше места, чем предыдущая ячейка."]
 			dependencies: ["33B28E222354F361"]
 			id: "49941C35085F4C0B"
@@ -150,8 +162,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 5.0d
+			x: 5.0d
+			y: 0.0d
 			description: ["Нужна для хранения предметов в МЭ сети. Хранит больше места, чем предыдущая ячейка."]
 			dependencies: ["70638D98D093BC9F"]
 			id: "13E3871CB9CF14D1"
@@ -166,8 +178,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 2.0d
+			x: 3.5d
+			y: 1.5d
 			description: ["Нужна для хранения предметов в МЭ сети. Хранит больше места, чем предыдущая ячейка."]
 			dependencies: ["0E8EF9B1B64084C5"]
 			id: "640BC9B93F25E34C"
@@ -182,8 +194,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -3.5d
+			x: -3.0d
+			y: -1.0d
 			dependencies: ["219738D8C40A44E7"]
 			id: "000378B5F298642F"
 			tasks: [{
@@ -193,8 +205,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -1.5d
+			x: -4.5d
+			y: 0.5d
 			dependencies: ["302A14893184E904"]
 			id: "023F6BB4BC0AC91A"
 			tasks: [{
@@ -204,8 +216,9 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 1.5d
+			x: 2.0d
+			y: -4.5d
+			hide_dependency_lines: true
 			dependencies: ["302A14893184E904"]
 			id: "28B3F16585CCAA8C"
 			tasks: [{
@@ -215,8 +228,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 3.0d
+			x: 2.0d
+			y: -3.0d
 			dependencies: ["28B3F16585CCAA8C"]
 			id: "6C1EE16D4AA03A71"
 			tasks: [
@@ -233,7 +246,7 @@
 			]
 		}
 		{
-			x: -1.5d
+			x: -7.5d
 			y: 0.5d
 			dependencies: ["302A14893184E904"]
 			id: "449CCE5E1674680A"
@@ -244,8 +257,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 1.5d
+			x: -8.0d
+			y: -0.5d
 			dependencies: ["449CCE5E1674680A"]
 			id: "3DD164A7CCF1879B"
 			tasks: [{
@@ -255,8 +268,9 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -0.5d
+			x: 4.5d
+			y: 3.5d
+			hide_dependency_lines: true
 			dependencies: ["2DAA6AE3711E9E81"]
 			id: "184396D0A3D68C55"
 			tasks: [{
@@ -266,8 +280,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -0.5d
+			x: -6.0d
+			y: 2.0d
 			dependencies: ["302A14893184E904"]
 			id: "2DAA6AE3711E9E81"
 			tasks: [{
@@ -277,8 +291,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 0.5d
+			x: 5.0d
+			y: 2.5d
 			dependencies: ["184396D0A3D68C55"]
 			id: "332C0E15929555BE"
 			tasks: [{
@@ -288,8 +302,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -0.5d
+			x: -4.0d
+			y: -4.0d
 			hide_dependency_lines: true
 			dependencies: ["6D88A11B6EEBFD4E"]
 			id: "032D5F0AB16769C4"
@@ -300,8 +314,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -1.5d
+			x: -3.0d
+			y: -3.5d
 			hide_dependency_lines: true
 			dependencies: ["6D88A11B6EEBFD4E"]
 			id: "75CDDC9B45C3F031"
@@ -312,8 +326,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -1.5d
+			x: -3.0d
+			y: -2.5d
 			hide_dependency_lines: true
 			dependencies: ["6D88A11B6EEBFD4E"]
 			id: "51A5F942E42D9477"
@@ -324,8 +338,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -0.5d
+			x: -4.0d
+			y: -2.0d
 			hide_dependency_lines: true
 			dependencies: ["6D88A11B6EEBFD4E"]
 			id: "4FE2542D70B987A3"
@@ -336,8 +350,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -2.0d
+			x: 5.0d
+			y: 4.5d
 			dependencies: ["184396D0A3D68C55"]
 			id: "3A4D971D7C2564D9"
 			tasks: [{
@@ -347,8 +361,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -3.0d
+			x: 5.5d
+			y: 3.5d
 			dependencies: ["3A4D971D7C2564D9"]
 			id: "67AAC8E0530C89AB"
 			tasks: [{
@@ -358,8 +372,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 1.5d
+			x: 4.0d
+			y: -4.0d
 			dependencies: ["5916045CBA46BA39"]
 			id: "101205398DC457D8"
 			tasks: [{
@@ -369,8 +383,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 5.5d
+			x: 5.0d
+			y: -2.5d
 			dependencies: ["33B28E222354F361"]
 			id: "0207B834295BFC1F"
 			tasks: [{
@@ -380,8 +394,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 2.5d
+			x: 5.0d
+			y: -1.0d
 			dependencies: ["70638D98D093BC9F"]
 			id: "3CB6B81D597F3E76"
 			tasks: [{
@@ -391,8 +405,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 4.5d
+			x: 4.0d
+			y: 0.5d
 			dependencies: ["0E8EF9B1B64084C5"]
 			id: "40D4227F3B511C7B"
 			tasks: [{
@@ -402,8 +416,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 1.0d
+			x: -7.0d
+			y: -2.5d
 			dependencies: ["39E899BE6092C592"]
 			id: "513B9B510C2ED3B9"
 			tasks: [{
@@ -413,8 +427,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 1.0d
+			x: -6.0d
+			y: -4.5d
 			dependencies: ["114FD26AF2B063E3"]
 			id: "51E46E80AE831374"
 			tasks: [{
@@ -424,8 +438,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 0.0d
+			x: -7.0d
+			y: -1.5d
 			dependencies: ["513B9B510C2ED3B9"]
 			id: "5FA328BC34C1B5F6"
 			tasks: [{
@@ -435,8 +449,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 1.5d
+			x: -6.0d
+			y: -3.0d
 			dependencies: ["51E46E80AE831374"]
 			id: "39E899BE6092C592"
 			tasks: [{
@@ -446,8 +460,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -0.5d
+			x: 3.0d
+			y: 3.5d
 			dependencies: ["184396D0A3D68C55"]
 			id: "6651D291BE8575FB"
 			tasks: [{
@@ -461,8 +475,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -0.5d
+			x: 1.5d
+			y: 3.5d
 			dependencies: ["6651D291BE8575FB"]
 			id: "1D948514D0FA14C6"
 			tasks: [{
@@ -476,8 +490,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -1.5d
+			x: 3.5d
+			y: 4.5d
 			dependencies: ["6651D291BE8575FB"]
 			id: "2EC16F066AB053D1"
 			tasks: [{
@@ -491,8 +505,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 0.5d
+			x: 2.5d
+			y: 4.5d
 			dependencies: ["6651D291BE8575FB"]
 			id: "055FE2CC72A69C68"
 			tasks: [{
@@ -506,8 +520,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 0.5d
+			x: 3.0d
+			y: 2.5d
 			dependencies: ["6651D291BE8575FB"]
 			id: "54FC407A72C144F5"
 			tasks: [{
@@ -521,8 +535,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 5.5d
+			x: 1.5d
+			y: -0.5d
 			dependencies: ["038C1DB891E5F731"]
 			id: "13021C04A5943115"
 			tasks: [{
@@ -536,8 +550,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 5.5d
+			x: 2.5d
+			y: -0.5d
 			dependencies: ["038C1DB891E5F731"]
 			id: "1F69B00233BA621F"
 			tasks: [{
@@ -547,8 +561,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: -2.0d
+			x: 1.0d
+			y: 2.5d
 			dependencies: ["1D948514D0FA14C6"]
 			id: "6D53A715FF62AB82"
 			tasks: [{
@@ -562,8 +576,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -2.0d
+			x: 1.0d
+			y: 4.5d
 			dependencies: ["1D948514D0FA14C6"]
 			id: "63A1014ED0360071"
 			tasks: [{
@@ -577,8 +591,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 1.0d
+			x: 0.0d
+			y: 4.0d
 			dependencies: ["1D948514D0FA14C6"]
 			id: "4AEF8468B39B160C"
 			tasks: [{
@@ -592,8 +606,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -0.5d
+			x: 0.0d
+			y: 3.0d
 			dependencies: ["1D948514D0FA14C6"]
 			id: "5E4875D4BF6EAD07"
 			tasks: [{
@@ -607,8 +621,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 3.0d
+			x: 1.0d
+			y: -4.0d
 			dependencies: ["28B3F16585CCAA8C"]
 			id: "59CCBEE0E35FB2D9"
 			tasks: [{
@@ -618,8 +632,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 4.0d
+			x: 0.5d
+			y: -2.5d
 			dependencies: ["59CCBEE0E35FB2D9"]
 			id: "5CB1A60045C643CE"
 			tasks: [{
@@ -629,8 +643,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 4.0d
+			x: 0.5d
+			y: -1.0d
 			dependencies: ["5CB1A60045C643CE"]
 			id: "5BDBA1144F246D90"
 			tasks: [{
@@ -640,8 +654,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 3.0d
+			x: 1.0d
+			y: 0.5d
 			dependencies: ["5BDBA1144F246D90"]
 			id: "2CDD51504DC2CF81"
 			tasks: [{
@@ -651,8 +665,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 2.0d
+			x: 0.5d
+			y: -5.0d
 			dependencies: ["59CCBEE0E35FB2D9"]
 			id: "77F9FD2934DFBEB4"
 			tasks: [{
@@ -666,8 +680,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 5.0d
+			x: -0.5d
+			y: -2.5d
 			dependencies: ["5CB1A60045C643CE"]
 			id: "6179A93AAA2B02BA"
 			tasks: [{
@@ -681,8 +695,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 3.0d
+			x: -0.5d
+			y: -1.0d
 			dependencies: ["5BDBA1144F246D90"]
 			id: "71C4749D0539A52B"
 			tasks: [{
@@ -696,8 +710,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 4.0d
+			x: 0.5d
+			y: 1.5d
 			dependencies: ["2CDD51504DC2CF81"]
 			id: "0315EAFE1A750F9A"
 			tasks: [{
@@ -711,7 +725,7 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -8.0d
 			y: 1.5d
 			dependencies: ["449CCE5E1674680A"]
 			id: "36ADDC8849A69C3A"
@@ -722,8 +736,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 2.0d
+			x: -7.5d
+			y: 3.0d
 			dependencies: ["36ADDC8849A69C3A"]
 			id: "4506A88EEE83FAB3"
 			tasks: [{
@@ -733,14 +747,25 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 2.5d
+			x: -8.5d
+			y: 3.0d
 			dependencies: ["36ADDC8849A69C3A"]
 			id: "6C43E09FA4C420B0"
 			tasks: [{
 				id: "30C0E5A38997DAB8"
 				type: "item"
 				item: "appliedenergistics2:crafting_monitor"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			dependencies: ["5FA328BC34C1B5F6"]
+			id: "2E7AC62A36F43FFD"
+			tasks: [{
+				id: "18A884B1CCB30EFA"
+				type: "checkmark"
+				title: "11"
 			}]
 		}
 	]

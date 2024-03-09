@@ -9,8 +9,20 @@
 		Count: 1b
 		tag: { }
 	}
-	default_quest_shape: ""
+	default_quest_shape: "default_circle"
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 50.0d
+		height: 30.0d
+		rotation: 0.0d
+		image: "gloomyrise:textures/background_for_questbook.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			icon: {
@@ -18,12 +30,10 @@
 				Count: 1b
 				tag: { }
 			}
-			x: 0.0d
-			y: 0.0d
-			shape: "rsquare"
+			x: -6.0d
+			y: -0.5d
 			subtitle: "Чтоб не потеряться :)"
 			dependencies: ["114FD26AF2B063E3"]
-			size: 1.5d
 			id: "41C05337A8804898"
 			tasks: [{
 				id: "7A151FCA8FF8288A"
@@ -36,8 +46,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -3.0d
+			x: -3.5d
+			y: -2.5d
 			dependencies: ["114FD26AF2B063E3"]
 			id: "258BACA1DD2DD9D3"
 			tasks: [{
@@ -47,10 +57,9 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 1.0d
+			x: -7.5d
+			y: 0.5d
 			dependencies: ["114FD26AF2B063E3"]
-			size: 1.2d
 			id: "6FD345624FE0A567"
 			tasks: [{
 				id: "3FE5D75486C9E860"
@@ -59,8 +68,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -2.5d
+			x: -5.0d
+			y: -3.5d
 			description: ["Собирает предметы недалеко от вас."]
 			dependencies: ["3CEDE60AD25690CF"]
 			id: "13458DF94390D17D"
@@ -75,8 +84,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 2.5d
+			x: -6.5d
+			y: 3.0d
 			description: ["Улучшенный магнит. Увеличивает дистанцию сбора предметов."]
 			dependencies: ["114FD26AF2B063E3"]
 			id: "0EB9F82384980D93"
@@ -91,7 +100,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -8.0d
 			y: -0.5d
 			description: ["Позволяет легче строить масштабные постройки."]
 			dependencies: ["3CEDE60AD25690CF"]
@@ -115,8 +124,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 2.5d
+			x: -4.0d
+			y: 2.0d
 			description: ["Пока находится в вашем инвентаре - накапливает время, а потом это время можно использовать для ускорения различных процессов."]
 			dependencies: ["3CEDE60AD25690CF"]
 			id: "24DDF0425E4D682C"
@@ -135,8 +144,8 @@
 		}
 		{
 			icon: "appliedenergistics2:grindstone"
-			x: 2.5d
-			y: -2.5d
+			x: -8.0d
+			y: -3.0d
 			description: ["Кварцевый дробитель позволяет вам перемалывать руду в пыль. Для того, чтобы дробить руду необходимо на дробитель поставить &eрукоятку&f, а после крутите её."]
 			dependencies: ["2CB6E2F317E842CA"]
 			id: "6BDEDFD2C6E2E62F"
@@ -154,10 +163,9 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: -1.5d
+			x: -7.0d
+			y: -2.0d
 			dependencies: ["114FD26AF2B063E3"]
-			size: 1.2d
 			id: "47320C46A31E6A2D"
 			tasks: [{
 				id: "737F67741F73CBE5"
@@ -166,10 +174,9 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -1.0d
+			x: -4.5d
+			y: -1.5d
 			dependencies: ["114FD26AF2B063E3"]
-			size: 1.2d
 			id: "642E076BA80E1E07"
 			tasks: [{
 				id: "7CD193715D9CF189"
@@ -178,10 +185,9 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 1.5d
+			x: -5.0d
+			y: 1.0d
 			dependencies: ["114FD26AF2B063E3"]
-			size: 1.2d
 			id: "1BA1DF5FE9A0013C"
 			tasks: [{
 				id: "0801537CEF7306C1"
@@ -190,8 +196,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 0.5d
+			x: -6.0d
+			y: 1.5d
 			dependencies: ["114FD26AF2B063E3"]
 			id: "5ADCBDE730D404B8"
 			tasks: [{
@@ -213,8 +219,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 2.0d
+			x: -4.5d
+			y: 0.0d
 			dependencies: ["114FD26AF2B063E3"]
 			id: "25F834A267B6F2E0"
 			tasks: [{
@@ -236,8 +242,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -2.0d
+			x: -6.0d
+			y: -2.5d
 			dependencies: ["114FD26AF2B063E3"]
 			id: "378D12915FF6DA7F"
 			tasks: [{
@@ -254,8 +260,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 3.0d
+			x: -8.5d
+			y: 1.5d
 			dependencies: ["114FD26AF2B063E3"]
 			id: "22242D1955252137"
 			tasks: [{
