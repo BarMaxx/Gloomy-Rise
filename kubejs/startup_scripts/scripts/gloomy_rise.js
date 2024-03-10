@@ -17,23 +17,23 @@ onEvent('item.registry', event => {
 	 
 	 event.create('gloomy_pickaxe').displayName('Мрачная кирка')
 	 
-	 event.create('gloomy_pickaxe_inactive').displayName('Неактивированая мрачная кирка')
+	 event.create('gloomy_pickaxe_inactive').displayName('Неактивированная мрачная кирка')
 	 
 	 event.create('gloomy_sword').displayName('Мрачный меч')
 	 
-	 event.create('gloomy_sword_inactive').displayName('Неактивированый мрачный меч')
+	 event.create('gloomy_sword_inactive').displayName('Неактивированный мрачный меч')
 	 
 	 event.create('gloomy_axe').displayName('Мрачный топор')
 	 
-	 event.create('gloomy_axe_inactive').displayName('Неактивированый мрачный топор')
+	 event.create('gloomy_axe_inactive').displayName('Неактивированный мрачный топор')
 	 
 	 event.create('gloomy_shovel').displayName('Мрачная лопата')
 	 
-	 event.create('gloomy_shovel_inactive').displayName('Неактивированая мрачная лопата')
+	 event.create('gloomy_shovel_inactive').displayName('Неактивированная мрачная лопата')
 	 
 	 event.create('gloomy_hoe').dispatchEvent('Мрачная мотыга')
 	 
-	 event.create('gloomy_hoe_inactive').displayName('Неактивированая мрачная мотыга')
+	 event.create('gloomy_hoe_inactive').displayName('Неактивированная мрачная мотыга')
 	 
 
 })
