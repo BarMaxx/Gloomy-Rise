@@ -5,16 +5,25 @@
 	filename: "creative"
 	title: "{quests.gloomy_rise.progress_4.creative.chapter_title}"
 	icon: "mysticalagradditions:creative_essence"
-	default_quest_shape: ""
+	default_quest_shape: "default_circle"
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 50.0d
+		height: 30.0d
+		rotation: 0.0d
+		image: "gloomyrise:textures/background_for_questbook.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
-			x: 0.0d
+			x: -6.0d
 			y: 0.0d
-			shape: "square"
 			dependencies: ["114FD26AF2B063E3"]
-			hide: true
-			size: 1.5d
 			id: "4BF121E7A72055B8"
 			tasks: [{
 				id: "6E05AB499FC12CE6"
@@ -23,9 +32,8 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -7.0d
 			y: -1.5d
-			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["4BF121E7A72055B8"]
 			id: "15EDDF5405FC90F6"
@@ -40,9 +48,8 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: -4.5d
 			y: -1.0d
-			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["4BF121E7A72055B8"]
 			id: "75DF409C8CB52797"
@@ -89,9 +96,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 1.5d
-			shape: "pentagon"
+			x: -4.0d
+			y: 1.0d
 			hide_dependency_lines: true
 			dependencies: ["4BF121E7A72055B8"]
 			id: "267F21D885F14037"
@@ -106,9 +112,8 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -7.5d
 			y: 1.0d
-			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["4BF121E7A72055B8"]
 			id: "19D7D363D35A3313"
@@ -119,9 +124,8 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: -6.0d
 			y: -2.5d
-			shape: "rsquare"
 			hide_dependency_lines: true
 			dependencies: ["4BF121E7A72055B8"]
 			id: "36E51C51CFB4E05D"
@@ -132,9 +136,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 2.5d
-			shape: "rsquare"
+			x: -6.0d
+			y: 2.0d
 			hide_dependency_lines: true
 			dependencies: ["4BF121E7A72055B8"]
 			id: "561711BEA48C255A"
@@ -145,9 +148,8 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: -3.0d
 			y: 0.0d
-			shape: "rsquare"
 			hide_dependency_lines: true
 			dependencies: ["4BF121E7A72055B8"]
 			id: "43D05AEE1326DDEC"
@@ -158,9 +160,8 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -8.5d
 			y: 0.0d
-			shape: "rsquare"
 			hide_dependency_lines: true
 			dependencies: ["4BF121E7A72055B8"]
 			id: "77F6967547F73D28"

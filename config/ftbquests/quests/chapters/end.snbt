@@ -5,18 +5,27 @@
 	filename: "end"
 	title: "{quests.gloomy_rise.journey.end.chapter_title}"
 	icon: "minecraft:dragon_head"
-	default_quest_shape: ""
+	default_quest_shape: "default_circle"
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 50.0d
+		height: 30.0d
+		rotation: 0.0d
+		image: "gloomyrise:textures/background_for_questbook.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
-			shape: "gear"
+			x: -5.5d
+			y: -3.5d
 			subtitle: "Пора в Край"
 			description: ["&2Око Эндера&f нужно для нахождения и активации портала в &5Край&f."]
 			dependencies: ["114FD26AF2B063E3"]
-			hide: true
-			size: 1.2d
 			id: "3CE6ECDB2520ED5F"
 			tasks: [{
 				id: "6913BE94DB66822F"
@@ -34,8 +43,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -0.5d
+			x: -4.0d
+			y: -4.0d
 			description: ["На взлёт!"]
 			dependencies: ["3CE6ECDB2520ED5F"]
 			id: "3893494EE66CC691"
@@ -52,8 +61,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -1.5d
+			x: -6.0d
+			y: -5.0d
 			description: ["Неплохое украшение."]
 			dependencies: ["3CE6ECDB2520ED5F"]
 			id: "67BF7985D1B040E5"
@@ -64,8 +73,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 0.5d
+			x: -4.0d
+			y: -3.0d
 			description: ["Ингридиент для крафта шалкерового ящика."]
 			dependencies: ["3CE6ECDB2520ED5F"]
 			id: "49E7339FCE81B389"
@@ -83,8 +92,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 1.5d
+			x: -3.5d
+			y: -2.0d
 			description: ["Переносное хранилище."]
 			dependencies: ["49E7339FCE81B389"]
 			id: "77BFC49B1D3ECBF9"
@@ -100,8 +109,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 0.0d
+			x: -7.0d
+			y: -3.5d
 			dependencies: ["3CE6ECDB2520ED5F"]
 			id: "7CBE0B9BDBE2F3C6"
 			tasks: [{
@@ -118,8 +127,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -1.0d
+			x: -8.5d
+			y: -4.0d
 			description: ["Вкусно!"]
 			dependencies: ["7CBE0B9BDBE2F3C6"]
 			id: "5AD3E3A0BA008575"
@@ -136,8 +145,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 1.0d
+			x: -7.0d
+			y: -2.0d
 			description: ["Вкусно!"]
 			dependencies: ["7CBE0B9BDBE2F3C6"]
 			id: "278FD3C38BF302AC"
@@ -154,8 +163,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 0.0d
+			x: -8.5d
+			y: -3.0d
 			description: ["Вкусно!"]
 			dependencies: ["7CBE0B9BDBE2F3C6"]
 			id: "3CC581F4989EE56D"
@@ -172,8 +181,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -1.5d
+			x: -5.0d
+			y: -5.0d
 			description: ["Цветочек."]
 			dependencies: ["3CE6ECDB2520ED5F"]
 			id: "05594F485CA36EDA"
@@ -184,8 +193,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 1.0d
+			x: -6.0d
+			y: -2.0d
 			dependencies: ["3CE6ECDB2520ED5F"]
 			id: "2EB43D826C6E5D38"
 			tasks: [{
@@ -196,8 +205,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 2.5d
+			x: -6.5d
+			y: -1.0d
 			dependencies: ["2EB43D826C6E5D38"]
 			id: "52D7EC3C43B2DA29"
 			tasks: [{
@@ -207,8 +216,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 1.0d
+			x: -5.0d
+			y: -2.0d
 			dependencies: ["3CE6ECDB2520ED5F"]
 			id: "7AD968C8B09997B6"
 			tasks: [{
@@ -219,8 +228,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 2.5d
+			x: -4.5d
+			y: -1.0d
 			dependencies: ["7AD968C8B09997B6"]
 			id: "1F0383FC832F0104"
 			tasks: [{

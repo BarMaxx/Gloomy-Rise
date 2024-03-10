@@ -5,19 +5,28 @@
 	filename: "nether"
 	title: "{quests.gloomy_rise.journey.nether.chapter_title}"
 	icon: "minecraft:nether_star"
-	default_quest_shape: ""
+	default_quest_shape: "default_circle"
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 50.0d
+		height: 30.0d
+		rotation: 0.0d
+		image: "gloomyrise:textures/background_for_questbook.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			title: "Портал в &4Незер&f!"
 			icon: "minecraft:obsidian"
-			x: 0.0d
-			y: 0.0d
-			shape: "gear"
+			x: -6.0d
+			y: -4.0d
 			description: ["Чтобы попасть в &4Незер&f нужно построить рамку портала из обсидиана и поджечь её &6огнивом&f."]
 			dependencies: ["114FD26AF2B063E3"]
-			hide: true
-			size: 1.3d
 			id: "491E4B5BD7069266"
 			tasks: [
 				{
@@ -50,8 +59,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 1.0d
+			x: -6.0d
+			y: -5.0d
 			description: ["Незерский кирпич можно получить, переплавив незерак в печи. Из этих кирпичей можно создать кирпичи доменной печи."]
 			dependencies: ["491E4B5BD7069266"]
 			id: "08D277C60EA4E24A"
@@ -71,8 +80,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 0.5d
+			x: -7.5d
+			y: -4.5d
 			description: ["Магму можно создать из сгустка магмы либо же накопать в Незере. Магма нужна для создания кирпичей доменной печи."]
 			dependencies: ["491E4B5BD7069266"]
 			id: "1ED82206C1B8331E"
@@ -92,8 +101,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 0.5d
+			x: -4.5d
+			y: -4.0d
 			description: ["Незер-кварц можно найти в Незере. И найти его достаточно легко, т.к. кварц появляется довольно часто."]
 			dependencies: ["491E4B5BD7069266"]
 			id: "2CB6E2F317E842CA"
@@ -113,8 +122,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 2.0d
+			x: -3.5d
+			y: -3.0d
 			description: ["&dРозовый кварц&f понадобится для многих крафтов в ветке квестов с модом &6Create!&f"]
 			dependencies: ["2CB6E2F317E842CA"]
 			id: "3CEDE60AD25690CF"
@@ -130,8 +139,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -0.5d
+			x: -5.0d
+			y: -3.0d
 			description: ["Древние обломки появляются в Незере на высоте 7-22. Но он очень редкий, поэтому наберитесь терпения."]
 			dependencies: ["491E4B5BD7069266"]
 			id: "2FDCBFDEBDA4BFBA"
@@ -150,8 +159,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -1.5d
+			x: -4.5d
+			y: -2.0d
 			description: ["Чтобы получить незеритовый лом, необходимо переплавить древние обломки. Этот лом нужен для создания незеритового слитка."]
 			dependencies: ["2FDCBFDEBDA4BFBA"]
 			id: "7DCC0FA4C160D8F4"
@@ -170,8 +179,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -1.5d
+			x: -4.0d
+			y: -0.5d
 			description: ["С помощью незеритового слитка можно улучшать некоторые вещи, например, броню, инструменты, сундуки и т.п."]
 			dependencies: ["7DCC0FA4C160D8F4"]
 			id: "1F24FA2023174B08"
@@ -191,8 +200,8 @@
 		{
 			title: "Незеритовые хранилища"
 			icon: "expandedstorage:netherite_chest"
-			x: 3.0d
-			y: -2.5d
+			x: -3.0d
+			y: -1.0d
 			description: ["Улучшенные версии алмазных хранилищ. Позволяют хранить больше предметов."]
 			dependencies: ["1F24FA2023174B08"]
 			id: "294FD6792EA8FE0D"
@@ -218,8 +227,8 @@
 					Damage: 0
 				}
 			}
-			x: 4.0d
-			y: -2.5d
+			x: -5.0d
+			y: 0.0d
 			description: ["Хорошие и эффективные инструменты и оружие."]
 			dependencies: ["1F24FA2023174B08"]
 			id: "7CD800F7D537713F"
@@ -284,8 +293,8 @@
 					Damage: 0
 				}
 			}
-			x: 3.0d
-			y: -0.5d
+			x: -5.0d
+			y: -1.0d
 			description: ["Неплохая броня с хорошей защитой."]
 			dependencies: ["1F24FA2023174B08"]
 			id: "6270C376F841A2FB"
@@ -342,8 +351,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -0.5d
+			x: -3.0d
+			y: 0.0d
 			description: ["Улучшенная версия алмазного рюкзака. Позволяет хранить больше предметов и улучшений."]
 			dependencies: ["1F24FA2023174B08"]
 			id: "269199E0BBE0015A"
@@ -356,8 +365,8 @@
 		{
 			title: "Визер"
 			icon: "minecraft:wither_skeleton_skull"
-			x: -1.5d
-			y: -0.5d
+			x: -5.0d
+			y: -5.0d
 			subtitle: "Ваш первый босс!"
 			description: ["Чтобы заспавнить Визера, необходимо поставить 4 блока песка душ и 3 черепа визер-скелета как на картинке. Убив этого босса вы получите &dзвезду Незера!&f"]
 			dependencies: ["491E4B5BD7069266"]
@@ -387,8 +396,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -1.5d
+			x: -3.5d
+			y: -5.0d
 			description: ["&dЗвезда Незера&f выпадает с Визера. Это очень ценный предмет, который в будущем Вам понадобится в большом количестве."]
 			dependencies: ["245CE482D6E6A2D7"]
 			id: "33C1F735EFF06519"
@@ -399,8 +408,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -1.5d
+			x: -6.5d
+			y: -3.0d
 			dependencies: ["491E4B5BD7069266"]
 			id: "2E4817DD0F5619C1"
 			tasks: [{
@@ -411,8 +420,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -2.5d
+			x: -6.5d
+			y: -1.5d
 			dependencies: ["2E4817DD0F5619C1"]
 			id: "4F581AE4182DBCEB"
 			tasks: [{
@@ -422,8 +431,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -1.5d
+			x: -7.5d
+			y: -3.5d
 			dependencies: ["491E4B5BD7069266"]
 			id: "70182B6C7B749771"
 			tasks: [{
@@ -434,7 +443,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -8.5d
 			y: -2.5d
 			dependencies: ["70182B6C7B749771"]
 			id: "4AB6AA09B9BD649A"
@@ -445,8 +454,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -3.5d
+			x: -8.5d
+			y: -1.5d
 			dependencies: ["4AB6AA09B9BD649A"]
 			id: "47B7123C55AC5AF8"
 			tasks: [{
@@ -462,8 +471,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -3.0d
+			x: -9.0d
+			y: -3.5d
 			dependencies: ["70182B6C7B749771"]
 			id: "10F682303DD7DE76"
 			tasks: [{
@@ -480,8 +489,8 @@
 		}
 		{
 			title: "Огненная броня"
-			x: 2.0d
-			y: -3.5d
+			x: -7.0d
+			y: -0.5d
 			dependencies: ["4F581AE4182DBCEB"]
 			id: "4DC485503F7522D8"
 			tasks: [
@@ -532,8 +541,8 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: -2.5d
+			x: -7.5d
+			y: -1.5d
 			dependencies: ["4F581AE4182DBCEB"]
 			id: "2A026EF47DDF8D5C"
 			tasks: [{
@@ -543,8 +552,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -3.5d
+			x: -6.0d
+			y: -0.5d
 			dependencies: ["4F581AE4182DBCEB"]
 			id: "745D54901B2F12CD"
 			tasks: [{
@@ -554,8 +563,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -4.0d
+			x: -7.0d
+			y: 0.5d
 			dependencies: ["4DC485503F7522D8"]
 			id: "69A6964A4B0F8C14"
 			tasks: [{
