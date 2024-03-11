@@ -1,6 +1,6 @@
 [*]
 background:          ftblibrary:textures/gui/background_squares.png; color=#65000b; tile_size=64
-extra_quest_shapes:  diamond, pentagon, hexagon, octagon, heart, gear, default_circle, default_square, default_rsquare, default_diamond, default_pentagon, default_hexagon, default_octagon, default_heart, default_gear, crumpled_circle, crumpled_square, crumpled_rsquare, crumpled_diamond, crumpled_pentagon, crumpled_hexagon, crumpled_octagon, crumpled_heart, crumpled_gear, ragged_circle, ragged_square, ragged_rsquare, ragged_diamond, ragged_pentagon, ragged_hexagon, ragged_octagon, ragged_heart, ragged_gear, torn_circle, torn_square, torn_rsquare, torn_diamond, torn_pentagon, torn_hexagon, torn_octagon, torn_heart, torn_gear, test
+extra_quest_shapes:  diamond, pentagon, hexagon, octagon, heart, gear, default_circle, default_square, default_rsquare, default_diamond, default_pentagon, default_hexagon, default_octagon, default_heart, default_gear, crumpled_circle, crumpled_square, crumpled_rsquare, crumpled_diamond, crumpled_pentagon, crumpled_hexagon, crumpled_octagon, crumpled_heart, crumpled_gear, ragged_circle, ragged_square, ragged_rsquare, ragged_diamond, ragged_pentagon, ragged_hexagon, ragged_octagon, ragged_heart, ragged_gear, torn_circle, torn_square, torn_rsquare, torn_diamond, torn_pentagon, torn_hexagon, torn_octagon, torn_heart, torn_gear
 
 text_color:          #AAAAAA
 hover_text_color:    #AAAAAA
