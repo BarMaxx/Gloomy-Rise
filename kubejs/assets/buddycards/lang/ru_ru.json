@@ -702,131 +702,177 @@
   "item.buddycards.card.5.27": "Nite",
   "item.buddycards.card.5.27.tooltip": "Темнее, чем пустота.",
   
-  "item.buddycards.contains.5": "Contains 4 Buddycards",
-  "advancements.buddycards.main.create_pack": "Recycling!",
-  "advancements.buddycards.main.create_pack.desc": "Recycle some cards into a pack of Buddycards from the create set",
-  "advancements.buddycards.main.complete_set5": "Create Set",
-  "advancements.buddycards.main.complete_set5.desc": "Get every card from the create set",
+  "item.buddycards.contains.5": "Содержит 4 Buddycards",
+  "advancements.buddycards.main.create_pack": "Переработка!",
+  "advancements.buddycards.main.create_pack.desc": "Соберите несколько карт в колоду Buddycards из Create сета",
+  "advancements.buddycards.main.complete_set5": "Create сет",
+  "advancements.buddycards.main.complete_set5.desc": "Получите все карты из Create сета",
 
-  "item.buddycards.buddycard_hook": "Buddysteel Hook",
-  "item.buddycards.buddysteel_fillet_knife": "Buddysteel Fillet Knife",
-  "item.buddycards.buddysteel_fishing_rod": "Buddysteel Fishing Rod",
-  "item.buddycards.pack.6": "Buddycard Pack",
-  "item.buddycards.binder.6": "Buddycard Binder",
-  "item.buddycards.medal.6": "Aquaculture Set Buddy Medal",
-  "item.buddycards.set.6": "Aquaculture Set",
+  "item.buddycards.buddycard_hook": "Крючок из Buddysteel",
+  "item.buddycards.buddysteel_fillet_knife": "Филейный нож из Buddysteel",
+  "item.buddycards.buddysteel_fishing_rod": "Удочка из Buddysteel",
+  
+  "item.buddycards.pack.6": "Buddycard комплект",
+  "item.buddycards.binder.6": "Buddycard переплёт",
+  "item.buddycards.medal.6": "Aquaculture сет Buddy медаль",
+  "item.buddycards.set.6": "Aquaculture сет",
+  
   "item.buddycards.card.6.1": "Algee",
-  "item.buddycards.card.6.1.tooltip": "It exists? You don't wanna touch it.",
+  "item.buddycards.card.6.1.tooltip": "Оно существует? Ты не хочешь к нему прикасаться.",
+  
   "item.buddycards.card.6.2": "Ribs",
-  "item.buddycards.card.6.2.tooltip": "He runs a very successful grill.",
+  "item.buddycards.card.6.2.tooltip": "Он управляет очень успешным грилем.",
+  
   "item.buddycards.card.6.3": "Bate",
-  "item.buddycards.card.6.3.tooltip": "Who lives in an air bubble under the ground?",
+  "item.buddycards.card.6.3.tooltip": "Кто живет в воздушном пузыре под землей?",
+  
   "item.buddycards.card.6.4": "Letter",
-  "item.buddycards.card.6.4.tooltip": "She's got a story, and is traveling the world.",
+  "item.buddycards.card.6.4.tooltip": "У нее есть история, и она путешествует по миру.",
+  
   "item.buddycards.card.6.5": "Line",
-  "item.buddycards.card.6.5.tooltip": "She's reeling in the small fish.",
+  "item.buddycards.card.6.5.tooltip": "Она ловит мелкую рыбешку.",
+  
   "item.buddycards.card.6.6": "Tinkan",
-  "item.buddycards.card.6.6.tooltip": "He used to have tomato soup.",
+  "item.buddycards.card.6.6.tooltip": "Раньше он ел томатный суп.",
+  
   "item.buddycards.card.6.7": "Drifter",
-  "item.buddycards.card.6.7.tooltip": "Slowly drifting away.",
+  "item.buddycards.card.6.7.tooltip": "Медленно уплывает прочь.",
+  
   "item.buddycards.card.6.8": "Bob",
-  "item.buddycards.card.6.8.tooltip": "Bobber bobs. It's what he does. Bobber bobs.",
+  "item.buddycards.card.6.8.tooltip": "Поплавок подпрыгивает. Это то, что он делает. Поплавок подпрыгивает.",
+  
   "item.buddycards.card.6.9": "Shushi",
-  "item.buddycards.card.6.9.tooltip": "Tastes nice.",
+  "item.buddycards.card.6.9.tooltip": "Приятный на вкус.",
+  
   "item.buddycards.card.6.10": "Fromg",
-  "item.buddycards.card.6.10.tooltip": "Very old, has croaked many times.",
+  "item.buddycards.card.6.10.tooltip": "Очень старый, много раз кривился.",
+  
   "item.buddycards.card.6.11": "Cap'n",
-  "item.buddycards.card.6.11.tooltip": "Skips school on most days.",
+  "item.buddycards.card.6.11.tooltip": "Почти каждый день прогуливает школу.",
+  
   "item.buddycards.card.6.12": "Jelli",
-  "item.buddycards.card.6.12.tooltip": "Squishy and stingy.",
+  "item.buddycards.card.6.12.tooltip": "Мягкий и вонючий.",
+  
   "item.buddycards.card.6.13": "Minnie",
-  "item.buddycards.card.6.13.tooltip": "If you have a better pun, let minnow.",
+  "item.buddycards.card.6.13.tooltip": "Если у вас есть каламбур получше, позвольте минноу.",
+  
   "item.buddycards.card.6.14": "Baitbox",
-  "item.buddycards.card.6.14.tooltip": "The joke was not very effective-",
+  "item.buddycards.card.6.14.tooltip": "Шутка была не очень эффектной-",
+  
   "item.buddycards.card.6.15": "Takle",
-  "item.buddycards.card.6.15.tooltip": "The joke was not very effective-",
+  "item.buddycards.card.6.15.tooltip": "Шутка была не очень эффектной-",
+  
   "item.buddycards.card.6.16": "Goldy",
-  "item.buddycards.card.6.16.tooltip": "She came from the circus, won't last a week.",
+  "item.buddycards.card.6.16.tooltip": "Она пришла из цирка и недели не протянет.",
+  
   "item.buddycards.card.6.17": "Fishier",
-  "item.buddycards.card.6.17.tooltip": "Reeling in the bigger fishes.",
+  "item.buddycards.card.6.17.tooltip": "Ловлю рыбу покрупнее.",
+  
   "item.buddycards.card.6.18": "Poseidon",
-  "item.buddycards.card.6.18.tooltip": "The ruler of infinite seas.",
-  "item.buddycards.contains.6": "Contains 3 Buddycards",
-  "advancements.buddycards.main.buddyhook": "Gone Fishin",
-  "advancements.buddycards.main.buddyhook.desc": "Make a Buddycard Hook to fish up Buddycards from the aquaculture set",
-  "advancements.buddycards.main.complete_set6": "Aquaculture Set",
-  "advancements.buddycards.main.complete_set6.desc": "Get every card from the aquaculture set",
+  "item.buddycards.card.6.18.tooltip": "Правитель бескрайних морей.",
+  
+  "item.buddycards.contains.6": "Содержит 3 Buddycards",
+  "advancements.buddycards.main.buddyhook": "Ушел на рыбалку",
+  "advancements.buddycards.main.buddyhook.desc": "Создайте крючок из Buddycard, чтобы поймать Buddycards из Aquaculture сета",
+  "advancements.buddycards.main.complete_set6": "Aquaculture сет",
+  "advancements.buddycards.main.complete_set6.desc": "Получите каждую карту из Aquaculture сета",
 
   "item.buddycards.buddybeans": "Buddybeans",
-  "item.buddycards.assorted_gummies": "Assorted Buddygummies",
-  "item.buddycards.buddysteel_food_knife": "Buddysteel Knife",
-  "item.buddycards.pack.7": "Buddycard Pack",
-  "item.buddycards.binder.7": "Buddycard Binder",
-  "item.buddycards.medal.7": "Farmer's Delight Set Buddy Medal",
-  "item.buddycards.set.7": "Farmer's Delight Set",
+  "item.buddycards.assorted_gummies": "Ассорти Buddygummies",
+  "item.buddycards.buddysteel_food_knife": "Нож из Buddysteel",
+  
+  "item.buddycards.pack.7": "Buddycard комплект",
+  "item.buddycards.binder.7": "Buddycard переплёт",
+  "item.buddycards.medal.7": "Farmer's Delight сет Buddy медаль",
+  "item.buddycards.set.7": "Farmer's Delight сет",
+  
   "item.buddycards.card.7.1": "Toemato",
-  "item.buddycards.card.7.1.tooltip": "Nobody can pronounce his name right...",
+  "item.buddycards.card.7.1.tooltip": "Никто не может правильно произнести его имя...",
+  
   "item.buddycards.card.7.2": "Lettus",
-  "item.buddycards.card.7.2.tooltip": "One more Lettuce pun and she'll kill you.",
+  "item.buddycards.card.7.2.tooltip": "Еще один каламбур с салатом-латуком, и она тебя убьет.",
+  
   "item.buddycards.card.7.3": "Raiz",
-  "item.buddycards.card.7.3.tooltip": "Rice to meet you.",
+  "item.buddycards.card.7.3.tooltip": "Райс рад с вами познакомиться.",
+  
   "item.buddycards.card.7.4": "Milky",
-  "item.buddycards.card.7.4.tooltip": "Don't cry each time she falls, she's a klutz.",
+  "item.buddycards.card.7.4.tooltip": "Не плачь каждый раз, когда она падает, она недотепа.",
+  
   "item.buddycards.card.7.5": "Eggcetra",
-  "item.buddycards.card.7.5.tooltip": "Make this the most collected buddy ever!1!",
+  "item.buddycards.card.7.5.tooltip": "Сделай этого приятеля самым собранным из всех когда-либо существовавших!1!",
+  
   "item.buddycards.card.7.6": "Rop",
-  "item.buddycards.card.7.6.tooltip": "Guess this jokes already tied up.",
+  "item.buddycards.card.7.6.tooltip": "Думаю, с этими шутками уже завязано.",
+  
   "item.buddycards.card.7.7": "Bakin",
-  "item.buddycards.card.7.7.tooltip": "Kwispy.",
+  "item.buddycards.card.7.7.tooltip": "Тонкий.",
+  
   "item.buddycards.card.7.8": "Veri Beri",
-  "item.buddycards.card.7.8.tooltip": "Everybody prefers choclate...",
+  "item.buddycards.card.7.8.tooltip": "Все предпочитают шоколад...",
+  
   "item.buddycards.card.7.9": "Choco",
-  "item.buddycards.card.7.9.tooltip": "Oh we got it!",
+  "item.buddycards.card.7.9.tooltip": "О, у нас получилось!",
+  
   "item.buddycards.card.7.10": "Soop",
-  "item.buddycards.card.7.10.tooltip": "Not to be confused with soup, the store.",
+  "item.buddycards.card.7.10.tooltip": "Не путать с магазинным супом.",
+  
   "item.buddycards.card.7.11": "Tatamidachi",
-  "item.buddycards.card.7.11.tooltip": "She's on her last straw.",
+  "item.buddycards.card.7.11.tooltip": "Она ухватилась за последнюю соломинку.",
+  
   "item.buddycards.card.7.12": "Mc Borgar",
-  "item.buddycards.card.7.12.tooltip": "The Mc stands for minecraft.",
+  "item.buddycards.card.7.12.tooltip": "Mc расшифровывается как minecraft.",
+  
   "item.buddycards.card.7.13": "Pumpe",
-  "item.buddycards.card.7.13.tooltip": "Stuffed with stuff and pumped with kin.",
+  "item.buddycards.card.7.13.tooltip": "Набитый всякой всячиной и накачанный родственниками.",
+  
   "item.buddycards.card.7.14": "Bord",
-  "item.buddycards.card.7.14.tooltip": "He's on the chopping block.",
+  "item.buddycards.card.7.14.tooltip": "Он на плахе для разделки мяса.",
+  
   "item.buddycards.card.7.15": "Kibble",
-  "item.buddycards.card.7.15.tooltip": "Tastes like rotting flesh.",
+  "item.buddycards.card.7.15.tooltip": "На вкус как гниющая плоть.",
+  
   "item.buddycards.card.7.16": "Rattat",
-  "item.buddycards.card.7.16.tooltip": "Admit it you don't know what it tastes like.",
+  "item.buddycards.card.7.16.tooltip": "Признайся, ты не знаешь, каков он на вкус.",
+  
   "item.buddycards.card.7.17": "Crockpot",
-  "item.buddycards.card.7.17.tooltip": "Soup for you!",
+  "item.buddycards.card.7.17.tooltip": "Суп для тебя!",
+  
   "item.buddycards.card.7.18": "Steve",
-  "item.buddycards.card.7.18.tooltip": "It just keeps burning.",
+  "item.buddycards.card.7.18.tooltip": "Он просто продолжает гореть."
+  ,
   "item.buddycards.card.7.gummy1": "Buddygummy",
-  "item.buddycards.card.7.gummy1.tooltip": "Smells like green apple!",
+  "item.buddycards.card.7.gummy1.tooltip": "Пахнет зеленым яблоком!",
   "item.buddycards.card.7.gummy2": "Buddygummy",
-  "item.buddycards.card.7.gummy2.tooltip": "Smells like strawberry!",
+  "item.buddycards.card.7.gummy2.tooltip": "Пахнет клубникой!",
   "item.buddycards.card.7.gummy3": "Buddygummy",
-  "item.buddycards.card.7.gummy3.tooltip": "Smells like blueberry!",
+  "item.buddycards.card.7.gummy3.tooltip": "Пахнет черникой!",
   "item.buddycards.card.7.gummy4": "Buddygummy",
-  "item.buddycards.card.7.gummy4.tooltip": "Smells like watermelon!",
+  "item.buddycards.card.7.gummy4.tooltip": "Пахнет арбузом!",
   "item.buddycards.card.7.gummy5": "Buddygummy",
-  "item.buddycards.card.7.gummy5.tooltip": "Smells sour!",
+  "item.buddycards.card.7.gummy5.tooltip": "Пахнет кислятиной!",
   "item.buddycards.card.7.gummy6": "Buddygummy",
-  "item.buddycards.card.7.gummy6.tooltip": "Smells like cotton candy!",
-  "item.buddycards.contains.7": "Contains 3 Buddycards and 1 Buddygummy",
-  "advancements.buddycards.main.buddybeans": "Jelly Delicacy",
-  "advancements.buddycards.main.buddybeans.desc": "Find Buddybeans growing with your crops",
-  "advancements.buddycards.main.buddygummy": "Tasty Gummies",
-  "advancements.buddycards.main.buddygummy.desc": "Chop up Buddygummies into Assorted Gummies",
-  "advancements.buddycards.main.complete_set7": "Farmer's Delight Set",
-  "advancements.buddycards.main.complete_set7.desc": "Get every card from the farmer's delight set",
+  "item.buddycards.card.7.gummy6.tooltip": "Пахнет сахарной ватой!",
+  "item.buddycards.contains.7": "Содержит 3 Buddycards и 1 Buddygummy",
+  
+  "advancements.buddycards.main.buddybeans": "Желейное лакомство",
+  "advancements.buddycards.main.buddybeans.desc": "Найдите Buddybeans, растущие вместе с Вашим урожаем",
+  "advancements.buddycards.main.buddygummy": "Вкусные мармеладки",
+  "advancements.buddycards.main.buddygummy.desc": "Измельчить Buddygummies в мармеладное ассорти",
+  "advancements.buddycards.main.complete_set7": "Farmer's Delight сет",
+  "advancements.buddycards.main.complete_set7.desc": "Получите каждую карту из Farmer's Delight сета",
 
   "item.buddycards.card.8.1": "Yin",
   "item.buddycards.card.8.1.tooltip": "Everybody thinks she's bad luck. Well she is.",
-  "item.buddycards.promo.1": "Halloween Promo - 1",
+  
+  "item.buddycards.promo.1": "Промо-акция на Хэллоуин - 1",
+  
   "item.buddycards.card.8.2": "Spoopy",
-  "item.buddycards.card.8.2.tooltip": "Voted most popular Buddycard of 2021.",
-  "item.buddycards.promo.2": "Halloween Promo - 2",
+  "item.buddycards.card.8.2.tooltip": "Признана самой популярной Buddycard в 2021 году.",
+  
+  "item.buddycards.promo.2": "Промо-акция на Хэллоуин - 2",
+  
   "item.buddycards.card.8.3": "Vwoop",
-  "item.buddycards.card.8.3.tooltip": "Your candies, hand'em over.",
-  "item.buddycards.promo.3": "Halloween Promo - 3"
+  "item.buddycards.card.8.3.tooltip": "Твои конфеты, отдай их мне.",
+  
+  "item.buddycards.promo.3": "Промо-акция на Хэллоуин - 3"
 }
