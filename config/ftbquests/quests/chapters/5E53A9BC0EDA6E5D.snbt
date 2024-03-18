@@ -25,6 +25,7 @@
 			title: "{quests.gloomy_rise.progress_1.origins.initial_resources.quest_title}"
 			x: -8.5d
 			y: -4.5d
+			shape: "default_circle"
 			subtitle: "{quests.gloomy_rise.progress_1.origins.initial_resources.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.initial_resources.description_1}"
@@ -412,7 +413,7 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.diamond_pickaxe.quest_title}"
-			x: 4.0d
+			x: 3.0d
 			y: 3.0d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.diamond_pickaxe.subtitle}"
 			description: [
@@ -564,8 +565,8 @@
 		{
 			title: "Алмазные хранилища"
 			icon: "expandedstorage:diamond_chest"
-			x: 5.0d
-			y: 2.5d
+			x: 4.0d
+			y: 3.0d
 			description: ["Улучшенные версии золотых хранилищ. Позволяют хранить больше предметов."]
 			dependencies: ["16B75CEDF776927E"]
 			id: "389BB670B0106BE6"
@@ -584,7 +585,7 @@
 		}
 		{
 			x: 5.0d
-			y: 0.5d
+			y: 1.5d
 			description: ["Улучшенная версия золотого рюкзака. Позволяет хранить больше предметов и улучшений."]
 			hide_dependency_lines: false
 			dependencies: ["16B75CEDF776927E"]
