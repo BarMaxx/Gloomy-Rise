@@ -470,7 +470,7 @@
 		{
 			title: "Железные хранилища"
 			icon: "expandedstorage:iron_chest"
-			x: 1.5d
+			x: 1.0d
 			y: -0.5d
 			description: ["Улучшенные версии деревянных хранилищ. Позволяют хранить больше предметов."]
 			dependencies: ["73D8A15D7A0E9FA2"]
@@ -597,7 +597,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 4.0d
 			y: -2.5d
 			description: ["Улучшенная версия обычного рюкзака. Позволяет хранить больше предметов и улучшений."]
 			dependencies: ["73D8A15D7A0E9FA2"]
@@ -646,21 +646,28 @@
 			}]
 		}
 		{
+			title: "{quests.gloomy_rise.progress_1.origins.stove.quest_title}"
 			x: -8.5d
 			y: -1.5d
-			subtitle: "Юный повар"
-			description: ["Позволяет удобнее готовить еду."]
+			subtitle: "{quests.gloomy_rise.progress_1.origins.stove.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress_1.origins.stove.description_1}"
+				""
+				"{quests.gloomy_rise.progress_1.origins.stove.description_2}"
+			]
 			dependencies: ["601145AC00E6C07B"]
 			id: "164E879B063727A9"
 			tasks: [{
 				id: "1B1150004C3B915E"
 				type: "item"
+				title: "{quests.gloomy_rise.progress_1.origins.stove.task_title}"
 				item: "farmersdelight:stove"
 			}]
 			rewards: [{
-				id: "5DB2134DDA118EF1"
-				type: "item"
-				item: "buddycards:pack.7"
+				id: "0520C8C715F18D0F"
+				type: "random"
+				title: "{quests.gloomy_rise.progress_1.origins.stove.reward_title}"
+				table_id: 7283934887988174074L
 			}]
 		}
 		{
@@ -885,14 +892,27 @@
 			}]
 		}
 		{
+			title: "{quests.gloomy_rise.progress_1.origins.trout.quest_title}"
 			x: -7.0d
 			y: -3.0d
+			subtitle: "{quests.gloomy_rise.progress_1.origins.trout.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress_1.origins.trout.description_1}"
+				""
+				"{quests.gloomy_rise.progress_1.origins.trout.description_2}"
+			]
 			dependencies: ["3690947B17DB94E2"]
 			id: "6131892749100E8F"
 			tasks: [{
 				id: "1345407E4E40AD39"
 				type: "checkmark"
-				title: "Трут"
+				title: "{quests.gloomy_rise.progress_1.origins.trout.task_title}"
+			}]
+			rewards: [{
+				id: "1F84D8D90E557477"
+				type: "random"
+				title: "{quests.gloomy_rise.progress_1.origins.trout.reward_title}"
+				table_id: 3639176316474975446L
 			}]
 		}
 		{
