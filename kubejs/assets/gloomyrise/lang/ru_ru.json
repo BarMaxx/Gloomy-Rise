@@ -71,6 +71,13 @@
 	"quests.gloomy_rise.progress_1.origins.trout.description_1": "Создав верёвку, Я могу сплести некое подобие основания для костра, которое будет хорошо гореть. Хм, если Я возьму немного палок и соломы, а после свяжу их верёвкой... должно получиться. Пробуем!",
 	"quests.gloomy_rise.progress_1.origins.trout.description_2": "Трут - некая сердцевина &6Костра&7, который необходимо мне создать, чтобы приготовить еду (и не только) и продолжить идти к своей цели.",
 	
+	"quests.gloomy_rise.progress_1.origins.campfire.quest_title": "&7Костёр",
+	"quests.gloomy_rise.progress_1.origins.campfire.task_title": "&7Костёр",
+	"quests.gloomy_rise.progress_1.origins.campfire.reward_title": "&7Тыквенный пирог",
+	"quests.gloomy_rise.progress_1.origins.campfire.subtitle": "&4Приготовление на костре",
+	"quests.gloomy_rise.progress_1.origins.campfire.description_1": "Я добрался до момента создания &6Костра&7. Теперь Я могу без проблем приготовить себе еду, ведь на костре можно готовить до 4-х единиц еды за раз.",
+	"quests.gloomy_rise.progress_1.origins.campfire.description_2": "Хм, когда Я поставил костёр, то заметил, что когда нахожусь рядом с костром, то быстрее восстанавливаю свои силы. Сам же костёр нужен мне не только для приготовления пищи, но и для создания &6Печки&7 и &6Кухонной плиты&7.",
+	
 	"quests.gloomy_rise.progress_1.origins.stove.quest_title": "&7Плита",
 	"quests.gloomy_rise.progress_1.origins.stove.task_title": "&7Кухонная плита",
 	"quests.gloomy_rise.progress_1.origins.stove.reward_title": "&7Вкусности",
@@ -78,19 +85,19 @@
 	"quests.gloomy_rise.progress_1.origins.stove.description_1": "Готовить еду на костре оказалось не так удобно, как хотелось бы... Но Я могу использовать костёр для создания полноценной плиты, на которой готовить будет явно удобнее.",
 	"quests.gloomy_rise.progress_1.origins.stove.description_2": "Кухонная плита - по сути просто нагревательный элемент, поэтому мне также необходимо создать &6Сковороду&7 и &6Котелок&7, которые Я смогу поставить на плиту, тем самым разогрев их. После Я смогу приготовить самую разнообразную еду.",
 	
-	"quests.gloomy_rise.progress_1.origins.campfire.quest_title": "&7Костёр",
-	"quests.gloomy_rise.progress_1.origins.campfire.task_title": "&7Костёр",
-	"quests.gloomy_rise.progress_1.origins.campfire.reward_title": "&7Тыквенный пирог",
-	"quests.gloomy_rise.progress_1.origins.campfire.subtitle": "&4Приготовление на Костре.",
-	"quests.gloomy_rise.progress_1.origins.campfire.description_1": "Я добрался до момента создания &6Костра&7. Теперь Я могу без проблем приготовить себе еду, ведь на костре можно готовить до 4-х единиц еды за раз.",
-	"quests.gloomy_rise.progress_1.origins.campfire.description_2": "Хм, когда Я поставил костёр, то заметил, что когда нахожусь рядом с костром, то быстрее восстанавливаю свои силы. Сам же костёр нужен мне не только для приготовления пищи, но и для создания &6Печки&7 и &6Кухонной плиты&7.",
-	
 	"quests.gloomy_rise.progress_1.origins.pattern.quest_title": "&7Пустые шаблоны",
 	"quests.gloomy_rise.progress_1.origins.pattern.task_title": "&7Шаблон",
 	"quests.gloomy_rise.progress_1.origins.pattern.reward_title": "&7Шаблон",
-	"quests.gloomy_rise.progress_1.origins.pattern.subtitle": "&4На них можно писать?",
-	"quests.gloomy_rise.progress_1.origins.pattern.description_1": "Я собрал достаточно досок и соломы и теперь я могу попробовать соединить небольшое их количество, чтобы собрать полноценный шаблон. Это не выглядит чем-то очень сложным и непонятным, следовательно, Я должен справиться.",
-	"quests.gloomy_rise.progress_1.origins.pattern.description_2": "С помощью шаблона Я наконец-то могу приступить к созданию &6Верстака&7 - главной вехе моего начального развития!",
+	"quests.gloomy_rise.progress_1.origins.pattern.subtitle": "&4Чем бы их заполнить...",
+	"quests.gloomy_rise.progress_1.origins.pattern.description_1": "Я собрал достаточно досок и соломы и теперь могу попробовать соединить небольшое их количество, чтобы собрать полноценный шаблон. Это не выглядит чем-то очень сложным и непонятным, следовательно, Я должен справиться.",
+	"quests.gloomy_rise.progress_1.origins.pattern.description_2": "С помощью шаблона Я наконец-то могу приступить к созданию &6Верстака&7 - главной вехе моего начального развития! А после Я смогу улучшить его до &6Ручного верстака&7.",
+	
+	"quests.gloomy_rise.progress_1.origins.crafting_stick.quest_title": "&7Палка с верстаком",
+	"quests.gloomy_rise.progress_1.origins.crafting_stick.task_title": "&7Палка с верстаком",
+	"quests.gloomy_rise.progress_1.origins.crafting_stick.reward_title": "&7Вкусности",
+	"quests.gloomy_rise.progress_1.origins.crafting_stick.subtitle": "&4Портативный верстак",
+	"quests.gloomy_rise.progress_1.origins.crafting_stick.description_1": "Теперь, имея парочку шаблонов и других ресурсов, Я могу улучшить свой верстак, создав палку с верстаком. Звучит интересно...",
+	"quests.gloomy_rise.progress_1.origins.crafting_stick.description_2": "Портативный верстак - удобнейшее средство, позволяющее использовать все функции верстака прямо из инвентаря! Теперь нет необходимости ставить верстак в мир, а после создавать на нём различные предметы, ведь это всё доступно, если взять палку с верстаком в руку и нажать ПКМ.",
 	
 	"quests.gloomy_rise.progress_1.origins.crafting_table.quest_title": "Рабочий стол",
 	"quests.gloomy_rise.progress_1.origins.crafting_table.task_title": "Верстак",
