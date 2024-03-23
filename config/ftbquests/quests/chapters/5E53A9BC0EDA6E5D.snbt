@@ -443,15 +443,28 @@
 			}]
 		}
 		{
+			title: "{quests.gloomy_rise.progress_1.origins.workbench.quest_title}"
 			x: -6.5d
 			y: 0.0d
-			description: ["Верстак, который сохраняет свой инвентарь. Очень удобно."]
+			subtitle: "{quests.gloomy_rise.progress_1.origins.workbench.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress_1.origins.workbench.description_1}"
+				""
+				"{quests.gloomy_rise.progress_1.origins.workbench.description_2}"
+			]
 			dependencies: ["15351ED9820C1C90"]
 			id: "3113441898064869"
 			tasks: [{
 				id: "03ACF46B55389863"
 				type: "item"
+				title: "{quests.gloomy_rise.progress_1.origins.workbench.task_title}"
 				item: "cyclic:workbench"
+			}]
+			rewards: [{
+				id: "373A575A22310107"
+				type: "random"
+				title: "{quests.gloomy_rise.progress_1.origins.workbench.reward_title}"
+				table_id: 7283934887988174074L
 			}]
 		}
 		{
@@ -993,8 +1006,15 @@
 			}]
 		}
 		{
+			title: "{quests.gloomy_rise.progress_1.origins.cobblestone_brick.quest_title}"
 			x: -4.0d
 			y: 0.0d
+			subtitle: "{quests.gloomy_rise.progress_1.origins.cobblestone_brick.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress_1.origins.cobblestone_brick.description_1}"
+				""
+				"{quests.gloomy_rise.progress_1.origins.cobblestone_brick.description_2}"
+			]
 			dependencies: [
 				"63235F71A57DA6A0"
 				"15351ED9820C1C90"
@@ -1003,7 +1023,13 @@
 			tasks: [{
 				id: "06261D642CAD3FEF"
 				type: "checkmark"
-				title: "Булыжниковые кирпичи"
+				title: "{quests.gloomy_rise.progress_1.origins.cobblestone_brick.task_title}"
+			}]
+			rewards: [{
+				id: "464862EB32C5AA80"
+				type: "random"
+				title: "{quests.gloomy_rise.progress_1.origins.cobblestone_brick.reward_title}"
+				table_id: 649389599540615973L
 			}]
 		}
 		{
