@@ -726,14 +726,28 @@
 			}]
 		}
 		{
+			title: "{quests.gloomy_rise.progress_1.origins.drawers.quest_title}"
 			x: -7.0d
 			y: -1.5d
+			subtitle: "{quests.gloomy_rise.progress_1.origins.drawers.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress_1.origins.drawers.description_1}"
+				""
+				"{quests.gloomy_rise.progress_1.origins.drawers.description_2}"
+			]
 			dependencies: ["40FA20B89ED9FF16"]
 			id: "4E8B6337C321C3AC"
 			tasks: [{
 				id: "018750A1A8AF9FBF"
 				type: "item"
+				title: "{quests.gloomy_rise.progress_1.origins.drawers.task_title}"
 				item: "storagedrawers:oak_full_drawers_1"
+			}]
+			rewards: [{
+				id: "40714CB030C3D725"
+				type: "random"
+				title: "{quests.gloomy_rise.progress_1.origins.drawers.reward_title}"
+				table_id: 1470874679732163061L
 			}]
 		}
 		{
