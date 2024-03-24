@@ -190,6 +190,20 @@
 	"quests.gloomy_rise.progress_1.origins.blast_furnace.description_1": "Используя печку, Я могу создать Плавильную печь. Она работает также, как и обычная печка, но предназначена только для переплавки руды. В плавильной печи Я могу переплавить себе руду в 2 раза быстрее чем в печке.",
 	"quests.gloomy_rise.progress_1.origins.blast_furnace.description_2": "Плавильную печь Я могу использовать не только, чтобы быстро переплавлять себе руду, но и, чтобы создать &6Обожжённую плавильную печь&7, а также другие предметы.",
 	
+	"quests.gloomy_rise.progress_1.origins.terracotta.quest_title": "&7Терракота",
+	"quests.gloomy_rise.progress_1.origins.terracotta.task_title": "&7Терракота",
+	"quests.gloomy_rise.progress_1.origins.terracotta.reward_title": "&7Начальная еда",
+	"quests.gloomy_rise.progress_1.origins.terracotta.subtitle": "&4Твёрдая глина",
+	"quests.gloomy_rise.progress_1.origins.terracotta.description_1": "В печке Я могу обжарить глину и получить Терракоту - твёрдый материал, который Я могу использовать для декорации или для создания множества полезных предметов.",
+	"quests.gloomy_rise.progress_1.origins.terracotta.description_2": "Терракота на данный момент нужна мне для создания &6Верстака гончара&7.",
+	
+	"quests.gloomy_rise.progress_1.origins.smooth_stone.quest_title": "&7Гладкий камень",
+	"quests.gloomy_rise.progress_1.origins.smooth_stone.task_title": "&7Гладкий камень",
+	"quests.gloomy_rise.progress_1.origins.smooth_stone.reward_title": "&7Начальное мясо",
+	"quests.gloomy_rise.progress_1.origins.smooth_stone.subtitle": "&4Твёрдый камень",
+	"quests.gloomy_rise.progress_1.origins.smooth_stone.description_1": "В печке Я могу обжарить камень и получить Гладкий камень - твёрдый материал, который Я могу использовать для создания различных предметов, в том числе и для декораций.",
+	"quests.gloomy_rise.progress_1.origins.smooth_stone.description_2": "Гладкий камень на данный момент нужен мне для создания &6Верстака гончара&7.",
+	
 	"quests.gloomy_rise.progress_1.origins.stone.quest_title": "Получение камня",
 	"quests.gloomy_rise.progress_1.origins.stone.task_title": "Камень",
 	"quests.gloomy_rise.progress_1.origins.stone.reward_title": "Камень",

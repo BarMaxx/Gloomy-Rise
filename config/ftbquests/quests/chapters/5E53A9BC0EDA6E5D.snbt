@@ -800,25 +800,55 @@
 			}]
 		}
 		{
+			title: "{quests.gloomy_rise.progress_1.origins.terracotta.quest_title}"
 			x: -5.0d
 			y: 2.5d
+			subtitle: "{quests.gloomy_rise.progress_1.origins.terracotta.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress_1.origins.terracotta.description_1}"
+				""
+				"{quests.gloomy_rise.progress_1.origins.terracotta.description_2}"
+			]
 			dependencies: ["7CA023B662360C6A"]
 			id: "2C2ECA715409F02A"
 			tasks: [{
 				id: "505CB972828BE628"
 				type: "item"
+				title: "{quests.gloomy_rise.progress_1.origins.terracotta.task_title}"
 				item: "minecraft:terracotta"
+				count: 4L
+			}]
+			rewards: [{
+				id: "058E4ED76031A133"
+				type: "random"
+				title: "{quests.gloomy_rise.progress_1.origins.terracotta.reward_title}"
+				table_id: 3639176316474975446L
 			}]
 		}
 		{
+			title: "{quests.gloomy_rise.progress_1.origins.smooth_stone.quest_title}"
 			x: -4.0d
 			y: 2.5d
+			subtitle: "{quests.gloomy_rise.progress_1.origins.smooth_stone.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress_1.origins.smooth_stone.description_1}"
+				""
+				"{quests.gloomy_rise.progress_1.origins.smooth_stone.description_2}"
+			]
 			dependencies: ["7CA023B662360C6A"]
 			id: "7E26F7808D45315B"
 			tasks: [{
 				id: "789682BB56795EDD"
 				type: "item"
+				title: "{quests.gloomy_rise.progress_1.origins.smooth_stone.task_title}"
 				item: "minecraft:smooth_stone"
+				count: 4L
+			}]
+			rewards: [{
+				id: "61AE83F58962E751"
+				type: "random"
+				title: "{quests.gloomy_rise.progress_1.origins.smooth_stone.reward_title}"
+				table_id: 649389599540615973L
 			}]
 		}
 		{
