@@ -318,13 +318,15 @@
 				type: "item"
 				title: "{quests.gloomy_rise.progress_1.origins.iron_ore.task_title}"
 				item: "minecraft:iron_ore"
-				count: 6L
+				count: 4L
 			}]
 			rewards: [{
 				id: "0B12DCB0173EF5D0"
 				type: "item"
 				title: "{quests.gloomy_rise.progress_1.origins.iron_ore.reward_title}"
 				item: "minecraft:iron_ore"
+				count: 4
+				random_bonus: 4
 			}]
 		}
 		{
@@ -344,7 +346,7 @@
 				type: "item"
 				title: "{quests.gloomy_rise.progress_1.origins.iron_ingot.task_title}"
 				item: "minecraft:iron_ingot"
-				count: 8L
+				count: 4L
 			}]
 			rewards: [{
 				id: "2AE359BD50F6060E"
@@ -352,6 +354,7 @@
 				title: "{quests.gloomy_rise.progress_1.origins.iron_ingot.reward_title}"
 				item: "minecraft:iron_ingot"
 				count: 4
+				random_bonus: 4
 			}]
 		}
 		{
@@ -673,7 +676,7 @@
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.stove.quest_title}"
 			x: -8.5d
-			y: -1.5d
+			y: -1.0d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.stove.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.stove.description_1}"
@@ -740,8 +743,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.drawers.quest_title}"
-			x: -7.0d
-			y: -1.5d
+			x: -6.5d
+			y: -1.0d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.drawers.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.drawers.description_1}"
@@ -754,7 +757,13 @@
 				id: "018750A1A8AF9FBF"
 				type: "item"
 				title: "{quests.gloomy_rise.progress_1.origins.drawers.task_title}"
-				item: "storagedrawers:oak_full_drawers_1"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
 			}]
 			rewards: [{
 				id: "40714CB030C3D725"
@@ -852,8 +861,15 @@
 			}]
 		}
 		{
+			title: "{quests.gloomy_rise.progress_1.origins.worktable_potter.quest_title}"
 			x: -4.5d
 			y: 4.0d
+			subtitle: "{quests.gloomy_rise.progress_1.origins.worktable_potter.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress_1.origins.worktable_potter.description_1}"
+				""
+				"{quests.gloomy_rise.progress_1.origins.worktable_potter.description_2}"
+			]
 			dependencies: [
 				"2C2ECA715409F02A"
 				"7E26F7808D45315B"
@@ -862,8 +878,29 @@
 			tasks: [{
 				id: "75D3678692FBDB5F"
 				type: "item"
+				title: "{quests.gloomy_rise.progress_1.origins.worktable_potter.task_title}"
 				item: "artisanworktables:worktable_potter"
 			}]
+			rewards: [
+				{
+					id: "6DD4479046A5BA04"
+					type: "random"
+					title: "{quests.gloomy_rise.progress_1.origins.worktable_potter.reward_title_1}"
+					table_id: 1646980043795792858L
+				}
+				{
+					id: "51BB9883C40971AB"
+					type: "random"
+					title: "{quests.gloomy_rise.progress_1.origins.worktable_potter.reward_title_2}"
+					table_id: 7015058020314785297L
+				}
+				{
+					id: "34CE59CB599175CE"
+					type: "loot"
+					title: "{quests.gloomy_rise.progress_1.origins.worktable_potter.reward_title_3}"
+					table_id: 649389599540615973L
+				}
+			]
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.flint_knife.quest_title}"
@@ -1002,12 +1039,15 @@
 				type: "item"
 				title: "{quests.gloomy_rise.progress_1.origins.stone.task_title}"
 				item: "minecraft:stone"
+				count: 4L
 			}]
 			rewards: [{
 				id: "27443AF552A5A29A"
 				type: "item"
 				title: "{quests.gloomy_rise.progress_1.origins.stone.reward_title}"
 				item: "minecraft:stone"
+				count: 4
+				random_bonus: 4
 			}]
 		}
 		{
