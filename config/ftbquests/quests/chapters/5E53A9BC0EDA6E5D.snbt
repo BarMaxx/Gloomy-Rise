@@ -23,7 +23,7 @@
 	quests: [
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.initial_resources.quest_title}"
-			x: -8.5d
+			x: -8.0d
 			y: -4.5d
 			shape: "default_circle"
 			subtitle: "{quests.gloomy_rise.progress_1.origins.initial_resources.subtitle}"
@@ -81,8 +81,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.crafting_table.quest_title}"
-			x: -4.5d
-			y: -2.0d
+			x: -6.0d
+			y: -1.0d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.crafting_table.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.crafting_table.description_1}"
@@ -111,8 +111,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.cobblestone.quest_title}"
-			x: -5.0d
-			y: 0.0d
+			x: -6.5d
+			y: 1.0d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.cobblestone.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.cobblestone.description_1}"
@@ -138,8 +138,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.pattern.quest_title}"
-			x: -3.5d
-			y: -3.5d
+			x: -5.0d
+			y: -2.5d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.pattern.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.pattern.description_1}"
@@ -166,8 +166,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.campfire.quest_title}"
-			x: -8.0d
-			y: -2.5d
+			x: -9.0d
+			y: -2.0d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.campfire.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.campfire.description_1}"
@@ -193,8 +193,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.chest.quest_title}"
-			x: -3.0d
-			y: -2.0d
+			x: -4.5d
+			y: -1.0d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.chest.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.chest.description_1}"
@@ -225,8 +225,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.barrel.quest_title}"
-			x: -6.0d
-			y: -2.0d
+			x: -7.5d
+			y: -1.0d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.barrel.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.barrel.description_1}"
@@ -250,8 +250,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.furnace.quest_title}"
-			x: -4.5d
-			y: 1.0d
+			x: -6.0d
+			y: 2.5d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.furnace.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.furnace.description_1}"
@@ -278,8 +278,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.blast_furnace.quest_title}"
-			x: -6.0d
-			y: 1.0d
+			x: -4.5d
+			y: 2.5d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.blast_furnace.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.blast_furnace.description_1}"
@@ -386,6 +386,7 @@
 				type: "item"
 				title: "{quests.gloomy_rise.progress_1.origins.iron_pickaxe.reward_title}"
 				item: "minecraft:iron_ingot"
+				count: 4
 			}]
 		}
 		{
@@ -447,8 +448,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.workbench.quest_title}"
-			x: -6.5d
-			y: 0.0d
+			x: -7.5d
+			y: 1.0d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.workbench.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.workbench.description_1}"
@@ -472,8 +473,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.crafting_stick.quest_title}"
-			x: -3.0d
-			y: -5.0d
+			x: -4.0d
+			y: -2.5d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.crafting_stick.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.crafting_stick.description_1}"
@@ -496,25 +497,38 @@
 			}]
 		}
 		{
-			title: "Железные хранилища"
+			title: "{quests.gloomy_rise.progress_1.origins.iron_storages.quest_title}"
 			icon: "expandedstorage:iron_chest"
 			x: 1.0d
 			y: -0.5d
-			description: ["Улучшенные версии деревянных хранилищ. Позволяют хранить больше предметов."]
+			subtitle: "{quests.gloomy_rise.progress_1.origins.iron_storages.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress_1.origins.iron_storages.description_1}"
+				""
+				"{quests.gloomy_rise.progress_1.origins.iron_storages.description_2}"
+			]
 			dependencies: ["73D8A15D7A0E9FA2"]
 			id: "0F28C797D7224DA8"
 			tasks: [
 				{
 					id: "1664DC4622A54FFF"
 					type: "item"
+					title: "{quests.gloomy_rise.progress_1.origins.iron_storages.task_title_1}"
 					item: "expandedstorage:iron_chest"
 				}
 				{
 					id: "2978642151B6702A"
 					type: "item"
+					title: "{quests.gloomy_rise.progress_1.origins.iron_storages.task_title_2}"
 					item: "expandedstorage:iron_barrel"
 				}
 			]
+			rewards: [{
+				id: "23A71DCEEA4E4DC4"
+				type: "random"
+				title: "{quests.gloomy_rise.progress_1.origins.iron_storages.reward_title}"
+				table_id: 7283934887988174074L
+			}]
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.gold_ore.quest_title}"
@@ -625,15 +639,28 @@
 			}]
 		}
 		{
+			title: "{quests.gloomy_rise.progress_1.origins.iron_backpack.quest_title}"
 			x: 4.0d
 			y: -2.5d
-			description: ["Улучшенная версия обычного рюкзака. Позволяет хранить больше предметов и улучшений."]
+			subtitle: "{quests.gloomy_rise.progress_1.origins.iron_backpack.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress_1.origins.iron_backpack.description_1}"
+				""
+				"{quests.gloomy_rise.progress_1.origins.iron_backpack.description_2}"
+			]
 			dependencies: ["73D8A15D7A0E9FA2"]
 			id: "5D24178A87E70FF2"
 			tasks: [{
 				id: "44951F59FD039E53"
 				type: "item"
+				title: "{quests.gloomy_rise.progress_1.origins.iron_backpack.task_title}"
 				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+			rewards: [{
+				id: "09A75C2C257EA164"
+				type: "random"
+				title: "{quests.gloomy_rise.progress_1.origins.iron_backpack.reward_title}"
+				table_id: 7015058020314785297L
 			}]
 		}
 		{
@@ -650,8 +677,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.backpack.quest_title}"
-			x: -2.5d
-			y: -3.0d
+			x: -4.0d
+			y: 0.0d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.backpack.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.backpack.description_1}"
@@ -675,8 +702,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.stove.quest_title}"
-			x: -8.5d
-			y: -1.0d
+			x: -9.0d
+			y: -0.5d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.stove.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.stove.description_1}"
@@ -699,21 +726,34 @@
 			}]
 		}
 		{
+			title: "{quests.gloomy_rise.progress_1.origins.cooking_pot.quest_title}"
 			x: 1.5d
 			y: -2.5d
-			description: ["В кухонном котле можно готовить различную еду."]
+			subtitle: "{quests.gloomy_rise.progress_1.origins.cooking_pot.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress_1.origins.cooking_pot.description_1}"
+				""
+				"{quests.gloomy_rise.progress_1.origins.cooking_pot.description_2}"
+			]
 			dependencies: ["73D8A15D7A0E9FA2"]
 			id: "62D309255509C159"
 			tasks: [{
 				id: "4B39C09874328F67"
 				type: "item"
+				title: "{quests.gloomy_rise.progress_1.origins.cooking_pot.task_title}"
 				item: "farmersdelight:cooking_pot"
+			}]
+			rewards: [{
+				id: "292A4573CD68F82E"
+				type: "random"
+				title: "{quests.gloomy_rise.progress_1.origins.cooking_pot.reward_title}"
+				table_id: 3639176316474975446L
 			}]
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.wooden_pickaxe.quest_title}"
-			x: -5.5d
-			y: -1.0d
+			x: -7.0d
+			y: 0.0d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.wooden_pickaxe.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.wooden_pickaxe.description_1}"
@@ -743,8 +783,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.drawers.quest_title}"
-			x: -6.5d
-			y: -1.0d
+			x: -8.0d
+			y: 0.0d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.drawers.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.drawers.description_1}"
@@ -773,20 +813,34 @@
 			}]
 		}
 		{
+			title: "{quests.gloomy_rise.progress_1.origins.worktable_basic.quest_title}"
 			x: 3.5d
 			y: -0.5d
+			subtitle: "{quests.gloomy_rise.progress_1.origins.worktable_basic.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress_1.origins.worktable_basic.description_1}"
+				""
+				"{quests.gloomy_rise.progress_1.origins.worktable_basic.description_2}"
+			]
 			dependencies: ["73D8A15D7A0E9FA2"]
 			id: "621F24F918EDA32C"
 			tasks: [{
 				id: "0F1110412CFFAA3F"
 				type: "item"
+				title: "{quests.gloomy_rise.progress_1.origins.worktable_basic.task_title}"
 				item: "artisanworktables:worktable_basic"
+			}]
+			rewards: [{
+				id: "3FCE27F7C12313D0"
+				type: "random"
+				title: "{quests.gloomy_rise.progress_1.origins.worktable_basic.reward_title}"
+				table_id: 7283934887988174074L
 			}]
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.smoker.quest_title}"
-			x: -3.0d
-			y: 1.0d
+			x: -7.5d
+			y: 2.5d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.smoker.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.smoker.description_1}"
@@ -810,8 +864,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.terracotta.quest_title}"
-			x: -5.0d
-			y: 2.5d
+			x: -6.5d
+			y: 3.5d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.terracotta.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.terracotta.description_1}"
@@ -836,8 +890,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.smooth_stone.quest_title}"
-			x: -4.0d
-			y: 2.5d
+			x: -5.5d
+			y: 3.5d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.smooth_stone.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.smooth_stone.description_1}"
@@ -862,8 +916,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.worktable_potter.quest_title}"
-			x: -4.5d
-			y: 4.0d
+			x: -6.0d
+			y: 4.5d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.worktable_potter.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.worktable_potter.description_1}"
@@ -904,7 +958,7 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.flint_knife.quest_title}"
-			x: -6.5d
+			x: -6.0d
 			y: -4.5d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.flint_knife.subtitle}"
 			description: [
@@ -936,8 +990,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.fibers.quest_title}"
-			x: -4.5d
-			y: -4.5d
+			x: -6.0d
+			y: -3.5d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.fibers.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.fibers.description_1}"
@@ -971,8 +1025,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.rope.quest_title}"
-			x: -5.5d
-			y: -3.5d
+			x: -7.0d
+			y: -2.5d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.rope.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.rope.description_1}"
@@ -999,8 +1053,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.trout.quest_title}"
-			x: -7.0d
-			y: -3.0d
+			x: -8.0d
+			y: -2.5d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.trout.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.trout.description_1}"
@@ -1052,8 +1106,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.cutting_board.quest_title}"
-			x: -3.5d
-			y: -1.0d
+			x: -5.0d
+			y: 0.0d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.cutting_board.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.cutting_board.description_1}"
@@ -1077,8 +1131,8 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.cobblestone_brick.quest_title}"
-			x: -4.0d
-			y: 0.0d
+			x: -5.5d
+			y: 1.0d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.cobblestone_brick.subtitle}"
 			description: [
 				"{quests.gloomy_rise.progress_1.origins.cobblestone_brick.description_1}"
