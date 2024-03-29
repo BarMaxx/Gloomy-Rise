@@ -413,6 +413,7 @@
 				type: "item"
 				title: "{quests.gloomy_rise.progress_1.origins.diamond.reward_title}"
 				item: "minecraft:diamond"
+				random_bonus: 2
 			}]
 		}
 		{
@@ -498,7 +499,6 @@
 		}
 		{
 			title: "{quests.gloomy_rise.progress_1.origins.iron_storages.quest_title}"
-			icon: "expandedstorage:iron_chest"
 			x: 1.0d
 			y: -0.5d
 			subtitle: "{quests.gloomy_rise.progress_1.origins.iron_storages.subtitle}"
@@ -554,6 +554,8 @@
 				type: "item"
 				title: "{quests.gloomy_rise.progress_1.origins.gold_ore.reward_title}"
 				item: "minecraft:gold_ore"
+				count: 4
+				random_bonus: 4
 			}]
 		}
 		{
@@ -581,61 +583,99 @@
 				title: "{quests.gloomy_rise.progress_1.origins.gold_ingot.reward_title}"
 				item: "minecraft:gold_ingot"
 				count: 4
+				random_bonus: 4
 			}]
 		}
 		{
-			title: "Золотые хранилища"
-			icon: "expandedstorage:gold_chest"
+			title: "{quests.gloomy_rise.progress_1.origins.gold_storages.quest_title}"
 			x: 0.0d
 			y: 4.0d
-			description: ["Улучшенные версии железных хранилищ. Позволяют хранить больше предметов."]
+			subtitle: "{quests.gloomy_rise.progress_1.origins.gold_storages.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress_1.origins.gold_storages.description_1}"
+				""
+				"{quests.gloomy_rise.progress_1.origins.gold_storages.description_2}"
+			]
 			dependencies: ["0131D6E4A04B280F"]
 			id: "3874808585C5B255"
 			tasks: [
 				{
 					id: "56F025DF9AB151E6"
 					type: "item"
+					title: "{quests.gloomy_rise.progress_1.origins.gold_storages.task_title_1}"
 					item: "expandedstorage:gold_chest"
 				}
 				{
 					id: "1B8C18ED1A88EC2F"
 					type: "item"
+					title: "{quests.gloomy_rise.progress_1.origins.gold_storages.task_title_2}"
 					item: "expandedstorage:gold_barrel"
 				}
 			]
+			rewards: [{
+				id: "288B1BEB08953FE6"
+				type: "random"
+				title: "{quests.gloomy_rise.progress_1.origins.gold_storages.reward_title}"
+				table_id: 7283934887988174074L
+			}]
 		}
 		{
-			title: "Алмазные хранилища"
-			icon: "expandedstorage:diamond_chest"
+			title: "{quests.gloomy_rise.progress_1.origins.diamond_storages.quest_title}"
 			x: 4.0d
 			y: 3.0d
-			description: ["Улучшенные версии золотых хранилищ. Позволяют хранить больше предметов."]
+			subtitle: "{quests.gloomy_rise.progress_1.origins.diamond_storages.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress_1.origins.diamond_storages.description_1}"
+				""
+				"{quests.gloomy_rise.progress_1.origins.diamond_storages.description_2}"
+			]
 			dependencies: ["16B75CEDF776927E"]
 			id: "389BB670B0106BE6"
 			tasks: [
 				{
 					id: "3D7200760F06EA20"
 					type: "item"
+					title: "{quests.gloomy_rise.progress_1.origins.diamond_storages.task_title_1}"
 					item: "expandedstorage:diamond_chest"
 				}
 				{
 					id: "1FD81C3CCDC4FD32"
 					type: "item"
+					title: "{quests.gloomy_rise.progress_1.origins.diamond_storages.task_title_2}"
 					item: "expandedstorage:diamond_barrel"
 				}
 			]
+			rewards: [{
+				id: "5D41F22806C14A6D"
+				type: "random"
+				title: "{quests.gloomy_rise.progress_1.origins.diamond_storages.reward_title}"
+				table_id: 7283934887988174074L
+			}]
 		}
 		{
+			title: "{quests.gloomy_rise.progress_1.origins.diamond_backpack.quest_title}"
 			x: 5.0d
 			y: 1.5d
-			description: ["Улучшенная версия золотого рюкзака. Позволяет хранить больше предметов и улучшений."]
+			subtitle: "{quests.gloomy_rise.progress_1.origins.diamond_backpack.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress_1.origins.diamond_backpack.description_1}"
+				""
+				"{quests.gloomy_rise.progress_1.origins.diamond_backpack.description_2}"
+			]
 			hide_dependency_lines: false
 			dependencies: ["16B75CEDF776927E"]
 			id: "5201109824769517"
 			tasks: [{
 				id: "04DFDB94649A9F42"
 				type: "item"
+				title: "{quests.gloomy_rise.progress_1.origins.diamond_backpack.task_title}"
 				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+			rewards: [{
+				id: "67567457A58142AA"
+				type: "random"
+				title: "{quests.gloomy_rise.progress_1.origins.diamond_backpack.reward_title}"
+				table_id: 7015058020314785297L
 			}]
 		}
 		{
@@ -664,15 +704,28 @@
 			}]
 		}
 		{
+			title: "{quests.gloomy_rise.progress_1.origins.gold_backpack.quest_title}"
 			x: 0.0d
 			y: 2.0d
-			description: ["Улучшенная версия железного рюкзака. Позволяет хранить больше предметов и улучшений."]
+			subtitle: "{quests.gloomy_rise.progress_1.origins.gold_backpack.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress_1.origins.gold_backpack.description_1}"
+				""
+				"{quests.gloomy_rise.progress_1.origins.gold_backpack.description_2}"
+			]
 			dependencies: ["0131D6E4A04B280F"]
 			id: "67E8EEA1F2BB22D4"
 			tasks: [{
 				id: "399E6998EBFAFD77"
 				type: "item"
+				title: "{quests.gloomy_rise.progress_1.origins.gold_backpack.task_title}"
 				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+			rewards: [{
+				id: "26D38C0F54302091"
+				type: "random"
+				title: "{quests.gloomy_rise.progress_1.origins.gold_backpack.reward_title}"
+				table_id: 7015058020314785297L
 			}]
 		}
 		{
