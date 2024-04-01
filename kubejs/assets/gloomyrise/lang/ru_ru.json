@@ -405,7 +405,21 @@
 	"quests.gloomy_rise.progress_1.casting.grout.reward_title": "&7Цементный раствор",
 	"quests.gloomy_rise.progress_1.casting.grout.subtitle": "&4Я есть ГРУТ!",
 	"quests.gloomy_rise.progress_1.casting.grout.description_1": "Моя главная задача на данный момент - создание &6Плавильни&7. И для начала выполенения этой задачи мне необходимо создать Цементный раствор. Этот раствор самый важный компонент в создании плавильни. Цементный раствор можно создать только на &6Верстаке гончара&7 и, ко всем прочим ресурсам, необходимо будет наполнить верстак небольшим количеством &6воды&7, например, с помощью обычного ведра. Для этого нужно просто нажать ПКМ по верстаку гончара, держа ведро воды в руке.",
-	"quests.gloomy_rise.progress_1.casting.grout.description_2": "При помощи цементного раствора Я могу создать плавильню. Для этого мне необходимо немного поработать с цементным раствором, а именно - превратить его в &6Цементные кирпичи&7, а уже потом в &6Цементные кирпичики&7, который уже можно будет обработать в печке и получить &6Обожжённые кирпичи&7. Для этого придётся немного заморочиться, но результат определённо того стоит, поэтому стоит потратить часть времени на это.",
+	"quests.gloomy_rise.progress_1.casting.grout.description_2": "При помощи цементного раствора Я могу создать плавильню. Для этого мне необходимо немного поработать с цементным раствором, а именно - превратить его в &6Цементные кирпичи&7, а уже потом в &6Цементный кирпич&7, который уже можно будет обработать в печке и получить &6Обожжённые кирпичи&7. Для этого придётся немного заморочиться, но результат определённо того стоит, поэтому стоит потратить часть времени на это.",
+	
+	"quests.gloomy_rise.progress_1.casting.cement_bricks.quest_title": "&7Цементные кирпичи",
+	"quests.gloomy_rise.progress_1.casting.cement_bricks.task_title": "&7Цементные кирпичи",
+	"quests.gloomy_rise.progress_1.casting.cement_bricks.reward_title": "&7Начальная еда",
+	"quests.gloomy_rise.progress_1.casting.cement_bricks.subtitle": "&4Возня в цементе",
+	"quests.gloomy_rise.progress_1.casting.cement_bricks.description_1": "Создав цемент, Я могу придать ему форму Цементных кирпичей. В этой форме его можно лего переработать и обработать в нечто иное.",
+	"quests.gloomy_rise.progress_1.casting.cement_bricks.description_2": "Цементные кирпичи необходимы мне для создания &6Цементного кирпича&7 или же Я могу сразу обжарить его в &6Обожжённые кирпичи&7.",
+	
+	"quests.gloomy_rise.progress_1.casting.cement_brick.quest_title": "&7Цементный кирпич",
+	"quests.gloomy_rise.progress_1.casting.cement_brick.task_title": "&7Цементный кирпич",
+	"quests.gloomy_rise.progress_1.casting.cement_brick.reward_title": "&7Начальная еда",
+	"quests.gloomy_rise.progress_1.casting.cement_brick.subtitle": "&4Возня продолжается!",
+	"quests.gloomy_rise.progress_1.casting.cement_brick.description_1": "Создав цементные кирпичи, Я могу переработать их в отдельный Цементный кирпич. Это проделывается для удобства работы с обжаренными элементами цемента.",
+	"quests.gloomy_rise.progress_1.casting.cement_brick.description_2": "Цементный кирпич необходим мне для создания различных приспособлений &6Плавильни&7.",
 	
 	"quests.gloomy_rise.progress_1.create.chapter_title": "Механика",
 	
@@ -472,13 +486,13 @@
 	
 	
 	"reward_tables.gloomy_rise.logs.reward_table_title": "&7Брёвна",
-	"reward_tables.gloomy_rise.chests.reward_table_title": "Сундуки",
-	"reward_tables.gloomy_rise.barrels.reward_table_title": "Бочки",
-	"reward_tables.gloomy_rise.drawers.reward_table_title": "Ящики",
-	"reward_tables.gloomy_rise.simple_upgrades_for_backpacks.reward_table_title": "Простые улучшения для рюкзака",
-	"reward_tables.gloomy_rise.simple_food.reward_table_title": "Начальная еда",
-	"reward_tables.gloomy_rise.simple_meat_food.reward_table_title": "Начальное мясо",
-	"reward_tables.gloomy_rise.great_food.reward_table_title": "Вкусности",
-	"reward_tables.gloomy_rise.coals.reward_table_title": "Уголь",
-	"reward_tables.gloomy_rise.simple_ores.reward_table_title": "Начальная руда"
+	"reward_tables.gloomy_rise.chests.reward_table_title": "&7Сундуки",
+	"reward_tables.gloomy_rise.barrels.reward_table_title": "&7Бочки",
+	"reward_tables.gloomy_rise.drawers.reward_table_title": "&7Ящики",
+	"reward_tables.gloomy_rise.simple_upgrades_for_backpacks.reward_table_title": "&7Простые улучшения для рюкзака",
+	"reward_tables.gloomy_rise.simple_food.reward_table_title": "&7Начальная еда",
+	"reward_tables.gloomy_rise.simple_meat_food.reward_table_title": "&7Начальное мясо",
+	"reward_tables.gloomy_rise.great_food.reward_table_title": "&7Вкусности",
+	"reward_tables.gloomy_rise.coals.reward_table_title": "&7Уголь",
+	"reward_tables.gloomy_rise.simple_ores.reward_table_title": "&7Начальная руда"
 }

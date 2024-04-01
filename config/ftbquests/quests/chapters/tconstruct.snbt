@@ -628,25 +628,51 @@
 			}]
 		}
 		{
+			title: "{quests.gloomy_rise.progress_1.casting.cement_bricks.quest_title}"
 			x: -3.0d
 			y: -4.0d
+			subtitle: "{quests.gloomy_rise.progress_1.casting.cement_bricks.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress_1.casting.cement_bricks.description_1}"
+				""
+				"{quests.gloomy_rise.progress_1.casting.cement_bricks.description_2}"
+			]
 			dependencies: ["7189F8D6816DD2CA"]
 			id: "1842702850303E5E"
 			tasks: [{
 				id: "678AB3F55F277CF1"
 				type: "checkmark"
-				title: "Цементные Кирпичи"
+				title: "{quests.gloomy_rise.progress_1.casting.cement_bricks.task_title}"
+			}]
+			rewards: [{
+				id: "2F774D90F988268E"
+				type: "random"
+				title: "{quests.gloomy_rise.progress_1.casting.cement_bricks.reward_title}"
+				table_id: 3639176316474975446L
 			}]
 		}
 		{
+			title: "{quests.gloomy_rise.progress_1.casting.cement_brick.quest_title}"
 			x: -3.0d
 			y: -3.0d
+			subtitle: "{quests.gloomy_rise.progress_1.casting.cement_brick.subtitle}"
+			description: [
+				"{quests.gloomy_rise.progress_1.casting.cement_brick.description_1}"
+				""
+				"{quests.gloomy_rise.progress_1.casting.cement_brick.description_2}"
+			]
 			dependencies: ["1842702850303E5E"]
 			id: "3051A7249D8F1499"
 			tasks: [{
 				id: "7748DF6F1A029900"
 				type: "checkmark"
-				title: "Цементные Кирпичики"
+				title: "{quests.gloomy_rise.progress_1.casting.cement_brick.task_title}"
+			}]
+			rewards: [{
+				id: "6E975F044E9AEE2B"
+				type: "random"
+				title: "{quests.gloomy_rise.progress_1.casting.cement_brick.reward_title}"
+				table_id: 3639176316474975446L
 			}]
 		}
 		{
