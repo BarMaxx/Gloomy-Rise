@@ -1,20 +1,8 @@
-import mods.artisanworktables.Recipe;
-import mods.artisanworktables.Type;
-import mods.artisanworktables.Tier;
-
 craftingTable.removeRecipe(<item:immersiveengineering:hammer>);
-Recipe.type(Type.ENGINEER)
-  .shaped([
+craftingTable.addShaped("ct_immersiveengineering_01", <item:immersiveengineering:hammer>, [
     [<item:minecraft:air>, <item:minecraft:iron_ingot>, <item:create:andesite_alloy>],
-    [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <item:minecraft:iron_ingot>],
-    [<tag:items:forge:rods/wooden>, <item:minecraft:air>, <item:minecraft:air>]])
-  .fluid(<fluid:minecraft:water> * 250)
-  .output(<item:immersiveengineering:hammer>)
-  .restrict(Tier.WORKTABLE)
-  .tool(<tag:items:artisantools:type/handsaw>, 20)
-  .tool(<tag:items:artisantools:type/cutters>, 15)
-  .tool(<tag:items:artisantools:type/gemcutter>, 10)
-  .register();
+	[<item:minecraft:air>, <tag:items:forge:rods/wooden>, <item:minecraft:iron_ingot>],
+	[<tag:items:forge:rods/wooden>, <item:minecraft:air>, <item:minecraft:air>]], null);
 
 craftingTable.removeRecipe(<item:immersiveengineering:cokebrick>);
 craftingTable.addShaped("ct_immersiveengineering_02", <item:immersiveengineering:cokebrick>, [

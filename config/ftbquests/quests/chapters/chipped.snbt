@@ -1,28 +1,16 @@
 {
 	id: "5098B1745C215C0F"
 	group: "6E7449445FFC34C5"
-	order_index: 2
+	order_index: 0
 	filename: "chipped"
-	title: "{quests.gloomy_rise.other.chipped.chapter_title}"
+	title: "&2Chipped"
 	icon: "chipped:glassblower"
-	default_quest_shape: "default_circle"
+	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
-	images: [{
-		x: 0.0d
-		y: 0.0d
-		width: 50.0d
-		height: 30.0d
-		rotation: 0.0d
-		image: "gloomyrise:textures/background_for_questbook.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
 	quests: [
 		{
-			x: -5.0d
-			y: -2.0d
+			x: 0.5d
+			y: -0.5d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -40,8 +28,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -0.5d
+			x: -2.0d
+			y: 1.0d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -59,8 +47,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -2.0d
+			x: -1.5d
+			y: -0.5d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -78,8 +66,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -0.5d
+			x: -0.5d
+			y: 1.0d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -97,8 +85,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 1.0d
+			x: -1.5d
+			y: 2.5d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -116,8 +104,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 1.0d
+			x: 0.5d
+			y: 2.5d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -135,8 +123,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -0.5d
+			x: 1.0d
+			y: 1.0d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true

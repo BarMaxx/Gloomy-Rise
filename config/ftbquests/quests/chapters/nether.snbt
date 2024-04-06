@@ -3,50 +3,32 @@
 	group: "37FCF4EC720E030D"
 	order_index: 0
 	filename: "nether"
-	title: "{quests.gloomy_rise.journey.nether.chapter_title}"
+	title: "&4Nether"
 	icon: "minecraft:nether_star"
-	default_quest_shape: "default_circle"
+	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: 0.0d
-		y: 0.0d
-		width: 50.0d
-		height: 30.0d
-		rotation: 0.0d
-		image: "gloomyrise:textures/background_for_questbook.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
 	quests: [
 		{
 			title: "Портал в &4Незер&f!"
 			icon: "minecraft:obsidian"
-			x: -6.0d
-			y: -4.0d
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
 			description: ["Чтобы попасть в &4Незер&f нужно построить рамку портала из обсидиана и поджечь её &6огнивом&f."]
 			dependencies: ["114FD26AF2B063E3"]
+			hide: true
+			size: 1.3d
 			id: "491E4B5BD7069266"
 			tasks: [
 				{
-					id: "600212642245F256"
-					type: "questsadditions:structure"
-					title: "Портал в Незер"
-					name: "nether_portal"
-					hasCustomPicture: false
-					layer: true
-					ignoreState: false
-					rightclick: false
-				}
-				{
-					id: "3AB117B47F33DD8B"
+					id: "73115826D1F79035"
 					type: "item"
+					title: "Обсидиан"
 					item: "minecraft:obsidian"
-					count: 14L
+					count: 10L
 				}
 				{
-					id: "4138E42A7A07500F"
+					id: "409A396617D20255"
 					type: "item"
 					item: {
 						id: "minecraft:flint_and_steel"
@@ -59,8 +41,8 @@
 			]
 		}
 		{
-			x: -6.0d
-			y: -5.0d
+			x: 0.0d
+			y: -1.5d
 			description: ["Незерский кирпич можно получить, переплавив незерак в печи. Из этих кирпичей можно создать кирпичи доменной печи."]
 			dependencies: ["491E4B5BD7069266"]
 			id: "08D277C60EA4E24A"
@@ -80,8 +62,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -4.5d
+			x: -1.5d
+			y: 0.5d
 			description: ["Магму можно создать из сгустка магмы либо же накопать в Незере. Магма нужна для создания кирпичей доменной печи."]
 			dependencies: ["491E4B5BD7069266"]
 			id: "1ED82206C1B8331E"
@@ -101,8 +83,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -4.0d
+			x: 1.5d
+			y: 0.5d
 			description: ["Незер-кварц можно найти в Незере. И найти его достаточно легко, т.к. кварц появляется довольно часто."]
 			dependencies: ["491E4B5BD7069266"]
 			id: "2CB6E2F317E842CA"
@@ -122,8 +104,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -3.0d
+			x: 1.0d
+			y: 1.5d
 			description: ["&dРозовый кварц&f понадобится для многих крафтов в ветке квестов с модом &6Create!&f"]
 			dependencies: ["2CB6E2F317E842CA"]
 			id: "3CEDE60AD25690CF"
@@ -139,8 +121,83 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -3.0d
+			x: 0.5d
+			y: 2.5d
+			description: ["Позволяет легче строить масштабные постройки."]
+			dependencies: ["3CEDE60AD25690CF"]
+			id: "58C9C1DAC20F99DE"
+			tasks: [{
+				id: "1E62445C861E73AC"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			description: ["Пока находится в вашем инвентаре - накапливает время, а потом это время можно использовать для ускорения различных процессов."]
+			dependencies: ["3CEDE60AD25690CF"]
+			id: "24DDF0425E4D682C"
+			tasks: [{
+				id: "446C9C7FB09358A7"
+				type: "item"
+				title: "Время в бутылке"
+				item: {
+					id: "tiab:timeinabottle"
+					Count: 1b
+					tag: {
+						timeData: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["Собирает предметы недалеко от вас."]
+			dependencies: ["3CEDE60AD25690CF"]
+			id: "13458DF94390D17D"
+			tasks: [{
+				id: "654F37947C284D84"
+				type: "item"
+				item: {
+					id: "simplemagnets:basicmagnet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			description: ["Улучшенный магнит. Увеличивает дистанцию сбора предметов."]
+			dependencies: ["13458DF94390D17D"]
+			id: "0EB9F82384980D93"
+			tasks: [{
+				id: "2375BD1B8BB0CADD"
+				type: "item"
+				item: {
+					id: "simplemagnets:advancedmagnet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
 			description: ["Древние обломки появляются в Незере на высоте 7-22. Но он очень редкий, поэтому наберитесь терпения."]
 			dependencies: ["491E4B5BD7069266"]
 			id: "2FDCBFDEBDA4BFBA"
@@ -159,8 +216,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -2.0d
+			x: 2.0d
+			y: -1.5d
 			description: ["Чтобы получить незеритовый лом, необходимо переплавить древние обломки. Этот лом нужен для создания незеритового слитка."]
 			dependencies: ["2FDCBFDEBDA4BFBA"]
 			id: "7DCC0FA4C160D8F4"
@@ -179,8 +236,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -0.5d
+			x: 3.5d
+			y: -1.5d
 			description: ["С помощью незеритового слитка можно улучшать некоторые вещи, например, броню, инструменты, сундуки и т.п."]
 			dependencies: ["7DCC0FA4C160D8F4"]
 			id: "1F24FA2023174B08"
@@ -200,8 +257,8 @@
 		{
 			title: "Незеритовые хранилища"
 			icon: "expandedstorage:netherite_chest"
-			x: -3.0d
-			y: -1.0d
+			x: 3.0d
+			y: -2.5d
 			description: ["Улучшенные версии алмазных хранилищ. Позволяют хранить больше предметов."]
 			dependencies: ["1F24FA2023174B08"]
 			id: "294FD6792EA8FE0D"
@@ -227,8 +284,8 @@
 					Damage: 0
 				}
 			}
-			x: -5.0d
-			y: 0.0d
+			x: 4.0d
+			y: -2.5d
 			description: ["Хорошие и эффективные инструменты и оружие."]
 			dependencies: ["1F24FA2023174B08"]
 			id: "7CD800F7D537713F"
@@ -293,8 +350,8 @@
 					Damage: 0
 				}
 			}
-			x: -5.0d
-			y: -1.0d
+			x: 3.0d
+			y: -0.5d
 			description: ["Неплохая броня с хорошей защитой."]
 			dependencies: ["1F24FA2023174B08"]
 			id: "6270C376F841A2FB"
@@ -351,8 +408,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 0.0d
+			x: 4.0d
+			y: -0.5d
 			description: ["Улучшенная версия алмазного рюкзака. Позволяет хранить больше предметов и улучшений."]
 			dependencies: ["1F24FA2023174B08"]
 			id: "269199E0BBE0015A"
@@ -363,10 +420,30 @@
 			}]
 		}
 		{
+			icon: "appliedenergistics2:grindstone"
+			x: 2.0d
+			y: 1.5d
+			description: ["Кварцевый дробитель позволяет вам перемалывать руду в пыль. Для того, чтобы дробить руду необходимо на дробитель поставить &eрукоятку&f, а после крутите её."]
+			dependencies: ["2CB6E2F317E842CA"]
+			id: "6BDEDFD2C6E2E62F"
+			tasks: [
+				{
+					id: "7258932F0907108A"
+					type: "item"
+					item: "appliedenergistics2:grindstone"
+				}
+				{
+					id: "1881F288F9B72E27"
+					type: "item"
+					item: "appliedenergistics2:crank"
+				}
+			]
+		}
+		{
 			title: "Визер"
 			icon: "minecraft:wither_skeleton_skull"
-			x: -5.0d
-			y: -5.0d
+			x: -1.5d
+			y: -0.5d
 			subtitle: "Ваш первый босс!"
 			description: ["Чтобы заспавнить Визера, необходимо поставить 4 блока песка душ и 3 черепа визер-скелета как на картинке. Убив этого босса вы получите &dзвезду Незера!&f"]
 			dependencies: ["491E4B5BD7069266"]
@@ -396,8 +473,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -5.0d
+			x: -2.0d
+			y: -1.5d
 			description: ["&dЗвезда Незера&f выпадает с Визера. Это очень ценный предмет, который в будущем Вам понадобится в большом количестве."]
 			dependencies: ["245CE482D6E6A2D7"]
 			id: "33C1F735EFF06519"
@@ -405,178 +482,6 @@
 				id: "51F673FEE10B1D6F"
 				type: "item"
 				item: "minecraft:nether_star"
-			}]
-		}
-		{
-			x: -6.5d
-			y: -3.0d
-			dependencies: ["491E4B5BD7069266"]
-			id: "2E4817DD0F5619C1"
-			tasks: [{
-				id: "50EA7D13D5D00F10"
-				type: "kill"
-				entity: "cataclysm:ignis"
-				value: 1L
-			}]
-		}
-		{
-			x: -6.5d
-			y: -1.5d
-			dependencies: ["2E4817DD0F5619C1"]
-			id: "4F581AE4182DBCEB"
-			tasks: [{
-				id: "1A99604C64424D73"
-				type: "item"
-				item: "cataclysm:ignitium_ingot"
-			}]
-		}
-		{
-			x: -7.5d
-			y: -3.5d
-			dependencies: ["491E4B5BD7069266"]
-			id: "70182B6C7B749771"
-			tasks: [{
-				id: "4C1D7A63CEC9B028"
-				type: "kill"
-				entity: "cataclysm:netherite_monstrosity"
-				value: 1L
-			}]
-		}
-		{
-			x: -8.5d
-			y: -2.5d
-			dependencies: ["70182B6C7B749771"]
-			id: "4AB6AA09B9BD649A"
-			tasks: [{
-				id: "4B683C44FD4A241F"
-				type: "item"
-				item: "cataclysm:monstrous_horn"
-			}]
-		}
-		{
-			x: -8.5d
-			y: -1.5d
-			dependencies: ["4AB6AA09B9BD649A"]
-			id: "47B7123C55AC5AF8"
-			tasks: [{
-				id: "33703F0131804234"
-				type: "item"
-				item: {
-					id: "cataclysm:monstrous_helm"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: -9.0d
-			y: -3.5d
-			dependencies: ["70182B6C7B749771"]
-			id: "10F682303DD7DE76"
-			tasks: [{
-				id: "31B4386E48144A8F"
-				type: "item"
-				item: {
-					id: "cataclysm:infernal_forge"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			title: "Огненная броня"
-			x: -7.0d
-			y: -0.5d
-			dependencies: ["4F581AE4182DBCEB"]
-			id: "4DC485503F7522D8"
-			tasks: [
-				{
-					id: "3D8F7DCBF016ED24"
-					type: "item"
-					item: {
-						id: "cataclysm:ignitium_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "23290F26DBF157FF"
-					type: "item"
-					item: {
-						id: "cataclysm:ignitium_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "50D342A575200E00"
-					type: "item"
-					item: {
-						id: "cataclysm:ignitium_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "34D63786CD5DB6C2"
-					type: "item"
-					item: {
-						id: "cataclysm:ignitium_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -7.5d
-			y: -1.5d
-			dependencies: ["4F581AE4182DBCEB"]
-			id: "2A026EF47DDF8D5C"
-			tasks: [{
-				id: "2ADA78C462FE881A"
-				type: "item"
-				item: "cataclysm:the_incinerator"
-			}]
-		}
-		{
-			x: -6.0d
-			y: -0.5d
-			dependencies: ["4F581AE4182DBCEB"]
-			id: "745D54901B2F12CD"
-			tasks: [{
-				id: "4B1F04A1309310FD"
-				type: "item"
-				item: "cataclysm:bulwark_of_the_flame"
-			}]
-		}
-		{
-			x: -7.0d
-			y: 0.5d
-			dependencies: ["4DC485503F7522D8"]
-			id: "69A6964A4B0F8C14"
-			tasks: [{
-				id: "08BD7896259F1AB5"
-				type: "item"
-				item: {
-					id: "cataclysm:ignitium_elytra_chestplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
 			}]
 		}
 	]

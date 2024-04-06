@@ -18,7 +18,7 @@ craftingTable.addShaped("ct_botania_03", <item:botania:mana_spreader>, [
 
 craftingTable.removeRecipe(<item:botania:runic_altar>);
 craftingTable.addShaped("ct_botania_04", <item:botania:runic_altar>, [
-    [<item:minecraft:air>, <item:mana-and-artifice:mote_arcane>, <item:minecraft:air>],
+    [<item:quark:soul_bead>, <item:mana-and-artifice:mote_arcane>, <item:quark:soul_bead>],
 	[<item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>],
 	[<item:botania:livingrock>, <item:botania:mana_diamond>, <item:botania:livingrock>]], null);
 
