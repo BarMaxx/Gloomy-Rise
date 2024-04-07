@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  .",
+    " . ",
+    "c  "
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:clay_ball"
+    },
+    ".": {
+      "tag": "forge:stone"
+    }
+  },
+  "result": {
+    "item": "artisantools:solderer_stone"
+  }
+}

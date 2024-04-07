@@ -1,0 +1,17 @@
+{
+	id: "10EC641CD6EFE29C"
+	order_index: 3
+	title: "{reward_tables.gloomy_rise.coals.reward_table_title}"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:coal", count: 12, weight: 100 }
+		{ item: "minecraft:charcoal", count: 12, weight: 100 }
+		{ item: "mysticalagradditions:inferium_coal", count: 10, weight: 65 }
+		{ item: "mysticalagradditions:prudentium_coal", count: 8, weight: 55 }
+		{ item: "mysticalagradditions:tertium_coal", count: 6, weight: 45 }
+		{ item: "mysticalagradditions:imperium_coal", count: 4, weight: 35 }
+		{ item: "mysticalagradditions:supremium_coal", count: 2, weight: 25 }
+		{ item: "mysticalagradditions:insanium_coal", weight: 15 }
+		{ item: "immersiveengineering:coal_coke", count: 5, weight: 50 }
+	]
+}

@@ -1,0 +1,57 @@
+{
+	id: "5372FD48726000D3"
+	group: "6E7449445FFC34C5"
+	order_index: 1
+	filename: "buddycards"
+	title: "{quests.gloomy_rise.other.buddycards.chapter_title}"
+	icon: "buddycards:pack.1"
+	default_quest_shape: "default_circle"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 50.0d
+		height: 30.0d
+		rotation: 0.0d
+		image: "gloomyrise:textures/background_for_questbook.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -6.0d
+			y: -4.5d
+			dependencies: ["114FD26AF2B063E3"]
+			id: "5C4E2A0AE3A88D64"
+			tasks: [{
+				id: "29FF2A27119CC898"
+				type: "item"
+				item: "buddycards:buddysteel_blend"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			dependencies: ["5C4E2A0AE3A88D64"]
+			id: "7B294DA01C39F311"
+			tasks: [{
+				id: "1F0DA04D3BA689B2"
+				type: "item"
+				item: "buddycards:buddysteel_ingot"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			dependencies: ["7B294DA01C39F311"]
+			id: "575A38A8078217A0"
+			tasks: [{
+				id: "562EE0FAD9B55507"
+				type: "item"
+				item: "buddycards:buddysteel_vault.1"
+			}]
+		}
+	]
+}

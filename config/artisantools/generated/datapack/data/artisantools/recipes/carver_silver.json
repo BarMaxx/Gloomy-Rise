@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  .",
+    "x/x",
+    ".  "
+  ],
+  "key": {
+    "x": {
+      "tag": "forge:string"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    ".": {
+      "tag": "forge:ingots/silver"
+    }
+  },
+  "result": {
+    "item": "artisantools:carver_silver"
+  }
+}

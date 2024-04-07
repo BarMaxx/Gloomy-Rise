@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:framing_hammer_wood",
+    "artisantools:framing_hammer_stone",
+    "artisantools:framing_hammer_iron",
+    "artisantools:framing_hammer_gold",
+    "artisantools:framing_hammer_diamond",
+    "artisantools:framing_hammer_netherite",
+    "artisantools:framing_hammer_flint",
+    "artisantools:framing_hammer_bone",
+    "artisantools:framing_hammer_bronze",
+    "artisantools:framing_hammer_constantan",
+    "artisantools:framing_hammer_copper",
+    "artisantools:framing_hammer_electrum",
+    "artisantools:framing_hammer_invar",
+    "artisantools:framing_hammer_lead",
+    "artisantools:framing_hammer_nickel",
+    "artisantools:framing_hammer_silver",
+    "artisantools:framing_hammer_tin"
+  ]
+}

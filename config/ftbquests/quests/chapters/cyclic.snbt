@@ -1,0 +1,550 @@
+{
+	id: "2083FBEDC5F57BDD"
+	group: "724CB10F5936E1B7"
+	order_index: 5
+	filename: "cyclic"
+	title: "{quests.gloomy_rise.progress_1.cyclic_blocks.chapter_title}"
+	icon: "cyclic:mason_cobble"
+	default_quest_shape: "default_circle"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 50.0d
+		height: 30.0d
+		rotation: 0.0d
+		image: "gloomyrise:textures/background_for_questbook.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -6.0d
+			y: -4.0d
+			dependencies: ["114FD26AF2B063E3"]
+			id: "080EBE142932F2C2"
+			tasks: [{
+				id: "22589D932DAF11D4"
+				type: "item"
+				item: "cyclic:mason_cobble"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.0d
+			dependencies: ["080EBE142932F2C2"]
+			id: "7F0DFC5DBE82F79C"
+			tasks: [{
+				id: "5120A2D440A2330A"
+				type: "item"
+				item: "cyclic:mason_steel"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -4.0d
+			dependencies: ["080EBE142932F2C2"]
+			id: "0AA85A56210FEE56"
+			tasks: [{
+				id: "058AFBD48E12CF95"
+				type: "item"
+				item: "cyclic:mason_stone"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -2.5d
+			dependencies: ["0AA85A56210FEE56"]
+			id: "199B10D82CFFDBD5"
+			tasks: [{
+				id: "42797291C4CAB5C8"
+				type: "item"
+				item: "cyclic:mason_iron"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -5.0d
+			dependencies: [
+				"080EBE142932F2C2"
+				"0AA85A56210FEE56"
+			]
+			id: "07467A12BF60C088"
+			tasks: [{
+				id: "534EFC5FBE4BA51D"
+				type: "item"
+				item: "cyclic:dice"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -5.0d
+			dependencies: ["080EBE142932F2C2"]
+			id: "46D9FCEF9F3190D0"
+			tasks: [{
+				id: "749C8358AC045329"
+				type: "item"
+				item: "cyclic:fan_slab"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -5.0d
+			dependencies: ["080EBE142932F2C2"]
+			id: "4B6838514787B8F7"
+			tasks: [{
+				id: "60D273EFB4906F19"
+				type: "item"
+				item: "cyclic:rotator"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -3.5d
+			dependencies: ["0AA85A56210FEE56"]
+			id: "78FC1E9D59F46C5F"
+			tasks: [{
+				id: "4A8B3E2571D9E037"
+				type: "item"
+				item: "cyclic:generator_fuel"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -5.0d
+			dependencies: ["0AA85A56210FEE56"]
+			id: "12E5C57B989333FE"
+			tasks: [{
+				id: "70EA9FB565C312B6"
+				type: "item"
+				item: "cyclic:generator_food"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -4.5d
+			dependencies: ["0AA85A56210FEE56"]
+			id: "619DEDDF4FCE7009"
+			tasks: [{
+				id: "5009A3BF9CB40EEC"
+				type: "item"
+				item: "cyclic:generator_item"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -3.0d
+			dependencies: ["0AA85A56210FEE56"]
+			id: "1CF477BDC0823F11"
+			tasks: [{
+				id: "7C01423C022C3C38"
+				type: "item"
+				item: "cyclic:generator_fluid"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.5d
+			dependencies: [
+				"199B10D82CFFDBD5"
+				"7F0DFC5DBE82F79C"
+			]
+			id: "5D1946CB2B327478"
+			tasks: [{
+				id: "3EFB75F50902417C"
+				type: "item"
+				item: "cyclic:mason_plate"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.0d
+			dependencies: ["7F0DFC5DBE82F79C"]
+			id: "0556DDE92E61F372"
+			tasks: [{
+				id: "634DBC2B73228288"
+				type: "item"
+				item: "cyclic:anvil_magma"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.0d
+			dependencies: ["199B10D82CFFDBD5"]
+			id: "19337224F5FBAF4B"
+			tasks: [{
+				id: "18998E16F7AF77B9"
+				type: "item"
+				item: "cyclic:anvil_void"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.0d
+			dependencies: ["5D1946CB2B327478"]
+			id: "3E4C83B27C399B94"
+			tasks: [{
+				id: "29FAD4D925C8C055"
+				type: "item"
+				item: "cyclic:harvester"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			dependencies: ["5D1946CB2B327478"]
+			id: "7D9E89B70352AEF5"
+			tasks: [{
+				id: "78E42060AA9944A6"
+				type: "item"
+				item: "cyclic:uncrafter"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.5d
+			dependencies: ["7CA023B662360C6A"]
+			id: "2BE4EE71E33BAAD3"
+			tasks: [{
+				id: "7838896ECA9CE415"
+				type: "item"
+				item: "cyclic:solidifier"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			dependencies: ["7CA023B662360C6A"]
+			id: "06F7B17E7AD7FF8B"
+			tasks: [{
+				id: "57C2AC5F8BF66A1D"
+				type: "item"
+				item: "cyclic:melter"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			dependencies: ["19F6DCFA0E59F3DC"]
+			id: "4CFDD1CA1A25C010"
+			tasks: [{
+				id: "36CB770E95A3F25F"
+				type: "item"
+				item: "cyclic:experience_pylon"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.5d
+			dependencies: ["0556DDE92E61F372"]
+			id: "7B37C3BF96953D8A"
+			tasks: [{
+				id: "0A4EC38AC9F72E2E"
+				type: "item"
+				item: "cyclic:anvil"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.5d
+			dependencies: ["54197D8FFFBFD766"]
+			id: "4D2B39271602D4A4"
+			tasks: [{
+				id: "477C2EA94CBBDBF1"
+				type: "item"
+				item: "cyclic:peat_generator"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			dependencies: ["73D8A15D7A0E9FA2"]
+			id: "6CC62C7EAE33DC11"
+			tasks: [{
+				id: "634131D659C17E1B"
+				type: "item"
+				item: "cyclic:spikes_iron"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			dependencies: ["6CC62C7EAE33DC11"]
+			id: "094AA8B6A0407D15"
+			tasks: [{
+				id: "60DA32575A94F7D0"
+				type: "item"
+				item: "cyclic:spikes_curse"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			dependencies: ["6CC62C7EAE33DC11"]
+			id: "74F907701E374838"
+			tasks: [{
+				id: "583A478B524EF396"
+				type: "item"
+				item: "cyclic:spikes_fire"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			dependencies: ["3BC47498DF613B04"]
+			id: "7F35968BCA0DA572"
+			tasks: [{
+				id: "1A5BD0E3D8C1F873"
+				type: "item"
+				item: "cyclic:hopper"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			dependencies: ["7F35968BCA0DA572"]
+			id: "46D1D3FD7680A07B"
+			tasks: [{
+				id: "4A8EDAF82F107213"
+				type: "item"
+				item: "cyclic:hopper_fluid"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			dependencies: ["7F35968BCA0DA572"]
+			id: "70B4568F454C15B1"
+			tasks: [{
+				id: "02978C5AEC0AA81F"
+				type: "item"
+				item: "minecraft:hopper"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["70B4568F454C15B1"]
+			id: "5005EF56B4C75BEB"
+			tasks: [{
+				id: "39770B6373B93C71"
+				type: "item"
+				item: "cyclic:hopper_gold"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			dependencies: ["114FD26AF2B063E3"]
+			id: "4A12190452A0C103"
+			tasks: [{
+				id: "79B26D1C0AF69978"
+				type: "item"
+				item: "cyclic:membrane"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			dependencies: ["3BC47498DF613B04"]
+			id: "021B52A8CEB9970B"
+			tasks: [{
+				id: "133B6A614220ACB5"
+				type: "item"
+				item: "cyclic:crate"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			dependencies: ["3A3C317A703FF83D"]
+			id: "0E42C332E6B87772"
+			tasks: [{
+				id: "25FBC1B763533953"
+				type: "item"
+				item: "cyclic:ender_item_shelf"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["40FA20B89ED9FF16"]
+			id: "2694E266F32FC6D8"
+			tasks: [{
+				id: "27FD77C10322DE61"
+				type: "item"
+				item: "cyclic:cask"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			dependencies: ["2694E266F32FC6D8"]
+			id: "1B9ADF370FCE8527"
+			tasks: [{
+				id: "493DDAB4DFDEF150"
+				type: "item"
+				item: "cyclic:tank"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			dependencies: ["6741CCCE0EF6A545"]
+			id: "705969CB5B1901DB"
+			tasks: [{
+				id: "191A52F3AA9C3DCE"
+				type: "item"
+				item: "cyclic:dark_glass"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			dependencies: ["705969CB5B1901DB"]
+			id: "57CE7329B1F45898"
+			tasks: [{
+				id: "328797ECE3208CE8"
+				type: "item"
+				item: "cyclic:dark_glass_connected"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			dependencies: ["19F6DCFA0E59F3DC"]
+			id: "489BF1A45ADB3977"
+			tasks: [{
+				id: "0886746F5BB4B159"
+				type: "item"
+				item: "cyclic:wireless_item"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			dependencies: ["19F6DCFA0E59F3DC"]
+			id: "44F636D450944D3B"
+			tasks: [{
+				id: "4B0AA53C77113AC8"
+				type: "item"
+				item: "cyclic:wireless_energy"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			dependencies: ["19F6DCFA0E59F3DC"]
+			id: "1BF653690B6FDFE5"
+			tasks: [{
+				id: "3E4A7E2E384B3D94"
+				type: "item"
+				item: "cyclic:wireless_fluid"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.0d
+			dependencies: ["4A12190452A0C103"]
+			id: "1D37F815CE8E11C4"
+			tasks: [{
+				id: "77AF9588F55AC76B"
+				type: "item"
+				item: "cyclic:ghost_phantom"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			dependencies: [
+				"4A12190452A0C103"
+				"0223353E9B8A38E1"
+			]
+			id: "2DBF57143303DEF0"
+			tasks: [{
+				id: "3902B927D4C55543"
+				type: "item"
+				item: "cyclic:cloud_membrane"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			dependencies: ["114FD26AF2B063E3"]
+			id: "0223353E9B8A38E1"
+			tasks: [{
+				id: "167526B2F0771B1B"
+				type: "item"
+				item: "cyclic:cloud"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 0.5d
+			dependencies: ["39C60726C5C4150F"]
+			id: "441F91A4CDDECB24"
+			tasks: [{
+				id: "67A369DA5A9A9F9B"
+				type: "item"
+				item: "cyclic:eye_teleport"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.0d
+			dependencies: ["6CC62C7EAE33DC11"]
+			id: "3508F5C14A5695C8"
+			tasks: [{
+				id: "3A154EC42B3B8BE8"
+				type: "item"
+				item: "cyclic:spikes_diamond"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 2.5d
+			dependencies: ["4D2B39271602D4A4"]
+			id: "2B3B7CCB0479A62A"
+			tasks: [{
+				id: "77874AB352E20BF4"
+				type: "item"
+				item: "cyclic:peat_farm"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.0d
+			dependencies: ["5D1946CB2B327478"]
+			id: "4AC38B1EF9A87D45"
+			tasks: [{
+				id: "4CA5CB70F4643C9A"
+				type: "item"
+				item: "cyclic:forester"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			dependencies: ["5D1946CB2B327478"]
+			id: "003AE8CA2A453916"
+			tasks: [{
+				id: "24E48DF4F6C98ECC"
+				type: "item"
+				item: "cyclic:miner"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.0d
+			dependencies: ["199B10D82CFFDBD5"]
+			id: "6CB95E8E341B7810"
+			tasks: [{
+				id: "3FAA0B1385F873F3"
+				type: "item"
+				item: "cyclic:dropper"
+			}]
+		}
+	]
+}

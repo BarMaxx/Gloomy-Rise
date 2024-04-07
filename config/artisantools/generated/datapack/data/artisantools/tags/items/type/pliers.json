@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:pliers_wood",
+    "artisantools:pliers_stone",
+    "artisantools:pliers_iron",
+    "artisantools:pliers_gold",
+    "artisantools:pliers_diamond",
+    "artisantools:pliers_netherite",
+    "artisantools:pliers_flint",
+    "artisantools:pliers_bone",
+    "artisantools:pliers_bronze",
+    "artisantools:pliers_constantan",
+    "artisantools:pliers_copper",
+    "artisantools:pliers_electrum",
+    "artisantools:pliers_invar",
+    "artisantools:pliers_lead",
+    "artisantools:pliers_nickel",
+    "artisantools:pliers_silver",
+    "artisantools:pliers_tin"
+  ]
+}

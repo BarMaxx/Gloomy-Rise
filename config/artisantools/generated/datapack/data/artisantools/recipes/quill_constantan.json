@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  f",
+    " .x",
+    ".  "
+  ],
+  "key": {
+    "x": {
+      "tag": "forge:string"
+    },
+    "f": {
+      "tag": "forge:feathers"
+    },
+    ".": {
+      "tag": "forge:ingots/constantan"
+    }
+  },
+  "result": {
+    "item": "artisantools:quill_constantan"
+  }
+}

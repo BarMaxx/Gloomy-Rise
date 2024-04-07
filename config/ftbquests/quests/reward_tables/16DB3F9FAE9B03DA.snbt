@@ -1,0 +1,13 @@
+{
+	id: "16DB3F9FAE9B03DA"
+	order_index: 8
+	title: "{reward_tables.gloomy_rise.barrels.reward_table_title}"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:barrel" }
+		{ item: "expandedstorage:iron_barrel" }
+		{ item: "expandedstorage:gold_barrel" }
+		{ item: "expandedstorage:diamond_barrel" }
+		{ item: "immersiveengineering:wooden_barrel" }
+	]
+}

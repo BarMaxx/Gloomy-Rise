@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:groover_wood",
+    "artisantools:groover_stone",
+    "artisantools:groover_iron",
+    "artisantools:groover_gold",
+    "artisantools:groover_diamond",
+    "artisantools:groover_netherite",
+    "artisantools:groover_flint",
+    "artisantools:groover_bone",
+    "artisantools:groover_bronze",
+    "artisantools:groover_constantan",
+    "artisantools:groover_copper",
+    "artisantools:groover_electrum",
+    "artisantools:groover_invar",
+    "artisantools:groover_lead",
+    "artisantools:groover_nickel",
+    "artisantools:groover_silver",
+    "artisantools:groover_tin"
+  ]
+}

@@ -1,0 +1,653 @@
+{
+	id: "3B68F8F36B20A844"
+	group: "24923118FBE15B71"
+	order_index: 2
+	filename: "evilcraft"
+	title: "{quests.gloomy_rise.progress_3.evilcraft.chapter_title}"
+	icon: {
+		id: "evilcraft:creative_blood_drop"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: "default_circle"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 50.0d
+		height: 30.0d
+		rotation: 0.0d
+		image: "gloomyrise:textures/background_for_questbook.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -5.0d
+			y: -4.0d
+			description: ["С помощью этих шипов можно создавать различные, очень интересные, предметы. Например, экстрактор крови или шипастую плиту."]
+			dependencies: ["06120EBBDEBDDCAA"]
+			id: "5B511F842048451F"
+			tasks: [{
+				id: "35ECD1E64A1C8CC3"
+				type: "item"
+				item: "evilcraft:dark_spike"
+				count: 4L
+			}]
+			rewards: [{
+				id: "4E1C9C0460794747"
+				type: "item"
+				item: "evilcraft:dark_spike"
+				count: 2
+			}]
+		}
+		{
+			x: -5.5d
+			y: -5.0d
+			description: ["С помощью Кровавого Экстрактора можно собирать кровь для дальнейшего использования."]
+			dependencies: ["5B511F842048451F"]
+			id: "323719E35F33EE93"
+			tasks: [{
+				id: "6FF215C23EB6DE35"
+				type: "item"
+				item: {
+					id: "evilcraft:blood_extractor"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			description: ["С помощью этого устройства можно вливать кровь в различные предметы. "]
+			dependencies: ["06120EBBDEBDDCAA"]
+			id: "0A0252C6CF3BDDDC"
+			tasks: [{
+				id: "041F962C3E2190C2"
+				type: "item"
+				item: {
+					id: "evilcraft:blood_infuser"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.5d
+			dependencies: ["114FD26AF2B063E3"]
+			id: "06120EBBDEBDDCAA"
+			tasks: [{
+				id: "6CB3545A5F4702D0"
+				type: "item"
+				item: "evilcraft:dark_gem"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.0d
+			dependencies: ["0A0252C6CF3BDDDC"]
+			id: "47B7D97FFA15C8E8"
+			tasks: [{
+				id: "07B069578693F53D"
+				type: "item"
+				item: "evilcraft:undead_sapling"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["47B7D97FFA15C8E8"]
+			id: "147C991D769FBB8C"
+			tasks: [{
+				id: "769052FFE81A4D9E"
+				type: "item"
+				item: "evilcraft:undead_log"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			dependencies: ["147C991D769FBB8C"]
+			id: "42493D508EAC7A1E"
+			tasks: [{
+				id: "2FB99A133E852246"
+				type: "item"
+				item: "evilcraft:undead_planks"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			dependencies: ["42493D508EAC7A1E"]
+			id: "401A5F04B7388AD9"
+			tasks: [{
+				id: "03C2BF4DE5552DCF"
+				type: "item"
+				item: "evilcraft:dark_stick"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["401A5F04B7388AD9"]
+			id: "75BD8D22960D3E56"
+			tasks: [{
+				id: "25EFE63C269E2AC4"
+				type: "item"
+				item: {
+					id: "evilcraft:vengeance_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 3s
+								id: "evilcraft:vengeance"
+							}
+							{
+								lvl: 5s
+								id: "minecraft:fortune"
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["0A0252C6CF3BDDDC"]
+			id: "3CCB44A36EFABB11"
+			tasks: [{
+				id: "17FE03D86C68D1E2"
+				type: "item"
+				item: "evilcraft:dark_power_gem"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			dependencies: ["3CCB44A36EFABB11"]
+			id: "48F3E92415083E1B"
+			tasks: [{
+				id: "454064059A2DC220"
+				type: "item"
+				item: "evilcraft:dark_power_gem_block"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			dependencies: ["3CCB44A36EFABB11"]
+			id: "13B90D18C2D8E0EC"
+			tasks: [{
+				id: "5F23FD6E04B59655"
+				type: "item"
+				item: "evilcraft:bowl_of_promises_empty"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			dependencies: ["13B90D18C2D8E0EC"]
+			id: "02FF16E76B014F47"
+			tasks: [{
+				id: "01CB97474F767B31"
+				type: "item"
+				item: "evilcraft:bowl_of_promises_dusted"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			dependencies: ["02FF16E76B014F47"]
+			id: "058D7799FE2265B1"
+			tasks: [{
+				id: "45B418172832A898"
+				type: "item"
+				item: "evilcraft:bowl_of_promises_tier0"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			dependencies: ["0A0252C6CF3BDDDC"]
+			id: "750B1C2F3A1E7EF6"
+			tasks: [{
+				id: "3DC45E834347CC5B"
+				type: "item"
+				item: "evilcraft:promise_acceptor_iron"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			dependencies: ["750B1C2F3A1E7EF6"]
+			id: "6426DE1943BA4A71"
+			tasks: [
+				{
+					id: "3490D9394C5BB49A"
+					type: "item"
+					item: "evilcraft:promise_efficiency_0"
+				}
+				{
+					id: "65D8030DD455421F"
+					type: "item"
+					item: "evilcraft:promise_speed_0"
+				}
+				{
+					id: "5CB34044D377B6CE"
+					type: "item"
+					item: "evilcraft:promise_tier_1"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			dependencies: ["6426DE1943BA4A71"]
+			id: "7ECE5411906D3FC3"
+			tasks: [{
+				id: "55EB19435E0E3E3A"
+				type: "item"
+				item: "evilcraft:effortless_ring"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			dependencies: ["6426DE1943BA4A71"]
+			id: "1745117B43EEA892"
+			tasks: [{
+				id: "63AB3C668013B317"
+				type: "item"
+				item: "evilcraft:promise_acceptor_gold"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			dependencies: ["1745117B43EEA892"]
+			id: "0A90934DC98835EA"
+			tasks: [{
+				id: "2D8512E53FDFE8BB"
+				type: "item"
+				item: "evilcraft:promise_tier_2"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.5d
+			dependencies: ["0A90934DC98835EA"]
+			id: "3E012808986A4BCB"
+			tasks: [{
+				id: "17E58AFF1F60EE98"
+				type: "item"
+				item: "evilcraft:promise_acceptor_diamond"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.5d
+			dependencies: ["3E012808986A4BCB"]
+			id: "728E732A24AAED7B"
+			tasks: [{
+				id: "7A4FFD5623B3FADD"
+				type: "item"
+				item: "evilcraft:promise_tier_3"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			dependencies: ["3CCB44A36EFABB11"]
+			id: "47E7E321370ADFA3"
+			tasks: [{
+				id: "081ECC13659CFCCA"
+				type: "item"
+				item: "evilcraft:blood_infusion_core"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			dependencies: ["48F3E92415083E1B"]
+			id: "0229B0F907B6FB98"
+			tasks: [{
+				id: "244437EAEF2E713B"
+				type: "item"
+				item: {
+					id: "evilcraft:sanguinary_pedestal_1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.5d
+			dependencies: ["728E732A24AAED7B"]
+			id: "1F189518D4364F4A"
+			tasks: [{
+				id: "3600486257A6D5D8"
+				type: "item"
+				item: "evilcraft:garmonbozia"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.5d
+			dependencies: ["1F189518D4364F4A"]
+			id: "6C2CC9E49E8AA539"
+			tasks: [{
+				id: "4CDAB73CA27F222D"
+				type: "item"
+				item: "evilcraft:sanguinary_environmental_accumulator"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.5d
+			dependencies: ["1F189518D4364F4A"]
+			id: "37D3D81CD9231455"
+			tasks: [{
+				id: "063C0B045F37D0DA"
+				type: "item"
+				item: {
+					id: "evilcraft:spectral_glasses"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			dependencies: ["42493D508EAC7A1E"]
+			id: "40E0DF955C1CFFF5"
+			tasks: [{
+				id: "312B913F28CB69E5"
+				type: "item"
+				item: "evilcraft:reinforced_undead_planks"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -4.0d
+			dependencies: ["06120EBBDEBDDCAA"]
+			id: "32A645E978E54FDD"
+			tasks: [{
+				id: "2BCB24126D3F6B68"
+				type: "item"
+				item: "evilcraft:dark_block"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -3.5d
+			dependencies: ["32A645E978E54FDD"]
+			id: "50B304E141F4E76C"
+			tasks: [{
+				id: "291D760BEB4C2D7B"
+				type: "item"
+				item: {
+					id: "evilcraft:dark_tank"
+					Count: 1b
+					tag: {
+						capacity: 16000
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["47E7E321370ADFA3"]
+			id: "5243327563DC0807"
+			tasks: [{
+				id: "509196431EAB1727"
+				type: "item"
+				item: {
+					id: "evilcraft:spirit_furnace"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.5d
+			dependencies: ["1F189518D4364F4A"]
+			id: "03ED8E49050D6340"
+			tasks: [{
+				id: "0F999C8FEC29BFD0"
+				type: "item"
+				item: {
+					id: "evilcraft:primed_pendant"
+					Count: 1b
+					tag: {
+						inventoryItem: [ ]
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			dependencies: ["47E7E321370ADFA3"]
+			id: "7E0B7DC7E5AEE017"
+			tasks: [{
+				id: "35FFC0EC735EF2E3"
+				type: "item"
+				item: {
+					id: "evilcraft:blood_chest"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			dependencies: ["47E7E321370ADFA3"]
+			id: "3FA31E559F063A16"
+			tasks: [{
+				id: "53A5798389FBF415"
+				type: "item"
+				item: {
+					id: "evilcraft:spirit_reanimator"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["47E7E321370ADFA3"]
+			id: "678C63C610E90154"
+			tasks: [{
+				id: "6F2A02860DCEE484"
+				type: "item"
+				item: {
+					id: "evilcraft:purifier"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			dependencies: ["40E0DF955C1CFFF5"]
+			id: "23DA1B90485E4BCB"
+			tasks: [{
+				id: "604F42C1D3F45E10"
+				type: "item"
+				item: {
+					id: "evilcraft:colossal_blood_chest"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			dependencies: ["401A5F04B7388AD9"]
+			id: "56A687E913C55D53"
+			tasks: [{
+				id: "5C24979CE45BA54B"
+				type: "item"
+				item: {
+					id: "evilcraft:vein_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 2s
+							id: "minecraft:looting"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			dependencies: ["06120EBBDEBDDCAA"]
+			id: "1618419D96C8053F"
+			tasks: [{
+				id: "4E955F9B0FE74A78"
+				type: "item"
+				item: {
+					id: "evilcraft:weather_container"
+					Count: 1b
+					tag: {
+						weather: "EMPTY"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 4.5d
+			dependencies: ["1F189518D4364F4A"]
+			id: "12CAC4F79E2AFA91"
+			tasks: [{
+				id: "4F0664E33019AA95"
+				type: "item"
+				item: {
+					id: "evilcraft:mace_of_destruction"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			dependencies: ["401A5F04B7388AD9"]
+			id: "61402700BFF0AAFF"
+			tasks: [{
+				id: "24280EFFF8FA37CF"
+				type: "item"
+				item: {
+					id: "evilcraft:mace_of_distortion"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			dependencies: ["401A5F04B7388AD9"]
+			id: "46C6FBD86C0604A6"
+			tasks: [{
+				id: "50EC931AA0DDAAC9"
+				type: "item"
+				item: {
+					id: "evilcraft:necromancer_staff"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["401A5F04B7388AD9"]
+			id: "2D18C3689B54DD3D"
+			tasks: [{
+				id: "639F5B31930FB9B6"
+				type: "item"
+				item: {
+					id: "evilcraft:kineticator_repelling"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["401A5F04B7388AD9"]
+			id: "70FD65ABC93C7374"
+			tasks: [{
+				id: "0EEB4AB4B2458E3E"
+				type: "item"
+				item: {
+					id: "evilcraft:kineticator"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: -4.5d
+			dependencies: ["32A645E978E54FDD"]
+			id: "2563C2E60BE59311"
+			tasks: [{
+				id: "00F16B3231A4BB42"
+				type: "item"
+				item: "evilcraft:dark_brick"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -4.5d
+			dependencies: ["2563C2E60BE59311"]
+			id: "12FF67F4BEE07471"
+			tasks: [{
+				id: "7D35C19A1208E699"
+				type: "item"
+				item: "evilcraft:dark_blood_brick"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.5d
+			dependencies: ["3CCB44A36EFABB11"]
+			id: "1143F3601ADE31EC"
+			tasks: [{
+				id: "1A9828B708CF8685"
+				type: "item"
+				item: {
+					id: "evilcraft:blood_pearl_of_teleportation"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+	]
+}

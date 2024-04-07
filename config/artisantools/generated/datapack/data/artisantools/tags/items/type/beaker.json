@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:beaker_wood",
+    "artisantools:beaker_stone",
+    "artisantools:beaker_iron",
+    "artisantools:beaker_gold",
+    "artisantools:beaker_diamond",
+    "artisantools:beaker_netherite",
+    "artisantools:beaker_flint",
+    "artisantools:beaker_bone",
+    "artisantools:beaker_bronze",
+    "artisantools:beaker_constantan",
+    "artisantools:beaker_copper",
+    "artisantools:beaker_electrum",
+    "artisantools:beaker_invar",
+    "artisantools:beaker_lead",
+    "artisantools:beaker_nickel",
+    "artisantools:beaker_silver",
+    "artisantools:beaker_tin"
+  ]
+}

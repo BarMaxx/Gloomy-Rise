@@ -1,0 +1,425 @@
+{
+  "recipes": {
+    "framing_hammer": {
+      "pattern": [
+        " ..",
+        " /x",
+        "/  "
+      ],
+      "key": [
+        "x",
+        "tag#forge:string",
+        "/",
+        "item#minecraft:stick"
+      ]
+    },
+    "groover": {
+      "pattern": [
+        ". ",
+        "/.",
+        "w "
+      ],
+      "key": [
+        "w",
+        "tag#minecraft:planks",
+        "/",
+        "item#minecraft:stick"
+      ]
+    },
+    "hammer": {
+      "pattern": [
+        " .x",
+        " /.",
+        "/  "
+      ],
+      "key": [
+        "x",
+        "tag#forge:string",
+        "/",
+        "item#minecraft:stick"
+      ]
+    },
+    "spanner": {
+      "pattern": [
+        " . ",
+        " /.",
+        "/  "
+      ],
+      "key": [
+        "/",
+        "item#minecraft:stick"
+      ]
+    },
+    "mortar": {
+      "pattern": [
+        "  /",
+        ".f ",
+        " . "
+      ],
+      "key": [
+        "f",
+        "item#minecraft:flint",
+        "/",
+        "item#minecraft:stick"
+      ]
+    },
+    "lens": {
+      "pattern": [
+        ".g.",
+        "/  "
+      ],
+      "key": [
+        "g",
+        "tag#forge:glass_panes/colorless",
+        "/",
+        "item#minecraft:stick"
+      ]
+    },
+    "punch": {
+      "pattern": [
+        "  .",
+        " /x",
+        ".x "
+      ],
+      "key": [
+        "x",
+        "tag#forge:string",
+        "/",
+        "item#minecraft:stick"
+      ]
+    },
+    "handsaw": {
+      "pattern": [
+        " ./",
+        "./ ",
+        "/  "
+      ],
+      "key": [
+        "/",
+        "item#minecraft:stick"
+      ]
+    },
+    "gemcutter": {
+      "pattern": [
+        "  x",
+        " ..",
+        "/  "
+      ],
+      "key": [
+        "x",
+        "tag#forge:string",
+        "/",
+        "item#minecraft:stick"
+      ]
+    },
+    "file": {
+      "pattern": [
+        " /.",
+        "/. ",
+        "/  "
+      ],
+      "key": [
+        "/",
+        "item#minecraft:stick"
+      ]
+    },
+    "shears": {
+      "pattern": [
+        " . ",
+        "/x.",
+        " / "
+      ],
+      "key": [
+        "x",
+        "tag#forge:string",
+        "/",
+        "item#minecraft:stick"
+      ]
+    },
+    "pliers": {
+      "pattern": [
+        ". .",
+        "/x/",
+        "/ /"
+      ],
+      "key": [
+        "x",
+        "tag#forge:string",
+        "/",
+        "item#minecraft:stick"
+      ]
+    },
+    "solderer": {
+      "pattern": [
+        "  .",
+        " . ",
+        "c  "
+      ],
+      "key": [
+        "c",
+        "item#minecraft:clay_ball"
+      ]
+    },
+    "grimoire": {
+      "pattern": [
+        " . ",
+        "xbx",
+        " . "
+      ],
+      "key": [
+        "x",
+        "tag#forge:string",
+        "b",
+        "item#minecraft:book"
+      ]
+    },
+    "pan": {
+      "pattern": [
+        "/  ",
+        "c.."
+      ],
+      "key": [
+        "c",
+        "item#minecraft:clay_ball",
+        "/",
+        "item#minecraft:stick"
+      ]
+    },
+    "athame": {
+      "pattern": [
+        "  .",
+        "x. ",
+        "/l "
+      ],
+      "key": [
+        "x",
+        "tag#forge:string",
+        "/",
+        "item#minecraft:stick",
+        "l",
+        "tag#forge:gems/lapis"
+      ]
+    },
+    "burner": {
+      "pattern": [
+        " . ",
+        " . ",
+        "ppp"
+      ],
+      "key": [
+        "p",
+        "tag#minecraft:planks"
+      ]
+    },
+    "trowel": {
+      "pattern": [
+        "  .",
+        " /.",
+        "/  "
+      ],
+      "key": [
+        "/",
+        "item#minecraft:stick"
+      ]
+    },
+    "sifter": {
+      "pattern": [
+        "/./",
+        "/x/",
+        "/./"
+      ],
+      "key": [
+        "x",
+        "tag#forge:string",
+        "/",
+        "item#minecraft:stick"
+      ]
+    },
+    "quill": {
+      "pattern": [
+        "  f",
+        " .x",
+        ".  "
+      ],
+      "key": [
+        "x",
+        "tag#forge:string",
+        "f",
+        "tag#forge:feathers"
+      ]
+    },
+    "chisel": {
+      "pattern": [
+        "  .",
+        " . ",
+        "/  "
+      ],
+      "key": [
+        "/",
+        "item#minecraft:stick"
+      ]
+    },
+    "pencil": {
+      "pattern": [
+        "  c",
+        "./.",
+        "/  "
+      ],
+      "key": [
+        "/",
+        "item#minecraft:stick",
+        "c",
+        "item#minecraft:coal"
+      ]
+    },
+    "beaker": {
+      "pattern": [
+        ".g.",
+        " g "
+      ],
+      "key": [
+        "g",
+        "tag#forge:glass"
+      ]
+    },
+    "tsquare": {
+      "pattern": [
+        "///",
+        " . ",
+        " . "
+      ],
+      "key": [
+        "/",
+        "item#minecraft:stick"
+      ]
+    },
+    "hatchet": {
+      "pattern": [
+        " . ",
+        "./ ",
+        "/  "
+      ],
+      "key": [
+        "/",
+        "item#minecraft:stick"
+      ]
+    },
+    "knife": {
+      "pattern": [
+        "  .",
+        "x. ",
+        "/x "
+      ],
+      "key": [
+        "x",
+        "tag#forge:string",
+        "/",
+        "item#minecraft:stick"
+      ]
+    },
+    "carver": {
+      "pattern": [
+        "  .",
+        "x/x",
+        ".  "
+      ],
+      "key": [
+        "x",
+        "tag#forge:string",
+        "/",
+        "item#minecraft:stick"
+      ]
+    },
+    "driver": {
+      "pattern": [
+        "  .",
+        " . ",
+        "/x "
+      ],
+      "key": [
+        "x",
+        "tag#forge:string",
+        "/",
+        "item#minecraft:stick"
+      ]
+    },
+    "compass": {
+      "pattern": [
+        " / ",
+        "/x/",
+        ". ."
+      ],
+      "key": [
+        "x",
+        "tag#forge:string",
+        "/",
+        "item#minecraft:stick"
+      ]
+    },
+    "cutting_board": {
+      "pattern": [
+        "  /",
+        " . ",
+        ".bb"
+      ],
+      "key": [
+        "b",
+        "tag#minecraft:wooden_slabs",
+        "/",
+        "item#minecraft:stick"
+      ]
+    },
+    "paintbrush": {
+      "pattern": [
+        " ww",
+        ".. ",
+        "/  "
+      ],
+      "key": [
+        "/",
+        "item#minecraft:stick",
+        "w",
+        "item#minecraft:wheat"
+      ]
+    },
+    "razor": {
+      "pattern": [
+        " . ",
+        "x. ",
+        "w  "
+      ],
+      "key": [
+        "x",
+        "tag#forge:string",
+        "w",
+        "tag#minecraft:planks"
+      ]
+    },
+    "cutters": {
+      "pattern": [
+        ". .",
+        " x ",
+        "/ /"
+      ],
+      "key": [
+        "x",
+        "tag#forge:string",
+        "/",
+        "item#minecraft:stick"
+      ]
+    },
+    "needle": {
+      "pattern": [
+        "  .",
+        " .x",
+        "/  "
+      ],
+      "key": [
+        "x",
+        "tag#forge:string",
+        "/",
+        "item#minecraft:stick"
+      ]
+    }
+  }
+}

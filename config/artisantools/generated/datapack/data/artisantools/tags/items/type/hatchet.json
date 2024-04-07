@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:hatchet_wood",
+    "artisantools:hatchet_stone",
+    "artisantools:hatchet_iron",
+    "artisantools:hatchet_gold",
+    "artisantools:hatchet_diamond",
+    "artisantools:hatchet_netherite",
+    "artisantools:hatchet_flint",
+    "artisantools:hatchet_bone",
+    "artisantools:hatchet_bronze",
+    "artisantools:hatchet_constantan",
+    "artisantools:hatchet_copper",
+    "artisantools:hatchet_electrum",
+    "artisantools:hatchet_invar",
+    "artisantools:hatchet_lead",
+    "artisantools:hatchet_nickel",
+    "artisantools:hatchet_silver",
+    "artisantools:hatchet_tin"
+  ]
+}

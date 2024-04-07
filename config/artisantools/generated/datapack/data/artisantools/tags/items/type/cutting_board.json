@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:cutting_board_wood",
+    "artisantools:cutting_board_stone",
+    "artisantools:cutting_board_iron",
+    "artisantools:cutting_board_gold",
+    "artisantools:cutting_board_diamond",
+    "artisantools:cutting_board_netherite",
+    "artisantools:cutting_board_flint",
+    "artisantools:cutting_board_bone",
+    "artisantools:cutting_board_bronze",
+    "artisantools:cutting_board_constantan",
+    "artisantools:cutting_board_copper",
+    "artisantools:cutting_board_electrum",
+    "artisantools:cutting_board_invar",
+    "artisantools:cutting_board_lead",
+    "artisantools:cutting_board_nickel",
+    "artisantools:cutting_board_silver",
+    "artisantools:cutting_board_tin"
+  ]
+}

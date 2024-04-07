@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:mortar_wood",
+    "artisantools:mortar_stone",
+    "artisantools:mortar_iron",
+    "artisantools:mortar_gold",
+    "artisantools:mortar_diamond",
+    "artisantools:mortar_netherite",
+    "artisantools:mortar_flint",
+    "artisantools:mortar_bone",
+    "artisantools:mortar_bronze",
+    "artisantools:mortar_constantan",
+    "artisantools:mortar_copper",
+    "artisantools:mortar_electrum",
+    "artisantools:mortar_invar",
+    "artisantools:mortar_lead",
+    "artisantools:mortar_nickel",
+    "artisantools:mortar_silver",
+    "artisantools:mortar_tin"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+	id: "1A8100FF743B9A3E"
+	order_index: 6
+	title: "{reward_tables.gloomy_rise.chests.reward_table_title}"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:chest" }
+		{ item: "quark:oak_chest" }
+		{ item: "quark:spruce_chest" }
+		{ item: "quark:birch_chest" }
+		{ item: "quark:jungle_chest" }
+		{ item: "quark:acacia_chest" }
+		{ item: "quark:dark_oak_chest" }
+		{ item: "quark:crimson_chest" }
+		{ item: "quark:warped_chest" }
+		{ item: "quark:nether_brick_chest" }
+		{ item: "quark:purpur_chest" }
+		{ item: "quark:prismarine_chest" }
+		{ item: "quark:mushroom_chest" }
+		{ item: "expandedstorage:iron_chest" }
+		{ item: "expandedstorage:gold_chest" }
+		{ item: "expandedstorage:diamond_chest" }
+		{ item: "expandedstorage:wood_chest" }
+		{ item: "expandedstorage:pumpkin_chest" }
+		{ item: "expandedstorage:christmas_chest" }
+	]
+}

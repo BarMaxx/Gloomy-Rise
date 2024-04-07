@@ -1,0 +1,16 @@
+{
+	id: "09BF2A3291E2A4A6"
+	order_index: 1
+	title: "{reward_tables.gloomy_rise.logs.reward_table_title}"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:oak_log", count: 16 }
+		{ item: "minecraft:spruce_log", count: 16 }
+		{ item: "minecraft:birch_log", count: 16 }
+		{ item: "minecraft:jungle_log", count: 16 }
+		{ item: "minecraft:acacia_log", count: 16 }
+		{ item: "minecraft:dark_oak_log", count: 16 }
+		{ item: "minecraft:crimson_stem", count: 16 }
+		{ item: "minecraft:warped_stem", count: 16 }
+	]
+}

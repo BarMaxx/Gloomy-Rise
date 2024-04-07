@@ -1,0 +1,823 @@
+{
+	id: "189ED85D95018F36"
+	group: "24923118FBE15B71"
+	order_index: 6
+	filename: "blood_magic"
+	title: "{quests.gloomy_rise.progress_3.blood_magic.chapter_title}"
+	icon: {
+		id: "bloodmagic:basemonstersoul"
+		Count: 1b
+		tag: {
+			souls: 5.0d
+		}
+	}
+	default_quest_shape: "default_circle"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 50.0d
+		height: 30.0d
+		rotation: 0.0d
+		image: "gloomyrise:textures/background_for_questbook.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -6.0d
+			y: -4.5d
+			description: ["Кровавый алтарь - главый предмет в моде &4Blood Magic&f! Основа Вашего развития в этом моде!"]
+			dependencies: ["09B7710675B81B75"]
+			id: "310211F11C8A68E9"
+			tasks: [{
+				id: "0CEE9E22AAA5D081"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.0d
+			description: ["Слабый кровавый шар создаётся на алтаре 1 уровня."]
+			dependencies: ["310211F11C8A68E9"]
+			id: "7F5EF07CC23322DA"
+			tasks: [{
+				id: "69602CC66ECD4457"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -4.0d
+			description: ["Чистый шифер создаётся на алтаре 1 уровня."]
+			dependencies: ["310211F11C8A68E9"]
+			id: "604BE4CC22A5DF43"
+			tasks: [{
+				id: "7EE0F656CBE11074"
+				type: "item"
+				title: "Чистый шифер"
+				item: "bloodmagic:blankslate"
+				count: 5L
+			}]
+			rewards: [{
+				id: "4A61383616681793"
+				type: "item"
+				item: "bloodmagic:blankslate"
+				count: 2
+			}]
+		}
+		{
+			x: -7.5d
+			y: -2.5d
+			description: ["Пустая руна нужна для создания рун или улучшения кровавого алтаря."]
+			dependencies: ["604BE4CC22A5DF43"]
+			id: "2C0AA4F9A398B84E"
+			tasks: [{
+				id: "4E1A06F40278F7AD"
+				type: "item"
+				title: "Пустая руна"
+				item: "bloodmagic:blankrune"
+				count: 9L
+			}]
+			rewards: [{
+				id: "18C0AAE3A5499C80"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 2
+			}]
+		}
+		{
+			x: -9.0d
+			y: -2.5d
+			subtitle: "Резня!"
+			description: ["Кинжал для жертвоприношений :)"]
+			dependencies: ["2C0AA4F9A398B84E"]
+			id: "098A444D9F847848"
+			tasks: [{
+				id: "45941F37DBB28203"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.5d
+			description: ["С помощью данной кузницы можно создать много различных предметов."]
+			hide_dependency_lines: true
+			dependencies: ["604BE4CC22A5DF43"]
+			id: "2931277B0B65BEE2"
+			tasks: [{
+				id: "3D2888C67663DC49"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			description: ["С помощью алхимического стола можно создать много различных предметов."]
+			hide_dependency_lines: true
+			dependencies: ["604BE4CC22A5DF43"]
+			id: "3BFAF3EEF0FA4E9B"
+			tasks: [{
+				id: "47B67900335680B2"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			description: ["Волшебный пепел можно создать на алхимическом столе либо же с помощью волшебного пепла."]
+			hide_dependency_lines: true
+			dependencies: ["3BFAF3EEF0FA4E9B"]
+			id: "046F2CC77792239E"
+			tasks: [{
+				id: "371CCDE1EAF7B51B"
+				type: "item"
+				item: {
+					id: "bloodmagic:arcaneashes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			description: ["Неплохая броня, которую можно прокачать."]
+			hide_dependency_lines: true
+			dependencies: ["046F2CC77792239E"]
+			id: "55BA03323CB14A1A"
+			tasks: [{
+				id: "0C2343AC5E5F2139"
+				type: "item"
+				item: {
+					id: "bloodmagic:livinghelmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			description: ["Неплохая броня, которую можно прокачать."]
+			hide_dependency_lines: true
+			dependencies: ["046F2CC77792239E"]
+			id: "04831483EA7056F5"
+			tasks: [{
+				id: "568688168D41D452"
+				type: "item"
+				item: {
+					id: "bloodmagic:livingplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+						livingStats: {
+							maxPoints: 100
+							upgrades: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.0d
+			description: ["Неплохая броня, которую можно прокачать."]
+			hide_dependency_lines: true
+			dependencies: ["046F2CC77792239E"]
+			id: "408563BC3BE20B2D"
+			tasks: [{
+				id: "486C4DF71721C46C"
+				type: "item"
+				item: {
+					id: "bloodmagic:livingleggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.5d
+			description: ["Неплохая броня, которую можно прокачать."]
+			hide_dependency_lines: true
+			dependencies: ["046F2CC77792239E"]
+			id: "10A5426E7D746B4E"
+			tasks: [{
+				id: "608C4A6B702087C0"
+				type: "item"
+				item: {
+					id: "bloodmagic:livingboots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			description: ["Кровавый шар ученика создаётся на алтаре 2 уровня."]
+			dependencies: ["2C0AA4F9A398B84E"]
+			id: "3B7AE77552E7DAD8"
+			tasks: [{
+				id: "6606994CC32DFECA"
+				type: "item"
+				item: "bloodmagic:apprenticebloodorb"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.0d
+			description: ["Укреплённый шифер создаётся на алтаре 2 уровня."]
+			dependencies: ["2C0AA4F9A398B84E"]
+			id: "444990844E568EA9"
+			tasks: [{
+				id: "6A4FBE778C5F799C"
+				type: "item"
+				item: "bloodmagic:reinforcedslate"
+				count: 5L
+			}]
+			rewards: [{
+				id: "7504DFDC5FC81927"
+				type: "item"
+				item: "bloodmagic:reinforcedslate"
+				count: 2
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.5d
+			description: ["Прочный шифер создаётся на алтаре 3 уровня."]
+			dependencies: ["444990844E568EA9"]
+			id: "5EC0FBD46A7681D7"
+			tasks: [{
+				id: "1F5674E024E5454F"
+				type: "item"
+				item: "bloodmagic:infusedslate"
+				count: 5L
+			}]
+			rewards: [{
+				id: "22EE748D96CF5C66"
+				type: "item"
+				item: "bloodmagic:infusedslate"
+				count: 2
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.0d
+			description: ["Демонический шифер создаётся на алтаре 4 уровня."]
+			dependencies: ["5EC0FBD46A7681D7"]
+			id: "10CA6E763836B7B6"
+			tasks: [{
+				id: "1C744DDA96E743ED"
+				type: "item"
+				item: "bloodmagic:demonslate"
+				count: 5L
+			}]
+			rewards: [{
+				id: "214136926AD18AFB"
+				type: "item"
+				item: "bloodmagic:demonslate"
+				count: 2
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.5d
+			description: ["Кровавый шар мага создаётся на алтаре 3 уровня."]
+			dependencies: ["3B7AE77552E7DAD8"]
+			id: "029FBFB1E2C4EDED"
+			tasks: [{
+				id: "1CBE9183E39AFEFF"
+				type: "item"
+				item: "bloodmagic:magicianbloodorb"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -0.5d
+			description: ["Кровавый шар мастера создаётся на алтаре 4 уровня."]
+			dependencies: ["029FBFB1E2C4EDED"]
+			id: "57C81B4BECC4F775"
+			tasks: [{
+				id: "547A69DB07B8290F"
+				type: "item"
+				item: "bloodmagic:masterbloodorb"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			dependencies: ["7F5EF07CC23322DA"]
+			id: "7657038F481C8113"
+			tasks: [{
+				id: "3D9008193B702043"
+				type: "item"
+				item: "bloodmagic:incensealtar"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			dependencies: ["7F5EF07CC23322DA"]
+			id: "1E16C4586A22203E"
+			tasks: [{
+				id: "229690B4409179CE"
+				type: "item"
+				item: "bloodmagic:lavacrystal"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			dependencies: ["1E16C4586A22203E"]
+			id: "093EB3E5C26A0DA5"
+			tasks: [{
+				id: "017D67DE338FD884"
+				type: "item"
+				item: "bloodmagic:activationcrystalweak"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["310211F11C8A68E9"]
+			id: "17BC8D14890AED63"
+			tasks: [{
+				id: "1C2FB45105742383"
+				type: "item"
+				item: "bloodmagic:soulsnare"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			dependencies: ["17BC8D14890AED63"]
+			id: "699C21DAEE0F8F2F"
+			tasks: [{
+				id: "5A9246B84F857FA4"
+				type: "item"
+				item: {
+					id: "bloodmagic:basemonstersoul"
+					Count: 1b
+					tag: {
+						souls: 5.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			dependencies: [
+				"699C21DAEE0F8F2F"
+				"2931277B0B65BEE2"
+			]
+			id: "323063002EE62C96"
+			tasks: [{
+				id: "49D0C49926D95AF4"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgempetty"
+					Count: 1b
+					tag: {
+						souls: 64.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			dependencies: ["323063002EE62C96"]
+			id: "1E30A39D584354E7"
+			tasks: [{
+				id: "4C0F99842D71BD85"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemlesser"
+					Count: 1b
+					tag: {
+						souls: 256.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			dependencies: ["1E30A39D584354E7"]
+			id: "2C509255571B637E"
+			tasks: [{
+				id: "062E21BFB9AE3E1F"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemcommon"
+					Count: 1b
+					tag: {
+						souls: 1024.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			dependencies: ["2C509255571B637E"]
+			id: "2C55D255898E9B4F"
+			tasks: [{
+				id: "39B7B82E4800BDCA"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemgreater"
+					Count: 1b
+					tag: {
+						souls: 4096.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			dependencies: ["323063002EE62C96"]
+			id: "5077FDF13C82DB29"
+			tasks: [
+				{
+					id: "3CACCA064C7CDA8A"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulsword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "50F392518E76964C"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "42BACA89A5B07A5B"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulpickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			dependencies: ["5EC0FBD46A7681D7"]
+			id: "738FECA03D0635C8"
+			tasks: [{
+				id: "1D49D94A5F54FB26"
+				type: "item"
+				item: "bloodmagic:experiencebook"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.5d
+			dependencies: ["5EC0FBD46A7681D7"]
+			id: "0F4BD0B783DB6051"
+			tasks: [{
+				id: "37CF91EAC3E9C8C0"
+				type: "item"
+				item: "bloodmagic:alchemicalreactionchamber"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.5d
+			dependencies: ["0F4BD0B783DB6051"]
+			id: "77660B3ABD869770"
+			tasks: [{
+				id: "3B1DA37FF6A8C61B"
+				type: "item"
+				item: "bloodmagic:weakbloodshard"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			dependencies: ["77660B3ABD869770"]
+			id: "066571BE3DE7CD5A"
+			tasks: [{
+				id: "78D7DDF6255D236F"
+				type: "item"
+				item: "bloodmagic:largebloodstonebrick"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			dependencies: ["77660B3ABD869770"]
+			id: "3031C7CD0877F6DB"
+			tasks: [{
+				id: "22858D8023079A72"
+				type: "item"
+				item: "bloodmagic:reinforcedteleposerfocus"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -1.5d
+			dependencies: ["444990844E568EA9"]
+			id: "5D4E72B722CB9B49"
+			tasks: [{
+				id: "755FA6A2DB2AFBCE"
+				type: "item"
+				item: "bloodmagic:ritualstone"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -0.5d
+			dependencies: ["444990844E568EA9"]
+			id: "71CED402CE6CC11F"
+			tasks: [{
+				id: "6E210EF9175BFC06"
+				type: "item"
+				item: "bloodmagic:selfsacrificerune"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.0d
+			dependencies: ["444990844E568EA9"]
+			id: "2066D93E4ACE7317"
+			tasks: [{
+				id: "030882C2DBBA4536"
+				type: "item"
+				item: "bloodmagic:sacrificerune"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.0d
+			dependencies: ["5EC0FBD46A7681D7"]
+			id: "13357AF1C183A774"
+			tasks: [{
+				id: "5B47DD34532CA097"
+				type: "item"
+				item: "bloodmagic:altarcapacityrune"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 0.5d
+			dependencies: ["5EC0FBD46A7681D7"]
+			id: "27D599964948BE27"
+			tasks: [{
+				id: "24F468DC37E38A2D"
+				type: "item"
+				item: "bloodmagic:dislocationrune"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 3.5d
+			dependencies: ["10CA6E763836B7B6"]
+			id: "0F60A38AECE86F94"
+			tasks: [{
+				id: "56A1740B1F876AE6"
+				type: "item"
+				item: "bloodmagic:ritualtinkerer"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 3.5d
+			dependencies: ["10CA6E763836B7B6"]
+			id: "5ABA15B6590184DC"
+			tasks: [{
+				id: "4B407EA390952BF3"
+				type: "item"
+				item: "bloodmagic:accelerationrune"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 2.0d
+			dependencies: ["10CA6E763836B7B6"]
+			id: "1C107BE61BF232CC"
+			tasks: [{
+				id: "59BDC2F557ED24FC"
+				type: "item"
+				item: "bloodmagic:chargingrune"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.0d
+			dependencies: [
+				"10CA6E763836B7B6"
+				"13357AF1C183A774"
+			]
+			id: "627FD3E7B62BABD9"
+			tasks: [{
+				id: "5572399ECAC2F614"
+				type: "item"
+				item: "bloodmagic:bettercapacityrune"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["029FBFB1E2C4EDED"]
+			id: "27A5ECDBF9456EB4"
+			tasks: [{
+				id: "06F0D03E09BA6205"
+				type: "item"
+				item: "bloodmagic:stonebrickpath"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.5d
+			dependencies: ["27A5ECDBF9456EB4"]
+			id: "501694CC576AD7A7"
+			tasks: [{
+				id: "10BC6AFFE824DC3A"
+				type: "item"
+				item: "bloodmagic:stonetilepath"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.5d
+			dependencies: ["27A5ECDBF9456EB4"]
+			id: "77B60D80D998386F"
+			tasks: [{
+				id: "5426AC6A7356EB43"
+				type: "item"
+				item: "bloodmagic:wornstonebrickpath"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.0d
+			dependencies: [
+				"501694CC576AD7A7"
+				"77B60D80D998386F"
+			]
+			id: "53C80B870F9FF97B"
+			tasks: [{
+				id: "5CA67B143BB19FD5"
+				type: "item"
+				item: "bloodmagic:wornstonetilepath"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			dependencies: ["3BFAF3EEF0FA4E9B"]
+			id: "150CD15939BEDDD4"
+			tasks: [{
+				id: "31A8016F76C2920B"
+				type: "item"
+				item: "bloodmagic:slate_vial"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			dependencies: ["150CD15939BEDDD4"]
+			id: "08BF53EC85CF023B"
+			tasks: [{
+				id: "6B8CC6ADDBD022F6"
+				type: "item"
+				item: "bloodmagic:fortune_anointment"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -0.5d
+			dependencies: ["08BF53EC85CF023B"]
+			id: "5FDBD65945AD50A8"
+			tasks: [{
+				id: "1708AAD8EC7FF4EC"
+				type: "item"
+				item: "bloodmagic:fortune_anointment_l"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			dependencies: ["08BF53EC85CF023B"]
+			id: "39D71EDCF092BC28"
+			tasks: [{
+				id: "582C02EAAC8DC208"
+				type: "item"
+				item: "bloodmagic:fortune_anointment_2"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["150CD15939BEDDD4"]
+			id: "78FDAB622573C0A8"
+			tasks: [{
+				id: "01B9E9CC07A08B6D"
+				type: "item"
+				item: "bloodmagic:hidden_knowledge_anointment"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			dependencies: ["78FDAB622573C0A8"]
+			id: "1498456D840BEEC5"
+			tasks: [{
+				id: "3BCCA2D9C83C7512"
+				type: "item"
+				item: "bloodmagic:hidden_knowledge_anointment_l"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			dependencies: ["78FDAB622573C0A8"]
+			id: "035A50C60A7BBC81"
+			tasks: [{
+				id: "58E633F90D52EC80"
+				type: "item"
+				item: "bloodmagic:hidden_knowledge_anointment_2"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["046F2CC77792239E"]
+			id: "65F2FD52C4B73574"
+			tasks: [{
+				id: "2FE98CC480B473A0"
+				type: "item"
+				item: "bloodmagic:upgradetrainer"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			dependencies: ["046F2CC77792239E"]
+			id: "073C3146646C8192"
+			tasks: [{
+				id: "04525C98EB188CFC"
+				type: "item"
+				item: {
+					id: "bloodmagic:miningsigil"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["046F2CC77792239E"]
+			id: "62121C9D36AE983E"
+			tasks: [{
+				id: "18FACCE4D3AC0FC3"
+				type: "item"
+				item: {
+					id: "bloodmagic:sigilofmagnetism"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+	]
+}

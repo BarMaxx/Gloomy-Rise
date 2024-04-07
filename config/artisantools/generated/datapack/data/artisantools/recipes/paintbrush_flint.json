@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ww",
+    ".. ",
+    "/  "
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "w": {
+      "item": "minecraft:wheat"
+    },
+    ".": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "item": "artisantools:paintbrush_flint"
+  }
+}

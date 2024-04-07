@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:solderer_wood",
+    "artisantools:solderer_stone",
+    "artisantools:solderer_iron",
+    "artisantools:solderer_gold",
+    "artisantools:solderer_diamond",
+    "artisantools:solderer_netherite",
+    "artisantools:solderer_flint",
+    "artisantools:solderer_bone",
+    "artisantools:solderer_bronze",
+    "artisantools:solderer_constantan",
+    "artisantools:solderer_copper",
+    "artisantools:solderer_electrum",
+    "artisantools:solderer_invar",
+    "artisantools:solderer_lead",
+    "artisantools:solderer_nickel",
+    "artisantools:solderer_silver",
+    "artisantools:solderer_tin"
+  ]
+}

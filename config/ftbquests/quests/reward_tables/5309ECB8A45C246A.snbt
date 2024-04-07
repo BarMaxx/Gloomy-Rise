@@ -1,0 +1,14 @@
+{
+	id: "5309ECB8A45C246A"
+	order_index: 5
+	title: "{reward_tables.gloomy_rise.simple_ores.reward_table_title}"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:iron_ore" }
+		{ item: "minecraft:gold_ore" }
+		{ item: "mekanism:copper_ore" }
+		{ item: "mekanism:tin_ore" }
+		{ item: "mekanism:osmium_ore" }
+		{ item: "mekanism:lead_ore" }
+	]
+}

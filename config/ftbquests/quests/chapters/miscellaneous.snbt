@@ -1,0 +1,274 @@
+{
+	id: "583546969EC1F2D6"
+	group: "6E7449445FFC34C5"
+	order_index: 3
+	filename: "miscellaneous"
+	title: "{quests.gloomy_rise.other.miscellaneous.chapter_title}"
+	icon: {
+		id: "naturescompass:naturescompass"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: "default_circle"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 50.0d
+		height: 30.0d
+		rotation: 0.0d
+		image: "gloomyrise:textures/background_for_questbook.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			icon: {
+				id: "naturescompass:naturescompass"
+				Count: 1b
+				tag: { }
+			}
+			x: -6.0d
+			y: -0.5d
+			subtitle: "Чтоб не потеряться :)"
+			dependencies: ["114FD26AF2B063E3"]
+			id: "41C05337A8804898"
+			tasks: [{
+				id: "7A151FCA8FF8288A"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			dependencies: ["114FD26AF2B063E3"]
+			id: "258BACA1DD2DD9D3"
+			tasks: [{
+				id: "446133A8CC8B2300"
+				type: "item"
+				item: "chickenchunks:chunk_loader"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.5d
+			dependencies: ["114FD26AF2B063E3"]
+			id: "6FD345624FE0A567"
+			tasks: [{
+				id: "3FE5D75486C9E860"
+				type: "item"
+				item: "botanypots:botany_pot"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			description: ["Собирает предметы недалеко от вас."]
+			dependencies: ["3CEDE60AD25690CF"]
+			id: "13458DF94390D17D"
+			tasks: [{
+				id: "654F37947C284D84"
+				type: "item"
+				item: {
+					id: "simplemagnets:basicmagnet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 3.0d
+			description: ["Улучшенный магнит. Увеличивает дистанцию сбора предметов."]
+			dependencies: ["114FD26AF2B063E3"]
+			id: "0EB9F82384980D93"
+			tasks: [{
+				id: "2375BD1B8BB0CADD"
+				type: "item"
+				item: {
+					id: "simplemagnets:advancedmagnet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: -0.5d
+			description: ["Позволяет легче строить масштабные постройки."]
+			dependencies: ["3CEDE60AD25690CF"]
+			id: "58C9C1DAC20F99DE"
+			tasks: [{
+				id: "1E62445C861E73AC"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			description: ["Пока находится в вашем инвентаре - накапливает время, а потом это время можно использовать для ускорения различных процессов."]
+			dependencies: ["3CEDE60AD25690CF"]
+			id: "24DDF0425E4D682C"
+			tasks: [{
+				id: "446C9C7FB09358A7"
+				type: "item"
+				title: "Время в бутылке"
+				item: {
+					id: "tiab:timeinabottle"
+					Count: 1b
+					tag: {
+						timeData: { }
+					}
+				}
+			}]
+		}
+		{
+			icon: "appliedenergistics2:grindstone"
+			x: -8.0d
+			y: -3.0d
+			description: ["Кварцевый дробитель позволяет вам перемалывать руду в пыль. Для того, чтобы дробить руду необходимо на дробитель поставить &eрукоятку&f, а после крутите её."]
+			dependencies: ["2CB6E2F317E842CA"]
+			id: "6BDEDFD2C6E2E62F"
+			tasks: [
+				{
+					id: "7258932F0907108A"
+					type: "item"
+					item: "appliedenergistics2:grindstone"
+				}
+				{
+					id: "1881F288F9B72E27"
+					type: "item"
+					item: "appliedenergistics2:crank"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -2.0d
+			dependencies: ["114FD26AF2B063E3"]
+			id: "47320C46A31E6A2D"
+			tasks: [{
+				id: "737F67741F73CBE5"
+				type: "item"
+				item: "botanypotstiers:elite_botany_pot"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			dependencies: ["114FD26AF2B063E3"]
+			id: "642E076BA80E1E07"
+			tasks: [{
+				id: "7CD193715D9CF189"
+				type: "item"
+				item: "botanypotstiers:ultra_botany_pot"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			dependencies: ["114FD26AF2B063E3"]
+			id: "1BA1DF5FE9A0013C"
+			tasks: [{
+				id: "0801537CEF7306C1"
+				type: "item"
+				item: "botanypotstiers:creative_botany_pot"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.5d
+			dependencies: ["114FD26AF2B063E3"]
+			id: "5ADCBDE730D404B8"
+			tasks: [{
+				id: "35464D2CB6209FB7"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_exchanging"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			dependencies: ["114FD26AF2B063E3"]
+			id: "25F834A267B6F2E0"
+			tasks: [{
+				id: "56579583DFFF8EAE"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_copy_paste"
+					Count: 1b
+					tag: {
+						mode: 0b
+						template_id: [I;
+							1507019242
+							1359694363
+							-1907510998
+							1407459290
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			dependencies: ["114FD26AF2B063E3"]
+			id: "378D12915FF6DA7F"
+			tasks: [{
+				id: "588548BD5AC5A696"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_destruction"
+					Count: 1b
+					tag: {
+						overlay: 1b
+						fuzzy: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 1.5d
+			dependencies: ["114FD26AF2B063E3"]
+			id: "22242D1955252137"
+			tasks: [{
+				id: "6C719B7DB2CD9076"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+		}
+	]
+}

@@ -16,13 +16,13 @@ nonRandom = []
 	startSlots = 0
 	#Maximum number of trinket slots the player can have (does not remove unlocked slots)
 	#Range: 1 ~ 40
-	maxSlots = 10
+	maxSlots = 5
 	#Levels of xp needed to unlock a trinket slot.
 	#Range: 0 ~ 1000
 	slotCost = 25
 	#Amount of Xp levels added to the next unlocking cost.
 	#Range: 0 ~ 1000
-	slotUpFactor = 5
+	slotUpFactor = 25
 
 [Killing_Unlocks]
 	#Set to false to disable unlocking trinkets from killing non-Boss entities.

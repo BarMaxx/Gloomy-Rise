@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:razor_wood",
+    "artisantools:razor_stone",
+    "artisantools:razor_iron",
+    "artisantools:razor_gold",
+    "artisantools:razor_diamond",
+    "artisantools:razor_netherite",
+    "artisantools:razor_flint",
+    "artisantools:razor_bone",
+    "artisantools:razor_bronze",
+    "artisantools:razor_constantan",
+    "artisantools:razor_copper",
+    "artisantools:razor_electrum",
+    "artisantools:razor_invar",
+    "artisantools:razor_lead",
+    "artisantools:razor_nickel",
+    "artisantools:razor_silver",
+    "artisantools:razor_tin"
+  ]
+}

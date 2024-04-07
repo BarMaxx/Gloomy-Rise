@@ -1,0 +1,27 @@
+#Enabled tool types.
+enabledToolTypes = ["cutters", "hammer", "framing_hammer", "handsaw", "cutting_board", "pan", "beaker", "burner", "pencil", "tsquare", "driver", "spanner", "lens", "sifter", "gemcutter", "pliers", "athame", "grimoire", "chisel", "trowel", "carver", "razor", "compass", "quill", "needle", "shears", "punch", "groover", "mortar", "knife", "hatchet", "file", "solderer", "paintbrush"]
+#This item will be used as the creative tab icon.
+#Default: artisantools:cutters_iron
+creativeTabItem = "artisantools:cutters_iron"
+#Set to false to disable tool repair.
+#Default: true
+enableToolRepair = true
+#This mod will regenerate content on each game load.
+#Set to true to stop content generation on each game load.
+#This is something that you will probably want to set to true before distributing your mod pack.
+#Default: false
+disableGeneration = false
+#Enchants allowed at the enchanting table.
+allowedEnchants = ["minecraft:unbreaking", "minecraft:mending"]
+#Set to false to disable tool durability tooltip.
+#Default: true
+enableDurabilityTooltip = true
+#Set to false to disable tool enchanting.
+#Default: true
+enableToolEnchanting = true
+#Set to true to compress the generated resource and data packs.
+#This will compress the packs and remove the folders.
+#This is something that you will probably want to set to true before distributing your mod pack.
+#Default: false
+enableCompression = false
+

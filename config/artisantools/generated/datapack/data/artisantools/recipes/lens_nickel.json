@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    ".g.",
+    "/  "
+  ],
+  "key": {
+    "g": {
+      "tag": "forge:glass_panes/colorless"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    ".": {
+      "tag": "forge:ingots/nickel"
+    }
+  },
+  "result": {
+    "item": "artisantools:lens_nickel"
+  }
+}

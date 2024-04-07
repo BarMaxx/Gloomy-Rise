@@ -1,0 +1,15 @@
+{
+	id: "0903186671739B25"
+	order_index: 4
+	title: "{reward_tables.gloomy_rise.simple_meat_food.reward_table_title}"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:cooked_porkchop" }
+		{ item: "minecraft:cooked_chicken" }
+		{ item: "minecraft:cooked_rabbit" }
+		{ item: "minecraft:cooked_mutton" }
+		{ item: "alexsmobs:cooked_moose_ribs" }
+		{ item: "alexsmobs:cooked_kangaroo_meat" }
+		{ item: "minecraft:cooked_beef" }
+	]
+}

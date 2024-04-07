@@ -1,0 +1,878 @@
+{
+  "block.buddycards.oak_card_display": "Дубовый карточный дисплей",
+  "block.buddycards.spruce_card_display": "Еловый карточный дисплей",
+  "block.buddycards.birch_card_display": "Берёзовый карточный дисплей",
+  "block.buddycards.jungle_card_display": "Тропический карточный дисплей",
+  "block.buddycards.acacia_card_display": "Акациевый карточный дисплей",
+  "block.buddycards.dark_oak_card_display": "Карточный дисплей из тёмного дуба",
+  "block.buddycards.crimson_card_display": "Багровый карточный дисплей",
+  "block.buddycards.warped_card_display": "Искажённый карточный дисплей",
+  "block.buddycards.luminis_card_display": "Светящийся карточный дисплей",
+  
+  "block.buddycards.card_display.fail_unlock": "Только игрок, заблокировавший отображение этой карты, может разблокировать ее.",
+  "block.buddycards.card_display.lock": "Дисплей этой карты заблокирован, снова используйте ключ для разблокировки!",
+  "block.buddycards.card_display.unlock": "Этот дисплей карты разблокирован, снова используйте ключ для блокировки!",
+  "block.buddycards.card_stand": "Подставка для карточек",
+  
+  "block.buddycards.card_stand.fail_unlock": "Только игрок, заблокировавший эту подставку для карт, может разблокировать ее.",
+  "block.buddycards.card_stand.lock": "Эта подставка для карт заблокирована, используйте ключ еще раз, чтобы разблокировать!",
+  "block.buddycards.card_stand.unlock": "Эта подставка для карт разблокирована, снова используйте ключ для блокировки!",
+  "block.buddycards.vault.fail_unlock": "Только игрок, который запер это хранилище Buddysteel, может открыть его.",
+  "block.buddycards.vault.lock": "Это хранилище Buddysteel заперто, используйте ключ еще раз, чтобы отпереть!",
+  "block.buddycards.vault.unlock": "Это хранилище Buddysteel не заперто, используйте ключ еще раз, чтобы запереть!",
+  
+  "block.buddycards.buddysteel_block": "Блок из Buddysteel",
+  "block.buddycards.zylex_block": "Блок циклекса",
+  "block.buddycards.luminis_crystal_block": "Блок из светящихся кристаллов",
+  "block.buddycards.deep_luminis_crystal_block": "Блок из глубоких светящихся кристаллов",
+  "block.buddycards.luminis_block": "Светящийся блок",
+  "block.buddycards.deep_luminis_block": "Глубокий светящийся блок",
+  "block.buddycards.perfect_buddysteel_block": "Блок из идеального Buddysteel",
+  
+  "block.buddycards.yannel_spool": "Яннель катушка",
+  
+  "block.buddycards.buddysteel_vault": "Buddysteel хранилище",
+  "block.buddycards.buddysteel_vault.1": "Buddysteel хранилище",
+  "block.buddycards.buddysteel_vault.2": "Buddysteel хранилище",
+  "block.buddycards.buddysteel_vault.3": "Buddysteel хранилище",
+  "block.buddycards.buddysteel_vault.4": "Buddysteel хранилище",
+  "block.buddycards.buddysteel_vault.5": "Buddysteel хранилище",
+  "block.buddycards.buddysteel_vault.6": "Buddysteel хранилище",
+  "block.buddycards.buddysteel_vault.7": "Buddysteel хранилище",
+  
+  "block.buddycards.booster_box.1": "Buddycard бустерная коробка",
+  "block.buddycards.booster_box.2": "Buddycard бустерная коробка",
+  "block.buddycards.booster_box.3": "Buddycard бустерная коробка",
+  "block.buddycards.booster_box.4": "Buddycard бустерная коробка",
+  "block.buddycards.booster_box.5": "Buddycard бустерная коробка",
+  "block.buddycards.booster_box.6": "Buddycard бустерная коробка",
+  "block.buddycards.booster_box.7": "Buddycard бустерная коробка",
+  "block.buddycards.booster_box_mystery": "Buddycard бустерная коробка",
+  "block.buddycards.luminis_ore": "Светящаяся руда",
+  
+  "block.buddycards.luminis_ore_deepslate": "Deepslate Luminis Ore",
+  "block.buddycards.luminis_panels": "Светящиеся панели",
+  "block.buddycards.luminis_slab": "Плита из светящейся панели",
+  "block.buddycards.luminis_stairs": "Лестница из светящейся панели",
+  "block.buddycards.luminis_pillar": "Колонна из светящейся панели",
+  "block.buddycards.luminis_crystal_pillar": "Колонна из светящихся кристаллов",
+  "block.buddycards.deep_luminis_crystal_pillar": "Колонна из глубоких светящихся кристаллов",
+  "block.buddycards.yannel": "Семена яннеля",
+  "item.buddycards.mystery_pack": "Таинственный Buddycard набор",
+  
+  "item.buddycards.pack.1": "Buddycard набор",
+  "item.buddycards.pack.2": "Buddycard набор",
+  "item.buddycards.pack.3": "Buddycard набор",
+  "item.buddycards.binder.1": "Buddycard Binder",
+  "item.buddycards.binder.2": "Buddycard Binder",
+  "item.buddycards.binder.3": "Buddycard Binder",
+  "item.buddycards.challenge_binder": "Challenge Buddycard Binder",
+  "item.buddycards.ender_binder": "Ender Buddycard Binder",
+  
+  "item.buddycards.medal.1": "Медаль за базовый набор Buddy",
+  "item.buddycards.medal.2": "Медаль за Незер набор Buddy",
+  "item.buddycards.medal.3": "Медаль за Энд набор Buddy",
+  
+  "item.buddycards.medal_token": "Жетон-медальон",
+  "item.buddycards.grading_sleeve": "Сортировочный рукав",
+  "item.buddycards.buddycard_guidebook": "Buddycard руководство",
+  
+  "item.buddycards.buddysteel_blend": "Buddysteel смесь",
+  "item.buddycards.buddysteel_ingot": "Buddysteel слиток",
+  "item.buddycards.buddysteel_nugget": "Buddysteel кусочек",
+  
+  "item.buddycards.perfect_buddysteel_blend": "Идеальная Buddysteel смесь",
+  "item.buddycards.perfect_buddysteel_ingot": "Идеальный Buddysteel слиток",
+  "item.buddycards.perfect_buddysteel_nugget": "Идеальный Buddysteel кусочек",
+  
+  "item.buddycards.zylex": "Циклекс",
+  "item.buddycards.zylex_token": "Циклекс токен",
+  "item.buddycards.zylex_band": "Циклекс кольцо",
+  "item.buddycards.zylex_medal": "Циклекс медаль",
+  "item.buddycards.zylex_boots": "Циклекс ботинки",
+  "item.buddycards.zylex_hoe": "Циклекс мотыга",
+  "item.buddycards.luminis": "Luminis",
+  
+  "item.buddycards.luminis_crystal": "Светящийся кристалл",
+  "item.buddycards.luminis_panel": "Светящаяся панель",
+  "item.buddycards.luminis_band": "Светящееся кольцо",
+  "item.buddycards.luminis_medal": "Светящаяся медаль",
+  "item.buddycards.luminis_pickaxe": "Светящаяся кирка",
+  "item.buddycards.luminis_helmet": "Светящийся шлем",
+  "item.buddycards.deep_luminis": "Deep Luminis",
+  "item.buddycards.deep_luminis_crystal": "Глубокий светящийся кристалл",
+  "item.buddycards.buddysteel_sword": "Buddysteel меч",
+  
+  "item.buddycards.buddysteel_axe": "Buddysteel топор",
+  "item.buddycards.buddysteel_pickaxe": "Buddysteel кирка",
+  "item.buddycards.buddysteel_shovel": "Buddysteel лопата",
+  "item.buddycards.buddysteel_hoe": "Buddysteel мотыга",
+  "item.buddycards.buddysteel_helmet": "Buddysteel шлем",
+  "item.buddycards.buddysteel_chestplate": "Buddysteel нагрудник",
+  "item.buddycards.buddysteel_leggings": "Buddysteel поножи",
+  "item.buddycards.buddysteel_boots": "Buddysteel ботинки",
+  "item.buddycards.buddysteel_key": "Buddysteel ключ",
+  
+  "item.buddycards.perfect_buddysteel_sword": "Идеальный Buddysteel меч",
+  "item.buddycards.perfect_buddysteel_axe": "Идеальный Buddysteel топор",
+  "item.buddycards.perfect_buddysteel_pickaxe": "Идеальная Buddysteel кирка",
+  "item.buddycards.perfect_buddysteel_shovel": "Идеальная Buddysteel лопата",
+  "item.buddycards.perfect_buddysteel_hoe": "Идеальная Buddysteel мотыга",
+  "item.buddycards.perfect_buddysteel_helmet": "Идеальный Buddysteel шлем",
+  "item.buddycards.perfect_buddysteel_chestplate": "Идеальный Buddysteel нагрудник",
+  "item.buddycards.perfect_buddysteel_leggings": "Идеальные Buddysteel поножи",
+  "item.buddycards.perfect_buddysteel_boots": "Идеальные Buddysteel ботинки",
+  "item.buddycards.perfect_buddysteel_medal": "Идеальная Buddysteel медаль",
+  
+  "item.buddycards.yannel": "Яннель",
+  "item.buddycards.yannel_fabric": "Яннель ткань",
+  "item.buddycards.yannel_helmet": "Яннель шлем",
+  "item.buddycards.yannel_boots": "Яннель ботинки",
+  
+  "item.buddycards.spawn_egg_enderling": "Enderling Spawn Egg",
+  
+  "item.buddycards.buddysteel_gear.desc": "Нажмите ПКМ, чтобы получить Buddycard бонусы",
+  "item.buddycards.buddysteel_gear.warn": "Невозможно обновить зачарования без предварительного удаления старых!",
+  "item.buddycards.buddysteel_gear.low": "Ваша коллекция слишком мала, чтобы получить какие-либо усиления! Соберите ещё несколько карт и попробуйте ещё раз!",
+  
+  "item.buddycards.set.0": "Все наборы",
+  "item.buddycards.set.1": "Базовый набор",
+  "item.buddycards.set.2": "Адский набор",
+  "item.buddycards.set.3": "Набор Края",
+  
+  "item.buddycards.card.1.1": "Saps",
+  "item.buddycards.card.1.1.tooltip": "Однажды он вырастет и станет деревом!",
+  
+  "item.buddycards.card.1.2": "Rok",
+  "item.buddycards.card.1.2.tooltip": "На самом деле не любит рок, предпочитает хэви-метал.",
+  
+  "item.buddycards.card.1.3": "Oinke",
+  "item.buddycards.card.1.3.tooltip": "Кто-нибудь еще чувствует запах бекона?",
+  
+  "item.buddycards.card.1.4": "Cole",
+  "item.buddycards.card.1.4.tooltip": "Небезопасен для употребления в пищу человеком.",
+  
+  "item.buddycards.card.1.5": "Metalico",
+  "item.buddycards.card.1.5.tooltip": "О, какая ирония судьбы.",
+  
+  "item.buddycards.card.1.6": "Dr.Lazuli",
+  "item.buddycards.card.1.6.tooltip": "Один из самых бесполезных врачей.",
+  
+  "item.buddycards.card.1.7": "Betsy",
+  "item.buddycards.card.1.7.tooltip": "Ей не нравится, когда ее называют коровой.",
+  
+  "item.buddycards.card.1.8": "Snowbelle",
+  "item.buddycards.card.1.8.tooltip": "Она - самая красивая форма воды!",
+  
+  "item.buddycards.card.1.9": "Aqua",
+  "item.buddycards.card.1.9.tooltip": "Не слушай его сестру, он тоже хорошенький.",
+  
+  "item.buddycards.card.1.10": "Fortuna",
+  "item.buddycards.card.1.10.tooltip": "Счастливые числа: 12 2 3 8 10",
+  
+  "item.buddycards.card.1.11": "Weet",
+  "item.buddycards.card.1.11.tooltip": "Любим всеми пекарями в округе.",
+  
+  "item.buddycards.card.1.12": "Grassling",
+  "item.buddycards.card.1.12.tooltip": "Ему не все равно, когда никто не заботится.",
+  
+  "item.buddycards.card.1.13": "Yang",
+  "item.buddycards.card.1.13.tooltip": "Хороший мальчик, лучший из мальчиков.",
+  
+  "item.buddycards.card.1.14": "Yin",
+  "item.buddycards.card.1.14.tooltip": "Не оставляй для нее ничего на столе.",
+  
+  "item.buddycards.card.1.15": "Bling",
+  "item.buddycards.card.1.15.tooltip": "Пусть деньги текут рекой! Самый богатый приятель!",
+  
+  "item.buddycards.card.1.16": "Emerelda",
+  "item.buddycards.card.1.16.tooltip": "Любим сельским сообществом отаку.",
+  
+  "item.buddycards.card.1.17": "Dio",
+  "item.buddycards.card.1.17.tooltip": "Он неуязвим.",
+  
+  "item.buddycards.card.1.18": "Treatsy",
+  "item.buddycards.card.1.18.tooltip": "Не ешьте ее! Она слишком драгоценна!",
+  
+  "item.buddycards.card.1.19": "Red",
+  "item.buddycards.card.1.19.tooltip": "Лучший друг инженера.",
+  
+  "item.buddycards.card.1.20": "Melony",
+  "item.buddycards.card.1.20.tooltip": "У нее фруктовый характер!",
+  
+  "item.buddycards.card.1.21": "Spoopy",
+  "item.buddycards.card.1.21.tooltip": "Он стесняется своего лица.",
+  
+  "item.buddycards.card.1.22": "Knall-Edgey",
+  "item.buddycards.card.1.22.tooltip": "Мрачный и задумчивый.",
+  
+  "item.buddycards.card.1.23": "Caster",
+  "item.buddycards.card.1.23.tooltip": "Не любит хэви-метал, предпочитает рок.",
+  
+  "item.buddycards.card.1.24": "Pisty",
+  "item.buddycards.card.1.24.tooltip": "Иногда она может быть немного назойливой.",
+  
+  "item.buddycards.card.1.25": "Knight",
+  "item.buddycards.card.1.25.tooltip": "Фиринда лазерс.",
+  
+  "item.buddycards.card.1.26": "Creator",
+  "item.buddycards.card.1.26.tooltip": "Они сделали все. Возможно.",
+  
+  "item.buddycards.card.1.27": "Meltor",
+  "item.buddycards.card.1.27.tooltip": "Некоторых людей вот-вот поджарят.",
+  
+  "item.buddycards.card.2.1": "Brik",
+  "item.buddycards.card.2.1.tooltip": "Они забавные!",
+  
+  "item.buddycards.card.2.2": "Obby",
+  "item.buddycards.card.2.2.tooltip": "Немного разбирается в темной магии.",
+  
+  "item.buddycards.card.2.3": "Brite",
+  "item.buddycards.card.2.3.tooltip": "Известна своим лучезарным сиянием.",
+  
+  "item.buddycards.card.2.4": "Slinky",
+  "item.buddycards.card.2.4.tooltip": "Любит подпрыгивать на месте.",
+  
+  "item.buddycards.card.2.5": "Big Pig",
+  "item.buddycards.card.2.5.tooltip": "Он настоящий боец! Абсолютный шокер!",
+  
+  "item.buddycards.card.2.6": "Sol",
+  "item.buddycards.card.2.6.tooltip": "Никто на самом деле не знает, из чего они сделаны.",
+  
+  "item.buddycards.card.2.7": "Baisal",
+  "item.buddycards.card.2.7.tooltip": "Столь же драматичен, сколь и магматичен.",
+  
+  "item.buddycards.card.2.8": "Vinnie",
+  "item.buddycards.card.2.8.tooltip": "Она вся запуталась.",
+  
+  "item.buddycards.card.2.9": "Shroom",
+  "item.buddycards.card.2.9.tooltip": "Однажды он вырастет и станет большим грибом!",
+  
+  "item.buddycards.card.2.10": "Warp Nye",
+  "item.buddycards.card.2.10.tooltip": "ДЕФОРМАЦИЯ! ДЕФОРМАЦИЯ! ДЕФОРМАЦИЯ!",
+  
+  "item.buddycards.card.2.11": "Fya",
+  "item.buddycards.card.2.11.tooltip": "Горячий.",
+  
+  "item.buddycards.card.2.12": "Magma",
+  "item.buddycards.card.2.12.tooltip": "Копай прямо вниз, она тебя поймает!",
+  
+  "item.buddycards.card.2.13": "Skully",
+  "item.buddycards.card.2.13.tooltip": "Он очень гордится своим мастерством владения мечом.",
+  
+  "item.buddycards.card.2.14": "Blazt",
+  "item.buddycards.card.2.14.tooltip": "Немного не в себе.",
+  
+  "item.buddycards.card.2.15": "Quazi",
+  "item.buddycards.card.2.15.tooltip": "Новый лучший друг инженера.",
+  
+  "item.buddycards.card.2.16": "Hot Pot",
+  "item.buddycards.card.2.16.tooltip": "Всегда поможет в трудную минуту!",
+  
+  "item.buddycards.card.2.17": "Crybaby",
+  "item.buddycards.card.2.17.tooltip": "Это просто аллергия!",
+  
+  "item.buddycards.card.2.18": "Fyo",
+  "item.buddycards.card.2.18.tooltip": "Горячее.",
+  
+  "item.buddycards.card.2.19": "Lamp",
+  "item.buddycards.card.2.19.tooltip": "Не оставляйте его в подвешенном состоянии!",
+  
+  "item.buddycards.card.2.20": "Ghost",
+  "item.buddycards.card.2.20.tooltip": "Она уже много лет изрыгает огонь.",
+  
+  "item.buddycards.card.2.21": "Stride",
+  "item.buddycards.card.2.21.tooltip": "У него холодные ноги.",
+  
+  "item.buddycards.card.2.22": "Bartender",
+  "item.buddycards.card.2.22.tooltip": "У них назревают какие-то неприятности.",
+  
+  "item.buddycards.card.2.23": "Port",
+  "item.buddycards.card.2.23.tooltip": "Теперь вы мыслите масштабами!",
+  
+  "item.buddycards.card.2.24": "Triple",
+  "item.buddycards.card.2.24.tooltip": "Возможно, не все три лица поместились на карточке.",
+  
+  "item.buddycards.card.2.25": "Anker",
+  "item.buddycards.card.2.25.tooltip": "Известен своими навыками некромантии.",
+  
+  "item.buddycards.card.2.26": "Beaker",
+  "item.buddycards.card.2.26.tooltip": "Легенды гласят, что их луч достигает глубокого космоса.",
+  
+  "item.buddycards.card.2.27": "N-Rite",
+  "item.buddycards.card.2.27.tooltip": "Легенды гласят, что они самые сильные друзья.",
+  
+  "item.buddycards.card.3.1": "Enrok",
+  "item.buddycards.card.3.1.tooltip": "Некоторые думают, что она сделана из сыра.",
+  
+  "item.buddycards.card.3.2": "Chester",
+  "item.buddycards.card.3.2.tooltip": "Они сами в некотором роде коллекционеры.",
+  
+  "item.buddycards.card.3.3": "Scales",
+  "item.buddycards.card.3.3.tooltip": "Она летчик-ас.",
+  
+  "item.buddycards.card.3.4": "Vwoop",
+  "item.buddycards.card.3.4.tooltip": "Использует контактные линзы, на самом деле у них зеленые глаза.",
+  
+  "item.buddycards.card.3.5": "Silver",
+  "item.buddycards.card.3.5.tooltip": "По-моему, очень маленькая лошадка.",
+  
+  "item.buddycards.card.3.6": "Libraria",
+  "item.buddycards.card.3.6.tooltip": "Не фанат модных вагонеток.",
+  
+  "item.buddycards.card.3.7": "Airow",
+  "item.buddycards.card.3.7.tooltip": "Любит летать, но у него нет крыльев.",
+  
+  "item.buddycards.card.3.8": "Webster",
+  "item.buddycards.card.3.8.tooltip": "Он прочитал все книги и знает каждое слово.",
+  
+  "item.buddycards.card.3.9": "Perl",
+  "item.buddycards.card.3.9.tooltip": "Живость, живость!",
+  
+  "item.buddycards.card.3.10": "Frooty",
+  "item.buddycards.card.3.10.tooltip": "На вкус как курица.",
+  
+  "item.buddycards.card.3.11": "Rod",
+  "item.buddycards.card.3.11.tooltip": "Не путать со свечами.",
+  
+  "item.buddycards.card.3.12": "Rokit",
+  "item.buddycards.card.3.12.tooltip": "Он собирается полететь на Луну!",
+  
+  "item.buddycards.card.3.13": "Wally",
+  "item.buddycards.card.3.13.tooltip": "Он защищал.",
+  
+  "item.buddycards.card.3.14": "Flouer",
+  "item.buddycards.card.3.14.tooltip": "Не похоже на настоящий цветок.",
+  
+  "item.buddycards.card.3.15": "Lingerer",
+  "item.buddycards.card.3.15.tooltip": "Не помешала бы мятная пастилка для дыхания.",
+  
+  "item.buddycards.card.3.16": "Chorus",
+  "item.buddycards.card.3.16.tooltip": "Он лучший в караоке.",
+  
+  "item.buddycards.card.3.17": "Shulk",
+  "item.buddycards.card.3.17.tooltip": "Она немного застенчивая.",
+  
+  "item.buddycards.card.3.18": "Menace",
+  "item.buddycards.card.3.18.tooltip": "Ты увидишь его в своих ночных кошмарах!",
+  
+  "item.buddycards.card.3.19": "Visionary",
+  "item.buddycards.card.3.19.tooltip": "Всевидящее око. Он видит всякое.",
+  
+  "item.buddycards.card.3.20": "Sleeper",
+  "item.buddycards.card.3.20.tooltip": "Печально известный охотник на драконов.",
+  
+  "item.buddycards.card.3.21": "Spectre",
+  "item.buddycards.card.3.21.tooltip": "Магия!",
+  
+  "item.buddycards.card.3.22": "Package",
+  "item.buddycards.card.3.22.tooltip": "Он запасается всевозможными вещами.",
+  
+  "item.buddycards.card.3.23": "Brok",
+  "item.buddycards.card.3.23.tooltip": "Поистине нерушимый.",
+  
+  "item.buddycards.card.3.24": "Portz",
+  "item.buddycards.card.3.24.tooltip": "Намного круче, чем портвейн.",
+  
+  "item.buddycards.card.3.25": "Crystal",
+  "item.buddycards.card.3.25.tooltip": "Кто вызвал врача?"
+  ,
+  "item.buddycards.card.3.26": "Glider",
+  "item.buddycards.card.3.26.tooltip": "Лучший друг искателя приключений.",
+  
+  "item.buddycards.card.3.27": "Ender",
+  "item.buddycards.card.3.27.tooltip": "Здесь будут драконы.",
+  
+  "item.buddycards.contains.1": "Содержит 4 Buddycards",
+  "item.buddycards.contains.2": "Содержит 4 Buddycards",
+  "item.buddycards.contains.3": "Содержит 4 Buddycards",
+  "item.buddycards.contains.0": "Содержит 9 Buddycards",
+  
+  "item.buddycards.shiny_symbol": "☆",
+  "item.buddycards.number_separator": " - ",
+  "item.buddycards.medal.desc": "Получено с помощью ",
+  "item.buddycards.grade_info": "Класс ",
+  "item.buddycards.points_info": "Точки: ",
+  "item.buddycards.grade_1": "D",
+  "item.buddycards.grade_2": "C",
+  "item.buddycards.grade_3": "B",
+  "item.buddycards.grade_4": "A",
+  "item.buddycards.grade_5": "S",
+  
+  "item.buddycards.binder.fail_unlock": "Только игрок, который заблокировал эту папку, может разблокировать ее.",
+  "item.buddycards.binder.lock": "Эта папка заперта, снова используйте ключ, который у вас в руке, чтобы открыть!",
+  "item.buddycards.binder.unlock": "Эта папка не заперта, снова используйте ключ, который у вас в руке, чтобы запереть!",
+  "itemGroup.buddycards": "Buddycards",
+  "itemGroup.buddycards_cards": "Buddycards карты",
+  
+  "advancements.buddycards.main.root": "Buddycards",
+  "advancements.buddycards.main.root.desc": "Получите свою первую карту Buddycards",
+  "advancements.buddycards.main.epic_card": "Удачный рывок",
+  "advancements.buddycards.main.epic_card.desc": "Получите карту эпической редкости",
+  "advancements.buddycards.main.killing_villager": "Ты чудовище",
+  "advancements.buddycards.main.killing_villager.desc": "Убейте ребенка, чтобы заполучить их Buddycards наборы",
+  "advancements.buddycards.main.buddysteel": "Подделывание Buddycards",
+  "advancements.buddycards.main.buddysteel.desc": "Расплавьте Buddysteel смесь в Buddysteel слиток",
+  "advancements.buddycards.main.buddysteel_hoe": "Почему-",
+  "advancements.buddycards.main.buddysteel_hoe.desc": "Пожалуйста, не надо",
+  "advancements.buddycards.main.pbuddysteel_hoe": "Почему---",
+  "advancements.buddycards.main.pbuddysteel_hoe.desc": "Кто ты такой, почему, что, почему",
+  "advancements.buddycards.main.buddysteel_armor": "Накрой меня карточками",
+  "advancements.buddycards.main.buddysteel_armor.desc": "Сделайте полный комплект Buddysteel брони",
+  "advancements.buddycards.main.nether_pack": "Более горячие приятели",
+  "advancements.buddycards.main.nether_pack.desc": "Получите набор Buddycards из адского набора",
+  "advancements.buddycards.main.end_pack": "Драконьи приятели",
+  "advancements.buddycards.main.end_pack.desc": "Получите набор Buddycards из набора края",
+  "advancements.buddycards.main.complete_set1": "Базовый набор",
+  "advancements.buddycards.main.complete_set1.desc": "Получите все карты из базового набора",
+  "advancements.buddycards.main.complete_set2": "Адский набор",
+  "advancements.buddycards.main.complete_set2.desc": "Получите все карты из адского набора",
+  "advancements.buddycards.main.complete_set3": "Набор края",
+  "advancements.buddycards.main.complete_set3.desc": "Получите все карты из набора края",
+  
+  "item.buddycards.buddysteel_gear.desc1": "Питание разблокировано: ",
+  "item.buddycards.buddysteel_gear.desc2": "%",
+  "item.buddycards.buddysteel_gear.desc3": "§8Нажмите ПКМ, чтобы обновить питание",
+  
+  "enchantment.buddycards.buddy_binding": "Buddy переплёт",
+  "enchantment.buddycards.buddy_boost": "Buddy усилитель",
+  "enchantment.buddycards.extra_page": "Дополнительная страница",
+  "enchantment.buddycards.buddycard_barrier": "Buddycard барьер",
+  "enchantment.buddycards.buddycard_break": "Buddycard выключатель",
+  "enchantment.buddycards.buddycard_blade": "Buddycard лезвие",
+  "enchantment.buddycards.kinetic_protection": "Кинетическая защита",
+  "enchantment.buddycards.buddy_binding.desc": "Привязывает предмет к вам и дает шанс сохранить его после смерти.",
+  "enchantment.buddycards.buddy_boost.desc": "Дает бонусные эффекты к медали, варьирующиеся в зависимости от медали.",
+  "enchantment.buddycards.extra_page.desc": "Значительно увеличивает количество слотов в переплете.",
+  "enchantment.buddycards.buddycard_barrier.desc": "Усиливает защиту брони из Buddysteel, Luminis и циклекса.",
+  "enchantment.buddycards.buddycard_break.desc": "Buffs Buddysteel, Luminis, and Zylex tool efficiency.",
+  "enchantment.buddycards.buddycard_blade.desc": "Buffs Buddysteel weapon damage",
+  "enchantment.buddycards.kinetic_protection.desc": "Защищает вас от кинетических повреждений",
+  "enchantment.level.0": "§kNULL",
+  
+  "effect.buddycards.grading_luck": "Оценивающая удача",
+  "effect.buddycards.safe_landing": "Безопасный спуск",
+  
+  "entity.buddycards.enderling": "Эндерлинг",
+  
+  "item.minecraft.potion.effect.grading_luck": "Зелье оценивающей удачи",
+  "item.minecraft.potion.effect.grading_luck_strong": "Зелье оценивающей удачи",
+  "item.minecraft.potion.effect.grading_luck_long": "Зелье оценивающей удачи",
+  "item.minecraft.potion.effect.safe_landing": "Зелье безопасного спуска",
+  "item.minecraft.potion.effect.safe_landing_long": "Зелье безопасного спуска",
+  "item.minecraft.potion.effect.rocketeer": "Зелье ракетчика",
+  "item.minecraft.potion.effect.rocketeer_long": "Зелье ракетчика",
+  
+  "item.minecraft.splash_potion.effect.grading_luck": "Взрывающееся зелье оценивающей удачи",
+  "item.minecraft.splash_potion.effect.grading_luck_strong": "Взрывающееся зелье оценивающей удачи",
+  "item.minecraft.splash_potion.effect.grading_luck_long": "Взрывающееся зелье оценивающей удачи",
+  "item.minecraft.splash_potion.effect.safe_landing": "Взрывающееся зелье безопасного спуска",
+  "item.minecraft.splash_potion.effect.safe_landing_long": "Взрывающееся зелье безопасного спуска",
+  "item.minecraft.splash_potion.effect.rocketeer": "Взрывающееся зелье ракетчика",
+  "item.minecraft.splash_potion.effect.rocketeer_long": "Взрывающееся зелье ракетчика",
+  
+  "item.minecraft.lingering_potion.effect.grading_luck": "Затяжное зелье оценивающей удачи",
+  "item.minecraft.lingering_potion.effect.grading_luck_strong": "Затяжное зелье оценивающей удачи",
+  "item.minecraft.lingering_potion.effect.grading_luck_long": "Затяжное зелье оценивающей удачи",
+  "item.minecraft.lingering_potion.effect.safe_landing": "Затяжное зелье безопасного спуска",
+  "item.minecraft.lingering_potion.effect.safe_landing_long": "Затяжное зелье безопасного спуска",
+  "item.minecraft.lingering_potion.effect.rocketeer": "Затяжное зелье ракетчика",
+  "item.minecraft.lingering_potion.effect.rocketeer_long": "Затяжное зелье ракетчика",
+  
+  "item.minecraft.tipped_arrow.effect.grading_luck": "Стрела оценивающей удачи",
+  "item.minecraft.tipped_arrow.effect.grading_luck_strong": "Стрела оценивающей удачи",
+  "item.minecraft.tipped_arrow.effect.grading_luck_long": "Стрела оценивающей удачи",
+  "item.minecraft.tipped_arrow.effect.safe_landing": "Стрела безопасного спуска",
+  "item.minecraft.tipped_arrow.effect.safe_landing_long": "Стрела безопасного спуска",
+  "item.minecraft.tipped_arrow.effect.rocketeer": "Стрела ракетчика",
+  "item.minecraft.tipped_arrow.effect.rocketeer_long": "Стрела ракетчика",
+  
+  "potion.potency.100": "C",
+  "curios.identifier.medal": "Медаль",
+  "bountiful.decree.collector.name": "Сбор",
+
+  "block.buddycards.aspen_card_display": "Дисплей карты Aspen",
+  "block.buddycards.baobab_card_display": "Дисплей карты Baobab",
+  "block.buddycards.blue_enchanted_card_display": "Синий зачарованный дисплей карты",
+  "block.buddycards.bulbis_card_display": "Дисплей карты Bulbis",
+  "block.buddycards.cherry_card_display": "Дисплей карты Cherry",
+  "block.buddycards.cika_card_display": "Дисплей карты Cika",
+  "block.buddycards.cypress_card_display": "Дисплей карты Cypress",
+  "block.buddycards.ebony_card_display": "Дисплей карты Ebony",
+  "block.buddycards.embur_card_display": "Дисплей карты Embur",
+  "block.buddycards.ether_card_display": "Дисплей карты Ether",
+  "block.buddycards.fir_card_display": "Дисплей карты Fir",
+  "block.buddycards.glacial_oak_card_display": "Дисплей карты Glacial Oak",
+  "block.buddycards.green_enchanted_card_display": "Зелёный зачарованный дисплей карты",
+  "block.buddycards.holly_card_display": "Дисплей карты Holly",
+  "block.buddycards.jacaranda_card_display": "Дисплей карты Jacaranda",
+  "block.buddycards.lament_card_display": "Дисплей карты Lament",
+  "block.buddycards.mahogany_card_display": "Дисплей карты Mahogany",
+  "block.buddycards.mangrove_card_display": "Дисплей карты Mangrove",
+  "block.buddycards.maple_card_display": "Дисплей карты Maple",
+  "block.buddycards.nightshade_card_display": "Дисплей карты Nightshade",
+  "block.buddycards.palm_card_display": "Дисплей карты Palm",
+  "block.buddycards.pine_card_display": "Дисплей карты Pine",
+  "block.buddycards.rainbow_eucalyptus_card_display": "Дисплей карты Rainbow Eucalyptus",
+  "block.buddycards.redwood_card_display": "Дисплей карты Redwood",
+  "block.buddycards.skyris_card_display": "Дисплей карты Skyris",
+  "block.buddycards.sythian_card_display": "Дисплей карты Sythian",
+  "block.buddycards.willow_card_display": "Дисплей карты Willow",
+  "block.buddycards.witch_hazel_card_display": "Дисплей карты Witch Hazel",
+  "block.buddycards.zelkova_card_display": "Дисплей карты Zelkova",
+  
+  "item.buddycards.pack.4": "Buddycard пак",
+  "item.buddycards.binder.4": "Buddycard переплёт",
+  "item.buddycards.medal.4": "Byg сет Buddy медаль",
+  "item.buddycards.set.4": "Byg сет",
+  
+  "item.buddycards.card.4.1": "Mudd",
+  "item.buddycards.card.4.1.tooltip": "Ему не помешал бы душ.",
+  
+  "item.buddycards.card.4.2": "Grover",
+  "item.buddycards.card.4.2.tooltip": "Он всегда как палка в колесе.",
+  
+  "item.buddycards.card.4.3": "Maple",
+  "item.buddycards.card.4.3.tooltip": "Почему такой серый мистер Мэйпл?",
+  
+  "item.buddycards.card.4.4": "Gapple",
+  "item.buddycards.card.4.4.tooltip": "Буква g означает зеленый, а не золотой.",
+  
+  "item.buddycards.card.4.5": "Redrok",
+  "item.buddycards.card.4.5.tooltip": "Почему они красные? Никто не знает.",
+  
+  "item.buddycards.card.4.6": "Frostling",
+  "item.buddycards.card.4.6.tooltip": "Она немного замерзла.",
+  
+  "item.buddycards.card.4.7": "Holly",
+  "item.buddycards.card.4.7.tooltip": "Теперь ты должен поцеловаться. Это правило, верно?",
+  
+  "item.buddycards.card.4.8": "Lignot",
+  "item.buddycards.card.4.8.tooltip": "Они не устраивали пожар.",
+  
+  "item.buddycards.card.4.9": "Lily",
+  "item.buddycards.card.4.9.tooltip": "Такая же красивая, как закат.",
+  
+  "item.buddycards.card.4.10": "Synth",
+  "item.buddycards.card.4.10.tooltip": "Не любит синтезатор, предпочитает кантри.",
+  
+  "item.buddycards.card.4.11": "Pricklina",
+  "item.buddycards.card.4.11.tooltip": "Разве у нее не красивые цветы?",
+  
+  "item.buddycards.card.4.12": "Root",
+  "item.buddycards.card.4.12.tooltip": "У меня мурашки по коже.",
+  
+  "item.buddycards.card.4.13": "Shade",
+  "item.buddycards.card.4.13.tooltip": "На вкус как волшебство.",
+  
+  "item.buddycards.card.4.14": "Ashes",
+  "item.buddycards.card.4.14.tooltip": "У него осталось не так уж много времени.",
+  
+  "item.buddycards.card.4.15": "Lite",
+  "item.buddycards.card.4.15.tooltip": "Она сияет ярко, как звезда.",
+  
+  "item.buddycards.card.4.16": "Cryptic Fya",
+  "item.buddycards.card.4.16.tooltip": "Она любит судоку и кроссворды.",
+  
+  "item.buddycards.card.4.17": "Ebony Black",
+  "item.buddycards.card.4.17.tooltip": "Имена Черные, Эбеново-черные.",
+  
+  "item.buddycards.card.4.18": "Theorym",
+  "item.buddycards.card.4.18.tooltip": "Но это всего лишь теория.",
+  
+  "item.buddycards.card.4.19": "Green",
+  "item.buddycards.card.4.19.tooltip": "Хотя он действительно зеленый.",
+  
+  "item.buddycards.card.4.20": "Sorrow",
+  "item.buddycards.card.4.20.tooltip": "Она о чем-то сокрушается.",
+  
+  "item.buddycards.card.4.21": "Jackaranadara",
+  "item.buddycards.card.4.21.tooltip": "Повтори это пять раз быстро.",
+  
+  "item.buddycards.card.4.22": "Sakura",
+  "item.buddycards.card.4.22.tooltip": "Любит грузить вещи.",
+  
+  "item.buddycards.card.4.23": "Emburr",
+  "item.buddycards.card.4.23.tooltip": "Он скользкий тип!",
+  
+  "item.buddycards.card.4.24": "Enchantress",
+  "item.buddycards.card.4.24.tooltip": "Светится под ночным небом.",
+  
+  "item.buddycards.card.4.25": "Tall",
+  "item.buddycards.card.4.25.tooltip": "Самый высокий приятель. Несомненно. Верно?",
+  
+  "item.buddycards.card.4.26": "Amy-T",
+  "item.buddycards.card.4.26.tooltip": "Крепче, чем алмазы.",
+  
+  "item.buddycards.card.4.27": "Penny-D",
+  "item.buddycards.card.4.27.tooltip": "Острее стали.",
+  
+  "item.buddycards.contains.4": "Содержит 4 Buddycards",
+  "advancements.buddycards.main.byg_pack": "Oh The Buddycards Вы нашли!",
+  "advancements.buddycards.main.byg_pack.desc": "Возьмите колоду Buddycards из сета byg",
+  "advancements.buddycards.main.complete_set4": "Byg сет",
+  "advancements.buddycards.main.complete_set4.desc": "Получите все карты из сета byg",
+
+  "item.buddycards.shredded_buddycard": "Измельчённый Buddycard",
+  "item.buddycards.pack.5": "Buddycard пак",
+  "item.buddycards.binder.5": "Buddycard переплёт",
+  "item.buddycards.medal.5": "Create сет Buddy медаль",
+  "item.buddycards.set.5": "Create сет",
+  "item.buddycards.recycled_buddycard": "Переработанный Buddycard",
+  "item.buddycards.unfinished_pack": "Незавершенный Buddycard пак",
+  
+  "item.buddycards.card.5.1": "Adnestine",
+  "item.buddycards.card.5.1.tooltip": "Немного тверже камня.",
+  
+  "item.buddycards.card.5.2": "Cog Jr",
+  "item.buddycards.card.5.2.tooltip": "Что приходит, то и уходит.",
+  
+  "item.buddycards.card.5.3": "Cog Sr",
+  "item.buddycards.card.5.3.tooltip": "Что посеешь, то и пожнешь.",
+  
+  "item.buddycards.card.5.4": "Encase",
+  "item.buddycards.card.5.4.tooltip": "Немного прочнее камня и дерева.",
+  
+  "item.buddycards.card.5.5": "Gale",
+  "item.buddycards.card.5.5.tooltip": "На улице ветрено!",
+  
+  "item.buddycards.card.5.6": "Coppor",
+  "item.buddycards.card.5.6.tooltip": "Тебе никогда не взять их живыми!",
+  
+  "item.buddycards.card.5.7": "Zink",
+  "item.buddycards.card.5.7.tooltip": "Необычная штучка.",
+  
+  "item.buddycards.card.5.8": "Krush",
+  "item.buddycards.card.5.8.tooltip": "Заставляет кости хрустеть.",
+  
+  "item.buddycards.card.5.9": "Bluprint",
+  "item.buddycards.card.5.9.tooltip": "Говорю вам, это прямо как лего!",
+  
+  "item.buddycards.card.5.10": "Gloo",
+  "item.buddycards.card.5.10.tooltip": "Трудно заставить ее оставить все как есть.",
+  
+  "item.buddycards.card.5.11": "Conveyer",
+  "item.buddycards.card.5.11.tooltip": "Трудолюбивый работник, таскает с собой много вещей.",
+  
+  "item.buddycards.card.5.12": "Tunel",
+  "item.buddycards.card.5.12.tooltip": "Секретный туннель! Секретный туннель!",
+  
+  "item.buddycards.card.5.13": "Brash",
+  "item.buddycards.card.5.13.tooltip": "Выглядит как золото.",
+  
+  "item.buddycards.card.5.14": "Case",
+  "item.buddycards.card.5.14.tooltip": "Немного прочнее, чем латунь и дерево.",
+  
+  "item.buddycards.card.5.15": "Piper",
+  "item.buddycards.card.5.15.tooltip": "Может быть, это работает даже под водой?",
+  
+  "item.buddycards.card.5.16": "Rose",
+  "item.buddycards.card.5.16.tooltip": "Она такая прелесть!",
+  
+  "item.buddycards.card.5.17": "Sticky Finger",
+  "item.buddycards.card.5.17.tooltip": "Может делать все, что под силу настоящей руке!",
+  
+  "item.buddycards.card.5.18": "Cirkit",
+  "item.buddycards.card.5.18.tooltip": "Это не i9, но сойдет.",
+  
+  "item.buddycards.card.5.19": "Blaz Treat",
+  "item.buddycards.card.5.19.tooltip": "Небезопасен для употребления в пищу человеком.",
+  
+  "item.buddycards.card.5.20": "Tee",
+  "item.buddycards.card.5.20.tooltip": "Считай, что оно пролилось.",
+  
+  "item.buddycards.card.5.21": "Choko",
+  "item.buddycards.card.5.21.tooltip": "Технически это яд.",
+  
+  "item.buddycards.card.5.22": "Chrome",
+  "item.buddycards.card.5.22.tooltip": "На него легко повлиять.",
+  
+  "item.buddycards.card.5.23": "Armm",
+  "item.buddycards.card.5.23.tooltip": "Действительно пригодится.",
+  
+  "item.buddycards.card.5.24": "Glasses",
+  "item.buddycards.card.5.24.tooltip": "Он видит, как вращаются шестеренки.",
+  
+  "item.buddycards.card.5.25": "Speedo",
+  "item.buddycards.card.5.25.tooltip": "Вы знаете, с какой скоростью вы вращались, сэр?",
+  
+  "item.buddycards.card.5.26": "Lumi",
+  "item.buddycards.card.5.26.tooltip": "Ярче солнца.",
+  
+  "item.buddycards.card.5.27": "Nite",
+  "item.buddycards.card.5.27.tooltip": "Темнее, чем пустота.",
+  
+  "item.buddycards.contains.5": "Содержит 4 Buddycards",
+  "advancements.buddycards.main.create_pack": "Переработка!",
+  "advancements.buddycards.main.create_pack.desc": "Соберите несколько карт в колоду Buddycards из Create сета",
+  "advancements.buddycards.main.complete_set5": "Create сет",
+  "advancements.buddycards.main.complete_set5.desc": "Получите все карты из Create сета",
+
+  "item.buddycards.buddycard_hook": "Крючок из Buddysteel",
+  "item.buddycards.buddysteel_fillet_knife": "Филейный нож из Buddysteel",
+  "item.buddycards.buddysteel_fishing_rod": "Удочка из Buddysteel",
+  
+  "item.buddycards.pack.6": "Buddycard комплект",
+  "item.buddycards.binder.6": "Buddycard переплёт",
+  "item.buddycards.medal.6": "Aquaculture сет Buddy медаль",
+  "item.buddycards.set.6": "Aquaculture сет",
+  
+  "item.buddycards.card.6.1": "Algee",
+  "item.buddycards.card.6.1.tooltip": "Оно существует? Ты не хочешь к нему прикасаться.",
+  
+  "item.buddycards.card.6.2": "Ribs",
+  "item.buddycards.card.6.2.tooltip": "Он управляет очень успешным грилем.",
+  
+  "item.buddycards.card.6.3": "Bate",
+  "item.buddycards.card.6.3.tooltip": "Кто живет в воздушном пузыре под землей?",
+  
+  "item.buddycards.card.6.4": "Letter",
+  "item.buddycards.card.6.4.tooltip": "У нее есть история, и она путешествует по миру.",
+  
+  "item.buddycards.card.6.5": "Line",
+  "item.buddycards.card.6.5.tooltip": "Она ловит мелкую рыбешку.",
+  
+  "item.buddycards.card.6.6": "Tinkan",
+  "item.buddycards.card.6.6.tooltip": "Раньше он ел томатный суп.",
+  
+  "item.buddycards.card.6.7": "Drifter",
+  "item.buddycards.card.6.7.tooltip": "Медленно уплывает прочь.",
+  
+  "item.buddycards.card.6.8": "Bob",
+  "item.buddycards.card.6.8.tooltip": "Поплавок подпрыгивает. Это то, что он делает. Поплавок подпрыгивает.",
+  
+  "item.buddycards.card.6.9": "Shushi",
+  "item.buddycards.card.6.9.tooltip": "Приятный на вкус.",
+  
+  "item.buddycards.card.6.10": "Fromg",
+  "item.buddycards.card.6.10.tooltip": "Очень старый, много раз кривился.",
+  
+  "item.buddycards.card.6.11": "Cap'n",
+  "item.buddycards.card.6.11.tooltip": "Почти каждый день прогуливает школу.",
+  
+  "item.buddycards.card.6.12": "Jelli",
+  "item.buddycards.card.6.12.tooltip": "Мягкий и вонючий.",
+  
+  "item.buddycards.card.6.13": "Minnie",
+  "item.buddycards.card.6.13.tooltip": "Если у вас есть каламбур получше, позвольте минноу.",
+  
+  "item.buddycards.card.6.14": "Baitbox",
+  "item.buddycards.card.6.14.tooltip": "Шутка была не очень эффектной-",
+  
+  "item.buddycards.card.6.15": "Takle",
+  "item.buddycards.card.6.15.tooltip": "Шутка была не очень эффектной-",
+  
+  "item.buddycards.card.6.16": "Goldy",
+  "item.buddycards.card.6.16.tooltip": "Она пришла из цирка и недели не протянет.",
+  
+  "item.buddycards.card.6.17": "Fishier",
+  "item.buddycards.card.6.17.tooltip": "Ловлю рыбу покрупнее.",
+  
+  "item.buddycards.card.6.18": "Poseidon",
+  "item.buddycards.card.6.18.tooltip": "Правитель бескрайних морей.",
+  
+  "item.buddycards.contains.6": "Содержит 3 Buddycards",
+  "advancements.buddycards.main.buddyhook": "Ушел на рыбалку",
+  "advancements.buddycards.main.buddyhook.desc": "Создайте крючок из Buddycard, чтобы поймать Buddycards из Aquaculture сета",
+  "advancements.buddycards.main.complete_set6": "Aquaculture сет",
+  "advancements.buddycards.main.complete_set6.desc": "Получите каждую карту из Aquaculture сета",
+
+  "item.buddycards.buddybeans": "Buddybeans",
+  "item.buddycards.assorted_gummies": "Ассорти Buddygummies",
+  "item.buddycards.buddysteel_food_knife": "Нож из Buddysteel",
+  
+  "item.buddycards.pack.7": "Buddycard комплект",
+  "item.buddycards.binder.7": "Buddycard переплёт",
+  "item.buddycards.medal.7": "Farmer's Delight сет Buddy медаль",
+  "item.buddycards.set.7": "Farmer's Delight сет",
+  
+  "item.buddycards.card.7.1": "Toemato",
+  "item.buddycards.card.7.1.tooltip": "Никто не может правильно произнести его имя...",
+  
+  "item.buddycards.card.7.2": "Lettus",
+  "item.buddycards.card.7.2.tooltip": "Еще один каламбур с салатом-латуком, и она тебя убьет.",
+  
+  "item.buddycards.card.7.3": "Raiz",
+  "item.buddycards.card.7.3.tooltip": "Райс рад с вами познакомиться.",
+  
+  "item.buddycards.card.7.4": "Milky",
+  "item.buddycards.card.7.4.tooltip": "Не плачь каждый раз, когда она падает, она недотепа.",
+  
+  "item.buddycards.card.7.5": "Eggcetra",
+  "item.buddycards.card.7.5.tooltip": "Сделай этого приятеля самым собранным из всех когда-либо существовавших!1!",
+  
+  "item.buddycards.card.7.6": "Rop",
+  "item.buddycards.card.7.6.tooltip": "Думаю, с этими шутками уже завязано.",
+  
+  "item.buddycards.card.7.7": "Bakin",
+  "item.buddycards.card.7.7.tooltip": "Тонкий.",
+  
+  "item.buddycards.card.7.8": "Veri Beri",
+  "item.buddycards.card.7.8.tooltip": "Все предпочитают шоколад...",
+  
+  "item.buddycards.card.7.9": "Choco",
+  "item.buddycards.card.7.9.tooltip": "О, у нас получилось!",
+  
+  "item.buddycards.card.7.10": "Soop",
+  "item.buddycards.card.7.10.tooltip": "Не путать с магазинным супом.",
+  
+  "item.buddycards.card.7.11": "Tatamidachi",
+  "item.buddycards.card.7.11.tooltip": "Она ухватилась за последнюю соломинку.",
+  
+  "item.buddycards.card.7.12": "Mc Borgar",
+  "item.buddycards.card.7.12.tooltip": "Mc расшифровывается как minecraft.",
+  
+  "item.buddycards.card.7.13": "Pumpe",
+  "item.buddycards.card.7.13.tooltip": "Набитый всякой всячиной и накачанный родственниками.",
+  
+  "item.buddycards.card.7.14": "Bord",
+  "item.buddycards.card.7.14.tooltip": "Он на плахе для разделки мяса.",
+  
+  "item.buddycards.card.7.15": "Kibble",
+  "item.buddycards.card.7.15.tooltip": "На вкус как гниющая плоть.",
+  
+  "item.buddycards.card.7.16": "Rattat",
+  "item.buddycards.card.7.16.tooltip": "Признайся, ты не знаешь, каков он на вкус.",
+  
+  "item.buddycards.card.7.17": "Crockpot",
+  "item.buddycards.card.7.17.tooltip": "Суп для тебя!",
+  
+  "item.buddycards.card.7.18": "Steve",
+  "item.buddycards.card.7.18.tooltip": "Он просто продолжает гореть."
+  ,
+  "item.buddycards.card.7.gummy1": "Buddygummy",
+  "item.buddycards.card.7.gummy1.tooltip": "Пахнет зеленым яблоком!",
+  "item.buddycards.card.7.gummy2": "Buddygummy",
+  "item.buddycards.card.7.gummy2.tooltip": "Пахнет клубникой!",
+  "item.buddycards.card.7.gummy3": "Buddygummy",
+  "item.buddycards.card.7.gummy3.tooltip": "Пахнет черникой!",
+  "item.buddycards.card.7.gummy4": "Buddygummy",
+  "item.buddycards.card.7.gummy4.tooltip": "Пахнет арбузом!",
+  "item.buddycards.card.7.gummy5": "Buddygummy",
+  "item.buddycards.card.7.gummy5.tooltip": "Пахнет кислятиной!",
+  "item.buddycards.card.7.gummy6": "Buddygummy",
+  "item.buddycards.card.7.gummy6.tooltip": "Пахнет сахарной ватой!",
+  "item.buddycards.contains.7": "Содержит 3 Buddycards и 1 Buddygummy",
+  
+  "advancements.buddycards.main.buddybeans": "Желейное лакомство",
+  "advancements.buddycards.main.buddybeans.desc": "Найдите Buddybeans, растущие вместе с Вашим урожаем",
+  "advancements.buddycards.main.buddygummy": "Вкусные мармеладки",
+  "advancements.buddycards.main.buddygummy.desc": "Измельчить Buddygummies в мармеладное ассорти",
+  "advancements.buddycards.main.complete_set7": "Farmer's Delight сет",
+  "advancements.buddycards.main.complete_set7.desc": "Получите каждую карту из Farmer's Delight сета",
+
+  "item.buddycards.card.8.1": "Yin",
+  "item.buddycards.card.8.1.tooltip": "Everybody thinks she's bad luck. Well she is.",
+  
+  "item.buddycards.promo.1": "Промо-акция на Хэллоуин - 1",
+  
+  "item.buddycards.card.8.2": "Spoopy",
+  "item.buddycards.card.8.2.tooltip": "Признана самой популярной Buddycard в 2021 году.",
+  
+  "item.buddycards.promo.2": "Промо-акция на Хэллоуин - 2",
+  
+  "item.buddycards.card.8.3": "Vwoop",
+  "item.buddycards.card.8.3.tooltip": "Твои конфеты, отдай их мне.",
+  
+  "item.buddycards.promo.3": "Промо-акция на Хэллоуин - 3"
+}

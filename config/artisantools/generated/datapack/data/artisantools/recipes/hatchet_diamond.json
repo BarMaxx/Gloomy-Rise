@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " . ",
+    "./ ",
+    "/  "
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    ".": {
+      "tag": "forge:gems/diamond"
+    }
+  },
+  "result": {
+    "item": "artisantools:hatchet_diamond"
+  }
+}

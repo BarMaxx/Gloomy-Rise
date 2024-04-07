@@ -1,0 +1,26 @@
+{
+	id: "6515BC304D9C1CFA"
+	order_index: 2
+	title: "{reward_tables.gloomy_rise.great_food.reward_table_title}"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:golden_apple" }
+		{ item: "cyclic:apple_chorus" }
+		{ item: "cyclic:apple_bone" }
+		{ item: "cyclic:apple_prismarine" }
+		{ item: "cyclic:apple_lapis" }
+		{ item: "cyclic:apple_iron" }
+		{ item: "cyclic:apple_diamond" }
+		{ item: "cyclic:apple_emerald" }
+		{ item: "cyclic:apple_chocolate" }
+		{ item: "mysticalagradditions:inferium_apple" }
+		{ item: "mysticalagradditions:prudentium_apple" }
+		{ item: "mysticalagradditions:tertium_apple" }
+		{ item: "mysticalagradditions:imperium_apple" }
+		{ item: "mysticalagradditions:supremium_apple" }
+		{ item: "mysticalagradditions:insanium_apple" }
+		{ item: "create:honeyed_apple" }
+		{ item: "cyclic:apple_ender" }
+		{ item: "cyclic:apple_lofty_stature" }
+	]
+}

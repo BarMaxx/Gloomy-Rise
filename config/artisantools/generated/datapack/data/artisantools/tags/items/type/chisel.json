@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:chisel_wood",
+    "artisantools:chisel_stone",
+    "artisantools:chisel_iron",
+    "artisantools:chisel_gold",
+    "artisantools:chisel_diamond",
+    "artisantools:chisel_netherite",
+    "artisantools:chisel_flint",
+    "artisantools:chisel_bone",
+    "artisantools:chisel_bronze",
+    "artisantools:chisel_constantan",
+    "artisantools:chisel_copper",
+    "artisantools:chisel_electrum",
+    "artisantools:chisel_invar",
+    "artisantools:chisel_lead",
+    "artisantools:chisel_nickel",
+    "artisantools:chisel_silver",
+    "artisantools:chisel_tin"
+  ]
+}

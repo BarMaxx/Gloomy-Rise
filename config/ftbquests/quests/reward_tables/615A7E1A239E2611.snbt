@@ -1,0 +1,62 @@
+{
+	id: "615A7E1A239E2611"
+	order_index: 7
+	title: "{reward_tables.gloomy_rise.simple_upgrades_for_backpacks.reward_table_title}"
+	loot_size: 1
+	rewards: [
+		{ item: "sophisticatedbackpacks:pickup_upgrade" }
+		{ item: "sophisticatedbackpacks:filter_upgrade" }
+		{ item: "sophisticatedbackpacks:magnet_upgrade" }
+		{ item: "sophisticatedbackpacks:feeding_upgrade" }
+		{ item: "sophisticatedbackpacks:compacting_upgrade" }
+		{ item: "sophisticatedbackpacks:void_upgrade" }
+		{ item: "sophisticatedbackpacks:restock_upgrade" }
+		{ item: "sophisticatedbackpacks:deposit_upgrade" }
+		{ item: "sophisticatedbackpacks:refill_upgrade" }
+		{ item: "sophisticatedbackpacks:inception_upgrade" }
+		{
+			item: {
+				id: "sophisticatedbackpacks:smelting_upgrade"
+				Count: 1b
+				ForgeCaps: {
+					"polymorph:stack_recipe_data": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedbackpacks:smoking_upgrade"
+				Count: 1b
+				ForgeCaps: {
+					"polymorph:stack_recipe_data": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedbackpacks:blasting_upgrade"
+				Count: 1b
+				ForgeCaps: {
+					"polymorph:stack_recipe_data": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedbackpacks:crafting_upgrade"
+				Count: 1b
+				ForgeCaps: {
+					"polymorph:stack_recipe_data": { }
+				}
+			}
+		}
+		{ item: "sophisticatedbackpacks:stonecutter_upgrade" }
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_1" }
+		{ item: "sophisticatedbackpacks:jukebox_upgrade" }
+		{ item: "sophisticatedbackpacks:tool_swapper_upgrade" }
+		{ item: "sophisticatedbackpacks:tank_upgrade" }
+		{ item: "sophisticatedbackpacks:battery_upgrade" }
+		{ item: "sophisticatedbackpacks:pump_upgrade" }
+		{ }
+	]
+}

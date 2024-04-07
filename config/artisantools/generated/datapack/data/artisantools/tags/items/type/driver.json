@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:driver_wood",
+    "artisantools:driver_stone",
+    "artisantools:driver_iron",
+    "artisantools:driver_gold",
+    "artisantools:driver_diamond",
+    "artisantools:driver_netherite",
+    "artisantools:driver_flint",
+    "artisantools:driver_bone",
+    "artisantools:driver_bronze",
+    "artisantools:driver_constantan",
+    "artisantools:driver_copper",
+    "artisantools:driver_electrum",
+    "artisantools:driver_invar",
+    "artisantools:driver_lead",
+    "artisantools:driver_nickel",
+    "artisantools:driver_silver",
+    "artisantools:driver_tin"
+  ]
+}

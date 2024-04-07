@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  f",
+    " .x",
+    ".  "
+  ],
+  "key": {
+    "x": {
+      "tag": "forge:string"
+    },
+    "f": {
+      "tag": "forge:feathers"
+    },
+    ".": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "item": "artisantools:quill_flint"
+  }
+}

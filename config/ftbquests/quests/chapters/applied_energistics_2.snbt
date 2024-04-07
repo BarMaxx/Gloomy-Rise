@@ -1,0 +1,772 @@
+{
+	id: "7C1482627E22E794"
+	group: "24923118FBE15B71"
+	order_index: 5
+	filename: "applied_energistics_2"
+	title: "{quests.gloomy_rise.progress_3.applied_energistics_2.chapter_title}"
+	icon: "appliedenergistics2:64k_cell_component"
+	default_quest_shape: "default_circle"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 50.0d
+		height: 30.0d
+		rotation: 0.0d
+		image: "gloomyrise:textures/background_for_questbook.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -6.0d
+			y: 0.5d
+			description: ["С помощью высекателя можно создавать различные компоненты для МЭ сети."]
+			dependencies: ["2E7AC62A36F43FFD"]
+			id: "302A14893184E904"
+			tasks: [{
+				id: "49D08ECD68BC0A87"
+				type: "item"
+				item: "appliedenergistics2:inscriber"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			description: ["Метеоритовый компас Вам понадобится для поиска метеорита, в котором находятся пресса для высекателя."]
+			dependencies: ["39E899BE6092C592"]
+			id: "6D88A11B6EEBFD4E"
+			tasks: [{
+				id: "6A8839FE3598C716"
+				type: "item"
+				item: "appliedenergistics2:sky_compass"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			description: ["В МЭ накопителе хранятся ячейки хранения."]
+			dependencies: ["023F6BB4BC0AC91A"]
+			id: "219738D8C40A44E7"
+			tasks: [{
+				id: "268BE0F4E3756235"
+				type: "item"
+				item: "appliedenergistics2:drive"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			description: ["МЭ терминал нужен, чтобы взаимодействовать с предметами в МЭ сети."]
+			dependencies: ["6C1EE16D4AA03A71"]
+			id: "038C1DB891E5F731"
+			tasks: [{
+				id: "280FC5F817D942B1"
+				type: "item"
+				item: "appliedenergistics2:terminal"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			subtitle: "Мозг МЭ системы"
+			description: ["МЭ контроллер - главный блок МЭ сети."]
+			dependencies: ["023F6BB4BC0AC91A"]
+			id: "6F8C1F213EB5273D"
+			tasks: [{
+				id: "214708FA40B830F4"
+				type: "item"
+				item: "appliedenergistics2:controller"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			description: ["Нужен для создания ячейки хранения и не только."]
+			dependencies: ["28B3F16585CCAA8C"]
+			id: "5916045CBA46BA39"
+			tasks: [{
+				id: "65C8943786BB09CF"
+				type: "item"
+				item: "appliedenergistics2:1k_cell_component"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			description: ["Нужен для создания ячейки хранения и не только."]
+			dependencies: ["5916045CBA46BA39"]
+			id: "33B28E222354F361"
+			tasks: [{
+				id: "41E58DC791153B46"
+				type: "item"
+				item: "appliedenergistics2:4k_cell_component"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			description: ["Нужен для создания ячейки хранения и не только."]
+			dependencies: ["33B28E222354F361"]
+			id: "70638D98D093BC9F"
+			tasks: [{
+				id: "7E17D4B919CBD26A"
+				type: "item"
+				item: "appliedenergistics2:16k_cell_component"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			description: ["Нужен для создания ячейки хранения и не только."]
+			dependencies: ["70638D98D093BC9F"]
+			id: "0E8EF9B1B64084C5"
+			tasks: [{
+				id: "2CDD2857DEA7AD57"
+				type: "item"
+				item: "appliedenergistics2:64k_cell_component"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.0d
+			description: ["Нужна для хранения предметов в МЭ сети."]
+			dependencies: ["5916045CBA46BA39"]
+			id: "7BFB8B4CE0B07B75"
+			tasks: [{
+				id: "112DD1930B8EC8DF"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:1k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			description: ["Нужна для хранения предметов в МЭ сети. Хранит больше места, чем предыдущая ячейка."]
+			dependencies: ["33B28E222354F361"]
+			id: "49941C35085F4C0B"
+			tasks: [{
+				id: "1A0E332D637AB026"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:4k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			description: ["Нужна для хранения предметов в МЭ сети. Хранит больше места, чем предыдущая ячейка."]
+			dependencies: ["70638D98D093BC9F"]
+			id: "13E3871CB9CF14D1"
+			tasks: [{
+				id: "60222A1C7F4DCCF6"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:16k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			description: ["Нужна для хранения предметов в МЭ сети. Хранит больше места, чем предыдущая ячейка."]
+			dependencies: ["0E8EF9B1B64084C5"]
+			id: "640BC9B93F25E34C"
+			tasks: [{
+				id: "429565960DAF92D4"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:64k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			dependencies: ["219738D8C40A44E7"]
+			id: "000378B5F298642F"
+			tasks: [{
+				id: "3009F9CB720A89C1"
+				type: "item"
+				item: "appliedenergistics2:io_port"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			dependencies: ["302A14893184E904"]
+			id: "023F6BB4BC0AC91A"
+			tasks: [{
+				id: "3A26D7F526F69BB2"
+				type: "item"
+				item: "appliedenergistics2:engineering_processor"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["302A14893184E904"]
+			id: "28B3F16585CCAA8C"
+			tasks: [{
+				id: "33F0B8424DA63684"
+				type: "item"
+				item: "appliedenergistics2:logic_processor"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			dependencies: ["28B3F16585CCAA8C"]
+			id: "6C1EE16D4AA03A71"
+			tasks: [
+				{
+					id: "0ACE36CE8A5F59BC"
+					type: "item"
+					item: "appliedenergistics2:annihilation_core"
+				}
+				{
+					id: "2FF370C01C474627"
+					type: "item"
+					item: "appliedenergistics2:formation_core"
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 0.5d
+			dependencies: ["302A14893184E904"]
+			id: "449CCE5E1674680A"
+			tasks: [{
+				id: "4408D42540722A22"
+				type: "item"
+				item: "appliedenergistics2:calculation_processor"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -0.5d
+			dependencies: ["449CCE5E1674680A"]
+			id: "3DD164A7CCF1879B"
+			tasks: [{
+				id: "7B1D00E831C48A8F"
+				type: "item"
+				item: "appliedenergistics2:crafting_terminal"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["2DAA6AE3711E9E81"]
+			id: "184396D0A3D68C55"
+			tasks: [{
+				id: "5E4A9B8E187FC53A"
+				type: "item"
+				item: "appliedenergistics2:quartz_glass"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.0d
+			dependencies: ["302A14893184E904"]
+			id: "2DAA6AE3711E9E81"
+			tasks: [{
+				id: "2D116771AF0F17A0"
+				type: "checkmark"
+				title: "Кварцевая пыль"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["184396D0A3D68C55"]
+			id: "332C0E15929555BE"
+			tasks: [{
+				id: "38273E38C86A1140"
+				type: "item"
+				item: "appliedenergistics2:quartz_vibrant_glass"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["6D88A11B6EEBFD4E"]
+			id: "032D5F0AB16769C4"
+			tasks: [{
+				id: "4F247AD14DD9BDA3"
+				type: "item"
+				item: "appliedenergistics2:calculation_processor_press"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["6D88A11B6EEBFD4E"]
+			id: "75CDDC9B45C3F031"
+			tasks: [{
+				id: "40870C7DE74362BA"
+				type: "item"
+				item: "appliedenergistics2:engineering_processor_press"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["6D88A11B6EEBFD4E"]
+			id: "51A5F942E42D9477"
+			tasks: [{
+				id: "09DC0A64B8F9DCBA"
+				type: "item"
+				item: "appliedenergistics2:logic_processor_press"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["6D88A11B6EEBFD4E"]
+			id: "4FE2542D70B987A3"
+			tasks: [{
+				id: "14297CCA31928AF8"
+				type: "item"
+				item: "appliedenergistics2:silicon_press"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			dependencies: ["184396D0A3D68C55"]
+			id: "3A4D971D7C2564D9"
+			tasks: [{
+				id: "0E78C4050E0F22BA"
+				type: "item"
+				item: "appliedenergistics2:quantum_link"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.5d
+			dependencies: ["3A4D971D7C2564D9"]
+			id: "67AAC8E0530C89AB"
+			tasks: [{
+				id: "41E93D8A9A37D3A8"
+				type: "item"
+				item: "appliedenergistics2:quantum_ring"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			dependencies: ["5916045CBA46BA39"]
+			id: "101205398DC457D8"
+			tasks: [{
+				id: "5EC4E0FB9A139A11"
+				type: "item"
+				item: "appliedenergistics2:1k_crafting_storage"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			dependencies: ["33B28E222354F361"]
+			id: "0207B834295BFC1F"
+			tasks: [{
+				id: "4CF62D9E156B6228"
+				type: "item"
+				item: "appliedenergistics2:4k_crafting_storage"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			dependencies: ["70638D98D093BC9F"]
+			id: "3CB6B81D597F3E76"
+			tasks: [{
+				id: "697BAB451DC8F354"
+				type: "item"
+				item: "appliedenergistics2:16k_crafting_storage"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			dependencies: ["0E8EF9B1B64084C5"]
+			id: "40D4227F3B511C7B"
+			tasks: [{
+				id: "4436E0B45B76E37B"
+				type: "item"
+				item: "appliedenergistics2:64k_crafting_storage"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -2.5d
+			dependencies: ["39E899BE6092C592"]
+			id: "513B9B510C2ED3B9"
+			tasks: [{
+				id: "0F999C4957ABA4D8"
+				type: "item"
+				item: "appliedenergistics2:fluix_crystal"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.5d
+			dependencies: ["114FD26AF2B063E3"]
+			id: "51E46E80AE831374"
+			tasks: [{
+				id: "7B7CEB273D65EC7A"
+				type: "item"
+				item: "appliedenergistics2:charger"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.5d
+			dependencies: ["513B9B510C2ED3B9"]
+			id: "5FA328BC34C1B5F6"
+			tasks: [{
+				id: "7C553FE9D7721F58"
+				type: "item"
+				item: "appliedenergistics2:purified_fluix_crystal"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			dependencies: ["51E46E80AE831374"]
+			id: "39E899BE6092C592"
+			tasks: [{
+				id: "14A63626D77A9933"
+				type: "item"
+				item: "appliedenergistics2:charged_certus_quartz_crystal"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			dependencies: ["184396D0A3D68C55"]
+			id: "6651D291BE8575FB"
+			tasks: [{
+				id: "78347EC07A59DF27"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:energy_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			dependencies: ["6651D291BE8575FB"]
+			id: "1D948514D0FA14C6"
+			tasks: [{
+				id: "0A55629E1D583804"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:dense_energy_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			dependencies: ["6651D291BE8575FB"]
+			id: "2EC16F066AB053D1"
+			tasks: [{
+				id: "5B0802093BEE83E9"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:color_applicator"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			dependencies: ["6651D291BE8575FB"]
+			id: "055FE2CC72A69C68"
+			tasks: [{
+				id: "69E7986D0C9018F5"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:matter_cannon"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			dependencies: ["6651D291BE8575FB"]
+			id: "54FC407A72C144F5"
+			tasks: [{
+				id: "3772DDB7ED483AE1"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:entropy_manipulator"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			dependencies: ["038C1DB891E5F731"]
+			id: "13021C04A5943115"
+			tasks: [{
+				id: "16D7D770963F1B03"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:wireless_terminal"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			dependencies: ["038C1DB891E5F731"]
+			id: "1F69B00233BA621F"
+			tasks: [{
+				id: "7B1DFDE8B0B55E11"
+				type: "item"
+				item: "appliedenergistics2:chest"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			dependencies: ["1D948514D0FA14C6"]
+			id: "6D53A715FF62AB82"
+			tasks: [{
+				id: "40A7A6C655FB71EA"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:portable_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			dependencies: ["1D948514D0FA14C6"]
+			id: "63A1014ED0360071"
+			tasks: [{
+				id: "00E2FF91A0A2D77E"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:4k_portable_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["1D948514D0FA14C6"]
+			id: "4AEF8468B39B160C"
+			tasks: [{
+				id: "6FF8645D939150AE"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:16k_portable_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["1D948514D0FA14C6"]
+			id: "5E4875D4BF6EAD07"
+			tasks: [{
+				id: "5881F35B43A3E528"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:64k_portable_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			dependencies: ["28B3F16585CCAA8C"]
+			id: "59CCBEE0E35FB2D9"
+			tasks: [{
+				id: "3F31423155ADB24A"
+				type: "item"
+				item: "appliedenergistics2:1k_fluid_cell_component"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			dependencies: ["59CCBEE0E35FB2D9"]
+			id: "5CB1A60045C643CE"
+			tasks: [{
+				id: "425E82E8F0CC6106"
+				type: "item"
+				item: "appliedenergistics2:4k_fluid_cell_component"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			dependencies: ["5CB1A60045C643CE"]
+			id: "5BDBA1144F246D90"
+			tasks: [{
+				id: "2EB713EF48166B5A"
+				type: "item"
+				item: "appliedenergistics2:16k_fluid_cell_component"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			dependencies: ["5BDBA1144F246D90"]
+			id: "2CDD51504DC2CF81"
+			tasks: [{
+				id: "015D5FEF31249038"
+				type: "item"
+				item: "appliedenergistics2:64k_fluid_cell_component"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.0d
+			dependencies: ["59CCBEE0E35FB2D9"]
+			id: "77F9FD2934DFBEB4"
+			tasks: [{
+				id: "0D18E0A79EA5DD9A"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:1k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			dependencies: ["5CB1A60045C643CE"]
+			id: "6179A93AAA2B02BA"
+			tasks: [{
+				id: "1651EF0FD81A2DD9"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:4k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			dependencies: ["5BDBA1144F246D90"]
+			id: "71C4749D0539A52B"
+			tasks: [{
+				id: "2DC05B14A9DCC365"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:16k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			dependencies: ["2CDD51504DC2CF81"]
+			id: "0315EAFE1A750F9A"
+			tasks: [{
+				id: "66B48A2AA1D0D906"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:64k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 1.5d
+			dependencies: ["449CCE5E1674680A"]
+			id: "36ADDC8849A69C3A"
+			tasks: [{
+				id: "2EDFC5B6144980D2"
+				type: "item"
+				item: "appliedenergistics2:crafting_unit"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 3.0d
+			dependencies: ["36ADDC8849A69C3A"]
+			id: "4506A88EEE83FAB3"
+			tasks: [{
+				id: "5EB0D609978C4E61"
+				type: "item"
+				item: "appliedenergistics2:crafting_accelerator"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 3.0d
+			dependencies: ["36ADDC8849A69C3A"]
+			id: "6C43E09FA4C420B0"
+			tasks: [{
+				id: "30C0E5A38997DAB8"
+				type: "item"
+				item: "appliedenergistics2:crafting_monitor"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			dependencies: ["5FA328BC34C1B5F6"]
+			id: "2E7AC62A36F43FFD"
+			tasks: [{
+				id: "18A884B1CCB30EFA"
+				type: "checkmark"
+				title: "11"
+			}]
+		}
+	]
+}

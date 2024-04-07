@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " . ",
+    "xbx",
+    " . "
+  ],
+  "key": {
+    "x": {
+      "tag": "forge:string"
+    },
+    "b": {
+      "item": "minecraft:book"
+    },
+    ".": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "item": "artisantools:grimoire_flint"
+  }
+}

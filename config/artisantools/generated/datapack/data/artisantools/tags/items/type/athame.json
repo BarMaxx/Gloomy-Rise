@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:athame_wood",
+    "artisantools:athame_stone",
+    "artisantools:athame_iron",
+    "artisantools:athame_gold",
+    "artisantools:athame_diamond",
+    "artisantools:athame_netherite",
+    "artisantools:athame_flint",
+    "artisantools:athame_bone",
+    "artisantools:athame_bronze",
+    "artisantools:athame_constantan",
+    "artisantools:athame_copper",
+    "artisantools:athame_electrum",
+    "artisantools:athame_invar",
+    "artisantools:athame_lead",
+    "artisantools:athame_nickel",
+    "artisantools:athame_silver",
+    "artisantools:athame_tin"
+  ]
+}

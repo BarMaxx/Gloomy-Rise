@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:cutters_wood",
+    "artisantools:cutters_stone",
+    "artisantools:cutters_iron",
+    "artisantools:cutters_gold",
+    "artisantools:cutters_diamond",
+    "artisantools:cutters_netherite",
+    "artisantools:cutters_flint",
+    "artisantools:cutters_bone",
+    "artisantools:cutters_bronze",
+    "artisantools:cutters_constantan",
+    "artisantools:cutters_copper",
+    "artisantools:cutters_electrum",
+    "artisantools:cutters_invar",
+    "artisantools:cutters_lead",
+    "artisantools:cutters_nickel",
+    "artisantools:cutters_silver",
+    "artisantools:cutters_tin"
+  ]
+}

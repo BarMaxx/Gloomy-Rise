@@ -1,0 +1,56 @@
+{
+	id: "146998BA6A8D51F5"
+	order_index: 9
+	title: "{reward_tables.gloomy_rise.drawers.reward_table_title}"
+	loot_size: 1
+	rewards: [
+		{ item: "storagedrawers:oak_full_drawers_1" }
+		{ item: "storagedrawers:oak_full_drawers_2" }
+		{ item: "storagedrawers:oak_full_drawers_4" }
+		{ item: "storagedrawers:oak_half_drawers_1" }
+		{ item: "storagedrawers:oak_half_drawers_2" }
+		{ item: "storagedrawers:oak_half_drawers_4" }
+		{ item: "storagedrawers:spruce_full_drawers_1" }
+		{ item: "storagedrawers:spruce_full_drawers_2" }
+		{ item: "storagedrawers:spruce_full_drawers_4" }
+		{ item: "storagedrawers:spruce_half_drawers_1" }
+		{ item: "storagedrawers:spruce_half_drawers_2" }
+		{ item: "storagedrawers:spruce_half_drawers_4" }
+		{ item: "storagedrawers:birch_full_drawers_1" }
+		{ item: "storagedrawers:birch_full_drawers_2" }
+		{ item: "storagedrawers:birch_full_drawers_4" }
+		{ item: "storagedrawers:birch_half_drawers_1" }
+		{ item: "storagedrawers:birch_half_drawers_2" }
+		{ item: "storagedrawers:birch_half_drawers_4" }
+		{ item: "storagedrawers:jungle_full_drawers_1" }
+		{ item: "storagedrawers:jungle_full_drawers_2" }
+		{ item: "storagedrawers:jungle_full_drawers_4" }
+		{ item: "storagedrawers:jungle_half_drawers_1" }
+		{ item: "storagedrawers:jungle_half_drawers_2" }
+		{ item: "storagedrawers:jungle_half_drawers_4" }
+		{ item: "storagedrawers:acacia_full_drawers_1" }
+		{ item: "storagedrawers:acacia_full_drawers_2" }
+		{ item: "storagedrawers:acacia_full_drawers_4" }
+		{ item: "storagedrawers:acacia_half_drawers_1" }
+		{ item: "storagedrawers:acacia_half_drawers_2" }
+		{ item: "storagedrawers:acacia_half_drawers_4" }
+		{ item: "storagedrawers:dark_oak_full_drawers_1" }
+		{ item: "storagedrawers:dark_oak_full_drawers_2" }
+		{ item: "storagedrawers:dark_oak_full_drawers_4" }
+		{ item: "storagedrawers:dark_oak_half_drawers_1" }
+		{ item: "storagedrawers:dark_oak_half_drawers_2" }
+		{ item: "storagedrawers:dark_oak_half_drawers_4" }
+		{ item: "storagedrawers:crimson_full_drawers_1" }
+		{ item: "storagedrawers:crimson_full_drawers_2" }
+		{ item: "storagedrawers:crimson_full_drawers_4" }
+		{ item: "storagedrawers:crimson_half_drawers_1" }
+		{ item: "storagedrawers:crimson_half_drawers_2" }
+		{ item: "storagedrawers:crimson_half_drawers_4" }
+		{ item: "storagedrawers:warped_full_drawers_1" }
+		{ item: "storagedrawers:warped_full_drawers_2" }
+		{ item: "storagedrawers:warped_full_drawers_4" }
+		{ item: "storagedrawers:warped_half_drawers_1" }
+		{ item: "storagedrawers:warped_half_drawers_2" }
+		{ item: "storagedrawers:warped_half_drawers_4" }
+	]
+}
