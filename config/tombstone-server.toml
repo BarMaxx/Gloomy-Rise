@@ -1,7 +1,7 @@
 
 #Options related to player's death
 [player_death]
-	#Experience loss on death (%) (-1 = disabled) [-1..100|default:80]
+	#Experience loss on death (%) (-1 = disabled) [-1..100|default:50]
 	#Range: -1 ~ 100
 	xp_loss = 80
 	#The time in minutes before a grave is unlocked to anyone (-1 = disabled) [-1..MAX|default:-1]
@@ -22,8 +22,6 @@
 
 #Allows to customize or disable the enchantments
 [enchantments]
-	#Enables the enchantment Shadow Step [false/true|default:true]
-	enable_enchantment_shadow_step = true
 	#Enables the enchantment Soulbound [false/true|default:true]
 	enable_enchantment_soulbound = true
 	#Enables the enchantment Magic Siphon [false/true|default:true]
@@ -36,8 +34,6 @@
 	enable_enchantment_blessing = true
 	#Allows Soulbound at enchanting table [false/true|default:false]
 	soulbound_enchanting_table = true
-	#Allows Shadow Step at enchanting table [false/true|default:false]
-	shadow_step_enchanting_table = false
 	#Allows Magic Siphon at enchanting table [false/true|default:false]
 	magic_siphon_enchanting_table = false
 	#Allows Plague Bringer at enchanting table [false/true|default:false]
@@ -48,6 +44,10 @@
 	blessing_enchanting_table = false
 	#Allows Plague Bringer to combine with Magic Siphon [false/true|default:false]
 	plague_bringer_combining_magic_siphon = false
+	#Enables the enchantment Spectral Bite [false/true|default:true]
+	enable_enchantment_spectral_bite = true
+	#Allows Spectral Bite at enchanting table [false/true|default:false]
+	spectral_bite_enchanting_table = false
 
 #For settings related to magic items
 [magic_item]
@@ -63,6 +63,8 @@
 	#Cooldown in second after using a tablet [60..1200|default:300]
 	#Range: 60 ~ 1200
 	tablet_cooldown = 300
+	#Prevents to craft Enchanted Grave Key [false/true|default:false]
+	disable_enchanted_grave_key_recipe = false
 
 #For settings related to decorative tombs and magic items
 [decorative_grave]
@@ -137,6 +139,8 @@
 	allow_familiar_stone = true
 	#Merchant Stone [false/true|default:true]
 	allow_merchant_stone = true
+	#Prayer Stone [false/true|default:true]
+	allow_prayer_stone = true
 
 #Allows to change the chance to drop some items
 [loot]

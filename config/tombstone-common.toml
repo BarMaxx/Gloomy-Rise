@@ -57,7 +57,7 @@
 	#Points for zombie villager exorcism [0..50|default:3]
 	#Range: 0 ~ 50
 	points_exorcism_zombie_villager = 3
-	#Points for killing a villager (or minecolonies citizen) [-50..0|default:-3]
+	#Points for killing a villager [-50..0|default:-3]
 	#Range: -50 ~ 0
 	points_kill_villager = -3
 	#Points for killing a raider [0..20|default:1]
@@ -136,6 +136,8 @@
 	#Duration of voodoo poppet's effects in seconds when preventing death [5..60000|default:60]
 	#Range: 5 ~ 60000
 	duration_voodoo_poppet_effects = 60
+	#Allows to disenchant enchanted books with the Book of Disenchantment
+	can_disenchant_enchanted_book = false
 
 #For settings related to decorative tombs and magic items
 [decorative_grave]
@@ -155,14 +157,12 @@
 	#Chance on 1000 that a soul appears on a grave [0..1000|default:100]
 	#Range: 0 ~ 1000
 	chance_soul = 100
-	#Chance to receive a random beneficial spell effect when praying near a grave [0..100|default:40]
+	#Chance to receive a random beneficial spell effect when praying near a grave [0..100|default:30]
 	#Range: 0 ~ 100
 	chance_pray_reward = 40
 
 #Allows to customize or disable the enchantments
 [enchantments]
-	#Shadow Step is disabled for 10 seconds by opening a chest [false/true|default:true]
-	nerf_shadow_step_open_chest = true
 	#The wearer is also affected by the effect if his alignment is not bad [false/true|default:true]
 	nerf_plague_bringer = true
 	#Maximum duration of stolen effects in minutes [1..MAX|default:60]
@@ -192,25 +192,10 @@
 
 #Allows to change the chance to drop some items
 [loot]
-	#Chance on 1000 to receive a voodoo poppet on undead boss [0..1000|default:100]
-	#Range: 0 ~ 1000
-	chance_voodoo_poppet_on_boss = 100
-	#Chance on 1000 to receive a random scroll on undead boss [0..1000|default:100]
-	#Range: 0 ~ 1000
-	chance_random_scroll_on_boss = 100
-	#Chance on 1000 to receive a familiar receptacle on undead boss [0..1000|default:100]
-	#Range: 0 ~ 1000
-	chance_familiar_receptacle_on_boss = 100
-	#Chance on 1000 to receive a Soul Receptacle on undead boss [0..1000|default:50]
-	#Range: 0 ~ 1000
-	chance_soul_receptacle_on_boss = 50
-	#Chance on 1000 for undead mobs to drop Grave's Dust [0..1000|default:100]
-	#Range: 0 ~ 1000
-	chance_grave_dust = 100
 	#Minimum life for an undead to be considered as a boss for drop [200..MAX|default:200]
 	#Range: > 200
 	undead_boss_life_for_drop = 200
-	#Maximum xp rewarded with a Lost Page of ErdÃ¶s [1..200000|default:2000]
+	#Maximum xp rewarded with a Lost Page of Erdös [1..200000|default:2000]
 	#Range: 1 ~ 200000
 	max_xp_lost_page = 2000
 	#Entities that can't found as loot in a Familiar Receptacle
@@ -224,4 +209,6 @@
 	keep_cosmetic_armor = true
 	#Ensure the potion effects to stay on the player after returning from end conquered [false/true|default:true]
 	preserve_effects_on_return_end_conquered = true
+	#Allows to provide a magic book slot in Curio mod used to enchant with a soul [false/true|default:true]
+	curio_magic_book_support = true
 
