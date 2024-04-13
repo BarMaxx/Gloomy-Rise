@@ -35,5 +35,11 @@ onEvent('item.registry', event => {
 	 
 	 event.create('gloomy_hoe_inactive').displayName('Неактивированная мрачная мотыга')
 	 
+	 event.create('steel_component').displayName('Стальной компонент')
+	 
+	 event.create('osmium_component').displayName('Осмиевый компонент')
+	 
+	 event.create('trout').displayName('Трут')
+	 
 
 })
