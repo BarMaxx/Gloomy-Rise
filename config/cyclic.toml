@@ -15,17 +15,26 @@
 		growthRadius = 2
 		#Set false to disable enchantment
 		reach = true
-		#Enchant level increase drop rate.  % = beheadingDrop + (level-1)*beheadingPerLevel
-		#Range: 1 ~ 100
-		beheadingPerLevel = 25
 		#Set false to disable enchantment
 		beekeeper = true
 		#Set false to disable enchantment
 		experience_boost = true
-		#Set false to disable Multi Jump enchantment
-		launch = true
 		#Set false to disable enchantment
 		ender = true
+		#Beheading enchant add player skin head drop, add any mob id and any skin
+		beheadingEntityMHF = ["minecraft:blaze:MHF_Blaze", "minecraft:cat:MHF_Ocelot", "minecraft:cave_spider:MHF_CaveSpider", "minecraft:chicken:MHF_Chicken", "minecraft:cow:MHF_Cow", "minecraft:enderman:MHF_Enderman", "minecraft:ghast:MHF_Ghast", "minecraft:iron_golem:MHF_Golem", "minecraft:magma_cube:MHF_LavaSlime", "minecraft:mooshroom:MHF_MushroomCow", "minecraft:ocelot:MHF_Ocelot", "minecraft:pig:MHF_Pig", "minecraft:zombie_pigman:MHF_PigZombie", "minecraft:sheep:MHF_Sheep", "minecraft:slime:MHF_Slime", "minecraft:spider:MHF_Spider", "minecraft:squid:MHF_Squid", "minecraft:villager:MHF_Villager", "minecraft:witch:MHF_Witch", "minecraft:wolf:MHF_Wolf", "minecraft:guardian:MHF_Guardian", "minecraft:elder_guardian:MHF_Guardian", "minecraft:snow_golem:MHF_SnowGolem", "minecraft:silverfish:MHF_Silverfish", "minecraft:endermite:MHF_Endermite"]
+		#Set false to disable enchantment
+		venom = true
+		#Set false to disable enchantment
+		auto_smelt = true
+		#Initial level drop rate.  So level I of enchant gives this % drop chance
+		#Range: 1 ~ 100
+		beheadingDrop = 20
+		#Enchant level increase drop rate.  % = beheadingDrop + (level-1)*beheadingPerLevel
+		#Range: 1 ~ 100
+		beheadingPerLevel = 25
+		#Set false to disable Multi Jump enchantment
+		launch = true
 		#Enchant level drop rate.  % = drop + (level-1)*drop
 		#Range: 1 ~ 100
 		disarmPercentPerLevel = 15
@@ -35,31 +44,24 @@
 		excavate = true
 		#Set false to disable enchantment
 		magnet = true
-		#Beheading enchant add player skin head drop, add any mob id and any skin
-		beheadingEntityMHF = ["minecraft:blaze:MHF_Blaze", "minecraft:cat:MHF_Ocelot", "minecraft:cave_spider:MHF_CaveSpider", "minecraft:chicken:MHF_Chicken", "minecraft:cow:MHF_Cow", "minecraft:enderman:MHF_Enderman", "minecraft:ghast:MHF_Ghast", "minecraft:iron_golem:MHF_Golem", "minecraft:magma_cube:MHF_LavaSlime", "minecraft:mooshroom:MHF_MushroomCow", "minecraft:ocelot:MHF_Ocelot", "minecraft:pig:MHF_Pig", "minecraft:zombie_pigman:MHF_PigZombie", "minecraft:sheep:MHF_Sheep", "minecraft:slime:MHF_Slime", "minecraft:spider:MHF_Spider", "minecraft:squid:MHF_Squid", "minecraft:villager:MHF_Villager", "minecraft:witch:MHF_Witch", "minecraft:wolf:MHF_Wolf", "minecraft:guardian:MHF_Guardian", "minecraft:elder_guardian:MHF_Guardian", "minecraft:snow_golem:MHF_SnowGolem", "minecraft:silverfish:MHF_Silverfish", "minecraft:endermite:MHF_Endermite"]
 		#Set false to disable enchantment
 		multishot = true
 		#Set false to disable enchantment
 		beheading = true
+		#Set list of effects for Gloom enchant (cyclic:curse) to ignore and not use these
+		gloomIgnored = ["minecraft:bad_omen", "minecraft:nausea", "botania:clear"]
 		#Set false to disable enchantment
 		quickshot = true
 		#Mobs in this list cannot be disarmed and have their weapon stolen by the disarm enchantment
 		disarmIngoredMobs = ["alexsmobs:mimicube"]
 		#Set false to disable enchantment
-		venom = true
-		#Set false to disable enchantment
 		life_leech = true
-		#Set false to disable enchantment
+		#Set false to disable gloom enchantment
 		curse = true
-		#Set false to disable enchantment
-		auto_smelt = true
 		#Set false to disable enchantment
 		growth = true
 		#Set false to disable enchantment
 		step = true
-		#Initial level drop rate.  So level I of enchant gives this % drop chance
-		#Range: 1 ~ 100
-		beheadingDrop = 20
 
 	#####################################################################################
 	# Worldgen settings  
@@ -72,15 +74,8 @@
 	# Block specific configs
 	#####################################################################################
 	[cyclic.blocks]
-
-		#Ender shelf settings
-		[cyclic.blocks.ender_shelf]
-			#Controller Max distance to search (using manhattan distance)
-			#Range: 1 ~ 256
-			controller_distance = 64
-			#Each shelf has five rows.  Set the number of books stored per row here
-			#Range: 1 ~ 64
-			books_per_row = 64
+		#  Allows the dimensional Transfer Nodes to cross dimensions (no chunk loading is done, you have to do that on your own); This affects blocks cyclic:wireless_energy, cyclic:wireless_item, cyclic:wireless_fluid, cyclic:wireless_transmitter; If you change it to false it will only work if the target is in the same dimension.
+		wireless_transfer_dimensional = true
 
 		#Ender Anchor settings
 		[cyclic.blocks.eye_teleport]
@@ -97,6 +92,45 @@
 			#Range: 1 ~ 20
 			frequency = 5
 
+		#Ender shelf settings
+		[cyclic.blocks.sound]
+			#Sound Recorder - how far out does it listen to record sounds
+			#Range: 1 ~ 64
+			radius = 8
+
+		#battery settings
+		[cyclic.blocks.battery]
+			#RF/t charging rate for the battery item slot
+			#Range: 1 ~ 6400000
+			charge = 8000
+
+		#fisher settings
+		[cyclic.blocks.fisher]
+			#Chance to Fish from nearby water.  Smaller values is slower fish
+			#Range: 1.0E-5 ~ 0.999
+			chance = 0.1
+			#Radius to Fish from nearby water
+			#Range: 1 ~ 32
+			radius = 12
+
+		#Ender shelf settings
+		[cyclic.blocks.ender_shelf]
+			#Controller Max distance to search (using manhattan distance)
+			#Range: 1 ~ 256
+			controller_distance = 64
+			#Each shelf has five rows.  Set the number of books stored per row here
+			#Range: 1 ~ 64
+			books_per_row = 64
+
+		#terra_preta settings
+		[cyclic.blocks.terra_preta]
+			#ticks between growth cycles
+			#Range: 1 ~ 10000
+			timer = 100
+			#growth height above the soil
+			#Range: 2 ~ 32
+			height = 8
+
 		#Uncrafter settings
 		[cyclic.blocks.uncrafter]
 			#False will mean you cannot uncraft damaged repairable items. When searching for a recipe, does it ignore all NBT values (such as enchantments, RepairCost, Damage, etc).  For example, if false it will not uncraft damaged or enchanted items
@@ -109,12 +143,6 @@
 			#RECIPE IDS HERE.  Block these recipe ids from being reversed, but do not block all recipes for this output item
 			ignore_recipes = ["botania:cobweb", "minecraft:magma_cream", "minecraft:beacon", "minecraft:stick_from_bamboo_item", "minecraft:netherite_ingot_from_netherite_block", "mysticalagriculture:essence*", "mysticalagriculture:farmland_till", "refinedstorage:coloring_recipes*", "forcecraft:transmutation*"]
 
-		#Ender shelf settings
-		[cyclic.blocks.sound]
-			#Sound Recorder - how far out does it listen to record sounds
-			#Range: 1 ~ 64
-			radius = 8
-
 		#Ender Trigger settings
 		[cyclic.blocks.eye_redstone]
 			#Maximum distance to activate
@@ -123,12 +151,6 @@
 			#Tick delay between checks, faster checks can consume server resources (1 means check every tick; 20 means only check once per second)
 			#Range: 1 ~ 20
 			frequency = 5
-
-		#battery settings
-		[cyclic.blocks.battery]
-			#RF/t charging rate for the battery item slot
-			#Range: 1 ~ 6400000
-			charge = 8000
 
 		#Sprinkler settings
 		[cyclic.blocks.sprinkler]
@@ -142,20 +164,26 @@
 			#Range: 0 ~ 1000
 			water = 5
 
+		#terra_glass settings
+		[cyclic.blocks.terra_glass]
+			#ticks between growth cycles
+			#Range: 1 ~ 10000
+			timer = 100
+			#growth height below the glass
+			#Range: 0 ~ 32
+			height = 8
+
 		#experience_pylon settings
 		[cyclic.blocks.experience_pylon]
 			#Radius to pickup xp orbs
 			#Range: 1 ~ 64
 			radius = 16
 
-		#fisher settings
-		[cyclic.blocks.fisher]
-			#Chance to Fish from nearby water.  Smaller values is slower fish
-			#Range: 1.0E-5 ~ 0.999
-			chance = 0.1
-			#Radius to Fish from nearby water
-			#Range: 1 ~ 32
-			radius = 12
+		#soundproofing settings
+		[cyclic.blocks.soundproofing]
+			#Radius of sound proofing (distance from each block that it will listen)
+			#Range: 1 ~ 16
+			radius = 6
 
 	#####################################################################################
 	# Logging related configs
@@ -391,7 +419,7 @@
 	[cyclic.energy]
 
 		#####################################################################################
-		#Energy cost for various machines, either per use of an action or per tick (twenty ticks per second).
+		#Energy cost for various machines, either per use of an action or per tick (twenty ticks per second). Setting as zero (0) lets machine run for free
 		#####################################################################################
 		[cyclic.energy.cost]
 			#Power per use disenchanter
