@@ -1,0 +1,41 @@
+{
+  "name": "Колодец страданий",
+  "icon": "bloodmagic:life_essence_bucket",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Колодец страдания",
+      "multiblock_id": "bloodmagic:well_of_suffering",
+      "text": "Использовать $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный предсказатель [Сумерки]$(/l) для облегчения строительства."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "well_of_suffering",
+      "text_overrides": [
+        ["LP", "blood"],
+        ["blood altar", "l:bloodmagic:altar/blood_altar"]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Этот ритуал атакует мобов в пределах своей зоны поражения и помещает собранные $(blood)Кровь$() в соседний $(l:bloodmagic:altar/blood_altar)Кровавый алтарь$(). Поставить $(l:bloodmagic:altar/soul_network)Сфера крови$() в Алтаре, может быть, добавить несколько $(l:bloodmagic:altar/blood_rune/sacrifice_rune)Руны жертвоприношения$() для хорошей меры, и вам больше никогда не придется беспокоиться о ваших запасах LP ... Пока вы можете обеспечить достаточно мобов." 
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "well_of_suffering",
+      "page_type": "altar",
+      "text": "The Ritual can only link to one altar at a time.",
+      "text_overrides": [
+        ["Кровавый алтарь", "l:bloodmagic:altar/blood_altar"],
+        ["Кровь", "blood"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "well_of_suffering",
+      "page_type": "damage",
+      "text": "Мобы по-прежнему будут сбрасывать неигровые капли, убивающие мобов."
+    }
+  ]
+}

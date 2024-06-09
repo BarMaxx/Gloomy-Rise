@@ -1,0 +1,40 @@
+{
+  "name": "Основы массива алхимии",
+  "icon": "bloodmagic:arcaneashes",
+  "category": "bloodmagic:alchemy_array/functional_array",
+  "extra_recipe_mappings":[["bloodmagic:arcaneashes", 1]],
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Тайный Пепел$() является элементом, который играет ключевую роль в создании алхимических массивов. $(item)Тайный Пепел$() может быть создан в $(l:bloodmagic:alchemy_table/alchemy_table)Алхимический стол$() используя некоторые ранние игровые предметы."
+    },
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Тайный Пепел",
+      "recipe": "bloodmagic:alchemytable/arcane_ash"
+    },
+    {
+      "type": "text",
+      "text": "Чтобы создать массив алхимии, нажмите [$(k:use)] при взгляде на блок с $(item)Тайный Пепел$() в руке. Это потребит 1 долговечность из 20 от $(item)Тайный Пепел$() и нарисуйте простой $(thing)Массив алхимии$(), это само по себе не имеет никаких последствий. $(br2)Когда вы нажимаете на $(thing)Массив алхимии$(), он будет потреблять один $(item)item$() из стопки в вашей руке и держите ее в массиве. Эти элементы затем используются для определения $(thing)Массив алхимии$()'s эффект."
+    },
+    {
+      "type": "image",
+      "images": [
+        "bloodmagic:images/entries/alchemy_array/simple_array.png",
+        "bloodmagic:images/entries/alchemy_array/divination_array_1.png",
+        "bloodmagic:images/entries/alchemy_array/divination_array_2.png"
+      ],
+      "title": "Массив алхимии",
+      "border": true,
+      "text": "$(thing)Массив алхимии$() отображение массива с: никаких входов; только $(item)base item$(); both $(item)base$() и $(item)catalyst$()."
+    },
+    {
+      "type": "text",
+      "text": "Для каждого эффекта требуется два элемента: a $(item)base$() и еще $(item)catalyst$(). То $(item)base$() является первым элементом, с которым вы щелкаете по массиву после его отрисовки, и $(item)catalyst$() это второй пункт. Когда вы применяете базовый элемент, дизайн массива изменится, если он действителен, и массив активируется после применения катализатора."
+    },
+    {
+      "type": "text",
+      "text": "Хотя в настоящее время реализовано всего несколько массивов, в конечном итоге у вас будут массивы, которые варьируются от простых $(l:bloodmagic:alchemy_array/functional_arrays/crafting_array)crafting arrays$(/l) для выравнивания массивов телепортации."
+    }
+  ]
+}

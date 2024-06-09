@@ -1,0 +1,33 @@
+{
+  "name": "Уровни плит",
+  "icon": "bloodmagic:blankslate",
+  "category": "bloodmagic:altar",
+  "extra_recipe_mappings":[
+    ["bloodmagic:blankslate", 1],
+    ["bloodmagic:reinforcedslate", 1],
+    ["bloodmagic:infusedslate", 2],
+    ["bloodmagic:demonslate", 2]
+  ],
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:bloodmagic:altar/blood_altar)Алтарь крови$(/l) в основном используется для производства $(item)Плиток$(). Каждый уровень плиты требует предыдущего уровня и более мощного алтаря, чем последний. $(br2)Обратите внимание, что $(item)Эфирные плиты$() в настоящее время не реализованы по умолчанию, но может быть, если вы играете в модпаке. За подробностями обращайтесь к JEI." 
+    },
+    {
+      "type": "2x_crafting_altar",
+      "a.heading": "Пустая плита",
+      "a.recipe": "bloodmagic:altar/slate",
+      "b.heading": "Усиленная плита",
+      "b.recipe": "bloodmagic:altar/reinforcedslate"
+    },
+    {
+      "type": "2x_crafting_altar",
+      "a.heading": "Пропитанная плита",
+      "a.recipe": "bloodmagic:altar/imbuedslate",
+      "b.heading": "Демоническая плита",
+      "b.recipe": "bloodmagic:altar/demonicslate"
+    }
+  ]
+}
+
+

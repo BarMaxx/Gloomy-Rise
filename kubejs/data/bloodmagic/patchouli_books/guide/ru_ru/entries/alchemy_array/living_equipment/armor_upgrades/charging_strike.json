@@ -1,0 +1,15 @@
+{
+  "name": "Зарядный удар",
+  "icon": "minecraft:golden_axe",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Эффект: Увеличивает урон и отбрасывание от спринтерских атак до +50%. $(br2)Обучен: Наносить урон во время спринта. $(br2)Максимальный уровень: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:sprint_attack"
+    }
+  ]
+}

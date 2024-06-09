@@ -1,0 +1,13 @@
+{
+  "name": "Infinity Drill",
+  "icon": "industrialforegoing:infinity_drill",
+  "category": "tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Бесконечный бур - это инструмент, который позволяет добывать большие участки, чем больше ярус, тем больше участок."
+    }
+  ]
+}

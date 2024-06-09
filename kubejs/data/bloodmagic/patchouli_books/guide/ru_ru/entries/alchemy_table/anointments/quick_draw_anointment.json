@@ -1,0 +1,25 @@
+{
+  "name": "Ловкость Алкахест",
+  "icon": "bloodmagic:quick_draw_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Ловкость Алкахест",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment",
+      "text": "Снижает время натяжения луков и арбалетов на 33%. $(br2)Допустимые предметы: луки, арбалеты.$(br2)Применяется: Ловкие руки I (256 выстрелов)"
+    },
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Ловкость Алкахест L",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment_l",
+      "text": "Эта улучшенная версия помазания длится в четыре раза дольше. $(br2)Применяется: Ловкие руки I (1024 выстрелов)"
+    },
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Ловкость Алкахест II",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment_2",
+      "text": "Эта улучшенная версия помазания снижает время натяжения луков и арбалетов на 50%. $(br2)Применяется: Ловкие руки II (256 выстрелов)"
+    }
+  ]
+}

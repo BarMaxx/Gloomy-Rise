@@ -1,0 +1,47 @@
+{
+  "name": "Sentient Tools",
+  "icon": "bloodmagic:soulpickaxe",
+  "category": "bloodmagic:demon_will/demonic_items",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:bloodmagic:demon_will/demonic_items/sentient_sword)Sentient Sword$() оказался ошеломляющим успехом. Вам интересно, как другие инструменты отреагируют на подобное обращение... $(br2) Обратите внимание, что эти инструменты, как и $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Sentient sword$(), можно починить с помощью $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Crystallized Will$() в наковальне. $(br2)Мы уже упоминали, что все часовые инструменты и оружие поддаются зачарованию?"
+    },
+    {
+      "type": "crafting_soulforge",
+      "heading": "Sentient Pickaxe",
+      "recipe": "bloodmagic:soulforge/sentientpickaxe",
+      "text": "Эта кирка улучшается с помощью Воли, с легкостью разрезая камень. Без Воли она лишь немного лучше, чем $(item)Железная кирка$(), из которой она была изготовлена; однако, получив достаточно $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Тартарский самоцвет$(), вы увидите, что она превзойдет даже $(item)Нетеритовую кирку$()."
+    },
+    {
+      "type": "text",
+      "text": "Коса $(item) Sentient Scythe$() - это инструмент, несколько отличающийся от своего железного собрата. Наполнив ее волей, вы превратили ее в грозное оружие. Хотя оно медленное и не такое мощное, как другие виды оружия, его сильные взмахи наносят полный урон всем врагам в радиусе действия, что делает его отличным выбором для борьбы с толпой."
+    },
+    {
+      "type": "crafting_soulforge",
+      "heading": "Sentient Scythe",
+      "recipe": "bloodmagic:soulforge/sentientscythe",
+      "text": "Как и кирка, без Воли, питающей косу, она сравнительно тупая и громоздкая. Однако с достаточно полным $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gem$() она может стать разрушительным инструментом. $(br)Мы упоминали, что она все еще работает как мотыга?"
+    },
+    {
+      "type": "text",
+      "text": "Как и $(item)Sentient Pickaxe$(), $(item)Sentient Axe$() заметно улучшен по сравнению со своим железным аналогом. Кроме того, он получил значительный прирост урона, что делает его грозным оружием для тех, кого не смущает его громоздкость."
+    },
+    {
+      "type": "crafting_soulforge",
+      "heading": "Sentient Axe",
+      "recipe": "bloodmagic:soulforge/sentientaxe",
+      "text": "Как и в случае с киркой, без Воли, питающей ваш топор, он лишь немного лучше, чем $(item)Железный топор$(), из которого он был изготовлен; однако с достаточно полным $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Тартарский самоцвет$(), вы увидите, что он превосходит даже $(item)Нетеритовый топор$()."
+    },
+        {
+      "type": "text",
+      "text": "Как и $(item)Sentient Pickaxe$(), $(item)Sentient Shovel$() заметно превосходит свой железный аналог, даже без дополнительных $(l:bloodmagic:demon_will/will_manipulation/demon_will)Demon Will$() для его питания."
+    },
+    {
+      "type": "crafting_soulforge",
+      "heading": "Sentient Shovel",
+      "recipe": "bloodmagic:soulforge/sentientshovel",
+      "text": "Как и в случае с киркой, без Воли, питающей вашу лопату, она лишь немного лучше, чем $(item)Железная лопата$(), из которой она была изготовлена; однако с достаточно полным $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gem$(), вы увидите, что она превосходит даже $(предмет)Нетеритовая лопата$()."
+    }
+  ]
+}

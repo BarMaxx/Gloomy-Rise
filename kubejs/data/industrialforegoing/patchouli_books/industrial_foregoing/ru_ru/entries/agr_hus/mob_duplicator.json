@@ -1,0 +1,21 @@
+{
+  "name": "Mob Duplicator",
+  "icon": "industrialforegoing:mob_duplicator",
+  "category": "agriculture_husbandry",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Машина, используемая для порождения мобов. При наличии энергии, $(l:agr_hus/essence)Essence$() и любого существа в $(l:tools/mib)инструмент для заключения мобов$() она порождает их вокруг себя. $(br2)Он будет считать существ поблизости и остановится, если их слишком много."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_duplicator"
+    }
+  ,
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_imprisonment_tool"
+    }
+  ]
+}

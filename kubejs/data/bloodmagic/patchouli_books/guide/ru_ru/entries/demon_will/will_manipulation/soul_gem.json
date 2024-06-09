@@ -1,0 +1,53 @@
+{
+  "name": "Tartaric Gems",
+  "icon": "bloodmagic:soulgemgreater",
+  "category": "bloodmagic:demon_will/will_manipulation",
+
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:bloodmagic:demon_will/will_manipulation/demon_will)Demon Will$() - очень полезный ресурс, но фрагментам, которые вы получали до сих пор, явно не хватало силы. Вам нужен предмет для хранения; $(item)Тартарский самоцвет$(), похоже, как раз то, что нужно. Более того, он может поглотить все остатки $(l:bloodmagic:demon_will/will_manipulation/demon_will)Demon Will$(), которые могут быть у вас под рукой. Просто бросьте их на пол, и ваш новый блестящий драгоценный камень поглотит их."
+    },
+    {
+      "type": "crafting_soulforge",
+      "heading": "Petty Tartaric Gem",
+      "recipe": "bloodmagic:soulforge/pettytartaricgem",
+      "text": "Ваш первый драгоценный камень будет вмещать максимум 64 $(l:bloodmagic:demon_will/will_manipulation/demon_will)Will$(). Намного компактнее, чем раньше! $(br2)Если вы захотите перенести $(raw)Will$() из одного самоцвета в другой, просто удерживайте [$(k:use)], пока держите самоцвет, который хотите опустошить, и он перенесет свою волю в первый подходящий самоцвет, который найдет в вашем инвентаре."
+    },
+    {
+      "type": "text",
+      "text": "Ваш $(item)Мелкий тартаровый самоцвет$() - полезный инструмент, но ему явно не хватает мощности. Тщательно обработав его с помощью $(item)Diamond$(), $(item)Lapis$() и $(item)Redstone$(), вы нашли способ увеличить его возможности в четыре раза."
+    },  
+    {
+      "type": "crafting_soulforge",
+      "heading": "Lesser Tartaric Gem",
+      "recipe": "bloodmagic:soulforge/lessertartaricgem",
+      "text": "Этот усиленный самоцвет может вместить до 256 $(l:bloodmagic:demon_will/will_manipulation/demon_will)Will$(). $(br2)Примечание: при улучшении вам понадобится только один самоцвет - $(item)Адская кузница$() будет черпать $(raw)Волю$() из самоцвета, который она создает, прежде чем попытаться использовать волю из самоцвета в своем слоте для самоцветов. Не волнуйтесь, только что созданный драгоценный камень сохранит все остатки $(raw)Will$(), оставшиеся после процесса."
+    },
+    {
+      "type": "text",
+      "text": "Ваш $(item)Lesser Tartaric Gem$() - заметное улучшение, но вы снова страдаете от его ограничений. Чтобы продвинуться дальше, придется сосредоточиться на вашем $(l:bloodmagic:altar/blood_altar)Алтаре крови$(), поскольку вам требуются силы $(l:bloodmagic:altar/slates)Imbued Slate$(). Соединив эту грифельную доску с драгоценным камнем и доработав ее с помощью еще одного $(item)Алмаза$() и $(item)Блока золота$(), вы нашли способ еще раз увеличить возможности ее хранения в четыре раза."
+    },  
+    {
+      "type": "crafting_soulforge",
+      "heading": "Common Tartaric Gem",
+      "recipe": "bloodmagic:soulforge/commontartaricgem",
+      "text": "Этот замысловатый драгоценный камень вмещает в себя внушительные 1024 $(l:bloodmagic:demon_will/will_manipulation/demon_will)Will$()."
+    },
+    {
+      "type": "text",
+      "text": "Вы явно превзошли себя, создав $(item)Обыкновенный тартаровый самоцвет$(), но чувствуете, что можете сделать еще больше. Однако для того, чтобы получить больше от своего самоцвета, вам потребуется кульминация всей вашей работы. Вам нужен не только $(l:bloodmagic:altar/slates)Demonic Slate$(), но и $(l:bloodmagic:utility/alchemical_reaction_chamber#blood_shard)Weak Blood Shard$() $(o)и$() $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Demon Will Crystal$(). Разумеется, за это полагается соответствующая награда: ваши $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Sentient Tools$() станут такими, каких вы еще не видели..."
+    },
+    {
+      "type": "crafting_soulforge",
+      "heading": "Greater Tartaric Gem",
+      "recipe": "bloodmagic:soulforge/greatertartaricgem",
+      "text": "Этот шедевр искусства вмещает в себя 4 096 $(l:bloodmagic:demon_will/will_manipulation/demon_will)Will$()."
+    },
+    {
+      "type": "text",
+      "flag": "mod:curios",
+      "text": "Поскольку у вас установлен $(item)Curios API$(), вы можете экипировать $(item)Tartaric Gems$() в качестве ожерелья. Если вы хотите носить больше куриозных предметов одновременно, используйте $(l:bloodmagic:alchemy_array/sigil/holding)Sigil of Holding$() или $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)Socketed Upgrade$() для вашей $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Living Armour$()."
+    }
+  ]
+}

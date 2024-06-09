@@ -1,0 +1,24 @@
+{
+  "name": "Сигил удержания",
+  "icon": "bloodmagic:sigilofholding",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Этот Сигил может содержать до 5 других $(item)Сигилы$() за один раз, предоставляя вам их пассивные эффекты и позволяя активировать их по прихоти.$(br)Нажмите [$(k:bloodmagic.keybind.open_holding)] удерживая Сигил, чтобы открыть инвентарь.$() $(br)Нажмите [$(k:bloodmagic.keybind.cycle_holding_pos)] двигаться вперед,$() или [$(k:bloodmagic.keybind.cycle_holding_neg)] для переключения назад.$() держа [$(k:sneak)] Также работает колесико мыши."
+    },
+    {
+      "type": "crafting_2-step_sigil",
+      "alchemy_table.heading": "Реагент удержания",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_holding",
+      "array.heading": "Сигил удержания",
+      "array.recipe": "bloodmagic:array/holdingsigil",
+      "array.text": "$(italic)Sigil-ception"
+    },
+    {
+      "type": "text",
+      "flag": "mod:curios",
+      "text": "As you have the $(thing)Curios API$() installed, you can equip this $(item)Sigil$() as a charm. If you want to wear more curios at once, consider using the $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)Socketed Upgrade$() for your $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Living Armour$()."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Святая вода",
+  "icon": "bloodmagic:holy_water_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Святая вода",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment",
+      "text": "Временно увеличивает урон в ближнем бою по нежити на +5. $(br2)Допустимые предметы: инструменты, мечи.$(br2)Применяется: Святой Свет I (256 просмотров)"
+    },
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Святая вода L",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_l",
+      "text": "Эта улучшенная версия помазания действует в четыре раза дольше. $(br2)Применяется: Святой Свет I (1024 просмотров)"
+    },
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Святая вода II",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_2",
+      "text": "Эта улучшенная версия помазания увеличивает урон в ближнем бою по нежити на +10. $(br2)Применяется: Святой Свет II (256 просмотров)"
+    }
+  ]
+}

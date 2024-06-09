@@ -1,0 +1,35 @@
+{
+  "name": "Водяной сигил",
+  "icon": "bloodmagic:watersigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "text",
+      "text": "В $(item)Водяной сигил$() это довольно простой сигил. Когда вы нажимаете [$(k:use)] глядя на блок, вы можете слить 100LP из своего $(l:bloodmagic:altar/soul_network)Душевная сеть$(/l) разместить в мире источник воды. Если LP недостаточно, это приведет к потере вашего здоровья. Создано с использованием $(item)Водный Реагент$() и $(item)Чистый лист.$()"
+    },
+    {
+      "type": "crafting_2-step_sigil",
+      "alchemy_table.heading": "Водный Реагент",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_water",
+      "array.heading": "Водяной Cbubk",
+      "array.recipe": "bloodmagic:array/watersigil",
+      "array.text": "$(italic)Бесконечная вода, кто-нибудь?"
+    },
+    {
+      "type": "image",
+      "images": [
+        "bloodmagic:images/entries/sigil/water_sigil1.png",
+        "bloodmagic:images/entries/sigil/water_sigil2.png"
+      ],
+      "title": "Массив сигилов воды",
+      "border": true,
+      "text": "Сигил Воды, рядом с его набором для изготовления, плюс его основное предназначение."
+    },
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Ведро с водой",
+      "recipe": "bloodmagic:alchemytable/sigil_water_bucket",
+      "text": "Более того, его можно использовать в $(l:bloodmagic:alchemy_table/alchemy_table)Алхимический стол$() автоматизировать производство $(water)Ведра для воды$(). Сигил не используется в этом рецепте.."
+    }
+  ]
+}

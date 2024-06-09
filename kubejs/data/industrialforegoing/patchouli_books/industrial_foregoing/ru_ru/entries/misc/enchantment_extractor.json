@@ -1,0 +1,17 @@
+{
+  "name": "Enchantment Extractor",
+  "icon": "industrialforegoing:enchantment_extractor",
+  "category": "misc",
+  "sortnum": 4,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Эта машина может извлекать чары из предметов при наличии книги. $(br2)Она может функционировать двумя способами: извлекать чары в книгу или извлекать чары и превращать их в $(l:agr_husb/essence)эссенцию$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:enchantment_extractor"
+    }
+  ]
+}

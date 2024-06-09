@@ -1,6 +1,6 @@
 {
 	version: 13
-	title: "{quests.gloomy_rise.main_title}"
+	title: "&4&lGloomy Rise"
 	icon: "graveyard:leaning_wither_skeleton"
 	default_reward_team: true
 	default_consume_items: false

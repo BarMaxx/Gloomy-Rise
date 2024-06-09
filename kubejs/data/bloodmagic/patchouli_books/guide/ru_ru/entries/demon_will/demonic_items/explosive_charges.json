@@ -1,0 +1,79 @@
+{
+  "name": "Explosive Charges",
+  "icon": "bloodmagic:shaped_charge",
+  "category": "bloodmagic:demon_will/demonic_items",
+  "pages":[
+    {
+      "type": "text",
+      "text": "Добыча полезных ископаемых и леса - это все хорошо для тех, кто отказывается мечтать о большом, но какой уважающий себя сангвимант опустится до этого? С учетом этого вы придумали несколько хитроумных приспособлений. Просто бросьте их в надоедливые деревья, камни или что-то еще, чем вы хотите перестать быть, и ждите, пока они самовоспламенятся."
+    },
+    {
+      "type": "text",
+      "text": "Кроме того, вы можете улучшить их функциональность, $(item)Помазав$() их определенными ингредиентами и немного $(raw)Will$(), как описано после каждой записи. $(br2)В настоящее время доступны следующие помазки: $(li)Удача - на сломанные блоки действует $(thing)Удача I$(). $(li)Heated Tool - на сломанные блоки действует $(li)Smelted$(). $(li)Soft Touch - на сломанные блоки действует $(thing)Silk Touch$()."
+    },
+    {
+      "type": "crafting_soulforge",
+      "heading": "Shaped Charge",
+      "recipe": "bloodmagic:soulforge/shaped_charge",
+	  "anchor":"shaped_charge",
+	  "text": "Заряд $(item)Shaped Charge$() уничтожит куб 5x5x5 с той стороны блока, на которую он приземлится, и сбросит все блоки, как будто их добыли киркой. Он работает даже на Обсидиане и при этом издает приятный звук $(o)KABOOM$()."
+    },
+    {
+      "type": "3x_crafting_soulforge",
+      "a.heading": "Fortunate",
+      "a.recipe": "bloodmagic:soulforge/shaped_charge_fortune_1",
+      "b.heading": "Heated Tool",
+      "b.recipe": "bloodmagic:soulforge/shaped_charge_smelting",
+      "c.heading": "Soft Touch",
+      "c.recipe": "bloodmagic:soulforge/shaped_charge_silk_touch"
+    },
+    {
+      "type": "crafting_soulforge",
+      "heading": "Deforester Charge",
+      "recipe": "bloodmagic:soulforge/deforester_charge",
+	  "anchor":"deforester_charge",
+	  "text": "Заряд $(item)Лесоруба$() предназначен для валки деревьев. Он может использоваться на бревнах или листьях и валит все деревья, кроме самых могучих, разрушая до $(item)двух стопок$() бревен за раз (и аккуратно убирая все листья, которые попадаются в процессе! Даже гигантские деревья Джунглей падают в считанные секунды."
+    },
+    {
+      "type": "3x_crafting_soulforge",
+      "a.heading": "Fortunate",
+      "a.recipe": "bloodmagic:soulforge/deforester_charge_fortune_1",
+      "b.heading": "Heated Tool",
+      "b.recipe": "bloodmagic:soulforge/deforester_charge_smelting",
+      "c.heading": "Soft Touch",
+      "c.recipe": "bloodmagic:soulforge/deforester_charge_silk_touch"
+    },
+    {
+      "type": "crafting_soulforge",
+      "heading": "Controlled Charge",
+      "recipe": "bloodmagic:soulforge/vein_charge",
+      "anchor":"controlled_charge",
+      "text": "$(item)Управляемый заряд$(), уничтожает только блоки $(item)идентичные блоку, на который он попадает$(). Он уничтожит до $(item)трех стопок$() блоков, стремящихся к исходной точке. Как и при использовании других зарядов, все добытые блоки будут сброшены."
+    },
+    {
+      "type": "3x_crafting_soulforge",
+      "a.heading": "Fortunate",
+      "a.recipe": "bloodmagic:soulforge/vein_charge_fortune_1",
+      "b.heading": "Heated Tool",
+      "b.recipe": "bloodmagic:soulforge/vein_charge_smelting",
+      "c.heading": "Soft Touch",
+      "c.recipe": "bloodmagic:soulforge/vein_charge_silk_touch"
+    },
+    {
+      "type": "crafting_soulforge",
+      "heading": "Fungal Charge",
+      "recipe": "bloodmagic:soulforge/fungal_charge",
+      "anchor":"fungal_charge",
+      "text": "Заряд $(item)Fungal Charge$() предназначен для уничтожения гигантских грибов, как в Надземном мире, так и в Недрах. Хотя сомнительно, что вы когда-нибудь достигнете этого за один заряд, он может разрушить до $(item)трех стопок блоков$()."
+    },
+    {
+      "type": "3x_crafting_soulforge",
+      "a.heading": "Fortunate",
+      "a.recipe": "bloodmagic:soulforge/fungal_charge_fortune_1",
+      "b.heading": "Heated Tool",
+      "b.recipe": "bloodmagic:soulforge/fungal_charge_smelting",
+      "c.heading": "Soft Touch",
+      "c.recipe": "bloodmagic:soulforge/fungal_charge_silk_touch"
+    }
+  ]
+}

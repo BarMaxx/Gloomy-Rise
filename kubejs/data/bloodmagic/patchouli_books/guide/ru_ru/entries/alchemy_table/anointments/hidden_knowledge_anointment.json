@@ -1,0 +1,25 @@
+{
+  "name": "Секреты шахтера",
+  "icon": "bloodmagic:hidden_knowledge_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Секреты шахтера",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment",
+      "text": "Блоки сбрасывают опыт при успешном сборе урожая. Дроп + 2 опыта за блок. $(br2)Допустимые предметы: инструменты, мечи, заряды.$(br2)Применимо: Секреты шахтера I (256 блоков)"
+    },
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Секреты шахтера L",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_l",
+      "text": "Эта улучшенная версия помазания действует в четыре раза дольше. $(br2)Применимо: Секреты шахтера I (1024 блоков)"
+    },
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Секреты шахтера II",
+      "recipe": "bloodmagic:alchemytable/hidden_knowledge_anointment_2",
+      "text": "Эта улучшенная версия помазания увеличивает урожай. $(br2)Применимо: Секреты шахтера II (256 блоков)"
+    }
+  ]
+}

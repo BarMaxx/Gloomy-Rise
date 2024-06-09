@@ -1,0 +1,17 @@
+{
+  "name": "Простые ключи",
+  "icon": "bloodmagic:simplekey",
+  "category": "bloodmagic:dungeons",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Простые ключи - это основной способ навигации по $(thing)Подземельям$(). Их можно найти в сундуках подземелий в Царстве Демонов, или их можно создать."
+    },
+    {
+      "type": "crafting_soulforge",
+      "heading": "Простой ключ",
+      "recipe": "bloodmagic:soulforge/simple_key",
+      "text": "$(italic)Если это так просто, почему мы не можем просто взломать замок?$()"
+    }
+  ]
+}

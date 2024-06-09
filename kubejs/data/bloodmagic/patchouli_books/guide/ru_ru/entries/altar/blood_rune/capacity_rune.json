@@ -1,0 +1,15 @@
+{
+  "name": "Руна ёмкости",
+  "icon": "bloodmagic:altarcapacityrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Руна ёмкости$() увеличивает емкость $(l:bloodmagic:altar/blood_altar)Кровавого Алтаря$(/l) на добавку +20% за руну."
+    },
+    {
+      "type": "crafting",
+      "recipe": "bloodmagic:blood_rune_capacity"
+    }
+  ]
+}

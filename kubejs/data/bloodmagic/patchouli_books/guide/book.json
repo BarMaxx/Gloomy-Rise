@@ -1,0 +1,25 @@
+{
+  "name": "guide.bloodmagic.name",
+  "subtitle": "guide.bloodmagic.subtitle",
+  "landing_text": "guide.bloodmagic.landing_text",
+  "book_texture": "patchouli:textures/gui/book_red.png",
+  "filler_texture": "bloodmagic:textures/gui/patchouli_book/page_filler.png",
+  "creative_tab": "bloodmagictab",
+  "model": "bloodmagic:book",
+  "show_progress": false,
+  "macros": {
+	"$(water)": "$(#0000AA)",
+	"$(air)": "$(#AAAA00)",
+	"$(fire)": "$(#AA0000)",
+	"$(earth)": "$(#00AA00)",
+	"$(blank)": "$(#888888)",
+	"$(dusk)": "$(#9400D3)",
+	"$(dawn)": "$(6)",
+	"$(steadfast)": "$(#0000AA)",
+	"$(destructive)": "$(#AAAA00)",
+	"$(vengeful)": "$(#AA0000)",
+	"$(corrosive)": "$(#00AA00)",
+	"$(raw)": "$(#36C6C6)",
+	"$(blood)": "$(#AA0000)"
+	}
+}

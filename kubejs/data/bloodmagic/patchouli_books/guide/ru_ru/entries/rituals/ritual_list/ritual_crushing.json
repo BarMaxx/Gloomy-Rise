@@ -1,0 +1,67 @@
+{
+  "name": "Ритуал Сокрушителя",
+  "icon": "minecraft:iron_pickaxe",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Ритуал Сокрушителя",
+      "multiblock_id": "bloodmagic:crushing",
+      "text": "Использовать $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный предсказатель [Сумерки]$(/l) для облегчения строительства."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "crushing"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "raw",
+      "text_overrides": [
+        ["Грубая воля", "raw"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "corrosive",
+      "text_overrides": [
+        ["Смазочно-охлаждающая жидкость", "l:bloodmagic:alchemy_table/alchemy_table#cutting_fluid"],
+        ["Шелковое прикосновение", "item"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "vengeful",
+      "text": "Например, он превратит уголь в блоки из угля, пыль из красного камня в блоки из красного камня и т.д."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "destructive",
+      "text_overrides": [
+        ["Фортуна III", "item"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "steadfast",
+      "text_overrides": [
+        ["Шелковое прикосновение", "item"],
+        ["Удача", "item"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "chest"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crushing",
+      "page_type": "crushingRange"
+    }
+  ]
+}

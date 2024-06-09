@@ -1,0 +1,19 @@
+{
+  "name": "Мягкое покрытие",
+  "icon": "bloodmagic:silk_touch_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Мягкое покрытие",
+      "recipe": "bloodmagic:alchemytable/silk_touch_anointment",
+      "text": "Применяет Шелковое прикосновение к собранным блокам. Не складывается с ванильными чарами.$(br2)Допустимые предметы: инструменты, мечи, заряды.$(br2)Применяется: Мягкое прикосновение I (256 блоков)"
+    },
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Мягкое покрытие L",
+      "recipe": "bloodmagic:alchemytable/silk_touch_anointment_l",
+      "text": "Эта улучшенная версия помазания длится в четыре раза дольше. $(br2)Применяется: Мягкое прикосновение I (1024 блоков)"
+    }
+  ]
+}

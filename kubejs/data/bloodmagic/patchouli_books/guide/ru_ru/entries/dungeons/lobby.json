@@ -1,0 +1,56 @@
+{
+  "name": "Прихожая",
+  "icon": "bloodmagic:dungeon_seal",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings":[
+    ["bloodmagic:inversion_pillar", 0],
+    ["bloodmagic:dungeon_seal", 0],
+    ["bloodmagic:dungeon_controller", 0],
+    ["bloodmagic:inversion_pillar_cap", 0],
+    ["bloodmagic:dungeon_brick3", 1],
+    ["bloodmagic:dungeon_brick2", 1],
+    ["bloodmagic:dungeon_brick1", 1],
+    ["bloodmagic:dungeon_brick_assorted", 1],
+    ["bloodmagic:dungeon_stone", 1],
+    ["bloodmagic:dungeon_eye", 1],
+    ["bloodmagic:dungeon_polished", 1],
+    ["bloodmagic:dungeon_tile", 1],
+    ["bloodmagic:dungeon_tilespecial", 1],
+    ["bloodmagic:dungeon_smallbrick", 1],
+    ["bloodmagic:dungeon_brick_stairs", 1],
+    ["bloodmagic:dungeon_polished_stairs", 1],
+    ["bloodmagic:dungeon_pillar_center", 1],
+    ["bloodmagic:dungeon_pillar_special", 1],
+    ["bloodmagic:dungeon_pillar_cap", 1],
+    ["bloodmagic:dungeon_brick_wall", 1],
+    ["bloodmagic:dungeon_polished_wall", 1],
+    ["bloodmagic:dungeon_brick_gate", 1],
+    ["bloodmagic:dungeon_polished_gate", 1],
+    ["bloodmagic:dungeon_brick_slab", 1],
+    ["bloodmagic:dungeon_tile_slab", 1],
+    ["bloodmagic:dungeon_regular_cracked_brick1", 1],
+    ["bloodmagic:dungeon_cracked_brick1", 1],
+    ["bloodmagic:dungeon_emitter", 1],
+    ["bloodmagic:dungeon_alternator", 1],
+    ["bloodmagic:spikes", 1],
+    ["bloodmagic:dungeon_spike_trap", 1]
+  ],
+  "pages": [
+    {
+      "type": "text",
+      "text": "Выполнив ритуал $(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)Край Скрытого царства$() вы обнаружите, что смотрите на $(thing)Инверсионный столб$(). Щелкните правой кнопкой мыши по этой колонне, чтобы переместиться в Прихожую, ваш первый набег в  $(thing)Царство Демонов.$() $(br)В этой первой комнате есть несколько примечательных вещей: $(li)Единственный сундук с сокровищами, содержащий некоторую базовую добычу и, если вам повезет, несколько $(l:bloodmagic:dungeons/simple_key)Простых Ключей$()."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Во-вторых, несколько $(thing)Дверных Проемов$(), каждый из которых заперт $(thing)Печатью Подземелья.$() Используйте $(item)Ключ$() на этих печатях, чтобы открыть следующую комнату. $(li)В-третьих $(item)Инверсионный Столб$(), зеркало того, который вы вызвали ранее.. [$(k:use)] это для того, чтобы вернуться в свой мир. $(br2)Здесь также есть большое количество декоративных блоков, если вы почувствуете, что вашей домашней базе нужна какая-то изюминка."
+    },
+    {
+      "type": "text",
+      "text": "Любые дополнительные комнаты, которые вы откроете из этой прихожей, будут содержать некоторую комбинацию добычи, монстров, ловушек и, возможно, некоторых неактивированных ритуалов. Держи ухо востро! $(br2)Несколько примеров добычи, которую вы можете найти: $(li)Зачарованые книги $(li)Зачарованное Оружие и Доспехи $(li)$(l:bloodmagic:alchemy_table/anointments)Различные Объявления$() $(li)$(l:bloodmagic:demon_will/will_manipulation/demon_will)Воля демона$() $(li)Ингредиенты для зелья"
+    },
+    {
+      "type": "text",
+      "text": "$(li)Плод Тау $(li)Насыщенный Тау $(li)Масло Тау$(br2)Так что отправляйтесь на охоту и следите как за сокровищами, так и за ловушками!"
+    }
+  ]
+}

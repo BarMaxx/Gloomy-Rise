@@ -1,0 +1,25 @@
+{
+  "name": "Экстракт Фортуны",
+  "icon": "bloodmagic:fortune_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Экстракт Фортуны",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment",
+      "text": "Повышает урожайность некоторых заготовленных блоков. Также складывается с чарами удачи. $(br2)Допустимые предметы: инструменты, мечи, заряды. $(br2)Применяется: Фортуна I (256 блоков)"
+    },
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Экстракт фортуны L",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_l",
+      "text": "Эта улучшенная версия помазания действует в четыре раза дольше. $(br2)Применяется: Фортуна I (1024 блока)"
+    },
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Экстракт Фортуны II",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_2",
+      "text": "Эта улучшенная версия помазания увеличивает урожай. $(br2)Применяется: Фортуна II (256 блоков)"
+    }
+  ]
+}

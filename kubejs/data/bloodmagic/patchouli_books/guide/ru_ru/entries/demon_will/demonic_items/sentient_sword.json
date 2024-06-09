@@ -1,0 +1,17 @@
+{
+  "name": "Sentient Sword",
+  "icon": "bloodmagic:soulsword",
+  "category": "bloodmagic:demon_will/demonic_items",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Меч $(item)Sentient Sword$() - гораздо более эффективный инструмент для сбора $(l:bloodmagic:demon_will/will_manipulation/demon_will)Demon Will$(), чем $(l:bloodmagic:demon_will/will_manipulation/soul_snare)Soul Snares$(). Поначалу он может показаться слабым, но он питается Волей, которую вы носите, поэтому создание $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gem$() является обязательным. $(br2) Обратите внимание, что меч, как и все $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Sentient Tools$(), можно починить с помощью $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Crystallized Will$() на наковальне."
+    },
+    {
+      "type": "crafting_soulforge",
+      "heading": "Sentient Sword",
+      "recipe": "bloodmagic:soulforge/sentientsword",
+      "text": "Этот меч будет служить вам долго.$(br2)Обратите внимание, что вы можете обновить статистику меча, нажав [$(k:use)], когда он экипирован - если вы недавно получили большое количество $(raw)Will$(), или, возможно, впервые пробуете новый Аспект Воли, то это может быть хорошей идеей."
+    }
+  ]
+}

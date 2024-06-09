@@ -1,0 +1,17 @@
+{
+  "name": "Fluid Placer",
+  "icon": "industrialforegoing:fluid_placer",
+  "category": "resource_production",
+  "sortnum": 4,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Он помещает жидкости.$(br2)Он поместит жидкость из внутреннего контейнера и использует $(6)1000$()РФ."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fluid_placer"
+    }
+  ]
+}

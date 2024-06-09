@@ -1,0 +1,16 @@
+{
+  "name": "Wither Builder",
+  "icon": "industrialforegoing:wither_builder",
+  "category": "agriculture_husbandry",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Машина, используемая для порождения увядших существ. При наличии энергии, $(6)3 голов визера-скелета$() и $(6)4 песка душ$() она полностью построит структуру для спавна вайнеров в рабочей зоне."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:wither_builder"
+    }
+  ]
+}

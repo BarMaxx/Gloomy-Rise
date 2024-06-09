@@ -1,0 +1,50 @@
+{
+  "name": "Demon Will Aura",
+  "icon": "bloodmagic:demoncrucible",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Как мы уже выяснили $(l:bloodmagic:demon_will/will_manipulation/demon_will)established$(), $(raw)Demonic Will$() объединяется вокруг определенных существ и приводит их в движение с помощью злобной силы. Однако это не единственное место, где может существовать $(raw) Воля$(). Сжигая $(raw) Волю$() в $(item) Демоническом тигле$(), можно высвободить волю в $(item) Ауру$(), что дает великолепный и завораживающий эффект."
+    },
+    {
+      "type": "crafting_soulforge",
+      "heading": "Demon Crucible",
+      "recipe": "bloodmagic:soulforge/demon_crucible",
+      "text": "Поместите в него заряженный $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gem$() или любой аспект $(item)Demon Will$() или $(item)Demon Crystal$() и запустите его. $(item)Кристаллы$() будут расходоваться, как только $(raw)Воля$() чанка опустится ниже 50, в то время как $(raw)Воля$() демона (в виде предмета или из $(item)Тартарского самоцвета$() будет расходоваться понемногу, по мере необходимости."
+    },
+    {
+      "type": "image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/demon_crucible.png"
+      ],
+      "title": "Demon Crucible",
+      "border": true,
+      "text": "$(item)Demon Crucible$(), внутри которого находится $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gem$()."
+    },
+    {
+      "type": "text",
+      "text": "Теперь у нас есть $(raw)Raw Will$() в атмосфере. Отлично, и что теперь? $(br2)Некоторые $(вещи)ритуалы$() $(l:bloodmagic:rituals/ritual_tinkerer)получают пользу$() от $(raw)Сырой Воли$(), но главная польза от этого - возможность создавать изысканные $(thing)Кристаллы Демонической Воли$() и, исходя из этого, $(l: bloodmagic:rituals/ritual_list/ritual_crystal_split) расщеплять их$() на их $(l:bloodmagic:demon_will/will_manipulation/aspected_will)Аспекты$(). $(br2)Когда у вас будет несколько кристаллов $(item)Аспектированной воли$(), вы сможете еще раз сжечь их в $(item)Горниле$(), чтобы высвободить их в $(item)Ауру$() для использования в ритуалах."
+    },
+    {
+      "type": "text",
+      "text": "Обратите внимание на некоторые важные моменты: во-первых, $(thing)Aura$() зависит от чанка. То есть любая $(raw)Will$(), которую вы сожжете, заполнит чанк, в котором вы ее сожжете, до общего предела в 100 единиц для каждого типа. Вы можете измерить это с помощью $(l:bloodmagic:demon_will/will_manipulation/aura_gauge)Demon Will Aura Gauge$(). $(br2)В настоящее время не существует способа передать $(raw)Will$() из одного чанка в другой, поэтому лучше всего передавать ее в виде предмета - как $(item)Crystallized Will$() или путем заполнения и опустошения $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gem$()."
+    },
+    {
+      "type": "text",
+      "text": "Если говорить о $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gem$(), то если поместить его в $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Hellfire Forge$(), то он будет быстро поглощать $(raw)Will$() из чанка, в котором находится. $(br2)Если в чанке есть аспект $(raw)Will$(), например $(raw)Raw$() или $(corrosive)Corrosive$(), и пустой $(item)Tartaric Gem$(), можно наполнить самоцвет этим аспектом. $(br2)Это позволяет соответствующим образом модифицировать ваши $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Sentient Tools$() и $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Sword$(). Эффекты определяются $(l:bloodmagic:demon_will/will_manipulation/aspected_will#sentient_aspects)here$()."
+    },
+    {
+      "type": "relations",
+      "title": "Related Links",
+      "entries": [
+        "rituals/ritual_tinkerer",
+        "demon_will/crystallized_will",
+        "demon_will/aspected_will",
+        "rituals/ritual_list/ritual_crystal_split",
+        "rituals/ritual_list/ritual_crystal_harvest"
+      ],
+      "text": "Я могу сделать еще больше, я чувствую это..."
+    }
+  ]
+}

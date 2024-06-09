@@ -1,0 +1,33 @@
+{
+  "name": "Ритуал возрождения",
+  "icon": "minecraft:golden_apple",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Ритуал возрождения",
+      "multiblock_id": "bloodmagic:regeneration",
+      "text": "Использовать $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный предсказатель [Сумерки]$(/l) для облегчения строительства."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "regeneration"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "regeneration",
+      "page_type": "corrosive"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "regeneration",
+      "page_type": "heal"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "regeneration",
+      "page_type": "vampire",
+      "text": "Требует $(corrosive)Коррозионная воля$()."
+    }
+  ]
+}

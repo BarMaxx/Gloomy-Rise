@@ -1,0 +1,30 @@
+{
+  "name": "Enchantments Item Filter",
+  "icon": "bloodmagic:itemrouterfilterenchant",
+  "category": "bloodmagic:demon_will/item_routing",
+  "pages":[
+    {
+      "type": "text",
+      "text": "Фильтр предметов $(item)Enchantments Item Filter$() позволяет сортировать предметы по любым $(thing)Enchantments$(), которые они могут иметь (или не иметь). Он работает аналогично $(l:bloodmagic:demon_will/item_routing/standard_item_filter)Standard Item Filter$(), особенно в отношении количества и функций разрешения/запрета, но с несколькими дополнительными кнопками."
+    },
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Standard Item Filter",
+      "recipe": "bloodmagic:alchemytable/enchant_router_filter",
+      "text": "Для этого рецепта подойдет любая заколдованная книга."
+    },
+    {
+      "type": "image",
+      "images": [
+        "bloodmagic:images/entries/routing/enchant_item_filter_gui.png"
+      ],
+      "title": "Enchantments Filter GUI",
+      "border": true,
+      "text": "Обратите внимание на две новые кнопки справа от кнопки 'Разрешить'."
+    },
+    {
+      "type": "text",
+      "text": "Первая кнопка позволяет выбрать, будет ли совпадать $(thing)Каждое зачарование$() на зачарованном предмете, $(thing)Любое зачарование$() или $(thing)Одно конкретное зачарование$(). Вторая кнопка позволяет указать, обращать ли внимание на уровень или нет. (Например, «Защита III» против «Защита»). Если вставить в фильтр $(thing) без зачарования$(), то можно разрешить или запретить $(thing) с любым видом зачарования$() вводить или удалять из указанного инвентаря."
+    }
+  ]
+}

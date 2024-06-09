@@ -1,0 +1,31 @@
+{
+  "name": "Фокус эллипсоида",
+  "icon": "minecraft:bucket",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Фокус эллипсоида",
+      "multiblock_id": "bloodmagic:ellipsoid",
+      "text": "Использовать $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный предсказатель [Сумерки]$(/l) для облегчения строительства."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "ellipsoid"
+    },
+    {
+      "type": "text",
+      "text": "Этот ритуал носит чисто эстетический характер и предназначен для начинающих, но ленивых строителей, которые обитают в каждом из нас. Он особенно хорош для создания сложных форм, таких как огромный золотой купол над вашим логовом зла. ... У тебя есть один из них, верно?"
+    },
+	{
+	  "type": "bloodmagic:ritual_data",
+	  "ritual": "ellipsoid",
+	  "page_type": "chest"
+	},
+	{
+	  "type": "bloodmagic:ritual_data",
+	  "ritual": "ellipsoid",
+	  "page_type": "spheroidRange"
+	}
+  ]
+}

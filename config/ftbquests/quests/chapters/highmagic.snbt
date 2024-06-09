@@ -1,28 +1,135 @@
 {
 	id: "2309D4A1A3548BC8"
 	group: "24923118FBE15B71"
-	order_index: 4
+	order_index: 1
 	filename: "highmagic"
-	title: "{quests.gloomy_rise.progress_3.botania.chapter_title}"
-	icon: "botania:life_essence"
-	default_quest_shape: "default_circle"
+	title: "&5HighMagic"
+	icon: "botania:mana_pylon"
+	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: 0.0d
-		y: 0.0d
-		width: 50.0d
-		height: 30.0d
-		rotation: 0.0d
-		image: "gloomyrise:textures/background_for_questbook.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
 	quests: [
 		{
-			x: -8.5d
-			y: -4.0d
+			x: 0.5d
+			y: -1.0d
+			shape: "gear"
+			description: ["Одним из первых инструментов, который должен получить каждый - жезл. Он позволяет контролировать выделении энергии звёздного света из чувствительных к звёздному свету устройств и ремесленных инструментов, щёлкая по ним пкм."]
+			dependencies: ["114FD26AF2B063E3"]
+			hide: true
+			size: 1.2d
+			id: "47A7B653FA5C3C02"
+			tasks: [{
+				id: "33A6B10AB26A1C5C"
+				type: "item"
+				item: "astralsorcery:wand"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			description: ["Светящийся верстак позволяет создавать много различных предметов, например, сияющий колодец."]
+			dependencies: ["47A7B653FA5C3C02"]
+			id: "52A34042CB0F6108"
+			tasks: [{
+				id: "08BEC53803E1B097"
+				type: "item"
+				item: "astralsorcery:altar_discovery"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			description: ["С помощью сияющего колодца можно создать ведро звёздного света."]
+			dependencies: ["52A34042CB0F6108"]
+			id: "7655922C78060D97"
+			tasks: [{
+				id: "595E728620833DD4"
+				type: "item"
+				item: "astralsorcery:well"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			shape: "rsquare"
+			description: ["С помощью ведра звёздного света можно создать много различных предметов, например, звёздный алтарь или лепестковый аптекарь."]
+			dependencies: ["7655922C78060D97"]
+			size: 1.1d
+			id: "5582C7AC71FC8616"
+			tasks: [{
+				id: "253713C5CA123674"
+				type: "item"
+				item: "astralsorcery:liquid_starlight_bucket"
+			}]
+			rewards: [{
+				id: "070974D3DD1FC1DA"
+				type: "item"
+				item: "astralsorcery:liquid_starlight_bucket"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			description: ["На звёздном алтаре можно создавать много различных предметов, например, небесный алтарь."]
+			dependencies: ["5582C7AC71FC8616"]
+			id: "20F8C21AE117B9CD"
+			tasks: [{
+				id: "68AA1B35A9ED6D54"
+				type: "item"
+				item: "astralsorcery:altar_attunement"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			description: ["На небесном алтаре можно создавать много различных предметов, например, радужный алтарь."]
+			dependencies: ["20F8C21AE117B9CD"]
+			id: "6A0331BED30F89FB"
+			tasks: [{
+				id: "6FD149DB4358C666"
+				type: "item"
+				item: "astralsorcery:altar_constellation"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			description: ["На радужном алтаре можно создавать много различных предметов, например, чаша сдерживания."]
+			dependencies: ["6A0331BED30F89FB"]
+			id: "19E49E546B1B558B"
+			tasks: [{
+				id: "153217862C5B20DC"
+				type: "item"
+				item: "astralsorcery:altar_radiance"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			description: ["С помощью чаши сдерживания можно создать максимальный верстак."]
+			dependencies: ["19E49E546B1B558B"]
+			id: "39D6FC9A8F839AEC"
+			tasks: [{
+				id: "7E13DD3A62C89D57"
+				type: "item"
+				item: "astralsorcery:chalice"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.0d
+			shape: "gear"
+			description: ["На максимально верстаке можно создать максимальную сингулярность и не только."]
+			dependencies: ["39D6FC9A8F839AEC"]
+			id: "7A7BF8AFFC7501B3"
+			tasks: [{
+				id: "289DF785F2045735"
+				type: "item"
+				item: "extendedcrafting:ultimate_table"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
 			description: ["На лепестковом аптекаре можно создавать различные цветочки."]
 			dependencies: ["5582C7AC71FC8616"]
 			id: "0341565B1DB3C325"
@@ -33,10 +140,12 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -4.0d
-			description: ["С помощью чистой маргаритки можно создать жизнекамень и жизнедерево. Для этого требуется багровая древесина и чернит, соотвественно."]
+			x: 4.5d
+			y: 1.0d
+			shape: "pentagon"
+			description: ["С помощью чистой маргаритки можно создать жизнекамень и жизнедерево. Для их создания необходимо использовать чернит и багровую древесину соотвественно."]
 			dependencies: ["0341565B1DB3C325"]
+			size: 1.1d
 			id: "595BB762D63D1721"
 			tasks: [{
 				id: "2401F40D5741B5F1"
@@ -45,8 +154,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -2.5d
+			x: 5.0d
+			y: 2.0d
 			description: ["С помощью жизнекамня можно создать бассейн маны и не только."]
 			dependencies: ["595BB762D63D1721"]
 			id: "65D706259ADBF1C0"
@@ -65,8 +174,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -4.0d
+			x: 5.0d
+			y: 0.0d
 			description: ["С помощью жизнедерева можно создать распространитель маны и не только."]
 			dependencies: ["595BB762D63D1721"]
 			id: "1A050DBCFF0C1648"
@@ -85,10 +194,11 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -1.0d
+			x: 6.0d
+			y: 2.0d
 			description: ["В бассейне маны можно хранить ману, чтобы в дальнейшем использовать в её во многих крафтах."]
 			dependencies: ["65D706259ADBF1C0"]
+			size: 1.1d
 			id: "60D2BA24431AC0FD"
 			tasks: [{
 				id: "3754561F754B35F7"
@@ -97,8 +207,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -5.0d
+			x: 6.0d
+			y: -0.5d
 			description: ["Распространитель маны нужен, чтобы направить ману в нужную сторону."]
 			dependencies: ["1A050DBCFF0C1648"]
 			id: "1207A205CCED8C70"
@@ -109,8 +219,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -0.5d
+			x: 7.0d
+			y: 2.5d
 			description: ["С помощью маналмаза можно создать много различных предметов, например, рунический алтарь или пилон маны."]
 			dependencies: ["60D2BA24431AC0FD"]
 			id: "03C21083853294D6"
@@ -129,10 +239,11 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 0.0d
+			x: 7.0d
+			y: 3.5d
 			description: ["На руническом алтаре можно создавать руны, вот это да))"]
 			dependencies: ["03C21083853294D6"]
+			size: 1.1d
 			id: "0B0E98095CEB2847"
 			tasks: [{
 				id: "50BC303A3B480655"
@@ -141,10 +252,11 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 0.0d
+			x: 8.0d
+			y: 2.5d
 			description: ["С помощью пилона маны можно создать природный пилон или пилон гайи."]
 			dependencies: ["03C21083853294D6"]
+			size: 1.1d
 			id: "288A13F6044D9D73"
 			tasks: [{
 				id: "76002DED31B48CDA"
@@ -153,10 +265,9 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: -5.0d
+			x: 9.0d
+			y: 2.5d
 			description: ["Пилон гайи нужен для призыва Гайи."]
-			hide_dependency_lines: true
 			dependencies: ["288A13F6044D9D73"]
 			id: "326F1C58C473C6F8"
 			tasks: [{
@@ -168,8 +279,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 1.5d
+			x: 8.5d
+			y: 3.5d
 			description: ["Природный пилон нужен для создания портала к эльфам."]
 			dependencies: ["288A13F6044D9D73"]
 			id: "4A3137D093B0564D"
@@ -180,9 +291,11 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: -2.5d
-			dependencies: ["0FECBE85EEA809E7"]
+			x: 10.0d
+			y: 2.5d
+			shape: "rsquare"
+			dependencies: ["326F1C58C473C6F8"]
+			size: 1.1d
 			id: "09B7710675B81B75"
 			tasks: [{
 				id: "3DB3AED7D496F3BA"
@@ -199,8 +312,8 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: -2.0d
+			x: 10.5d
+			y: 3.5d
 			description: ["Распространитель маны гайи нужен, чтобы направить ману в нужную сторону."]
 			dependencies: ["09B7710675B81B75"]
 			id: "4D0FC6688E9FC9AA"
@@ -211,8 +324,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: -3.0d
+			x: 10.0d
+			y: 1.5d
 			description: ["Интересно, для чего он нужен? :) Редактор: да я сам не знаю"]
 			dependencies: ["09B7710675B81B75"]
 			id: "5FF4161FAF6C3EE3"
@@ -223,8 +336,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -0.5d
+			x: 6.5d
+			y: 1.0d
 			description: ["С помощью слитка манастали можно создать много различных предметов."]
 			dependencies: ["60D2BA24431AC0FD"]
 			id: "5BD9A7CE380B6670"
@@ -243,8 +356,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 1.5d
+			x: 7.5d
+			y: 4.5d
 			description: ["На данной плите можно создать слиток террастали и не только."]
 			dependencies: ["0B0E98095CEB2847"]
 			id: "36C1F3A9D018B5F8"
@@ -255,8 +368,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 3.0d
+			x: 7.5d
+			y: 5.5d
 			description: ["Очень нужный слиток, но создаётся он сложновато. "]
 			dependencies: ["36C1F3A9D018B5F8"]
 			id: "6CBF4953ACB7D3C4"
@@ -275,8 +388,292 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -5.0d
+			x: 11.0d
+			y: 2.0d
+			shape: "gear"
+			description: ["Кровавый алтарь - главый предмет в моде &4Blood Magic&f! Основа Вашего развития в этом моде!"]
+			dependencies: ["09B7710675B81B75"]
+			size: 1.2d
+			id: "310211F11C8A68E9"
+			tasks: [{
+				id: "0CEE9E22AAA5D081"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 1.5d
+			description: ["Пустая руна нужна для создания рун или улучшения кровавого алтаря."]
+			dependencies: ["604BE4CC22A5DF43"]
+			size: 1.1d
+			id: "2C0AA4F9A398B84E"
+			tasks: [{
+				id: "4E1A06F40278F7AD"
+				type: "item"
+				title: "Пустая руна"
+				item: "bloodmagic:blankrune"
+				count: 9L
+			}]
+			rewards: [{
+				id: "18C0AAE3A5499C80"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 2
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.5d
+			description: ["Чистый шифер создаётся на алтаре 1 уровня."]
+			dependencies: ["310211F11C8A68E9"]
+			id: "604BE4CC22A5DF43"
+			tasks: [{
+				id: "7EE0F656CBE11074"
+				type: "item"
+				title: "Чистый шифер"
+				item: "bloodmagic:blankslate"
+				count: 5L
+			}]
+			rewards: [{
+				id: "4A61383616681793"
+				type: "item"
+				item: "bloodmagic:blankslate"
+				count: 2
+			}]
+		}
+		{
+			x: 12.5d
+			y: 2.5d
+			subtitle: "Резня!"
+			description: ["Кинжал для жертвоприношений :)"]
+			dependencies: ["2C0AA4F9A398B84E"]
+			id: "098A444D9F847848"
+			tasks: [{
+				id: "45941F37DBB28203"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.5d
+			description: ["С помощью алхимического стола можно создать много различных предметов."]
+			dependencies: ["604BE4CC22A5DF43"]
+			id: "3BFAF3EEF0FA4E9B"
+			tasks: [{
+				id: "47B67900335680B2"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.5d
+			description: ["С помощью данной кузницы можно создать много различных предметов."]
+			dependencies: ["604BE4CC22A5DF43"]
+			id: "2931277B0B65BEE2"
+			tasks: [{
+				id: "3D2888C67663DC49"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 2.5d
+			description: ["Укреплённый шифер создаётся на алтаре 2 уровня."]
+			dependencies: ["2C0AA4F9A398B84E"]
+			id: "444990844E568EA9"
+			tasks: [{
+				id: "6A4FBE778C5F799C"
+				type: "item"
+				title: "Укреплённый шифер"
+				item: "bloodmagic:reinforcedslate"
+				count: 5L
+			}]
+			rewards: [{
+				id: "7504DFDC5FC81927"
+				type: "item"
+				item: "bloodmagic:reinforcedslate"
+				count: 2
+			}]
+		}
+		{
+			x: 11.5d
+			y: 3.0d
+			description: ["Слабый кровавый шар создаётся на алтаре 1 уровня."]
+			dependencies: ["310211F11C8A68E9"]
+			id: "7F5EF07CC23322DA"
+			tasks: [{
+				id: "69602CC66ECD4457"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 1.0d
+			description: ["Кровавый шар ученика создаётся на алтаре 2 уровня."]
+			dependencies: ["2C0AA4F9A398B84E"]
+			id: "3B7AE77552E7DAD8"
+			tasks: [{
+				id: "6606994CC32DFECA"
+				type: "item"
+				item: "bloodmagic:apprenticebloodorb"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 1.0d
+			description: ["Кровавый шар мага создаётся на алтаре 3 уровня."]
+			dependencies: ["3B7AE77552E7DAD8"]
+			id: "029FBFB1E2C4EDED"
+			tasks: [{
+				id: "1CBE9183E39AFEFF"
+				type: "item"
+				item: "bloodmagic:magicianbloodorb"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 1.0d
+			description: ["Кровавый шар мастера создаётся на алтаре 4 уровня."]
+			dependencies: ["029FBFB1E2C4EDED"]
+			id: "57C81B4BECC4F775"
+			tasks: [{
+				id: "547A69DB07B8290F"
+				type: "item"
+				item: "bloodmagic:masterbloodorb"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 3.5d
+			description: ["Прочный шифер создаётся на алтаре 3 уровня."]
+			dependencies: ["444990844E568EA9"]
+			id: "5EC0FBD46A7681D7"
+			tasks: [{
+				id: "1F5674E024E5454F"
+				type: "item"
+				title: "Прочный шифер"
+				item: "bloodmagic:infusedslate"
+				count: 5L
+			}]
+			rewards: [{
+				id: "22EE748D96CF5C66"
+				type: "item"
+				item: "bloodmagic:infusedslate"
+				count: 2
+			}]
+		}
+		{
+			x: 13.5d
+			y: 4.5d
+			description: ["Демонический шифер создаётся на алтаре 4 уровня."]
+			dependencies: ["5EC0FBD46A7681D7"]
+			id: "10CA6E763836B7B6"
+			tasks: [{
+				id: "1C744DDA96E743ED"
+				type: "item"
+				title: "Демонический шифер"
+				item: "bloodmagic:demonslate"
+				count: 5L
+			}]
+			rewards: [{
+				id: "214136926AD18AFB"
+				type: "item"
+				item: "bloodmagic:demonslate"
+				count: 2
+			}]
+		}
+		{
+			x: 5.0d
+			y: 6.5d
+			shape: "heart"
+			description: ["Один из самых дорогих предметов в сборке."]
+			dependencies: ["7A7BF8AFFC7501B3"]
+			size: 1.1d
+			id: "4686059FB0DE29EC"
+			tasks: [{
+				id: "622AD7E28A146306"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.5d
+			shape: "heart"
+			description: ["Наверное, один из самых сложных предметов, но жаль, что с помощью этого слитка можно создать что-то еще..."]
+			dependencies: ["7A7BF8AFFC7501B3"]
+			size: 1.1d
+			id: "32FBD658D88BE93D"
+			tasks: [{
+				id: "129F77C7BCF755AA"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			description: ["С помощью этих шипов можно создавать различные, очень интересные, предметы. Например, экстрактор крови или шипастую плиту."]
+			dependencies: ["5BD9A7CE380B6670"]
+			id: "5B511F842048451F"
+			tasks: [{
+				id: "35ECD1E64A1C8CC3"
+				type: "item"
+				title: "Шипы"
+				item: "evilcraft:dark_spike"
+				count: 4L
+			}]
+			rewards: [{
+				id: "4E1C9C0460794747"
+				type: "item"
+				item: "evilcraft:dark_spike"
+				count: 2
+			}]
+		}
+		{
+			x: 8.0d
+			y: -0.5d
+			shape: "rsquare"
+			description: ["С помощью Кровавого Экстрактора можно собирать кровь для дальнейшего использования."]
+			dependencies: ["5B511F842048451F"]
+			size: 1.1d
+			id: "323719E35F33EE93"
+			tasks: [{
+				id: "6FF215C23EB6DE35"
+				type: "item"
+				title: "Кровавый Экстрактор"
+				item: {
+					id: "evilcraft:blood_extractor"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.5d
+			shape: "gear"
+			description: ["С помощью этого устройства можно вливать кровь в различные предметы. "]
+			dependencies: ["0B0E98095CEB2847"]
+			id: "0A0252C6CF3BDDDC"
+			tasks: [{
+				id: "041F962C3E2190C2"
+				type: "item"
+				item: {
+					id: "evilcraft:blood_infuser"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
 			description: ["Очень удобная вещь."]
 			dependencies: ["1A050DBCFF0C1648"]
 			id: "3FD75A41117BE9E5"
@@ -293,8 +690,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -2.5d
+			x: 4.5d
+			y: 3.0d
 			description: ["Очень удобная вещь."]
 			dependencies: ["65D706259ADBF1C0"]
 			id: "23D507A047B15040"
@@ -311,8 +708,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -1.5d
+			x: 7.5d
+			y: 1.5d
 			description: ["В планшет маны можно собрать ману с собой, например для использования бижутерии."]
 			dependencies: ["03C21083853294D6"]
 			id: "448791B71EDB69C2"
@@ -327,8 +724,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -1.0d
+			x: 8.5d
+			y: 1.5d
 			description: ["Зеркало маны, интересная вещь."]
 			dependencies: ["448791B71EDB69C2"]
 			id: "677DA69EC5201302"
@@ -343,8 +740,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -2.0d
+			x: 8.0d
+			y: 0.5d
 			description: ["Землекрушитель - это необычная кирка, потому что её можно напитать огромным количеством маны и она будет копать огромную территорию."]
 			dependencies: ["448791B71EDB69C2"]
 			id: "50E86A61FAC34F95"
@@ -362,8 +759,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -3.0d
+			x: 9.0d
+			y: 0.5d
 			description: ["Универсальный инструмент из террастали. Очень удобная вещь."]
 			dependencies: ["50E86A61FAC34F95"]
 			id: "58E71A64C9379EC8"
@@ -382,8 +779,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 0.5d
+			x: 6.5d
+			y: 4.5d
 			description: ["С помощью этой ботанической варочной стойке можно варить различные зелья и не только."]
 			dependencies: ["0B0E98095CEB2847"]
 			id: "3F38DFF0F3035F6F"
@@ -394,11 +791,10 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 1.0d
+			x: 8.5d
+			y: 4.5d
 			description: ["Слиткок элементия можно получить при торговле с Эльфами. Этот слиток вам пригодится для создания многих вещей."]
-			hide_dependency_lines: true
-			dependencies: ["68040BDE850953C9"]
+			dependencies: ["4A3137D093B0564D"]
 			id: "0E1B37DA245F53F8"
 			tasks: [{
 				id: "36300C2D8C3F0D2D"
@@ -415,8 +811,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 2.5d
+			x: 8.5d
+			y: 5.5d
 			description: ["На мана-инфузере можно создавать много различных вещей. Например, слиток альфстали."]
 			dependencies: ["0E1B37DA245F53F8"]
 			id: "0E663FA329237DB2"
@@ -427,10 +823,11 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 2.5d
+			x: 9.0d
+			y: 6.5d
 			description: ["Из слитка альфстали можно создавать много различных вещей. "]
 			dependencies: ["0E663FA329237DB2"]
+			size: 1.1d
 			id: "1D9C8BDCF3A44B7A"
 			tasks: [{
 				id: "0098C4A8D63EEF4E"
@@ -447,8 +844,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 2.0d
+			x: 9.5d
+			y: 7.5d
 			description: ["С помощью этого слитка можно создать неплохую броню."]
 			dependencies: ["1D9C8BDCF3A44B7A"]
 			id: "2F3B15149094466A"
@@ -467,8 +864,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 4.0d
+			x: 8.0d
+			y: 6.5d
 			description: ["Неплохая бижутерия."]
 			dependencies: ["1D9C8BDCF3A44B7A"]
 			id: "0F6E30216D048970"
@@ -483,8 +880,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 3.0d
+			x: 8.5d
+			y: 7.5d
 			description: ["Неплохая бижутерия."]
 			dependencies: ["1D9C8BDCF3A44B7A"]
 			id: "613183F7FE44F1D4"
@@ -499,8 +896,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 1.5d
+			x: 9.5d
+			y: 5.5d
 			description: ["С помощью этого пилона можно создать пилон Гайи."]
 			dependencies: ["1D9C8BDCF3A44B7A"]
 			id: "017E0C0FA375C7BD"
@@ -511,8 +908,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 4.0d
+			x: 10.0d
+			y: 6.5d
 			subtitle: "Ещё один AIOT, чтоб вы не скучали)"
 			description: ["Универсальный инструмент из альфстали. Очень удобная вещь."]
 			dependencies: ["1D9C8BDCF3A44B7A"]
@@ -540,8 +937,8 @@
 					Damage: 0
 				}
 			}
-			x: 3.5d
-			y: 2.0d
+			x: 9.5d
+			y: 8.5d
 			description: ["Неплохая броня."]
 			dependencies: ["2F3B15149094466A"]
 			id: "54736594FBFFB76B"
@@ -593,11 +990,10 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: -3.0d
+			x: 9.5d
+			y: 3.5d
 			description: ["Камень дракона можно получить при торговле с Эльфами. Этот камень вам пригодится для создания многих вещей."]
-			hide_dependency_lines: true
-			dependencies: ["68040BDE850953C9"]
+			dependencies: ["4A3137D093B0564D"]
 			id: "559B6D76D55C28BE"
 			tasks: [{
 				id: "0581F3F38623B713"
@@ -614,11 +1010,10 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -5.0d
+			x: 9.5d
+			y: 4.5d
 			description: ["Пыльцу феи можно получить при торговле с Эльфами. Эта пыльца вам пригодится для создания многих вещей."]
-			hide_dependency_lines: true
-			dependencies: ["68040BDE850953C9"]
+			dependencies: ["4A3137D093B0564D"]
 			id: "74D98C6A05DEDB79"
 			tasks: [{
 				id: "13EED291DCF138AD"
@@ -635,8 +1030,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -4.5d
+			x: 10.5d
+			y: 4.5d
 			description: ["С помощью этого жезла можно создать руну Асгарда и бивёрстовый блок."]
 			dependencies: ["74D98C6A05DEDB79"]
 			id: "53A2CF06078A4F58"
@@ -647,8 +1042,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -3.5d
+			x: 11.5d
+			y: 5.0d
 			description: ["С помощью этого блока можно создать сказочный бассейн маны."]
 			dependencies: ["53A2CF06078A4F58"]
 			id: "4100CBD80D74EF09"
@@ -667,8 +1062,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -2.5d
+			x: 12.0d
+			y: 6.0d
 			description: ["Тот же бассейн маны, но немного эффективнее."]
 			dependencies: ["4100CBD80D74EF09"]
 			id: "1C0BA678CFF4EED8"
@@ -679,8 +1074,106 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 4.0d
+			x: 12.5d
+			y: -0.5d
+			description: ["Волшебный пепел можно создать на алхимическом столе либо же с помощью волшебного пепла."]
+			dependencies: ["3BFAF3EEF0FA4E9B"]
+			id: "046F2CC77792239E"
+			tasks: [{
+				id: "371CCDE1EAF7B51B"
+				type: "item"
+				item: {
+					id: "bloodmagic:arcaneashes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: -0.5d
+			description: ["Неплохая броня, которую можно прокачать."]
+			hide_dependency_lines: true
+			dependencies: ["046F2CC77792239E"]
+			id: "55BA03323CB14A1A"
+			tasks: [{
+				id: "0C2343AC5E5F2139"
+				type: "item"
+				item: {
+					id: "bloodmagic:livinghelmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.5d
+			description: ["Неплохая броня, которую можно прокачать."]
+			hide_dependency_lines: true
+			dependencies: ["046F2CC77792239E"]
+			id: "04831483EA7056F5"
+			tasks: [{
+				id: "568688168D41D452"
+				type: "item"
+				item: {
+					id: "bloodmagic:livingplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+						livingStats: {
+							maxPoints: 100
+							upgrades: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: -1.5d
+			description: ["Неплохая броня, которую можно прокачать."]
+			hide_dependency_lines: true
+			dependencies: ["046F2CC77792239E"]
+			id: "408563BC3BE20B2D"
+			tasks: [{
+				id: "486C4DF71721C46C"
+				type: "item"
+				item: {
+					id: "bloodmagic:livingleggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: -0.5d
+			description: ["Неплохая броня, которую можно прокачать."]
+			hide_dependency_lines: true
+			dependencies: ["046F2CC77792239E"]
+			id: "10A5426E7D746B4E"
+			tasks: [{
+				id: "608C4A6B702087C0"
+				type: "item"
+				item: {
+					id: "bloodmagic:livingboots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 6.5d
 			description: ["&6Большое кольцо ауры  &bнеобходимо &fВам для автоматизации множества процессов в &6Botania&f."]
 			dependencies: ["6CBF4953ACB7D3C4"]
 			id: "07F85A353752BDED"
@@ -700,8 +1193,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -1.5d
+			x: 12.0d
+			y: 7.0d
 			description: ["С помощью механического бассейна маны можно автоматизировать создание в бассейне маны."]
 			dependencies: ["1C0BA678CFF4EED8"]
 			id: "4467FBCA1A3A44CD"
@@ -712,8 +1205,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 4.5d
+			x: 7.5d
+			y: 7.5d
 			description: ["С помощью завода промышленной агломерации можно автоматизировать создание на агломерационной плите."]
 			dependencies: ["07F85A353752BDED"]
 			id: "2E5B4994A2C2AA92"
@@ -724,8 +1217,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 1.5d
+			x: 6.5d
+			y: 5.5d
 			description: ["С помощью механической варочной стойки можно автоматизировать зельеварение."]
 			dependencies: ["3F38DFF0F3035F6F"]
 			id: "4F66DEF26E8FFD6B"
@@ -736,8 +1229,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 4.5d
+			x: 6.5d
+			y: 7.5d
 			description: ["С помощью механического рунического алтаря можно автоматизировать создание на руническом алтаре."]
 			dependencies: ["07F85A353752BDED"]
 			id: "73BC005752B2178F"
@@ -748,835 +1241,410 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: 2.5d
+			y: 4.5d
+			description: ["Используется для улучшения инструментов, получения из одной руды большое количество слитков и т.п."]
+			dependencies: ["6A0331BED30F89FB"]
+			id: "50948AE8E255D97F"
+			tasks: [{
+				id: "1461CC068B263356"
+				type: "item"
+				item: "astralsorcery:infuser"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.5d
+			description: ["Очень важный предмет :)"]
+			dependencies: ["50948AE8E255D97F"]
+			id: "250D025724E2C61D"
+			tasks: [{
+				id: "35286F8C16F787B3"
+				type: "item"
+				item: "astralsorcery:resonating_gem"
+			}]
+		}
+		{
+			title: "Насыщенные кристальные инструменты"
+			icon: {
+				id: "astralsorcery:infused_crystal_axe"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:tool.durability"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:tool.efficiency"
+									pLevel: 3
+									discovered: 1b
+								}
+							]
+						}
+					}
+					Damage: 0
+				}
+			}
+			x: 2.0d
 			y: 3.5d
-			dependencies: ["4A3137D093B0564D"]
-			id: "68040BDE850953C9"
-			tasks: [{
-				id: "14D03DC961B14617"
-				type: "checkmark"
-				title: "Портал в Эльфхейм"
-			}]
+			description: ["Улучшенные кристальные инструменты намного лучше, чем просто кристальные инструменты."]
+			dependencies: ["50948AE8E255D97F"]
+			id: "1608064D08A1B4EB"
+			tasks: [
+				{
+					id: "4950EC1CA82F166A"
+					type: "item"
+					item: {
+						id: "astralsorcery:infused_crystal_sword"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "733AB3BA2B23CFE2"
+					type: "item"
+					item: {
+						id: "astralsorcery:infused_crystal_axe"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "05F699D887E26F0B"
+					type: "item"
+					item: {
+						id: "astralsorcery:infused_crystal_pickaxe"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "095D36C364587315"
+					type: "item"
+					item: {
+						id: "astralsorcery:infused_crystal_shovel"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
+			title: "Кристальные инструменты"
+			icon: {
+				id: "astralsorcery:crystal_axe"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:tool.durability"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:tool.efficiency"
+									pLevel: 3
+									discovered: 1b
+								}
+							]
+						}
+					}
+					Damage: 0
+				}
+			}
 			x: 0.0d
-			y: -5.0d
-			hide_dependency_lines: true
-			dependencies: ["68040BDE850953C9"]
-			id: "160A6C0968E774B0"
-			tasks: [{
-				id: "56D3A7D70B2407C6"
-				type: "item"
-				item: "botania:dreamwood"
-			}]
-		}
-		{
-			x: 1.0d
-			y: -4.5d
-			dependencies: ["160A6C0968E774B0"]
-			id: "62197A04AA525CFE"
-			tasks: [{
-				id: "78E8A6A59B47B2BC"
-				type: "item"
-				item: "botania:dreamwood_twig"
-			}]
-		}
-		{
-			x: 11.5d
-			y: -4.0d
-			dependencies: ["09B7710675B81B75"]
-			id: "49D92E8447E67665"
-			tasks: [{
-				id: "42A054CA6E21BCD4"
-				type: "item"
-				item: "botania:missile_rod"
-			}]
-		}
-		{
-			x: 11.5d
-			y: -0.5d
-			dependencies: ["09B7710675B81B75"]
-			id: "4DB473036CEFBAAD"
-			tasks: [{
-				id: "735FAFADB9970DC8"
-				type: "item"
-				item: "botania:gaia_ingot"
-			}]
-		}
-		{
-			x: 12.0d
-			y: 1.5d
-			dependencies: ["4DB473036CEFBAAD"]
-			id: "291EB37C7A62072D"
-			tasks: [{
-				id: "7EABA601BEDF6D53"
-				type: "item"
-				item: "extrabotany:theend"
-			}]
-		}
-		{
-			x: 12.0d
-			y: 2.5d
-			dependencies: ["291EB37C7A62072D"]
-			id: "099CF8BEB8137082"
-			tasks: [{
-				id: "26947F38E9A5BA38"
-				type: "item"
-				item: "extrabotany:theuniverse"
-			}]
-		}
-		{
-			x: 13.0d
-			y: 3.0d
-			dependencies: ["099CF8BEB8137082"]
-			id: "5F03EA4F9D189B66"
-			tasks: [{
-				id: "4C39A2B9E9C5CD12"
-				type: "item"
-				item: {
-					id: "extrabotany:firstfractal"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 10.0d
-			y: -1.0d
-			dependencies: [
-				"4DB473036CEFBAAD"
-				"7997342B09227AD3"
-			]
-			id: "416D00E8BFFE2E8E"
-			tasks: [
-				{
-					id: "5A4DD2F3D9F5E269"
-					type: "item"
-					item: {
-						id: "extrabotany:maid_helm"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "26D2E5D602D74628"
-					type: "item"
-					item: {
-						id: "extrabotany:maid_chest"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "381478D0564F7A60"
-					type: "item"
-					item: {
-						id: "extrabotany:maid_legs"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "54BFD86B59A635ED"
-					type: "item"
-					item: {
-						id: "extrabotany:maid_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 13.5d
-			y: 0.0d
-			dependencies: ["4DB473036CEFBAAD"]
-			id: "308E03AEF14E432E"
-			tasks: [{
-				id: "1A12E02E05B0D650"
-				type: "item"
-				item: "botanicalmachinery:mana_battery"
-			}]
-		}
-		{
-			x: 13.5d
-			y: -1.0d
-			dependencies: ["4DB473036CEFBAAD"]
-			id: "2923EAA48C133277"
-			tasks: [{
-				id: "014B4707297286DF"
-				type: "item"
-				item: "mythicbotany:mana_collector"
-			}]
-		}
-		{
-			x: 10.0d
-			y: 0.0d
-			dependencies: ["4DB473036CEFBAAD"]
-			id: "5FE535D10ADEA846"
-			tasks: [{
-				id: "29A6A40130AC27BD"
-				type: "item"
-				item: "extrabotany:manabuffer"
-			}]
-		}
-		{
-			x: 10.5d
-			y: -2.0d
-			dependencies: ["09B7710675B81B75"]
-			id: "7997342B09227AD3"
-			tasks: [{
-				id: "39E2950BFA61BBA2"
-				type: "item"
-				item: "extrabotany:goldcloth"
-			}]
-		}
-		{
-			x: 12.5d
-			y: -1.5d
-			dependencies: ["09B7710675B81B75"]
-			id: "058240900F1302C9"
-			tasks: [{
-				id: "7000281064EF8A63"
-				type: "item"
-				item: {
-					id: "botania:flight_tiara"
-					Count: 1b
-					tag: {
-						variant: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 13.5d
-			y: -3.0d
-			dependencies: ["09B7710675B81B75"]
-			id: "5898A9A41730E2C0"
-			tasks: [
-				{
-					id: "1C6E4ADD16C03B5C"
-					type: "item"
-					item: {
-						id: "botania:holy_cloak"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "30C223AD89B71759"
-					type: "item"
-					item: {
-						id: "botania:unholy_cloak"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "1BFB772F0EFB58C5"
-					type: "item"
-					item: {
-						id: "botania:balance_cloak"
-						Count: 1b
-						tag: { }
-					}
-				}
-			]
-		}
-		{
-			x: 0.0d
-			y: -4.0d
-			dependencies: ["62197A04AA525CFE"]
-			id: "3E8AD8ED44F70B30"
-			tasks: [{
-				id: "3A54F6D99D418DB7"
-				type: "item"
-				item: {
-					id: "extrabotany:excaliber"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 1.5d
-			y: -3.5d
-			dependencies: ["62197A04AA525CFE"]
-			id: "17D8DCADFDA35FB6"
-			tasks: [{
-				id: "15D4F4C3DA0BE5DE"
-				type: "item"
-				item: "botania:gravity_rod"
-			}]
-		}
-		{
-			x: -1.0d
-			y: -4.5d
-			dependencies: ["160A6C0968E774B0"]
-			id: "57E45D827C58C28E"
-			tasks: [{
-				id: "2F681A1060FF3B13"
-				type: "item"
-				item: "botania:elven_spreader"
-			}]
-		}
-		{
-			x: -1.0d
-			y: 1.0d
-			dependencies: ["0E1B37DA245F53F8"]
-			id: "110EA71FC3AD41CD"
-			tasks: [
-				{
-					id: "4860BCBA79085382"
-					type: "item"
-					item: {
-						id: "botania:elementium_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "5E553BE91A6E2194"
-					type: "item"
-					item: {
-						id: "botania:elementium_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "6CF5A44062EB6E54"
-					type: "item"
-					item: {
-						id: "botania:elementium_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "35DF8A5E93BA4791"
-					type: "item"
-					item: {
-						id: "botania:elementium_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -8.0d
-			y: -1.5d
-			dependencies: ["5BD9A7CE380B6670"]
-			id: "22E0C443172588A2"
-			tasks: [
-				{
-					id: "592578029E19BEDA"
-					type: "item"
-					item: {
-						id: "botania:manasteel_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "2751F62740137A76"
-					type: "item"
-					item: {
-						id: "botania:manasteel_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "0F9272CC114DAA51"
-					type: "item"
-					item: {
-						id: "botania:manasteel_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "6ABBC993290E2E9B"
-					type: "item"
-					item: {
-						id: "botania:manasteel_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -7.5d
-			y: 2.5d
-			dependencies: ["6CBF4953ACB7D3C4"]
-			id: "27108AD2FF440E6D"
-			tasks: [
-				{
-					id: "159D6B4F5F427FC1"
-					type: "item"
-					item: {
-						id: "botania:terrasteel_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "07847D3E48CF360D"
-					type: "item"
-					item: {
-						id: "botania:terrasteel_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "0FC161E05C780D60"
-					type: "item"
-					item: {
-						id: "botania:terrasteel_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "6526DFD86C41C648"
-					type: "item"
-					item: {
-						id: "botania:terrasteel_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 1.0d
 			y: 0.5d
-			dependencies: ["0E1B37DA245F53F8"]
-			id: "6E47C11DCC6BFCBA"
+			description: ["На первый взгляд обычные инструменты. Но их можно улучшить и они станут достаточно эффективными."]
+			dependencies: ["52A34042CB0F6108"]
+			id: "124365A97ED1404A"
 			tasks: [
 				{
-					id: "1535E91726B045DC"
+					id: "2E26A9639155059C"
 					type: "item"
 					item: {
-						id: "botania:elementium_sword"
+						id: "astralsorcery:crystal_sword"
 						Count: 1b
 						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
 							Damage: 0
 						}
 					}
 				}
 				{
-					id: "742985A3C5ED1353"
+					id: "3E2E31F1816FD753"
 					type: "item"
 					item: {
-						id: "botania:elementium_pickaxe"
+						id: "astralsorcery:crystal_axe"
 						Count: 1b
 						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
 							Damage: 0
 						}
 					}
 				}
 				{
-					id: "339405A9DACBE386"
+					id: "2F051D33BC57DA77"
 					type: "item"
 					item: {
-						id: "botania:elementium_axe"
+						id: "astralsorcery:crystal_pickaxe"
 						Count: 1b
 						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "24743BF68E223524"
+					type: "item"
+					item: {
+						id: "astralsorcery:crystal_shovel"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
 							Damage: 0
 						}
 					}
 				}
 			]
-		}
-		{
-			x: 4.0d
-			y: 0.5d
-			dependencies: ["6B4F14EF8CE3FA06"]
-			id: "6BAA8619B9B2562B"
-			tasks: [{
-				id: "3E3CDAA2BCDC71B2"
-				type: "item"
-				item: {
-					id: "extrabotany:starwrath"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 2.5d
-			y: 0.5d
-			dependencies: ["6E47C11DCC6BFCBA"]
-			id: "6B4F14EF8CE3FA06"
-			tasks: [{
-				id: "7C2FF88D79DE2A0E"
-				type: "item"
-				item: {
-					id: "botania:star_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 3.5d
-			y: -3.0d
-			hide_dependency_lines: true
-			dependencies: ["68040BDE850953C9"]
-			id: "7C3BC700A3A02300"
-			tasks: [{
-				id: "21172A46B64CE351"
-				type: "item"
-				item: "extrabotany:spiritfuel"
-			}]
-		}
-		{
-			x: 2.5d
-			y: -2.5d
-			dependencies: ["7C3BC700A3A02300"]
-			id: "652F12346B45ED30"
-			tasks: [{
-				id: "438B124EE00EDFAA"
-				type: "item"
-				item: "extrabotany:spirit"
-			}]
-		}
-		{
-			x: -1.0d
-			y: -2.5d
-			dependencies: ["559B6D76D55C28BE"]
-			id: "3BA61AB004D1B9B5"
-			tasks: [{
-				id: "4A9FDD40982B5608"
-				type: "item"
-				item: "botania:light_relay"
-			}]
-		}
-		{
-			x: 2.5d
-			y: -1.0d
-			dependencies: ["652F12346B45ED30"]
-			id: "7D2506E12CDB8140"
-			tasks: [{
-				id: "024D831EF79D2322"
-				type: "item"
-				item: "extrabotany:theorigin"
-			}]
-		}
-		{
-			x: 2.5d
-			y: -4.0d
-			dependencies: ["652F12346B45ED30"]
-			id: "7A310F0C37C5AA96"
-			tasks: [{
-				id: "0632AA8D11F5BB52"
-				type: "item"
-				item: "extrabotany:thechaos"
-			}]
-		}
-		{
-			x: 0.0d
-			y: -2.0d
-			dependencies: ["559B6D76D55C28BE"]
-			id: "56753D76248259F3"
-			tasks: [{
-				id: "73865BDDAADDD70C"
-				type: "item"
-				item: "botania:corporea_index"
-			}]
-		}
-		{
-			x: 1.0d
-			y: -2.5d
-			dependencies: ["559B6D76D55C28BE"]
-			id: "4D6276F9D7547F76"
-			tasks: [{
-				id: "31408C7FB17CB521"
-				type: "item"
-				item: {
-					id: "extrabotany:natureorb"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: -0.5d
-			y: -0.5d
-			dependencies: ["0E1B37DA245F53F8"]
-			id: "662C9812303FD52F"
-			tasks: [
-				{
-					id: "78B67F6356592020"
-					type: "item"
-					item: "extrabotany:shadowium"
-				}
-				{
-					id: "0E036C15EF1CD689"
-					type: "item"
-					item: "extrabotany:photonium"
-				}
-			]
-		}
-		{
-			x: 3.5d
-			y: -1.5d
-			dependencies: ["7D2506E12CDB8140"]
-			id: "4BC1E0DDC99CB669"
-			tasks: [{
-				id: "0012320D0EF7AAD8"
-				type: "item"
-				item: {
-					id: "extrabotany:trueterrablade"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 1.5d
-			y: -0.5d
-			dependencies: ["7D2506E12CDB8140"]
-			id: "1F29360CF839D367"
-			tasks: [{
-				id: "22CDB7E0F5619061"
-				type: "item"
-				item: {
-					id: "extrabotany:influxwaver"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 3.5d
-			y: -0.5d
-			dependencies: ["7D2506E12CDB8140"]
-			id: "6D0EEAF9E1881ED2"
-			tasks: [{
-				id: "625877B28A8F4778"
-				type: "item"
-				item: {
-					id: "extrabotany:trueshadowkatana"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 1.5d
-			y: -1.5d
-			dependencies: ["7D2506E12CDB8140"]
-			id: "3F60A4331B71EF8E"
-			tasks: [{
-				id: "7A8E3B27702774EF"
-				type: "item"
-				item: "extrabotany:cosmiccarkey"
-			}]
-		}
-		{
-			x: 2.5d
-			y: -5.0d
-			dependencies: ["7A310F0C37C5AA96"]
-			id: "362B28464C84C8EF"
-			tasks: [{
-				id: "75F96E36C005AE87"
-				type: "item"
-				item: {
-					id: "extrabotany:silverbullet"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: 11.0d
-			y: 1.0d
-			dependencies: ["291EB37C7A62072D"]
-			id: "1614F4C0D0F4C4A6"
-			tasks: [{
-				id: "70765AE1E4A7B24F"
-				type: "item"
-				item: {
-					id: "extrabotany:sunring"
-					Count: 1b
-					tag: {
-						baubleUUIDMost: 6521599304550466662L
-						baubleUUIDLeast: -7308550406275666820L
-					}
-				}
-			}]
-		}
-		{
-			x: 4.5d
-			y: -2.5d
-			dependencies: ["4100CBD80D74EF09"]
-			id: "6444EE5497AF6663"
-			tasks: [{
-				id: "5C5AF8FC723D4F10"
-				type: "item"
-				item: "botania:shimmerrock"
-			}]
-		}
-		{
-			x: -9.0d
-			y: -1.5d
-			dependencies: ["5BD9A7CE380B6670"]
-			id: "2CC402D16B8235B0"
-			tasks: [
-				{
-					id: "5CAB4A14B2303E5C"
-					type: "item"
-					item: {
-						id: "botania:manasteel_sword"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "08DEE38814B3CA22"
-					type: "item"
-					item: {
-						id: "botania:manasteel_pick"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "1C7F67AF8C630A77"
-					type: "item"
-					item: {
-						id: "botania:manasteel_axe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -7.5d
-			y: 3.5d
-			dependencies: ["6CBF4953ACB7D3C4"]
-			id: "565B2283E039DE2C"
-			tasks: [{
-				id: "7F98524257C786BD"
-				type: "item"
-				item: {
-					id: "botania:terra_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: -5.5d
-			y: 3.0d
-			dependencies: ["6CBF4953ACB7D3C4"]
-			id: "505BE8C428F0E766"
-			tasks: [{
-				id: "158804341EE0D261"
-				type: "item"
-				item: {
-					id: "botania:terra_pick"
-					Count: 1b
-					tag: {
-						mana: 9999
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: -9.0d
-			y: 0.5d
-			dependencies: ["5BD9A7CE380B6670"]
-			id: "7E7706C256E3F95B"
-			tasks: [{
-				id: "4C472A8052ABF873"
-				type: "item"
-				item: "botania:crafting_halo"
-			}]
-		}
-		{
-			x: -9.0d
-			y: 1.5d
-			dependencies: ["7E7706C256E3F95B"]
-			id: "4D2EB3EB0840D7E0"
-			tasks: [{
-				id: "466461A9DB766084"
-				type: "item"
-				item: "botania:auto_crafting_halo"
-			}]
-		}
-		{
-			x: 12.5d
-			y: -4.0d
-			dependencies: ["326F1C58C473C6F8"]
-			id: "0FECBE85EEA809E7"
-			tasks: [{
-				id: "30B0FCA7F4EA38B5"
-				type: "checkmark"
-				title: "Призыв Гайи"
-			}]
 		}
 	]
 }

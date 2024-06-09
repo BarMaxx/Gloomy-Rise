@@ -1,0 +1,97 @@
+{
+  "name": "Серенада Пустоты",
+  "icon": "minecraft:lava_bucket",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Серенада Пустоты",
+      "multiblock_id": "bloodmagic:lava",
+      "text": "Использовать $(l:bloodmagic:rituals/ritual_diviner)Ритуальный предсказатель$(/l) для облегчения строительства."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "lava",
+      "text_overrides": [
+        ["master ritual stone", "l:bloodmagic:rituals/ritual_stones"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "raw",
+      "text_overrides": [
+        ["LP", "blood"],
+        ["tank", "item"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "corrosive",
+      "text": "Особенно полезно против обитателей Пустоты."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "vengeful",
+      "text_overrides": [
+        ["Пожарный предохранитель", "thing"]
+      ],
+      "text": "Когда дебафф закончится, они произведут прекрасное впечатление фейерверка."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "destructive",
+      "text_overrides": [
+        ["Разрушительная воля", "destructive"]
+      ]
+    },
+        {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "steadfast",
+      "text_overrides": [
+        ["Огнестойкость", "thing"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "lavaRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "fireDamage",
+      "text_overrides": [
+        ["Коррозионная воля", "corrosive"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "fireFuse",
+      "text_overrides": [
+        ["Пожарный предохранитель", "thing"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "fireResist",
+      "text_overrides": [
+        ["Огнестойкость", "thing"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "lava",
+      "page_type": "lavaTank",
+      "text_overrides": [
+        ["tank", "item"]
+      ]
+    }
+  ]
+}

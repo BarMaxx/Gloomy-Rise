@@ -1,0 +1,17 @@
+{
+  "name": "Надкрылья",
+  "icon": "minecraft:elytra",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Добавляет крылья к вашей живой брони. Вместо того, чтобы быть обученным, $(l:bloodmagic:alchemy_array/living_equipment/living_tomes)Обновить Том$() должен быть создан. $(br2)Эти надкрылья действительно истощают прочность нагрудной пластины, но с вдвое меньшей скоростью, чем обычные надкрылья. $(br2)Это также выглядит довольно аккуратно."
+    },
+    {
+      "type": "bloodmagic:crafting_upgrade_array",
+      "a.heading": "Том надкрылий",
+      "a.recipe": "bloodmagic:array/living_elytra_upgrade",
+      "b.upgrade": "bloodmagic:elytra"
+    }
+  ]
+}

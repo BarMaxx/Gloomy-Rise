@@ -1,0 +1,13 @@
+{
+  "name": "Biofuel (Fluid)",
+  "icon": "industrialforegoing:biofuel_bucket",
+  "category": "generators",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Фиолетовая жидкость, сделанная из растений, красителей и некоторых сомнительных вещей вроде черепов в $(l:generators/bioreactor)биореакторе$(). $(br2)Используется в $(l:generators/biofuel_generator)генераторе биотоплива$() или в $(l:tools/infinity_tools)Вечных инструментах$()."
+    }
+  ]
+}

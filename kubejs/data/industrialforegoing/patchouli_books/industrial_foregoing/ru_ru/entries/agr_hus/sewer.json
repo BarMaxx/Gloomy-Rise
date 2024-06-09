@@ -1,0 +1,17 @@
+{
+  "name": "Sewer",
+  "icon": "industrialforegoing:sewer",
+  "category": "agriculture_husbandry",
+  "sortnum": 12,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Машина, используемая для сбора $(l:agr_hus/sewage)Sewage$() от животных и опыта, чтобы превратить их в эссенцию."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:sewer"
+    }
+  ]
+}

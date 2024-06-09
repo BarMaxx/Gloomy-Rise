@@ -1,0 +1,27 @@
+{
+  "name": "Crystallized Will",
+  "icon": "bloodmagic:defaultcrystal",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "extra_recipe_mappings":[
+    ["bloodmagic:demoncrucible", 1],
+    ["bloodmagic:demoncrystallizer", 1],
+    ["bloodmagic:rawdemoncrystal", 1],
+    ["bloodmagic:defaultcrystal", 1]
+  ],
+  "pages": [
+    {
+      "type": "text",
+      "text": "Теперь, когда в вашем $(l:bloodmagic:demon_will/will_manipulation/demon_will)Demon Will$() есть $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gem$(), пришло время узнать, что произойдет, когда вы выпустите его на волю. $(br2)Прежде всего, вам нужно задействовать $(raw)Will$() в $(l:bloodmagic:demon_will/will_manipulation/aura)Aura$().  Затем вам нужно сделать $(thing)Demon Crystallizer$()."
+    },
+    {
+      "type": "crafting_soulforge",
+      "heading": "Demon Crystallizer",
+      "recipe": "bloodmagic:soulforge/demon_crystallizer",
+      "text": "Он будет медленно расходовать $(l:bloodmagic:demon_will/will_manipulation/demon_will) Волю демона$() из $(l:bloodmagic:demon_will/will_manipulation/aura)Aura$(), чтобы получить $(item)Кристаллы воли$(). Первый шпиль стоит 100 $(raw)Will$(), все последующие - по 40, но могут быть сожжены за 50 в $(item)Demon Crucible$(), что дает чистый выигрыш в 10. Самый большой $(item)Crystal Cluster$() может состоять из 7 шпилей."
+    },
+    {
+      "type": "text",
+      "text": "Если у вас в инвентаре больше 1024 общих $(raw)Will$() (любое количество $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gems$() и любого одного типа), вы можете собрать эти кристаллы, щелкнув правой кнопкой мыши по шпилю с пустой рукой. Это удалит все кристаллы, кроме центрального шпиля. $(br2)Однако если вам недостаточно $(raw)will$(), $(italic)really$() нужен Кристалл центрального шпиля или вы просто торопитесь, вы можете собрать всю партию с помощью кирки."
+    }
+  ]
+}

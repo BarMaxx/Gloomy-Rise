@@ -1,0 +1,93 @@
+{
+  "name": "Basic Ore Processing",
+  "icon": "bloodmagic:basiccuttingfluid",
+  "category": "bloodmagic:utility",
+  "extra_recipe_mappings":[
+    ["bloodmagic:goldfragment", 7],
+    ["bloodmagic:fragment_netherite_scrap", 7],
+    ["bloodmagic:goldgravel", 9],
+    ["bloodmagic:gravel_netherite_scrap", 9],
+    ["bloodmagic:sand_netherite", 7]
+  ],
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:bloodmagic:alchemy_table/alchemy_table)Алхимический стол$() можно использовать, в частности, для удвоения руды, а $(l:bloodmagic:utility/alchemical_reaction_chamber)алхимическая камера реакций$() - для утроения добычи руды. Добывайте больше руды с помощью силы крови!"
+    },
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Basic Cutting Fluid",
+	  "anchor": "cutting_fluid",
+      "recipe": "bloodmagic:alchemytable/basic_cutting_fluid_sigil",
+      "text": "Базовая режущая жидкость используется для 2х-кратной обработки руды.  Ее также можно использовать в $(l:bloodmagic:utility/alchemical_reaction_chamber)Камере алхимических реакций$(/l) для той же цели. Хотя в этой демонстрации используется $(l:bloodmagic:alchemy_array/sigil/water)Знак воды$(), в крайнем случае можно заменить его простой $(water)Бутылкой воды$(), хотя, в отличие от знака, она будет расходоваться."
+    },
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Intermediate Cutting Fluid",
+      "anchor": "intermediate_cutting_fluid",
+      "recipe": "bloodmagic:alchemytable/intermediate_cutting_fluid_sigil",
+      "text": "Промежуточная режущая жидкость - это улучшенная версия, которая действует в восемь раз дольше и увеличивает скорость изготовления на 25%. Однако за маслом Тау придется отправиться в $(l:bloodmagic:dungeons/lobby)Подземелье Делвинг$()."
+    },
+    {
+      "type": "2x_crafting_alchemy_table",
+      "a.heading": "Iron Sand",
+      "a.recipe": "bloodmagic:alchemytable/sand_iron",
+      "b.heading": "Gold Sand",
+      "b.recipe": "bloodmagic:alchemytable/sand_gold"
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe":"bloodmagic:smelting/ingot_iron",
+      "recipe2": "bloodmagic:smelting/ingot_gold"
+    },
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Explosive Powder",
+      "anchor": "ore_processing",
+      "recipe": "bloodmagic:alchemytable/explosive_powder",
+      "text": "$(item)Взрывной порошок$() в $(item)ARC$() используется для превращения $(item)Руды$() в $(item)Фрагменты Руды$() для $(item)3x переработки Руды$(), или превращения $(item)Слитков$() в их $(item)Песок$() вариант. Он также может превратить $(fire)Netherrack$() в $(air)Sulfur$() и 5мб $(fire)Lava$()."
+    },
+    {
+      "type": "3x_crafting_arc",
+      "a.heading": "Ore to 3 Ore Fragments",
+      "a.recipe": "bloodmagic:arc/fragmentsiron",
+      "b.heading": "Ingot to Metal Sand",
+      "b.recipe": "bloodmagic:arc/dustsfrom_ingot_iron",
+      "c.heading": "Sulfur and Lava",
+      "c.recipe": "bloodmagic:arc/netherrack_to_sulfer",
+      "c.fluid_output": "minecraft:lava_bucket"
+    },
+    {
+      "type": "crafting_soulforge",
+      "heading": "Resonator",
+      "recipe": "bloodmagic:soulforge/primitive_crystalline_resonator",
+      "text": "$(item)Резонатор$() используется для превращения $(item)Фрагментов руды$() в соответствующий $(item)Гравий$() для дальнейшей обработки руды, а также создает несколько $(item)крошечных пылинок$(), которые являются NYI."
+    },
+    {
+      "type": "crafting_arc",
+      "heading": "Fragment to Gravel",
+      "recipe": "bloodmagic:arc/gravelsiron"
+    },
+    {
+      "type": "text",
+      "text": "$(item)Режущая жидкость$() используется для превращения $(item)Гравия$() металла в $(item)Песок$() этого металла для продолжения $(item)3x переработки руды$(). Он также может превратить $(item)руду$() непосредственно в два металлических песка для $(item)2x переработки руды$(). То же самое $(item)2x Ore Processing$() можно сделать в $(l:bloodmagic:alchemy_table/alchemy_table)Alchemy Table$(), но это делается в $(item)ARC$(), что сэкономит вам немного $(blood)LP$()."
+    },
+    {
+      "type": "2x_crafting_arc",
+      "a.heading": "Metal Gravel to Metal Sand",
+      "a.recipe": "bloodmagic:arc/dustsfrom_gravel_iron",
+      "b.heading": "Ore to 2 Metal Sand",
+      "b.recipe": "bloodmagic:arc/dustsfrom_ore_iron"
+    },
+    {
+      "type": "crafting",
+      "heading": "Fuel Cell (Furnace)",
+      "recipe": "bloodmagic:primitive_furnace_cell",
+      "text": "$(item)ARC$() также работает как $(item)Печь$(), но единственными источниками топлива, которые он принимает, являются $(item)Примитивный топливный элемент$() или $(l:bloodmagic:utility/lava_crystal)Кристалл лавы$(/l)."
+    },
+    {
+      "type": "text",
+      "text": "$(item)Примитивный топливный элемент$() рассчитан на 128 отдельных использований. Это больше, чем $(item)Блок угля$(), использованный для его создания (60 предметов), а поскольку он теряет прочность только после завершения создания, топливо не будет расходоваться впустую."
+    }
+  ]
+}

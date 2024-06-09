@@ -1,0 +1,17 @@
+{
+  "name": "Block Breaker",
+  "icon": "industrialforegoing:block_breaker",
+  "category": "resource_production",
+  "sortnum": 2,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Разбивает любой блок перед собой и помещает его во внутренний инвентарь, стоимость $(6)1000$()РФ за операцию."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:block_breaker"
+    }
+  ]
+}

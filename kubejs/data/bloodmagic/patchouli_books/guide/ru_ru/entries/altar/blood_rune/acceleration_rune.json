@@ -1,0 +1,15 @@
+{
+  "name": "Руна ускорения",
+  "icon": "bloodmagic:accelerationrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Руна ускорения$() увеличивает скорость пары операций. В то время как обычно операции $(l:bloodmagic:altar/blood_rune/charging_rune)Рун Зарядки$(/l) и $(l:bloodmagic:altar/blood_rune/dislocation_rune)Руны Смещения$(/l) роисходят каждые 20 тиков, один тик задержки удаляется для каждой руны, как минимум, до 1 операции за тик."
+    },
+    {
+      "type": "crafting",
+      "recipe": "bloodmagic:blood_rune_acceleration"
+    }
+  ]
+}

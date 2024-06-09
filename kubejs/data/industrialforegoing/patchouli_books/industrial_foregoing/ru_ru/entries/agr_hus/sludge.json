@@ -1,0 +1,13 @@
+{
+  "name": "Sludge (Bucket)",
+  "icon": "industrialforegoing:sludge_bucket",
+  "category": "agriculture_husbandry",
+  "sortnum": 2,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Жидкость, производимая $(l:agr_hus/plant_gatherer)Собиратель растений$() и используемая в $(l:resource_production/sludge_refiner)Установка для обработки осадка$()."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "В носке",
+  "icon": "bloodmagic:soulsnare",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "flag": "mod:curios",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Добавляет $(thing)Гнездо для Живой Брони$() Любопытные слоты для игрока, которые могут содержать совместимые $(6)Blood Magic$() предметы. $(br2)Это обновление нельзя обучить, его можно только создать. По умолчанию каждый $(l:bloodmagic:alchemy_array/living_equipment/living_tomes)Обновить Том$() добавляет один дополнительный слот."
+    },
+    {
+      "type": "bloodmagic:crafting_upgrade_alchemy_table",
+      "a.heading": "Том в футляре",
+      "a.recipe": "bloodmagic:alchemytable/curios_upgrade",
+      "b.upgrade": "bloodmagic:curios_socket"
+    }
+  ]
+}

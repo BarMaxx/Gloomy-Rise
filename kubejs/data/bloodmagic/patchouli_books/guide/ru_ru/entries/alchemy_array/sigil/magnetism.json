@@ -1,0 +1,23 @@
+{
+  "name": "Сигил магнетизма",
+  "icon": "bloodmagic:sigilofmagnetism",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Увеличивает диапазон подбора предметов игрока до 7 блоков, когда он активен. Включите/выключите, удерживая символ в руке, а затем удерживая [$(k:sneak)] и нажимая [$(k:use)]. $(br2)Потребляет 50 $(blood)LP$() каждые 5 секунд во время активности."
+    },
+    {
+      "type": "crafting_2-step_sigil",
+      "alchemy_table.heading": "Реагент магнетизма",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_magnetism",
+      "array.heading": "Сигил магнетизма",
+      "array.recipe": "bloodmagic:array/magnetismsigil"
+    },
+    {
+      "type": "text",
+      "flag": "mod:curios",
+      "text": "Поскольку у вас есть $(thing)Любопытный API$() установленный, вы можете оборудовать это $(item)Сигил$() как оберег. Если вы хотите сразу одеться более любопытно, подумайте об использовании $(l:bloodmagic:alchemy_array/sigil/holding)Сигил удержания$(), или $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)Размещенное обновление$() для твоей $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живая броня$()."
+    }
+  ]
+}

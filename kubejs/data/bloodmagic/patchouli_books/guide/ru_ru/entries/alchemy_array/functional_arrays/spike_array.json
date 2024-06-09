@@ -1,0 +1,17 @@
+{
+  "name": "Массив шипов",
+  "icon": "minecraft:iron_ingot",
+  "category": "bloodmagic:alchemy_array/functional_array",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Массив шипов - это довольно простой массив с одной целью. Когда живое существо входит в массив, оно получает полный урон. Это хорошо для ловушек мобов или для того, чтобы сделать вашу базу немного более острой для игроков."
+    },
+    {
+      "type": "functional_array",
+      "heading": "Массив шипов",
+      "recipe": "bloodmagic:array/spike",
+      "image": "spikearray.png"
+    }
+  ]
+}

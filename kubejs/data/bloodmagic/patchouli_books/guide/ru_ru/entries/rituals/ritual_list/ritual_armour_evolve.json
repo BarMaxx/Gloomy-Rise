@@ -1,0 +1,21 @@
+{
+  "name": "Ритуал живой эволюции",
+  "icon": "bloodmagic:livingplate",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Ритуал живой эволюции",
+      "multiblock_id": "bloodmagic:armour_evolve",
+      "text": "Использовать $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный предсказатель [Сумерки]$(/l) для облегчения строительства."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "armour_evolve",
+      "text_overrides": [
+        ["Живая броня", "l:bloodmagic:alchemy_array/living_equipment/living_basics"]
+      ],
+      "text": "Стоять на $(l:bloodmagic:rituals/ritual_stones)Мастер-ритуальный камень$() во время ношения $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живая броня$() использовать это $(thing)ритуал$()."
+    }
+  ]
+}

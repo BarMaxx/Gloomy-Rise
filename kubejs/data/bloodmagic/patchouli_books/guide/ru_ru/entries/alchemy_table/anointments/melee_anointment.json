@@ -1,0 +1,25 @@
+{
+  "name": "Хонинговальное масло",
+  "icon": "bloodmagic:melee_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Хонинговальное масло",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment",
+      "text": "Временно увеличивает наносимый урон в ближнем бою на +3. $(br2)Допустимые предметы: инструменты, мечи.$(br2)Применяется: Точильный камень I (256 просмотров)"
+    },
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Хонинговальное масло L",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment_l",
+      "text": "Эта улучшенная версия помазания длится в четыре раза дольше. $(br2)Применяется: Точильный камень I (1024 просмотров)"
+    },
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Хонинговальное масло II",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment_2",
+      "text": "Эта улучшенная версия помазания увеличивает урон в ближнем бою на +6. $(br2)Применяется: Точильный камень II (256 просмотров)"
+    }
+  ]
+}

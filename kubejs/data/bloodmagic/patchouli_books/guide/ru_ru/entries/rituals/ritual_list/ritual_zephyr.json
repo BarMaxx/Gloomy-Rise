@@ -1,0 +1,27 @@
+{
+  "name": "Зов Зефира",
+  "icon": "minecraft:hopper",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Зов Зефира",
+      "multiblock_id": "bloodmagic:zephyr",
+      "text": "Использовать $(l:bloodmagic:rituals/ritual_diviner)Ритуальный предсказатель$(/l) для облегчения строительства."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "zephyr"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "zephyr",
+      "page_type": "zephyrRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "zephyr",
+      "page_type": "chest"
+    }
+  ]
+}

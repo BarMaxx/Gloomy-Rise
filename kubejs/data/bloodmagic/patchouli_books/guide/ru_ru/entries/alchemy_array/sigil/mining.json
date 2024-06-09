@@ -1,0 +1,33 @@
+{
+  "name": "Сигил быстрого шахтера",
+  "icon": "bloodmagic:miningsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "text",
+      "text": "В $(item)Сигил быстрого шахтера$() это Сигил, который при активации с помощью [$(k:sneak)] и [$(k:use)], будет потреблять $(blood)100 LP$() каждые 5 секунд и примените эффект зелья ускорения. Таким образом, увеличивается скорость добычи, копания и резки. Создано с использованием $(item)Горный реагент$() и $(item)Усиленный Шифер$() в массиве алхимии."
+    },
+    {
+      "type": "crafting_2-step_sigil",
+      "alchemy_table.heading": "Горный реагент",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_fastminer",
+      "array.heading": "Символ быстрого шахтера",
+      "array.recipe": "bloodmagic:array/fastminersigil"
+    },
+    {
+      "type": "image",
+      "images": [
+        "bloodmagic:images/entries/sigil/mining_sigil1.png",
+        "bloodmagic:images/entries/sigil/mining_sigil2.png"
+      ],
+      "title": "Массив Сигилов Быстрого Майнера",
+      "border": true,
+      "text": "Символ массива быстрого майнера, а также его основное использование."
+    },
+    {
+      "type": "text",
+      "flag": "mod:curios",
+      "text": "Поскольку у вас есть $(thing)Любопытный API$() установленный, вы можете оборудовать это $(item)Символ$() как оберег. Если вы хотите сразу надеть что-то более любопытное, подумайте о том, чтобы использовать $(l:bloodmagic:alchemy_array/sigil/holding)Сигил удержания$(), или в $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)Размещенное обновление$() для твоей $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живая броня$()."
+    }
+  ]
+}

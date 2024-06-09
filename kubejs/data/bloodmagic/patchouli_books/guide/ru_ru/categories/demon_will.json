@@ -1,0 +1,6 @@
+{
+  "name": "Демон Воля",
+  "description": "$(item)Демон Воля$() это одна из первых вещей, которые вы можете создать с помощью $(blood)Blood Magic$(). Как только вы соберете несколько $(l:bloodmagic:demon_will/will_manipulation/soul_snare)Ловушка душ$(), вы сможете создать $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Мелкий Винный камень$() и еще $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Разумный Меч$(/l)$().",
+  "icon": "bloodmagic:basemonstersoul",
+  "sortnum": 3
+}

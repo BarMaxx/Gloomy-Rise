@@ -3,210 +3,176 @@
 	group: "724CB10F5936E1B7"
 	order_index: 0
 	filename: "5E53A9BC0EDA6E5D"
-	title: "{quests.gloomy_rise.progress_1.origins.chapter_title}"
+	title: "&bOrigins"
 	icon: "minecraft:crafting_table"
-	subtitle: ["{quests.gloomy_rise.progress_1.origins.chapter_subtitle}"]
-	default_quest_shape: "default_circle"
+	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: 0.0d
-		y: 0.0d
-		width: 50.0d
-		height: 30.0d
-		rotation: 0.0d
-		image: "gloomyrise:textures/background_for_questbook.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
 	quests: [
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.initial_resources.quest_title}"
-			x: -8.0d
-			y: -4.5d
-			shape: "default_circle"
-			subtitle: "{quests.gloomy_rise.progress_1.origins.initial_resources.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.initial_resources.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.initial_resources.description_2}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.initial_resources.description_3}"
-			]
+			x: -0.5d
+			y: 0.0d
+			shape: "square"
+			description: ["Первое, что Вам понадобится в этом мире - &eДерево!&f Советую собрать его как можно больше, ведь дальше его понадобится много."]
 			dependencies: ["114FD26AF2B063E3"]
+			hide: true
 			id: "3A3C317A703FF83D"
-			tasks: [
-				{
-					id: "4C233F54C39AC37A"
-					type: "item"
-					title: "{quests.gloomy_rise.progress_1.origins.initial_resources.task_title_1}"
-					icon: "minecraft:oak_log"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "minecraft:logs"
-						}
+			tasks: [{
+				id: "4C233F54C39AC37A"
+				type: "item"
+				title: "Дерево"
+				icon: "minecraft:oak_log"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
 					}
-					count: 4L
 				}
-				{
-					id: "7DA639260EAAB974"
-					type: "item"
-					title: "{quests.gloomy_rise.progress_1.origins.initial_resources.task_title_2}"
-					item: "minecraft:oak_planks"
-					count: 8L
-				}
-				{
-					id: "3FAA19A82003BA46"
-					type: "item"
-					title: "{quests.gloomy_rise.progress_1.origins.initial_resources.task_title_3}"
-					item: "minecraft:stick"
-					count: 4L
-				}
-				{
-					id: "133D471F174570BA"
-					type: "item"
-					title: "{quests.gloomy_rise.progress_1.origins.initial_resources.task_title_4}"
-					item: "minecraft:flint"
-				}
-			]
+				count: 8L
+			}]
 			rewards: [{
-				id: "20F4C9C6997B275D"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.initial_resources.reward_title_1}"
-				table_id: 3639176316474975446L
+				id: "61B136A87BAC24DB"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 4
+				random_bonus: 2
 			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.crafting_table.quest_title}"
-			x: -6.0d
-			y: -1.0d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.crafting_table.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.crafting_table.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.crafting_table.description_2}"
-			]
-			dependencies: [
-				"1DB2D7EB07555AFC"
-				"3690947B17DB94E2"
-			]
+			x: 1.5d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "Ваше рабочее место!"
+			description: ["Из досок, которые можно получить из бревен, можно создать &6верстак&f, с помощью которого можно создать много интересных вещей! Например, деревянные инструменты, сундук и т.п."]
+			dependencies: ["3A3C317A703FF83D"]
 			id: "05EB7D069C18CA1E"
 			tasks: [{
 				id: "5CE947F135239979"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.crafting_table.task_title}"
 				item: "minecraft:crafting_table"
 			}]
 			rewards: [{
 				id: "251C21A39A86F6FD"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.crafting_table.reward_title}"
 				item: "create:honeyed_apple"
 				count: 2
 				random_bonus: 3
 			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.cobblestone.quest_title}"
-			x: -6.5d
-			y: 1.0d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.cobblestone.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.cobblestone.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.cobblestone.description_2}"
-			]
+			x: 4.5d
+			y: 0.0d
+			description: ["Булыжник можно добыть любой киркой и с помощью него можно создать печь и не только!"]
 			dependencies: ["6C7F234B75D1E84F"]
 			id: "15351ED9820C1C90"
 			tasks: [{
 				id: "4D868C4A99F550BF"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.cobblestone.task_title}"
+				title: "Булыжник"
 				item: "minecraft:cobblestone"
 				count: 8L
 			}]
 			rewards: [{
 				id: "3B2257C804037EED"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.cobblestone.reward_title}"
 				item: "minecraft:cobblestone"
 				count: 16
 			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.pattern.quest_title}"
-			x: -5.0d
-			y: -2.5d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.pattern.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.pattern.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.pattern.description_2}"
-			]
-			dependencies: ["098DCCF9FF874624"]
+			x: 0.0d
+			y: -1.5d
+			description: ["Шаблон нужен для создания специальных станций и частей инструментов."]
+			dependencies: ["3A3C317A703FF83D"]
 			id: "1DB2D7EB07555AFC"
 			tasks: [{
 				id: "56527A2CE81828E4"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.pattern.task_title}"
+				title: "Шаблон"
 				item: "tconstruct:pattern"
-				count: 2L
+				count: 8L
 			}]
 			rewards: [{
 				id: "4D3D6C8CEE061689"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.pattern.reward_title}"
 				item: "tconstruct:pattern"
-				count: 2
+				count: 3
 				random_bonus: 2
 			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.campfire.quest_title}"
-			x: -9.0d
-			y: -2.0d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.campfire.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.campfire.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.campfire.description_2}"
-			]
-			dependencies: ["6131892749100E8F"]
+			x: -1.0d
+			y: -1.0d
+			description: ["На костре можно жарить еду до 4 штук одновременно, что намного эффективнее печи."]
+			dependencies: ["3A3C317A703FF83D"]
 			id: "601145AC00E6C07B"
 			tasks: [{
 				id: "5121A4341108605B"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.campfire.task_title}"
 				item: "minecraft:campfire"
 			}]
 			rewards: [{
 				id: "1DB900AB68ADEBC5"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.campfire.reward_title}"
 				item: "minecraft:pumpkin_pie"
 				count: 2
 				random_bonus: 1
 			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.chest.quest_title}"
-			x: -4.5d
-			y: -1.0d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.chest.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.chest.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.chest.description_2}"
+			title: "Новые инструменты"
+			icon: {
+				id: "tconstruct:tinker_station"
+				Count: 1b
+				tag: {
+					texture: "minecraft:oak_planks"
+				}
+			}
+			x: 1.0d
+			y: -1.5d
+			shape: "hexagon"
+			description: ["С помощью этих станций можно создать собственные &2инструменты!&f Инструменты создаются по частям и эти части можно создать из разных материалов, чтобы собрать наилучший инструмент."]
+			dependencies: [
+				"1DB2D7EB07555AFC"
+				"05EB7D069C18CA1E"
 			]
+			id: "3F9C1972FF445BA5"
+			tasks: [
+				{
+					id: "3456B89B47C7F0A1"
+					type: "item"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "71D99FCDA40BCB3A"
+					type: "item"
+					item: {
+						id: "tconstruct:part_builder"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			subtitle: "Ваше первое хранилище."
+			description: ["В сундуке можно хранить вещи, и всё..."]
 			dependencies: ["05EB7D069C18CA1E"]
 			id: "3BC47498DF613B04"
 			tasks: [{
 				id: "4BEF78BC5937859B"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.chest.task_title}"
+				title: "Сундук"
 				icon: "minecraft:chest"
 				item: {
 					id: "itemfilters:tag"
@@ -217,162 +183,211 @@
 				}
 			}]
 			rewards: [{
-				id: "5F96D7839E6D79E6"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.chest.reward_title}"
-				table_id: 1909808814148524606L
+				id: "65C0AA044A97AD1C"
+				type: "item"
+				item: "minecraft:chest"
 			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.barrel.quest_title}"
-			x: -7.5d
-			y: -1.0d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.barrel.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.barrel.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.barrel.description_2}"
-			]
+			x: 1.5d
+			y: -2.5d
+			description: ["В ящике для частей можно хранить части инструментов, как ни странно, и не захламлять сундуки и бочки."]
+			dependencies: ["3BC47498DF613B04"]
+			id: "2056D573224030CB"
+			tasks: [{
+				id: "703AFC0BCC24833B"
+				type: "item"
+				item: "tconstruct:part_chest"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			description: ["В бочке можно хранить предметы, также как и в сундуке, но бочки можно ставить везде, а сундукам нужно пространство сверху."]
 			dependencies: ["05EB7D069C18CA1E"]
 			id: "40FA20B89ED9FF16"
 			tasks: [{
 				id: "73BBDA6B834F1DCE"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.barrel.task_title}"
 				item: "minecraft:barrel"
 			}]
 			rewards: [{
-				id: "27C249EBED5A04CC"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.barrel.reward_title}"
-				table_id: 1646980043795792858L
+				id: "1AAB066DF21FBF68"
+				type: "item"
+				item: "minecraft:barrel"
 			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.furnace.quest_title}"
-			x: -6.0d
-			y: 2.5d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.furnace.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.furnace.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.furnace.description_2}"
-			]
-			dependencies: [
-				"15351ED9820C1C90"
-				"6213F31DFBC98890"
-			]
+			x: 6.0d
+			y: 0.0d
+			shape: "rsquare"
+			description: ["С помощью &7печи&f можно переплавлять различные материалы."]
+			dependencies: ["15351ED9820C1C90"]
 			id: "7CA023B662360C6A"
 			tasks: [{
 				id: "348453F9297D05FB"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.furnace.task_title}"
 				item: "minecraft:furnace"
 			}]
 			rewards: [{
-				id: "78F7DA1FB0EF3295"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.furnace.reward_title}"
-				table_id: 1219459674138469020L
+				id: "3AC3A067188766E0"
+				type: "item"
+				item: "minecraft:coal"
+				count: 4
 			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.blast_furnace.quest_title}"
-			x: -4.5d
-			y: 2.5d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.blast_furnace.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.blast_furnace.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.blast_furnace.description_2}"
-			]
+			x: 6.5d
+			y: 1.0d
+			description: ["В плавильной печи можно переплавлять руды в несколько раз быстрее, чем в печке. А также из плавильной печи можно создать обожжённую плавильную печь."]
 			dependencies: ["7CA023B662360C6A"]
 			id: "459270456C29E625"
 			tasks: [{
 				id: "7E2E6D86DA533FDC"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.blast_furnace.task_title}"
 				item: "minecraft:blast_furnace"
-			}]
-			rewards: [{
-				id: "28602DDDC467F5E8"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.blast_furnace.reward_title}"
-				table_id: 5983573857714054250L
 			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.iron_ore.quest_title}"
-			x: 2.5d
-			y: -3.0d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.iron_ore.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.iron_ore.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.iron_ore.description_2}"
+			icon: "tconstruct:seared_melter"
+			x: 6.0d
+			y: 2.0d
+			subtitle: "Мини-версия Плавильни!"
+			description: ["Обожжённая плавильная печь нужна для выплавки контроллера плавильни. Для этого нужно поставить обожжённую плавильную печь над обожжённым резервуаром и залить туда лаву. Далее нужно выплавить медь и, с помощью крана, вылить её в литейный резервувар с обожжённым нагревателем."]
+			dependencies: [
+				"459270456C29E625"
+				"7DF597AE179194C4"
 			]
-			dependencies: ["7A3F3E23A0387DE6"]
+			id: "40464E10E7F97A6A"
+			tasks: [
+				{
+					id: "4FD16FF4629E0591"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "545C817DC1D43A87"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "6326E885238142C8"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "49B1A0A34A1CDBA4"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+			]
+			rewards: [{
+				id: "2E51739D6B599F0D"
+				type: "item"
+				item: "tconstruct:seared_heater"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			description: ["Обожжённые кирпичи можно выплавить в печке из цемента. Эти кирпичи понадобятся для создания различных частей &8плавильни&f."]
+			dependencies: ["7CA023B662360C6A"]
+			id: "7DF597AE179194C4"
+			tasks: [{
+				id: "0C7A87AC97EDDC59"
+				type: "item"
+				title: "Обожжённый кирпич"
+				item: "tconstruct:seared_brick"
+				count: 16L
+			}]
+			rewards: [{
+				id: "1ACD772752852593"
+				type: "item"
+				item: "tconstruct:seared_brick"
+				count: 8
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "Плавильня"
+			icon: "tconstruct:smeltery_controller"
+			x: 6.0d
+			y: 3.5d
+			shape: "rsquare"
+			description: ["Чтобы построить плавильню нужно поставить контроллер плавильни и обожжённые кирпичи, например 3х3, 5х5 и т.п. Далее необходимо добавлять сливы плавильни, краны, литейные столы и резервуары. Плавильня нужна для более выгодной переплавки ресурсов, создания сплавов и выплавки инструментов."]
+			dependencies: ["40464E10E7F97A6A"]
+			id: "717BF6EE7925AD56"
+			tasks: [
+				{
+					id: "59D37D7FBA55E80D"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "6936EB72969A5096"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "7AC54BF9A1259184"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "02F65812D02C4271"
+					type: "item"
+					title: "Обожжённые кирпичи"
+					item: "tconstruct:seared_bricks"
+					count: 8L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			description: ["Железную руду можно добыть в шахте на высоте 2-61. Переплавив железную руду можно получить железный слиток."]
+			dependencies: ["7CA023B662360C6A"]
 			id: "050CD68574E6F1E6"
 			tasks: [{
 				id: "42580A1F6B436B85"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.iron_ore.task_title}"
+				title: "Железная руда"
 				item: "minecraft:iron_ore"
-				count: 4L
-			}]
-			rewards: [{
-				id: "0B12DCB0173EF5D0"
-				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.iron_ore.reward_title}"
-				item: "minecraft:iron_ore"
-				count: 4
-				random_bonus: 4
+				count: 6L
 			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.iron_ingot.quest_title}"
-			x: 2.5d
-			y: -1.5d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.iron_ingot.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.iron_ingot.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.iron_ingot.description_2}"
-			]
+			x: 8.8d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Куй железо, пока горячо"
+			description: ["Железный слиток нужен для многих вещей, но сейчас Вы можете создать &eжелезную кирку&f."]
 			dependencies: ["050CD68574E6F1E6"]
+			size: 1.1d
 			id: "73D8A15D7A0E9FA2"
 			tasks: [{
 				id: "5BFA7A17D79ECCB6"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.iron_ingot.task_title}"
+				title: "Железный слиток"
 				item: "minecraft:iron_ingot"
-				count: 4L
+				count: 8L
 			}]
 			rewards: [{
 				id: "2AE359BD50F6060E"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.iron_ingot.reward_title}"
 				item: "minecraft:iron_ingot"
 				count: 4
-				random_bonus: 4
 			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.iron_pickaxe.quest_title}"
-			x: 2.5d
-			y: 0.5d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.iron_pickaxe.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.iron_pickaxe.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.iron_pickaxe.description_2}"
-			]
+			x: 10.5d
+			y: 0.0d
+			description: ["С помощью железной кирки можно добывать более твёрдые породы и руды, например, алмаз."]
 			dependencies: ["73D8A15D7A0E9FA2"]
 			id: "39C60726C5C4150F"
 			tasks: [{
 				id: "185BB79D41DAAEE3"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.iron_pickaxe.task_title}"
 				item: {
 					id: "minecraft:iron_pickaxe"
 					Count: 1b
@@ -381,57 +396,38 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "303141C243781D48"
-				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.iron_pickaxe.reward_title}"
-				item: "minecraft:iron_ingot"
-				count: 4
-			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.diamond.quest_title}"
-			x: 3.5d
-			y: 1.5d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.diamond.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.diamond.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.diamond.description_2}"
-			]
+			x: 11.55d
+			y: 1.1d
+			shape: "square"
+			subtitle: "Осыпь меня алмазами!"
+			description: ["&3Алмазы&f можно добыть &7железной киркой&f в шахте на высоте 1-16. Алмазы очень ценные и нужны для многих вещей и механизмов, но сейчас Вы можете создать алмазную кирку."]
 			dependencies: ["39C60726C5C4150F"]
+			size: 1.1d
 			id: "16B75CEDF776927E"
 			tasks: [{
 				id: "577BC5577F0F2498"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.diamond.task_title}"
+				title: "Алмаз"
 				item: "minecraft:diamond"
 				count: 3L
 			}]
 			rewards: [{
 				id: "17A303D2EAE7ADD8"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.diamond.reward_title}"
 				item: "minecraft:diamond"
-				random_bonus: 2
 			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.diamond_pickaxe.quest_title}"
-			x: 3.0d
-			y: 3.0d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.diamond_pickaxe.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.diamond_pickaxe.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.diamond_pickaxe.description_2}"
-			]
+			x: 11.5d
+			y: 2.5d
+			description: ["С помощью алмазной кирки можно получить &8обсидиан&f, а также алмазная кирка эффективнее предыдущих."]
 			dependencies: ["16B75CEDF776927E"]
 			id: "6741CCCE0EF6A545"
 			tasks: [{
 				id: "766A9A03267F9409"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.diamond_pickaxe.task_title}"
 				item: {
 					id: "minecraft:diamond_pickaxe"
 					Count: 1b
@@ -440,385 +436,345 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "5195D7AE287E8303"
+		}
+		{
+			x: 8.0d
+			y: -1.0d
+			subtitle: "Защити себя"
+			description: ["С помощью щита можно защищаться от монстров. Особенно от стрел и взрывов."]
+			dependencies: ["73D8A15D7A0E9FA2"]
+			id: "58BDDD1D04411856"
+			tasks: [{
+				id: "4FE4946591FFF83B"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.diamond_pickaxe.reward_title}"
-				item: "minecraft:diamond"
+				item: {
+					id: "minecraft:shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.workbench.quest_title}"
-			x: -7.5d
-			y: 1.0d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.workbench.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.workbench.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.workbench.description_2}"
-			]
+			x: 4.5d
+			y: -1.0d
+			description: ["Верстак, который сохраняет свой инвентарь. Очень удобно."]
 			dependencies: ["15351ED9820C1C90"]
 			id: "3113441898064869"
 			tasks: [{
 				id: "03ACF46B55389863"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.workbench.task_title}"
 				item: "cyclic:workbench"
-			}]
-			rewards: [{
-				id: "373A575A22310107"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.workbench.reward_title}"
-				table_id: 7283934887988174074L
 			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.crafting_stick.quest_title}"
-			x: -4.0d
+			x: -0.5d
 			y: -2.5d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.crafting_stick.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.crafting_stick.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.crafting_stick.description_2}"
-			]
+			subtitle: "Портативный верстак"
+			description: ["Палка с верстаком позволяет открыть верстак в любом месте. Но этот верстак не сохраняет свой инвентарь."]
 			dependencies: ["1DB2D7EB07555AFC"]
 			id: "528887B4FA7AA2AA"
 			tasks: [{
 				id: "72D115D92F38FF0B"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.crafting_stick.task_title}"
 				item: "cyclic:crafting_stick"
-			}]
-			rewards: [{
-				id: "18E172188937B541"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.crafting_stick.reward_title}"
-				table_id: 7283934887988174074L
 			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.iron_storages.quest_title}"
-			x: 1.0d
-			y: -0.5d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.iron_storages.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.iron_storages.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.iron_storages.description_2}"
-			]
+			x: 0.0d
+			y: -3.5d
+			description: ["Продвинутая палка с верстаком также позволяет открыть верстак в любом месте, но этот верстак сохраняет свой инвентарь. Можно использовать как рюкзак :)"]
+			dependencies: ["528887B4FA7AA2AA"]
+			id: "5E7D98365C7A4D87"
+			tasks: [{
+				id: "2FFD3315E80C2765"
+				type: "item"
+				item: {
+					id: "cyclic:crafting_bag"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 9
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Железные хранилища"
+			icon: "expandedstorage:iron_chest"
+			x: 9.5d
+			y: -1.0d
+			description: ["Улучшенные версии деревянных хранилищ. Позволяют хранить больше предметов."]
 			dependencies: ["73D8A15D7A0E9FA2"]
 			id: "0F28C797D7224DA8"
 			tasks: [
 				{
 					id: "1664DC4622A54FFF"
 					type: "item"
-					title: "{quests.gloomy_rise.progress_1.origins.iron_storages.task_title_1}"
 					item: "expandedstorage:iron_chest"
 				}
 				{
 					id: "2978642151B6702A"
 					type: "item"
-					title: "{quests.gloomy_rise.progress_1.origins.iron_storages.task_title_2}"
 					item: "expandedstorage:iron_barrel"
 				}
 			]
-			rewards: [{
-				id: "23A71DCEEA4E4DC4"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.iron_storages.reward_title}"
-				table_id: 7283934887988174074L
-			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.gold_ore.quest_title}"
-			x: 1.5d
-			y: 1.5d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.gold_ore.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.gold_ore.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.gold_ore.description_2}"
-			]
+			x: 11.5d
+			y: -1.0d
+			description: ["&eЗолотую руду&f можно добыть &7железной киркой&f в шахте на высоте 5-28. Золотую руду можно переплавить и получить золотой слиток."]
 			dependencies: ["39C60726C5C4150F"]
 			id: "6BA446FB38C2AED4"
 			tasks: [{
 				id: "259F09DEEA08E97A"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.gold_ore.task_title}"
+				title: "Золотая руда"
 				item: "minecraft:gold_ore"
 				count: 6L
 			}]
-			rewards: [{
-				id: "349BC83282F0BB5F"
-				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.gold_ore.reward_title}"
-				item: "minecraft:gold_ore"
-				count: 4
-				random_bonus: 4
-			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.gold_ingot.quest_title}"
-			x: 1.0d
-			y: 3.0d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.gold_ingot.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.gold_ingot.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.gold_ingot.description_2}"
-			]
+			x: 12.1d
+			y: -2.2d
+			shape: "square"
+			description: ["Золотой слиток пригодится вам для многих вещей, например для сундука, рюкзака и т.п."]
 			dependencies: ["6BA446FB38C2AED4"]
+			size: 1.1d
 			id: "0131D6E4A04B280F"
 			tasks: [{
 				id: "72525BCBC5E30BA0"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.gold_ingot.task_title}"
+				title: "Золотой слиток"
 				item: "minecraft:gold_ingot"
 				count: 8L
 			}]
 			rewards: [{
 				id: "17D27EF3374E1080"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.gold_ingot.reward_title}"
 				item: "minecraft:gold_ingot"
 				count: 4
-				random_bonus: 4
 			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.gold_storages.quest_title}"
-			x: 0.0d
-			y: 4.0d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.gold_storages.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.gold_storages.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.gold_storages.description_2}"
-			]
+			title: "Золотые хранилища"
+			icon: "expandedstorage:gold_chest"
+			x: 13.0d
+			y: -3.0d
+			description: ["Улучшенные версии железных хранилищ. Позволяют хранить больше предметов."]
 			dependencies: ["0131D6E4A04B280F"]
 			id: "3874808585C5B255"
 			tasks: [
 				{
 					id: "56F025DF9AB151E6"
 					type: "item"
-					title: "{quests.gloomy_rise.progress_1.origins.gold_storages.task_title_1}"
 					item: "expandedstorage:gold_chest"
 				}
 				{
 					id: "1B8C18ED1A88EC2F"
 					type: "item"
-					title: "{quests.gloomy_rise.progress_1.origins.gold_storages.task_title_2}"
 					item: "expandedstorage:gold_barrel"
 				}
 			]
-			rewards: [{
-				id: "288B1BEB08953FE6"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.gold_storages.reward_title}"
-				table_id: 7283934887988174074L
-			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.diamond_storages.quest_title}"
-			x: 4.0d
-			y: 3.0d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.diamond_storages.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.diamond_storages.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.diamond_storages.description_2}"
-			]
+			title: "Алмазные хранилища"
+			icon: "expandedstorage:diamond_chest"
+			x: 12.5d
+			y: 1.5d
+			description: ["Улучшенные версии золотых хранилищ. Позволяют хранить больше предметов."]
 			dependencies: ["16B75CEDF776927E"]
 			id: "389BB670B0106BE6"
 			tasks: [
 				{
 					id: "3D7200760F06EA20"
 					type: "item"
-					title: "{quests.gloomy_rise.progress_1.origins.diamond_storages.task_title_1}"
 					item: "expandedstorage:diamond_chest"
 				}
 				{
 					id: "1FD81C3CCDC4FD32"
 					type: "item"
-					title: "{quests.gloomy_rise.progress_1.origins.diamond_storages.task_title_2}"
 					item: "expandedstorage:diamond_barrel"
 				}
 			]
-			rewards: [{
-				id: "5D41F22806C14A6D"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.diamond_storages.reward_title}"
-				table_id: 7283934887988174074L
-			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.diamond_backpack.quest_title}"
-			x: 5.0d
-			y: 1.5d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.diamond_backpack.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.diamond_backpack.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.diamond_backpack.description_2}"
-			]
+			x: 12.5d
+			y: 0.5d
+			description: ["Улучшенная версия золотого рюкзака. Позволяет хранить больше предметов и улучшений."]
 			hide_dependency_lines: false
 			dependencies: ["16B75CEDF776927E"]
 			id: "5201109824769517"
 			tasks: [{
 				id: "04DFDB94649A9F42"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.diamond_backpack.task_title}"
 				item: "sophisticatedbackpacks:diamond_backpack"
-			}]
-			rewards: [{
-				id: "67567457A58142AA"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.diamond_backpack.reward_title}"
-				table_id: 7015058020314785297L
 			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.iron_backpack.quest_title}"
-			x: 4.0d
-			y: -2.5d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.iron_backpack.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.iron_backpack.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.iron_backpack.description_2}"
-			]
+			x: 9.5d
+			y: 1.0d
+			description: ["Улучшенная версия обычного рюкзака. Позволяет хранить больше предметов и улучшений."]
 			dependencies: ["73D8A15D7A0E9FA2"]
 			id: "5D24178A87E70FF2"
 			tasks: [{
 				id: "44951F59FD039E53"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.iron_backpack.task_title}"
 				item: "sophisticatedbackpacks:iron_backpack"
-			}]
-			rewards: [{
-				id: "09A75C2C257EA164"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.iron_backpack.reward_title}"
-				table_id: 7015058020314785297L
 			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.gold_backpack.quest_title}"
-			x: 0.0d
-			y: 2.0d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.gold_backpack.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.gold_backpack.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.gold_backpack.description_2}"
-			]
+			x: 11.0d
+			y: -3.0d
+			description: ["Улучшенная версия железного рюкзака. Позволяет хранить больше предметов и улучшений."]
 			dependencies: ["0131D6E4A04B280F"]
 			id: "67E8EEA1F2BB22D4"
 			tasks: [{
 				id: "399E6998EBFAFD77"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.gold_backpack.task_title}"
 				item: "sophisticatedbackpacks:gold_backpack"
-			}]
-			rewards: [{
-				id: "26D38C0F54302091"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.gold_backpack.reward_title}"
-				table_id: 7015058020314785297L
 			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.backpack.quest_title}"
-			x: -4.0d
-			y: 0.0d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.backpack.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.backpack.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.backpack.description_2}"
-			]
+			x: 3.0d
+			y: -2.0d
+			subtitle: "Вперёд в поход!"
+			description: ["В рюкзаке можно переносить вещи на большое расстояние. Очень удобно в путешествиях."]
 			dependencies: ["3BC47498DF613B04"]
 			id: "19E0170B82D541A5"
 			tasks: [{
 				id: "63915D538F3A4623"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.backpack.task_title}"
 				item: "sophisticatedbackpacks:backpack"
-			}]
-			rewards: [{
-				id: "6C3BE03EEF9382DB"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.backpack.reward_title}"
-				table_id: 7015058020314785297L
 			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.stove.quest_title}"
-			x: -9.0d
-			y: -0.5d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.stove.subtitle}"
+			title: "Пчелиная коробка"
+			x: 0.0d
+			y: 1.5d
+			description: ["В пчелиную коробку можно ловить пчёл."]
+			dependencies: ["3A3C317A703FF83D"]
+			id: "103F61C44C101052"
+			tasks: [{
+				id: "1CCDED78216FADC8"
+				type: "item"
+				title: "Пчелиная корбка"
+				item: "resourcefulbees:bee_box"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			description: ["В ней тоже можно хранить пчёл."]
+			dependencies: ["103F61C44C101052"]
+			id: "12C56025EFF762FD"
+			tasks: [{
+				id: "388165B0E93FE0E2"
+				type: "item"
+				item: "resourcefulbees:bee_jar"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
 			description: [
-				"{quests.gloomy_rise.progress_1.origins.stove.description_1}"
+				"В нём живут пчёлки. Бзз Бзз"
 				""
-				"{quests.gloomy_rise.progress_1.origins.stove.description_2}"
 			]
+			dependencies: ["103F61C44C101052"]
+			id: "58C22583D489A0CC"
+			tasks: [{
+				id: "2AAC16145AED2589"
+				type: "item"
+				item: "minecraft:beehive"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			description: ["В нём живут пчёлки. Бзз Бзз"]
+			dependencies: ["58C22583D489A0CC"]
+			id: "1AF1D13D10333AF9"
+			tasks: [{
+				id: "6EE24DCA95870974"
+				type: "item"
+				item: "resourcefulbees:t1_beehive"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			description: ["В нём живут пчёлки. Бзз Бзз"]
+			dependencies: ["1AF1D13D10333AF9"]
+			id: "73ABCFD0E43332C1"
+			tasks: [{
+				id: "7EE8A482A5FC3F5C"
+				type: "item"
+				item: "resourcefulbees:t2_beehive"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			description: ["В нём живут пчёлки. Бзз Бзз"]
+			dependencies: ["73ABCFD0E43332C1"]
+			id: "0F43F7A6F8EF006B"
+			tasks: [{
+				id: "4A826C749B86FE04"
+				type: "item"
+				item: "resourcefulbees:t3_beehive"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			description: ["В нём живут пчёлки. Бззз"]
+			dependencies: ["0F43F7A6F8EF006B"]
+			id: "7C435D61D1C9B961"
+			tasks: [{
+				id: "54084007D390F32E"
+				type: "item"
+				item: "resourcefulbees:t4_beehive"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			subtitle: "Юный повар"
+			description: ["Позволяет удобнее готовить еду."]
 			dependencies: ["601145AC00E6C07B"]
 			id: "164E879B063727A9"
 			tasks: [{
 				id: "1B1150004C3B915E"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.stove.task_title}"
 				item: "farmersdelight:stove"
-			}]
-			rewards: [{
-				id: "0520C8C715F18D0F"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.stove.reward_title}"
-				table_id: 7283934887988174074L
 			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.cooking_pot.quest_title}"
-			x: 1.5d
-			y: -2.5d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.cooking_pot.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.cooking_pot.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.cooking_pot.description_2}"
-			]
+			x: 8.0d
+			y: 1.0d
+			description: ["В кухонном котле можно готовить различную еду."]
 			dependencies: ["73D8A15D7A0E9FA2"]
 			id: "62D309255509C159"
 			tasks: [{
 				id: "4B39C09874328F67"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.cooking_pot.task_title}"
 				item: "farmersdelight:cooking_pot"
-			}]
-			rewards: [{
-				id: "292A4573CD68F82E"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.cooking_pot.reward_title}"
-				table_id: 3639176316474975446L
 			}]
 		}
 		{
-			title: "{quests.gloomy_rise.progress_1.origins.wooden_pickaxe.quest_title}"
-			x: -7.0d
+			x: 3.0d
 			y: 0.0d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.wooden_pickaxe.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.wooden_pickaxe.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.wooden_pickaxe.description_2}"
-			]
+			subtitle: "Первый инструмент!"
+			description: ["Ваша первая кирка. С её помощью вы сможете добыть булыжник."]
 			dependencies: ["05EB7D069C18CA1E"]
 			id: "6C7F234B75D1E84F"
 			tasks: [{
 				id: "4FEA2C034342544F"
 				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.wooden_pickaxe.task_title}"
 				item: {
 					id: "minecraft:wooden_pickaxe"
 					Count: 1b
@@ -826,418 +782,6 @@
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "701FF2057A684235"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.wooden_pickaxe.reward_title}"
-				table_id: 7283934887988174074L
-			}]
-		}
-		{
-			title: "{quests.gloomy_rise.progress_1.origins.drawers.quest_title}"
-			x: -8.0d
-			y: 0.0d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.drawers.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.drawers.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.drawers.description_2}"
-			]
-			dependencies: ["40FA20B89ED9FF16"]
-			id: "4E8B6337C321C3AC"
-			tasks: [{
-				id: "018750A1A8AF9FBF"
-				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.drawers.task_title}"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "storagedrawers:drawers"
-					}
-				}
-			}]
-			rewards: [{
-				id: "40714CB030C3D725"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.drawers.reward_title}"
-				table_id: 1470874679732163061L
-			}]
-		}
-		{
-			title: "{quests.gloomy_rise.progress_1.origins.worktable_basic.quest_title}"
-			x: 3.5d
-			y: -0.5d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.worktable_basic.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.worktable_basic.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.worktable_basic.description_2}"
-			]
-			dependencies: ["73D8A15D7A0E9FA2"]
-			id: "621F24F918EDA32C"
-			tasks: [{
-				id: "0F1110412CFFAA3F"
-				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.worktable_basic.task_title}"
-				item: "artisanworktables:worktable_basic"
-			}]
-			rewards: [{
-				id: "3FCE27F7C12313D0"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.worktable_basic.reward_title}"
-				table_id: 7283934887988174074L
-			}]
-		}
-		{
-			title: "{quests.gloomy_rise.progress_1.origins.smoker.quest_title}"
-			x: -7.5d
-			y: 2.5d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.smoker.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.smoker.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.smoker.description_2}"
-			]
-			dependencies: ["7CA023B662360C6A"]
-			id: "4F6DDAD39A65752A"
-			tasks: [{
-				id: "76EC4ADDD9642006"
-				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.smoker.task_title}"
-				item: "minecraft:smoker"
-			}]
-			rewards: [{
-				id: "172011DA52647909"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.smoker.reward_title}"
-				table_id: 649389599540615973L
-			}]
-		}
-		{
-			title: "{quests.gloomy_rise.progress_1.origins.terracotta.quest_title}"
-			x: -6.5d
-			y: 3.5d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.terracotta.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.terracotta.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.terracotta.description_2}"
-			]
-			dependencies: ["7CA023B662360C6A"]
-			id: "2C2ECA715409F02A"
-			tasks: [{
-				id: "505CB972828BE628"
-				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.terracotta.task_title}"
-				item: "minecraft:terracotta"
-				count: 4L
-			}]
-			rewards: [{
-				id: "058E4ED76031A133"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.terracotta.reward_title}"
-				table_id: 3639176316474975446L
-			}]
-		}
-		{
-			title: "{quests.gloomy_rise.progress_1.origins.smooth_stone.quest_title}"
-			x: -5.5d
-			y: 3.5d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.smooth_stone.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.smooth_stone.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.smooth_stone.description_2}"
-			]
-			dependencies: ["7CA023B662360C6A"]
-			id: "7E26F7808D45315B"
-			tasks: [{
-				id: "789682BB56795EDD"
-				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.smooth_stone.task_title}"
-				item: "minecraft:smooth_stone"
-				count: 4L
-			}]
-			rewards: [{
-				id: "61AE83F58962E751"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.smooth_stone.reward_title}"
-				table_id: 649389599540615973L
-			}]
-		}
-		{
-			title: "{quests.gloomy_rise.progress_1.origins.worktable_potter.quest_title}"
-			x: -6.0d
-			y: 4.5d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.worktable_potter.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.worktable_potter.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.worktable_potter.description_2}"
-			]
-			dependencies: [
-				"2C2ECA715409F02A"
-				"7E26F7808D45315B"
-			]
-			id: "01FEED9BD3F35C94"
-			tasks: [{
-				id: "75D3678692FBDB5F"
-				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.worktable_potter.task_title}"
-				item: "artisanworktables:worktable_potter"
-			}]
-			rewards: [
-				{
-					id: "6DD4479046A5BA04"
-					type: "random"
-					title: "{quests.gloomy_rise.progress_1.origins.worktable_potter.reward_title_1}"
-					table_id: 1646980043795792858L
-				}
-				{
-					id: "51BB9883C40971AB"
-					type: "random"
-					title: "{quests.gloomy_rise.progress_1.origins.worktable_potter.reward_title_2}"
-					table_id: 7015058020314785297L
-				}
-				{
-					id: "34CE59CB599175CE"
-					type: "loot"
-					title: "{quests.gloomy_rise.progress_1.origins.worktable_potter.reward_title_3}"
-					table_id: 649389599540615973L
-				}
-			]
-		}
-		{
-			title: "{quests.gloomy_rise.progress_1.origins.flint_knife.quest_title}"
-			x: -6.0d
-			y: -4.5d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.flint_knife.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.flint_knife.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.flint_knife.description_2}"
-			]
-			dependencies: ["3A3C317A703FF83D"]
-			id: "065526949395D78B"
-			tasks: [{
-				id: "1E051705A3D2BB52"
-				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.flint_knife.task_title}"
-				item: {
-					id: "farmersdelight:flint_knife"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "22184BD788415F75"
-				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.flint_knife.reward_title}"
-				item: "farmersdelight:milk_bottle"
-				count: 2
-			}]
-		}
-		{
-			title: "{quests.gloomy_rise.progress_1.origins.fibers.quest_title}"
-			x: -6.0d
-			y: -3.5d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.fibers.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.fibers.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.fibers.description_2}"
-			]
-			dependencies: ["065526949395D78B"]
-			id: "098DCCF9FF874624"
-			tasks: [
-				{
-					id: "097FD1E34F0B1B0D"
-					type: "item"
-					title: "{quests.gloomy_rise.progress_1.origins.fibers.task_title_1}"
-					item: "farmersdelight:straw"
-					count: 8L
-				}
-				{
-					id: "623F29D7E3B323A4"
-					type: "item"
-					title: "{quests.gloomy_rise.progress_1.origins.fibers.task_title_2}"
-					item: "farmersdelight:canvas"
-					count: 2L
-				}
-			]
-			rewards: [{
-				id: "5B0D79179B46CCE3"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.fibers.reward_title}"
-				table_id: 3639176316474975446L
-			}]
-		}
-		{
-			title: "{quests.gloomy_rise.progress_1.origins.rope.quest_title}"
-			x: -7.0d
-			y: -2.5d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.rope.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.rope.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.rope.description_2}"
-			]
-			dependencies: ["098DCCF9FF874624"]
-			id: "3690947B17DB94E2"
-			tasks: [{
-				id: "716BE8D52626266A"
-				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.rope.task_title}"
-				item: "farmersdelight:rope"
-				count: 2L
-			}]
-			rewards: [{
-				id: "32814C7764AC88AC"
-				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.rope.reward_title}"
-				item: "farmersdelight:rope"
-				count: 2
-				random_bonus: 2
-			}]
-		}
-		{
-			title: "{quests.gloomy_rise.progress_1.origins.trout.quest_title}"
-			x: -8.0d
-			y: -2.5d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.trout.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.trout.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.trout.description_2}"
-			]
-			dependencies: ["3690947B17DB94E2"]
-			id: "6131892749100E8F"
-			tasks: [{
-				id: "1345407E4E40AD39"
-				type: "checkmark"
-				title: "{quests.gloomy_rise.progress_1.origins.trout.task_title}"
-			}]
-			rewards: [{
-				id: "1F84D8D90E557477"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.trout.reward_title}"
-				table_id: 3639176316474975446L
-			}]
-		}
-		{
-			title: "{quests.gloomy_rise.progress_1.origins.stone.quest_title}"
-			x: 0.5d
-			y: -5.0d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.stone.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.stone.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.stone.description_2}"
-			]
-			hide_dependency_lines: true
-			dependencies: ["7CA023B662360C6A"]
-			id: "59A6896A8B3C6B62"
-			tasks: [{
-				id: "65C10C19CE21E827"
-				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.stone.task_title}"
-				item: "minecraft:stone"
-				count: 4L
-			}]
-			rewards: [{
-				id: "27443AF552A5A29A"
-				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.stone.reward_title}"
-				item: "minecraft:stone"
-				count: 4
-				random_bonus: 4
-			}]
-		}
-		{
-			title: "{quests.gloomy_rise.progress_1.origins.cutting_board.quest_title}"
-			x: -5.0d
-			y: 0.0d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.cutting_board.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.cutting_board.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.cutting_board.description_2}"
-			]
-			dependencies: ["05EB7D069C18CA1E"]
-			id: "63235F71A57DA6A0"
-			tasks: [{
-				id: "361116617C064127"
-				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.cutting_board.task_title}"
-				item: "farmersdelight:cutting_board"
-			}]
-			rewards: [{
-				id: "119C2BA75F34B4C9"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.cutting_board.reward_title}"
-				table_id: 702326463577367718L
-			}]
-		}
-		{
-			title: "{quests.gloomy_rise.progress_1.origins.cobblestone_brick.quest_title}"
-			x: -5.5d
-			y: 1.0d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.cobblestone_brick.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.cobblestone_brick.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.cobblestone_brick.description_2}"
-			]
-			dependencies: [
-				"63235F71A57DA6A0"
-				"15351ED9820C1C90"
-			]
-			id: "6213F31DFBC98890"
-			tasks: [{
-				id: "06261D642CAD3FEF"
-				type: "checkmark"
-				title: "{quests.gloomy_rise.progress_1.origins.cobblestone_brick.task_title}"
-			}]
-			rewards: [{
-				id: "464862EB32C5AA80"
-				type: "random"
-				title: "{quests.gloomy_rise.progress_1.origins.cobblestone_brick.reward_title}"
-				table_id: 649389599540615973L
-			}]
-		}
-		{
-			title: "{quests.gloomy_rise.progress_1.origins.stone_pickaxe.quest_title}"
-			x: 2.0d
-			y: -4.5d
-			subtitle: "{quests.gloomy_rise.progress_1.origins.stone_pickaxe.subtitle}"
-			description: [
-				"{quests.gloomy_rise.progress_1.origins.stone_pickaxe.description_1}"
-				""
-				"{quests.gloomy_rise.progress_1.origins.stone_pickaxe.description_2}"
-			]
-			dependencies: ["59A6896A8B3C6B62"]
-			id: "7A3F3E23A0387DE6"
-			tasks: [{
-				id: "18B428008BE10777"
-				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.stone_pickaxe.task_title}"
-				item: {
-					id: "minecraft:stone_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "66E439E924B080A5"
-				type: "item"
-				title: "{quests.gloomy_rise.progress_1.origins.stone_pickaxe.reward_title}"
-				item: "farmersrespite:green_tea"
 			}]
 		}
 	]

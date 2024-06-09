@@ -1,0 +1,17 @@
+{
+  "name": "Sewage Composter",
+  "icon": "industrialforegoing:sewage_composter",
+  "category": "agriculture_husbandry",
+  "sortnum": 14,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "При наличии $(l:agr_hus/sewage)Канализации$() эта машина будет создавать из него $(l:agr_hus/fertilizer)удобрения$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:sewage_composter"
+    }
+  ]
+}

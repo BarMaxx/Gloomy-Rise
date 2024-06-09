@@ -1,0 +1,17 @@
+{
+  "name": "Bucket of Life",
+  "icon": "bloodmagic:life_essence_bucket",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(blood)Life Essence$() - все это хорошо в $(l:bloodmagic:altar/blood_altar)Blood Altar$(), где ее можно использовать для ремесел или направлять в $(l:bloodmagic: altar/soul_network)Orb$() для питания $(thing)Rituals$(), но что, если вы хотите построить ров из этого вещества вокруг вашего $(l:bloodmagic:utility/incense_altar)Incense Altar$()? К счастью, добыча $(blood)Life Essence$() относительно проста. Просто поместите $(item)Ведро$() в $(l:bloodmagic:altar/blood_altar)Алтарь крови$() и подождите несколько секунд, пока он наполнится. $(blood)1 LP$()=1мб, поэтому $(blood)1 000 LP$() должно хватить для вашего $(item)Ведра$()."
+    },
+    {
+      "type": "crafting_altar",
+      "heading": "Bucket of Life",
+      "recipe": "bloodmagic:altar/bucket_life",
+      "text": "$(italic) Это точно не кровь. Кровь бы уже свернулась. $(br2)... Почему ты так смотришь на меня? $()"
+    }
+  ]
+}

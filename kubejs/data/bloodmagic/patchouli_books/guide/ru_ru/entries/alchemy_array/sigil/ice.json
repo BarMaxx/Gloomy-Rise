@@ -1,0 +1,14 @@
+{
+  "name": "Сигил замерзшего озера [NYI]",
+  "icon": "bloodmagic:icesigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "extra_recipe_mappings":[
+    ["bloodmagic:icesigil", 0]
+  ],
+  "pages": [
+    {
+      "type": "text",
+      "text": "[Примечания к незавершенной работе]$(br)[Еще не реализовано]$(br2)Чары ледохода как печать."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Сигилы",
+  "description": "$(item)Сигилы$() формируются с использованием $(l:bloodmagic:alchemy_array/functional_arrays/crafting_array)Алхимических матриц$(), какой-либо формы $(item)реагента$() и $(l:bloodmagic:altar/slates)Плиты$(). Они черпают $(blood)LP$() из вашей $(l:bloodmagic:altar/soul_network)Душевной сети$(), чтобы выполнять всевозможные полезные задачи.",
+  "icon": "bloodmagic:divinationsigil",
+  "parent": "bloodmagic:alchemy_array",
+  "sortnum": 1
+}

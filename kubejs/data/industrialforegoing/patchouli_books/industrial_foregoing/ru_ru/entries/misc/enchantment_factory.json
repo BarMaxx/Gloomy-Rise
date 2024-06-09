@@ -1,0 +1,17 @@
+{
+  "name": "Enchantment Factory",
+  "icon": "industrialforegoing:enchantment_factory",
+  "category": "misc",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Если предоставить этой машине большое количество $(l:agr_hus/essence)эссенции$() и предмет, она зачарует предмет на уровень $(6)30$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:enchantment_factory"
+    }
+  ]
+}

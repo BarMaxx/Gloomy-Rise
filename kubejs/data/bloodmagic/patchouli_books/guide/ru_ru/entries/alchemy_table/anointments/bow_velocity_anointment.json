@@ -1,0 +1,25 @@
+{
+  "name": "Блеск лучника",
+  "icon": "bloodmagic:bow_velocity_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Блеск лучника",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment",
+      "text": "Увеличивает скорость выпущенных стрел на 50%. Это также пропорционально увеличивает урон, наносимый вашими стрелами. Также сочетается с ванильными чарами. $(br2)Допустимые предметы: Луки, Арбалеты.$(br2)Применяется: Снайперская стрельба I (256 выстрелов)"
+    },
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Польский лучник L",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_l",
+      "text": "Эта улучшенная версия помазания действует в четыре раза дольше. $(br2)Применяется: Снайперская стрельба I (1024 выстрела)"
+    },
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Польский лучник II",
+      "recipe": "bloodmagic:alchemytable/bow_velocity_anointment_2",
+      "text": "Эта улучшенная версия помазания увеличивает скорость на 100%. $(br2)Применяется: Снайперская стрельба II (256 выстрелов)"
+    }
+  ]
+}

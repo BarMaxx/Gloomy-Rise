@@ -1,0 +1,15 @@
+{
+  "name": "Hellfire Forge",
+  "icon": "bloodmagic:soulforge",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Кузница $(item)Hellfire Forge$() - одна из основных механик крафтинга в $(blood)Blood Magic$(), наряду с самим $(l:bloodmagic:altar/blood_altar)Blood Altar$(/l). Здесь вы можете работать с $(l:bloodmagic:demon_will/will_manipulation/demon_will)Волей демона$(), собранной с мобов, что позволит вам создавать $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Sentient Tools$(), включая $(l:bloodmagic: demon_will/demonic_items/sentient_sword)Sentient Sword$(), $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gems$(), различные $(item)reagents$(), $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Arcane Ash$(), и многое другое."
+    },
+    {
+      "type": "crafting",
+      "recipe": "bloodmagic:soul_forge"
+    }
+  ]
+}

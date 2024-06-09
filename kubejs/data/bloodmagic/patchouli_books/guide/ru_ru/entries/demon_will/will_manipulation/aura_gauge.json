@@ -1,0 +1,29 @@
+{
+  "name": "Demon Will Aura Gauge",
+  "icon": "bloodmagic:demonwillgauge",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Находясь в инвентаре игрока, $(item)Demon Will Aura Gauge$() отображает элемент HUD, показывающий, сколько $(raw)Demon Will$() находится в местной $(l:bloodmagic:demon_will/will_manipulation/aura)Aura$(). $(br2)Сверху вниз, измеряемые аспекты Воли следующие: $(li)$(raw)Raw$() $(li)$(corrosive)Corrosive$() $(li)$(steadfast)Steadfast$() $(li)$(destructive)Destructive$() $(li)$(vengeful)Vengeful$()"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "recipe": "bloodmagic:soulforge/demon_will_gauge",
+      "heading": "Demon Will Aura Gauge",
+      "text": "Изображение HUD-элемента Gauge см. на обороте."
+    },
+    {
+      "type": "image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/demon_will_aura_gauge.png"
+      ],
+      "title": "Aura Gauge HUD Element",
+      "border": true
+    },
+    {
+      "type": "text",
+      "text": "Этот индикатор появится в левом верхнем углу экрана. Цветные полоски дают вам представление о том, сколько каждого из $(l:bloodmagic:demon_will/will_manipulation/aspected_will)Will Aspect$() находится в текущем чанке. $(br2)Вы можете удерживать [$(k:sneak)], чтобы получить числовое значение для каждого Аспекта, от 1 до 100 $(raw)Will$() для каждого. 100 - это максимальное количество любого одного аспекта $(raw)Will$(), которое может быть в чанке."
+    }
+  ]
+}

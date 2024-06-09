@@ -1,0 +1,15 @@
+{
+  "name": "Гномья мощь",
+  "icon": "minecraft:diamond_pickaxe",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Эффект: Увеличивает скорость майнинга при добыче идентичных блоков. После определенного уровня, дает поспешный бафф после разбивания блоков. $(br2)Обучен: Горному делу. $(br2)Максимальный уровень: 10"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:digging"
+    }
+  ]
+}

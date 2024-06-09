@@ -1,0 +1,13 @@
+{
+  "name": "Fertilizer",
+  "icon": "industrialforegoing:fertilizer",
+  "category": "agriculture_husbandry",
+  "sortnum": 15,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Материал, производимый $(l:agr_hus/sewage_composter)Компостер для сточных вод$(), который можно использовать как костную муку."
+    }
+  ]
+}

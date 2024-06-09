@@ -1,0 +1,20 @@
+{
+  "name": "Край Скрытого царства",
+  "icon": "bloodmagic:simplekey",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Край Скрытого царства",
+      "multiblock_id": "bloodmagic:simple_dungeon",
+      "text": "Использовать $(l:bloodmagic:rituals/ritual_diviner)Ритуальный предсказатель$(/l) для облегчения строительства."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "simple_dungeon",
+      "text_overrides": [
+        ["Царство Демонов", "thing"]
+      ]
+    }
+  ]
+}

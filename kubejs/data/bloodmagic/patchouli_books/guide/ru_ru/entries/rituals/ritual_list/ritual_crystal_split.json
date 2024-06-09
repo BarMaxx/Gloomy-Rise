@@ -1,0 +1,32 @@
+{
+  "name": "Резонанс граненого кристалла",
+  "icon": "bloodmagic:vengefulcrystal",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Резонанс граненого кристалла",
+      "multiblock_id": "bloodmagic:crystal_split",
+      "text": "Использовать $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный предсказатель [Сумерки]$(/l) для облегчения строительства."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "crystal_split",
+      "text_overrides": [
+        ["Необработанный кристаллический кластер", "l:bloodmagic:demon_will/will_manipulation/crystallized_will"],
+        ["аспектированные кристаллические кластеры", "l:bloodmagic:demon_will/will_manipulation/aspected_will"]
+      ]
+    },
+    {
+      "type": "text",
+      "text": "Для этого ритуала требуется хорошо выращенный (не менее 5 шпилей) $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Необработанный кристаллический кластер$(/l) расположен на 2 квартала выше $(item)Мастер-ритуальный камень$(), и вставляет его в новые шпили каждого $(l:bloodmagic:demon_will/will_manipulation/aspected_will)Аспирированная воля$(/l) Кристаллические кластеры расположены непосредственно над 4 ритуальными камнями элементалей. Этот интервал предназначен для размещения $(item)Демонический кристаллизатор$() на вершине $(item)Мастер-ритуальный камень$().$(br2)Для получения информации о выращивании кристаллов демона воли см. $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Кристаллизованная воля$(/l)."
+    },
+    {
+      "type": "image",
+      "title": "Ритуальная установка",
+      "images": ["bloodmagic:images/entries/demon_will/will_splitting.png"],
+      "border": true,
+      "text": "Рекомендуемая установка для ритуала Резонанс граненого кристалла."
+    }
+  ]
+}

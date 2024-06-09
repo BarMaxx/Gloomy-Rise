@@ -1,0 +1,25 @@
+{
+  "name": "Блеск грабителя",
+  "icon": "bloodmagic:looting_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Блеск грабителя",
+      "recipe": "bloodmagic:alchemytable/looting_anointment",
+      "text": "Increases the drops from killed mobs. Also stacks with the Looting enchantment.$(br2)Допустимые предметы: инструменты, мечи.$(br2)Применяется: Грабеж I (256 просмотров)"
+    },
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Блеск грабителя L",
+      "recipe": "bloodmagic:alchemytable/looting_anointment_l",
+      "text": "Эта улучшенная версия помазания длится в четыре раза дольше. $(br2)Применяется: Грабеж I (1024 просмотров)"
+    },
+    {
+      "type": "crafting_alchemy_table",
+      "heading": "Блеск грабителя II",
+      "recipe": "bloodmagic:alchemytable/looting_anointment_2",
+      "text": "Эта улучшенная версия помазания дополнительно увеличивает количество выпадающих с убитых мобов. $(br2)Применяется: Грабеж II (256 просмотров)"
+    }
+  ]
+}

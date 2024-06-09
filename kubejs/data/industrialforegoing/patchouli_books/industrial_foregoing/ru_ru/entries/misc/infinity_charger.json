@@ -1,0 +1,17 @@
+{
+  "name": "Infinity Charger",
+  "icon": "industrialforegoing:infinity_charger",
+  "category": "misc",
+  "sortnum": 5,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Заряжает предметы, способные удерживать энергию. Очень быстро заряжает предметы $(6)Вечности$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:infinity_charger"
+    }
+  ]
+}

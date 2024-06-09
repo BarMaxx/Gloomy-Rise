@@ -1,0 +1,20 @@
+{
+  "name": "Tome of Peritia",
+  "icon": "bloodmagic:experiencebook",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Tome of Peritia$() позволяет надежно хранить ваш $(item)опыт$(). $(br2)Нажатие [$(k:sneak)] и [$(k:use)] с Томом в руках сохраняет $(thing)один уровень XP$(). Нажатие [$(k:use)] $(thing) восстанавливает один уровень$(). Удерживайте [$(k:use)], чтобы $(thing) сохранила/получила несколько уровней$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "bloodmagic:experience_tome"
+    },
+    {
+      "type": "text",
+      "flag": "mod:curios",
+      "text": "Поскольку у вас установлен $(item)Curios API$(), вы можете экипировать $(item)Tome of Peritia$() в качестве амулета. Если вы хотите носить больше куриозных предметов одновременно, используйте $(l:bloodmagic:alchemy_array/sigil/holding)Sigil of Holding$() или $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)Socketed Upgrade$() для вашей $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Living Armour$()."
+    }
+  ]
+}

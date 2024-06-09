@@ -1,0 +1,6 @@
+{
+  "name": "Алхимический стол",
+  "description": "Это $(l:bloodmagic:alchemy_table/alchemy_table)Алхимический стол$() очень универсальная часть вашего оборудования в качестве сангвиманта. Он может удваивать руды, производить основные ингредиенты из других менее полезных предметов и даже создавать $(l:bloodmagic:alchemy_table/anointments)Помазания$()!",
+  "icon": "bloodmagic:alchemytable",
+  "sortnum": 1
+}

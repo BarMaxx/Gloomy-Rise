@@ -1,0 +1,6 @@
+{
+  "name": "Погружение в Подземелье",
+  "description": "Выполните $(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)Край Скрытого царства$() ритуал, чтобы закрепиться в $(thing)Царство Демонов.$() Это опасное место полно угроз, ловушек и сокровищ!",
+  "icon": "bloodmagic:simplekey",
+  "sortnum": 7
+}

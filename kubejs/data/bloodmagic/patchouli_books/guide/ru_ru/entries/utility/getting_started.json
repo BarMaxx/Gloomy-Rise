@@ -1,0 +1,66 @@
+{
+  "name": "Tiers & Getting Started",
+  "icon": "bloodmagic:sacrificialdagger",
+  "category": "bloodmagic:utility",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(blood)Прогрессия Blood Magic 3$() все еще перерабатывается, и первые несколько шагов значительно отличаются от $(blood)Blood Magic 2$(). $(br2)Мы планируем добавить лучшее руководство, такое как разблокировка входа, но мы ждем, пока прогрессия не будет зафиксирована. А пока вот краткий обзор того, как продвигаться в этой альфа-версии $(blood)Blood Magic 3$()."
+    },
+    {
+      "type": "spotlight",
+      "item": "bloodmagic:altar",
+      "title": "Blood Altar (Tier-1)",
+      "text": "Первым шагом $(blood)Blood Magic$() является создание $(l:bloodmagic:altar/blood_altar)Blood Altar$() и $(l:bloodmagic:altar/blood_altar#knife)Sacrificial Knife$(). Используйте их для получения $(blood)LP$() от самопожертвования.$(br2)Используйте эти $(blood)LP$() для создания $(l:bloodmagic:altar/soul_network)Weak Blood Orb$(), нескольких $(l:bloodmagic:altar/slates)Blank Slates$(), и нескольких $(l:bloodmagic:demon_will/will_manipulation/soul_snare)Soul Snares$()."
+    },
+    {
+      "type": "spotlight",
+      "item": "bloodmagic:alchemytable",
+      "title": "Alchemy Table (Tier-1)",
+      "text": "Алхимический стол $(l:bloodmagic:alchemy_table/alchemy_table)Alchemy Table$() использует $(blood)LP$() из $(thing)Soul Network$() игрока (взятой из $(l:bloodmagic:altar/soul_network)bound Blood Orb$() в нем) для создания различных предметов, таких как: $(li)$(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Arcane Ashes$()$(li)$(thing)Reagents for Sigils$()$(li)$(l:bloodmagic:alchemy_table/anointments)Anointments$()$(li)$(thing)2x Ore Processing$()$(li)и различные другие мелочи."
+    },
+    {
+      "type": "spotlight",
+      "item": "bloodmagic:arcaneashes",
+      "title": "Alchemy Array (Tier-1)",
+      "text": "Алхимический массив$() создается путем размещения на земле нескольких $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Arcane Ashes$(). Алхимический массив может иметь 2 $(предмета)предмета$(), вставленных в него через [$(k:use)], и будет либо создавать $(item)предмет$() (например, $(l:bloodmagic:alchemy_array/sigil/divination)Divination Sigil$()), либо выполнять $(thing)какую-то функцию$() (например, $(l:bloodmagic:alchemy_array/functional_arrays/time_arrays)turning day into night$())."
+    },
+    {
+      "type": "spotlight",
+      "item": "bloodmagic:soulforge",
+      "title": "Hellfire Forge (Tier-1)",
+      "text": "В $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Hellfire Forge$() создаются ремесла с использованием $(l:bloodmagic:demon_will/will_manipulation/demon_will)Demon Will$(). Вы получаете свою первую $(сырую)Волю$(), используя $(l:bloodmagic:demon_will/will_manipulation/soul_snare)Soul Snares$(), хотя рекомендуется обновить ее до $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Sentient Sword$(). Кузница $(item)Hellfire Forge$() используется для вещей, непосредственно связанных с $(raw)Demon Will$() (например, $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gems$() и $(l:bloodmagic: demon_will/demonic_items/sentient_tools)Sentient Tools$()), и расходные материалы (такие как $(l:bloodmagic:demon_will/demonic_items/explosive_charges)Explosive Charges$() и $(l:bloodmagic:demon_will/demonic_items/throwing_daggers)Throwing Daggers$())."
+    },
+    {
+      "type": "spotlight",
+      "item": "bloodmagic:daggerofsacrifice",
+      "title": "Tier Two",
+      "text": "В этот момент вы сможете создать $(l:bloodmagic:altar/blood_altar#dagger_of_sacrifice)Dagger of Sacrifice$(), чтобы убивать мобов ради большего количества $(blood)LP$(). Для вашего $(item)Blood Altar$() должны быть доступны различные $(item)Upgrade Runes$(), а также еще несколько $(item)Sigils$(). Как и раньше, вам следует сосредоточиться на дальнейшем улучшении вашего $(l:bloodmagic:altar/blood_altar)Altar$()."
+    },
+    {
+      "type": "spotlight",
+      "item": "bloodmagic:ritualdiviner",
+      "title": "Tier Three",
+      "text": "К этому моменту вы сможете создавать некоторые базовые $(l:bloodmagic:rituals/ritual_basics)Ритуалы$() и $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живую броню$(). Эта броня очень универсальна, хотя вам придется потрудиться, чтобы раскрыть ее потенциал. На данный момент вам стоит обратить внимание на улучшение $(l:bloodmagic:altar/blood_altar)Altar$() и $(l:bloodmagic:rituals/ritual_diviner)Ritual Diviner$(), чтобы открыть более мощные $(thing)Rituals$()."
+    },
+    {
+      "type": "spotlight",
+      "item": "bloodmagic:vengefulcrystal",
+      "title": "Tier Four",
+      "text": "Это высший уровень. На этом этапе вы получаете доступ ко всему, что может предложить $(blood)Blood Magic$(). Возможно, вы захотите изучить $(l:bloodmagic:rituals/ritual_tinkerer)Ritual Tinkerer$() и различные виды $(l:bloodmagic:demon_will/will_manipulation/aspected_will)Will Aspects$(), доступные вам, и подумать, как их можно использовать для усовершенствования существующих ритуалов и изменения того, как ваши $(l: bloodmagic:demon_will/demonic_items/sentient_tools)Sentient Tools$() и $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Weapons$()."
+    },
+    {
+      "type": "spotlight",
+      "item": "bloodmagic:activationcrystalawakened",
+      "title": "Tier Five",
+      "text": "В настоящее время это всего лишь миф. На данном этапе ничего не реализовано."
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:barrier",
+      "title": "Tier Six?",
+      "text": "Что? Нет. Послушайте, даже в 1.12 это существовало только в качестве одолжения создателям пакетов, а в остальном было нереализованным. Вы зашли слишком далеко. Вернитесь на две страницы назад."
+    }
+  ]
+}

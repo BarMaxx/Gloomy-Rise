@@ -1,0 +1,73 @@
+{
+  "name": "Ритуал пернатого ножа",
+  "icon": "bloodmagic:sacrificialdagger",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Ритуал пернатого ножа",
+      "multiblock_id": "bloodmagic:feathered_knife",
+      "text": "Использовать $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный предсказатель [Сумерки]$(/l) для облегчения строительства."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "feathered_knife",
+      "text_overrides": [
+        ["LP", "blood"],
+        ["blood altar", "l:bloodmagic:altar/blood_altar"],
+        ["Руны самопожертвования", "l:bloodmagic:altar/blood_rune/self_sacrifice_rune"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "feathered_knife",
+      "page_type": "raw",
+      "text_overrides": [
+        ["Грубая воля", "raw"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "feathered_knife",
+      "page_type": "corrosive",
+      "text_overrides": [
+        ["Бонус благовоний", "thing"],
+        ["Алтарь благовоний", "l:bloodmagic:utility/incense_altar"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "feathered_knife",
+      "page_type": "vengeful",
+      "text_overrides": [
+        ["Стойкий", "steadfast"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "feathered_knife",
+      "page_type": "destructive",
+      "text_overrides": [
+        ["Разрушительная воля", "destructive"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "feathered_knife",
+      "page_type": "steadfast"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "feathered_knife",
+      "page_type": "altar",
+      "text_overrides": [
+        ["Кровавый алтарь", "l:bloodmagic:altar/blood_altar"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "feathered_knife",
+      "page_type": "damage"
+    }
+  ]
+}

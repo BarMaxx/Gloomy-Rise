@@ -1,0 +1,21 @@
+{
+  "name": "Звук очищающей души",
+  "icon": "bloodmagic:upgradetome",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Звук очищающей души",
+      "multiblock_id": "bloodmagic:upgrade_remove",
+      "text": "Использовать $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный предсказатель [Сумерки]$(/l) для облегчения строительства."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "upgrade_remove",
+      "text_overrides": [
+        ["Живая броня", "l:bloodmagic:alchemy_array/living_equipment/living_basics"],
+        ["Обновляйте тома", "l:bloodmagic:alchemy_array/living_equipment/living_tomes"]
+      ]
+    }
+  ]
+}

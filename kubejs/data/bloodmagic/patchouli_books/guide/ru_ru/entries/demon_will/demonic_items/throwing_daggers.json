@@ -1,0 +1,34 @@
+{
+  "name": "Throwing Daggers",
+  "icon": "bloodmagic:throwing_dagger",
+  "category": "bloodmagic:demon_will/demonic_items",
+  "extra_recipe_mappings":[
+    ["bloodmagic:slate_ampoule", 3]
+  ],
+  "pages":[
+    {
+      "type": "text",
+      "text": "$(item)Луки$() и арбалеты$() по-своему хороши, но рыться в гравии$() ради кремня$() и ощипывать кур ради их перьев$() - это, честно говоря, ниже вашего достоинства. Эти блестящие (и очень острые) $(item)Метательные кинжалы$() также обладают некоторыми весьма коварными эффектами, если вы, конечно, так считаете."
+    },
+    {
+      "type": "crafting_soulforge",
+      "heading": "Iron Throwing Dagger",
+      "recipe": "bloodmagic:soulforge/throwing_dagger",
+	  "anchor":"iron_throwing_dagger",
+	  "text": "$(item)Iron Throwing Dagger$() - это быстрая атака, наносящая 10 ед. урона с приличным периодом промедления. Мало того, если на вас есть немного $(l:bloodmagic:demon_will/will_manipulation/demon_will)Demon Will$() (в сыром виде или хранящееся в $(l:bloodmagic: demon_will/will_manipulation/soul_gem)Tartaric Gem$(), он будет бросать $(raw)Will$(), как это делал бы $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Sentient Sword$()."
+    },
+    {
+      "type": "crafting_soulforge",
+      "heading": "Syringe Throwing Dagger",
+      "recipe": "bloodmagic:soulforge/throwing_dagger_syringe",
+	  "anchor":"syringe_throwing_dagger",
+	  "text": "Метательный кинжал $(item)Syringe Throwing Dagger$() предназначен для сангимантов, больше заинтересованных в получении $(blood)Life Essence$(), чем $(raw)Will$(). Хотя он наносит чуть меньше урона, он заметно дешевле, а враги, убитые этим оружием, имеют шанс выронить $(предмет) Slate Ampoule$() - или больше, если они достаточно сердобольны."
+    },
+    {
+      "type": "spotlight",
+      "item": "bloodmagic:slate_ampoule",
+      "title": "Slate Ampoule",
+      "text": "Эти восхитительные маленькие флаконы можно разбить, когда они находятся рядом с $(l:bloodmagic:altar/blood_altar)Blood Altar$(), чтобы перевести в него $(blood)500 LP$(), уничтожив при этом $(item)Ampoule$(). На это усиление не влияют никакие $(item)Руны$(), которые у вас есть."
+    }
+  ]
+}

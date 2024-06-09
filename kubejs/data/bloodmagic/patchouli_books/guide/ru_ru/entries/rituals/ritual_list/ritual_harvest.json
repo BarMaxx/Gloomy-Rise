@@ -1,0 +1,22 @@
+{
+  "name": "Жатва луны урожая",
+  "icon": "minecraft:wheat",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Жатва луны урожая",
+      "multiblock_id": "bloodmagic:harvest",
+      "text": "Использовать $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный предсказатель [Сумерки]$(/l) для облегчения строительства."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "harvest"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "harvest",
+      "page_type": "harvestRange"
+    }
+  ]
+}

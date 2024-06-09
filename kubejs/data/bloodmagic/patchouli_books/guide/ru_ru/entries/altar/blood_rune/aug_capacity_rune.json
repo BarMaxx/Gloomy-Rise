@@ -1,0 +1,16 @@
+{
+  "name": "Руна расширенной ёмкости",
+  "icon": "bloodmagic:bettercapacityrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)Руна расширенной ёмкости$() увеличивает вместимость $(l:bloodmagic:altar/blood_altar)Алтаря крови$(/l) на + 7,5% за каждую руну. Руны Расширенной Емкости применяются $(o)после$() обычных $(l:bloodmagic:altar/blood_rune/capacity_rune)Рун Емкости$()."
+    },
+    {
+      "type": "crafting",
+      "title": "Rune of Aug. Capacity",
+      "recipe": "bloodmagic:blood_rune_aug_capacity"
+    }
+  ]
+}

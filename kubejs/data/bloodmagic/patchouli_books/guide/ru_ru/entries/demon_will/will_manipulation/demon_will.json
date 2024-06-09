@@ -1,0 +1,26 @@
+{
+  "name": "Demon Will",
+  "icon": "bloodmagic:basemonstersoul",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "extra_recipe_mappings":[["bloodmagic:basemonstersoul", 0]],
+  "pages": [
+    {
+      "type": "text",
+      "text": "Как только у вас появится $(l:bloodmagic:altar/blood_altar)Blood Altar$(), вам нужно будет собрать несколько $(item)Demon Wills$(). Есть два способа получить Волю демона:$(br)$(li)Убив моба, на которого наложено заклинание $(l:bloodmagic:demon_will/will_manipulation/soul_snare)Soul Snare$(/l) и который погибает при появлении эффекта белых частиц. $(li)Убив враждебного моба с помощью $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Sentient Sword$().$(br)Поскольку вы только начинаете использовать мод, у вас еще не будет $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Sentient Sword$(),"
+    },
+    {
+      "type": "text",
+      "text": "и, следовательно, должен использовать $(l:bloodmagic:demon_will/will_manipulation/soul_snare)Soul Snare$(). $(br2)$(item)Воля демона$() является повторяющимся ресурсом в $(blood)Магии крови$(), и используется для питания $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Hellfire Forge$(). $(br2)В преданиях $(blood)Blood Magic$(), $(raw)Demon Will$() - это остаточный эффект от того, как демон вливает свою волю в тела мертвецов или других монстров."
+    },
+    {
+      "type": "image",
+      "images": ["bloodmagic:images/entries/demon_will/demon_will.png"],
+      "title": "Demon Will",
+      "border": true
+    },
+    {
+      "type": "text",
+      "text": "Когда у вас появится немного $(raw)Will$(), вы сможете использовать ее для создания полезных инструментов в $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Hellfire Forge$(). Если вы обнаружите, что они загромождают ваш инвентарь, возможно, вам поможет $(l:bloodmagic:demon_will/will_manipulation/soul_gem)Tartaric Gem$()."
+    }
+  ]
+}

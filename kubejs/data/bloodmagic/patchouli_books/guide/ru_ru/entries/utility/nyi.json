@@ -1,0 +1,55 @@
+{
+  "name": "NOT YET IMPLEMENTED",
+  "icon": "minecraft:barrier",
+  "category": "bloodmagic:utility",
+  "extra_recipe_mappings":[
+    ["bloodmagic:lightritualstone", 0],
+    ["bloodmagic:obsidianbrickpath", 0],
+    ["bloodmagic:obsidiantilepath", 0],
+    ["bloodmagic:mimic", 0],
+    ["bloodmagic:ethereal_mimic", 0],
+    ["bloodmagic:etherealslate", 0],
+    ["bloodmagic:nether_soil", 0],
+    ["bloodmagic:growing_doubt", 0],
+    ["bloodmagic:dungeon_ore", 0],
+    ["bloodmagic:dungeon_metal", 0],
+    ["bloodmagic:doubt_bucket", 0],
+    ["bloodmagic:activationcrystalawakened", 0],
+    ["bloodmagic:corrupted_dust", 0],
+    ["bloodmagic:corrupted_tinydust", 0],
+    ["bloodmagic:sand_hellforged", 0],
+    ["bloodmagic:ingot_hellforged", 0],
+    ["bloodmagic:will_power_anointment", 0],
+    ["bloodmagic:primitive_explosive_cell", 0],
+    ["bloodmagic:crystalline_resonator", 0]
+  ],
+  "pages": [
+    {
+      "type": "text",
+      "text": "ХОРОШО. Нарушу четвертую стену. $(blood)Blood Magic$() все еще находится в ранней альфа-версии, и многие вещи, которые вы можете помнить из предыдущих версий, еще не реализованы. Некоторые из этих вещей могут вернуться в будущем, другие уже реализованы. (Смотрим на вас, связанные броня и оружие...)$(br) $(li)Автоматизация. Некоторые ритуалы переделываются, это все еще находится в разработке."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Arcane Ash Rituals. Некоторые из них скоро вернутся, а пока подождите и посмотрите. $(li)Ритуал связывания. Он вышел с 1.7.10, не спрашивайте. $(li)Несовершенные ритуалы (Lapis и т.д.) - некоторые из них были реализованы как Arcane Ash Arrays.  $(li)Сигил Замерзшего озера. $(li)Знак упругости. $(li)Колбы для зелий. $(li)Знак сродства к стихиям. $(li)Знак когтя."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Дополнительные черты живой брони. (Некоторые есть, но не все) $(li)Ритуал преследования. $(li)Ритуал сдерживания. $(li)Ритуал прыжка в высоту. $(li)Ритуал сытого желудка. $(li)Зов Зефира. $(li)Le Vulcano Frigius. $(li)Крушение лесоруба. $(li)Укладка наполнителя. $(li)Ритуал подавления. $(li)Телепузики. $(li)Ритуальный разрушитель. $(li)Ритуальный прорицатель (Рассвет)."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Пилон демона. $(li)Большой тартарийский самоцвет. $(li)Спектральное оружие и инструменты. $(li)Сигил телепозиции. $(li)Сигил подавления. $(li)Сигил Транспозиции. $(li)Сигил Эндер Северанс. $(li)Сигил сжатия. $(li)Сигил призрачного моста. $(li)Собрание Высокого Алтаря. $(li)Плач вечной души. $(li)Гимн сифонирования. $(li)Знак падающей башни. $(li)Почитание Кондора."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Ритуал заземления. $(li)Ритуал скорости. $(li)Врата Складки. $(li)Ритуал Пернатой Земли. $(li)Ритуал изгнания. $(li)Большая часть V уровня. $(li)Шар крови мага. $(li)Пробужденный кристалл активации."
+    },
+    {
+      "type": "text",
+      "text": "$(li)Тренировочные браслеты. $(li)Покаяние свинцовой души. $(br2)Другие вещи могут появляться или исчезать по мере продвижения мода от Альфы, Беты и, надеюсь, до полного Стабильного релиза. $(br2)Для получения дополнительной информации посетите $(l:https://github.com/WayofTime/BloodMagic)Blood Magic Github$(), $(l:https://www.curseforge.com/minecraft/mc-mods/blood-magic)Blood Magic Curseforge Page$(), и $(l:https://discord.gg/VtNrGrs)Blood Magic Discord$()."
+    },
+    {
+      "type": "text",
+      "text": "Это руководство было создано Wrincewind и VT-14, основываясь на оригинальном руководстве Way, с некоторой помощью Patchouli и MinecraftGuides.net. Спасибо за игру! :)"}
+  ]
+}

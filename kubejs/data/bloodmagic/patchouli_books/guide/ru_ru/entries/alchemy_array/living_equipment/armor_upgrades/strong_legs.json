@@ -1,0 +1,15 @@
+{
+  "name": "Сильные Ноги",
+  "icon": "minecraft:diamond_leggings",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Эффект: Увеличивает высоту прыжка и уменьшает урон от падения, максимум до дополнительных 7,5 блоков и 83% сопротивления падению. Может быть сведен на нет удержанием [$(k:sneak)] во время прыжка. $(br2)Обучен: Прыгать вокруг. $(br2)Максимальный уровень: 10"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:jump"
+    }
+  ]
+}

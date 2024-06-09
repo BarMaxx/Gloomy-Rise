@@ -1,0 +1,15 @@
+{
+  "name": "Мягкое Падение",
+  "icon": "minecraft:feather",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Эффект: Уменьшает урон от падения, вплоть до полного иммунитета. $(br2)Обучен: Получать травмы от падений. $(br2)Максимальный уровень: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:fall_protect"
+    }
+  ]
+}

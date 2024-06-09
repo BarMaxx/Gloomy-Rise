@@ -1,0 +1,16 @@
+{
+  "name": "Bloodstone Bricks",
+  "icon": "bloodmagic:largebloodstonebrick",
+  "category": "bloodmagic:utility",
+  "pages":[
+    {
+      "type": "text",
+      "text": "$(item)Кирпичи из кровавого камня$() - это декоративный блок, который используется в качестве $(thing)capstones$() для Tier-4 $(l:bloodmagic:altar/blood_altar)Blood Altar$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "bloodmagic:largebloodstonebrick",
+      "recipe2": "bloodmagic:bloodstonebrick"
+    }
+  ]
+}
