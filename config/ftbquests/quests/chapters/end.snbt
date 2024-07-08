@@ -21,8 +21,8 @@
 	}]
 	quests: [
 		{
-			x: -6.0d
-			y: -2.0d
+			x: -3.0d
+			y: 0.0d
 			shape: "torn_gear"
 			subtitle: "Пора в Край"
 			description: ["Око Эндера нужно для нахождения и активации портала в Край."]
@@ -46,8 +46,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -2.5d
+			x: -1.5d
+			y: -1.0d
 			description: ["На взлёт!"]
 			dependencies: ["3CE6ECDB2520ED5F"]
 			id: "3893494EE66CC691"
@@ -64,8 +64,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -2.5d
+			x: -3.0d
+			y: -1.5d
 			description: ["Неплохое украшение."]
 			dependencies: ["3CE6ECDB2520ED5F"]
 			id: "67BF7985D1B040E5"
@@ -76,8 +76,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -1.0d
+			x: -1.5d
+			y: 1.0d
 			description: ["Ингридиент для крафта шалкерового ящика."]
 			dependencies: ["3CE6ECDB2520ED5F"]
 			id: "49E7339FCE81B389"
@@ -95,8 +95,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 0.0d
+			x: -1.5d
+			y: 2.5d
 			description: ["Переносное хранилище."]
 			dependencies: ["49E7339FCE81B389"]
 			id: "77BFC49B1D3ECBF9"
@@ -112,8 +112,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -1.0d
+			x: -4.5d
+			y: 1.0d
 			dependencies: ["3CE6ECDB2520ED5F"]
 			id: "7CBE0B9BDBE2F3C6"
 			tasks: [{
@@ -130,8 +130,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 0.5d
+			x: -5.0d
+			y: 2.5d
 			description: ["Вкусно!"]
 			dependencies: ["7CBE0B9BDBE2F3C6"]
 			id: "5AD3E3A0BA008575"
@@ -148,8 +148,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 0.5d
+			x: -4.0d
+			y: 2.5d
 			description: ["Вкусно!"]
 			dependencies: ["7CBE0B9BDBE2F3C6"]
 			id: "278FD3C38BF302AC"
@@ -166,8 +166,8 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: -1.0d
+			x: -6.0d
+			y: 1.0d
 			description: ["Вкусно!"]
 			dependencies: ["7CBE0B9BDBE2F3C6"]
 			id: "3CC581F4989EE56D"
@@ -184,8 +184,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -3.5d
+			x: -4.5d
+			y: -1.0d
 			description: ["Цветочек."]
 			dependencies: ["3CE6ECDB2520ED5F"]
 			id: "05594F485CA36EDA"

@@ -21,8 +21,8 @@
 	}]
 	quests: [
 		{
-			x: -5.0d
-			y: -1.5d
+			x: -1.5d
+			y: -2.0d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -40,7 +40,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -5.0d
 			y: 0.0d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
@@ -59,8 +59,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -1.5d
+			x: -4.0d
+			y: -2.0d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -78,7 +78,7 @@
 			}]
 		}
 		{
-			x: -6.0d
+			x: -3.0d
 			y: 0.0d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
@@ -97,8 +97,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 1.5d
+			x: -1.5d
+			y: 2.0d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -116,8 +116,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 1.5d
+			x: -4.0d
+			y: 2.0d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -135,7 +135,7 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: -0.5d
 			y: 0.0d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
