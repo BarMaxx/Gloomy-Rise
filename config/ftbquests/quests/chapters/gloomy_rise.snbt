@@ -4,12 +4,25 @@
 	order_index: 1
 	filename: "gloomy_rise"
 	title: "&4&lGloomy Rise"
-	default_quest_shape: ""
+	default_quest_shape: "torn_circle"
 	default_hide_dependency_lines: false
-	quests: [{
+	images: [{
 		x: 0.0d
 		y: 0.0d
-		shape: "hexagon"
+		width: 50.0d
+		height: 30.0d
+		rotation: 0.0d
+		image: "gloomyrise:textures/Clear_bookRed.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [{
+		x: -3.0d
+		y: 0.0d
+		shape: "torn_rsquare"
+		subtitle: "Это финал :("
 		dependencies: [
 			"36E51C51CFB4E05D"
 			"43D05AEE1326DDEC"
@@ -21,6 +34,7 @@
 			"4BF121E7A72055B8"
 		]
 		hide: true
+		size: 5.0d
 		id: "4C11565D776A8269"
 		tasks: [{
 			id: "1830BE1EF6DE5916"

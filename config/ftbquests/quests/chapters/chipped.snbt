@@ -5,12 +5,24 @@
 	filename: "chipped"
 	title: "&2Chipped"
 	icon: "chipped:glassblower"
-	default_quest_shape: "rsquare"
+	default_quest_shape: "default_rsquare"
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 50.0d
+		height: 30.0d
+		rotation: 0.0d
+		image: "gloomyrise:textures/Clear_bookRed.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
-			x: 0.5d
-			y: -0.5d
+			x: -5.0d
+			y: -1.5d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -28,8 +40,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 1.0d
+			x: -8.0d
+			y: 0.0d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -47,8 +59,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -0.5d
+			x: -7.0d
+			y: -1.5d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -66,8 +78,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 1.0d
+			x: -6.0d
+			y: 0.0d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -85,8 +97,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 2.5d
+			x: -5.0d
+			y: 1.5d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -104,8 +116,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 2.5d
+			x: -7.0d
+			y: 1.5d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -123,8 +135,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 1.0d
+			x: -4.0d
+			y: 0.0d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true

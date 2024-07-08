@@ -5,13 +5,25 @@
 	filename: "creative"
 	title: "&5Creative"
 	icon: "mysticalagradditions:creative_essence"
-	default_quest_shape: ""
+	default_quest_shape: "torn_circle"
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 50.0d
+		height: 30.0d
+		rotation: 0.0d
+		image: "gloomyrise:textures/Clear_bookRed.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
-			x: 0.0d
+			x: -6.0d
 			y: 0.0d
-			shape: "square"
+			shape: "torn_square"
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
 			id: "4BF121E7A72055B8"
@@ -23,8 +35,8 @@
 		}
 		{
 			x: -1.5d
-			y: -1.5d
-			shape: "pentagon"
+			y: -1.0d
+			shape: "torn_pentagon"
 			hide_dependency_lines: true
 			dependencies: ["4BF121E7A72055B8"]
 			id: "15EDDF5405FC90F6"
@@ -41,7 +53,7 @@
 		{
 			x: 1.5d
 			y: -1.0d
-			shape: "pentagon"
+			shape: "torn_pentagon"
 			hide_dependency_lines: true
 			dependencies: ["4BF121E7A72055B8"]
 			id: "75DF409C8CB52797"
@@ -89,8 +101,8 @@
 		}
 		{
 			x: 1.5d
-			y: 1.5d
-			shape: "pentagon"
+			y: 1.0d
+			shape: "torn_pentagon"
 			hide_dependency_lines: true
 			dependencies: ["4BF121E7A72055B8"]
 			id: "267F21D885F14037"
@@ -107,7 +119,7 @@
 		{
 			x: -1.5d
 			y: 1.0d
-			shape: "pentagon"
+			shape: "torn_pentagon"
 			hide_dependency_lines: true
 			dependencies: ["4BF121E7A72055B8"]
 			id: "19D7D363D35A3313"
@@ -118,9 +130,9 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: -6.0d
 			y: -2.5d
-			shape: "rsquare"
+			shape: "torn_rsquare"
 			hide_dependency_lines: true
 			dependencies: ["4BF121E7A72055B8"]
 			id: "36E51C51CFB4E05D"
@@ -131,9 +143,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 2.5d
-			shape: "rsquare"
+			x: -6.0d
+			y: 2.0d
+			shape: "torn_rsquare"
 			hide_dependency_lines: true
 			dependencies: ["4BF121E7A72055B8"]
 			id: "561711BEA48C255A"
@@ -144,9 +156,9 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: -4.0d
 			y: 0.0d
-			shape: "rsquare"
+			shape: "torn_rsquare"
 			hide_dependency_lines: true
 			dependencies: ["4BF121E7A72055B8"]
 			id: "43D05AEE1326DDEC"
@@ -157,9 +169,9 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -8.0d
 			y: 0.0d
-			shape: "rsquare"
+			shape: "torn_rsquare"
 			hide_dependency_lines: true
 			dependencies: ["4BF121E7A72055B8"]
 			id: "77F6967547F73D28"
