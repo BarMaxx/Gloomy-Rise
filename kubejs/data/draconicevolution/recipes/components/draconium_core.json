@@ -9,7 +9,7 @@
   ],
   "key": {
     "A": {
-      "item": "mythicbotany:asgard_rune"
+      "item": "compressium:lapis_1"
     },
     "I": {
       "item": "mysticalagriculture:imperium_essence"
@@ -18,10 +18,10 @@
       "item": "draconicevolution:draconium_ingot"
     },
     "S": {
-      "item": "botania:dragonstone"
+      "item": "minecraft:diamond"
     },
     "P": {
-      "item": "industrialforegoing:pink_slime_ingot"
+      "item": "minecraft:gold_ingot"
     }
   },
   "result": {
