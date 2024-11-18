@@ -519,24 +519,16 @@
 		}
 		{
 			title: "Железные хранилища"
-			icon: "expandedstorage:iron_chest"
 			x: -2.0d
 			y: -2.5d
 			description: ["Улучшенные версии деревянных хранилищ. Позволяют хранить больше предметов."]
 			dependencies: ["73D8A15D7A0E9FA2"]
 			id: "0F28C797D7224DA8"
-			tasks: [
-				{
-					id: "1664DC4622A54FFF"
-					type: "item"
-					item: "expandedstorage:iron_chest"
-				}
-				{
-					id: "2978642151B6702A"
-					type: "item"
-					item: "expandedstorage:iron_barrel"
-				}
-			]
+			tasks: [{
+				id: "1D0E3F14F72DCFAE"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
 		}
 		{
 			x: 1.0d
@@ -575,45 +567,29 @@
 		}
 		{
 			title: "Золотые хранилища"
-			icon: "expandedstorage:gold_chest"
 			x: 1.0d
 			y: 2.5d
 			description: ["Улучшенные версии железных хранилищ. Позволяют хранить больше предметов."]
 			dependencies: ["0131D6E4A04B280F"]
 			id: "3874808585C5B255"
-			tasks: [
-				{
-					id: "56F025DF9AB151E6"
-					type: "item"
-					item: "expandedstorage:gold_chest"
-				}
-				{
-					id: "1B8C18ED1A88EC2F"
-					type: "item"
-					item: "expandedstorage:gold_barrel"
-				}
-			]
+			tasks: [{
+				id: "02236BC2133B61A7"
+				type: "item"
+				item: "ironchest:gold_chest"
+			}]
 		}
 		{
 			title: "Алмазные хранилища"
-			icon: "expandedstorage:diamond_chest"
 			x: -2.5d
 			y: 1.5d
 			description: ["Улучшенные версии золотых хранилищ. Позволяют хранить больше предметов."]
 			dependencies: ["16B75CEDF776927E"]
 			id: "389BB670B0106BE6"
-			tasks: [
-				{
-					id: "3D7200760F06EA20"
-					type: "item"
-					item: "expandedstorage:diamond_chest"
-				}
-				{
-					id: "1FD81C3CCDC4FD32"
-					type: "item"
-					item: "expandedstorage:diamond_barrel"
-				}
-			]
+			tasks: [{
+				id: "40F531B2CFDA611C"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
 		}
 		{
 			x: -1.5d

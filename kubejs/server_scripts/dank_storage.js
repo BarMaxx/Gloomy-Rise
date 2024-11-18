@@ -7,7 +7,7 @@ onEvent('recipes', event => {
     'CBC',
     'CCC'
   ], {
-    B: 'expandedstorage:netherite_barrel',
+    B: 'minecraft:barrel',
     C: 'compressium:cobblestone_3'
   })
   

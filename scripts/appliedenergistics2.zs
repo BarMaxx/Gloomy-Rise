@@ -81,7 +81,7 @@ craftingTable.removeRecipe(<item:appliedenergistics2:cell_workbench>);
 mods.extendedcrafting.TableCrafting.addShaped("ct_appliedenergistics2_11", <item:appliedenergistics2:cell_workbench>, [
 	[<tag:items:forge:plates/iron>, <tag:items:forge:plates/steel>, <tag:items:forge:wool>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/iron>], 
 	[<tag:items:forge:plates/steel>, <item:mekanism:elite_control_circuit>, <item:appliedenergistics2:calculation_processor>, <item:mekanism:elite_control_circuit>, <tag:items:forge:plates/steel>], 
-	[<tag:items:forge:wool>, <item:appliedenergistics2:calculation_processor>, <item:expandedstorage:old_netherite_chest>, <item:appliedenergistics2:calculation_processor>, <tag:items:forge:wool>], 
+	[<tag:items:forge:wool>, <item:appliedenergistics2:calculation_processor>, <item:minecraft:barrel>, <item:appliedenergistics2:calculation_processor>, <tag:items:forge:wool>], 
 	[<tag:items:forge:plates/steel>, <item:mekanism:elite_control_circuit>, <item:appliedenergistics2:calculation_processor>, <item:mekanism:elite_control_circuit>, <tag:items:forge:plates/steel>], 
 	[<tag:items:forge:plates/iron>, <tag:items:forge:plates/steel>, <tag:items:forge:wool>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/iron>]
 ]);

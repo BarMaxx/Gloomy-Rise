@@ -77,6 +77,17 @@ onEvent('recipes', event => {
   })
   
   
+  event.remove({output: 'minecraft:hopper'})	
+  event.shaped('minecraft:hopper', [
+    'S S',
+    'SCS',
+    ' S '
+  ], {
+    S: '#forge:ingots/steel',
+	C: '#forge:chests'
+  })
+  
+  
   event.remove({output: 'minecraft:ender_eye'})	
   event.shaped('minecraft:ender_eye', [
     'EEE',

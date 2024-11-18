@@ -490,9 +490,9 @@ mods.extendedcrafting.TableCrafting.addShaped("ct_industrialforegoing_54", <item
 craftingTable.removeRecipe(<item:industrialforegoing:common_black_hole_unit>);
 mods.extendedcrafting.TableCrafting.addShaped("ct_industrialforegoing_55", <item:industrialforegoing:common_black_hole_unit>, [
 	[<tag:items:forge:plates/iron>, <item:mekanism:hdpe_sheet>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:hdpe_sheet>, <tag:items:forge:plates/iron>], 
-	[<item:mekanism:hdpe_sheet>, <tag:items:forge:gears/iron>, <item:expandedstorage:netherite_chest>, <tag:items:forge:gears/iron>, <item:mekanism:hdpe_sheet>], 
+	[<item:mekanism:hdpe_sheet>, <tag:items:forge:gears/iron>, <item:minecraft:barrel>, <tag:items:forge:gears/iron>, <item:mekanism:hdpe_sheet>], 
 	[<item:mekanism:ultimate_control_circuit>, <item:appliedenergistics2:1k_cell_component>, <item:industrialforegoing:machine_frame_pity>, <item:appliedenergistics2:1k_cell_component>, <item:mekanism:ultimate_control_circuit>], 
-	[<item:mekanism:hdpe_sheet>, <tag:items:forge:gears/iron>, <item:expandedstorage:netherite_barrel>, <tag:items:forge:gears/iron>, <item:mekanism:hdpe_sheet>], 
+	[<item:mekanism:hdpe_sheet>, <tag:items:forge:gears/iron>, <item:minecraft:barrel>, <tag:items:forge:gears/iron>, <item:mekanism:hdpe_sheet>], 
 	[<tag:items:forge:plates/iron>, <item:mekanism:hdpe_sheet>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:hdpe_sheet>, <tag:items:forge:plates/iron>]
 ]);
 
