@@ -270,27 +270,6 @@
 			}]
 		}
 		{
-			title: "Незеритовые хранилища"
-			icon: "expandedstorage:netherite_chest"
-			x: -6.0d
-			y: 1.0d
-			description: ["Улучшенные версии алмазных хранилищ. Позволяют хранить больше предметов."]
-			dependencies: ["1F24FA2023174B08"]
-			id: "294FD6792EA8FE0D"
-			tasks: [
-				{
-					id: "7A133BB029717EA5"
-					type: "item"
-					item: "expandedstorage:netherite_chest"
-				}
-				{
-					id: "52FDC0A31A876459"
-					type: "item"
-					item: "expandedstorage:netherite_barrel"
-				}
-			]
-		}
-		{
 			title: "Незеритовые инструменты"
 			icon: {
 				id: "minecraft:netherite_pickaxe"
