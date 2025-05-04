@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  c",
+    "./.",
+    "/  "
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "c": {
+      "item": "minecraft:coal"
+    },
+    ".": {
+      "tag": "forge:ingots/gold"
+    }
+  },
+  "result": {
+    "item": "artisantools:pencil_gold"
+  }
+}

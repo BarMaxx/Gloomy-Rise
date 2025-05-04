@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  .",
+    " . ",
+    "/x "
+  ],
+  "key": {
+    "x": {
+      "tag": "forge:string"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    ".": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "item": "artisantools:driver_flint"
+  }
+}

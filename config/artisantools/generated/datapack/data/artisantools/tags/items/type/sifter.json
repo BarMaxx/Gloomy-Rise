@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:sifter_wood",
+    "artisantools:sifter_stone",
+    "artisantools:sifter_iron",
+    "artisantools:sifter_gold",
+    "artisantools:sifter_diamond",
+    "artisantools:sifter_netherite",
+    "artisantools:sifter_flint",
+    "artisantools:sifter_bone",
+    "artisantools:sifter_bronze",
+    "artisantools:sifter_constantan",
+    "artisantools:sifter_copper",
+    "artisantools:sifter_electrum",
+    "artisantools:sifter_invar",
+    "artisantools:sifter_lead",
+    "artisantools:sifter_nickel",
+    "artisantools:sifter_silver",
+    "artisantools:sifter_tin"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    ". ",
+    "/.",
+    "w "
+  ],
+  "key": {
+    "w": {
+      "tag": "minecraft:planks"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    ".": {
+      "tag": "forge:ingots/silver"
+    }
+  },
+  "result": {
+    "item": "artisantools:groover_silver"
+  }
+}

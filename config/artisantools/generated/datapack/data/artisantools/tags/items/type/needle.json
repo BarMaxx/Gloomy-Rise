@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:needle_wood",
+    "artisantools:needle_stone",
+    "artisantools:needle_iron",
+    "artisantools:needle_gold",
+    "artisantools:needle_diamond",
+    "artisantools:needle_netherite",
+    "artisantools:needle_flint",
+    "artisantools:needle_bone",
+    "artisantools:needle_bronze",
+    "artisantools:needle_constantan",
+    "artisantools:needle_copper",
+    "artisantools:needle_electrum",
+    "artisantools:needle_invar",
+    "artisantools:needle_lead",
+    "artisantools:needle_nickel",
+    "artisantools:needle_silver",
+    "artisantools:needle_tin"
+  ]
+}

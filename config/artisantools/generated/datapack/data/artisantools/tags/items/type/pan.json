@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:pan_wood",
+    "artisantools:pan_stone",
+    "artisantools:pan_iron",
+    "artisantools:pan_gold",
+    "artisantools:pan_diamond",
+    "artisantools:pan_netherite",
+    "artisantools:pan_flint",
+    "artisantools:pan_bone",
+    "artisantools:pan_bronze",
+    "artisantools:pan_constantan",
+    "artisantools:pan_copper",
+    "artisantools:pan_electrum",
+    "artisantools:pan_invar",
+    "artisantools:pan_lead",
+    "artisantools:pan_nickel",
+    "artisantools:pan_silver",
+    "artisantools:pan_tin"
+  ]
+}

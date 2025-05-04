@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  .",
+    "x. ",
+    "/x "
+  ],
+  "key": {
+    "x": {
+      "tag": "forge:string"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    ".": {
+      "tag": "forge:stone"
+    }
+  },
+  "result": {
+    "item": "artisantools:knife_stone"
+  }
+}

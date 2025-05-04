@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:grimoire_wood",
+    "artisantools:grimoire_stone",
+    "artisantools:grimoire_iron",
+    "artisantools:grimoire_gold",
+    "artisantools:grimoire_diamond",
+    "artisantools:grimoire_netherite",
+    "artisantools:grimoire_flint",
+    "artisantools:grimoire_bone",
+    "artisantools:grimoire_bronze",
+    "artisantools:grimoire_constantan",
+    "artisantools:grimoire_copper",
+    "artisantools:grimoire_electrum",
+    "artisantools:grimoire_invar",
+    "artisantools:grimoire_lead",
+    "artisantools:grimoire_nickel",
+    "artisantools:grimoire_silver",
+    "artisantools:grimoire_tin"
+  ]
+}

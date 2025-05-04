@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:paintbrush_wood",
+    "artisantools:paintbrush_stone",
+    "artisantools:paintbrush_iron",
+    "artisantools:paintbrush_gold",
+    "artisantools:paintbrush_diamond",
+    "artisantools:paintbrush_netherite",
+    "artisantools:paintbrush_flint",
+    "artisantools:paintbrush_bone",
+    "artisantools:paintbrush_bronze",
+    "artisantools:paintbrush_constantan",
+    "artisantools:paintbrush_copper",
+    "artisantools:paintbrush_electrum",
+    "artisantools:paintbrush_invar",
+    "artisantools:paintbrush_lead",
+    "artisantools:paintbrush_nickel",
+    "artisantools:paintbrush_silver",
+    "artisantools:paintbrush_tin"
+  ]
+}

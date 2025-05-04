@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ./",
+    "./ ",
+    "/  "
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    ".": {
+      "tag": "forge:ingots/silver"
+    }
+  },
+  "result": {
+    "item": "artisantools:handsaw_silver"
+  }
+}

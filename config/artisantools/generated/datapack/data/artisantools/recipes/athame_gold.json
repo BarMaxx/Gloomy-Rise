@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  .",
+    "x. ",
+    "/l "
+  ],
+  "key": {
+    "x": {
+      "tag": "forge:string"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "l": {
+      "tag": "forge:gems/lapis"
+    },
+    ".": {
+      "tag": "forge:ingots/gold"
+    }
+  },
+  "result": {
+    "item": "artisantools:athame_gold"
+  }
+}

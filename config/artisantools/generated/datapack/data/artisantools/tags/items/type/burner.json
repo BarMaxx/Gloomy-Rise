@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:burner_wood",
+    "artisantools:burner_stone",
+    "artisantools:burner_iron",
+    "artisantools:burner_gold",
+    "artisantools:burner_diamond",
+    "artisantools:burner_netherite",
+    "artisantools:burner_flint",
+    "artisantools:burner_bone",
+    "artisantools:burner_bronze",
+    "artisantools:burner_constantan",
+    "artisantools:burner_copper",
+    "artisantools:burner_electrum",
+    "artisantools:burner_invar",
+    "artisantools:burner_lead",
+    "artisantools:burner_nickel",
+    "artisantools:burner_silver",
+    "artisantools:burner_tin"
+  ]
+}

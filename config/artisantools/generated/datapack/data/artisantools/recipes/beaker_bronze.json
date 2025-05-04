@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    ".g.",
+    " g "
+  ],
+  "key": {
+    "g": {
+      "tag": "forge:glass"
+    },
+    ".": {
+      "tag": "forge:ingots/bronze"
+    }
+  },
+  "result": {
+    "item": "artisantools:beaker_bronze"
+  }
+}

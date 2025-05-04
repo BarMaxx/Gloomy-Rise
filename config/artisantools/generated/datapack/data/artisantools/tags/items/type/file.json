@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "artisantools:file_wood",
+    "artisantools:file_stone",
+    "artisantools:file_iron",
+    "artisantools:file_gold",
+    "artisantools:file_diamond",
+    "artisantools:file_netherite",
+    "artisantools:file_flint",
+    "artisantools:file_bone",
+    "artisantools:file_bronze",
+    "artisantools:file_constantan",
+    "artisantools:file_copper",
+    "artisantools:file_electrum",
+    "artisantools:file_invar",
+    "artisantools:file_lead",
+    "artisantools:file_nickel",
+    "artisantools:file_silver",
+    "artisantools:file_tin"
+  ]
+}

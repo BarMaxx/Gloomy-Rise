@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " . ",
+    "x. ",
+    "w  "
+  ],
+  "key": {
+    "x": {
+      "tag": "forge:string"
+    },
+    "w": {
+      "tag": "minecraft:planks"
+    },
+    ".": {
+      "tag": "forge:stone"
+    }
+  },
+  "result": {
+    "item": "artisantools:razor_stone"
+  }
+}

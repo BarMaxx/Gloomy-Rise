@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " / ",
+    "/x/",
+    ". ."
+  ],
+  "key": {
+    "x": {
+      "tag": "forge:string"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    ".": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "artisantools:compass_wood"
+  }
+}

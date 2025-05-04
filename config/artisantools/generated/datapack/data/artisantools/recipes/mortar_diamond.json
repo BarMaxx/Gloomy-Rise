@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  /",
+    ".f ",
+    " . "
+  ],
+  "key": {
+    "f": {
+      "item": "minecraft:flint"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    ".": {
+      "tag": "forge:gems/diamond"
+    }
+  },
+  "result": {
+    "item": "artisantools:mortar_diamond"
+  }
+}

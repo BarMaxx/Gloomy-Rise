@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " . ",
+    " . ",
+    "ppp"
+  ],
+  "key": {
+    "p": {
+      "tag": "minecraft:planks"
+    },
+    ".": {
+      "tag": "forge:bones"
+    }
+  },
+  "result": {
+    "item": "artisantools:burner_bone"
+  }
+}
