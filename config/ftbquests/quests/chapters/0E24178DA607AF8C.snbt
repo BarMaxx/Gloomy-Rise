@@ -30,22 +30,6 @@
 					item: "minecraft:cake"
 				}
 				{
-					id: "22EADA95E0964C7B"
-					type: "command"
-					title: "VK группа LGame Studio -  по вопросам сборки, писать сюда."
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"Можешь заглянуть в наше сообщество  \",\"color\":\"#FFBD4B\"},{\"text\":\"VK\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://vk.com/liberator_games\"}},{\"text\":\" (\",\"color\":\"#FFBD4B\"},{\"text\":\"кликабельно\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://vk.com/liberator_games\"}},{\"text\":\").\",\"color\":\"#FFBD4B\"}]"
-					player_command: false
-				}
-				{
-					id: "1F60BFCDFF8DD2D2"
-					type: "command"
-					title: "Discord сервер LGame Studio - по вопросам сборки, писать сюда."
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"Можешь заглянуть в наше сообщество \",\"color\":\"#FFBD4B\"},{\"text\":\"Discord\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/9V24JunU\"}},{\"text\":\" (\",\"color\":\"#FFBD4B\"},{\"text\":\"кликабельно\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/9V24JunU\"}},{\"text\":\").\",\"color\":\"#FFBD4B\"}]"
-					player_command: false
-				}
-				{
 					id: "53E21CAFE5E5C740"
 					type: "command"
 					title: "Telegram канал главного разработчика сборки."
