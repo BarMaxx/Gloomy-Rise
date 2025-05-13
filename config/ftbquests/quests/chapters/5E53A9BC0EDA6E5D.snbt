@@ -3,8 +3,9 @@
 	group: "724CB10F5936E1B7"
 	order_index: 0
 	filename: "5E53A9BC0EDA6E5D"
-	title: "&bOrigins"
+	title: "&aПервые шаги"
 	icon: "minecraft:crafting_table"
+	subtitle: ["&6Великое начало..."]
 	default_quest_shape: "default_circle"
 	default_hide_dependency_lines: false
 	images: [{
