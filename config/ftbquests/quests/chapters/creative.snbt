@@ -22,7 +22,7 @@
 	quests: [
 		{
 			x: -6.0d
-			y: 0.0d
+			y: -3.0d
 			shape: "torn_square"
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -35,8 +35,8 @@
 		}
 		{
 			x: -1.5d
-			y: -1.0d
-			shape: "torn_pentagon"
+			y: -3.0d
+			shape: "torn_rsquare"
 			hide_dependency_lines: true
 			dependencies: ["4BF121E7A72055B8"]
 			id: "15EDDF5405FC90F6"
@@ -51,9 +51,9 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -1.0d
-			shape: "torn_pentagon"
+			x: 1.0d
+			y: -3.0d
+			shape: "torn_rsquare"
 			hide_dependency_lines: true
 			dependencies: ["4BF121E7A72055B8"]
 			id: "75DF409C8CB52797"
@@ -100,9 +100,9 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 1.0d
-			shape: "torn_pentagon"
+			x: 1.0d
+			y: -0.5d
+			shape: "torn_rsquare"
 			hide_dependency_lines: true
 			dependencies: ["4BF121E7A72055B8"]
 			id: "267F21D885F14037"
@@ -118,8 +118,8 @@
 		}
 		{
 			x: -1.5d
-			y: 1.0d
-			shape: "torn_pentagon"
+			y: -0.5d
+			shape: "torn_rsquare"
 			hide_dependency_lines: true
 			dependencies: ["4BF121E7A72055B8"]
 			id: "19D7D363D35A3313"
@@ -131,7 +131,7 @@
 		}
 		{
 			x: -6.0d
-			y: -2.5d
+			y: -1.0d
 			shape: "torn_rsquare"
 			hide_dependency_lines: true
 			dependencies: ["4BF121E7A72055B8"]
@@ -144,7 +144,7 @@
 		}
 		{
 			x: -6.0d
-			y: 2.0d
+			y: 1.0d
 			shape: "torn_rsquare"
 			hide_dependency_lines: true
 			dependencies: ["4BF121E7A72055B8"]
@@ -156,7 +156,7 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: -4.5d
 			y: 0.0d
 			shape: "torn_rsquare"
 			hide_dependency_lines: true
@@ -169,7 +169,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -7.5d
 			y: 0.0d
 			shape: "torn_rsquare"
 			hide_dependency_lines: true

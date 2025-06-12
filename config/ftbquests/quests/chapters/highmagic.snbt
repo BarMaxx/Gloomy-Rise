@@ -205,7 +205,7 @@
 		}
 		{
 			x: -4.5d
-			y: 2.5d
+			y: 3.0d
 			description: ["В бассейне маны можно хранить ману, чтобы в дальнейшем использовать в её во многих крафтах."]
 			dependencies: ["65D706259ADBF1C0"]
 			id: "60D2BA24431AC0FD"
@@ -397,7 +397,7 @@
 		{
 			x: 8.0d
 			y: -3.5d
-			shape: "ragged_gear"
+			shape: "ragged_rsquare"
 			description: ["Кровавый алтарь - главый предмет в моде Blood Magic! Основа Вашего развития в этом моде!"]
 			hide_dependency_lines: true
 			dependencies: ["09B7710675B81B75"]
@@ -641,7 +641,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -4.0d
 			y: 4.5d
 			shape: "ragged_rsquare"
 			description: ["С помощью Кровавого Экстрактора можно собирать кровь для дальнейшего использования."]
@@ -661,7 +661,7 @@
 		{
 			x: -0.5d
 			y: -1.5d
-			shape: "ragged_gear"
+			shape: "ragged_rsquare"
 			description: ["С помощью этого устройства можно вливать кровь в различные предметы. "]
 			dependencies: ["0B0E98095CEB2847"]
 			id: "0A0252C6CF3BDDDC"

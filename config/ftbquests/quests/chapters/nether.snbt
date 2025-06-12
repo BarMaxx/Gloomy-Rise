@@ -25,7 +25,7 @@
 			icon: "minecraft:obsidian"
 			x: -6.0d
 			y: -3.0d
-			shape: "torn_gear"
+			shape: "torn_rsquare"
 			description: ["Чтобы попасть в Незер нужно построить рамку портала из обсидиана и поджечь её огнивом."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -53,8 +53,8 @@
 			]
 		}
 		{
-			x: -6.0d
-			y: -1.0d
+			x: -4.0d
+			y: -3.5d
 			description: ["Незерский кирпич можно получить, переплавив незерак в печи. Из этих кирпичей можно создать кирпичи доменной печи."]
 			dependencies: ["491E4B5BD7069266"]
 			id: "08D277C60EA4E24A"
@@ -74,7 +74,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -4.0d
 			y: -2.5d
 			description: ["Магму можно создать из сгустка магмы либо же накопать в Незере. Магма нужна для создания кирпичей доменной печи."]
 			dependencies: ["491E4B5BD7069266"]
@@ -95,8 +95,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -1.5d
+			x: -8.0d
+			y: -2.5d
 			description: ["Незер-кварц можно найти в Незере. И найти его достаточно легко, т.к. кварц появляется довольно часто."]
 			dependencies: ["491E4B5BD7069266"]
 			id: "2CB6E2F317E842CA"
@@ -116,24 +116,7 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 0.0d
-			description: ["&dРозовый кварц&f понадобится для многих крафтов в ветке квестов с модом &6Create!&f"]
-			dependencies: ["2CB6E2F317E842CA"]
-			id: "3CEDE60AD25690CF"
-			tasks: [{
-				id: "43C9C1494FF3C488"
-				type: "item"
-				item: "create:rose_quartz"
-			}]
-			rewards: [{
-				id: "250949DAAFEE000F"
-				type: "item"
-				item: "create:rose_quartz"
-			}]
-		}
-		{
-			x: -5.0d
+			x: -5.5d
 			y: -1.5d
 			description: ["Древние обломки появляются в Незере на высоте 7-22. Но он очень редкий, поэтому наберитесь терпения."]
 			dependencies: ["491E4B5BD7069266"]
@@ -173,8 +156,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 1.5d
+			x: -5.5d
+			y: 1.0d
 			description: ["С помощью незеритового слитка можно улучшать некоторые вещи, например, броню, инструменты, сундуки и т.п."]
 			dependencies: ["7DCC0FA4C160D8F4"]
 			id: "1F24FA2023174B08"
@@ -200,8 +183,8 @@
 					Damage: 0
 				}
 			}
-			x: -6.0d
-			y: 2.5d
+			x: -6.5d
+			y: 2.0d
 			description: ["Хорошие и эффективные инструменты и оружие."]
 			dependencies: ["1F24FA2023174B08"]
 			id: "7CD800F7D537713F"
@@ -266,8 +249,8 @@
 					Damage: 0
 				}
 			}
-			x: -4.0d
-			y: 2.5d
+			x: -4.5d
+			y: 2.0d
 			description: ["Неплохая броня с хорошей защитой."]
 			dependencies: ["1F24FA2023174B08"]
 			id: "6270C376F841A2FB"
@@ -324,8 +307,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 1.0d
+			x: -5.5d
+			y: 2.5d
 			description: ["Улучшенная версия алмазного рюкзака. Позволяет хранить больше предметов и улучшений."]
 			dependencies: ["1F24FA2023174B08"]
 			id: "269199E0BBE0015A"
@@ -338,8 +321,8 @@
 		{
 			title: "Визер"
 			icon: "minecraft:wither_skeleton_skull"
-			x: -7.5d
-			y: -2.5d
+			x: -6.5d
+			y: -1.5d
 			subtitle: "Ваш первый босс!"
 			description: ["Чтобы заспавнить Визера, необходимо поставить 4 блока песка душ и 3 черепа визер-скелета как на картинке. Убив этого босса вы получите звезду Незера!"]
 			dependencies: ["491E4B5BD7069266"]
@@ -369,8 +352,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -2.5d
+			x: -7.0d
+			y: 0.0d
 			description: ["&dЗвезда Незера&f выпадает с Визера. Это очень ценный предмет, который в будущем Вам понадобится в большом количестве."]
 			dependencies: ["245CE482D6E6A2D7"]
 			id: "33C1F735EFF06519"
@@ -378,6 +361,293 @@
 				id: "51F673FEE10B1D6F"
 				type: "item"
 				item: "minecraft:nether_star"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -3.5d
+			dependencies: ["491E4B5BD7069266"]
+			id: "5A70642F0BC279D3"
+			tasks: [
+				{
+					id: "308903571B5F7DEE"
+					type: "item"
+					item: "minecraft:glowstone_dust"
+					count: 8L
+				}
+				{
+					id: "3688B927CA9E25F2"
+					type: "item"
+					item: "minecraft:glowstone"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "3B191730903500ED"
+				type: "item"
+				item: "minecraft:glowstone"
+				count: 4
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			shape: "torn_hexagon"
+			subtitle: "Научился летать!"
+			description: ["&6Игнитовый крылатый нагрудник&r может летать!"]
+			dependencies: ["723EAA028D71E654"]
+			id: "0FBE4D9739A74669"
+			tasks: [{
+				id: "5ECAC0C1F6A2A19C"
+				type: "item"
+				item: {
+					id: "cataclysm:ignitium_elytra_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			shape: "torn_octagon"
+			subtitle: "Музыка!"
+			description: ["&6Пластинка&r выпадает при убийстве моба &aИгнис&r."]
+			dependencies: ["0BFE369B100A3595"]
+			id: "5766BB3047E2BEBC"
+			tasks: [{
+				id: "12BA2854E11C7C6A"
+				type: "item"
+				item: "cataclysm:music_disc_ignis"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			shape: "torn_rsquare"
+			subtitle: "Горячо!"
+			description: ["Необходимо убить моба &6Игнис&r."]
+			hide_dependency_lines: true
+			dependencies: ["491E4B5BD7069266"]
+			size: 1.5d
+			id: "0BFE369B100A3595"
+			tasks: [{
+				id: "2F8030B9112C8A72"
+				type: "kill"
+				entity: "cataclysm:ignis"
+				value: 1L
+			}]
+			rewards: [{
+				id: "2186BB9EE5516161"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			subtitle: "Огненный слиток!"
+			description: ["&6Слиток игнита&r выпадает при убийстве моба &aИгнис&r."]
+			dependencies: ["0BFE369B100A3595"]
+			id: "65D307CA91CEBF73"
+			tasks: [{
+				id: "0029EA5C896F8841"
+				type: "item"
+				item: "cataclysm:ignitium_ingot"
+				count: 4L
+			}]
+			rewards: [{
+				id: "4A94E1D15EFEA972"
+				type: "item"
+				item: "cataclysm:ignitium_ingot"
+				count: 2
+				random_bonus: 5
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			subtitle: "Мощный меч!"
+			description: ["&6Испепелитель&r - это очень мощный меч, необходимый каждому."]
+			dependencies: ["65D307CA91CEBF73"]
+			id: "20D6CB320CFB51AF"
+			tasks: [{
+				id: "738D38C2F98D4647"
+				type: "item"
+				item: "cataclysm:the_incinerator"
+			}]
+		}
+		{
+			title: "Игнитовая броня"
+			x: 0.0d
+			y: 0.5d
+			subtitle: "Имеет эффекты!"
+			description: ["&6Игнитовая броня&r - очень хорошая броня, подходящая под &4Незер&r."]
+			dependencies: ["65D307CA91CEBF73"]
+			id: "723EAA028D71E654"
+			tasks: [
+				{
+					id: "7E0B16C66A7140F3"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1A4248E08313A34F"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3BC10AA4918649CC"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2CEFA51F6759197C"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			subtitle: "Щит!"
+			description: ["&6Бастион пламени&r - щит со способностями!"]
+			dependencies: ["65D307CA91CEBF73"]
+			dependency_requirement: "one_completed"
+			id: "547998AC2240F618"
+			tasks: [{
+				id: "11F71B773EBB2DCA"
+				type: "item"
+				item: "cataclysm:bulwark_of_the_flame"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			subtitle: "Кирка!"
+			description: [
+				"&6Адский горн&r выпадает при убийстве моба &aНезеритовое чудище&r."
+				""
+				"Адский горн - &aкирка&r, которую также можно использовать, как и &aоружие&r."
+			]
+			dependencies: ["725898F4FC60844B"]
+			id: "2BE35E9C468D4D5C"
+			tasks: [{
+				id: "1D55076BE352F2AD"
+				type: "item"
+				item: {
+					id: "cataclysm:infernal_forge"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.0d
+			shape: "torn_rsquare"
+			subtitle: "Адский босс!"
+			description: ["Необходимо убить моба &6Незеритовое чудище&r."]
+			hide_dependency_lines: true
+			dependencies: ["491E4B5BD7069266"]
+			size: 1.5d
+			id: "725898F4FC60844B"
+			tasks: [{
+				id: "414A69D9FFE527FE"
+				type: "kill"
+				entity: "cataclysm:netherite_monstrosity"
+				value: 1L
+			}]
+			rewards: [{
+				id: "31E88A83B3526834"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.0d
+			shape: "torn_octagon"
+			subtitle: "Музыка!"
+			description: ["&6Пластинка&r выпадает при убийстве моба &aНезеритовое чудище&r."]
+			dependencies: ["725898F4FC60844B"]
+			id: "7E6FF34883160791"
+			tasks: [{
+				id: "72EF371573FB3959"
+				type: "item"
+				item: "cataclysm:music_disc_netherite_monstrosity"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			subtitle: "Главный трофей!"
+			description: ["&6Чудовищный рог&r выпадает при убийстве моба &aНезеритовое чудище&r."]
+			dependencies: ["725898F4FC60844B"]
+			id: "17656A0F166A1853"
+			tasks: [{
+				id: "19D736B6E343F387"
+				type: "item"
+				item: "cataclysm:monstrous_horn"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.5d
+			subtitle: "Новый шлем со способностями!"
+			description: ["&6Чудовищный шлем&r - это очень хороший элмент вашего снаряжения."]
+			dependencies: ["17656A0F166A1853"]
+			id: "1B4564433CC4E055"
+			tasks: [{
+				id: "570927A4989353A6"
+				type: "item"
+				item: {
+					id: "cataclysm:monstrous_helm"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.0d
+			dependencies: ["33C1F735EFF06519"]
+			id: "5393EE5D88AE6402"
+			tasks: [{
+				id: "3E2CEA6A1B26A884"
+				type: "item"
+				item: "minecraft:beacon"
 			}]
 		}
 	]

@@ -12,7 +12,7 @@
 			y: -1.0d
 			subtitle: "Новое начало!"
 			description: [
-				"Добро пожаловать в сборку Gloomy Rise! Данная сборка создана командой LGame Studio, а главным разработчиком является BarMaxx."
+				"Добро пожаловать в сборку Gloomy Rise! Данная сборка создана командой BMProjects."
 				"Gloomy Rise - это техно-магическая сборка с элементами РПГ, Хардкора и Реализма. В данной сборке Вы сможете постепенно изучить множество модов. Они включают в себя: исследование мира, сражение с боссами, изучение различных видов Магии и Технологий, создание множества ферм ресурсов и авто-крафтов, исследование различных измерений и не только!"
 				"Все виды деятельности связаны между собой множеством изменённых крафтов и квестами, которые помогут получить уникальный игровой опыт, который Вы больше нигде не встретите."
 			]
@@ -28,22 +28,6 @@
 					id: "13C0E0901B548A1C"
 					type: "item"
 					item: "minecraft:cake"
-				}
-				{
-					id: "22EADA95E0964C7B"
-					type: "command"
-					title: "VK группа LGame Studio -  по вопросам сборки, писать сюда."
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"Можешь заглянуть в наше сообщество  \",\"color\":\"#FFBD4B\"},{\"text\":\"VK\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://vk.com/liberator_games\"}},{\"text\":\" (\",\"color\":\"#FFBD4B\"},{\"text\":\"кликабельно\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://vk.com/liberator_games\"}},{\"text\":\").\",\"color\":\"#FFBD4B\"}]"
-					player_command: false
-				}
-				{
-					id: "1F60BFCDFF8DD2D2"
-					type: "command"
-					title: "Discord сервер LGame Studio - по вопросам сборки, писать сюда."
-					auto: "invisible"
-					command: "/tellraw @a [\"\",{\"text\":\"Можешь заглянуть в наше сообщество \",\"color\":\"#FFBD4B\"},{\"text\":\"Discord\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/9V24JunU\"}},{\"text\":\" (\",\"color\":\"#FFBD4B\"},{\"text\":\"кликабельно\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/9V24JunU\"}},{\"text\":\").\",\"color\":\"#FFBD4B\"}]"
-					player_command: false
 				}
 				{
 					id: "53E21CAFE5E5C740"

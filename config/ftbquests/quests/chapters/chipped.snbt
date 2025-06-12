@@ -1,7 +1,7 @@
 {
 	id: "5098B1745C215C0F"
 	group: "6E7449445FFC34C5"
-	order_index: 0
+	order_index: 1
 	filename: "chipped"
 	title: "&6Декорации"
 	icon: "chipped:glassblower"
@@ -21,8 +21,8 @@
 	}]
 	quests: [
 		{
-			x: -1.5d
-			y: -2.0d
+			x: -4.5d
+			y: -3.0d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -40,8 +40,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 0.0d
+			x: -8.0d
+			y: -1.5d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -59,8 +59,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -2.0d
+			x: -7.5d
+			y: -3.0d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -78,8 +78,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 0.0d
+			x: -6.0d
+			y: -1.5d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -97,8 +97,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 2.0d
+			x: -4.5d
+			y: 0.0d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -116,8 +116,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 2.0d
+			x: -7.5d
+			y: 0.0d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -135,8 +135,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 0.0d
+			x: -4.0d
+			y: -1.5d
 			description: ["Красота должна быть везде."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -151,6 +151,22 @@
 				type: "item"
 				item: "tconstruct:tinkers_bronze_ingot"
 				count: 2
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			dependencies: ["114FD26AF2B063E3"]
+			hide: true
+			id: "0FABB13C5A05AEA1"
+			tasks: [{
+				id: "2ED7BC1BE0300B82"
+				type: "item"
+				item: {
+					id: "rechiseled:chisel"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 	]

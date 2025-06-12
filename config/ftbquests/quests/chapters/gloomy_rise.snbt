@@ -4,6 +4,7 @@
 	order_index: 1
 	filename: "gloomy_rise"
 	title: "&6Финал..."
+	icon: "kubejs:gloomy_rise"
 	default_quest_shape: "torn_circle"
 	default_hide_dependency_lines: false
 	images: [{
@@ -18,28 +19,44 @@
 		dev: false
 		corner: false
 	}]
-	quests: [{
-		x: -3.0d
-		y: 0.0d
-		shape: "torn_rsquare"
-		subtitle: "Это финал :("
-		dependencies: [
-			"36E51C51CFB4E05D"
-			"43D05AEE1326DDEC"
-			"75DF409C8CB52797"
-			"561711BEA48C255A"
-			"77F6967547F73D28"
-			"15EDDF5405FC90F6"
-			"267F21D885F14037"
-			"4BF121E7A72055B8"
-		]
-		hide: true
-		size: 5.0d
-		id: "4C11565D776A8269"
-		tasks: [{
-			id: "1830BE1EF6DE5916"
-			type: "item"
-			item: "kubejs:gloomy_rise"
-		}]
-	}]
+	quests: [
+		{
+			x: -3.0d
+			y: 0.0d
+			shape: "torn_rsquare"
+			subtitle: "Это финал :("
+			dependencies: [
+				"36E51C51CFB4E05D"
+				"43D05AEE1326DDEC"
+				"75DF409C8CB52797"
+				"561711BEA48C255A"
+				"77F6967547F73D28"
+				"15EDDF5405FC90F6"
+				"267F21D885F14037"
+				"4BF121E7A72055B8"
+			]
+			hide: true
+			size: 5.0d
+			id: "4C11565D776A8269"
+			tasks: [{
+				id: "1830BE1EF6DE5916"
+				type: "item"
+				item: "kubejs:gloomy_rise"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			description: ["Ожидайте продолжения в обновлении v2.0!"]
+			hide_dependency_lines: true
+			dependencies: ["4C11565D776A8269"]
+			hide: true
+			id: "41C52583D1DF6D78"
+			tasks: [{
+				id: "1F14AEBB6B0DC62E"
+				type: "checkmark"
+				title: "Что дальше?"
+			}]
+		}
+	]
 }

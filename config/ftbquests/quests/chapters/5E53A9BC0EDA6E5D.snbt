@@ -482,42 +482,6 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -3.0d
-			shape: "default_circle"
-			subtitle: "Портативный верстак"
-			description: ["Палка с верстаком позволяет открыть верстак в любом месте. Но этот верстак не сохраняет свой инвентарь."]
-			dependencies: ["1DB2D7EB07555AFC"]
-			id: "528887B4FA7AA2AA"
-			tasks: [{
-				id: "72D115D92F38FF0B"
-				type: "item"
-				item: "cyclic:crafting_stick"
-			}]
-		}
-		{
-			x: -4.0d
-			y: -2.0d
-			shape: "default_circle"
-			description: ["Продвинутая палка с верстаком также позволяет открыть верстак в любом месте, но этот верстак сохраняет свой инвентарь. Можно использовать как рюкзак :)"]
-			dependencies: ["528887B4FA7AA2AA"]
-			id: "5E7D98365C7A4D87"
-			tasks: [{
-				id: "2FFD3315E80C2765"
-				type: "item"
-				item: {
-					id: "cyclic:crafting_bag"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							Size: 9
-							Items: [ ]
-						}
-					}
-				}
-			}]
-		}
-		{
 			title: "Железные хранилища"
 			x: -2.0d
 			y: -2.5d
