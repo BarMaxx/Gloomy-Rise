@@ -3,7 +3,7 @@
 	group: "6E7449445FFC34C5"
 	order_index: 0
 	filename: "chipped"
-	title: "&2Chipped"
+	title: "&6Декорации"
 	icon: "chipped:glassblower"
 	default_quest_shape: "default_rsquare"
 	default_hide_dependency_lines: false
@@ -13,7 +13,7 @@
 		width: 50.0d
 		height: 30.0d
 		rotation: 0.0d
-		image: "gloomyrise:textures/Clear_bookRed.png"
+		image: "gloomyrise:textures/clear_bookred.png"
 		hover: [ ]
 		click: ""
 		dev: false

@@ -3,7 +3,7 @@
 	group: "24923118FBE15B71"
 	order_index: 1
 	filename: "highmagic"
-	title: "&5HighMagic"
+	title: "&6Высшая магия"
 	icon: "botania:mana_pylon"
 	default_quest_shape: "ragged_circle"
 	default_hide_dependency_lines: false
@@ -13,7 +13,7 @@
 		width: 50.0d
 		height: 30.0d
 		rotation: 0.0d
-		image: "gloomyrise:textures/Clear_bookRed.png"
+		image: "gloomyrise:textures/clear_bookred.png"
 		hover: [ ]
 		click: ""
 		dev: false

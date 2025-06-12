@@ -3,7 +3,7 @@
 	group: "69A2E8FFA0275984"
 	order_index: 0
 	filename: "creative"
-	title: "&5Creative"
+	title: "&6Креативные предметы"
 	icon: "mysticalagradditions:creative_essence"
 	default_quest_shape: "torn_circle"
 	default_hide_dependency_lines: false
@@ -13,7 +13,7 @@
 		width: 50.0d
 		height: 30.0d
 		rotation: 0.0d
-		image: "gloomyrise:textures/Clear_bookRed.png"
+		image: "gloomyrise:textures/clear_bookred.png"
 		hover: [ ]
 		click: ""
 		dev: false

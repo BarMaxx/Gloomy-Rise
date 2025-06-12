@@ -3,7 +3,7 @@
 	group: "37FCF4EC720E030D"
 	order_index: 0
 	filename: "nether"
-	title: "&4Nether"
+	title: "&6Адские похождения"
 	icon: "minecraft:nether_star"
 	default_quest_shape: "torn_circle"
 	default_hide_dependency_lines: false
@@ -13,7 +13,7 @@
 		width: 50.0d
 		height: 30.0d
 		rotation: 0.0d
-		image: "gloomyrise:textures/Clear_bookRed.png"
+		image: "gloomyrise:textures/clear_bookred.png"
 		hover: [ ]
 		click: ""
 		dev: false
@@ -130,84 +130,6 @@
 				id: "250949DAAFEE000F"
 				type: "item"
 				item: "create:rose_quartz"
-			}]
-		}
-		{
-			x: 1.0d
-			y: 0.0d
-			description: ["Позволяет легче строить масштабные постройки."]
-			hide_dependency_lines: true
-			dependencies: ["3CEDE60AD25690CF"]
-			id: "58C9C1DAC20F99DE"
-			tasks: [{
-				id: "1E62445C861E73AC"
-				type: "item"
-				item: {
-					id: "buildinggadgets:gadget_building"
-					Count: 1b
-					tag: {
-						state: {
-							serializer: "buildinggadgets:dummy_serializer"
-							state: {
-								Name: "minecraft:air"
-							}
-							data: { }
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: 1.0d
-			y: -2.5d
-			description: ["Пока находится в вашем инвентаре - накапливает время, а потом это время можно использовать для ускорения различных процессов."]
-			hide_dependency_lines: true
-			dependencies: ["3CEDE60AD25690CF"]
-			id: "24DDF0425E4D682C"
-			tasks: [{
-				id: "446C9C7FB09358A7"
-				type: "item"
-				title: "Время в бутылке"
-				item: {
-					id: "tiab:timeinabottle"
-					Count: 1b
-					tag: {
-						timeData: { }
-					}
-				}
-			}]
-		}
-		{
-			x: -1.0d
-			y: 0.0d
-			description: ["Собирает предметы недалеко от вас."]
-			hide_dependency_lines: true
-			dependencies: ["3CEDE60AD25690CF"]
-			id: "13458DF94390D17D"
-			tasks: [{
-				id: "654F37947C284D84"
-				type: "item"
-				item: {
-					id: "simplemagnets:basicmagnet"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: -1.0d
-			y: 1.5d
-			description: ["Улучшенный магнит. Увеличивает дистанцию сбора предметов."]
-			dependencies: ["13458DF94390D17D"]
-			id: "0EB9F82384980D93"
-			tasks: [{
-				id: "2375BD1B8BB0CADD"
-				type: "item"
-				item: {
-					id: "simplemagnets:advancedmagnet"
-					Count: 1b
-					tag: { }
-				}
 			}]
 		}
 		{
@@ -412,27 +334,6 @@
 				type: "item"
 				item: "sophisticatedbackpacks:netherite_backpack"
 			}]
-		}
-		{
-			icon: "appliedenergistics2:grindstone"
-			x: -1.0d
-			y: -2.5d
-			description: ["Кварцевый дробитель позволяет вам перемалывать руду в пыль. Для того, чтобы дробить руду необходимо на дробитель поставить &eрукоятку&f, а после крутите её."]
-			hide_dependency_lines: true
-			dependencies: ["2CB6E2F317E842CA"]
-			id: "6BDEDFD2C6E2E62F"
-			tasks: [
-				{
-					id: "7258932F0907108A"
-					type: "item"
-					item: "appliedenergistics2:grindstone"
-				}
-				{
-					id: "1881F288F9B72E27"
-					type: "item"
-					item: "appliedenergistics2:crank"
-				}
-			]
 		}
 		{
 			title: "Визер"

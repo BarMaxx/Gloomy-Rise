@@ -3,7 +3,7 @@
 	group: "37FCF4EC720E030D"
 	order_index: 1
 	filename: "end"
-	title: "&5End"
+	title: "&6Приключения в Энде"
 	icon: "minecraft:dragon_head"
 	default_quest_shape: "torn_circle"
 	default_hide_dependency_lines: false
@@ -13,7 +13,7 @@
 		width: 50.0d
 		height: 30.0d
 		rotation: 0.0d
-		image: "gloomyrise:textures/Clear_bookRed.png"
+		image: "gloomyrise:textures/clear_bookred.png"
 		hover: [ ]
 		click: ""
 		dev: false

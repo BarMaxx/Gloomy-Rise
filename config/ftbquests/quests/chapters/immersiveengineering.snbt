@@ -3,7 +3,7 @@
 	group: "724CB10F5936E1B7"
 	order_index: 2
 	filename: "immersiveengineering"
-	title: "&aИнженерия"
+	title: "&6Инженерия "
 	icon: {
 		id: "immersiveengineering:hammer"
 		Count: 1b
@@ -11,7 +11,6 @@
 			Damage: 0
 		}
 	}
-	subtitle: ["&6Новая эра!"]
 	default_quest_shape: "crumpled_circle"
 	default_hide_dependency_lines: false
 	images: [{
@@ -20,7 +19,7 @@
 		width: 50.0d
 		height: 30.0d
 		rotation: 0.0d
-		image: "gloomyrise:textures/Clear_bookRed.png"
+		image: "gloomyrise:textures/clear_bookred.png"
 		hover: [ ]
 		click: ""
 		dev: false
@@ -29,10 +28,12 @@
 	quests: [
 		{
 			x: -6.0d
-			y: -3.0d
+			y: -3.5d
+			shape: "crumpled_gear"
 			description: ["Молот инженера - это главный инструмент настоящего инженера, ведь с помощью него Вы будете собирать все свои мультиблочные механизмы."]
-			dependencies: ["4458BC87AB2F65C5"]
+			dependencies: ["114FD26AF2B063E3"]
 			hide: true
+			size: 1.3d
 			id: "1F866E833721D395"
 			tasks: [{
 				id: "6B21507A9D8D10EC"
@@ -52,7 +53,7 @@
 			y: -3.5d
 			shape: "crumpled_rsquare"
 			description: ["Чтобы построить коксовую печь, необходимо поставить кирпичи коксовой печи 3х3х3, а после нажать молотом инженера ПКМ по любой стороне. В коксовой печи можно получить коксовый уголь и креозот."]
-			dependencies: ["4458BC87AB2F65C5"]
+			dependencies: ["1F866E833721D395"]
 			id: "16BCEE8E7DE5EAA4"
 			tasks: [{
 				id: "4B0058809AFF2577"
@@ -64,7 +65,7 @@
 		}
 		{
 			x: -3.5d
-			y: -4.0d
+			y: -3.5d
 			description: ["Коксовый уголь можно получить в коксовой печи из обычного угля."]
 			dependencies: ["16BCEE8E7DE5EAA4"]
 			id: "3EABF883490920A9"
@@ -84,8 +85,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -3.0d
+			x: -5.0d
+			y: -2.5d
 			description: ["Креозот можно получить в коксовой печи, он создаётся при получении &7коксового угля. Креозот нужен для создания досок из обработанной древесины."]
 			dependencies: ["16BCEE8E7DE5EAA4"]
 			id: "7E9B735108C06472"
@@ -101,25 +102,18 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -2.5d
+			x: -5.0d
+			y: -1.5d
 			description: ["Доски из обработанной древесины создаются из ведра креозота и любых досок. Эти доски очень понадобятся вам в дальнейшем."]
 			dependencies: ["7E9B735108C06472"]
 			id: "1EDB5F4D82DE3F36"
-			tasks: [
-				{
-					id: "360BCDDB72FE7851"
-					type: "item"
-					title: "Доски из обработанной древесины"
-					item: "immersiveengineering:treated_wood_horizontal"
-					count: 16L
-				}
-				{
-					id: "146B307726FDC142"
-					type: "item"
-					item: "immersiveengineering:stick_treated"
-				}
-			]
+			tasks: [{
+				id: "360BCDDB72FE7851"
+				type: "item"
+				title: "Доски из обработанной древесины"
+				item: "immersiveengineering:treated_wood_horizontal"
+				count: 16L
+			}]
 			rewards: [{
 				id: "360665C17FD73CF4"
 				type: "item"
@@ -129,10 +123,47 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -1.5d
-			description: ["Части водяного колеса понадобятся для создания полноценного водяного колеса. "]
+			x: -4.0d
+			y: -2.0d
+			description: ["Деревянные бочки - это простые ёмкости, в которых можно хранить до 12 вёдер жидкости."]
 			dependencies: ["1EDB5F4D82DE3F36"]
+			id: "428CC6F6CDBC419A"
+			tasks: [{
+				id: "54A7A0F8FF5F5E83"
+				type: "item"
+				item: "immersiveengineering:wooden_barrel"
+			}]
+			rewards: [{
+				id: "6CE831DB1C42EBFA"
+				type: "item"
+				item: "immersiveengineering:wooden_barrel"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			description: ["Обработанные палки создаются также, как и обычные палки, только из обработанных досок. С помощью этих палок можно создать, например, часть водяного колеса."]
+			dependencies: ["1EDB5F4D82DE3F36"]
+			id: "737CCC2110922A14"
+			tasks: [{
+				id: "60DA7170E8F68484"
+				type: "item"
+				title: "Обработанная палка"
+				item: "immersiveengineering:stick_treated"
+				count: 8L
+			}]
+			rewards: [{
+				id: "62F9EB2BECDD159D"
+				type: "item"
+				item: "immersiveengineering:stick_treated"
+				count: 4
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			description: ["Части водяного колеса понадобятся для создания полноценного водяного колеса. "]
+			dependencies: ["737CCC2110922A14"]
 			id: "7328F85F88B1D9ED"
 			tasks: [{
 				id: "03E7AC34E6EEBA13"
@@ -187,8 +218,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -4.0d
+			x: -2.0d
+			y: -3.5d
 			description: ["Плита из чёрного железа нужна для создания компонентов, катализаторов и конечно же новых верстаков!"]
 			hide_dependency_lines: true
 			dependencies: ["3AFF1B058489D15B"]
@@ -210,7 +241,7 @@
 		}
 		{
 			x: -0.5d
-			y: -2.5d
+			y: -3.5d
 			description: ["Базовый верстак это тоже самое, что и обычный верстак. Но из базового верстака можно создать продвинутый верстак!"]
 			dependencies: ["688762FB765A8B40"]
 			id: "76F4386A2B8AA15E"
@@ -222,9 +253,11 @@
 		}
 		{
 			x: -0.5d
-			y: -1.0d
+			y: -2.0d
+			shape: "crumpled_gear"
 			description: ["На продвинутом верстаке сетка крафта 5х5, что позволяет создавать более интересные крафты."]
 			dependencies: ["76F4386A2B8AA15E"]
+			size: 1.3d
 			id: "4CC33F150E5DA0A0"
 			tasks: [{
 				id: "6C247329C06C1E31"
@@ -234,9 +267,9 @@
 		}
 		{
 			x: -4.0d
-			y: -1.5d
+			y: 1.0d
 			description: ["Лопасти ветряной мельницы нужны, чтобы собрать полноценную ветряную мельницу."]
-			dependencies: ["1EDB5F4D82DE3F36"]
+			dependencies: ["737CCC2110922A14"]
 			id: "58E39033A0EF6360"
 			tasks: [{
 				id: "74A4A26B0BFB6F66"
@@ -247,8 +280,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -0.5d
+			x: -3.5d
+			y: 2.0d
 			shape: "crumpled_hexagon"
 			description: ["Ветряная мельница - это бесплатный и простой способ получения энергии, хотя и не очень эффеективный."]
 			dependencies: ["58E39033A0EF6360"]
@@ -260,8 +293,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -0.5d
+			x: -3.0d
+			y: 0.0d
 			shape: "crumpled_hexagon"
 			description: ["Водяное колесо - довольно простой способ привести в действие Кинетический генератор. Скорость вращения колеса зависит от воды, обтекающей его, поэтому для получения оптимальных результатов вам нужно направить воду полукругом сверху вниз вдоль одной стороны. А также можно поставить друг с другом до 3 водяных колёс."]
 			dependencies: ["7328F85F88B1D9ED"]
@@ -274,7 +307,7 @@
 		}
 		{
 			x: -7.5d
-			y: 0.5d
+			y: 0.0d
 			subtitle: "Кусь"
 			description: ["С помощью кусачек инженера можно создавать различные провода и не только."]
 			dependencies: ["3AFF1B058489D15B"]
@@ -293,7 +326,7 @@
 		}
 		{
 			x: -8.5d
-			y: 1.5d
+			y: 1.0d
 			description: ["Медные провода можно объединить в моток низковольтного провода и не только."]
 			dependencies: ["15ECA35E0F767620"]
 			id: "643F3AE958462439"
@@ -314,7 +347,7 @@
 		}
 		{
 			x: -8.5d
-			y: 3.0d
+			y: 2.5d
 			description: ["Моток низковольтного провода можно использовать как провод, как ни странно, но не касайтесь его, если он под напряжением."]
 			dependencies: ["643F3AE958462439"]
 			id: "384FD483F981421D"
@@ -334,7 +367,7 @@
 		}
 		{
 			x: -7.5d
-			y: 4.0d
+			y: 3.5d
 			description: ["Катушка медного провода используется во многих рецептах, но главное - это кинетический генератор."]
 			dependencies: ["384FD483F981421D"]
 			id: "34462E761EB7CA9F"
@@ -347,8 +380,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 4.0d
+			x: -7.5d
+			y: 4.5d
 			shape: "crumpled_gear"
 			description: ["Кинетический генератор вырабатывает энергию из кинетической силы водяных колёс и ветряных мельницы. Для этого нужно подключить кинетический генератор к водяным колёсам или ветряным мельницам."]
 			dependencies: ["34462E761EB7CA9F"]
@@ -360,8 +393,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 2.5d
+			x: -6.5d
+			y: 3.5d
 			shape: "crumpled_hexagon"
 			description: ["Термоэлектрический генератор - это ещё один вариант выработки электроэнергии, он работает без использования каких-либо механических частей, вместо этого он использует температурный градиент между двумя источниками тепла и холода."]
 			dependencies: ["34462E761EB7CA9F"]
@@ -377,7 +410,7 @@
 			y: -3.5d
 			shape: "crumpled_rsquare"
 			description: ["Чтобы построить плавильную печь, необходимо поставить кирпичи плавильной печи 2х2х2 а после нажать молотом инженера ПКМ. В плавильной печи можно создавать различные сплавы."]
-			dependencies: ["4458BC87AB2F65C5"]
+			dependencies: ["1F866E833721D395"]
 			id: "5286715BD326C7B7"
 			tasks: [{
 				id: "566B63467B73B458"
@@ -388,7 +421,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -7.5d
 			y: -2.5d
 			description: ["Констант - это сплав меди и никеля."]
 			dependencies: ["5286715BD326C7B7"]
@@ -409,8 +442,8 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: -4.0d
+			x: -8.5d
+			y: -2.5d
 			description: ["Электрум - это сплав серебра с золотом. "]
 			dependencies: ["5286715BD326C7B7"]
 			id: "2D5A8653D55EEA26"
@@ -430,10 +463,10 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 0.5d
+			x: -5.0d
+			y: 1.5d
 			description: ["Рабочий стол инженера - это простое улучшение верстака. Рабочий стол инженера может удерживать предметы в рецепте, а также он имеет свой внутрений инвентарь."]
-			dependencies: ["3AFF1B058489D15B"]
+			dependencies: ["737CCC2110922A14"]
 			id: "7ED48462B0C277A6"
 			tasks: [{
 				id: "3B468923D9CBE0E7"
@@ -442,8 +475,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 1.5d
+			x: -5.0d
+			y: 3.0d
 			shape: "crumpled_rsquare"
 			description: ["Верстак инженера - это профессиональный рабочий стол образованного инженера. Он широко используется для создания предметов по чертежам."]
 			dependencies: ["7ED48462B0C277A6"]
@@ -455,9 +488,21 @@
 			}]
 		}
 		{
+			x: -8.5d
+			y: 3.5d
+			description: ["Экипирует щит нажатием кнопки."]
+			dependencies: ["34462E761EB7CA9F"]
+			id: "453CA6CCA55589C2"
+			tasks: [{
+				id: "7AF0A90198E2BF01"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_shield_magnet"
+			}]
+		}
+		{
 			title: "Чертёж инженера: Металлическая пресс-форма"
-			x: -4.5d
-			y: 1.5d
+			x: -5.5d
+			y: 4.0d
 			description: ["С помощью этого чертежа можно создать специальные металлические пресс-формы на верстаке инженера."]
 			dependencies: ["0DF9C7B4CF9060A6"]
 			id: "3CA0FCD230F3B9B0"
@@ -475,8 +520,8 @@
 		}
 		{
 			title: "Чертёж инженера: Компоненты для крафта"
-			x: -3.5d
-			y: 3.0d
+			x: -4.5d
+			y: 4.0d
 			description: ["С помощью этого чертежа можно создать специальные компоненты для крафта на верстаке инженера."]
 			dependencies: ["0DF9C7B4CF9060A6"]
 			id: "5A26E77DA2BF655F"
@@ -496,7 +541,7 @@
 			title: "Металлический пресс"
 			icon: "minecraft:piston"
 			x: -0.5d
-			y: 0.0d
+			y: -0.5d
 			description: ["Металлический пресс - это автоматизированный способ формирования металла."]
 			dependencies: ["4CC33F150E5DA0A0"]
 			id: "3268DDFD2B310EDF"
@@ -536,7 +581,7 @@
 			title: "Дробитель"
 			icon: "immersiveengineering:steel_scaffolding_standard"
 			x: 1.0d
-			y: 0.5d
+			y: -0.5d
 			description: ["Дробление руды - это эффективный способ увеличить её выход, поскольку каждая руда образует две пыли, которые затем можно переплавить. Этот промышленный дробитель - быстрый способ сделать это."]
 			dependencies: ["3268DDFD2B310EDF"]
 			id: "62B0294DCA991AD8"
@@ -586,7 +631,7 @@
 			title: "Лесопилка"
 			icon: "immersiveengineering:steel_scaffolding_standard"
 			x: -2.0d
-			y: 0.5d
+			y: -0.5d
 			description: ["Лесопилка - это станок, который распиливает деревянные брёвна на аккуратно уложенные доски. Машина работает в два этапа: сначала срезается кора с бревна, а затем с помощью пильного диска режется на части."]
 			dependencies: ["3268DDFD2B310EDF"]
 			id: "3D8CFD30C623508F"
@@ -641,7 +686,7 @@
 		}
 		{
 			x: -2.5d
-			y: -1.0d
+			y: 1.0d
 			shape: "crumpled_rsquare"
 			description: ["Во время обоих этапов создаются Опилки, которые собираются и извлекаются через порт на передней панели машины."]
 			dependencies: ["3D8CFD30C623508F"]
@@ -662,7 +707,7 @@
 		}
 		{
 			x: -2.5d
-			y: -2.5d
+			y: 2.0d
 			subtitle: "А вдруг упадёте"
 			description: ["Прикольно и бесполезно."]
 			dependencies: ["22E4B1795DEAABEA"]
@@ -680,7 +725,7 @@
 		}
 		{
 			x: 1.0d
-			y: 2.0d
+			y: 1.0d
 			description: ["С помощью каменноугольного песка можно создать жидкостные трубы."]
 			dependencies: ["62B0294DCA991AD8"]
 			id: "54CDC6924D4FD0B2"
@@ -702,7 +747,7 @@
 			title: "Бродильный аппарат"
 			icon: "immersiveengineering:steel_scaffolding_standard"
 			x: 2.0d
-			y: 1.5d
+			y: 1.0d
 			description: ["Бродильный аппарат - это многоблочная структура, которая извлекает этанол из определённых фруктов, зёрен и овощей в процессе брожения."]
 			dependencies: ["54CDC6924D4FD0B2"]
 			id: "46932CFFC5993F2B"
@@ -752,8 +797,8 @@
 		{
 			title: "Очиститель"
 			icon: "immersiveengineering:steel_scaffolding_standard"
-			x: 2.0d
-			y: 2.5d
+			x: 1.5d
+			y: 2.0d
 			description: ["Очиститель - это сложный мультиблок, который может перерабатывать одну или две жидкости в другую."]
 			dependencies: ["54CDC6924D4FD0B2"]
 			id: "3D168244919413A1"
@@ -803,8 +848,8 @@
 		{
 			title: "Соковыжималка"
 			icon: "minecraft:piston"
-			x: 0.0d
-			y: 2.5d
+			x: 0.5d
+			y: 2.0d
 			description: ["Соковыжималка - это многоблочная структура, которая выжимает сок или масло из органических материалов с помощью большого поршня."]
 			dependencies: ["54CDC6924D4FD0B2"]
 			id: "2E3F792AADAF68D4"
@@ -870,7 +915,7 @@
 		}
 		{
 			x: 0.5d
-			y: 4.0d
+			y: 3.5d
 			description: ["Просто масло, пригодится для создания биодизеля."]
 			dependencies: ["2E3F792AADAF68D4"]
 			id: "56539FB7DEC84AB1"
@@ -882,7 +927,7 @@
 		}
 		{
 			x: 1.5d
-			y: 4.0d
+			y: 3.5d
 			shape: "crumpled_rsquare"
 			description: ["Отлично подойдёт для дизельного генератора."]
 			dependencies: ["3D168244919413A1"]
@@ -896,8 +941,8 @@
 		{
 			title: "Смеситель"
 			icon: "immersiveengineering:steel_scaffolding_standard"
-			x: 0.0d
-			y: 1.5d
+			x: -0.5d
+			y: 1.0d
 			description: ["Смеситель - это многоблочная структура, которая растворяет твёрдые вещества в жидкие, смешивая их вместе."]
 			dependencies: ["54CDC6924D4FD0B2"]
 			id: "5EBD27D607093719"
@@ -943,8 +988,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: 1.5d
+			x: -0.5d
+			y: 2.0d
 			description: ["С помощью ведра бетона можно создать бетон, вот это да!"]
 			dependencies: ["5EBD27D607093719"]
 			id: "2AAB3E14C3B43D7A"
@@ -957,8 +1002,8 @@
 		{
 			title: "Дизельный генератор"
 			icon: "immersiveengineering:radiator"
-			x: 7.5d
-			y: -2.25d
+			x: 8.0d
+			y: -2.5d
 			shape: "crumpled_hexagon"
 			description: ["Дизельный генератор является мощным источником электроэнергии, который работает на биодизеле или на другом горючем топливе."]
 			hide_dependency_lines: true
@@ -1009,8 +1054,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: 3.0d
+			x: -0.5d
+			y: 3.5d
 			description: ["Прикольный блок, можно использовать в качестве декорации."]
 			dependencies: ["2AAB3E14C3B43D7A"]
 			id: "5640D34B5C62D803"
@@ -1029,10 +1074,81 @@
 			}]
 		}
 		{
+			x: -4.0d
+			y: -1.0d
+			description: ["Забор из обработанной древесины можно использовать как обычный забор. Но я всё же советую вам создать бункер и жидкостный резервуар."]
+			dependencies: ["1EDB5F4D82DE3F36"]
+			id: "18F23E1DE14A9108"
+			tasks: [{
+				id: "459CBB9F6798EC5D"
+				type: "item"
+				title: "Забор из обработанной древесины"
+				item: "immersiveengineering:treated_fence"
+				count: 4L
+			}]
+			rewards: [{
+				id: "2FEC8CCCADF2C44E"
+				type: "item"
+				item: "immersiveengineering:treated_fence"
+				count: 2
+			}]
+		}
+		{
+			title: "Бункер"
+			icon: "immersiveengineering:sheetmetal_iron"
+			x: -3.0d
+			y: -1.0d
+			subtitle: "Склад мусора"
+			description: ["В бункере можно хранить до 41 472 однотипных предметов, что делает его идеальным хранилищем для мусорных предметов, например, булыжник, земля, семена и т.п."]
+			dependencies: ["18F23E1DE14A9108"]
+			id: "068567673E668B70"
+			tasks: [
+				{
+					id: "58F08437129A4342"
+					type: "item"
+					title: "Железный листовой металл"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 50L
+				}
+				{
+					id: "0B6BD501F99D54A5"
+					type: "item"
+					title: "Забор из обработанной древесины"
+					item: "immersiveengineering:treated_fence"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Жидкостный резервуар"
+			icon: "immersiveengineering:sheetmetal_iron"
+			x: -3.0d
+			y: -2.0d
+			description: ["Жидкостный резервуар - это мультиблок, который может хранить до 512 вёдер жидкости."]
+			dependencies: ["18F23E1DE14A9108"]
+			id: "31A21E6BE5A19999"
+			tasks: [
+				{
+					id: "38F31F3ECA7CCDD9"
+					type: "item"
+					title: "Железный листовой металл"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 34L
+				}
+				{
+					id: "07C156033EA31DF6"
+					type: "item"
+					title: "Забор из обработанной древесины"
+					item: "immersiveengineering:treated_fence"
+					count: 4L
+				}
+			]
+		}
+		{
 			title: "Продвинутая доменная печь"
 			icon: "immersiveengineering:blastbrick_reinforced"
 			x: -6.0d
-			y: 1.5d
+			y: 1.0d
 			shape: "crumpled_rsquare"
 			description: ["Продвинутая доменная печь - это гораздо более профессиональный способ создания стали. Она не только позволяет автоматизировать входы и выходы, но и может быть оснащена воздухонагревателями для ускорения процесса очистки за счёт добавления горячего воздуха."]
 			dependencies: ["3AFF1B058489D15B"]
@@ -1055,8 +1171,8 @@
 		{
 			title: "Дуговая печь"
 			icon: "immersiveengineering:sheetmetal_steel"
-			x: -6.5d
-			y: 3.0d
+			x: -7.0d
+			y: 1.0d
 			description: ["Дуговая печь - массивная структура, используемая для быстрой плавки металлов. Она состоит из стального ковша, покрытого электродами, которые нагревают металл."]
 			dependencies: ["7386B63289BF8642"]
 			id: "646EF3639DA45574"
@@ -1259,7 +1375,7 @@
 		}
 		{
 			x: -3.5d
-			y: 0.5d
+			y: 3.5d
 			description: ["С помощью парусов ветряной мельницы можно увеличить количество производимой энергии. Для этого, нужно нажать ПКМ по центру ветряной мельницы."]
 			dependencies: ["313373728D5BBC98"]
 			id: "33B9608141485208"
@@ -1272,8 +1388,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 3.0d
+			x: -6.0d
+			y: 2.0d
 			description: ["Воздухонагреватель доменной печи позволяет ускорить процесс очистики за счёт добавления горячего воздуха. "]
 			dependencies: ["7386B63289BF8642"]
 			id: "1F2FB239A143701C"
@@ -1286,8 +1402,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 4.0d
+			x: -7.5d
+			y: 2.5d
 			description: ["Изолированный моток низковольтного провода можно использовать как и обычный моток провода, только этот не будет бить вас током при касании."]
 			dependencies: ["384FD483F981421D"]
 			id: "42A74B6CB3E9C038"
@@ -1307,7 +1423,7 @@
 		}
 		{
 			x: -1.5d
-			y: -1.0d
+			y: 1.0d
 			description: ["Пильный диск нужен для лесопилки."]
 			dependencies: ["3D8CFD30C623508F"]
 			id: "12375DEC2DCB88C2"
@@ -1325,7 +1441,7 @@
 		}
 		{
 			x: -1.5d
-			y: -2.5d
+			y: 2.0d
 			description: ["Пильный диск нужен для лесопилки."]
 			dependencies: ["12375DEC2DCB88C2"]
 			id: "24EDE45FCCC7966C"
@@ -1342,7 +1458,7 @@
 			}]
 		}
 		{
-			x: -7.5d
+			x: -7.0d
 			y: -1.5d
 			description: ["На алтаре наполнения можно создать семена, с помощью которых можно выращивать ресурсы!"]
 			dependencies: ["1297CE33EC6FB1B8"]
@@ -1354,7 +1470,7 @@
 			}]
 		}
 		{
-			x: -8.5d
+			x: -8.0d
 			y: -1.5d
 			description: ["Пьедестал наполнения нужен для создания различных семян на алтаре наполнения."]
 			dependencies: ["1297CE33EC6FB1B8"]
@@ -1374,7 +1490,7 @@
 				tag: { }
 			}
 			x: 1.0d
-			y: -1.0d
+			y: -2.0d
 			shape: "crumpled_rsquare"
 			subtitle: "Чтоб не потеряться :)"
 			dependencies: ["4CC33F150E5DA0A0"]
@@ -1387,17 +1503,6 @@
 					Count: 1b
 					tag: { }
 				}
-			}]
-		}
-		{
-			x: -6.0d
-			y: -4.0d
-			dependencies: ["65730E58BE0EB86B"]
-			id: "4458BC87AB2F65C5"
-			tasks: [{
-				id: "61DB537B9144E595"
-				type: "item"
-				item: "artisanworktables:worktable_engineer"
 			}]
 		}
 	]

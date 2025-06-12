@@ -1,0 +1,122 @@
+{
+	id: "3709B80E79EDDCED"
+	group: "6E7449445FFC34C5"
+	order_index: 2
+	filename: "a"
+	title: "&6Прочее"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 50.0d
+		height: 30.0d
+		rotation: 0.0d
+		image: "gloomyrise:textures/clear_bookred.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			icon: "appliedenergistics2:grindstone"
+			x: -7.0d
+			y: -3.0d
+			description: ["Кварцевый дробитель позволяет вам перемалывать руду в пыль. Для того, чтобы дробить руду необходимо на дробитель поставить &eрукоятку&f, а после крутите её."]
+			hide_dependency_lines: true
+			dependencies: ["2CB6E2F317E842CA"]
+			id: "6BDEDFD2C6E2E62F"
+			tasks: [
+				{
+					id: "7258932F0907108A"
+					type: "item"
+					item: "appliedenergistics2:grindstone"
+				}
+				{
+					id: "1881F288F9B72E27"
+					type: "item"
+					item: "appliedenergistics2:crank"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			description: ["Пока находится в вашем инвентаре - накапливает время, а потом это время можно использовать для ускорения различных процессов."]
+			hide_dependency_lines: true
+			dependencies: ["3CEDE60AD25690CF"]
+			id: "24DDF0425E4D682C"
+			tasks: [{
+				id: "446C9C7FB09358A7"
+				type: "item"
+				title: "Время в бутылке"
+				item: {
+					id: "tiab:timeinabottle"
+					Count: 1b
+					tag: {
+						timeData: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -0.5d
+			description: ["Собирает предметы недалеко от вас."]
+			hide_dependency_lines: true
+			dependencies: ["3CEDE60AD25690CF"]
+			id: "13458DF94390D17D"
+			tasks: [{
+				id: "654F37947C284D84"
+				type: "item"
+				item: {
+					id: "simplemagnets:basicmagnet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.0d
+			description: ["Улучшенный магнит. Увеличивает дистанцию сбора предметов."]
+			dependencies: ["13458DF94390D17D"]
+			id: "0EB9F82384980D93"
+			tasks: [{
+				id: "2375BD1B8BB0CADD"
+				type: "item"
+				item: {
+					id: "simplemagnets:advancedmagnet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			description: ["Позволяет легче строить масштабные постройки."]
+			hide_dependency_lines: true
+			dependencies: ["3CEDE60AD25690CF"]
+			id: "58C9C1DAC20F99DE"
+			tasks: [{
+				id: "1E62445C861E73AC"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+		}
+	]
+}
