@@ -1,7 +1,7 @@
 {
 	version: 13
 	title: "&4&lGloomy Rise"
-	icon: "graveyard:leaning_wither_skeleton"
+	icon: "kubejs:gloomy_rise_icon"
 	default_reward_team: true
 	default_consume_items: false
 	default_autoclaim_rewards: "disabled"
