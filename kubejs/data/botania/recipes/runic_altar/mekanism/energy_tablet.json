@@ -9,13 +9,13 @@
       "item": "mekanism:alloy_infused"
     },
     {
-      "item": "mekanism:ingot_osmium"
+      "tag": "forge:ingots/osmium"
     },
     {
       "item": "mekanism:alloy_infused"
     },
     {
-      "item": "immersiveengineering:ingot_steel"
+      "tag": "forge:ingots/steel"
     },
     {
       "item": "mekanism:alloy_infused"
@@ -24,7 +24,7 @@
       "item": "minecraft:redstone"
     },
     {
-      "item": "immersiveengineering:ingot_electrum"
+      "tag": "forge:ingots/electrum"
     }
   ]
 }

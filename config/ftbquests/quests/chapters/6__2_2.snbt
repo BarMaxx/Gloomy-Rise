@@ -1,0 +1,747 @@
+{
+	id: "55821682CF8DD93E"
+	group: "24923118FBE15B71"
+	order_index: 1
+	filename: "6__2_2"
+	title: "&6Высшие технологии Ч.2"
+	icon: "draconicevolution:reactor_core"
+	default_quest_shape: "ragged_circle"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 50.0d
+		height: 30.0d
+		rotation: 0.0d
+		image: "gloomyrise:textures/clear_bookred.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -6.5d
+			y: -3.5d
+			description: ["Один из основных компонетов в моде. Понадобится во многих крафтах, в том числе в крафтах Инструментов Виверны."]
+			dependencies: ["09AEF5AB3957D385"]
+			id: "370EFA552B43333C"
+			tasks: [{
+				id: "461383390A30DF5A"
+				type: "item"
+				title: "Ядро Дракона"
+				item: "draconicevolution:draconium_core"
+				count: 4L
+			}]
+			rewards: [{
+				id: "128D7F1347266250"
+				type: "item"
+				item: "draconicevolution:draconium_core"
+				count: 2
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			description: ["Один из основных компонетов в моде. С его помощью Вам будет доступен крафт Инструментов Дракона."]
+			dependencies: ["370EFA552B43333C"]
+			id: "2997208A5AC1C2FA"
+			tasks: [{
+				id: "681FEA619488D157"
+				type: "item"
+				title: "Ядро Виверны"
+				item: "draconicevolution:wyvern_core"
+				count: 4L
+			}]
+			rewards: [{
+				id: "5CE13F718124EE13"
+				type: "item"
+				item: "draconicevolution:wyvern_core"
+				count: 2
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			description: ["Один из основных компонетов в моде. Используется во многих крафтах, в том числе используется для создания Ядра Хаоса."]
+			dependencies: ["2997208A5AC1C2FA"]
+			id: "452EC9F116716CAF"
+			tasks: [{
+				id: "40F5FEF21F5D0700"
+				type: "item"
+				title: "Пробуждённое ядро"
+				item: "draconicevolution:awakened_core"
+				count: 4L
+			}]
+			rewards: [{
+				id: "6D8DF62937546F33"
+				type: "item"
+				item: "draconicevolution:awakened_core"
+				count: 2
+			}]
+		}
+		{
+			x: -4.5d
+			y: -0.5d
+			description: ["Один из основных компонетов в моде. Используется во многих сложных крафтах, таких как Ядро дракониевого реактора и Посох силы Хаоса."]
+			dependencies: ["452EC9F116716CAF"]
+			id: "1CB284EFCE071269"
+			tasks: [{
+				id: "316AF7C9A8DD648D"
+				type: "item"
+				title: "Ядро Хаоса"
+				item: "draconicevolution:chaotic_core"
+				count: 4L
+			}]
+			rewards: [{
+				id: "3BB0B58E23BB1263"
+				type: "item"
+				item: "draconicevolution:chaotic_core"
+				count: 2
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			subtitle: "Стабильность - наше всё"
+			description: ["Стабилизатор... А зачем?.."]
+			dependencies: ["1CB284EFCE071269"]
+			id: "5798AD701625E6BD"
+			tasks: [{
+				id: "571818779FDCDAD4"
+				type: "item"
+				item: "draconicevolution:reactor_stabilizer"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -2.0d
+			description: ["В ядре слияния можно создать много различных предметов."]
+			dependencies: ["370EFA552B43333C"]
+			id: "73DB03CB10F94474"
+			tasks: [{
+				id: "5FD29D3F6BAACDF2"
+				type: "item"
+				item: "draconicevolution:crafting_core"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.0d
+			subtitle: "Получай, крапива!"
+			description: ["Неплохое оружие."]
+			dependencies: ["09B3280996AB1183"]
+			id: "27A16957ECE8A443"
+			tasks: [{
+				id: "16A5436AD9F56F46"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_sword"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									1780377145
+									170807132
+									-1127141442
+									183043311
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.5d
+			description: ["Неплохой универсальный инструмент."]
+			dependencies: ["6A9D29E49AFC1B64"]
+			id: "6D088E573DBF4C61"
+			tasks: [{
+				id: "7F9F7178F574D1A1"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_staff"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-936814204
+									1015369129
+									-1277118654
+									1711160996
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: -0.5d
+			description: ["Необходим для проведения \"ритуала\" Уровня Виверны по слиянию предметов."]
+			dependencies: [
+				"73DB03CB10F94474"
+				"2D4CE16AEF758FF0"
+			]
+			id: "09B3280996AB1183"
+			tasks: [{
+				id: "18718C57B67FF70A"
+				type: "item"
+				title: "Инжектор слияние Виверны"
+				item: "draconicevolution:wyvern_crafting_injector"
+				count: 5L
+			}]
+			rewards: [{
+				id: "387791B23FE155C4"
+				type: "item"
+				item: "draconicevolution:wyvern_crafting_injector"
+				count: 2
+			}]
+		}
+		{
+			x: -8.5d
+			y: -2.0d
+			description: ["Многофункциональный сундучок."]
+			dependencies: ["73DB03CB10F94474"]
+			id: "27B13C42A42B0845"
+			tasks: [{
+				id: "0E4F774D8182BF41"
+				type: "item"
+				item: "draconicevolution:draconium_chest"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.0d
+			description: ["Необходим для проведения \"ритуала\" Уровня Дракона по слиянию предметов."]
+			dependencies: ["09B3280996AB1183"]
+			id: "6A9D29E49AFC1B64"
+			tasks: [{
+				id: "276367A60FEBA7A5"
+				type: "item"
+				title: "Инжектор слияния Дракона"
+				item: "draconicevolution:awakened_crafting_injector"
+				count: 5L
+			}]
+			rewards: [{
+				id: "6797E3E0C5978679"
+				type: "item"
+				item: "draconicevolution:awakened_crafting_injector"
+				count: 2
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.5d
+			description: ["Нужен для проведения \"ритуала\" Уровня Хаоса по слиянию предметов."]
+			dependencies: ["6A9D29E49AFC1B64"]
+			id: "4B64826470BD44D7"
+			tasks: [{
+				id: "5B32677920B3F406"
+				type: "item"
+				title: "Инжектор слияния Хаоса"
+				item: "draconicevolution:chaotic_crafting_injector"
+				count: 5L
+			}]
+			rewards: [{
+				id: "4109E1F5560E9FB1"
+				type: "item"
+				item: "draconicevolution:chaotic_crafting_injector"
+				count: 2
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			description: ["Может хранить большое количество энергии."]
+			dependencies: ["1CB284EFCE071269"]
+			id: "0BE8D1916B327D53"
+			tasks: [{
+				id: "11F009DAC1E4B965"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_capacitor"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-117524483
+									998786915
+									-2112893145
+									1752479871
+								]
+								modules: [ ]
+								properties: {
+									charge_main: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_armor: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			description: ["Неплохая броня."]
+			dependencies: ["09B3280996AB1183"]
+			id: "554785DD519E1CE1"
+			tasks: [{
+				id: "5E80E3DF93B408F7"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_chestpiece"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									396066644
+									-2100804863
+									-1362966020
+									742196859
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 1.5d
+			description: ["Хорошая броня."]
+			dependencies: ["6A9D29E49AFC1B64"]
+			id: "70CA307D410134CB"
+			tasks: [{
+				id: "285F351583D9637F"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_chestpiece"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									102199558
+									-679785123
+									-1589641509
+									1303717257
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.0d
+			description: ["Отличный универсальный инструмент."]
+			dependencies: ["4B64826470BD44D7"]
+			id: "2D0EF0F6C4ACA698"
+			tasks: [{
+				id: "064BCB00F78F86B2"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_staff"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									1282450788
+									-1664072812
+									-1163045789
+									-654478909
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.0d
+			description: ["Отличная броня."]
+			dependencies: ["4B64826470BD44D7"]
+			id: "2B2F1586CB6A482E"
+			tasks: [{
+				id: "25E828FC3398BE1E"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_chestpiece"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									2115220873
+									518341463
+									-1165090190
+									-1769273131
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 4.0d
+			shape: "ragged_rsquare"
+			description: ["Очень опасная, но мощная штуковина. Может хранить в себе огромное количество энергии."]
+			dependencies: ["4B64826470BD44D7"]
+			id: "514681D2ECCFFDAD"
+			tasks: [{
+				id: "74723108E135C66A"
+				type: "item"
+				item: "draconicevolution:reactor_core"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			description: ["Необходим для проведения \"ритуала\" Базового уровня по слиянию предметов."]
+			dependencies: ["370EFA552B43333C"]
+			id: "2D4CE16AEF758FF0"
+			tasks: [{
+				id: "13EEF1A3CB88F4CA"
+				type: "item"
+				title: "Базовый инжектор слияния"
+				item: "draconicevolution:basic_crafting_injector"
+				count: 5L
+			}]
+			rewards: [{
+				id: "43C5DE2FC04BCCB8"
+				type: "item"
+				item: "draconicevolution:basic_crafting_injector"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			description: ["Ультимейтная рамка механизма нужна для создания различных механизмов и не только."]
+			hide_dependency_lines: true
+			dependencies: ["5A62FA4EFF26C661"]
+			id: "38E6F5763D5DA74D"
+			tasks: [{
+				id: "233038C36452F73B"
+				type: "item"
+				title: "Ультимейтная рамка механизма"
+				item: "industrialforegoing:machine_frame_supreme"
+				count: 4L
+			}]
+			rewards: [{
+				id: "62CD7DF65F050E77"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+				count: 2
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			subtitle: "Да-да, не удивляйтесь"
+			description: ["Постройщик визеров строит визеров..."]
+			dependencies: ["38E6F5763D5DA74D"]
+			hide: true
+			id: "48307D4DB02D93CA"
+			tasks: [{
+				id: "7441F14E0295856E"
+				type: "item"
+				item: "industrialforegoing:wither_builder"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			description: ["Это очень дорогой блок."]
+			dependencies: ["48307D4DB02D93CA"]
+			hide: true
+			id: "56415AC8B6C4F1DB"
+			tasks: [{
+				id: "45696B195EFF5DEA"
+				type: "item"
+				item: "extendedcrafting:nether_star_block"
+			}]
+			rewards: [{
+				id: "03FF3FAB3505B73E"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			description: ["МЭ терминал нужен, чтобы взаимодействовать с предметами в МЭ сети."]
+			dependencies: ["302A14893184E904"]
+			id: "038C1DB891E5F731"
+			tasks: [{
+				id: "280FC5F817D942B1"
+				type: "item"
+				item: "appliedenergistics2:terminal"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: ["С помощью высекателя можно создавать различные компоненты для МЭ сети."]
+			dependencies: ["38E6F5763D5DA74D"]
+			id: "302A14893184E904"
+			tasks: [{
+				id: "49D08ECD68BC0A87"
+				type: "item"
+				item: "appliedenergistics2:inscriber"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			description: ["Нужен для создания ячейки хранения и не только."]
+			hide_dependency_lines: true
+			dependencies: ["302A14893184E904"]
+			id: "5916045CBA46BA39"
+			tasks: [{
+				id: "65C8943786BB09CF"
+				type: "item"
+				item: "appliedenergistics2:1k_cell_component"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			description: ["В МЭ накопителе хранятся ячейки хранения."]
+			dependencies: ["302A14893184E904"]
+			id: "219738D8C40A44E7"
+			tasks: [{
+				id: "268BE0F4E3756235"
+				type: "item"
+				item: "appliedenergistics2:drive"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			subtitle: "Мозг МЭ системы"
+			description: ["МЭ контроллер - главный блок МЭ сети."]
+			dependencies: ["302A14893184E904"]
+			id: "6F8C1F213EB5273D"
+			tasks: [{
+				id: "214708FA40B830F4"
+				type: "item"
+				item: "appliedenergistics2:controller"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.5d
+			description: ["Нужна для хранения предметов в МЭ сети."]
+			dependencies: ["5916045CBA46BA39"]
+			id: "7BFB8B4CE0B07B75"
+			tasks: [{
+				id: "112DD1930B8EC8DF"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:1k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.5d
+			description: ["Нужен для создания ячейки хранения и не только."]
+			dependencies: ["5916045CBA46BA39"]
+			id: "33B28E222354F361"
+			tasks: [{
+				id: "41E58DC791153B46"
+				type: "item"
+				item: "appliedenergistics2:4k_cell_component"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			description: ["Нужна для хранения предметов в МЭ сети. Хранит больше места, чем предыдущая ячейка."]
+			dependencies: ["33B28E222354F361"]
+			id: "49941C35085F4C0B"
+			tasks: [{
+				id: "1A0E332D637AB026"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:4k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -0.5d
+			description: ["Нужна для хранения предметов в МЭ сети. Хранит больше места, чем предыдущая ячейка."]
+			dependencies: ["70638D98D093BC9F"]
+			id: "13E3871CB9CF14D1"
+			tasks: [{
+				id: "60222A1C7F4DCCF6"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:16k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			description: ["Нужен для создания ячейки хранения и не только."]
+			dependencies: ["33B28E222354F361"]
+			id: "70638D98D093BC9F"
+			tasks: [{
+				id: "7E17D4B919CBD26A"
+				type: "item"
+				item: "appliedenergistics2:16k_cell_component"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			description: ["Нужен для создания ячейки хранения и не только."]
+			dependencies: ["70638D98D093BC9F"]
+			id: "0E8EF9B1B64084C5"
+			tasks: [{
+				id: "2CDD2857DEA7AD57"
+				type: "item"
+				item: "appliedenergistics2:64k_cell_component"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			description: ["Нужна для хранения предметов в МЭ сети. Хранит больше места, чем предыдущая ячейка."]
+			dependencies: ["0E8EF9B1B64084C5"]
+			id: "640BC9B93F25E34C"
+			tasks: [{
+				id: "429565960DAF92D4"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:64k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			dependencies: ["038C1DB891E5F731"]
+			id: "317A8FCEA52A1B10"
+			tasks: [
+				{
+					id: "2397C454F7B7EE06"
+					type: "item"
+					item: "appliedenergistics2:crafting_terminal"
+				}
+				{
+					id: "02029784DC548E9D"
+					type: "item"
+					item: "appliedenergistics2:fluid_terminal"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["317A8FCEA52A1B10"]
+			id: "167AAC3F0FB8DF20"
+			tasks: [{
+				id: "5A775359A1343C45"
+				type: "item"
+				item: "appliedenergistics2:pattern_terminal"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			dependencies: ["038C1DB891E5F731"]
+			id: "79CDE3EB4A65E9F2"
+			tasks: [{
+				id: "1F4257251E974079"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:wireless_terminal"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+	]
+}

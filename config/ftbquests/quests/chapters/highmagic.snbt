@@ -1,9 +1,9 @@
 {
 	id: "2309D4A1A3548BC8"
 	group: "24923118FBE15B71"
-	order_index: 1
+	order_index: 2
 	filename: "highmagic"
-	title: "&6Высшая магия"
+	title: "&6Высшая магия Ч.1"
 	icon: "botania:mana_pylon"
 	default_quest_shape: "ragged_circle"
 	default_hide_dependency_lines: false
@@ -23,7 +23,7 @@
 		{
 			x: -8.0d
 			y: -3.5d
-			shape: "ragged_gear"
+			shape: "ragged_rsquare"
 			description: ["Одним из первых инструментов, который должен получить каждый - жезл. Он позволяет контролировать выделении энергии звёздного света из чувствительных к звёздному свету устройств и ремесленных инструментов, щёлкая по ним пкм."]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -102,7 +102,7 @@
 			}]
 		}
 		{
-			x: -8.5d
+			x: -8.0d
 			y: 2.5d
 			description: ["На радужном алтаре можно создавать много различных предметов, например, чаша сдерживания."]
 			dependencies: ["6A0331BED30F89FB"]
@@ -114,8 +114,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 3.0d
+			x: -6.5d
+			y: 2.5d
 			description: ["С помощью чаши сдерживания можно создать максимальный верстак."]
 			dependencies: ["19E49E546B1B558B"]
 			id: "39D6FC9A8F839AEC"
@@ -123,19 +123,6 @@
 				id: "7E13DD3A62C89D57"
 				type: "item"
 				item: "astralsorcery:chalice"
-			}]
-		}
-		{
-			x: -7.5d
-			y: 4.0d
-			shape: "ragged_gear"
-			description: ["На максимально верстаке можно создать максимальную сингулярность и не только."]
-			dependencies: ["39D6FC9A8F839AEC"]
-			id: "7A7BF8AFFC7501B3"
-			tasks: [{
-				id: "289DF785F2045735"
-				type: "item"
-				item: "extendedcrafting:ultimate_table"
 			}]
 		}
 		{
@@ -151,9 +138,9 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -4.5d
 			y: 1.0d
-			shape: "ragged_pentagon"
+			shape: "ragged_rsquare"
 			description: ["С помощью чистой маргаритки можно создать жизнекамень и жизнедерево. Для их создания необходимо использовать чернит и багровую древесину соотвественно."]
 			dependencies: ["0341565B1DB3C325"]
 			id: "595BB762D63D1721"
@@ -164,9 +151,10 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 2.5d
+			x: -1.5d
+			y: -3.0d
 			description: ["С помощью жизнекамня можно создать бассейн маны и не только."]
+			hide_dependency_lines: true
 			dependencies: ["595BB762D63D1721"]
 			id: "65D706259ADBF1C0"
 			tasks: [{
@@ -184,9 +172,10 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 0.5d
+			x: 0.5d
+			y: -3.0d
 			description: ["С помощью жизнедерева можно создать распространитель маны и не только."]
+			hide_dependency_lines: true
 			dependencies: ["595BB762D63D1721"]
 			id: "1A050DBCFF0C1648"
 			tasks: [{
@@ -204,8 +193,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 3.0d
+			x: -2.0d
+			y: -2.0d
 			description: ["В бассейне маны можно хранить ману, чтобы в дальнейшем использовать в её во многих крафтах."]
 			dependencies: ["65D706259ADBF1C0"]
 			id: "60D2BA24431AC0FD"
@@ -216,8 +205,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 1.5d
+			x: 1.0d
+			y: -2.0d
 			description: ["Распространитель маны нужен, чтобы направить ману в нужную сторону."]
 			dependencies: ["1A050DBCFF0C1648"]
 			id: "1207A205CCED8C70"
@@ -228,10 +217,9 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -3.5d
+			x: -2.0d
+			y: -0.5d
 			description: ["С помощью маналмаза можно создать много различных предметов, например, рунический алтарь или пилон маны."]
-			hide_dependency_lines: true
 			dependencies: ["60D2BA24431AC0FD"]
 			id: "03C21083853294D6"
 			tasks: [{
@@ -249,8 +237,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -2.5d
+			x: -2.0d
+			y: 1.0d
 			description: ["На руническом алтаре можно создавать руны, вот это да))"]
 			dependencies: ["03C21083853294D6"]
 			id: "0B0E98095CEB2847"
@@ -261,8 +249,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -2.5d
+			x: -3.0d
+			y: 0.0d
 			description: ["С помощью пилона маны можно создать природный пилон или пилон гайи."]
 			dependencies: ["03C21083853294D6"]
 			id: "288A13F6044D9D73"
@@ -273,80 +261,32 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -3.5d
-			description: ["Пилон гайи нужен для призыва Гайи."]
-			dependencies: ["288A13F6044D9D73"]
-			id: "326F1C58C473C6F8"
-			tasks: [{
-				id: "591036F49C618BEB"
-				type: "item"
-				title: "Гайа пилон"
-				item: "botania:gaia_pylon"
-				count: 4L
-			}]
-		}
-		{
-			x: 0.0d
-			y: -0.5d
+			x: -0.5d
+			y: 4.0d
 			description: ["Природный пилон нужен для создания портала к эльфам."]
-			dependencies: ["288A13F6044D9D73"]
+			dependencies: ["6CBF4953ACB7D3C4"]
 			id: "4A3137D093B0564D"
-			tasks: [{
-				id: "42084425F6AEED5D"
-				type: "item"
-				item: "botania:natura_pylon"
-			}]
+			tasks: [
+				{
+					id: "42084425F6AEED5D"
+					type: "item"
+					item: "botania:natura_pylon"
+				}
+				{
+					id: "2A61D8B31EBB8A44"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+			]
 		}
 		{
-			x: 1.5d
-			y: -3.0d
-			shape: "ragged_rsquare"
-			dependencies: ["326F1C58C473C6F8"]
-			id: "09B7710675B81B75"
-			tasks: [{
-				id: "3DB3AED7D496F3BA"
-				type: "item"
-				title: "Дух Гайи"
-				item: "botania:life_essence"
-				count: 3L
-			}]
-			rewards: [{
-				id: "1588DE52AD09F91D"
-				type: "item"
-				item: "botania:life_essence"
-				count: 2
-			}]
-		}
-		{
-			x: 2.5d
-			y: -3.5d
-			description: ["Распространитель маны гайи нужен, чтобы направить ману в нужную сторону."]
-			dependencies: ["09B7710675B81B75"]
-			id: "4D0FC6688E9FC9AA"
-			tasks: [{
-				id: "1D0D74D2A68C7A69"
-				type: "item"
-				item: "botania:gaia_spreader"
-			}]
-		}
-		{
-			x: 2.5d
-			y: -2.5d
-			description: ["Интересно, для чего он нужен? :) Редактор: да я сам не знаю"]
-			dependencies: ["09B7710675B81B75"]
-			id: "5FF4161FAF6C3EE3"
-			tasks: [{
-				id: "57AC4C95A54CD700"
-				type: "item"
-				item: "botania:laputa_shard"
-			}]
-		}
-		{
-			x: -3.5d
-			y: 2.5d
+			x: -0.5d
+			y: -1.5d
 			description: ["С помощью слитка манастали можно создать много различных предметов."]
-			dependencies: ["60D2BA24431AC0FD"]
+			dependencies: [
+				"60D2BA24431AC0FD"
+				"1207A205CCED8C70"
+			]
 			id: "5BD9A7CE380B6670"
 			tasks: [{
 				id: "1D255460E50A1C11"
@@ -363,8 +303,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -0.5d
+			x: -0.5d
+			y: 1.0d
 			description: ["На данной плите можно создать слиток террастали и не только."]
 			dependencies: ["0B0E98095CEB2847"]
 			id: "36C1F3A9D018B5F8"
@@ -375,8 +315,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 1.0d
+			x: -0.5d
+			y: 2.5d
 			description: ["Очень нужный слиток, но создаётся он сложновато. "]
 			dependencies: ["36C1F3A9D018B5F8"]
 			id: "6CBF4953ACB7D3C4"
@@ -395,234 +335,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -3.5d
-			shape: "ragged_rsquare"
-			description: ["Кровавый алтарь - главый предмет в моде Blood Magic! Основа Вашего развития в этом моде!"]
-			hide_dependency_lines: true
-			dependencies: ["09B7710675B81B75"]
-			size: 1.3d
-			id: "310211F11C8A68E9"
-			tasks: [{
-				id: "0CEE9E22AAA5D081"
-				type: "item"
-				item: "bloodmagic:altar"
-			}]
-		}
-		{
-			x: 8.0d
-			y: -0.5d
-			description: ["Пустая руна нужна для создания рун или улучшения кровавого алтаря."]
-			dependencies: ["604BE4CC22A5DF43"]
-			id: "2C0AA4F9A398B84E"
-			tasks: [{
-				id: "4E1A06F40278F7AD"
-				type: "item"
-				title: "Пустая руна"
-				item: "bloodmagic:blankrune"
-				count: 9L
-			}]
-			rewards: [{
-				id: "18C0AAE3A5499C80"
-				type: "item"
-				item: "bloodmagic:blankrune"
-				count: 2
-			}]
-		}
-		{
-			x: 8.0d
-			y: -2.0d
-			description: ["Чистый шифер создаётся на алтаре 1 уровня."]
-			dependencies: ["310211F11C8A68E9"]
-			id: "604BE4CC22A5DF43"
-			tasks: [{
-				id: "7EE0F656CBE11074"
-				type: "item"
-				title: "Чистый шифер"
-				item: "bloodmagic:blankslate"
-				count: 5L
-			}]
-			rewards: [{
-				id: "4A61383616681793"
-				type: "item"
-				item: "bloodmagic:blankslate"
-				count: 2
-			}]
-		}
-		{
-			x: 8.0d
-			y: 1.5d
-			subtitle: "Резня!"
-			description: ["Кинжал для жертвоприношений :)"]
-			dependencies: ["2C0AA4F9A398B84E"]
-			id: "098A444D9F847848"
-			tasks: [{
-				id: "45941F37DBB28203"
-				type: "item"
-				item: "bloodmagic:daggerofsacrifice"
-			}]
-		}
-		{
-			x: 7.0d
-			y: -2.0d
-			description: ["С помощью алхимического стола можно создать много различных предметов."]
-			dependencies: ["604BE4CC22A5DF43"]
-			id: "3BFAF3EEF0FA4E9B"
-			tasks: [{
-				id: "47B67900335680B2"
-				type: "item"
-				item: "bloodmagic:alchemytable"
-			}]
-		}
-		{
-			x: 9.0d
-			y: -2.0d
-			description: ["С помощью данной кузницы можно создать много различных предметов."]
-			dependencies: ["604BE4CC22A5DF43"]
-			id: "2931277B0B65BEE2"
-			tasks: [{
-				id: "3D2888C67663DC49"
-				type: "item"
-				item: "bloodmagic:soulforge"
-			}]
-		}
-		{
-			x: 7.5d
-			y: 0.5d
-			description: ["Укреплённый шифер создаётся на алтаре 2 уровня."]
-			dependencies: ["2C0AA4F9A398B84E"]
-			id: "444990844E568EA9"
-			tasks: [{
-				id: "6A4FBE778C5F799C"
-				type: "item"
-				title: "Укреплённый шифер"
-				item: "bloodmagic:reinforcedslate"
-				count: 5L
-			}]
-			rewards: [{
-				id: "7504DFDC5FC81927"
-				type: "item"
-				item: "bloodmagic:reinforcedslate"
-				count: 2
-			}]
-		}
-		{
-			x: 9.5d
-			y: -3.5d
-			description: ["Слабый кровавый шар создаётся на алтаре 1 уровня."]
-			dependencies: ["310211F11C8A68E9"]
-			id: "7F5EF07CC23322DA"
-			tasks: [{
-				id: "69602CC66ECD4457"
-				type: "item"
-				item: "bloodmagic:weakbloodorb"
-			}]
-		}
-		{
-			x: 8.5d
-			y: 0.5d
-			description: ["Кровавый шар ученика создаётся на алтаре 2 уровня."]
-			dependencies: ["2C0AA4F9A398B84E"]
-			id: "3B7AE77552E7DAD8"
-			tasks: [{
-				id: "6606994CC32DFECA"
-				type: "item"
-				item: "bloodmagic:apprenticebloodorb"
-			}]
-		}
-		{
-			x: 9.0d
-			y: 1.5d
-			description: ["Кровавый шар мага создаётся на алтаре 3 уровня."]
-			dependencies: ["3B7AE77552E7DAD8"]
-			id: "029FBFB1E2C4EDED"
-			tasks: [{
-				id: "1CBE9183E39AFEFF"
-				type: "item"
-				item: "bloodmagic:magicianbloodorb"
-			}]
-		}
-		{
-			x: 8.5d
-			y: 2.5d
-			description: ["Кровавый шар мастера создаётся на алтаре 4 уровня."]
-			dependencies: ["029FBFB1E2C4EDED"]
-			id: "57C81B4BECC4F775"
-			tasks: [{
-				id: "547A69DB07B8290F"
-				type: "item"
-				item: "bloodmagic:masterbloodorb"
-			}]
-		}
-		{
-			x: 7.0d
-			y: 1.5d
-			description: ["Прочный шифер создаётся на алтаре 3 уровня."]
-			dependencies: ["444990844E568EA9"]
-			id: "5EC0FBD46A7681D7"
-			tasks: [{
-				id: "1F5674E024E5454F"
-				type: "item"
-				title: "Прочный шифер"
-				item: "bloodmagic:infusedslate"
-				count: 5L
-			}]
-			rewards: [{
-				id: "22EE748D96CF5C66"
-				type: "item"
-				item: "bloodmagic:infusedslate"
-				count: 2
-			}]
-		}
-		{
-			x: 7.5d
-			y: 2.5d
-			description: ["Демонический шифер создаётся на алтаре 4 уровня."]
-			dependencies: ["5EC0FBD46A7681D7"]
-			id: "10CA6E763836B7B6"
-			tasks: [{
-				id: "1C744DDA96E743ED"
-				type: "item"
-				title: "Демонический шифер"
-				item: "bloodmagic:demonslate"
-				count: 5L
-			}]
-			rewards: [{
-				id: "214136926AD18AFB"
-				type: "item"
-				item: "bloodmagic:demonslate"
-				count: 2
-			}]
-		}
-		{
-			x: -6.5d
-			y: 4.5d
-			shape: "ragged_heart"
-			description: ["Один из самых дорогих предметов в сборке."]
-			dependencies: ["7A7BF8AFFC7501B3"]
-			id: "4686059FB0DE29EC"
-			tasks: [{
-				id: "622AD7E28A146306"
-				type: "item"
-				item: "extendedcrafting:ultimate_singularity"
-			}]
-		}
-		{
-			x: -8.5d
-			y: 4.5d
-			shape: "ragged_heart"
-			description: ["Наверное, один из самых сложных предметов, но жаль, что с помощью этого слитка можно создать что-то еще..."]
-			dependencies: ["7A7BF8AFFC7501B3"]
-			id: "32FBD658D88BE93D"
-			tasks: [{
-				id: "129F77C7BCF755AA"
-				type: "item"
-				item: "extendedcrafting:the_ultimate_ingot"
-			}]
-		}
-		{
-			x: -3.5d
-			y: 3.5d
+			x: 0.5d
+			y: -1.0d
 			description: ["С помощью этих шипов можно создавать различные, очень интересные, предметы. Например, экстрактор крови или шипастую плиту."]
 			dependencies: ["5BD9A7CE380B6670"]
 			id: "5B511F842048451F"
@@ -641,8 +355,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 4.5d
+			x: 2.0d
+			y: -1.0d
 			shape: "ragged_rsquare"
 			description: ["С помощью Кровавого Экстрактора можно собирать кровь для дальнейшего использования."]
 			dependencies: ["5B511F842048451F"]
@@ -659,8 +373,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -1.5d
+			x: -2.5d
+			y: 2.5d
 			shape: "ragged_rsquare"
 			description: ["С помощью этого устройства можно вливать кровь в различные предметы. "]
 			dependencies: ["0B0E98095CEB2847"]
@@ -676,8 +390,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -0.5d
+			x: 1.5d
+			y: -3.5d
 			description: ["Очень удобная вещь."]
 			dependencies: ["1A050DBCFF0C1648"]
 			id: "3FD75A41117BE9E5"
@@ -694,8 +408,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 2.5d
+			x: -2.5d
+			y: -3.5d
 			description: ["Очень удобная вещь."]
 			dependencies: ["65D706259ADBF1C0"]
 			id: "23D507A047B15040"
@@ -712,8 +426,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -3.5d
+			x: -0.5d
+			y: -0.5d
 			description: ["В планшет маны можно собрать ману с собой, например для использования бижутерии."]
 			dependencies: ["03C21083853294D6"]
 			id: "448791B71EDB69C2"
@@ -728,8 +442,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -3.5d
+			x: 0.5d
+			y: 0.0d
 			description: ["Зеркало маны, интересная вещь."]
 			dependencies: ["448791B71EDB69C2"]
 			id: "677DA69EC5201302"
@@ -744,10 +458,10 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -2.5d
+			x: 1.0d
+			y: 3.0d
 			description: ["Землекрушитель - это необычная кирка, потому что её можно напитать огромным количеством маны и она будет копать огромную территорию."]
-			dependencies: ["448791B71EDB69C2"]
+			dependencies: ["6CBF4953ACB7D3C4"]
 			id: "50E86A61FAC34F95"
 			tasks: [{
 				id: "3F450524370E0D72"
@@ -763,8 +477,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -2.5d
+			x: 2.0d
+			y: 2.5d
 			description: ["Универсальный инструмент из террастали. Очень удобная вещь."]
 			dependencies: ["50E86A61FAC34F95"]
 			id: "58E71A64C9379EC8"
@@ -784,7 +498,7 @@
 		}
 		{
 			x: -1.5d
-			y: -1.5d
+			y: 2.5d
 			description: ["С помощью этой ботанической варочной стойке можно варить различные зелья и не только."]
 			dependencies: ["0B0E98095CEB2847"]
 			id: "3F38DFF0F3035F6F"
@@ -795,9 +509,10 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 1.0d
+			x: 8.5d
+			y: -3.5d
 			description: ["Слиткок элементия можно получить при торговле с Эльфами. Этот слиток вам пригодится для создания многих вещей."]
+			hide_dependency_lines: true
 			dependencies: ["4A3137D093B0564D"]
 			id: "0E1B37DA245F53F8"
 			tasks: [{
@@ -815,187 +530,10 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 2.0d
-			description: ["На мана-инфузере можно создавать много различных вещей. Например, слиток альфстали."]
-			dependencies: ["0E1B37DA245F53F8"]
-			id: "0E663FA329237DB2"
-			tasks: [{
-				id: "78850BA66066D64E"
-				type: "item"
-				item: "mythicbotany:mana_infuser"
-			}]
-		}
-		{
-			x: 0.0d
-			y: 3.0d
-			description: ["Из слитка альфстали можно создавать много различных вещей. "]
-			dependencies: ["0E663FA329237DB2"]
-			id: "1D9C8BDCF3A44B7A"
-			tasks: [{
-				id: "0098C4A8D63EEF4E"
-				type: "item"
-				title: "Слиток Альфстали"
-				item: "mythicbotany:alfsteel_ingot"
-				count: 4L
-			}]
-			rewards: [{
-				id: "33CD7BB1785EA1D0"
-				type: "item"
-				item: "mythicbotany:alfsteel_ingot"
-				count: 2
-			}]
-		}
-		{
-			x: 0.5d
-			y: 4.5d
-			description: ["С помощью этого слитка можно создать неплохую броню."]
-			dependencies: ["1D9C8BDCF3A44B7A"]
-			id: "2F3B15149094466A"
-			tasks: [{
-				id: "1CFA7F6C06527675"
-				type: "item"
-				title: "Двойной слиток Альфстали"
-				item: "mythicbotany:alfsteel_armor_upgrade"
-				count: 4L
-			}]
-			rewards: [{
-				id: "7E7460CD632DFD52"
-				type: "item"
-				item: "mythicbotany:alfsteel_armor_upgrade"
-				count: 2
-			}]
-		}
-		{
-			x: -0.5d
-			y: 4.5d
-			description: ["Неплохая бижутерия."]
-			dependencies: ["1D9C8BDCF3A44B7A"]
-			id: "0F6E30216D048970"
-			tasks: [{
-				id: "439B70F646C2B2F2"
-				type: "item"
-				item: {
-					id: "mythicbotany:mana_ring_greatest"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: -1.0d
-			y: 3.0d
-			description: ["Неплохая бижутерия."]
-			dependencies: ["1D9C8BDCF3A44B7A"]
-			id: "613183F7FE44F1D4"
-			tasks: [{
-				id: "7873D5E38867DF25"
-				type: "item"
-				item: {
-					id: "mythicbotany:aura_ring_greatest"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: 1.0d
-			y: 2.5d
-			description: ["С помощью этого пилона можно создать пилон Гайи."]
-			dependencies: ["1D9C8BDCF3A44B7A"]
-			id: "017E0C0FA375C7BD"
-			tasks: [{
-				id: "4ED9A017B930C1AA"
-				type: "item"
-				item: "mythicbotany:alfsteel_pylon"
-			}]
-		}
-		{
-			x: 1.0d
-			y: 3.5d
-			subtitle: "Ещё один AIOT, чтоб вы не скучали)"
-			description: ["Универсальный инструмент из альфстали. Очень удобная вещь."]
-			dependencies: ["1D9C8BDCF3A44B7A"]
-			id: "5AF44BD2A2291D4C"
-			tasks: [{
-				id: "26A811F6D38873F4"
-				type: "item"
-				title: "AIOT из альфстали"
-				item: {
-					id: "aiotbotania:alfsteel_aiot"
-					Count: 1b
-					tag: {
-						mana: 9999
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			title: "Броня Альфстали"
-			icon: {
-				id: "mythicbotany:alfsteel_chestplate"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 1.5d
-			y: 4.5d
-			description: ["Неплохая броня."]
-			dependencies: ["2F3B15149094466A"]
-			id: "54736594FBFFB76B"
-			tasks: [
-				{
-					id: "0CCD72F8638749FC"
-					type: "item"
-					item: {
-						id: "mythicbotany:alfsteel_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "358A39FCDFA61654"
-					type: "item"
-					item: {
-						id: "mythicbotany:alfsteel_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "7BAC6AB968F136BC"
-					type: "item"
-					item: {
-						id: "mythicbotany:alfsteel_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "6063935B925CE675"
-					type: "item"
-					item: {
-						id: "mythicbotany:alfsteel_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 1.0d
-			y: -1.0d
+			x: 7.5d
+			y: -4.0d
 			description: ["Камень дракона можно получить при торговле с Эльфами. Этот камень вам пригодится для создания многих вещей."]
+			hide_dependency_lines: true
 			dependencies: ["4A3137D093B0564D"]
 			id: "559B6D76D55C28BE"
 			tasks: [{
@@ -1013,9 +551,10 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 0.0d
+			x: 6.5d
+			y: -3.5d
 			description: ["Пыльцу феи можно получить при торговле с Эльфами. Эта пыльца вам пригодится для создания многих вещей."]
+			hide_dependency_lines: true
 			dependencies: ["4A3137D093B0564D"]
 			id: "74D98C6A05DEDB79"
 			tasks: [{
@@ -1033,8 +572,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 0.5d
+			x: 6.0d
+			y: -2.0d
 			description: ["С помощью этого жезла можно создать руну Асгарда и бивёрстовый блок."]
 			dependencies: ["74D98C6A05DEDB79"]
 			id: "53A2CF06078A4F58"
@@ -1045,8 +584,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 1.5d
+			x: 6.0d
+			y: -0.5d
 			description: ["С помощью этого блока можно создать сказочный бассейн маны."]
 			dependencies: ["53A2CF06078A4F58"]
 			id: "4100CBD80D74EF09"
@@ -1065,8 +604,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 2.5d
+			x: 6.0d
+			y: 1.0d
 			description: ["Тот же бассейн маны, но немного эффективнее."]
 			dependencies: ["4100CBD80D74EF09"]
 			id: "1C0BA678CFF4EED8"
@@ -1077,105 +616,7 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -1.0d
-			description: ["Волшебный пепел можно создать на алхимическом столе либо же с помощью волшебного пепла."]
-			dependencies: ["3BFAF3EEF0FA4E9B"]
-			id: "046F2CC77792239E"
-			tasks: [{
-				id: "371CCDE1EAF7B51B"
-				type: "item"
-				item: {
-					id: "bloodmagic:arcaneashes"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 6.0d
-			y: -2.0d
-			description: ["Неплохая броня, которую можно прокачать."]
-			hide_dependency_lines: true
-			dependencies: ["046F2CC77792239E"]
-			id: "55BA03323CB14A1A"
-			tasks: [{
-				id: "0C2343AC5E5F2139"
-				type: "item"
-				item: {
-					id: "bloodmagic:livinghelmet"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 5.5d
-			y: -1.0d
-			description: ["Неплохая броня, которую можно прокачать."]
-			hide_dependency_lines: true
-			dependencies: ["046F2CC77792239E"]
-			id: "04831483EA7056F5"
-			tasks: [{
-				id: "568688168D41D452"
-				type: "item"
-				item: {
-					id: "bloodmagic:livingplate"
-					Count: 1b
-					tag: {
-						Damage: 0
-						livingStats: {
-							maxPoints: 100
-							upgrades: [ ]
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: 5.5d
-			y: 0.0d
-			description: ["Неплохая броня, которую можно прокачать."]
-			hide_dependency_lines: true
-			dependencies: ["046F2CC77792239E"]
-			id: "408563BC3BE20B2D"
-			tasks: [{
-				id: "486C4DF71721C46C"
-				type: "item"
-				item: {
-					id: "bloodmagic:livingleggings"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 6.0d
-			y: 1.0d
-			description: ["Неплохая броня, которую можно прокачать."]
-			hide_dependency_lines: true
-			dependencies: ["046F2CC77792239E"]
-			id: "10A5426E7D746B4E"
-			tasks: [{
-				id: "608C4A6B702087C0"
-				type: "item"
-				item: {
-					id: "bloodmagic:livingboots"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: -1.5d
+			x: 1.0d
 			y: 2.0d
 			description: ["&6Большое кольцо ауры  &bнеобходимо &fВам для автоматизации множества процессов в &6Botania&f."]
 			dependencies: ["6CBF4953ACB7D3C4"]
@@ -1196,8 +637,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 3.5d
+			x: 6.5d
+			y: 2.5d
 			description: ["С помощью механического бассейна маны можно автоматизировать создание в бассейне маны."]
 			dependencies: ["1C0BA678CFF4EED8"]
 			id: "4467FBCA1A3A44CD"
@@ -1208,8 +649,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 3.0d
+			x: 1.5d
+			y: 1.0d
 			description: ["С помощью завода промышленной агломерации можно автоматизировать создание на агломерационной плите."]
 			dependencies: ["07F85A353752BDED"]
 			id: "2E5B4994A2C2AA92"
@@ -1220,8 +661,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -1.5d
+			x: -2.0d
+			y: 4.0d
 			description: ["С помощью механической варочной стойки можно автоматизировать зельеварение."]
 			dependencies: ["3F38DFF0F3035F6F"]
 			id: "4F66DEF26E8FFD6B"
@@ -1232,8 +673,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 2.0d
+			x: 0.5d
+			y: 1.0d
 			description: ["С помощью механического рунического алтаря можно автоматизировать создание на руническом алтаре."]
 			dependencies: ["07F85A353752BDED"]
 			id: "73BC005752B2178F"
@@ -1244,7 +685,7 @@
 			}]
 		}
 		{
-			x: -7.5d
+			x: -7.0d
 			y: 1.0d
 			description: ["Используется для улучшения инструментов, получения из одной руды большое количество слитков и т.п."]
 			dependencies: ["6A0331BED30F89FB"]
@@ -1256,7 +697,7 @@
 			}]
 		}
 		{
-			x: -6.5d
+			x: -6.0d
 			y: 1.5d
 			description: ["Очень важный предмет :)"]
 			dependencies: ["50948AE8E255D97F"]
@@ -1302,7 +743,7 @@
 					Damage: 0
 				}
 			}
-			x: -6.5d
+			x: -6.0d
 			y: 0.5d
 			description: ["Улучшенные кристальные инструменты намного лучше, чем просто кристальные инструменты."]
 			dependencies: ["50948AE8E255D97F"]
@@ -1648,6 +1089,184 @@
 					}
 				}
 			]
+		}
+		{
+			x: 9.0d
+			y: -2.0d
+			description: ["На мана-инфузере можно создавать много различных вещей. Например, слиток альфстали."]
+			dependencies: ["0E1B37DA245F53F8"]
+			id: "0E663FA329237DB2"
+			tasks: [{
+				id: "78850BA66066D64E"
+				type: "item"
+				item: "mythicbotany:mana_infuser"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.0d
+			description: ["С помощью этого пилона можно создать пилон Гайи."]
+			dependencies: ["1D9C8BDCF3A44B7A"]
+			id: "017E0C0FA375C7BD"
+			tasks: [{
+				id: "4ED9A017B930C1AA"
+				type: "item"
+				item: "mythicbotany:alfsteel_pylon"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -0.5d
+			description: ["Из слитка альфстали можно создавать много различных вещей. "]
+			dependencies: ["0E663FA329237DB2"]
+			id: "1D9C8BDCF3A44B7A"
+			tasks: [{
+				id: "0098C4A8D63EEF4E"
+				type: "item"
+				title: "Слиток Альфстали"
+				item: "mythicbotany:alfsteel_ingot"
+				count: 4L
+			}]
+			rewards: [{
+				id: "33CD7BB1785EA1D0"
+				type: "item"
+				item: "mythicbotany:alfsteel_ingot"
+				count: 2
+			}]
+		}
+		{
+			title: "Броня Альфстали"
+			icon: {
+				id: "mythicbotany:alfsteel_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 9.0d
+			y: 2.5d
+			description: ["Неплохая броня."]
+			dependencies: ["2F3B15149094466A"]
+			id: "54736594FBFFB76B"
+			tasks: [
+				{
+					id: "0CCD72F8638749FC"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "358A39FCDFA61654"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7BAC6AB968F136BC"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6063935B925CE675"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 1.0d
+			description: ["С помощью этого слитка можно создать неплохую броню."]
+			dependencies: ["1D9C8BDCF3A44B7A"]
+			id: "2F3B15149094466A"
+			tasks: [{
+				id: "1CFA7F6C06527675"
+				type: "item"
+				title: "Двойной слиток Альфстали"
+				item: "mythicbotany:alfsteel_armor_upgrade"
+				count: 4L
+			}]
+			rewards: [{
+				id: "7E7460CD632DFD52"
+				type: "item"
+				item: "mythicbotany:alfsteel_armor_upgrade"
+				count: 2
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			description: ["Неплохая бижутерия."]
+			dependencies: ["1D9C8BDCF3A44B7A"]
+			id: "0F6E30216D048970"
+			tasks: [{
+				id: "439B70F646C2B2F2"
+				type: "item"
+				item: {
+					id: "mythicbotany:mana_ring_greatest"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			description: ["Неплохая бижутерия."]
+			dependencies: ["1D9C8BDCF3A44B7A"]
+			id: "613183F7FE44F1D4"
+			tasks: [{
+				id: "7873D5E38867DF25"
+				type: "item"
+				item: {
+					id: "mythicbotany:aura_ring_greatest"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.0d
+			subtitle: "Ещё один AIOT, чтоб вы не скучали)"
+			description: ["Универсальный инструмент из альфстали. Очень удобная вещь."]
+			dependencies: ["1D9C8BDCF3A44B7A"]
+			id: "5AF44BD2A2291D4C"
+			tasks: [{
+				id: "26A811F6D38873F4"
+				type: "item"
+				title: "AIOT из альфстали"
+				item: {
+					id: "aiotbotania:alfsteel_aiot"
+					Count: 1b
+					tag: {
+						mana: 9999
+						Damage: 0
+					}
+				}
+			}]
 		}
 	]
 }

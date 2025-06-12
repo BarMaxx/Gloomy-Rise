@@ -212,7 +212,7 @@
 		{
 			x: -4.0d
 			y: -1.0d
-			shape: "default_gear"
+			shape: "default_rsquare"
 			description: ["Позволяют видеть больше!"]
 			dependencies: ["74670921294D0512"]
 			id: "6988BCF930287760"
@@ -960,6 +960,66 @@
 				id: "0A8F106E5471F461"
 				type: "item"
 				item: "create:gearshift"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["16E0B4C72AB93B50"]
+			id: "13E9AFF02F4A5636"
+			tasks: [{
+				id: "3978D8C0D25B6544"
+				type: "item"
+				item: "integrateddynamics:squeezer"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["16E0B4C72AB93B50"]
+			id: "31B6DC969D5F5644"
+			tasks: [{
+				id: "0790D07FD607D2D2"
+				type: "item"
+				item: "integrateddynamics:drying_basin"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.5d
+			dependencies: [
+				"13E9AFF02F4A5636"
+				"31B6DC969D5F5644"
+			]
+			id: "3FB7AC8DDD573C8F"
+			tasks: [{
+				id: "359D57D033A9B1DE"
+				type: "item"
+				item: "integrateddynamics:crystalized_menril_chunk"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -0.5d
+			dependencies: ["3FB7AC8DDD573C8F"]
+			id: "79854F8C9BFF49AB"
+			tasks: [{
+				id: "29C9CBCD78650D6D"
+				type: "item"
+				item: "integrateddynamics:cable"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -0.5d
+			dependencies: ["3FB7AC8DDD573C8F"]
+			id: "51CDC5D68D088169"
+			tasks: [{
+				id: "20C973CA0CF261CD"
+				type: "item"
+				item: "integratedtunnels:part_interface_item"
 			}]
 		}
 	]
