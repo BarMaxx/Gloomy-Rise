@@ -27,6 +27,8 @@
 			description: ["Кровавый алтарь - главый предмет в моде Blood Magic! Основа Вашего развития в этом моде!"]
 			hide_dependency_lines: true
 			dependencies: ["61A72CEB4E3541F7"]
+			hide: true
+			size: 1.3d
 			id: "310211F11C8A68E9"
 			tasks: [{
 				id: "0CEE9E22AAA5D081"
@@ -326,7 +328,7 @@
 		}
 		{
 			x: -7.0d
-			y: -0.5d
+			y: -1.0d
 			description: ["Распространитель маны гайи нужен, чтобы направить ману в нужную сторону."]
 			dependencies: ["09B7710675B81B75"]
 			id: "4D0FC6688E9FC9AA"
@@ -338,7 +340,7 @@
 		}
 		{
 			x: -5.0d
-			y: -0.5d
+			y: -1.0d
 			description: ["Интересно, для чего он нужен? :) Редактор: да я сам не знаю"]
 			dependencies: ["09B7710675B81B75"]
 			id: "5FF4161FAF6C3EE3"
@@ -350,9 +352,12 @@
 		}
 		{
 			x: -6.0d
-			y: -3.0d
+			y: -3.5d
+			shape: "ragged_rsquare"
 			description: ["Пилон гайи нужен для призыва Гайи."]
 			dependencies: ["4A3137D093B0564D"]
+			hide: true
+			size: 1.3d
 			id: "326F1C58C473C6F8"
 			tasks: [{
 				id: "591036F49C618BEB"
@@ -364,8 +369,7 @@
 		}
 		{
 			x: -6.0d
-			y: -1.5d
-			shape: "ragged_rsquare"
+			y: -2.0d
 			dependencies: ["326F1C58C473C6F8"]
 			id: "09B7710675B81B75"
 			tasks: [{
@@ -384,7 +388,7 @@
 		}
 		{
 			x: -6.0d
-			y: 0.0d
+			y: -0.5d
 			dependencies: ["09B7710675B81B75"]
 			id: "61A72CEB4E3541F7"
 			tasks: [{
@@ -471,7 +475,7 @@
 		}
 		{
 			x: -6.0d
-			y: 1.5d
+			y: 1.0d
 			dependencies: ["61A72CEB4E3541F7"]
 			id: "44439C2BE09EB71F"
 			tasks: [
@@ -489,7 +493,7 @@
 		}
 		{
 			x: -6.0d
-			y: 3.0d
+			y: 2.5d
 			shape: "ragged_rsquare"
 			description: ["На максимально верстаке можно создать максимальную сингулярность и не только."]
 			dependencies: ["44439C2BE09EB71F"]
@@ -502,7 +506,7 @@
 		}
 		{
 			x: -7.5d
-			y: 3.5d
+			y: 3.0d
 			shape: "ragged_heart"
 			description: ["Наверное, один из самых сложных предметов, но жаль, что с помощью этого слитка можно создать что-то еще..."]
 			dependencies: ["7A7BF8AFFC7501B3"]
@@ -515,7 +519,7 @@
 		}
 		{
 			x: -4.5d
-			y: 3.5d
+			y: 3.0d
 			shape: "ragged_heart"
 			description: ["Один из самых дорогих предметов в сборке."]
 			dependencies: ["7A7BF8AFFC7501B3"]
@@ -528,7 +532,7 @@
 		}
 		{
 			x: -5.0d
-			y: -2.5d
+			y: -3.0d
 			dependencies: ["09B7710675B81B75"]
 			id: "500EE697DDF6003B"
 			tasks: [{
@@ -543,7 +547,7 @@
 		}
 		{
 			x: -7.5d
-			y: -1.5d
+			y: -2.0d
 			dependencies: ["09B7710675B81B75"]
 			id: "60E0E0615FE82B6D"
 			tasks: [
@@ -578,7 +582,7 @@
 		}
 		{
 			x: -7.0d
-			y: -2.5d
+			y: -3.0d
 			dependencies: ["09B7710675B81B75"]
 			id: "56EE958F33ABE78F"
 			tasks: [{
@@ -595,7 +599,7 @@
 		}
 		{
 			x: -4.5d
-			y: -1.5d
+			y: -2.0d
 			dependencies: ["09B7710675B81B75"]
 			id: "67A9DF69E896EFA6"
 			tasks: [

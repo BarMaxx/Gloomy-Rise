@@ -23,9 +23,11 @@
 		{
 			x: -7.5d
 			y: -3.0d
+			shape: "crumpled_rsquare"
 			description: ["Руда винтеума встречается в шахте, как ни странно."]
-			dependencies: ["114FD26AF2B063E3"]
+			dependencies: ["483B597173AF5FA3"]
 			hide: true
+			size: 1.3d
 			id: "2EF793C4EF35E5DC"
 			tasks: [{
 				id: "3B4EC984727CFCA3"

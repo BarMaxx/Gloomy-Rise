@@ -28,8 +28,9 @@
 			icon: "appliedenergistics2:grindstone"
 			x: -7.0d
 			y: -1.0d
-			description: ["Кварцевый дробитель позволяет вам перемалывать руду в пыль. Для того, чтобы дробить руду необходимо на дробитель поставить &eрукоятку&f, а после крутите её."]
+			description: ["Кварцевый дробитель позволяет вам перемалывать руду в пыль. Для того, чтобы дробить руду необходимо на дробитель поставить рукоятку, а после крутите её."]
 			dependencies: ["491E4B5BD7069266"]
+			hide: true
 			id: "6BDEDFD2C6E2E62F"
 			tasks: [
 				{
@@ -49,6 +50,7 @@
 			y: -3.5d
 			description: ["Пока находится в вашем инвентаре - накапливает время, а потом это время можно использовать для ускорения различных процессов."]
 			dependencies: ["03C21083853294D6"]
+			hide: true
 			id: "24DDF0425E4D682C"
 			tasks: [{
 				id: "446C9C7FB09358A7"
@@ -68,6 +70,7 @@
 			y: -3.0d
 			description: ["Собирает предметы недалеко от вас."]
 			dependencies: ["5BD9A7CE380B6670"]
+			hide: true
 			id: "13458DF94390D17D"
 			tasks: [{
 				id: "654F37947C284D84"
@@ -100,6 +103,7 @@
 			y: -1.0d
 			description: ["Позволяет легче строить масштабные постройки."]
 			dependencies: ["03C21083853294D6"]
+			hide: true
 			id: "58C9C1DAC20F99DE"
 			tasks: [{
 				id: "1E62445C861E73AC"
@@ -122,10 +126,10 @@
 		{
 			x: -4.5d
 			y: -3.0d
-			shape: "default_circle"
 			subtitle: "Портативный верстак"
 			description: ["Палка с верстаком позволяет открыть верстак в любом месте. Но этот верстак не сохраняет свой инвентарь."]
 			dependencies: ["1DB2D7EB07555AFC"]
+			hide: true
 			id: "528887B4FA7AA2AA"
 			tasks: [{
 				id: "72D115D92F38FF0B"
@@ -136,9 +140,9 @@
 		{
 			x: -4.0d
 			y: -1.5d
-			shape: "default_circle"
 			description: ["Продвинутая палка с верстаком также позволяет открыть верстак в любом месте, но этот верстак сохраняет свой инвентарь. Можно использовать как рюкзак :)"]
 			dependencies: ["528887B4FA7AA2AA"]
+			hide: true
 			id: "5E7D98365C7A4D87"
 			tasks: [{
 				id: "2FFD3315E80C2765"
@@ -159,6 +163,7 @@
 			x: -7.5d
 			y: 0.5d
 			dependencies: ["18F8BADF3A3A940A"]
+			hide: true
 			id: "4A4F239D9061DCAD"
 			tasks: [{
 				id: "37D051C7EAE5CC80"
@@ -203,6 +208,7 @@
 			x: -0.5d
 			y: -3.0d
 			dependencies: ["05EB7D069C18CA1E"]
+			hide: true
 			id: "4659A61E74534C77"
 			tasks: [{
 				id: "44C18FCAF3F6E4DD"
@@ -214,6 +220,7 @@
 			x: -2.0d
 			y: -3.5d
 			dependencies: ["05EB7D069C18CA1E"]
+			hide: true
 			id: "0FB54FD78005B406"
 			tasks: [{
 				id: "6A7BC6610FBA43EF"
@@ -225,6 +232,7 @@
 			x: 1.0d
 			y: -3.5d
 			dependencies: ["05EB7D069C18CA1E"]
+			hide: true
 			id: "6973FE851C34463A"
 			tasks: [{
 				id: "46737964C339A429"
@@ -236,6 +244,7 @@
 			x: -2.0d
 			y: -2.0d
 			dependencies: ["05EB7D069C18CA1E"]
+			hide: true
 			id: "40A7215F106FA972"
 			tasks: [{
 				id: "62986ADA692F1B21"
@@ -247,6 +256,7 @@
 			x: -0.5d
 			y: -1.5d
 			dependencies: ["05EB7D069C18CA1E"]
+			hide: true
 			id: "19535B1493D33FC2"
 			tasks: [{
 				id: "3622F2A5C3B99244"
@@ -258,6 +268,7 @@
 			x: 1.0d
 			y: -2.0d
 			dependencies: ["05EB7D069C18CA1E"]
+			hide: true
 			id: "222B3F739D7582F1"
 			tasks: [{
 				id: "558048AE4E64DB5F"
@@ -269,6 +280,7 @@
 			x: -0.5d
 			y: 0.0d
 			dependencies: ["05EB7D069C18CA1E"]
+			hide: true
 			id: "13CD29B3BE8FB625"
 			tasks: [{
 				id: "6FF11AF31992B6DC"
@@ -280,6 +292,7 @@
 			x: -2.0d
 			y: 0.5d
 			dependencies: ["73D8A15D7A0E9FA2"]
+			hide: true
 			id: "2FB66A62CBE75E5E"
 			tasks: [{
 				id: "76F28FCE78DF1114"
@@ -335,6 +348,7 @@
 			x: -7.5d
 			y: 3.0d
 			dependencies: ["73D8A15D7A0E9FA2"]
+			hide: true
 			id: "595414D7F6703D32"
 			tasks: [{
 				id: "33DEF3E94DE3C2B7"
@@ -524,6 +538,282 @@
 				id: "1DE996FCB90B4C90"
 				type: "item"
 				item: "mob_grinding_utils:absorption_hopper"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.5d
+			dependencies: ["05EB7D069C18CA1E"]
+			hide: true
+			id: "56A2E1EB6C1964C1"
+			tasks: [{
+				id: "4E4625B16AFCB81A"
+				type: "item"
+				item: "framedblocks:framed_cube"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.5d
+			dependencies: ["56A2E1EB6C1964C1"]
+			id: "2A60D6E78B138E46"
+			tasks: [{
+				id: "7A2158C3DBAD5642"
+				type: "item"
+				item: "framedblocks:framed_hammer"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			dependencies: ["56A2E1EB6C1964C1"]
+			id: "4C99BE09B3D711F0"
+			tasks: [{
+				id: "015C5A47791AF044"
+				type: "item"
+				item: "framedblocks:framed_wrench"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			dependencies: ["56A2E1EB6C1964C1"]
+			id: "282BD424FC921B6F"
+			tasks: [{
+				id: "36AAA95D1D3B878F"
+				type: "item"
+				item: {
+					id: "framedblocks:framed_blueprint"
+					Count: 1b
+					tag: {
+						blueprint_data: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.5d
+			dependencies: ["73D8A15D7A0E9FA2"]
+			hide: true
+			id: "58284516B54F3D6B"
+			tasks: [{
+				id: "549FC47AFC15C025"
+				type: "item"
+				item: {
+					id: "aquaculture:iron_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.5d
+			dependencies: ["58284516B54F3D6B"]
+			id: "74C2838540B54677"
+			tasks: [{
+				id: "71E797DB4F3468A9"
+				type: "item"
+				item: {
+					id: "aquaculture:gold_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.5d
+			dependencies: ["74C2838540B54677"]
+			id: "4897CBC67E627276"
+			tasks: [{
+				id: "2AC85DE841815FDA"
+				type: "item"
+				item: {
+					id: "aquaculture:diamond_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.5d
+			dependencies: ["4897CBC67E627276"]
+			id: "5DBB33D3A957A188"
+			tasks: [{
+				id: "1829BA9186B21022"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			dependencies: ["05EB7D069C18CA1E"]
+			hide: true
+			id: "2DC41D9E2962EC71"
+			tasks: [{
+				id: "3558DA8B21550719"
+				type: "item"
+				item: "comforts:sleeping_bag_white"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.5d
+			dependencies: ["05EB7D069C18CA1E"]
+			hide: true
+			id: "7807757BE15488CA"
+			tasks: [{
+				id: "465C523A6581F91F"
+				type: "item"
+				item: "comforts:hammock_white"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			dependencies: ["6AF0C43A5DBB4655"]
+			hide: true
+			id: "0D54BB825A13A08D"
+			tasks: [{
+				id: "7C9AC4C2A53DD0D6"
+				type: "item"
+				item: "pipez:item_pipe"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			dependencies: ["6AF0C43A5DBB4655"]
+			hide: true
+			id: "3F127872E7F8EF34"
+			tasks: [{
+				id: "757E4D906E927E25"
+				type: "item"
+				item: "pipez:fluid_pipe"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.5d
+			dependencies: ["6AF0C43A5DBB4655"]
+			hide: true
+			id: "7126BB6EC027FF55"
+			tasks: [{
+				id: "0E196381B29AD929"
+				type: "item"
+				item: "pipez:energy_pipe"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			dependencies: [
+				"0D54BB825A13A08D"
+				"7126BB6EC027FF55"
+				"3F127872E7F8EF34"
+			]
+			id: "65F0778A05984DCC"
+			tasks: [{
+				id: "4DBAC5CD1C5C45DE"
+				type: "item"
+				item: "pipez:universal_pipe"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.5d
+			dependencies: ["1723DF54C9D0ABD2"]
+			hide: true
+			id: "3EC2258A8A9E4C85"
+			tasks: [{
+				id: "19B32419C648BAF6"
+				type: "item"
+				item: "pipez:basic_upgrade"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			dependencies: ["3EC2258A8A9E4C85"]
+			id: "5D90418319B8F42A"
+			tasks: [{
+				id: "7FA3DC66951E81D7"
+				type: "item"
+				item: "pipez:improved_upgrade"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			dependencies: ["5D90418319B8F42A"]
+			id: "141D5E98CBE79F35"
+			tasks: [{
+				id: "1B30E4E97BBEFC1D"
+				type: "item"
+				item: "pipez:advanced_upgrade"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["141D5E98CBE79F35"]
+			id: "60FCD45D62BA46EA"
+			tasks: [{
+				id: "2612C7AB51E30892"
+				type: "item"
+				item: "pipez:ultimate_upgrade"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			dependencies: ["6AF0C43A5DBB4655"]
+			hide: true
+			id: "5E823618F5FC1DC4"
+			tasks: [{
+				id: "7D1AA6E0B69BD232"
+				type: "item"
+				item: "pipez:gas_pipe"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.0d
+			dependencies: ["18F8BADF3A3A940A"]
+			hide: true
+			id: "5C205B0C5C99A63E"
+			tasks: [{
+				id: "2860BDD717F2C98E"
+				type: "item"
+				item: "pipez:filter_destination_tool"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.0d
+			dependencies: ["18F8BADF3A3A940A"]
+			hide: true
+			id: "2AA4881AD19A69E8"
+			tasks: [{
+				id: "0A64F500D7419F39"
+				type: "item"
+				item: "pipez:wrench"
 			}]
 		}
 	]

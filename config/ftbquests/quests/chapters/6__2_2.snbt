@@ -4,7 +4,7 @@
 	order_index: 1
 	filename: "6__2_2"
 	title: "&6Высшие технологии Ч.2"
-	icon: "draconicevolution:reactor_core"
+	icon: "draconicevolution:draconium_core"
 	default_quest_shape: "ragged_circle"
 	default_hide_dependency_lines: false
 	images: [{
@@ -23,8 +23,11 @@
 		{
 			x: -6.5d
 			y: -3.5d
+			shape: "ragged_rsquare"
 			description: ["Один из основных компонетов в моде. Понадобится во многих крафтах, в том числе в крафтах Инструментов Виверны."]
-			dependencies: ["09AEF5AB3957D385"]
+			dependencies: ["6AF0C43A5DBB4655"]
+			hide: true
+			size: 1.3d
 			id: "370EFA552B43333C"
 			tasks: [{
 				id: "461383390A30DF5A"
@@ -454,9 +457,10 @@
 		{
 			x: -6.5d
 			y: 4.0d
-			shape: "ragged_rsquare"
+			shape: "ragged_diamond"
 			description: ["Очень опасная, но мощная штуковина. Может хранить в себе огромное количество энергии."]
 			dependencies: ["4B64826470BD44D7"]
+			size: 1.5d
 			id: "514681D2ECCFFDAD"
 			tasks: [{
 				id: "74723108E135C66A"

@@ -25,9 +25,9 @@
 			y: -3.5d
 			shape: "ragged_rsquare"
 			description: ["Одним из первых инструментов, который должен получить каждый - жезл. Он позволяет контролировать выделении энергии звёздного света из чувствительных к звёздному свету устройств и ремесленных инструментов, щёлкая по ним пкм."]
-			dependencies: ["114FD26AF2B063E3"]
+			dependencies: ["15B9ADB9DEE2E0E1"]
 			hide: true
-			size: 1.2d
+			size: 1.3d
 			id: "47A7B653FA5C3C02"
 			tasks: [{
 				id: "33A6B10AB26A1C5C"
@@ -143,6 +143,7 @@
 			shape: "ragged_rsquare"
 			description: ["С помощью чистой маргаритки можно создать жизнекамень и жизнедерево. Для их создания необходимо использовать чернит и багровую древесину соотвественно."]
 			dependencies: ["0341565B1DB3C325"]
+			size: 1.3d
 			id: "595BB762D63D1721"
 			tasks: [{
 				id: "2401F40D5741B5F1"
@@ -263,8 +264,10 @@
 		{
 			x: -0.5d
 			y: 4.0d
+			shape: "ragged_rsquare"
 			description: ["Природный пилон нужен для создания портала к эльфам."]
 			dependencies: ["6CBF4953ACB7D3C4"]
+			size: 1.3d
 			id: "4A3137D093B0564D"
 			tasks: [
 				{
@@ -511,9 +514,11 @@
 		{
 			x: 8.5d
 			y: -3.5d
+			shape: "ragged_square"
 			description: ["Слиткок элементия можно получить при торговле с Эльфами. Этот слиток вам пригодится для создания многих вещей."]
 			hide_dependency_lines: true
 			dependencies: ["4A3137D093B0564D"]
+			size: 1.2d
 			id: "0E1B37DA245F53F8"
 			tasks: [{
 				id: "36300C2D8C3F0D2D"
@@ -530,46 +535,42 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -4.0d
-			description: ["Камень дракона можно получить при торговле с Эльфами. Этот камень вам пригодится для создания многих вещей."]
-			hide_dependency_lines: true
-			dependencies: ["4A3137D093B0564D"]
-			id: "559B6D76D55C28BE"
-			tasks: [{
-				id: "0581F3F38623B713"
-				type: "item"
-				title: "Камень дракона"
-				item: "botania:dragonstone"
-				count: 4L
-			}]
-			rewards: [{
-				id: "06D9A3402D151F03"
-				type: "item"
-				item: "botania:dragonstone"
-				count: 2
-			}]
-		}
-		{
 			x: 6.5d
 			y: -3.5d
+			shape: "ragged_square"
 			description: ["Пыльцу феи можно получить при торговле с Эльфами. Эта пыльца вам пригодится для создания многих вещей."]
 			hide_dependency_lines: true
 			dependencies: ["4A3137D093B0564D"]
+			size: 1.2d
 			id: "74D98C6A05DEDB79"
-			tasks: [{
-				id: "13EED291DCF138AD"
-				type: "item"
-				title: "Пыльца феи"
-				item: "botania:pixie_dust"
-				count: 4L
-			}]
-			rewards: [{
-				id: "2AD15B806C0E1554"
-				type: "item"
-				item: "botania:pixie_dust"
-				count: 2
-			}]
+			tasks: [
+				{
+					id: "13EED291DCF138AD"
+					type: "item"
+					item: "botania:pixie_dust"
+					count: 3L
+				}
+				{
+					id: "2BF70D011E5110F9"
+					type: "item"
+					item: "botania:dragonstone"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "2AD15B806C0E1554"
+					type: "item"
+					item: "botania:pixie_dust"
+					count: 2
+				}
+				{
+					id: "2C68E1A01761F445"
+					type: "item"
+					item: "botania:dragonstone"
+					count: 2
+				}
+			]
 		}
 		{
 			x: 6.0d

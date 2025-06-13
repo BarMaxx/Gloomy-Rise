@@ -1,6 +1,6 @@
 craftingTable.removeRecipe(<item:immersiveengineering:hammer>);
 craftingTable.addShaped("ct_immersiveengineering_01", <item:immersiveengineering:hammer>, [
-    [<item:minecraft:air>, <item:minecraft:iron_ingot>, <item:create:andesite_alloy>],
+    [<item:minecraft:air>, <item:minecraft:iron_ingot>, <tag:items:forge:plates/brass>],
 	[<item:minecraft:air>, <tag:items:forge:rods/wooden>, <item:minecraft:iron_ingot>],
 	[<tag:items:forge:rods/wooden>, <item:minecraft:air>, <item:minecraft:air>]], null);
 
