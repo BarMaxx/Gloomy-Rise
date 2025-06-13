@@ -1,0 +1,22 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "B B B",
+    " ABA ",
+    "BBABB",
+    " ABA ",
+	"B B B"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "B": {
+      "item": "mysticalagriculture:prosperity_shard"
+    }
+  },
+  "result": {
+    "item": "mysticalagriculture:prosperity_seed_base",
+    "count": 1
+  }
+}
