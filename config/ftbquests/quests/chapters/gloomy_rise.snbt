@@ -3,7 +3,7 @@
 	group: "69A2E8FFA0275984"
 	order_index: 1
 	filename: "gloomy_rise"
-	title: "&6Финал..."
+	title: "{gloomyrise.gloomy_rise.title}"
 	icon: "kubejs:gloomy_rise"
 	default_quest_shape: "torn_circle"
 	default_hide_dependency_lines: false
@@ -24,7 +24,7 @@
 			x: -3.0d
 			y: 0.0d
 			shape: "torn_rsquare"
-			subtitle: "Это финал :("
+			subtitle: "{gloomyrise.gloomy_rise.quests0.subtitle}"
 			dependencies: [
 				"36E51C51CFB4E05D"
 				"43D05AEE1326DDEC"
@@ -47,7 +47,7 @@
 		{
 			x: 7.5d
 			y: -0.5d
-			description: ["Ожидайте продолжения в обновлении v2.0!"]
+			description: ["{gloomyrise.gloomy_rise.quests1.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["4C11565D776A8269"]
 			hide: true
@@ -55,7 +55,7 @@
 			tasks: [{
 				id: "1F14AEBB6B0DC62E"
 				type: "checkmark"
-				title: "Что дальше?"
+				title: "{gloomyrise.gloomy_rise.quests1.tasks0.title}"
 			}]
 		}
 	]

@@ -3,7 +3,7 @@
 	group: "69A2E8FFA0275984"
 	order_index: 0
 	filename: "creative"
-	title: "&6Креативные предметы"
+	title: "{gloomyrise.creative.title}"
 	icon: "mysticalagradditions:creative_essence"
 	default_quest_shape: "torn_circle"
 	default_hide_dependency_lines: false

@@ -3,7 +3,7 @@
 	group: "6E7449445FFC34C5"
 	order_index: 0
 	filename: "danks"
-	title: "&6Бездонные хранилища"
+	title: "{gloomyrise.danks.title}"
 	icon: "dankstorage:dank_1"
 	default_quest_shape: "default_square"
 	default_hide_dependency_lines: false
@@ -23,8 +23,8 @@
 		{
 			x: -6.5d
 			y: -1.0d
-			subtitle: "Настало время для склада!"
-			description: ["Очень большое хранилище!"]
+			subtitle: "{gloomyrise.danks.quests0.subtitle}"
+			description: ["{gloomyrise.danks.quests0.description0}"]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
 			id: "05A862D8A5E850E7"
@@ -53,7 +53,7 @@
 		{
 			x: -5.0d
 			y: -0.5d
-			description: ["Очень большое хранилище!"]
+			description: ["{gloomyrise.danks.quests1.description0}"]
 			dependencies: ["05A862D8A5E850E7"]
 			id: "3967978ED15B933D"
 			tasks: [{
@@ -78,7 +78,7 @@
 		{
 			x: -5.0d
 			y: 1.0d
-			description: ["Очень большое хранилище!"]
+			description: ["{gloomyrise.danks.quests2.description0}"]
 			dependencies: ["3967978ED15B933D"]
 			id: "37BBC80534CFD889"
 			tasks: [{
@@ -103,7 +103,7 @@
 		{
 			x: -6.5d
 			y: 1.5d
-			description: ["Очень большое хранилище!"]
+			description: ["{gloomyrise.danks.quests3.description0}"]
 			dependencies: ["37BBC80534CFD889"]
 			id: "21A0E855E6877256"
 			tasks: [{
@@ -128,7 +128,7 @@
 		{
 			x: 0.0d
 			y: -2.5d
-			description: ["Очень большое хранилище!"]
+			description: ["{gloomyrise.danks.quests4.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["21A0E855E6877256"]
 			id: "16A28626204D179A"
@@ -154,7 +154,7 @@
 		{
 			x: 0.0d
 			y: -0.5d
-			description: ["Очень большое хранилище!"]
+			description: ["{gloomyrise.danks.quests5.description0}"]
 			dependencies: ["16A28626204D179A"]
 			id: "1C852A13A6F6E437"
 			tasks: [{
@@ -179,8 +179,8 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			subtitle: "Удивительно!"
-			description: ["Очень большое хранилище!"]
+			subtitle: "{gloomyrise.danks.quests6.subtitle}"
+			description: ["{gloomyrise.danks.quests6.description0}"]
 			dependencies: ["1C852A13A6F6E437"]
 			id: "03CBB34EE8FFE82F"
 			tasks: [{
@@ -205,8 +205,8 @@
 		{
 			x: -6.5d
 			y: -3.0d
-			subtitle: "Сделайте из своего Данка Сундук!"
-			description: ["Док можно поставить и засунуть туда Данк. После этого ваш данк станет полноценым хранилищем, а не \"рюкзаком\"!"]
+			subtitle: "{gloomyrise.danks.quests7.subtitle}"
+			description: ["{gloomyrise.danks.quests7.description0}"]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
 			id: "573B47C83FA62B30"

@@ -3,7 +3,7 @@
 	group: "37FCF4EC720E030D"
 	order_index: 3
 	filename: "reliquary"
-	title: "&6Реликвии"
+	title: "{gloomyrise.reliquary.title}"
 	icon: {
 		id: "xreliquary:mercy_cross"
 		Count: 1b
@@ -30,13 +30,13 @@
 			x: -6.0d
 			y: 0.0d
 			shape: "torn_rsquare"
-			subtitle: "Существует риск потери баланса!"
+			subtitle: "{gloomyrise.reliquary.quests0.subtitle}"
 			description: [
-				"&6Большая книга Алкагестии&r - это реликвия, которая накапливает в себе заряд редстоуна или светокаменной пыли для того, чтобы удваивать какие-либо ресурсы."
+				"{gloomyrise.reliquary.quests0.description0}"
 				""
-				"Для &2активации&r реликвии нужно зажать &eShift&r и нажать &eПКМ&r, после чего она будет поглащать весь редстоун или же светокаменную пыль из инвентаря."
+				"{gloomyrise.reliquary.quests0.description1}"
 				""
-				"Для &2удвоения&r каких-либо ресурсов, необходимо положить реликвию в сетку крафта вместе с определённым ресурсом. После чего можно удваивать положенный ресурс за счёт накопленного заряда. "
+				"{gloomyrise.reliquary.quests0.description2}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -62,8 +62,8 @@
 		{
 			x: 2.0d
 			y: 0.0d
-			subtitle: "Спасение от падения с высоты!"
-			description: ["&6Ангельское Перо&r - это реликвия, которая спасает своего владельца от падения с высоты, путём поглощения урона за счёт голода владельца. А также даёт ему прыгучесть."]
+			subtitle: "{gloomyrise.reliquary.quests1.subtitle}"
+			description: ["{gloomyrise.reliquary.quests1.description0}"]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
 			id: "6E44560E1B6FA6D3"
@@ -81,11 +81,11 @@
 		{
 			x: -6.0d
 			y: -2.0d
-			subtitle: "Его не любит нежить!"
+			subtitle: "{gloomyrise.reliquary.quests2.subtitle}"
 			description: [
-				"&6Крест Милосердия&r - это реликвия, которая наносит дополнительный урон против нежити, а также имеет повышенный уровень добычи. "
+				"{gloomyrise.reliquary.quests2.description0}"
 				""
-				"Кроме этого, он создан из золота, поэтому более восприимчив к зачарованиям, но имеет меньше прочности. Поэтому его выгоднее использовать вместе с &2Точильным камнем Мидаса&r."
+				"{gloomyrise.reliquary.quests2.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -110,8 +110,8 @@
 		{
 			x: 7.5d
 			y: 1.5d
-			subtitle: "Реликвия, спрятанная Афродитой!"
-			description: ["&6Сыворотка Афродиты&r - это реликвия, которая способствует размножению животных, если её разбить рядом с ними."]
+			subtitle: "{gloomyrise.reliquary.quests3.subtitle}"
+			description: ["{gloomyrise.reliquary.quests3.description0}"]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
 			size: 1.5d
@@ -130,8 +130,8 @@
 		{
 			x: -4.5d
 			y: 1.5d
-			subtitle: "Похоже на Тотем Бессмертия!"
-			description: ["&6Фиал Ангельского Сердца&r - это реликвия, которая разбивается во время смерти своего владельца, тем самым даруя ему дополнительное здоровье и положительные эффекты, уберигая от смерти. "]
+			subtitle: "{gloomyrise.reliquary.quests4.subtitle}"
+			description: ["{gloomyrise.reliquary.quests4.description0}"]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
 			id: "52DAD02AB8D98C2A"
@@ -150,15 +150,15 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "torn_rsquare"
-			subtitle: "Реликвия, позволяющая летать!"
+			subtitle: "{gloomyrise.reliquary.quests5.subtitle}"
 			description: [
-				"&6Разрывающий Бурю&r - это реликвия, которая позволяет своему владельцу летать по направлению взгляда. Но нужно обратить внимание на то, что она не отменяет урона от падения, однако, если направить реликвию на землю и зажать кнопку мыши, то это отменит урон от падения."
+				"{gloomyrise.reliquary.quests5.description0}"
 				""
-				"Разрывающий Бурю также позволяет &2притягивать&r и &2отталкивать&r &aсуществ&r, а ещё &2вызывать&r &aмолнию&r во время грозы и направлять её туда, куда укажет владелец реликвии. "
+				"{gloomyrise.reliquary.quests5.description1}"
 				""
-				"&2Переключиться&r между этими режимами можно при помощи сочетания клавиш &eShift&r + &eЛКМ&r."
+				"{gloomyrise.reliquary.quests5.description2}"
 				""
-				"А чтобы летать или вызывать молнии реликвию необходимо &2зарядить&r &aперьями&r."
+				"{gloomyrise.reliquary.quests5.description3}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -192,8 +192,8 @@
 		{
 			x: -4.0d
 			y: 0.0d
-			subtitle: "Бесконечный источник воды!"
-			description: ["&6Чаша Императора&r - это реликвия, которая является бесконечным источником воды. Но в тоже время из чаши можно испить воды и восстановить голод за счёт здоровья. "]
+			subtitle: "{gloomyrise.reliquary.quests6.subtitle}"
+			description: ["{gloomyrise.reliquary.quests6.description0}"]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
 			id: "0AB563FC37C58F6E"
@@ -211,8 +211,8 @@
 		{
 			x: -7.5d
 			y: 1.5d
-			subtitle: "Полезна в Незере!"
-			description: ["&6Адская Чаша&r - это реликвия, которая может хранить в себе лаву, а также защищает своего владельца от лавы и огня в обмен на голод."]
+			subtitle: "{gloomyrise.reliquary.quests7.subtitle}"
+			description: ["{gloomyrise.reliquary.quests7.description0}"]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
 			id: "710758CA1E529C12"
@@ -230,19 +230,19 @@
 		{
 			x: 1.5d
 			y: -1.5d
-			subtitle: "Уникальнейшее оружие!"
+			subtitle: "{gloomyrise.reliquary.quests8.subtitle}"
 			description: [
-				"&6Чаробой&r - это реликвия, которая имеет &e16&r прочности и является одним из самых легко разрушаемых оружий, которое только существует в данной сборке. "
+				"{gloomyrise.reliquary.quests8.description0}"
 				""
-				"При ударе этим клинком существует &e50%&r шанс наложения на противника одного из следующих эффектов: &nЗамешательство&r, &nСлепота&r, &nМедлительность&r, &nСлабость&r. "
+				"{gloomyrise.reliquary.quests8.description1}"
 				""
-				"Кроме этого, если наложить на клинок любое &2зачарование&r, то уровень зачаровния будет добавлен к &aобщему урону&r реликвии."
+				"{gloomyrise.reliquary.quests8.description2}"
 				""
-				"Для примера, Чаробой с зачарованием Заговор Огня 2 будет иметь &e2&r дополнительных урона. "
+				"{gloomyrise.reliquary.quests8.description3}"
 				""
-				"Он формально &2сделан из золота&r для того, чтобы можно было использовать точильный камень Мидаса, а ещё для того, чтобы он имел такую же сильную восприимчивость к зачаровниям, как и золото. "
+				"{gloomyrise.reliquary.quests8.description4}"
 				""
-				"Примечание: &oЧаробой - это артефакт из игры Nethack, которой автор этого мода хотел бы отдать небольшую \"дань\".&r "
+				"{gloomyrise.reliquary.quests8.description5}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -267,11 +267,11 @@
 		{
 			x: -1.5d
 			y: -1.5d
-			subtitle: "Своеобразный магнит!"
+			subtitle: "{gloomyrise.reliquary.quests9.subtitle}"
 			description: [
-				"&6Монетка Фортуны&r - это реликвия, которая притягивает предметы и сферы опыта в радиусе 5 блоков к своему владельцу. Она включается и выключается сочетанием клавиш &eShift&r + &eПКМ.&r"
+				"{gloomyrise.reliquary.quests9.description0}"
 				""
-				"Радиус действия реликвии можно &2утроить&r. Для этого нужно нажать &eПКМ&r с реликвией в руке, после чего радиус станет около 15 блоков."
+				"{gloomyrise.reliquary.quests9.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -290,15 +290,15 @@
 		{
 			x: 7.5d
 			y: 0.0d
-			subtitle: "Интересная механика у реликвии!"
+			subtitle: "{gloomyrise.reliquary.quests10.subtitle}"
 			description: [
-				"&6Посох Странника&r - это реликвия, которая поглощает до &e1500&r факелов, а после может ставить их на большом расстоянии."
+				"{gloomyrise.reliquary.quests10.description0}"
 				""
-				"Данную реликвию можно использовать, чтобы ставить факела/блоки на расстоянии до &e30&r блоков, но при этом каждые &e6&r блоков увеличивается количество затрачиваемых факелов/блоков на 1 еденицу. "
+				"{gloomyrise.reliquary.quests10.description1}"
 				""
-				"Для примера, поставив факел на расстоянии &e30&r блоков, владелец реликвии потратит сразу &e6&r факелов. "
+				"{gloomyrise.reliquary.quests10.description2}"
 				""
-				"Если иметь в инвентаре &6Посох Странника&r и &6Фонарь Паранойи&r, то последний будет пытаться использовать внутреннее хранилище посоха для того, чтобы поставить факела."
+				"{gloomyrise.reliquary.quests10.description3}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -318,15 +318,15 @@
 		{
 			x: -7.5d
 			y: -1.5d
-			subtitle: "Удобен для путешествия!"
+			subtitle: "{gloomyrise.reliquary.quests11.subtitle}"
 			description: [
-				"&6Посох Эндера&r - это реликвия, которая поможет своему владельцу в путешествиях. Если нажать &eShift&r + &eПКМ&r, то реликвия начнёт поглощать жемчуг эндера и будет заряжаться. Впоследствии она будет тратить этот заряд для того, чтобы переносить своего владельца, посредством телепортации. Эта реликвия имеет &2несколько режимов&r, которые можно переключать, нажав &eShift&r + &eЛКМ&r. "
+				"{gloomyrise.reliquary.quests11.description0}"
 				""
-				"В режиме \"&lМалая Дистанция&r\" (Иконка с жемчугом эндера) реликвия будет запускать совершенно обычный эндер жемчуг, но он не будет наносить урон своему владельцу, а также недопустит застревания в блоках. "
+				"{gloomyrise.reliquary.quests11.description1}"
 				""
-				"В режмие \"&lБольшая Дистанция&r\" (Иконка с оком эндера) реликвия будет запускать эндер жемчуг, который будет меньше подвержен гравитации (или же силе тяжести), что способствует большую дистанцию для полёта жемчуга и, следовательно, для телепортации владельца реликвии. "
+				"{gloomyrise.reliquary.quests11.description2}"
 				""
-				"В режиме \"&lПризрачный Узел&r\", если владелец реликвии будет удерживать &eПКМ&r, его телепортирует к &2Призрачному узлу&r, к которому привязан Посох. Чтобы привязать реликвию к узлу, нужно просто нажать по нему &eПКМ&r в одноимённом режиме."
+				"{gloomyrise.reliquary.quests11.description3}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -359,13 +359,13 @@
 		{
 			x: 0.0d
 			y: -2.0d
-			subtitle: "Универсальная реликвия!"
+			subtitle: "{gloomyrise.reliquary.quests12.subtitle}"
 			description: [
-				"&6Посох Пироманта&r - это реликвия, которая стреляет огненными шарами, похожми на те, которые выпускают гасты и всполохи. А заряжается она огненным порошком и огненными зарядами. "
+				"{gloomyrise.reliquary.quests12.description0}"
 				""
-				"Кроме этого, данная реликвия &2недопустит того&r, чтобы в его владельца попал огненный шар гаста или всполоха. Вместе с этим он тушит огонь вокруг своего владельца, если находится в выключенном состоянии."
+				"{gloomyrise.reliquary.quests12.description1}"
 				""
-				"И последнее, Посох Пироманта &2заменит&r своему владельцу &2огниво&r."
+				"{gloomyrise.reliquary.quests12.description2}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -384,8 +384,8 @@
 		{
 			x: 0.0d
 			y: 2.0d
-			subtitle: "Полезен в Незере!"
-			description: ["&6Ледяной Посох Волхва&r - это реликвия, которая поглощает (&eShift&r + &eПКМ&r) снежки из инвентаря своего владельца и стреляет ими в противником. Более эффективена против противников из &cНезера&r."]
+			subtitle: "{gloomyrise.reliquary.quests13.subtitle}"
+			description: ["{gloomyrise.reliquary.quests13.description0}"]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
 			id: "66AB1EE300BEC02E"
@@ -403,11 +403,11 @@
 		{
 			x: -4.5d
 			y: -1.5d
-			subtitle: "Улучшенная версия Посоха Волхва!"
+			subtitle: "{gloomyrise.reliquary.quests14.subtitle}"
 			description: [
-				"&6Морозный Посох&r - это реликвия, которая является улучшенной версией Ледяного Посоха Волхва. Данная реликвия также стреляет снежками, которые полезны против \"огненных\" противников."
-				" "
-				"Но Морозный Посох имеет и &2дополнительную способность&r - превращать воду в плотный лёд, а лаву в обсидидан, если владелец будет держать посох в руке. Эти блоки растают, когда окажутся вне радиуса действия посоха."
+				"{gloomyrise.reliquary.quests14.description0}"
+				"{gloomyrise.reliquary.quests14.description1}"
+				"{gloomyrise.reliquary.quests14.description2}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -426,8 +426,8 @@
 		{
 			x: -2.0d
 			y: 0.0d
-			subtitle: "Любит большое количество предметов!"
-			description: ["&6Адская Слеза&r - это реликвия, которая поглащает (&eShift&r + &eПКМ&r) те предметы, которых больше всего в инвентаре владельца, а вместо них выдаёт опыт. "]
+			subtitle: "{gloomyrise.reliquary.quests15.subtitle}"
+			description: ["{gloomyrise.reliquary.quests15.description0}"]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
 			id: "7B1BAF5AFECE973C"
@@ -445,8 +445,8 @@
 		{
 			x: -1.5d
 			y: 1.5d
-			subtitle: "Полезен для сохранения опыта!"
-			description: ["&6Медальон Героя&r - это реликвия, которая хранит в себе опыт. При активации реликвии, она будет поглощать опыт своего владельца. Если же она не активирована, то по нажатию ПКМ будет возвращать по 1 уровню опыта своему владельцу. "]
+			subtitle: "{gloomyrise.reliquary.quests16.subtitle}"
+			description: ["{gloomyrise.reliquary.quests16.description0}"]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
 			id: "03CFDF2E97C8CA8C"
@@ -464,11 +464,11 @@
 		{
 			x: 1.5d
 			y: 1.5d
-			subtitle: "Улучшенная версия Тотема Бессмертия!"
+			subtitle: "{gloomyrise.reliquary.quests17.subtitle}"
 			description: [
-				"&6Пух Феникса&r - это реликвия, которая может воскресить своего владельца во время смертельного удара, при этом даруя ему полностью восстановленное здоровье и множество положительных эффектов."
+				"{gloomyrise.reliquary.quests17.description0}"
 				""
-				"После использования реликвия превращается в &2Ангельское Перо&r с полным сохранением функционала. "
+				"{gloomyrise.reliquary.quests17.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -487,8 +487,8 @@
 		{
 			x: 7.5d
 			y: -1.5d
-			subtitle: "Полезны в Незере!"
-			description: ["&6Адские Когти&r - это реликвия, которая поглащает урон от огня, не включая лаву, за счёт голод своего владельца."]
+			subtitle: "{gloomyrise.reliquary.quests18.subtitle}"
+			description: ["{gloomyrise.reliquary.quests18.description0}"]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
 			size: 1.5d
@@ -507,8 +507,8 @@
 		{
 			x: -6.0d
 			y: 2.0d
-			subtitle: "Пригодится под водной гладью!"
-			description: ["&6Панцирь Кракена&r - это реликвия, которая поглощает урон своего владельца от нехватки кислорада, использую для этого его голод."]
+			subtitle: "{gloomyrise.reliquary.quests19.subtitle}"
+			description: ["{gloomyrise.reliquary.quests19.description0}"]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
 			id: "337152DDC55288D0"
@@ -526,8 +526,8 @@
 		{
 			x: -8.0d
 			y: 0.0d
-			subtitle: "Полезен для золотых предметов!"
-			description: ["&6Точильный камень Мидаса&r - это реликвия, которая восстанавливает золотые вещи из инвентаря своего владельца за счёт поглащения светокаменной пыли из инвентаря своего владельца."]
+			subtitle: "{gloomyrise.reliquary.quests20.subtitle}"
+			description: ["{gloomyrise.reliquary.quests20.description0}"]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
 			id: "3EB0313E8201403F"

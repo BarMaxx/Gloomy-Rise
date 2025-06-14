@@ -3,7 +3,7 @@
 	group: "37FCF4EC720E030D"
 	order_index: 2
 	filename: "artifacts"
-	title: "&6Артефакты"
+	title: "{gloomyrise.artifacts.title}"
 	icon: "artifacts:bunny_hoppers"
 	default_quest_shape: "torn_circle"
 	default_hide_dependency_lines: false
@@ -23,11 +23,11 @@
 		{
 			x: -7.5d
 			y: -4.0d
-			subtitle: "Полезен в бою и путешествиях!"
+			subtitle: "{gloomyrise.artifacts.quests0.subtitle}"
 			description: [
-				"&6Зонт&r - это артефакт, который можно использовать при сражении с монстрами, как щит, а можно, как планнер, в путешествиях. Предмет 1, а применений - 2!"
+				"{gloomyrise.artifacts.quests0.description0}"
 				""
-				"Его можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests0.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -46,11 +46,11 @@
 		{
 			x: -2.5d
 			y: 0.0d
-			subtitle: "Endless?"
+			subtitle: "{gloomyrise.artifacts.quests1.subtitle}"
 			description: [
-				"&6Долговечная Говядина&r - это еда, которую можно есть бесконечное количество раз. "
+				"{gloomyrise.artifacts.quests1.description0}"
 				""
-				"Её можно получить, с небольшим шансом, при убийстве коровы. "
+				"{gloomyrise.artifacts.quests1.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -69,8 +69,8 @@
 		{
 			x: -0.5d
 			y: 0.0d
-			subtitle: "Timeless?"
-			description: ["&6Вечный Стейк&r - это пожаренная долговечная говядина. Его также можно есть бесконечное количество раз, но стейк восстанавливает больше голода и сытости."]
+			subtitle: "{gloomyrise.artifacts.quests2.subtitle}"
+			description: ["{gloomyrise.artifacts.quests2.description0}"]
 			dependencies: ["7532A86DC3CEF045"]
 			id: "477B62AC571D2178"
 			tasks: [{
@@ -87,11 +87,11 @@
 		{
 			x: 1.0d
 			y: 1.0d
-			subtitle: "Не уверен в полезности этого..."
+			subtitle: "{gloomyrise.artifacts.quests3.subtitle}"
 			description: [
-				"&6Питьевая Пластиковая Шляпа&r - это артефакт, который позволяет своему владельцу тратить меньше времени на питьё и еду."
+				"{gloomyrise.artifacts.quests3.description0}"
 				""
-				"Её можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests3.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -110,11 +110,11 @@
 		{
 			x: -7.5d
 			y: 1.0d
-			subtitle: "Не уверен в полезности этого..."
+			subtitle: "{gloomyrise.artifacts.quests4.subtitle}"
 			description: [
-				"&6Питьевая Новая Шляпа&r - это артефакт, который позволяет своему владельцу тратить меньше времени на питьё и еду."
+				"{gloomyrise.artifacts.quests4.description0}"
 				""
-				"Её можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests4.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -133,11 +133,11 @@
 		{
 			x: -8.5d
 			y: 3.0d
-			subtitle: "Подойдёт любителям подводного мира!"
+			subtitle: "{gloomyrise.artifacts.quests5.subtitle}"
 			description: [
-				"&6Дыхательная Трубка&r - это артефакт, который позволяет своему владельцу дышать под водой. Это делает исследование водных глубин более удобным и безопасным процессом."
+				"{gloomyrise.artifacts.quests5.description0}"
 				""
-				"Её можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests5.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -156,11 +156,11 @@
 		{
 			x: -8.5d
 			y: 1.5d
-			subtitle: "Полезны в ночи!"
+			subtitle: "{gloomyrise.artifacts.quests6.subtitle}"
 			description: [
-				"&6Очки Ночного Зрения&r - это артефакт, который дарует своему владельцу способность видеть в темноте. Теперь ночь не кажется такой тёмной и неизвестной..."
+				"{gloomyrise.artifacts.quests6.description0}"
 				""
-				"Их можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests6.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -179,11 +179,11 @@
 		{
 			x: 1.0d
 			y: 4.0d
-			subtitle: "Полезна при торговли!"
+			subtitle: "{gloomyrise.artifacts.quests7.subtitle}"
 			description: [
-				"&6Шляпа Жителя&r - это артефакт, который обожают жители, поэтому они его владелец получает дополнительные скидки при торговли с ними."
+				"{gloomyrise.artifacts.quests7.description0}"
 				""
-				"Её можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests7.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -202,11 +202,11 @@
 		{
 			x: -7.5d
 			y: 4.0d
-			subtitle: "Полезен при убийстве монстров!"
+			subtitle: "{gloomyrise.artifacts.quests8.subtitle}"
 			description: [
-				"&6Суеверная Шляпа&r - это артефакт, который наделяет своего носителя дополнительным уровнем удачи к выпадению предметов из убитых противников."
+				"{gloomyrise.artifacts.quests8.description0}"
 				""
-				"Её можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests8.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -225,11 +225,11 @@
 		{
 			x: 2.0d
 			y: 3.0d
-			subtitle: "Полезен при добычи ресурсов!"
+			subtitle: "{gloomyrise.artifacts.quests9.subtitle}"
 			description: [
-				"&6Шарф Удачи&r - это артефакт, который наделяет своего владельца дополнительным уровнем удачи, что позволяет более выгодно добывать различные ресурсы."
+				"{gloomyrise.artifacts.quests9.description0}"
 				""
-				"Его можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests9.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -248,11 +248,11 @@
 		{
 			x: 2.0d
 			y: 1.5d
-			subtitle: "Зачем? Неизвестно..."
+			subtitle: "{gloomyrise.artifacts.quests10.subtitle}"
 			description: [
-				"&6Шарф Неведимости&r - это артефакт, который скрывает свего владельца от лишних глаз."
+				"{gloomyrise.artifacts.quests10.description0}"
 				""
-				"Его можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests10.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -271,11 +271,11 @@
 		{
 			x: -7.0d
 			y: 2.5d
-			subtitle: "Поддержка Фемииды!"
+			subtitle: "{gloomyrise.artifacts.quests11.subtitle}"
 			description: [
-				"&6Колье с Крестиком&r - это артефакт, который увеличивает продолжительность непопедимости после получения урона своего владельца."
+				"{gloomyrise.artifacts.quests11.description0}"
 				""
-				"Её можно найти в &2сокровищницах&r различных данжей. "
+				"{gloomyrise.artifacts.quests11.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -294,11 +294,11 @@
 		{
 			x: -6.5d
 			y: 1.5d
-			subtitle: "Поддержка Гермеса!"
+			subtitle: "{gloomyrise.artifacts.quests12.subtitle}"
 			description: [
-				"&6Колье Паники&r - это артефакт, который увеличивает скорость своего владельца, при получении урона. Довольно полезный артефакт, который поможет более эффективно сражаться и отходить при смертельных ранениях."
+				"{gloomyrise.artifacts.quests12.description0}"
 				""
-				"Его можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests12.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -317,11 +317,11 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			subtitle: "Поддержка Зевса!"
+			subtitle: "{gloomyrise.artifacts.quests13.subtitle}"
 			description: [
-				"&6Подвеска \"Шок\"&r - это артефакт, который может ударить молнией противников своего владельца."
+				"{gloomyrise.artifacts.quests13.description0}"
 				""
-				"Её можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests13.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -340,11 +340,11 @@
 		{
 			x: 0.5d
 			y: 2.5d
-			subtitle: "Поддержка Гефеста!"
+			subtitle: "{gloomyrise.artifacts.quests14.subtitle}"
 			description: [
-				"&6Подвеска \"Пламя\"&r - это артефакт, который может поджечь противников своего владельца. "
+				"{gloomyrise.artifacts.quests14.description0}"
 				""
-				"Её можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests14.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -363,11 +363,11 @@
 		{
 			x: 0.0d
 			y: 3.5d
-			subtitle: "Поддержка Ареса!"
+			subtitle: "{gloomyrise.artifacts.quests15.subtitle}"
 			description: [
-				"&6Подвеска \"Шип\"&r - это артефакт, который может нанести урон противникам своего владельца."
+				"{gloomyrise.artifacts.quests15.description0}"
 				""
-				"Её можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests15.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -386,11 +386,11 @@
 		{
 			x: -6.5d
 			y: 3.5d
-			subtitle: "Поддержка Посейдона!"
+			subtitle: "{gloomyrise.artifacts.quests16.subtitle}"
 			description: [
-				"&6Талисман Погружения&r - это артефакт, который позволяет своему владельцу спокойно перемещаться в водном пространстве."
+				"{gloomyrise.artifacts.quests16.description0}"
 				""
-				"Его можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests16.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -409,11 +409,11 @@
 		{
 			x: -6.0d
 			y: 0.0d
-			subtitle: "Новые удобства!"
+			subtitle: "{gloomyrise.artifacts.quests17.subtitle}"
 			description: [
-				"&6Облако в Бутылке&r - это артефакт, который предоставляет своему владельцу двойной прыжок, делая его перемещение по миру более быстрым и удобным."
+				"{gloomyrise.artifacts.quests17.description0}"
 				""
-				"Его можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests17.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -432,11 +432,11 @@
 		{
 			x: -1.5d
 			y: 1.0d
-			subtitle: "Интересно, а чей он?"
+			subtitle: "{gloomyrise.artifacts.quests18.subtitle}"
 			description: [
-				"&6Обсидиановый Череп&r - это артефакт, который добавляет временную неуязвимость от огня своему владельцу, делая его более восприимчивым к огню. "
+				"{gloomyrise.artifacts.quests18.description0}"
 				""
-				"Его можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests18.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -455,11 +455,11 @@
 		{
 			x: -5.0d
 			y: -1.0d
-			subtitle: "Полезен в бою с ведьмами!"
+			subtitle: "{gloomyrise.artifacts.quests19.subtitle}"
 			description: [
-				"&6Сосуд с Противоядием&r - это артефакт, который снижает длительность негативных эффектов своего владельца, делая его более способным в бою, особенно с ведьмами."
+				"{gloomyrise.artifacts.quests19.description0}"
 				""
-				"Его можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests19.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -478,11 +478,11 @@
 		{
 			x: -5.0d
 			y: 1.0d
-			subtitle: "Пожалуй, один из самых полезных артефактов!"
+			subtitle: "{gloomyrise.artifacts.quests20.subtitle}"
 			description: [
-				"&6Универсальный Магнит&r - это артефакт, который притягивает близлежащий предмету своему владельцу, делая его жизнь чуток легче."
+				"{gloomyrise.artifacts.quests20.description0}"
 				""
-				"Его можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests20.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -501,11 +501,11 @@
 		{
 			x: -1.5d
 			y: -1.0d
-			subtitle: "Главное - не разбить!"
+			subtitle: "{gloomyrise.artifacts.quests21.subtitle}"
 			description: [
-				"&6Хрустальное Сердце&r - это артефакт, который добавляет дополнительные сердца владельцу, делая его более живучим. "
+				"{gloomyrise.artifacts.quests21.description0}"
 				""
-				"Его можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests21.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -524,11 +524,11 @@
 		{
 			x: 1.0d
 			y: -1.0d
-			subtitle: "0_0 Удивительно!"
+			subtitle: "{gloomyrise.artifacts.quests22.subtitle}"
 			description: [
-				"&6Гелиевый Фламинго&r - это артефакт, который позволяет своему владельцу плавать в воздухе ограниченное время! Для этого нужно зайти в воду, подождать, пока наберётся заряд фламинго, а после начать плавать в воде и вылететь из неё в воздух. Невероятно!"
+				"{gloomyrise.artifacts.quests22.description0}"
 				""
-				"Его можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests22.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -547,11 +547,11 @@
 		{
 			x: 2.0d
 			y: -2.0d
-			subtitle: "Просто, но эффективно!"
+			subtitle: "{gloomyrise.artifacts.quests23.subtitle}"
 			description: [
-				"&6Копающие Когти&r - это предмет, который увеличивет базовый уровень добычи и скорость добычи в целом для своего владельца, делая его жизнь чуть приятнее."
+				"{gloomyrise.artifacts.quests23.description0}"
 				""
-				"Их можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests23.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -570,11 +570,11 @@
 		{
 			x: 2.0d
 			y: -3.5d
-			subtitle: "Просто, но полезно!"
+			subtitle: "{gloomyrise.artifacts.quests24.subtitle}"
 			description: [
-				"&6Звериные Когти&r - это артефакт, который увеличивет скорость атаки своего владельца, делая его более опасным противником."
+				"{gloomyrise.artifacts.quests24.description0}"
 				""
-				"Их можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests24.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -593,11 +593,11 @@
 		{
 			x: -8.5d
 			y: -2.0d
-			subtitle: "Сделает вас сильнее!"
+			subtitle: "{gloomyrise.artifacts.quests25.subtitle}"
 			description: [
-				"&6Силовая Перчатка&r - это артефакт, который добавляет 4 дополнительных урона, которые будет наносить владелец перчатки."
+				"{gloomyrise.artifacts.quests25.description0}"
 				""
-				"Её можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests25.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -616,11 +616,11 @@
 		{
 			x: -8.5d
 			y: -3.5d
-			subtitle: "Главное - не поджечь себя!"
+			subtitle: "{gloomyrise.artifacts.quests26.subtitle}"
 			description: [
-				"&6Огненная Рукавица&r - это артефакт, который способен поджигать тех противников, которых будет атаковать владелец рукавицы. Главное правило при ношении артефакта - не поджечь самого себя."
+				"{gloomyrise.artifacts.quests26.description0}"
 				""
-				"Её можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests26.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -639,11 +639,11 @@
 		{
 			x: -4.0d
 			y: 0.0d
-			subtitle: "Удивительная вещь!"
+			subtitle: "{gloomyrise.artifacts.quests27.subtitle}"
 			description: [
-				"&6Карманный Поршень&r - это артефакт, который увеличивает отбрасывание мобам, которых ударяет владелец артефакта. "
+				"{gloomyrise.artifacts.quests27.description0}"
 				""
-				"Его можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests27.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -662,11 +662,11 @@
 		{
 			x: -7.5d
 			y: -1.0d
-			subtitle: "Магический предмет?"
+			subtitle: "{gloomyrise.artifacts.quests28.subtitle}"
 			description: [
-				"&6Вампирическая Перчатка&r - это артефакт, который будет восстанавливать здоровье владельца, при наношении урона противнику."
+				"{gloomyrise.artifacts.quests28.description0}"
 				""
-				"Её можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests28.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -685,11 +685,11 @@
 		{
 			x: 1.0d
 			y: -4.0d
-			subtitle: "Приятное дополнение!"
+			subtitle: "{gloomyrise.artifacts.quests29.subtitle}"
 			description: [
-				"&6Золотой Крюк&r - это артефакт, который увеличивет выпадаемый, при смерти, с монстров опыт."
-				" "
-				"Его можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests29.description0}"
+				"{gloomyrise.artifacts.quests29.description1}"
+				"{gloomyrise.artifacts.quests29.description2}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -708,11 +708,11 @@
 		{
 			x: 0.0d
 			y: -1.5d
-			subtitle: "Удобства!"
+			subtitle: "{gloomyrise.artifacts.quests30.subtitle}"
 			description: [
-				"&6Аква-дэшэры&r - это артефакт, который позволяет своему владельцу ходить по поверхности различных жидкостях. Но это работает только в том случае, когда владелец артефакта бежит."
+				"{gloomyrise.artifacts.quests30.description0}"
 				""
-				"Их можно найти в &2сокровищницах&r различных данжей. "
+				"{gloomyrise.artifacts.quests30.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -731,11 +731,11 @@
 		{
 			x: -6.5d
 			y: -1.5d
-			subtitle: "Срочно необходима баня!"
+			subtitle: "{gloomyrise.artifacts.quests31.subtitle}"
 			description: [
-				"&6Банники&r - это артефакт, который увеличивет высоту прыжка своего владельца, а также полностью поглощает урон от падения."
+				"{gloomyrise.artifacts.quests31.description0}"
 				""
-				"Их можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests31.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -754,11 +754,11 @@
 		{
 			x: 0.5d
 			y: -2.5d
-			subtitle: "Довольно милые, но не для всех!"
+			subtitle: "{gloomyrise.artifacts.quests32.subtitle}"
 			description: [
-				"&6Тапочки \"Котёнок\"&r - это артефакт, которого боятся криперы. Поэтому его владелец может больше не переживать о неожиданных взрывах за спиной."
+				"{gloomyrise.artifacts.quests32.description0}"
 				""
-				"Их можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests32.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -777,11 +777,11 @@
 		{
 			x: -7.0d
 			y: -2.5d
-			subtitle: "Удобная обувь!"
+			subtitle: "{gloomyrise.artifacts.quests33.subtitle}"
 			description: [
-				"&6Кроссовки&r - это артефакт, который увеличивет скорость движения своего владельца, ведь они очень удобные."
+				"{gloomyrise.artifacts.quests33.description0}"
 				""
-				"Их можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests33.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -800,11 +800,11 @@
 		{
 			x: -6.5d
 			y: -3.5d
-			subtitle: "Делает своего владельца стойким!"
+			subtitle: "{gloomyrise.artifacts.quests34.subtitle}"
 			description: [
-				"&6Прочные Шипы&r - это артефакт, который полностью поглащает отбрасывание своего владельца, при получении урона, делая его стойким и сильным."
+				"{gloomyrise.artifacts.quests34.description0}"
 				""
-				"Их можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests34.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -823,11 +823,11 @@
 		{
 			x: 0.0d
 			y: -3.5d
-			subtitle: "Необходимы пловцам!"
+			subtitle: "{gloomyrise.artifacts.quests35.subtitle}"
 			description: [
-				"&6Ласты&r - это артефакт, который увеличивет скорость своего владельца в воде, делая его более ловким и юрким под толщей воды."
+				"{gloomyrise.artifacts.quests35.description0}"
 				""
-				"Их можно найти в &2сокровищницах&r различных данжей."
+				"{gloomyrise.artifacts.quests35.description1}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
@@ -847,11 +847,11 @@
 			x: 7.5d
 			y: 0.0d
 			shape: "torn_rsquare"
-			subtitle: "Очень важный предмет!"
+			subtitle: "{gloomyrise.artifacts.quests36.subtitle}"
 			description: [
-				"&6Подушка-пердушка&r нужна, чтобы повеселиться в этом виртуальном мире."
-				" "
-				"Её можно найти в &2сокровищницах&r различных данжах."
+				"{gloomyrise.artifacts.quests36.description0}"
+				"{gloomyrise.artifacts.quests36.description1}"
+				"{gloomyrise.artifacts.quests36.description2}"
 			]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true

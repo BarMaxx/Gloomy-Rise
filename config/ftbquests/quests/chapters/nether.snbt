@@ -3,7 +3,7 @@
 	group: "37FCF4EC720E030D"
 	order_index: 0
 	filename: "nether"
-	title: "&6Адские похождения"
+	title: "{gloomyrise.nether.title}"
 	icon: "minecraft:nether_star"
 	default_quest_shape: "torn_circle"
 	default_hide_dependency_lines: false
@@ -21,12 +21,12 @@
 	}]
 	quests: [
 		{
-			title: "Портал в &4Незер&f!"
+			title: "{gloomyrise.nether.quests0.title}"
 			icon: "minecraft:obsidian"
 			x: -6.0d
 			y: -3.0d
 			shape: "torn_rsquare"
-			description: ["Чтобы попасть в Незер нужно построить рамку портала из обсидиана и поджечь её огнивом."]
+			description: ["{gloomyrise.nether.quests0.description0}"]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
 			size: 1.3d
@@ -35,7 +35,7 @@
 				{
 					id: "73115826D1F79035"
 					type: "item"
-					title: "Обсидиан"
+					title: "{gloomyrise.nether.quests0.tasks0.title}"
 					item: "minecraft:obsidian"
 					count: 10L
 				}
@@ -55,13 +55,13 @@
 		{
 			x: -4.0d
 			y: -3.5d
-			description: ["Незерский кирпич можно получить, переплавив незерак в печи. Из этих кирпичей можно создать кирпичи доменной печи."]
+			description: ["{gloomyrise.nether.quests1.description0}"]
 			dependencies: ["491E4B5BD7069266"]
 			id: "08D277C60EA4E24A"
 			tasks: [{
 				id: "4E1A16D97C19D86D"
 				type: "item"
-				title: "Незерский кирпич"
+				title: "{gloomyrise.nether.quests1.tasks0.title}"
 				item: "minecraft:nether_brick"
 				count: 16L
 			}]
@@ -76,13 +76,13 @@
 		{
 			x: -4.0d
 			y: -2.5d
-			description: ["Магму можно создать из сгустка магмы либо же накопать в Незере. Магма нужна для создания кирпичей доменной печи."]
+			description: ["{gloomyrise.nether.quests2.description0}"]
 			dependencies: ["491E4B5BD7069266"]
 			id: "1ED82206C1B8331E"
 			tasks: [{
 				id: "018F5E14F1A02A10"
 				type: "item"
-				title: "Магма"
+				title: "{gloomyrise.nether.quests2.tasks0.title}"
 				item: "minecraft:magma_block"
 				count: 8L
 			}]
@@ -97,13 +97,13 @@
 		{
 			x: -8.0d
 			y: -2.5d
-			description: ["Незер-кварц можно найти в Незере. И найти его достаточно легко, т.к. кварц появляется довольно часто."]
+			description: ["{gloomyrise.nether.quests3.description0}"]
 			dependencies: ["491E4B5BD7069266"]
 			id: "2CB6E2F317E842CA"
 			tasks: [{
 				id: "2CACBED3F58D8B35"
 				type: "item"
-				title: "Незер-кварц"
+				title: "{gloomyrise.nether.quests3.tasks0.title}"
 				item: "minecraft:quartz"
 				count: 16L
 			}]
@@ -118,13 +118,13 @@
 		{
 			x: -5.5d
 			y: -1.5d
-			description: ["Древние обломки появляются в Незере на высоте 7-22. Но он очень редкий, поэтому наберитесь терпения."]
+			description: ["{gloomyrise.nether.quests4.description0}"]
 			dependencies: ["491E4B5BD7069266"]
 			id: "2FDCBFDEBDA4BFBA"
 			tasks: [{
 				id: "7B23F9DEB8D6B58F"
 				type: "item"
-				title: "Древние обломки"
+				title: "{gloomyrise.nether.quests4.tasks0.title}"
 				item: "minecraft:ancient_debris"
 				count: 4L
 			}]
@@ -138,13 +138,13 @@
 		{
 			x: -5.0d
 			y: 0.0d
-			description: ["Чтобы получить незеритовый лом, необходимо переплавить древние обломки. Этот лом нужен для создания незеритового слитка."]
+			description: ["{gloomyrise.nether.quests5.description0}"]
 			dependencies: ["2FDCBFDEBDA4BFBA"]
 			id: "7DCC0FA4C160D8F4"
 			tasks: [{
 				id: "65F80DBFB139089B"
 				type: "item"
-				title: "Незеритовый лом"
+				title: "{gloomyrise.nether.quests5.tasks0.title}"
 				item: "minecraft:netherite_scrap"
 				count: 8L
 			}]
@@ -158,13 +158,13 @@
 		{
 			x: -5.5d
 			y: 1.0d
-			description: ["С помощью незеритового слитка можно улучшать некоторые вещи, например, броню, инструменты, сундуки и т.п."]
+			description: ["{gloomyrise.nether.quests6.description0}"]
 			dependencies: ["7DCC0FA4C160D8F4"]
 			id: "1F24FA2023174B08"
 			tasks: [{
 				id: "4521A14D94E869BB"
 				type: "item"
-				title: "Незеритовый слиток"
+				title: "{gloomyrise.nether.quests6.tasks0.title}"
 				item: "minecraft:netherite_ingot"
 				count: 3L
 			}]
@@ -175,7 +175,7 @@
 			}]
 		}
 		{
-			title: "Незеритовые инструменты"
+			title: "{gloomyrise.nether.quests7.title}"
 			icon: {
 				id: "minecraft:netherite_pickaxe"
 				Count: 1b
@@ -185,7 +185,7 @@
 			}
 			x: -6.5d
 			y: 2.0d
-			description: ["Хорошие и эффективные инструменты и оружие."]
+			description: ["{gloomyrise.nether.quests7.description0}"]
 			dependencies: ["1F24FA2023174B08"]
 			id: "7CD800F7D537713F"
 			tasks: [
@@ -241,7 +241,7 @@
 			}]
 		}
 		{
-			title: "Незеритовая броня"
+			title: "{gloomyrise.nether.quests8.title}"
 			icon: {
 				id: "minecraft:netherite_chestplate"
 				Count: 1b
@@ -251,7 +251,7 @@
 			}
 			x: -4.5d
 			y: 2.0d
-			description: ["Неплохая броня с хорошей защитой."]
+			description: ["{gloomyrise.nether.quests8.description0}"]
 			dependencies: ["1F24FA2023174B08"]
 			id: "6270C376F841A2FB"
 			tasks: [
@@ -309,7 +309,7 @@
 		{
 			x: -5.5d
 			y: 2.5d
-			description: ["Улучшенная версия алмазного рюкзака. Позволяет хранить больше предметов и улучшений."]
+			description: ["{gloomyrise.nether.quests9.description0}"]
 			dependencies: ["1F24FA2023174B08"]
 			id: "269199E0BBE0015A"
 			tasks: [{
@@ -319,26 +319,26 @@
 			}]
 		}
 		{
-			title: "Визер"
+			title: "{gloomyrise.nether.quests10.title}"
 			icon: "minecraft:wither_skeleton_skull"
 			x: -6.5d
 			y: -1.5d
-			subtitle: "Ваш первый босс!"
-			description: ["Чтобы заспавнить Визера, необходимо поставить 4 блока песка душ и 3 черепа визер-скелета как на картинке. Убив этого босса вы получите звезду Незера!"]
+			subtitle: "{gloomyrise.nether.quests10.subtitle}"
+			description: ["{gloomyrise.nether.quests10.description0}"]
 			dependencies: ["491E4B5BD7069266"]
 			id: "245CE482D6E6A2D7"
 			tasks: [
 				{
 					id: "6C32CAD61BE8758B"
 					type: "item"
-					title: "Череп визер-скелета"
+					title: "{gloomyrise.nether.quests10.tasks0.title}"
 					item: "minecraft:wither_skeleton_skull"
 					count: 3L
 				}
 				{
 					id: "48873F0DD7FD4E3C"
 					type: "item"
-					title: "Песок душ"
+					title: "{gloomyrise.nether.quests10.tasks1.title}"
 					item: "minecraft:soul_sand"
 					count: 4L
 				}
@@ -354,7 +354,7 @@
 		{
 			x: -7.0d
 			y: 0.0d
-			description: ["&dЗвезда Незера&f выпадает с Визера. Это очень ценный предмет, который в будущем Вам понадобится в большом количестве."]
+			description: ["{gloomyrise.nether.quests11.description0}"]
 			dependencies: ["245CE482D6E6A2D7"]
 			id: "33C1F735EFF06519"
 			tasks: [{
@@ -393,8 +393,8 @@
 			x: 0.0d
 			y: 2.0d
 			shape: "torn_hexagon"
-			subtitle: "Научился летать!"
-			description: ["&6Игнитовый крылатый нагрудник&r может летать!"]
+			subtitle: "{gloomyrise.nether.quests13.subtitle}"
+			description: ["{gloomyrise.nether.quests13.description0}"]
 			dependencies: ["723EAA028D71E654"]
 			id: "0FBE4D9739A74669"
 			tasks: [{
@@ -413,8 +413,8 @@
 			x: 1.5d
 			y: -3.0d
 			shape: "torn_octagon"
-			subtitle: "Музыка!"
-			description: ["&6Пластинка&r выпадает при убийстве моба &aИгнис&r."]
+			subtitle: "{gloomyrise.nether.quests14.subtitle}"
+			description: ["{gloomyrise.nether.quests14.description0}"]
 			dependencies: ["0BFE369B100A3595"]
 			id: "5766BB3047E2BEBC"
 			tasks: [{
@@ -427,8 +427,8 @@
 			x: 0.0d
 			y: -3.0d
 			shape: "torn_rsquare"
-			subtitle: "Горячо!"
-			description: ["Необходимо убить моба &6Игнис&r."]
+			subtitle: "{gloomyrise.nether.quests15.subtitle}"
+			description: ["{gloomyrise.nether.quests15.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["491E4B5BD7069266"]
 			size: 1.5d
@@ -448,8 +448,8 @@
 		{
 			x: 0.0d
 			y: -1.0d
-			subtitle: "Огненный слиток!"
-			description: ["&6Слиток игнита&r выпадает при убийстве моба &aИгнис&r."]
+			subtitle: "{gloomyrise.nether.quests16.subtitle}"
+			description: ["{gloomyrise.nether.quests16.description0}"]
 			dependencies: ["0BFE369B100A3595"]
 			id: "65D307CA91CEBF73"
 			tasks: [{
@@ -469,8 +469,8 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			subtitle: "Мощный меч!"
-			description: ["&6Испепелитель&r - это очень мощный меч, необходимый каждому."]
+			subtitle: "{gloomyrise.nether.quests17.subtitle}"
+			description: ["{gloomyrise.nether.quests17.description0}"]
 			dependencies: ["65D307CA91CEBF73"]
 			id: "20D6CB320CFB51AF"
 			tasks: [{
@@ -480,11 +480,11 @@
 			}]
 		}
 		{
-			title: "Игнитовая броня"
+			title: "{gloomyrise.nether.quests18.title}"
 			x: 0.0d
 			y: 0.5d
-			subtitle: "Имеет эффекты!"
-			description: ["&6Игнитовая броня&r - очень хорошая броня, подходящая под &4Незер&r."]
+			subtitle: "{gloomyrise.nether.quests18.subtitle}"
+			description: ["{gloomyrise.nether.quests18.description0}"]
 			dependencies: ["65D307CA91CEBF73"]
 			id: "723EAA028D71E654"
 			tasks: [
@@ -537,8 +537,8 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			subtitle: "Щит!"
-			description: ["&6Бастион пламени&r - щит со способностями!"]
+			subtitle: "{gloomyrise.nether.quests19.subtitle}"
+			description: ["{gloomyrise.nether.quests19.description0}"]
 			dependencies: ["65D307CA91CEBF73"]
 			dependency_requirement: "one_completed"
 			id: "547998AC2240F618"
@@ -551,11 +551,11 @@
 		{
 			x: 7.5d
 			y: -1.0d
-			subtitle: "Кирка!"
+			subtitle: "{gloomyrise.nether.quests20.subtitle}"
 			description: [
-				"&6Адский горн&r выпадает при убийстве моба &aНезеритовое чудище&r."
+				"{gloomyrise.nether.quests20.description0}"
 				""
-				"Адский горн - &aкирка&r, которую также можно использовать, как и &aоружие&r."
+				"{gloomyrise.nether.quests20.description1}"
 			]
 			dependencies: ["725898F4FC60844B"]
 			id: "2BE35E9C468D4D5C"
@@ -575,8 +575,8 @@
 			x: 8.0d
 			y: -3.0d
 			shape: "torn_rsquare"
-			subtitle: "Адский босс!"
-			description: ["Необходимо убить моба &6Незеритовое чудище&r."]
+			subtitle: "{gloomyrise.nether.quests21.subtitle}"
+			description: ["{gloomyrise.nether.quests21.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["491E4B5BD7069266"]
 			size: 1.5d
@@ -597,8 +597,8 @@
 			x: 6.5d
 			y: -3.0d
 			shape: "torn_octagon"
-			subtitle: "Музыка!"
-			description: ["&6Пластинка&r выпадает при убийстве моба &aНезеритовое чудище&r."]
+			subtitle: "{gloomyrise.nether.quests22.subtitle}"
+			description: ["{gloomyrise.nether.quests22.description0}"]
 			dependencies: ["725898F4FC60844B"]
 			id: "7E6FF34883160791"
 			tasks: [{
@@ -610,8 +610,8 @@
 		{
 			x: 8.5d
 			y: -1.0d
-			subtitle: "Главный трофей!"
-			description: ["&6Чудовищный рог&r выпадает при убийстве моба &aНезеритовое чудище&r."]
+			subtitle: "{gloomyrise.nether.quests23.subtitle}"
+			description: ["{gloomyrise.nether.quests23.description0}"]
 			dependencies: ["725898F4FC60844B"]
 			id: "17656A0F166A1853"
 			tasks: [{
@@ -623,8 +623,8 @@
 		{
 			x: 8.0d
 			y: 0.5d
-			subtitle: "Новый шлем со способностями!"
-			description: ["&6Чудовищный шлем&r - это очень хороший элмент вашего снаряжения."]
+			subtitle: "{gloomyrise.nether.quests24.subtitle}"
+			description: ["{gloomyrise.nether.quests24.description0}"]
 			dependencies: ["17656A0F166A1853"]
 			id: "1B4564433CC4E055"
 			tasks: [{

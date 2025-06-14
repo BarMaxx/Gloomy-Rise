@@ -1,9 +1,9 @@
 {
 	chapter_groups: [
-		{ id: "724CB10F5936E1B7", title: "&aНачальное развитие" }
-		{ id: "24923118FBE15B71", title: "&aУсиленное развитие" }
-		{ id: "69A2E8FFA0275984", title: "&aПоследний этап" }
-		{ id: "37FCF4EC720E030D", title: "&aПутешествия" }
-		{ id: "6E7449445FFC34C5", title: "&aДополнительно" }
+		{ id: "724CB10F5936E1B7", title: "{gloomyrise.chpters_group.initial_progression}" }
+		{ id: "24923118FBE15B71", title: "{gloomyrise.chpters_group.enchanced_progression}" }
+		{ id: "69A2E8FFA0275984", title: "{gloomyrise.chpters_group.last_stage}" }
+		{ id: "37FCF4EC720E030D", title: "{gloomyrise.chpters_group.journey}" }
+		{ id: "6E7449445FFC34C5", title: "{gloomyrise.chpters_group.additional}" }
 	]
 }

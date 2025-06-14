@@ -3,7 +3,7 @@
 	group: "724CB10F5936E1B7"
 	order_index: 1
 	filename: "create"
-	title: "&6Механика"
+	title: "{gloomyrise.create.title}"
 	icon: "create:andesite_alloy"
 	default_quest_shape: "default_circle"
 	default_hide_dependency_lines: false
@@ -24,8 +24,8 @@
 			x: -5.5d
 			y: -3.5d
 			shape: "default_rsquare"
-			subtitle: "The Create!"
-			description: ["Андезитовый сплав - это главный компонент в моде Create. Он пригодится Вам в большом количестве, но хорошо, что создаётся он достаточно просто, хоть и долго."]
+			subtitle: "{gloomyrise.create.quests0.subtitle}"
+			description: ["{gloomyrise.create.quests0.description0}"]
 			dependencies: ["717BF6EE7925AD56"]
 			hide: true
 			size: 1.3d
@@ -33,7 +33,7 @@
 			tasks: [{
 				id: "3BE949FEBCC450E2"
 				type: "item"
-				title: "Андезитовый сплав"
+				title: "{gloomyrise.create.quests0.tasks0.title}"
 				item: "create:andesite_alloy"
 				count: 8L
 			}]
@@ -47,13 +47,13 @@
 		{
 			x: -4.0d
 			y: -3.0d
-			description: ["Вал используется для передачи кинетической энергии к различным механизмам. А также для некоторых крафтов."]
+			description: ["{gloomyrise.create.quests1.description0}"]
 			dependencies: ["05313F486CEB3B7C"]
 			id: "20BF1BB77B0376F5"
 			tasks: [{
 				id: "3ED63F087FFD4461"
 				type: "item"
-				title: "Вал"
+				title: "{gloomyrise.create.quests1.tasks0.title}"
 				item: "create:shaft"
 				count: 4L
 			}]
@@ -68,13 +68,13 @@
 		{
 			x: -5.5d
 			y: -1.5d
-			description: ["Шестерня, также как и вал, используется для передачи кинетической энергии, но более точно. А также для некоторых крафтов."]
+			description: ["{gloomyrise.create.quests2.description0}"]
 			dependencies: ["05313F486CEB3B7C"]
 			id: "403D59C3A04C4E08"
 			tasks: [{
 				id: "39C01EF6E53F8035"
 				type: "item"
-				title: "Шестерня"
+				title: "{gloomyrise.create.quests2.tasks0.title}"
 				item: "create:cogwheel"
 				count: 4L
 			}]
@@ -88,13 +88,13 @@
 		{
 			x: -5.0d
 			y: -2.5d
-			description: ["Большая шестерня также используется для передачи кинетической энергии, а также используется в некоторых крафтах."]
+			description: ["{gloomyrise.create.quests3.description0}"]
 			dependencies: ["05313F486CEB3B7C"]
 			id: "6AAD73EE565C0104"
 			tasks: [{
 				id: "05396AEB330BC2F9"
 				type: "item"
-				title: "Большая шестерня"
+				title: "{gloomyrise.create.quests3.tasks0.title}"
 				item: "create:large_cogwheel"
 				count: 2L
 			}]
@@ -107,7 +107,7 @@
 		{
 			x: -4.0d
 			y: -2.0d
-			description: ["Водяное колесо вырабатывает кинетическую энергию с помощью потоков воды."]
+			description: ["{gloomyrise.create.quests4.description0}"]
 			dependencies: ["6AAD73EE565C0104"]
 			id: "76EE8220DFC29064"
 			tasks: [{
@@ -120,7 +120,7 @@
 			x: -5.5d
 			y: 0.0d
 			shape: "default_rsquare"
-			description: ["Механический пресс может спрессовывать предметы под собой."]
+			description: ["{gloomyrise.create.quests5.description0}"]
 			dependencies: ["403D59C3A04C4E08"]
 			size: 1.2d
 			id: "3196FFCC14766A93"
@@ -134,7 +134,7 @@
 			x: 0.5d
 			y: -3.5d
 			shape: "default_rsquare"
-			description: ["Латунный лист можно создать, кинув латунный слиток под работающий механический пресс. Латунные листы нужны для многих вещей, а также для других модов."]
+			description: ["{gloomyrise.create.quests6.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["3196FFCC14766A93"]
 			size: 1.2d
@@ -142,7 +142,7 @@
 			tasks: [{
 				id: "110E2FB05174D9BF"
 				type: "item"
-				title: "Латунный лист"
+				title: "{gloomyrise.create.quests6.tasks0.title}"
 				item: "create:brass_sheet"
 				count: 4L
 			}]
@@ -156,13 +156,13 @@
 		{
 			x: -4.5d
 			y: 0.0d
-			description: ["Золотой лист можно создать, кинув золотой слиток под работающий механический пресс. Золотые листы нужны для многих вещей, а также для других модов."]
+			description: ["{gloomyrise.create.quests7.description0}"]
 			dependencies: ["3196FFCC14766A93"]
 			id: "74670921294D0512"
 			tasks: [{
 				id: "2DB3511A23FDEB02"
 				type: "item"
-				title: "Золотой лист"
+				title: "{gloomyrise.create.quests7.tasks0.title}"
 				item: "create:golden_sheet"
 				count: 4L
 			}]
@@ -176,13 +176,13 @@
 		{
 			x: -6.5d
 			y: 0.0d
-			description: ["Железный лист можно создать, кинув железный слиток под работающий механический пресс. Железные листы нужны для многих вещей, а также для других модов."]
+			description: ["{gloomyrise.create.quests8.description0}"]
 			dependencies: ["3196FFCC14766A93"]
 			id: "16E0B4C72AB93B50"
 			tasks: [{
 				id: "77D77759EDF4F0B6"
 				type: "item"
-				title: "Железный лист"
+				title: "{gloomyrise.create.quests8.tasks0.title}"
 				item: "create:iron_sheet"
 				count: 4L
 			}]
@@ -196,13 +196,13 @@
 		{
 			x: -5.5d
 			y: 1.5d
-			description: ["Медный лист можно создать, кинув медный слиток под работающий механический пресс. Медные листы нужны для многих вещей, а также для других модов."]
+			description: ["{gloomyrise.create.quests9.description0}"]
 			dependencies: ["3196FFCC14766A93"]
 			id: "4F99B546EEDC53CA"
 			tasks: [{
 				id: "2D9DDA8B559C678F"
 				type: "item"
-				title: "Медный лист"
+				title: "{gloomyrise.create.quests9.tasks0.title}"
 				item: "create:copper_sheet"
 				count: 4L
 			}]
@@ -217,7 +217,7 @@
 			x: -4.0d
 			y: -1.0d
 			shape: "default_rsquare"
-			description: ["Позволяют видеть больше!"]
+			description: ["{gloomyrise.create.quests10.description0}"]
 			dependencies: ["74670921294D0512"]
 			size: 0.8d
 			id: "6988BCF930287760"
@@ -230,7 +230,7 @@
 		{
 			x: -4.0d
 			y: 1.0d
-			description: ["Гаечный ключ - это полезный инструмент для работы с кинетическими штуковинами. Может использоваться для поворота, демонтажа и настройки компонентов."]
+			description: ["{gloomyrise.create.quests11.description0}"]
 			dependencies: ["74670921294D0512"]
 			size: 0.8d
 			id: "4464CF902A17C82A"
@@ -243,13 +243,13 @@
 		{
 			x: 0.5d
 			y: -2.5d
-			description: ["Латунный или андезитовый корпус можно использовать для декорации валов. А также они используются во многих крафтах."]
+			description: ["{gloomyrise.create.quests12.description0}"]
 			dependencies: ["50CD8229B7FCF8E4"]
 			id: "71F7F7CD94E92BEC"
 			tasks: [{
 				id: "7E61A70236B47C95"
 				type: "item"
-				title: "Латунный корпус"
+				title: "{gloomyrise.create.quests12.tasks0.title}"
 				item: "create:brass_casing"
 				count: 4L
 			}]
@@ -263,7 +263,7 @@
 		{
 			x: -3.5d
 			y: -4.0d
-			description: ["Рукоятка вырабатывает небольшое количество кинетической энергии, которого хватает для использования механизмов. Но для этого нужно поработать руками."]
+			description: ["{gloomyrise.create.quests13.description0}"]
 			dependencies: ["20BF1BB77B0376F5"]
 			size: 0.8d
 			id: "7630752D57DBE794"
@@ -277,14 +277,14 @@
 			x: 0.5d
 			y: -1.0d
 			shape: "default_rsquare"
-			description: ["Массив из механических крафтеров можно использовать для автоматизации создания любого рецепта."]
+			description: ["{gloomyrise.create.quests14.description0}"]
 			dependencies: ["71F7F7CD94E92BEC"]
 			size: 1.2d
 			id: "65730E58BE0EB86B"
 			tasks: [{
 				id: "5510E6B4BC68A25B"
 				type: "item"
-				title: "Механический крафтер"
+				title: "{gloomyrise.create.quests14.tasks0.title}"
 				item: "create:mechanical_crafter"
 				count: 9L
 			}]
@@ -292,7 +292,7 @@
 		{
 			x: -7.0d
 			y: -1.0d
-			description: ["Пропеллер нужен для создания вентилятора в корпусе."]
+			description: ["{gloomyrise.create.quests15.description0}"]
 			dependencies: ["16E0B4C72AB93B50"]
 			id: "7F0D76C9618113CE"
 			tasks: [{
@@ -304,7 +304,7 @@
 		{
 			x: -7.0d
 			y: 1.0d
-			description: ["Венчик нужен для создания механического смешивателя."]
+			description: ["{gloomyrise.create.quests16.description0}"]
 			dependencies: ["16E0B4C72AB93B50"]
 			id: "5BAD099FF393376B"
 			tasks: [{
@@ -316,7 +316,7 @@
 		{
 			x: -8.0d
 			y: 1.0d
-			description: ["Механический смешиватель, как ни странно, смешивает бесформенные рецепты, а также имеет несколько своих рецептов. Но для использования механического смешивателя нужна чаша."]
+			description: ["{gloomyrise.create.quests17.description0}"]
 			dependencies: ["5BAD099FF393376B"]
 			id: "20213C889BD05B08"
 			tasks: [{
@@ -328,7 +328,7 @@
 		{
 			x: -8.0d
 			y: -1.0d
-			description: ["Вентиляторы в корпусе используют силу вращения для создания воздушного потока. Сила и направление потока зависят от подаваемого вращения."]
+			description: ["{gloomyrise.create.quests18.description0}"]
 			dependencies: ["7F0D76C9618113CE"]
 			id: "1C7126AA23C8B8D0"
 			tasks: [{
@@ -340,13 +340,13 @@
 		{
 			x: -7.0d
 			y: -3.0d
-			description: ["Латунный или андезитовый корпус можно использовать для декорации валов. А также они используются во многих крафтах."]
+			description: ["{gloomyrise.create.quests19.description0}"]
 			dependencies: ["05313F486CEB3B7C"]
 			id: "7FDBA4EB3B419E86"
 			tasks: [{
 				id: "0D2A335B24B28D97"
 				type: "item"
-				title: "Андезитовый корпус"
+				title: "{gloomyrise.create.quests19.tasks0.title}"
 				item: "create:andesite_casing"
 				count: 4L
 			}]
@@ -360,7 +360,7 @@
 		{
 			x: -7.5d
 			y: -4.0d
-			description: ["Коробка передач - это более компактный эквивалент передачи силы вращения."]
+			description: ["{gloomyrise.create.quests20.description0}"]
 			dependencies: ["7FDBA4EB3B419E86"]
 			size: 0.8d
 			id: "01D1211C07A00FAE"
@@ -373,7 +373,7 @@
 		{
 			x: -8.5d
 			y: -4.0d
-			description: ["Такая же коробка передач, только вертикальная."]
+			description: ["{gloomyrise.create.quests21.description0}"]
 			dependencies: ["01D1211C07A00FAE"]
 			size: 0.8d
 			id: "7A1B90695D59872B"
@@ -386,7 +386,7 @@
 		{
 			x: -6.5d
 			y: -2.0d
-			description: ["Механические вращатели прикрепляют блоки перед собой. При получении силы вращения, они соберутся во вращающуюся штуковину."]
+			description: ["{gloomyrise.create.quests22.description0}"]
 			dependencies: ["7FDBA4EB3B419E86"]
 			size: 0.8d
 			id: "1F2AEC9FF56D3248"
@@ -399,7 +399,7 @@
 		{
 			x: -7.5d
 			y: -2.0d
-			description: ["При подачи силы вращения, механическая дрель будет ломать блоки перед собой."]
+			description: ["{gloomyrise.create.quests23.description0}"]
 			dependencies: ["7FDBA4EB3B419E86"]
 			size: 0.8d
 			id: "525BD354E3DE821B"
@@ -412,13 +412,13 @@
 		{
 			x: -5.5d
 			y: 3.0d
-			description: ["Медный корпус можно использовать для декорации медных труб. А также они используются во многих крафтах."]
+			description: ["{gloomyrise.create.quests24.description0}"]
 			dependencies: ["4F99B546EEDC53CA"]
 			id: "721D01254847ED85"
 			tasks: [{
 				id: "7D9BDC66A1BDDE28"
 				type: "item"
-				title: "Медный корпус"
+				title: "{gloomyrise.create.quests24.tasks0.title}"
 				item: "create:copper_casing"
 				count: 4L
 			}]
@@ -432,13 +432,13 @@
 		{
 			x: -4.5d
 			y: 2.0d
-			description: ["Жидкостные трубы могут соединять два или более источников и потребителей жидкости. А также приводимые в действие механическими помпами, трубы могут транспортировать жидкости."]
+			description: ["{gloomyrise.create.quests25.description0}"]
 			dependencies: ["4F99B546EEDC53CA"]
 			id: "6C9A5735359E838A"
 			tasks: [{
 				id: "73C3872F414564D1"
 				type: "item"
-				title: "Жидкостная труба"
+				title: "{gloomyrise.create.quests25.tasks0.title}"
 				item: "create:fluid_pipe"
 				count: 6L
 			}]
@@ -452,13 +452,13 @@
 		{
 			x: -6.5d
 			y: 3.0d
-			description: ["Жидкостные баки можно использовать для хранения больших объёмов жидкости."]
+			description: ["{gloomyrise.create.quests26.description0}"]
 			dependencies: ["721D01254847ED85"]
 			id: "2B9D0C1362B77302"
 			tasks: [{
 				id: "64212FDDD4B119B1"
 				type: "item"
-				title: "Жидкостный бак"
+				title: "{gloomyrise.create.quests26.tasks0.title}"
 				item: "create:fluid_tank"
 				count: 2L
 			}]
@@ -471,7 +471,7 @@
 		{
 			x: -4.5d
 			y: 3.0d
-			description: ["Шкив со шлангом можно использовать для заполения или осушения больших объёмов жидкости."]
+			description: ["{gloomyrise.create.quests27.description0}"]
 			dependencies: [
 				"721D01254847ED85"
 				"6C9A5735359E838A"
@@ -486,7 +486,7 @@
 		{
 			x: -5.5d
 			y: 4.0d
-			description: ["Предметные осушители могут извлекать жидкость из предмета."]
+			description: ["{gloomyrise.create.quests28.description0}"]
 			dependencies: ["721D01254847ED85"]
 			id: "6603D52769B6584E"
 			tasks: [{
@@ -499,7 +499,7 @@
 			x: -7.5d
 			y: 3.0d
 			shape: "default_rsquare"
-			description: ["Дозатором можно заполнять подходящие предметы, расположенные под ним."]
+			description: ["{gloomyrise.create.quests29.description0}"]
 			dependencies: ["2B9D0C1362B77302"]
 			id: "12F6C6B81F83D457"
 			tasks: [{
@@ -511,7 +511,7 @@
 		{
 			x: -7.0d
 			y: 2.0d
-			description: ["Вкусное угощение для вашей трудяги - горелки Всполоха."]
+			description: ["{gloomyrise.create.quests30.description0}"]
 			dependencies: ["12F6C6B81F83D457"]
 			size: 0.8d
 			id: "08ED2FC9DB9F1BCD"
@@ -529,8 +529,8 @@
 		{
 			x: -8.0d
 			y: 2.0d
-			subtitle: "Ням ням"
-			description: ["Очень вкусно!"]
+			subtitle: "{gloomyrise.create.quests31.subtitle}"
+			description: ["{gloomyrise.create.quests31.description0}"]
 			dependencies: ["12F6C6B81F83D457"]
 			size: 0.8d
 			id: "29ECE714BE20811C"
@@ -549,8 +549,8 @@
 		{
 			x: -8.0d
 			y: 4.0d
-			subtitle: "Ням ням"
-			description: ["Очень вкусно!"]
+			subtitle: "{gloomyrise.create.quests32.subtitle}"
+			description: ["{gloomyrise.create.quests32.description0}"]
 			dependencies: ["12F6C6B81F83D457"]
 			size: 0.8d
 			id: "376421D05F38ECF1"
@@ -569,8 +569,8 @@
 		{
 			x: -7.0d
 			y: 4.0d
-			subtitle: "Ням ням"
-			description: ["Очень вкусно!"]
+			subtitle: "{gloomyrise.create.quests33.subtitle}"
+			description: ["{gloomyrise.create.quests33.description0}"]
 			dependencies: ["12F6C6B81F83D457"]
 			size: 0.8d
 			id: "6ECD10B53EDE72AE"
@@ -589,8 +589,8 @@
 		{
 			x: -8.5d
 			y: 3.0d
-			subtitle: "За ваше прохождение!"
-			description: ["Идеальный напиток для начала дня, ведь он мотивирует и насыщает."]
+			subtitle: "{gloomyrise.create.quests34.subtitle}"
+			description: ["{gloomyrise.create.quests34.description0}"]
 			dependencies: ["12F6C6B81F83D457"]
 			size: 0.8d
 			id: "457BB7A165125A99"
@@ -608,7 +608,7 @@
 		{
 			x: -8.0d
 			y: -3.0d
-			description: ["На механической пиле можно обрабатывать различные предметы."]
+			description: ["{gloomyrise.create.quests35.description0}"]
 			dependencies: ["7FDBA4EB3B419E86"]
 			size: 0.8d
 			id: "00C8AD154E92482A"
@@ -621,8 +621,8 @@
 		{
 			x: -1.0d
 			y: -3.5d
-			subtitle: "Много рук не бывает"
-			description: ["Ещё одна рука не будет лишней!"]
+			subtitle: "{gloomyrise.create.quests36.subtitle}"
+			description: ["{gloomyrise.create.quests36.description0}"]
 			dependencies: ["50CD8229B7FCF8E4"]
 			id: "0308FAC464475A68"
 			tasks: [{
@@ -634,7 +634,7 @@
 		{
 			x: -6.5d
 			y: -4.0d
-			description: ["Депо может служить как стационарный элемент конвейера."]
+			description: ["{gloomyrise.create.quests37.description0}"]
 			dependencies: ["7FDBA4EB3B419E86"]
 			size: 0.8d
 			id: "2311A9001C84DBC0"
@@ -648,13 +648,13 @@
 			x: 0.5d
 			y: 0.5d
 			shape: "default_rsquare"
-			description: ["Пара колёс дробления может молоть предметы очень эффективно. Но сила вращения должна вращать их друг в друга."]
+			description: ["{gloomyrise.create.quests38.description0}"]
 			dependencies: ["65730E58BE0EB86B"]
 			id: "483B597173AF5FA3"
 			tasks: [{
 				id: "17BCDD1A33293FAE"
 				type: "item"
-				title: "Колесо дробления"
+				title: "{gloomyrise.create.quests38.tasks0.title}"
 				item: "create:crushing_wheel"
 				count: 2L
 			}]
@@ -662,13 +662,13 @@
 		{
 			x: 0.5d
 			y: 1.5d
-			description: ["Порошкообразный обсидиан можно получить, перемолов обсидиан в паре колёс дробления."]
+			description: ["{gloomyrise.create.quests39.description0}"]
 			dependencies: ["483B597173AF5FA3"]
 			id: "43F2D54ED0797704"
 			tasks: [{
 				id: "2B01E33A3D22AFBA"
 				type: "item"
-				title: "Порошкообразный обсидиан"
+				title: "{gloomyrise.create.quests39.tasks0.title}"
 				item: "create:powdered_obsidian"
 				count: 8L
 			}]
@@ -683,13 +683,13 @@
 			x: 0.5d
 			y: 2.5d
 			shape: "default_rsquare"
-			description: ["Хроматический компаунд создаётся в механическом смешивателе, но не забудьте приготовить торт Всполоха."]
+			description: ["{gloomyrise.create.quests40.description0}"]
 			dependencies: ["43F2D54ED0797704"]
 			id: "3C984B57AE3F2AC6"
 			tasks: [{
 				id: "45186AB433906CCE"
 				type: "item"
-				title: "Хроматический компаунд"
+				title: "{gloomyrise.create.quests40.tasks0.title}"
 				item: {
 					id: "create:chromatic_compound"
 					Count: 1b
@@ -711,13 +711,13 @@
 		{
 			x: 1.5d
 			y: 3.0d
-			description: ["Хроматический материал, добытый в пустоте. Придётся сломать бедрок, или отправиться в Край, ведь эту сталь можно создать только в пустоте."]
+			description: ["{gloomyrise.create.quests41.description0}"]
 			dependencies: ["3C984B57AE3F2AC6"]
 			id: "3AC4255121E88303"
 			tasks: [{
 				id: "4D656593C299777C"
 				type: "item"
-				title: "Призрачная сталь"
+				title: "{gloomyrise.create.quests41.tasks0.title}"
 				item: "create:shadow_steel"
 				count: 4L
 			}]
@@ -731,13 +731,13 @@
 		{
 			x: -0.5d
 			y: 3.0d
-			description: ["Хроматический материал, добытый из поглащённого света. Чтобы создать это сияние, необходимо кинуть хроматический компаунд около лавы."]
+			description: ["{gloomyrise.create.quests42.description0}"]
 			dependencies: ["3C984B57AE3F2AC6"]
 			id: "5E8C0829A3731715"
 			tasks: [{
 				id: "7ECE7323364F020F"
 				type: "item"
-				title: "Изысканное сияние"
+				title: "{gloomyrise.create.quests42.tasks0.title}"
 				item: "create:refined_radiance"
 				count: 4L
 			}]
@@ -752,7 +752,7 @@
 			x: -2.0d
 			y: 3.0d
 			shape: "default_octagon"
-			description: ["Жезл симметрии идеально отражает размещаемые блоки по настроенным плоскостям. Очень удобная вещь, при строительстве чего-то масштабного."]
+			description: ["{gloomyrise.create.quests43.description0}"]
 			dependencies: ["5E8C0829A3731715"]
 			id: "1EECDD1DF092B59D"
 			tasks: [{
@@ -764,13 +764,13 @@
 		{
 			x: 1.5d
 			y: 4.0d
-			description: ["Просто прикольный блок, можно использовать в качестве декорации."]
+			description: ["{gloomyrise.create.quests44.description0}"]
 			dependencies: ["3AC4255121E88303"]
 			id: "3AB16F1D85975B59"
 			tasks: [{
 				id: "33302A689CB70C81"
 				type: "item"
-				title: "Теневой корпус"
+				title: "{gloomyrise.create.quests44.tasks0.title}"
 				item: "create:shadow_steel_casing"
 				count: 8L
 			}]
@@ -784,13 +784,13 @@
 		{
 			x: -0.5d
 			y: 4.0d
-			description: ["Просто прикольный блок, можно использовать в качестве декорации."]
+			description: ["{gloomyrise.create.quests45.description0}"]
 			dependencies: ["5E8C0829A3731715"]
 			id: "5812B3E9ECCE10E9"
 			tasks: [{
 				id: "0F0FF84D6A462092"
 				type: "item"
-				title: "Сияющий корпус"
+				title: "{gloomyrise.create.quests45.tasks0.title}"
 				item: "create:refined_radiance_casing"
 				count: 8L
 			}]
@@ -804,13 +804,13 @@
 		{
 			x: -1.0d
 			y: 0.5d
-			description: ["Незераковую пыль можно получить, перемолов незерак в паре колёса дробления."]
+			description: ["{gloomyrise.create.quests46.description0}"]
 			dependencies: ["483B597173AF5FA3"]
 			id: "5167522B9F793231"
 			tasks: [{
 				id: "74F6CD71A5A021E4"
 				type: "item"
-				title: "Незераковая пыль"
+				title: "{gloomyrise.create.quests46.tasks0.title}"
 				item: "create:cinder_flour"
 				count: 4L
 			}]
@@ -824,7 +824,7 @@
 		{
 			x: -2.0d
 			y: 1.5d
-			description: ["Основа торта Всполоха нужна для создания торта Всполоха."]
+			description: ["{gloomyrise.create.quests47.description0}"]
 			dependencies: ["5167522B9F793231"]
 			id: "732E0FDB1E1F9AF4"
 			tasks: [{
@@ -836,8 +836,8 @@
 		{
 			x: -2.5d
 			y: -2.5d
-			subtitle: "РА-ТА-ТА-ТА"
-			description: ["Запускайте выращенные вами овощи в своих врагов. Может питаться от давления медого баллона, не тратя прочность."]
+			subtitle: "{gloomyrise.create.quests48.subtitle}"
+			description: ["{gloomyrise.create.quests48.description0}"]
 			dependencies: ["33A950FD114A34D9"]
 			id: "02BCA049F60D8BF1"
 			tasks: [{
@@ -855,8 +855,8 @@
 		{
 			x: -1.5d
 			y: -2.5d
-			subtitle: "И не надо будет просить стакан воды в старости :)"
-			description: ["Значительно увеличивает досягаемость владельца."]
+			subtitle: "{gloomyrise.create.quests49.subtitle}"
+			description: ["{gloomyrise.create.quests49.description0}"]
 			dependencies: ["33A950FD114A34D9"]
 			id: "490B1ACAA1FDDAFF"
 			tasks: [{
@@ -874,7 +874,7 @@
 		{
 			x: -1.0d
 			y: -1.5d
-			description: ["При наличии силы вращения автономный активатор может имитировать действия игрока."]
+			description: ["{gloomyrise.create.quests50.description0}"]
 			dependencies: ["65730E58BE0EB86B"]
 			id: "3E7E4B74012B1B0D"
 			tasks: [{
@@ -887,14 +887,14 @@
 			x: -2.0d
 			y: -1.5d
 			shape: "default_rsquare"
-			description: ["Механизм точно создаётся очень интересным способом. Нужно выстроить линейку автономных активаторов со специальными предметами. После этого нужно кинуть 1 активатору золотой лист."]
+			description: ["{gloomyrise.create.quests51.description0}"]
 			dependencies: ["3E7E4B74012B1B0D"]
 			size: 1.1d
 			id: "33A950FD114A34D9"
 			tasks: [{
 				id: "19656EBE844BA301"
 				type: "item"
-				title: "Механизм точности"
+				title: "{gloomyrise.create.quests51.tasks0.title}"
 				item: "create:precision_mechanism"
 				count: 2L
 			}]
@@ -907,7 +907,7 @@
 		{
 			x: -1.5d
 			y: -0.5d
-			description: ["Механические руки, перед тем, чтобы поставить нужно правильно настроить, а после уже устанавливать."]
+			description: ["{gloomyrise.create.quests52.description0}"]
 			dependencies: ["33A950FD114A34D9"]
 			id: "33DB735677B876ED"
 			tasks: [{
@@ -919,7 +919,7 @@
 		{
 			x: -2.5d
 			y: -0.5d
-			description: ["Регулятор скорости вращения, как ни странно, регулирует скорость вращения."]
+			description: ["{gloomyrise.create.quests53.description0}"]
 			dependencies: ["33A950FD114A34D9"]
 			id: "10E33A5D0F84609B"
 			tasks: [{
@@ -931,7 +931,7 @@
 		{
 			x: 2.0d
 			y: -1.5d
-			description: ["Печные двигатели создают силу вращения, пока присоединённые к ним печи работают."]
+			description: ["{gloomyrise.create.quests54.description0}"]
 			dependencies: ["65730E58BE0EB86B"]
 			id: "2B16A7D3040A0870"
 			tasks: [{
@@ -943,7 +943,7 @@
 		{
 			x: 2.0d
 			y: -0.5d
-			description: ["Маховики необходимы для генерации силы вращения при помощи печных двигателей."]
+			description: ["{gloomyrise.create.quests55.description0}"]
 			dependencies: ["65730E58BE0EB86B"]
 			id: "0D865BE481BEB72B"
 			tasks: [{
@@ -956,8 +956,8 @@
 			x: 0.5d
 			y: 4.5d
 			shape: "default_heart"
-			subtitle: "Пора отдохнуть :)"
-			description: ["Вы уже прошли большой путь, поэтому нужно сделать перерыв. Но не засиживайтесь, ведь впереди ожидает ещё много неизвестного!"]
+			subtitle: "{gloomyrise.create.quests56.subtitle}"
+			description: ["{gloomyrise.create.quests56.description0}"]
 			dependencies: [
 				"3AB16F1D85975B59"
 				"5812B3E9ECCE10E9"
@@ -974,7 +974,7 @@
 			x: 2.0d
 			y: 0.5d
 			shape: "default_square"
-			description: ["Для того, чтобы колёса вращались друг в друга, следует создать реверсивный механизм и использовать рычаг."]
+			description: ["{gloomyrise.create.quests57.description0}"]
 			dependencies: ["483B597173AF5FA3"]
 			id: "774387498A9106B5"
 			tasks: [{

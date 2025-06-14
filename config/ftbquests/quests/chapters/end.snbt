@@ -3,7 +3,7 @@
 	group: "37FCF4EC720E030D"
 	order_index: 1
 	filename: "end"
-	title: "&6Приключения в Энде"
+	title: "{gloomyrise.end.title}"
 	icon: "minecraft:dragon_head"
 	default_quest_shape: "torn_circle"
 	default_hide_dependency_lines: false
@@ -24,8 +24,8 @@
 			x: -6.0d
 			y: -3.0d
 			shape: "torn_rsquare"
-			subtitle: "Пора в Край"
-			description: ["Око Эндера нужно для нахождения и активации портала в Край."]
+			subtitle: "{gloomyrise.end.quests0.subtitle}"
+			description: ["{gloomyrise.end.quests0.description0}"]
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
 			size: 1.3d
@@ -33,7 +33,7 @@
 			tasks: [{
 				id: "6913BE94DB66822F"
 				type: "item"
-				title: "Око Эндера"
+				title: "{gloomyrise.end.quests0.tasks0.title}"
 				item: "minecraft:ender_eye"
 				count: 12L
 			}]
@@ -48,7 +48,7 @@
 		{
 			x: -8.0d
 			y: -2.5d
-			description: ["На взлёт!"]
+			description: ["{gloomyrise.end.quests1.description0}"]
 			dependencies: ["3CE6ECDB2520ED5F"]
 			id: "3893494EE66CC691"
 			tasks: [{
@@ -66,7 +66,7 @@
 		{
 			x: -4.0d
 			y: -3.5d
-			description: ["Неплохое украшение."]
+			description: ["{gloomyrise.end.quests2.description0}"]
 			dependencies: ["3CE6ECDB2520ED5F"]
 			id: "67BF7985D1B040E5"
 			tasks: [{
@@ -78,7 +78,7 @@
 		{
 			x: -4.0d
 			y: -2.5d
-			description: ["Ингридиент для крафта шалкерового ящика."]
+			description: ["{gloomyrise.end.quests3.description0}"]
 			dependencies: ["3CE6ECDB2520ED5F"]
 			id: "49E7339FCE81B389"
 			tasks: [{
@@ -97,7 +97,7 @@
 		{
 			x: -4.0d
 			y: -1.0d
-			description: ["Переносное хранилище."]
+			description: ["{gloomyrise.end.quests4.description0}"]
 			dependencies: ["49E7339FCE81B389"]
 			id: "77BFC49B1D3ECBF9"
 			tasks: [{
@@ -132,7 +132,7 @@
 		{
 			x: -5.0d
 			y: -0.5d
-			description: ["Вкусно!"]
+			description: ["{gloomyrise.end.quests6.description0}"]
 			dependencies: ["7CBE0B9BDBE2F3C6"]
 			id: "5AD3E3A0BA008575"
 			tasks: [{
@@ -150,7 +150,7 @@
 		{
 			x: -6.0d
 			y: 0.0d
-			description: ["Вкусно!"]
+			description: ["{gloomyrise.end.quests7.description0}"]
 			dependencies: ["7CBE0B9BDBE2F3C6"]
 			id: "278FD3C38BF302AC"
 			tasks: [{
@@ -168,7 +168,7 @@
 		{
 			x: -7.0d
 			y: -0.5d
-			description: ["Вкусно!"]
+			description: ["{gloomyrise.end.quests8.description0}"]
 			dependencies: ["7CBE0B9BDBE2F3C6"]
 			id: "3CC581F4989EE56D"
 			tasks: [{
@@ -186,7 +186,7 @@
 		{
 			x: -8.0d
 			y: -3.5d
-			description: ["Цветочек."]
+			description: ["{gloomyrise.end.quests9.description0}"]
 			dependencies: ["3CE6ECDB2520ED5F"]
 			id: "05594F485CA36EDA"
 			tasks: [{
@@ -199,11 +199,11 @@
 			x: 0.0d
 			y: 3.5d
 			shape: "diamond"
-			subtitle: "Сердце голема!"
+			subtitle: "{gloomyrise.end.quests10.subtitle}"
 			description: [
-				"&6Ядро пустоты&r выпадает с моба &aЭндер-голем&r."
+				"{gloomyrise.end.quests10.description0}"
 				""
-				"Ядро пустоты имеет способность вызывать &aРуну пустоты&r при нажатии &eПКМ&r."
+				"{gloomyrise.end.quests10.description1}"
 			]
 			dependencies: ["5C6EBA95FEEDCC9C"]
 			id: "6A15A261D0CD108C"
@@ -217,8 +217,8 @@
 			x: 0.0d
 			y: 1.5d
 			shape: "torn_rsquare"
-			subtitle: "Голем!"
-			description: ["Необходимо убить моба &6Эндер-голем&r."]
+			subtitle: "{gloomyrise.end.quests11.subtitle}"
+			description: ["{gloomyrise.end.quests11.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["3CE6ECDB2520ED5F"]
 			size: 1.5d
@@ -239,8 +239,8 @@
 			x: -1.0d
 			y: -1.5d
 			shape: "diamond"
-			subtitle: "Музыка!"
-			description: ["&6Пластинка&r выпадает при убийстве моба &aСтраж края&r."]
+			subtitle: "{gloomyrise.end.quests12.subtitle}"
+			description: ["{gloomyrise.end.quests12.description0}"]
 			dependencies: ["224DFA23647FF06E"]
 			id: "40B65A62720F616D"
 			tasks: [{
@@ -253,8 +253,8 @@
 			x: 0.0d
 			y: -3.0d
 			shape: "torn_rsquare"
-			subtitle: "Защищает Край!"
-			description: ["Необходимо убить моба &6Страж края&r."]
+			subtitle: "{gloomyrise.end.quests13.subtitle}"
+			description: ["{gloomyrise.end.quests13.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["3CE6ECDB2520ED5F"]
 			size: 1.5d
@@ -275,11 +275,11 @@
 			x: 1.0d
 			y: -1.5d
 			shape: "diamond"
-			subtitle: "Притягивает существ!"
+			subtitle: "{gloomyrise.end.quests14.subtitle}"
 			description: [
-				"&6Перчатка стража&r выпадает при убийстве моба &aСтраж края&r. "
+				"{gloomyrise.end.quests14.description0}"
 				""
-				"Перчатка стража &aпритягивет&r различных существ."
+				"{gloomyrise.end.quests14.description1}"
 			]
 			dependencies: ["224DFA23647FF06E"]
 			id: "632D4B6861246459"

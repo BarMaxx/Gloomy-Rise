@@ -3,7 +3,7 @@
 	group: "24923118FBE15B71"
 	order_index: 0
 	filename: "hightech"
-	title: "&6Высокие технологии Ч.1"
+	title: "{gloomyrise.hightech.title}"
 	icon: "industrialforegoing:plastic"
 	default_quest_shape: "ragged_circle"
 	default_hide_dependency_lines: false
@@ -23,7 +23,7 @@
 		{
 			x: -6.5d
 			y: -2.5d
-			subtitle: "Не настолько уж и ужасный"
+			subtitle: "{gloomyrise.hightech.quests0.subtitle}"
 			dependencies: ["114FD26AF2B063E3"]
 			hide: true
 			id: "694281DA3A22F08D"
@@ -37,7 +37,7 @@
 			x: -8.0d
 			y: -3.5d
 			shape: "ragged_rsquare"
-			description: ["С помощью жидкостного экстрактора можно вырабатывать латекс. Для этого необходимо поставить бревно в рабочую зону механизма."]
+			description: ["{gloomyrise.hightech.quests1.description0}"]
 			dependencies: ["4CC33F150E5DA0A0"]
 			hide: true
 			size: 1.3d
@@ -51,7 +51,7 @@
 		{
 			x: -6.5d
 			y: -3.5d
-			description: ["Ведро латекса понадобится для создания юнита по производству латекса."]
+			description: ["{gloomyrise.hightech.quests2.description0}"]
 			dependencies: ["115B9FD4723D5951"]
 			id: "26EFC6835A48466A"
 			tasks: [{
@@ -68,7 +68,7 @@
 		{
 			x: -5.0d
 			y: -3.5d
-			description: ["В юните по производству латекса можно вырабатывать сухой кусочек резины с помощью &9воды&f и &eлатекса&f."]
+			description: ["{gloomyrise.hightech.quests3.description0}"]
 			dependencies: ["26EFC6835A48466A"]
 			id: "33D6D0B7AAE2127D"
 			tasks: [{
@@ -80,13 +80,13 @@
 		{
 			x: -4.5d
 			y: -2.5d
-			description: ["Сухой кусочек резины нужен для создания &8сухой резины&f."]
+			description: ["{gloomyrise.hightech.quests4.description0}"]
 			dependencies: ["33D6D0B7AAE2127D"]
 			id: "1EE04FF854497BE4"
 			tasks: [{
 				id: "08CB42B93B21B157"
 				type: "item"
-				title: "Сухой кусочек резины"
+				title: "{gloomyrise.hightech.quests4.tasks0.title}"
 				item: "industrialforegoing:tinydryrubber"
 				count: 5L
 			}]
@@ -101,13 +101,13 @@
 		{
 			x: -4.5d
 			y: -1.5d
-			description: ["Сухая резина нужна для создания &7пластика&f."]
+			description: ["{gloomyrise.hightech.quests5.description0}"]
 			dependencies: ["1EE04FF854497BE4"]
 			id: "352BFCCA7AC39428"
 			tasks: [{
 				id: "0C8F03FBBC9CB4F1"
 				type: "item"
-				title: "Сухая резина"
+				title: "{gloomyrise.hightech.quests5.tasks0.title}"
 				item: "industrialforegoing:dryrubber"
 				count: 4L
 			}]
@@ -121,13 +121,13 @@
 		{
 			x: -6.0d
 			y: -1.5d
-			description: ["Пластик - это очень важный элемент в высоких технологиях! Его здесь потребуется достаточно много."]
+			description: ["{gloomyrise.hightech.quests6.description0}"]
 			dependencies: ["352BFCCA7AC39428"]
 			id: "6AF0C43A5DBB4655"
 			tasks: [{
 				id: "6B68AD10E0C5F1F2"
 				type: "item"
-				title: "Пластик"
+				title: "{gloomyrise.hightech.quests6.tasks0.title}"
 				item: "industrialforegoing:plastic"
 				count: 8L
 			}]
@@ -142,7 +142,7 @@
 		{
 			x: -6.5d
 			y: 0.0d
-			description: ["В камере растворения можно создавать много различных предметов."]
+			description: ["{gloomyrise.hightech.quests7.description0}"]
 			dependencies: ["6AF0C43A5DBB4655"]
 			id: "7D505AD12A920AD4"
 			tasks: [{
@@ -154,7 +154,7 @@
 		{
 			x: -7.0d
 			y: -1.0d
-			description: ["С помощью завод-резня мобов можно получить жидкое мясо и розовую слизь."]
+			description: ["{gloomyrise.hightech.quests8.description0}"]
 			dependencies: ["6AF0C43A5DBB4655"]
 			id: "6CF87CA08FF8433F"
 			tasks: [{
@@ -166,7 +166,7 @@
 		{
 			x: -7.5d
 			y: 0.0d
-			description: ["С помощью розовой слизи можно создать много различных предметов в камере растворения."]
+			description: ["{gloomyrise.hightech.quests9.description0}"]
 			dependencies: ["6CF87CA08FF8433F"]
 			id: "53AEFDF1C60B2E4D"
 			tasks: [{
@@ -178,13 +178,13 @@
 		{
 			x: -6.0d
 			y: 1.5d
-			description: ["Обычная рамка механизма нужна для создания различных механизмов и не только."]
+			description: ["{gloomyrise.hightech.quests10.description0}"]
 			dependencies: ["7D505AD12A920AD4"]
 			id: "10E28C6568587542"
 			tasks: [{
 				id: "0C910124F87A809B"
 				type: "item"
-				title: "Обычная рамка механизма"
+				title: "{gloomyrise.hightech.quests10.tasks0.title}"
 				item: "industrialforegoing:machine_frame_simple"
 				count: 4L
 			}]
@@ -198,20 +198,20 @@
 		{
 			x: -6.0d
 			y: 3.0d
-			description: ["Продвинутая рамка механизма нужна для создания различных механизмов и не только."]
+			description: ["{gloomyrise.hightech.quests11.description0}"]
 			dependencies: ["10E28C6568587542"]
 			id: "5A62FA4EFF26C661"
 			tasks: [{
 				id: "5C7470FECA6F5ECB"
 				type: "item"
-				title: "Продвинутая рамка механизма"
+				title: "{gloomyrise.hightech.quests11.tasks0.title}"
 				item: "industrialforegoing:machine_frame_advanced"
 				count: 4L
 			}]
 			rewards: [{
 				id: "1F279B9DE0C85215"
 				type: "item"
-				title: "Продвинутая рамка механизма"
+				title: "{gloomyrise.hightech.quests11.rewards0.title}"
 				item: "industrialforegoing:machine_frame_advanced"
 				count: 2
 			}]
@@ -219,13 +219,13 @@
 		{
 			x: -7.5d
 			y: 1.5d
-			description: ["Слиток розовой слизи понадобится для создания Ядра дракона, а так метеоритового компаса...да здравствует AE2 ^_^"]
+			description: ["{gloomyrise.hightech.quests12.description0}"]
 			dependencies: ["53AEFDF1C60B2E4D"]
 			id: "09AEF5AB3957D385"
 			tasks: [{
 				id: "441ABE315BC8A4C9"
 				type: "item"
-				title: "Слиток розовой слизи"
+				title: "{gloomyrise.hightech.quests12.tasks0.title}"
 				item: "industrialforegoing:pink_slime_ingot"
 				count: 5L
 			}]
@@ -239,7 +239,7 @@
 		{
 			x: -7.0d
 			y: 3.0d
-			description: ["В станции промывки из руд можно получить их сырую мясную версию."]
+			description: ["{gloomyrise.hightech.quests13.description0}"]
 			dependencies: ["09AEF5AB3957D385"]
 			id: "6CD49B526AA25BF6"
 			tasks: [{
@@ -251,8 +251,8 @@
 		{
 			x: -5.5d
 			y: 0.0d
-			subtitle: "Теперь я Элита"
-			description: ["Элитный компонент понадобится для создания &3Элитного катализатора&f. А также понадобится для создания &1Элитного верстака&f."]
+			subtitle: "{gloomyrise.hightech.quests14.subtitle}"
+			description: ["{gloomyrise.hightech.quests14.description0}"]
 			dependencies: ["6AF0C43A5DBB4655"]
 			id: "2747859212DEE511"
 			tasks: [{
@@ -264,7 +264,7 @@
 		{
 			x: -4.5d
 			y: 1.0d
-			description: ["Элитный катализатор понадобится создания &1Элитного верстака&f."]
+			description: ["{gloomyrise.hightech.quests15.description0}"]
 			dependencies: ["2747859212DEE511"]
 			id: "390F0C9D42401EEF"
 			tasks: [{
@@ -276,8 +276,8 @@
 		{
 			x: -4.0d
 			y: 2.5d
-			subtitle: "Вот теперь точно Элита"
-			description: ["Элитный верстак позволяет создавать крафты 7х7, например крафт &7брони&f, &3механизмов&f, и т.п."]
+			subtitle: "{gloomyrise.hightech.quests16.subtitle}"
+			description: ["{gloomyrise.hightech.quests16.description0}"]
 			dependencies: ["390F0C9D42401EEF"]
 			id: "2589ABE217B60E2B"
 			tasks: [{
@@ -289,7 +289,7 @@
 		{
 			x: -8.0d
 			y: 3.0d
-			description: ["Метеоритовый компас Вам понадобится для поиска метеорита, в котором находятся пресса для высекателя."]
+			description: ["{gloomyrise.hightech.quests17.description0}"]
 			dependencies: ["09AEF5AB3957D385"]
 			id: "6D88A11B6EEBFD4E"
 			tasks: [{
@@ -302,7 +302,7 @@
 			x: 0.0d
 			y: -3.5d
 			shape: "ragged_rsquare"
-			description: ["Металлургический наполнитель наполняет предметы различными элементами."]
+			description: ["{gloomyrise.hightech.quests18.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["10E28C6568587542"]
 			size: 1.3d
@@ -316,13 +316,13 @@
 		{
 			x: 1.0d
 			y: -3.0d
-			description: ["Наполненный сплав нужен для создания различных предметов, например, энергетический планшет или укреплённый сплав."]
+			description: ["{gloomyrise.hightech.quests19.description0}"]
 			dependencies: ["6180ACBB10C75460"]
 			id: "18F8BADF3A3A940A"
 			tasks: [{
 				id: "615A2F78ADF8AB3B"
 				type: "item"
-				title: "Наполненный сплав"
+				title: "{gloomyrise.hightech.quests19.tasks0.title}"
 				item: "mekanism:alloy_infused"
 				count: 4L
 			}]
@@ -336,13 +336,13 @@
 		{
 			x: -1.0d
 			y: -3.0d
-			description: ["Базовая схема управления нужна для создания различных предметов, например, энергетический ранец."]
+			description: ["{gloomyrise.hightech.quests20.description0}"]
 			dependencies: ["6180ACBB10C75460"]
 			id: "1723DF54C9D0ABD2"
 			tasks: [{
 				id: "7169853627B2CB1F"
 				type: "item"
-				title: "Базовая схема управления"
+				title: "{gloomyrise.hightech.quests20.tasks0.title}"
 				item: "mekanism:basic_control_circuit"
 				count: 4L
 			}]
@@ -356,13 +356,13 @@
 		{
 			x: 1.5d
 			y: -1.5d
-			description: ["Укреплённый сплав нужен для создания различных предметов, например, атомный сплав."]
+			description: ["{gloomyrise.hightech.quests21.description0}"]
 			dependencies: ["18F8BADF3A3A940A"]
 			id: "7B8698296BD33830"
 			tasks: [{
 				id: "66E181F2E08502E0"
 				type: "item"
-				title: "Укреплённый сплав"
+				title: "{gloomyrise.hightech.quests21.tasks0.title}"
 				item: "mekanism:alloy_reinforced"
 				count: 4L
 			}]
@@ -376,13 +376,13 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			description: ["Атомный сплав нужен для создания различных предметов, например, атомный разборщик или робит."]
+			description: ["{gloomyrise.hightech.quests22.description0}"]
 			dependencies: ["7B8698296BD33830"]
 			id: "11050ADBB656B7A9"
 			tasks: [{
 				id: "165D337065300296"
 				type: "item"
-				title: "Атомный сплав"
+				title: "{gloomyrise.hightech.quests22.tasks0.title}"
 				item: "mekanism:alloy_atomic"
 				count: 4L
 			}]
@@ -396,7 +396,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["Атомный разборщик - это достаточно быстрый и эффективный способ добычи породы."]
+			description: ["{gloomyrise.hightech.quests23.description0}"]
 			dependencies: ["11050ADBB656B7A9"]
 			id: "57E1DC0354EC699E"
 			tasks: [{
@@ -414,7 +414,7 @@
 		{
 			x: 8.5d
 			y: 0.5d
-			description: ["Очень хорошая броня :)"]
+			description: ["{gloomyrise.hightech.quests24.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["2589ABE217B60E2B"]
 			id: "324BADC72E76DD44"
@@ -433,7 +433,7 @@
 		{
 			x: 9.0d
 			y: 1.5d
-			description: ["Очень хорошая броня :)"]
+			description: ["{gloomyrise.hightech.quests25.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["2589ABE217B60E2B"]
 			id: "5A779DD2AA2C8416"
@@ -452,7 +452,7 @@
 		{
 			x: 9.0d
 			y: 2.5d
-			description: ["Очень хорошая броня :)"]
+			description: ["{gloomyrise.hightech.quests26.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["2589ABE217B60E2B"]
 			id: "05E9AF0E35B075C3"
@@ -471,7 +471,7 @@
 		{
 			x: 8.5d
 			y: 3.5d
-			description: ["Очень хорошая броня :)"]
+			description: ["{gloomyrise.hightech.quests27.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["2589ABE217B60E2B"]
 			id: "1FDDC63FDDB4A756"
@@ -490,8 +490,8 @@
 		{
 			x: 1.0d
 			y: 1.5d
-			subtitle: "Какой он милый :3"
-			description: ["Робит нужен для создания цифрового шахтёра."]
+			subtitle: "{gloomyrise.hightech.quests28.subtitle}"
+			description: ["{gloomyrise.hightech.quests28.description0}"]
 			dependencies: ["11050ADBB656B7A9"]
 			id: "42C5A63D73A8582E"
 			tasks: [{
@@ -503,7 +503,7 @@
 		{
 			x: 0.0d
 			y: 2.5d
-			description: ["С помощью цифрового шахтёра можно добывать огромное количество предметов."]
+			description: ["{gloomyrise.hightech.quests29.description0}"]
 			dependencies: ["42C5A63D73A8582E"]
 			id: "60EE8E02C7FF07FA"
 			tasks: [{
@@ -515,7 +515,7 @@
 		{
 			x: -1.5d
 			y: -1.5d
-			description: ["Обычный дробитель, но с его помощью можно создать биотопливо."]
+			description: ["{gloomyrise.hightech.quests30.description0}"]
 			dependencies: ["1723DF54C9D0ABD2"]
 			id: "3996D88998A59692"
 			tasks: [{
@@ -527,13 +527,13 @@
 		{
 			x: -2.5d
 			y: -1.5d
-			description: ["С помощью биотоплива можно создать субстрат или биогенератор."]
+			description: ["{gloomyrise.hightech.quests31.description0}"]
 			dependencies: ["3996D88998A59692"]
 			id: "0B955855C4C3CBD0"
 			tasks: [{
 				id: "4860F0CE17077701"
 				type: "item"
-				title: "Биотопливо"
+				title: "{gloomyrise.hightech.quests31.tasks0.title}"
 				item: "mekanism:bio_fuel"
 				count: 8L
 			}]
@@ -547,7 +547,7 @@
 		{
 			x: -0.5d
 			y: -1.5d
-			description: ["С помощью камеры обогащения можно создать герметичную реакционную камеру!"]
+			description: ["{gloomyrise.hightech.quests32.description0}"]
 			dependencies: ["1723DF54C9D0ABD2"]
 			id: "1C1D3D5708D4769D"
 			tasks: [{
@@ -559,7 +559,7 @@
 		{
 			x: -1.0d
 			y: 0.0d
-			description: ["С помощью герметичной реакционной камеры можно создавать различные вещи, например, гранула плутония или субстрат."]
+			description: ["{gloomyrise.hightech.quests33.description0}"]
 			dependencies: ["1C1D3D5708D4769D"]
 			id: "600160396D9769C4"
 			tasks: [{
@@ -571,7 +571,7 @@
 		{
 			x: -2.5d
 			y: 0.0d
-			description: ["С помощью субстрата можно создать полиэтилен или же субстрат."]
+			description: ["{gloomyrise.hightech.quests34.description0}"]
 			dependencies: [
 				"600160396D9769C4"
 				"0B955855C4C3CBD0"
@@ -580,7 +580,7 @@
 			tasks: [{
 				id: "7A2884A99D35A150"
 				type: "item"
-				title: "Субстрат"
+				title: "{gloomyrise.hightech.quests34.tasks0.title}"
 				item: "mekanism:substrate"
 				count: 4L
 			}]
@@ -594,13 +594,13 @@
 		{
 			x: -2.5d
 			y: 1.5d
-			description: ["С помощью полиэтилена можно создать полиэтиленовый стержень или лист."]
+			description: ["{gloomyrise.hightech.quests35.description0}"]
 			dependencies: ["75F645B49BCCB0E7"]
 			id: "2DB3767FCECE4A5D"
 			tasks: [{
 				id: "46882680E19D30BB"
 				type: "item"
-				title: "Полиэтилен"
+				title: "{gloomyrise.hightech.quests35.tasks0.title}"
 				item: "mekanism:hdpe_pellet"
 				count: 8L
 			}]
@@ -614,13 +614,13 @@
 		{
 			x: -2.5d
 			y: 3.0d
-			description: ["С помощью полиэтиленового листа можно создать много различных вещей. Например, солнечный нейтронный активатор."]
+			description: ["{gloomyrise.hightech.quests36.description0}"]
 			dependencies: ["2DB3767FCECE4A5D"]
 			id: "620D3DFFFAE8EA9D"
 			tasks: [{
 				id: "60A778A36A8B7849"
 				type: "item"
-				title: "Полиэтиленовый лист"
+				title: "{gloomyrise.hightech.quests36.tasks0.title}"
 				item: "mekanism:hdpe_sheet"
 				count: 4L
 			}]
@@ -635,7 +635,7 @@
 			x: 8.0d
 			y: -3.5d
 			shape: "ragged_rsquare"
-			description: ["С помощью солнечного нейтронного активатора можно создать полоний или тритий."]
+			description: ["{gloomyrise.hightech.quests37.description0}"]
 			hide_dependency_lines: true
 			dependencies: ["620D3DFFFAE8EA9D"]
 			size: 1.2d
@@ -649,7 +649,7 @@
 		{
 			x: -1.0d
 			y: 2.5d
-			description: ["Просто укреплённые элитры."]
+			description: ["{gloomyrise.hightech.quests38.description0}"]
 			dependencies: ["620D3DFFFAE8EA9D"]
 			id: "73744CE605416C9A"
 			tasks: [{
@@ -667,13 +667,13 @@
 		{
 			x: 9.0d
 			y: -2.5d
-			description: ["С помощью гранулы антиматерии можно создать много различных вещей."]
+			description: ["{gloomyrise.hightech.quests39.description0}"]
 			dependencies: ["404CF433B71A64AF"]
 			id: "4A9A1FB727ADDA00"
 			tasks: [{
 				id: "3F39B495E6C5C4C2"
 				type: "item"
-				title: "Гранула антиматерии"
+				title: "{gloomyrise.hightech.quests39.tasks0.title}"
 				item: "mekanism:pellet_antimatter"
 				count: 4L
 			}]
@@ -687,13 +687,13 @@
 		{
 			x: -1.0d
 			y: 3.5d
-			description: ["С помощью модульной базы можно создать много различных модулей для Meka брони."]
+			description: ["{gloomyrise.hightech.quests40.description0}"]
 			dependencies: ["620D3DFFFAE8EA9D"]
 			id: "245BD231A573443B"
 			tasks: [{
 				id: "705DA6A3437EFDB4"
 				type: "item"
-				title: "Модульная база"
+				title: "{gloomyrise.hightech.quests40.tasks0.title}"
 				item: "mekanism:module_base"
 				count: 4L
 			}]
@@ -707,13 +707,13 @@
 		{
 			x: 7.0d
 			y: -2.5d
-			description: ["С помощью гранулы полония можно создать нечно подобное МЭ системы!"]
+			description: ["{gloomyrise.hightech.quests41.description0}"]
 			dependencies: ["404CF433B71A64AF"]
 			id: "1FB8A258A95FA1AE"
 			tasks: [{
 				id: "418869F36C2624BF"
 				type: "item"
-				title: "Гранула полония"
+				title: "{gloomyrise.hightech.quests41.tasks0.title}"
 				item: "mekanism:pellet_polonium"
 				count: 4L
 			}]
@@ -726,7 +726,7 @@
 		{
 			x: 8.0d
 			y: -2.0d
-			description: ["С помощью модификационной станции можно оснащать Meka броню различными модулями."]
+			description: ["{gloomyrise.hightech.quests42.description0}"]
 			dependencies: ["1FB8A258A95FA1AE"]
 			id: "30DB8C5ED7EE8E92"
 			tasks: [{
@@ -738,7 +738,7 @@
 		{
 			x: 9.0d
 			y: -1.0d
-			description: ["С помощью антипротонного нуклеосинтезатора можно создавать различные вещи, например яйцо Дракона!"]
+			description: ["{gloomyrise.hightech.quests43.description0}"]
 			dependencies: ["4A9A1FB727ADDA00"]
 			id: "3F60A8C2DB8360A3"
 			tasks: [{
@@ -750,7 +750,7 @@
 		{
 			x: 6.5d
 			y: -1.0d
-			description: ["Почти то же самое, что и МЭ накопитель."]
+			description: ["{gloomyrise.hightech.quests44.description0}"]
 			dependencies: ["1FB8A258A95FA1AE"]
 			id: "74180384BC69C0F6"
 			tasks: [{
@@ -762,7 +762,7 @@
 		{
 			x: 7.5d
 			y: -1.0d
-			description: ["Почти то же самое, что и МЭ терминал."]
+			description: ["{gloomyrise.hightech.quests45.description0}"]
 			dependencies: ["1FB8A258A95FA1AE"]
 			id: "2242D7378E66A199"
 			tasks: [{
@@ -774,7 +774,7 @@
 		{
 			x: 7.0d
 			y: 0.5d
-			description: ["Карманая \"МЭ сеть\"."]
+			description: ["{gloomyrise.hightech.quests46.description0}"]
 			dependencies: ["2242D7378E66A199"]
 			id: "28924DD6F62D29F9"
 			tasks: [{
@@ -786,7 +786,7 @@
 		{
 			x: 6.0d
 			y: -2.5d
-			description: ["Очень много места :)"]
+			description: ["{gloomyrise.hightech.quests47.description0}"]
 			dependencies: ["1FB8A258A95FA1AE"]
 			id: "6644DC8A816E7809"
 			tasks: [{
@@ -798,13 +798,13 @@
 		{
 			x: -0.5d
 			y: 1.5d
-			description: ["С помощью грунулы плутония можно создать SPS корпус или вторичный делящийся фрагмент."]
+			description: ["{gloomyrise.hightech.quests48.description0}"]
 			dependencies: ["600160396D9769C4"]
 			id: "4A45B94832C285FC"
 			tasks: [{
 				id: "40A41EB3BD1540BA"
 				type: "item"
-				title: "Гранула плутония"
+				title: "{gloomyrise.hightech.quests48.tasks0.title}"
 				item: "mekanism:pellet_plutonium"
 				count: 4L
 			}]
@@ -817,7 +817,7 @@
 		{
 			x: -4.5d
 			y: 4.0d
-			description: ["С помощью созданного Вами Элитного верстака можно создать Кристалтиновый слиток, который понадобится во многих крафтах."]
+			description: ["{gloomyrise.hightech.quests49.description0}"]
 			dependencies: ["2589ABE217B60E2B"]
 			id: "3587F44770F0793C"
 			tasks: [{
