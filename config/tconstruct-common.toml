@@ -83,7 +83,7 @@
 		#Options related to earth slime islands spawning in the oceans
 		[worldgen.slime_islands.earth]
 			#If true, this island generates
-			generate = false
+			generate = true
 			#How many chunks on average between islands
 			#Range: 10 ~ 500
 			separation = 25
@@ -91,7 +91,7 @@
 		#Settings for sky slime islands in the overworld sky
 		[worldgen.slime_islands.sky]
 			#If true, this island generates
-			generate = false
+			generate = true
 			#How many chunks on average between islands
 			#Range: 10 ~ 500
 			separation = 30
@@ -99,7 +99,7 @@
 		#Settings for clay islands in the overworld sky
 		[worldgen.slime_islands.clay]
 			#If true, this island generates
-			generate = false
+			generate = true
 			#How many chunks on average between islands
 			#Range: 10 ~ 500
 			separation = 100
@@ -107,7 +107,7 @@
 		#Settings for blood islands in the nether lava ocean
 		[worldgen.slime_islands.blood]
 			#If true, this island generates
-			generate = false
+			generate = true
 			#How many chunks on average between islands
 			#Range: 10 ~ 500
 			separation = 13
@@ -115,7 +115,7 @@
 		#Settings for end slime islands in the outer end islands
 		[worldgen.slime_islands.end]
 			#If true, this island generates
-			generate = false
+			generate = true
 			#How many chunks on average between islands
 			#Range: 10 ~ 500
 			separation = 25
