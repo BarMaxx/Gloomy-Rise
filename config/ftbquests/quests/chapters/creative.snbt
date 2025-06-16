@@ -24,7 +24,7 @@
 			x: -6.0d
 			y: -3.0d
 			shape: "torn_square"
-			dependencies: ["114FD26AF2B063E3"]
+			dependencies: ["32FBD658D88BE93D"]
 			hide: true
 			id: "4BF121E7A72055B8"
 			tasks: [{

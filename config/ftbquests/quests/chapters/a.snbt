@@ -393,6 +393,7 @@
 			x: -6.0d
 			y: 1.0d
 			dependencies: ["5A70642F0BC279D3"]
+			hide: true
 			id: "2829092A4C756C02"
 			tasks: [{
 				id: "20D4D93EF3700310"
@@ -415,6 +416,7 @@
 			x: -4.5d
 			y: 1.0d
 			dependencies: ["0131D6E4A04B280F"]
+			hide: true
 			id: "2F6D101295F24C10"
 			tasks: [{
 				id: "5C2FA0CA3014ADF0"

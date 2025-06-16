@@ -23,9 +23,11 @@
 		{
 			x: -6.5d
 			y: -2.5d
+			shape: "ragged_rsquare"
 			subtitle: "{gloomyrise.hightech.quests0.subtitle}"
-			dependencies: ["114FD26AF2B063E3"]
+			dependencies: ["4CC33F150E5DA0A0"]
 			hide: true
+			size: 1.2d
 			id: "694281DA3A22F08D"
 			tasks: [{
 				id: "29612BAF3C429CAF"

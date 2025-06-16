@@ -37,6 +37,13 @@
 					command: "/tellraw @a [\"\",{\"text\":\"Можешь заглянуть в сообщество главного разработчика сборки \",\"color\":\"#FFBD4B\"},{\"text\":\"Telegram\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://t.me/BMProjects\"}},{\"text\":\" (\",\"color\":\"#FFBD4B\"},{\"text\":\"кликабельно\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://t.me/BMProjects\"}},{\"text\":\").\",\"color\":\"#FFBD4B\"}]"
 					player_command: false
 				}
+				{
+					id: "281D734D01F6A6DD"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @a [\"\",{\"text\":\"You can check out the community of the main developer of the Modpack \",\"color\":\"#FFBD4B\"},{\"text\":\"Discord\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/9GWKBVw3Ty\"}},{\"text\":\" (\",\"color\":\"#FFBD4B\"},{\"text\":\"clickable\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/9GWKBVw3Ty\"}},{\"text\":\").\",\"color\":\"#FFBD4B\"}]"
+					player_command: false
+				}
 			]
 		}
 		{
